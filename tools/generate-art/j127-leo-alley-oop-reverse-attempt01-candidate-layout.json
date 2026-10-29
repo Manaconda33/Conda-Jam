@@ -1,0 +1,213 @@
+{
+  "athlete": "leo",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "candidateAtlas": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt01-candidate-atlas.png",
+  "candidateAtlasSha256": "8c74b756a3d286e2e966d0bcaaafdcec3d40718538100572fb7828d5472a0514",
+  "classification": "unreviewed candidate; not runtime registered",
+  "columns": 4,
+  "rows": 4,
+  "cell": {
+    "w": 128,
+    "h": 96
+  },
+  "poseCount": 15,
+  "unusedCell": {
+    "x": 384,
+    "y": 288,
+    "w": 128,
+    "h": 96,
+    "requirement": "fully transparent"
+  },
+  "poseSelection": [
+    {
+      "poseIndex": 0,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose00-selected-cleaned.png",
+      "sourceSha256": "4d2b48ee1d4843106bf3d059a87accb0e9ad651fd5f0d8d97dd48c948a58307c",
+      "cell": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 1,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose01-selected-cleaned.png",
+      "sourceSha256": "dec07b2477e5cb0b904700023654fa4374c337ee1015abe24c429b2597935d3b",
+      "cell": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 2,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose02-selected-cleaned.png",
+      "sourceSha256": "bea7ec3bc6b20825e3fbd1d4c5f2210db5d5b6ff964179c0bb317eece4798296",
+      "cell": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 3,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose03-selected-cleaned.png",
+      "sourceSha256": "f04d4456069e24c0b98fa6863b7d177cb40d1c39a74d3ca81eacf331e95c1cb5",
+      "cell": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 4,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose04-selected-cleaned.png",
+      "sourceSha256": "67793b2e8dea4a68329c190712dade559abeb806c29f8754584c92349db3ff67",
+      "cell": {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 5,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-attempt03-cleaned.png",
+      "sourceSha256": "4bb9bdfe8c01272c485a6898d9e235a1e196178f8d1a685fdf6a82502ac4d734",
+      "cell": {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 6,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose06-selected-cleaned.png",
+      "sourceSha256": "7685677d650fdf7217230c2789313f86cfe3dbfb797bd2725e5078e41d373010",
+      "cell": {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 7,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-selected-cleaned.png",
+      "sourceSha256": "ae0c88383f86ca17cdcd2794e853d56d27e9686320b481a117299d25846daef9",
+      "cell": {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 8,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt05-cleaned.png",
+      "sourceSha256": "fd1f83896b4ae4abfc0953c100c2b5053ed419258d097c3b323dc93da241c73f",
+      "cell": {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 9,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose09-selected-cleaned.png",
+      "sourceSha256": "3052cb6a5dda6bae6ae698548360a262b357e6980e4a594d81260616cb66eb00",
+      "cell": {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 10,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose10-selected-cleaned.png",
+      "sourceSha256": "02a304d84c146f452b430ab3c0fd9a08b0b73a38526e28a8a287a145420dbd34",
+      "cell": {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 11,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose11-attempt02-cleaned.png",
+      "sourceSha256": "a22a3d2b6ab9067035472acc44d09372a5b36882c1637f375a719ab099e6f6d3",
+      "cell": {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 12,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose12-selected-cleaned.png",
+      "sourceSha256": "91d7e51e6e8d0deae1e16ba0c1d347bf21271d67b2f53bab2fa7fce84f2b4823",
+      "cell": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 13,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose13-selected-cleaned.png",
+      "sourceSha256": "b955646814dee2cdfd99f8b408b87a87aaa39dc8cf80e82efe9d32f233238895",
+      "cell": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    },
+    {
+      "poseIndex": 14,
+      "source": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose14-selected-cleaned.png",
+      "sourceSha256": "186f19ff0f8e0b01d36400852db1c885e0011d27d224c68b5b3efb76636cdf2b",
+      "cell": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "fit": "trim alpha; nearest-neighbor uniform aspect fit into 116x84; center x; align figure baseline at y94; two transparent bottom pixels; each frame generated independently to same height/width fit constraints"
+    }
+  ],
+  "fitProcedure": "ImageMagick alpha trim, point filter resize 116x84 preserving aspect ratio, center horizontally and align bottom at cell y94, add two transparent bottom pixels. Per-source cleanup retained the largest 8-connected visible-alpha component; all raw inputs retained separately.",
+  "reviewRequirements": [
+    "sequence distinctness against exact J127 action prompt",
+    "transparent cell margins and unused cell16",
+    "Leo identity/anatomy and consistent scale",
+    "ball remains runtime object with separate athlete-specific track",
+    "light/dark previews",
+    "native Jam Stage both facings and 100%/120% after atlas acceptance"
+  ]
+}

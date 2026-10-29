@@ -1,0 +1,795 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-power",
+  "attempt": 8,
+  "sourceRaw": "tools/generate-art/sources/kraken-dunk-power-attempt08-generated-raw.png",
+  "sourceSha256": "9042a57fd4f003a8a3a7050ea611d88d8cd27ecf9d36e3504ca3101883e98322",
+  "cleanupScript": "tools/generate-art/clean-kraken-dunk-power-attempt08.py",
+  "cleanupMethod": "15 nominal row-major grid cells; threshold source alpha at 64; isolate bbox; same max-height/width scale; nearest-neighbor resize; binary alpha edge at 128; one shared 24-color palette sampled only from visible pixels; center each pose and align to baselineY92. No repaint, no generated poses.",
+  "threshold": 64,
+  "sharedScale": 0.2302158273381295,
+  "outputDimensions": [
+    400,
+    288
+  ],
+  "cellSize": [
+    80,
+    96
+  ],
+  "baselineY": 92,
+  "poseCount": 15,
+  "uniqueFrameCount": 15,
+  "normalizedPoseSha256": [
+    "8a6cfc633670c9e175104453d61cfdf64190cc8f9234afcc0f80429333a78240",
+    "c22cf9436dbc2e1446bb554ddb46a90083ab79a57e75bd13d0b3721dbe1e6582",
+    "4e9df93e22f4f072c72f06a25e6b6d424b8bb1e53cefc259b007b8d0855a7c51",
+    "3a117e8e548df87dc1966c8dfbdf7c726282d6ff2cdee48a49f1339e904ceddb",
+    "64fb0cba666a2f94f7a3b614a8e1ffc6b903c04fc5a790fe4c2ae8130fe0b592",
+    "a488f7bb86a88297b2233b262278cfa223575a6419b3d3bbfeb1036cc5766d38",
+    "3bfe1f984304f61a31dd38ca84cdc82a19b249cb14299081bb046e1718fec020",
+    "a6f60e48cf62fab3b9116aed716cb593df55e5268e408d63a34e848711eabcfe",
+    "ae33e8031795a24592f64146866960bf5828a80c6ece57236987ee6dcc729418",
+    "61a3018cf95bf545c988d6946ada131754f6eb21bb11ec607d0430a09f0c5281",
+    "d846a3e2d38a86022e936a1210bc464e80d7d2eb768c3b95fc27963f409caf08",
+    "3afdc1c71f92a3fa545a7f8a988f79c3beeac1c8b5083f7de2e0cbeed142271c",
+    "0dc89474c28d205157830cefc3e7c05d6325e8ab3ab4d3db984753868d9b7dd2",
+    "73d85b5306f1ebf64e5c5a091d66626072b5fcbc76a4c395dce2bfcc6ec79b49",
+    "a200b8a355e27b49a9b0a0e3c0c64550c315311f9b55828bc4ca04b1d3caaa21"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        11,
+        25,
+        12,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 1,
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        10,
+        27,
+        10,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 2,
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        19,
+        22,
+        20,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 3,
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        15,
+        16,
+        16,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 4,
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        11,
+        17,
+        11,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        15,
+        32,
+        15,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 6,
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        16,
+        27,
+        16,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 7,
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        18,
+        30,
+        19,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 8,
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        11,
+        20,
+        11,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 9,
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        15,
+        13,
+        16,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        18,
+        17,
+        19,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 11,
+      "x": 80,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        10,
+        29,
+        11,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 12,
+      "x": 160,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        24,
+        27,
+        8,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 13,
+      "x": 240,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        17,
+        39,
+        18,
+        4
+      ],
+      "uniqueRGB": 25
+    },
+    {
+      "index": 14,
+      "x": 320,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        16,
+        19,
+        17,
+        4
+      ],
+      "uniqueRGB": 25
+    }
+  ],
+  "sourceFrames": [
+    {
+      "poseIndex": 0,
+      "sourceCell": [
+        0,
+        0,
+        307,
+        341
+      ],
+      "sourceBounds": [
+        38,
+        9,
+        286,
+        299
+      ],
+      "sourceSize": [
+        248,
+        290
+      ],
+      "scaledSize": [
+        57,
+        67
+      ],
+      "outputBounds": [
+        11,
+        25,
+        68,
+        92
+      ],
+      "marginsLTRB": [
+        11,
+        25,
+        12,
+        4
+      ]
+    },
+    {
+      "poseIndex": 1,
+      "sourceCell": [
+        307,
+        0,
+        614,
+        341
+      ],
+      "sourceBounds": [
+        26,
+        17,
+        287,
+        300
+      ],
+      "sourceSize": [
+        261,
+        283
+      ],
+      "scaledSize": [
+        60,
+        65
+      ],
+      "outputBounds": [
+        90,
+        27,
+        150,
+        92
+      ],
+      "marginsLTRB": [
+        10,
+        27,
+        10,
+        4
+      ]
+    },
+    {
+      "poseIndex": 2,
+      "sourceCell": [
+        614,
+        0,
+        922,
+        341
+      ],
+      "sourceBounds": [
+        66,
+        14,
+        244,
+        316
+      ],
+      "sourceSize": [
+        178,
+        302
+      ],
+      "scaledSize": [
+        41,
+        70
+      ],
+      "outputBounds": [
+        179,
+        22,
+        220,
+        92
+      ],
+      "marginsLTRB": [
+        19,
+        22,
+        20,
+        4
+      ]
+    },
+    {
+      "poseIndex": 3,
+      "sourceCell": [
+        922,
+        0,
+        1229,
+        341
+      ],
+      "sourceBounds": [
+        56,
+        9,
+        267,
+        341
+      ],
+      "sourceSize": [
+        211,
+        332
+      ],
+      "scaledSize": [
+        49,
+        76
+      ],
+      "outputBounds": [
+        255,
+        16,
+        304,
+        92
+      ],
+      "marginsLTRB": [
+        15,
+        16,
+        16,
+        4
+      ]
+    },
+    {
+      "poseIndex": 4,
+      "sourceCell": [
+        1229,
+        0,
+        1536,
+        341
+      ],
+      "sourceBounds": [
+        31,
+        15,
+        284,
+        341
+      ],
+      "sourceSize": [
+        253,
+        326
+      ],
+      "scaledSize": [
+        58,
+        75
+      ],
+      "outputBounds": [
+        331,
+        17,
+        389,
+        92
+      ],
+      "marginsLTRB": [
+        11,
+        17,
+        11,
+        4
+      ]
+    },
+    {
+      "poseIndex": 5,
+      "sourceCell": [
+        0,
+        341,
+        307,
+        683
+      ],
+      "sourceBounds": [
+        33,
+        83,
+        250,
+        342
+      ],
+      "sourceSize": [
+        217,
+        259
+      ],
+      "scaledSize": [
+        50,
+        60
+      ],
+      "outputBounds": [
+        15,
+        128,
+        65,
+        188
+      ],
+      "marginsLTRB": [
+        15,
+        32,
+        15,
+        4
+      ]
+    },
+    {
+      "poseIndex": 6,
+      "sourceCell": [
+        307,
+        341,
+        614,
+        683
+      ],
+      "sourceBounds": [
+        45,
+        47,
+        254,
+        331
+      ],
+      "sourceSize": [
+        209,
+        284
+      ],
+      "scaledSize": [
+        48,
+        65
+      ],
+      "outputBounds": [
+        96,
+        123,
+        144,
+        188
+      ],
+      "marginsLTRB": [
+        16,
+        27,
+        16,
+        4
+      ]
+    },
+    {
+      "poseIndex": 7,
+      "sourceCell": [
+        614,
+        341,
+        922,
+        683
+      ],
+      "sourceBounds": [
+        29,
+        11,
+        217,
+        280
+      ],
+      "sourceSize": [
+        188,
+        269
+      ],
+      "scaledSize": [
+        43,
+        62
+      ],
+      "outputBounds": [
+        178,
+        126,
+        221,
+        188
+      ],
+      "marginsLTRB": [
+        18,
+        30,
+        19,
+        4
+      ]
+    },
+    {
+      "poseIndex": 8,
+      "sourceCell": [
+        922,
+        341,
+        1229,
+        683
+      ],
+      "sourceBounds": [
+        9,
+        0,
+        261,
+        314
+      ],
+      "sourceSize": [
+        252,
+        314
+      ],
+      "scaledSize": [
+        58,
+        72
+      ],
+      "outputBounds": [
+        251,
+        116,
+        309,
+        188
+      ],
+      "marginsLTRB": [
+        11,
+        20,
+        11,
+        4
+      ]
+    },
+    {
+      "poseIndex": 9,
+      "sourceCell": [
+        1229,
+        341,
+        1536,
+        683
+      ],
+      "sourceBounds": [
+        62,
+        0,
+        277,
+        342
+      ],
+      "sourceSize": [
+        215,
+        342
+      ],
+      "scaledSize": [
+        49,
+        79
+      ],
+      "outputBounds": [
+        335,
+        109,
+        384,
+        188
+      ],
+      "marginsLTRB": [
+        15,
+        13,
+        16,
+        4
+      ]
+    },
+    {
+      "poseIndex": 10,
+      "sourceCell": [
+        0,
+        683,
+        307,
+        1024
+      ],
+      "sourceBounds": [
+        68,
+        0,
+        253,
+        325
+      ],
+      "sourceSize": [
+        185,
+        325
+      ],
+      "scaledSize": [
+        43,
+        75
+      ],
+      "outputBounds": [
+        18,
+        209,
+        61,
+        284
+      ],
+      "marginsLTRB": [
+        18,
+        17,
+        19,
+        4
+      ]
+    },
+    {
+      "poseIndex": 11,
+      "sourceCell": [
+        307,
+        683,
+        614,
+        1024
+      ],
+      "sourceBounds": [
+        52,
+        23,
+        307,
+        295
+      ],
+      "sourceSize": [
+        255,
+        272
+      ],
+      "scaledSize": [
+        59,
+        63
+      ],
+      "outputBounds": [
+        90,
+        221,
+        149,
+        284
+      ],
+      "marginsLTRB": [
+        10,
+        29,
+        11,
+        4
+      ]
+    },
+    {
+      "poseIndex": 12,
+      "sourceCell": [
+        614,
+        683,
+        922,
+        1024
+      ],
+      "sourceBounds": [
+        0,
+        35,
+        278,
+        318
+      ],
+      "sourceSize": [
+        278,
+        283
+      ],
+      "scaledSize": [
+        64,
+        65
+      ],
+      "outputBounds": [
+        168,
+        219,
+        232,
+        284
+      ],
+      "marginsLTRB": [
+        24,
+        27,
+        8,
+        4
+      ]
+    },
+    {
+      "poseIndex": 13,
+      "sourceCell": [
+        922,
+        683,
+        1229,
+        1024
+      ],
+      "sourceBounds": [
+        40,
+        87,
+        237,
+        318
+      ],
+      "sourceSize": [
+        197,
+        231
+      ],
+      "scaledSize": [
+        45,
+        53
+      ],
+      "outputBounds": [
+        257,
+        231,
+        302,
+        284
+      ],
+      "marginsLTRB": [
+        17,
+        39,
+        18,
+        4
+      ]
+    },
+    {
+      "poseIndex": 14,
+      "sourceCell": [
+        1229,
+        683,
+        1536,
+        1024
+      ],
+      "sourceBounds": [
+        58,
+        0,
+        261,
+        317
+      ],
+      "sourceSize": [
+        203,
+        317
+      ],
+      "scaledSize": [
+        47,
+        73
+      ],
+      "outputBounds": [
+        336,
+        211,
+        383,
+        284
+      ],
+      "marginsLTRB": [
+        16,
+        19,
+        17,
+        4
+      ]
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-dunk-power-attempt08/cleanup02/kraken-dunk-power-attempt08-cleanup02-atlas.png",
+  "reviewStatus": "cleanup candidate only; independent visual review pending"
+}

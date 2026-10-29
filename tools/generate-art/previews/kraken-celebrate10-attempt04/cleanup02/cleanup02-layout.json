@@ -1,0 +1,345 @@
+{
+  "source": "tools/generate-art/sources/kraken-celebrate10-attempt04-generated-raw.png",
+  "atlasCandidate": "kraken-celebrate10-attempt04-cleanup02-atlas-candidate.png",
+  "cellSize": [
+    88,
+    96
+  ],
+  "baselineY": 94,
+  "frames": [
+    {
+      "frame": 0,
+      "sourceComponent": 3,
+      "sourceBounds": [
+        91,
+        72,
+        305,
+        432
+      ],
+      "sourceCropBounds": [
+        90,
+        71,
+        306,
+        433
+      ],
+      "sourceDimensions": [
+        216,
+        362
+      ],
+      "scaledDimensions": [
+        53,
+        88
+      ],
+      "scale": 0.2430939226519337,
+      "cellOffset": [
+        17,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "ce6024dc6f130712fd21009faa0ed431503379006c52a6d10f213a8d7fb5e68c",
+      "uniqueColors": 2173
+    },
+    {
+      "frame": 1,
+      "sourceComponent": 4,
+      "sourceBounds": [
+        440,
+        80,
+        667,
+        432
+      ],
+      "sourceCropBounds": [
+        439,
+        79,
+        668,
+        433
+      ],
+      "sourceDimensions": [
+        229,
+        354
+      ],
+      "scaledDimensions": [
+        57,
+        88
+      ],
+      "scale": 0.24858757062146894,
+      "cellOffset": [
+        15,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "551b69eb64ad516e30ad9a13fb1401c857c37ddd89b543521b4ce362f050425f",
+      "uniqueColors": 2211
+    },
+    {
+      "frame": 2,
+      "sourceComponent": 6,
+      "sourceBounds": [
+        773,
+        85,
+        1050,
+        432
+      ],
+      "sourceCropBounds": [
+        772,
+        84,
+        1051,
+        433
+      ],
+      "sourceDimensions": [
+        279,
+        349
+      ],
+      "scaledDimensions": [
+        70,
+        88
+      ],
+      "scale": 0.2521489971346705,
+      "cellOffset": [
+        9,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "d646f84be844f2fbe1810671628b1b6f88c9d8fcaae58a3590a5bc5f8ddb85d1",
+      "uniqueColors": 2351
+    },
+    {
+      "frame": 3,
+      "sourceComponent": 5,
+      "sourceBounds": [
+        1145,
+        81,
+        1369,
+        432
+      ],
+      "sourceCropBounds": [
+        1144,
+        80,
+        1370,
+        433
+      ],
+      "sourceDimensions": [
+        226,
+        353
+      ],
+      "scaledDimensions": [
+        56,
+        88
+      ],
+      "scale": 0.24929178470254956,
+      "cellOffset": [
+        16,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "88a24df226131b475fe6947c02efbf51e4f51beb3135b8d447485d5d6078600d",
+      "uniqueColors": 2228
+    },
+    {
+      "frame": 4,
+      "sourceComponent": 1,
+      "sourceBounds": [
+        1465,
+        46,
+        1712,
+        432
+      ],
+      "sourceCropBounds": [
+        1464,
+        45,
+        1713,
+        433
+      ],
+      "sourceDimensions": [
+        249,
+        388
+      ],
+      "scaledDimensions": [
+        56,
+        88
+      ],
+      "scale": 0.2268041237113402,
+      "cellOffset": [
+        16,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "834ac9c15b5f826d49f85a7497211f7aa3f5f8e17c485db7d2ab0d28fe8ca58e",
+      "uniqueColors": 1906
+    },
+    {
+      "frame": 5,
+      "sourceComponent": 20,
+      "sourceBounds": [
+        77,
+        459,
+        358,
+        857
+      ],
+      "sourceCropBounds": [
+        76,
+        458,
+        359,
+        858
+      ],
+      "sourceDimensions": [
+        283,
+        400
+      ],
+      "scaledDimensions": [
+        62,
+        88
+      ],
+      "scale": 0.22,
+      "cellOffset": [
+        13,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "717e293d3cda1d148c04e39e03939707a72fcc63c3ba13dad4f2c7085f4a2b7a",
+      "uniqueColors": 1802
+    },
+    {
+      "frame": 6,
+      "sourceComponent": 22,
+      "sourceBounds": [
+        391,
+        514,
+        698,
+        857
+      ],
+      "sourceCropBounds": [
+        390,
+        513,
+        699,
+        858
+      ],
+      "sourceDimensions": [
+        309,
+        345
+      ],
+      "scaledDimensions": [
+        79,
+        88
+      ],
+      "scale": 0.25507246376811593,
+      "cellOffset": [
+        4,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "8c847dbc6442506d37e605db3f0bc7542d3804baa49caa2daa0b716e5e3acc5c",
+      "uniqueColors": 2373
+    },
+    {
+      "frame": 7,
+      "sourceComponent": 19,
+      "sourceBounds": [
+        792,
+        455,
+        1052,
+        857
+      ],
+      "sourceCropBounds": [
+        791,
+        454,
+        1053,
+        858
+      ],
+      "sourceDimensions": [
+        262,
+        404
+      ],
+      "scaledDimensions": [
+        57,
+        88
+      ],
+      "scale": 0.21782178217821782,
+      "cellOffset": [
+        15,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "46f4408ae62949512aa61c29d821b1e99d70d19b6cbfcbda7667f7e17e735350",
+      "uniqueColors": 1771
+    },
+    {
+      "frame": 8,
+      "sourceComponent": 23,
+      "sourceBounds": [
+        1148,
+        524,
+        1377,
+        857
+      ],
+      "sourceCropBounds": [
+        1147,
+        523,
+        1378,
+        858
+      ],
+      "sourceDimensions": [
+        231,
+        335
+      ],
+      "scaledDimensions": [
+        61,
+        88
+      ],
+      "scale": 0.2626865671641791,
+      "cellOffset": [
+        13,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "c48eaa4fd9d35f9538d1c4daabf4948ce973cf9433af0f7fe91513aaf55848ab",
+      "uniqueColors": 2456
+    },
+    {
+      "frame": 9,
+      "sourceComponent": 21,
+      "sourceBounds": [
+        1483,
+        505,
+        1699,
+        857
+      ],
+      "sourceCropBounds": [
+        1482,
+        504,
+        1700,
+        858
+      ],
+      "sourceDimensions": [
+        218,
+        354
+      ],
+      "scaledDimensions": [
+        54,
+        88
+      ],
+      "scale": 0.24858757062146894,
+      "cellOffset": [
+        17,
+        6
+      ],
+      "baselineY": 94,
+      "sha256": "392439c435e49cf847d5a373633af8effcf01a1eea1ec0c6ac1305e3c763dc4f",
+      "uniqueColors": 2241
+    }
+  ],
+  "reusedPixels": false,
+  "method": "one-to-one extraction by large connected alpha component; retain original source RGB/alpha within a 1.5px source edge fringe; uniform nearest-neighbor scale to 88px height; align soles at baselineY=94 to match Kraken's registered idle baseline; use uniform 88x96 cells to keep at least 4px horizontal margin around the broadest arms-open pose",
+  "durations": [
+    5,
+    5,
+    6,
+    8,
+    10,
+    10,
+    8,
+    7,
+    6,
+    5
+  ]
+}

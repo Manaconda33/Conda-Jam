@@ -1,0 +1,3996 @@
+{
+  "status": "rejected as final: flight stays airborne and catch-height correction is small, but tick10/tick12 ball is occluded behind Marin and catch jumps horizontally when she faces away from passer",
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4238/",
+  "athlete": "kraken",
+  "team": "vesper-harbor-undertow",
+  "clip": "pass-overhead",
+  "productionAtlas": "./public/assets/animation/kraken-pass-overhead-right.png",
+  "productionTrack": {
+    "height": [
+      1.05,
+      1.85,
+      1.75,
+      1.9,
+      2.1,
+      1.2
+    ],
+    "forward": [
+      2.5,
+      3,
+      2,
+      6,
+      10,
+      14
+    ],
+    "releaseVz": 0.232
+  },
+  "frameStarts": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    10
+  ],
+  "releaseTick": 7,
+  "courtY": 75,
+  "captureGrid": "all frame starts plus release and post-release samples, both facings \u00d7 100%/120% zoom; actual gameplay pass through Marin catch",
+  "captureMethod": "Registered production manifest and athlete track loaded normally; no manifest or animation module interception/override. A real Jam Stage pass action advances simulation and free flight to Marin catch.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing+1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 0,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing+1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 1,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing+1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 2,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing+1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 3,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing+1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 4,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing+1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 5,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing-1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 0,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing-1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 1,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing-1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 2,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing-1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 3,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing-1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 4,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing-1-zoom100.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 5,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing+1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 0,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing+1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 1,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing+1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 2,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing+1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 3,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing+1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 4,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing+1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 5,
+        "flip": false,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing-1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 0,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing-1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 1,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing-1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 2,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing-1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 3,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing-1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 4,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing-1-zoom120.png",
+      "selection": {
+        "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+        "frame": 5,
+        "flip": true,
+        "production": true,
+        "classification": "original-authored"
+      }
+    }
+  ],
+  "gameplayPasses": [
+    {
+      "zoom": 100,
+      "facing": 1,
+      "setup": {
+        "passer": {
+          "id": "kraken",
+          "x": 80,
+          "facing": 1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 110
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "frameStarts": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 0,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing+1-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 1,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing+1-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "frame": 2,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 2,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing+1-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 3,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing+1-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "frame": 4,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 4,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing+1-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 5,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing+1-zoom100.png"
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step00-tick00-facing+1-zoom100.png"
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.75,
+            "y": 75,
+            "z": 1.4500000000000002,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 83,
+            "y": 75,
+            "z": 1.85,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step02-tick02-facing+1-zoom100.png"
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.66666666666667,
+            "y": 75,
+            "z": 1.8166666666666667,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.33333333333333,
+            "y": 75,
+            "z": 1.7833333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82,
+            "y": 75,
+            "z": 1.75,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step05-tick05-facing+1-zoom100.png"
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 84,
+            "y": 75,
+            "z": 1.825,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 87.15,
+            "y": 75,
+            "z": 2.132,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.20600000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step07-tick07-facing+1-zoom100.png"
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 88.30000000000001,
+            "y": 75,
+            "z": 2.338,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.18000000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step08-tick08-facing+1-zoom100.png"
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 89.45000000000002,
+            "y": 75,
+            "z": 2.5180000000000002,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.15400000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 90.60000000000002,
+            "y": 75,
+            "z": 2.672,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.12800000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step10-tick10-facing+1-zoom100.png"
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 91.75000000000003,
+            "y": 75,
+            "z": 2.8000000000000003,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.10200000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 92.90000000000003,
+            "y": 75,
+            "z": 2.902,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.07600000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step12-tick12-facing+1-zoom100.png"
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 94.05000000000004,
+            "y": 75,
+            "z": 2.978,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.050000000000000044
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 95.20000000000005,
+            "y": 75,
+            "z": 3.0280000000000005,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.024000000000000046
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 96.35000000000005,
+            "y": 75,
+            "z": 3.0520000000000005,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.001999999999999953
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 97.50000000000006,
+            "y": 75,
+            "z": 3.0500000000000007,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.027999999999999952
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step16-tick03-facing+1-zoom100.png"
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 98.65000000000006,
+            "y": 75,
+            "z": 3.0220000000000007,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.05399999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 99.80000000000007,
+            "y": 75,
+            "z": 2.968000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.07999999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 100.95000000000007,
+            "y": 75,
+            "z": 2.888000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.10599999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 102.10000000000008,
+            "y": 75,
+            "z": 2.782000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.13199999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step20-tick07-facing+1-zoom100.png"
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 103.25000000000009,
+            "y": 75,
+            "z": 2.650000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.15799999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 104.40000000000009,
+            "y": 75,
+            "z": 2.492000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.18399999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 105.5500000000001,
+            "y": 75,
+            "z": 2.3080000000000007,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.20999999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step23-tick10-facing+1-zoom100.png"
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 106.7000000000001,
+            "y": 75,
+            "z": 2.0980000000000008,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.23599999999999993
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 107.85000000000011,
+            "y": 75,
+            "z": 1.8620000000000008,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.26199999999999996
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step25-tick12-facing+1-zoom100.png"
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 112,
+            "y": 75,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing+1-zoom100.png"
+        }
+      ],
+      "catch": {
+        "step": 26,
+        "tick": 13,
+        "clip": "idle",
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "targetId": null,
+          "lastTouch": "marin-dusk",
+          "x": 112,
+          "y": 75,
+          "z": 1.7,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing+1-zoom100.png"
+      },
+      "passed": true
+    },
+    {
+      "zoom": 100,
+      "facing": -1,
+      "setup": {
+        "passer": {
+          "id": "kraken",
+          "x": 120,
+          "facing": -1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 90
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "frameStarts": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 0,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing-1-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 1,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing-1-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "frame": 2,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 2,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing-1-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 3,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing-1-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "frame": 4,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 4,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing-1-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 5,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing-1-zoom100.png"
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step00-tick00-facing-1-zoom100.png"
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.25,
+            "y": 75,
+            "z": 1.4500000000000002,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117,
+            "y": 75,
+            "z": 1.85,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step02-tick02-facing-1-zoom100.png"
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.33333333333333,
+            "y": 75,
+            "z": 1.8166666666666667,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.66666666666667,
+            "y": 75,
+            "z": 1.7833333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 118,
+            "y": 75,
+            "z": 1.75,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step05-tick05-facing-1-zoom100.png"
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 116,
+            "y": 75,
+            "z": 1.825,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 112.85,
+            "y": 75,
+            "z": 2.132,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.20600000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step07-tick07-facing-1-zoom100.png"
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 111.69999999999999,
+            "y": 75,
+            "z": 2.338,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.18000000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step08-tick08-facing-1-zoom100.png"
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 110.54999999999998,
+            "y": 75,
+            "z": 2.5180000000000002,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.15400000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 109.39999999999998,
+            "y": 75,
+            "z": 2.672,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.12800000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step10-tick10-facing-1-zoom100.png"
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 108.24999999999997,
+            "y": 75,
+            "z": 2.8000000000000003,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.10200000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 107.09999999999997,
+            "y": 75,
+            "z": 2.902,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.07600000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step12-tick12-facing-1-zoom100.png"
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 105.94999999999996,
+            "y": 75,
+            "z": 2.978,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.050000000000000044
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 104.79999999999995,
+            "y": 75,
+            "z": 3.0280000000000005,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.024000000000000046
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 103.64999999999995,
+            "y": 75,
+            "z": 3.0520000000000005,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.001999999999999953
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 102.49999999999994,
+            "y": 75,
+            "z": 3.0500000000000007,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.027999999999999952
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step16-tick03-facing-1-zoom100.png"
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 101.34999999999994,
+            "y": 75,
+            "z": 3.0220000000000007,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.05399999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 100.19999999999993,
+            "y": 75,
+            "z": 2.968000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.07999999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 99.04999999999993,
+            "y": 75,
+            "z": 2.888000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.10599999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 97.89999999999992,
+            "y": 75,
+            "z": 2.782000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.13199999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step20-tick07-facing-1-zoom100.png"
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 96.74999999999991,
+            "y": 75,
+            "z": 2.650000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.15799999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 95.59999999999991,
+            "y": 75,
+            "z": 2.492000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.18399999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 94.4499999999999,
+            "y": 75,
+            "z": 2.3080000000000007,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.20999999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step23-tick10-facing-1-zoom100.png"
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 93.2999999999999,
+            "y": 75,
+            "z": 2.0980000000000008,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.23599999999999993
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 92.14999999999989,
+            "y": 75,
+            "z": 1.8620000000000008,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.26199999999999996
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step25-tick12-facing-1-zoom100.png"
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 88,
+            "y": 75,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing-1-zoom100.png"
+        }
+      ],
+      "catch": {
+        "step": 26,
+        "tick": 13,
+        "clip": "idle",
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "targetId": null,
+          "lastTouch": "marin-dusk",
+          "x": 88,
+          "y": 75,
+          "z": 1.7,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing-1-zoom100.png"
+      },
+      "passed": true
+    },
+    {
+      "zoom": 120,
+      "facing": 1,
+      "setup": {
+        "passer": {
+          "id": "kraken",
+          "x": 80,
+          "facing": 1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 110
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "frameStarts": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 0,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing+1-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 1,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing+1-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "frame": 2,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 2,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing+1-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 3,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing+1-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "frame": 4,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 4,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing+1-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 5,
+            "flip": false,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing+1-zoom120.png"
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step00-tick00-facing+1-zoom120.png"
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.75,
+            "y": 75,
+            "z": 1.4500000000000002,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 83,
+            "y": 75,
+            "z": 1.85,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step02-tick02-facing+1-zoom120.png"
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.66666666666667,
+            "y": 75,
+            "z": 1.8166666666666667,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82.33333333333333,
+            "y": 75,
+            "z": 1.7833333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82,
+            "y": 75,
+            "z": 1.75,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step05-tick05-facing+1-zoom120.png"
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 84,
+            "y": 75,
+            "z": 1.825,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 87.15,
+            "y": 75,
+            "z": 2.132,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.20600000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step07-tick07-facing+1-zoom120.png"
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 88.30000000000001,
+            "y": 75,
+            "z": 2.338,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.18000000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step08-tick08-facing+1-zoom120.png"
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 89.45000000000002,
+            "y": 75,
+            "z": 2.5180000000000002,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.15400000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 90.60000000000002,
+            "y": 75,
+            "z": 2.672,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.12800000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step10-tick10-facing+1-zoom120.png"
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 91.75000000000003,
+            "y": 75,
+            "z": 2.8000000000000003,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.10200000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 92.90000000000003,
+            "y": 75,
+            "z": 2.902,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.07600000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step12-tick12-facing+1-zoom120.png"
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 94.05000000000004,
+            "y": 75,
+            "z": 2.978,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.050000000000000044
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 95.20000000000005,
+            "y": 75,
+            "z": 3.0280000000000005,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": 0.024000000000000046
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 96.35000000000005,
+            "y": 75,
+            "z": 3.0520000000000005,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.001999999999999953
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 97.50000000000006,
+            "y": 75,
+            "z": 3.0500000000000007,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.027999999999999952
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step16-tick03-facing+1-zoom120.png"
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 98.65000000000006,
+            "y": 75,
+            "z": 3.0220000000000007,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.05399999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 99.80000000000007,
+            "y": 75,
+            "z": 2.968000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.07999999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 100.95000000000007,
+            "y": 75,
+            "z": 2.888000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.10599999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 102.10000000000008,
+            "y": 75,
+            "z": 2.782000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.13199999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step20-tick07-facing+1-zoom120.png"
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 103.25000000000009,
+            "y": 75,
+            "z": 2.650000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.15799999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 104.40000000000009,
+            "y": 75,
+            "z": 2.492000000000001,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.18399999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 105.5500000000001,
+            "y": 75,
+            "z": 2.3080000000000007,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.20999999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step23-tick10-facing+1-zoom120.png"
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 106.7000000000001,
+            "y": 75,
+            "z": 2.0980000000000008,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.23599999999999993
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 107.85000000000011,
+            "y": 75,
+            "z": 1.8620000000000008,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.26199999999999996
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step25-tick12-facing+1-zoom120.png"
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 112,
+            "y": 75,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing+1-zoom120.png"
+        }
+      ],
+      "catch": {
+        "step": 26,
+        "tick": 13,
+        "clip": "idle",
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "targetId": null,
+          "lastTouch": "marin-dusk",
+          "x": 112,
+          "y": 75,
+          "z": 1.7,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing+1-zoom120.png"
+      },
+      "passed": true
+    },
+    {
+      "zoom": 120,
+      "facing": -1,
+      "setup": {
+        "passer": {
+          "id": "kraken",
+          "x": 120,
+          "facing": -1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 90
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "frameStarts": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 0,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick00-facing-1-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 1,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick02-facing-1-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "frame": 2,
+          "mode": "carried",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 2,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick05-facing-1-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 3,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick07-facing-1-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "frame": 4,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 4,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick08-facing-1-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "mode": "pass",
+          "selection": {
+            "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+            "frame": 5,
+            "flip": true,
+            "production": true,
+            "classification": "original-authored"
+          },
+          "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/frame-tick10-facing-1-zoom120.png"
+        }
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step00-tick00-facing-1-zoom120.png"
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.25,
+            "y": 75,
+            "z": 1.4500000000000002,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117,
+            "y": 75,
+            "z": 1.85,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step02-tick02-facing-1-zoom120.png"
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.33333333333333,
+            "y": 75,
+            "z": 1.8166666666666667,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 117.66666666666667,
+            "y": 75,
+            "z": 1.7833333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 118,
+            "y": 75,
+            "z": 1.75,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step05-tick05-facing-1-zoom120.png"
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 116,
+            "y": 75,
+            "z": 1.825,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!"
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 112.85,
+            "y": 75,
+            "z": 2.132,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.20600000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step07-tick07-facing-1-zoom120.png"
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 111.69999999999999,
+            "y": 75,
+            "z": 2.338,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.18000000000000002
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step08-tick08-facing-1-zoom120.png"
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 110.54999999999998,
+            "y": 75,
+            "z": 2.5180000000000002,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.15400000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 109.39999999999998,
+            "y": 75,
+            "z": 2.672,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.12800000000000003
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step10-tick10-facing-1-zoom120.png"
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 108.24999999999997,
+            "y": 75,
+            "z": 2.8000000000000003,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.10200000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-overhead",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 107.09999999999997,
+            "y": 75,
+            "z": 2.902,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.07600000000000004
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step12-tick12-facing-1-zoom120.png"
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 105.94999999999996,
+            "y": 75,
+            "z": 2.978,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.050000000000000044
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 104.79999999999995,
+            "y": 75,
+            "z": 3.0280000000000005,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": 0.024000000000000046
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 103.64999999999995,
+            "y": 75,
+            "z": 3.0520000000000005,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.001999999999999953
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 102.49999999999994,
+            "y": 75,
+            "z": 3.0500000000000007,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.027999999999999952
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step16-tick03-facing-1-zoom120.png"
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 101.34999999999994,
+            "y": 75,
+            "z": 3.0220000000000007,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.05399999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 100.19999999999993,
+            "y": 75,
+            "z": 2.968000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.07999999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 99.04999999999993,
+            "y": 75,
+            "z": 2.888000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.10599999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 97.89999999999992,
+            "y": 75,
+            "z": 2.782000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.13199999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step20-tick07-facing-1-zoom120.png"
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 96.74999999999991,
+            "y": 75,
+            "z": 2.650000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.15799999999999995
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 95.59999999999991,
+            "y": 75,
+            "z": 2.492000000000001,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.18399999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 94.4499999999999,
+            "y": 75,
+            "z": 2.3080000000000007,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.20999999999999994
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step23-tick10-facing-1-zoom120.png"
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 93.2999999999999,
+            "y": 75,
+            "z": 2.0980000000000008,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.23599999999999993
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes"
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 92.14999999999989,
+            "y": 75,
+            "z": 1.8620000000000008,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.26199999999999996
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step25-tick12-facing-1-zoom120.png"
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 88,
+            "y": 75,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing-1-zoom120.png"
+        }
+      ],
+      "catch": {
+        "step": 26,
+        "tick": 13,
+        "clip": "idle",
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "targetId": null,
+          "lastTouch": "marin-dusk",
+          "x": 88,
+          "y": 75,
+          "z": 1.7,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/live-step26-tick13-facing-1-zoom120.png"
+      },
+      "passed": true
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "normalLoaderProbe": {
+    "source": "./public/assets/animation/kraken-pass-overhead-right.png",
+    "frameCount": 6,
+    "atlasSize": {
+      "width": 240,
+      "height": 192
+    },
+    "ballTrackAt0And7AndReleaseVz": [
+      2.5,
+      1.05,
+      6,
+      1.9,
+      0.232
+    ]
+  },
+  "captureCount": 24,
+  "gameplayPassCount": 4,
+  "gameplayPassed": true,
+  "postReviewFinding": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/POST_REVIEW_SIMULATION_AUDIT.md"
+}

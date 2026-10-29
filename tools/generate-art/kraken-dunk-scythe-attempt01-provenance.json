@@ -1,0 +1,23 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-scythe",
+  "attempt": 1,
+  "generationId": "exec-5c285024-a36a-4a82-9e4b-e477d4834bc5",
+  "generatedAt": "2026-10-29T05:05:00Z",
+  "promptFile": "tools/generate-art/kraken-dunk-scythe-attempt01-imagegen-prompt.txt",
+  "sourceFile": "tools/generate-art/sources/kraken-dunk-scythe-attempt01-generated-raw.png",
+  "sourceSha256": "bd618cfdf69661f4af7f54b552bb40a23b204f72f0aad1803bd1348107e5e003",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA"
+  },
+  "transparentBackgroundRequested": true,
+  "alpha": {
+    "minimum": 0,
+    "maximum": 254
+  },
+  "status": "raw generation rejected by independent review; no cleanup or runtime registration accepted",
+  "notes": "Independent reviewer found painterly/antialiased contours, source-cell boundary crossings, and near-duplicate overhead beats 7/8. Raw source is preserved exactly; cleanup01 is diagnostic only.",
+  "promptSha256": "dcfb824108d5ac2488b8756157c34a95c89aa596cfc445a45eca9f48fc236c84"
+}

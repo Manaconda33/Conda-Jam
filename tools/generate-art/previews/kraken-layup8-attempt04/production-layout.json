@@ -1,0 +1,120 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "layup",
+  "src": "./public/assets/animation/kraken-layup-right.webp",
+  "columns": 4,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-layup8-attempt04-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29T03:10:57.824383Z",
+    "promptVerbatim": true,
+    "generationId": "exec-372eebb2-64cc-4a98-995a-024d4078e912",
+    "classification": "bespoke-source-composite",
+    "frameLineage": [
+      {
+        "frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "generationId": "exec-372eebb2-64cc-4a98-995a-024d4078e912",
+        "rawSource": "tools/generate-art/sources/kraken-layup8-attempt04-generated-raw.png",
+        "rawSha256": "68607684b1afa676b2c55c6925fc33f41d3634d1bf6009dcc0583f116a83a753",
+        "prompt": "tools/generate-art/kraken-layup8-attempt04-imagegen-prompt.txt"
+      }
+    ],
+    "cleanup": "tools/generate-art/clean-kraken-layup8-attempt04-cleanup02.py",
+    "layout": "tools/generate-art/previews/kraken-layup8-attempt04/cleanup02/layout.json",
+    "sourceReview": "tools/generate-art/previews/kraken-layup8-attempt04/INDEPENDENT_SOURCE_REVIEW_2026-10-29.md",
+    "cleanupReview": "tools/generate-art/previews/kraken-layup8-attempt04/cleanup02/INDEPENDENT_CLEANUP_REVIEW_2026-10-29.md",
+    "candidateTrackReview": "tools/generate-art/previews/kraken-layup-layup-track-candidate/attempt-03/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md",
+    "runtimeBallTrack": {
+      "height": [
+        1.0,
+        1.2,
+        1.55,
+        1.95,
+        2.25,
+        2.0,
+        1.35,
+        0.75
+      ],
+      "forward": [
+        3,
+        3,
+        3.5,
+        4,
+        5,
+        4,
+        3,
+        3
+      ],
+      "releaseVz": 0.45,
+      "reviewed": true,
+      "status": "candidate-injected review passed; normal-loader review pending"
+    },
+    "review": {
+      "status": "candidate pass; normal-loader review pending",
+      "by": "independent source, cleanup and gameplay candidate reviewers",
+      "scope": "source/cleanup, candidate-injected Marin/Jam Stage game, both facings and zooms at current Vesper Harbor vs Blackthorn courtY75",
+      "notes": "Candidate track preserves ownership through tick9, releases at frame4/tick10 and scores2 in both facings. Ball is separate and aligns to the raised hand around takeoff/release; normal-loader review remains pending.",
+      "at": "2026-10-29"
+    }
+  }
+}

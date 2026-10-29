@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-power",
+  "attempt": 2,
+  "status": "unregistered track candidate after independent attempt01 alignment review",
+  "height": [1.0,1.0,1.15,1.0,0.9,0.8,1.6,1.65,1.7,1.8,1.95,0.85,0.95,0.8,0.62],
+  "forward": [5.5,5.0,7.5,4.5,3,2,1,1,8,6,12,3,8,8,-1],
+  "changesFromAttempt01": ["frame3 H 1.45→1.0/F 0→4.5 to move ball off face toward reaching hand", "frames4-5 H 1.75/1.7→.9/.8 to remove ball float above head", "frame9 F 12→6 to bring peak ball toward overhead hand"],
+  "preservedRelease": "Frame10 dunk contact/release and tick23 two-point score from attempt01 are retained.",
+  "referenceTrial": "Krios J.128 values were only a calibration seed; these Kraken values are adjusted per independent on-court review."
+}

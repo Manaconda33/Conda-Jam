@@ -1,0 +1,25 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-reverse",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "source review pending",
+  "generatedAt": "2026-10-29T04:54:00Z",
+  "generationId": "exec-1308f549-41d7-45d3-8a24-0afc915abe5f",
+  "promptFile": "tools/generate-art/kraken-dunk-reverse-attempt01-imagegen-prompt.txt",
+  "promptSha256": "920415ae11e708750afa5a0de0f2351737eac4c609dc395d2ef53960bf57903e",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-reverse-attempt01-generated-raw.png",
+  "rawSha256": "45905ef802f469021a95644d06c4eed456f03c6c7491dce022facf4bf1516901",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-reverse-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "15 requested full-body poses; inspect true transparency, frame/cell separation, distinct reverse rotation, identity/anatomy, pixel-art style and fringes."
+}

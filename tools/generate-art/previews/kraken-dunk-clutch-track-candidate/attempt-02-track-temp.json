@@ -1,0 +1,14 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-clutch",
+  "attempt": 1,
+  "status": "candidate gameplay calibration only; not registered",
+  "seededFrom": "cleanup02 pose hand centers in src/core/animation.js, converted with the existing pixel-to-world mapping; all values are isolated in this candidate file",
+  "art": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+  "height": [0.871143,0.928571,1.330571,1.273143,1.129571,1.129571,0.785,0.842429,1.876,2.249,1.187,0.641429,0.469143,0.411714,0.698857],
+  "forward": [2.923636,-7.674545,5.116364,5.116364,3.654545,2.558182,-1.096364,-1.096364,9.136364,10.598182,5.847273,1.827273,0.730909,0,-1.461818],
+  "tuningNotes": {
+    "method": "Initial track computed from the per-pose hand-center anchors for dunk-clutch in src/core/animation.js. Capture current Jam Stage production simulation with candidate-only atlas and track on Vesper Harbor Undertow vs Blackthorn Court Kings, both facings and zooms 100/120. Inspect hand contact poses7-11, release tick21, score tick23, and landing/recovery before further tuning.",
+    "scope": "Separate Kraken track candidate, not production registered. Original/runtime art and track remain unchanged."
+  }
+}

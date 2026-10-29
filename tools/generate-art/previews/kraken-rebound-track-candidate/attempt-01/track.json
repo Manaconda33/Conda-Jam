@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "rebound",
+  "attempt": 1,
+  "status": "unregistered track trial; cleanup review pending",
+  "height": [1.1, 1.5, 2.0, 2.1, 1.3],
+  "forward": [4, 3, 1, 0.5, 1],
+  "frameStartTicks": [0, 2, 4, 5, 7],
+  "grabTick": 5,
+  "reference": "Krios rebound track adapted only as initial calibration estimate. Requires Kraken-specific Jam Stage contact and live missed-shot validation."
+}

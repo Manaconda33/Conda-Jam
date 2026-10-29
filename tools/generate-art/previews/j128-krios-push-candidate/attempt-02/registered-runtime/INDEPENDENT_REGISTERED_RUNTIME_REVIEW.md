@@ -1,0 +1,9 @@
+# Independent registered-runtime review — J.128 Krios push, attempt 02
+
+**Result: PASS for production acceptance.**
+
+I reviewed the corrected normal-loader report and all 48 screenshots: 11 frames at both facings and zooms 100/120, plus four successful-contact captures. The report records `runtimeIntegration: true`, `candidateAtlasInjected: false`, `courtY: 90`, 48 captures, and zero uncaught browser errors. The registered public atlas is `./public/assets/animation/krios-push-right.webp`; its SHA-256 is `96372899ca45376b780a8884ca30f83d91cdb93df720505682738fabe59e4628`, matching the public WebP and the manifest. The manifest entry has 11 reviewed 128×96 frames. The corrected harness uses the normal production image-map entry and only decodes/inserts the atlas when its explicit runtime argument is false; runtime mode passed true. The actual selector reports the public atlas for every capture.
+
+Frame selection is correct for all sampled starts: frames 0–10 at ticks 1, 2, 4, 6, 7, 8, 10, 12, 15, 18, and 21. Right-facing rows have `flip: false`; left-facing rows have `flip: true`. The four real contact captures are at tick 8/frame 5 with Krios foreground and Leo offset behind him. At zooms 100 and 120, both hands are clearly visible pressing into the target in both facings. The simulation records one knockdown, Leo in `fall` with stun 44, and a `dead` ball with null owner. No basketball is baked into the Krios art. The sequence is readable and coherent; no fallback, clipping, or visible anatomy defect was found. The showcase places the opponent close enough to overlap portions of Krios in some frames, but the candidate remains visible and the contact pose itself is unobstructed.
+
+The earlier registered capture set was rejected because the harness used an undefined `__pushRuntime` guard and manually replaced the image-map entry. This corrected capture set fixes that guard and passes the normal-loader review above.

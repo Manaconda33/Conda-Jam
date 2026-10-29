@@ -1,0 +1,24 @@
+Create one original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE ’96. Use accepted Leo animation artwork only as a reference for Leo’s identity, uniform, and crisp pixel-art style; redraw every pose. Draw exactly fifteen distinct, complete, right-facing full-body poses in a strict five-column by three-row grid, row-major. Maintain consistent character scale and camera. Keep hair, hands, and shoes safely inside each cell with broad transparent gutters and outer margins. Keep grounded poses at a stable foot baseline; gameplay supplies jump height and translation.
+
+Leo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his natural adult human anatomy, pale face, long wavy black hair, refined mustache, handsome composed features, and patient, imperious master-strategist poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes, and subtle refined trim. Keep his hair attached to his head and his face recognizable in every pose. Exactly two arms, two hands, two legs, and two shoes; no fangs, horns, cape, robe, monster traits, extra limbs, costume change, or unrequested props.
+
+This is a right-facing reverse alley-oop dunk. Leo approaches screen-right while looking up and tracking an incoming lob from behind his shoulder. Before the catch, both hands are empty and reach behind the far ear to form a clear catching window. At the catch, both hands close behind the crown; carry the invisible ball with both hands behind the head through the jump. Then extend both arms backward over the head and release once behind the body through the imaginary rim. Do not draw any ball, hoop, rim, net, court, floor, shadow, effect, text, logo, or background. Show the incoming catch and release only through hand shapes and contact poses. No round shape or prop between the hands. Poses 0–4 are empty-handed; poses 5–9 carry the invisible ball behind the crown; pose 10 is the single release; poses 11–14 are empty-handed follow-through, descent, landing, and recovery. Preserve gameplay timing.
+
+Draw these fifteen unique poses in exact row-major order:
+0. Approach on staggered feet, torso forward, eyes at the imaginary rim to screen-right; near palm open at chest height and far hand begins lifting as Leo tracks a lob coming from behind.
+1. Plant the lead foot and sink hips, rear heel raised; hands open behind the far shoulder as chest and shoulders begin turning away from the rim.
+2. TAKEOFF (frame 2, tick 4): both feet leave the floor after powerful extension; torso rises and turns away; both empty arms reach behind the head toward the incoming pass.
+3. Early ascent, lead knee lifts and trailing leg folds; back partly toward viewer; empty hands form a clear open catch window behind the far ear.
+4. Mid-ascent, knees gather beneath hips, chest rises; head looks upward as both open hands reach high behind the far shoulder.
+5. GRAB (frame 5, tick 10): catch the invisible lob with both hands closed together behind the crown; elbows bend to absorb the pass while airborne.
+6. Late ascent: torso stretches and arches away from rim; knees tuck; carry the invisible ball behind the head with both elbows bent high.
+7. PEAK (frame 7, tick 14): highest point, feet tucked, back toward the right-side rim; both hands secure the invisible ball behind the head.
+8. Start descent: shoulders and chest move toward the rim while legs trail; both elbows lift higher behind the ears and chest arches back.
+9. Pre-release: torso drives forward, knees unfold behind; both forearms extend backward overhead with wrists cocked for the reverse finish.
+10. RELEASE (frame 10, tick 21): both wrists snap backward-down through the imaginary scoring plane behind the head; fingers open and release the invisible ball exactly once.
+11. FINISH (frame 11, tick 23): immediate post-release follow-through, arms remain behind the head reaching down from the imaginary rim; body trails, back arched, both hands empty.
+12. Drop away from rim; hands separate, swing outward, and torso starts unwinding toward the camera.
+13. Landing approach: both legs unfold beneath hips and arms spread wide for balance; one shoulder remains slightly turned away.
+14. LAND (frame 14, tick 30): both feet meet ground, knees bend deeply, arms absorb impact; hands lower beside thighs as torso completes its recovery rotation.
+
+Use crisp, chunky, readable 1990s arcade pixel art with hard-edged clusters, consistent dark outline, and restrained shading. Every pose must be distinct, anatomically coherent, and unmistakably the same Leo. Preserve true alpha-zero transparency outside the figures and in every gutter; no haze, colored fringe, speckles, matte, grid, borders, detached marks, basketball, or props. Return only the transparent sprite sheet.

@@ -1,0 +1,82 @@
+{
+  "classification": "original-authored-source-composite-candidate",
+  "athlete": "J.07 Kraken",
+  "clip": "pickup",
+  "attempt": 5,
+  "cleanup": 2,
+  "status": "pass for Kraken-specific ball-track trials only; not approved for runtime registration",
+  "atlasCandidate": "tools/generate-art/previews/kraken-pickup5-attempt05/kraken-pickup5-attempt05-cleanup01-atlas-candidate.png",
+  "atlasSha256": "47e825e1707e13f83dd38ad74c9ea1f4b408bb7545028782e43f20e43a75c6f0",
+  "frameSize": [
+    80,
+    96
+  ],
+  "frameCount": 5,
+  "uniquePixelFrames": 5,
+  "baselineY": 90,
+  "clearRowsBelowSoles": 6,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "grabFrame": 3,
+  "grabTick": 7,
+  "ballBakedIn": false,
+  "provenance": "tools/generate-art/previews/kraken-pickup5-attempt05/cleanup01-layout.json",
+  "lineage": [
+    {
+      "frame": 0,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "2632700c7f83b8e2b341bd79c88f4bb0524e4cb856d08642f7f93e3a668bf647"
+    },
+    {
+      "frame": 1,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "4254b3d0988e6dba5ef35611c8b6589319ccd80faec4e6a13bd8ac8d53ce6022"
+    },
+    {
+      "frame": 2,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "d73fa7b1862dda9dd835e0510cc4077cd74669ecb08ac3530b5aab5e1120b373"
+    },
+    {
+      "frame": 3,
+      "sourceImage": "tools/generate-art/sources/kraken-pickup5-attempt05-pose03-generated-raw.png",
+      "sourceGeneration": "not exposed by image-generation tool response",
+      "prompt": "tools/generate-art/kraken-pickup5-attempt05-pose03-imagegen-prompt.txt",
+      "sourceSha256": "75c60ad9ec1f0b11665464fc4d8d53980df9986fcff8429720700cad459ae88c",
+      "promptSha256": "e900dab9ae7e7295b92ac3bd315e358513a8a4a844a0cae69fd4ec8c53630f6b",
+      "sourceFigureBoundsLTRB": [
+        195,
+        400,
+        1042,
+        1191
+      ],
+      "cropBoundsLTRB": [
+        192,
+        397,
+        1045,
+        1194
+      ],
+      "cropSha256": "dc63106ad97ded882f5172af1d968b2b5a83252137ca514872f5b63c7cd910a6",
+      "fitScale": 0.06330597889800703,
+      "outputSize": [
+        54,
+        50
+      ],
+      "sourcePixelHash": "cf5623a0af4bef1d7c27dcbe57698f780e7ff5ccaab912a36bff34b16b627487"
+    },
+    {
+      "frame": 4,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "048b45b765b57fb82c5d35462250638edd497d7821b3799ee1bf6686bd2b7a71"
+    }
+  ]
+}

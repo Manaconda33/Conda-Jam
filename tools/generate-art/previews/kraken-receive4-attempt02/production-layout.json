@@ -1,0 +1,82 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "receive",
+  "src": "./public/assets/animation/kraken-receive-right.webp",
+  "columns": 2,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-receive4-attempt02-pose02-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29T02:54:00Z",
+    "promptVerbatim": true,
+    "generationId": "not exposed by the image-generation tool response",
+    "classification": "bespoke-source-composite",
+    "frameLineage": [
+      {
+        "frames": [
+          0,
+          1,
+          3
+        ],
+        "generationId": "exec-73626bfe-e2fb-4dc5-8768-f297ab8edbdf",
+        "rawSource": "tools/generate-art/sources/kraken-receive4-attempt01-generated-raw.png",
+        "prompt": "tools/generate-art/kraken-receive4-attempt01-imagegen-prompt.txt"
+      },
+      {
+        "frames": [
+          2
+        ],
+        "generationId": "not exposed by the image-generation tool response",
+        "rawSource": "tools/generate-art/sources/kraken-receive4-attempt02-pose02-generated-raw.png",
+        "rawSha256": "0850e44a36ebf21d025f288b5c6ef4a089c1aa3d4ab8c369649527fa6d215258",
+        "prompt": "tools/generate-art/kraken-receive4-attempt02-pose02-imagegen-prompt.txt"
+      }
+    ],
+    "cleanup": "tools/generate-art/clean-kraken-receive4-attempt02-cleanup02.py",
+    "layout": "tools/generate-art/previews/kraken-receive4-attempt02/cleanup02/layout.json",
+    "atlasSha256": "e6676faa9e2deff7ddbb0d94f87d3d02e54538d8a9802ef2c3e98a8bd53cddbb",
+    "runtimeBallTrack": {
+      "height": [
+        1.3,
+        1.4,
+        1.74,
+        1.2
+      ],
+      "forward": [
+        3,
+        4.5,
+        3,
+        2
+      ],
+      "reviewed": false
+    },
+    "sourceReview": "tools/generate-art/previews/kraken-receive4-attempt02/cleanup02/INDEPENDENT_CLEANUP_REVIEW_2026-10-29.md",
+    "candidateTrackReview": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-03/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md"
+  }
+}

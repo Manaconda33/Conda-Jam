@@ -1,0 +1,93 @@
+{
+  "status": "cleanup01 source candidate accepted; native track review pending",
+  "source": "tools/generate-art/sources/kraken-steal-candidate2-raw.png",
+  "dimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "intendedGrid": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 362,
+    "cellHeight": 543,
+    "order": "row-major"
+  },
+  "poses": [
+    {
+      "index": 0,
+      "duration": 2,
+      "pose": "low defensive stance",
+      "cell": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "duration": 2,
+      "pose": "load outside knee",
+      "cell": [
+        1,
+        0
+      ]
+    },
+    {
+      "index": 2,
+      "duration": 1,
+      "pose": "lunge",
+      "cell": [
+        2,
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "duration": 1,
+      "anchor": "grab at tick5",
+      "pose": "knee-height inward wrist hook",
+      "cell": [
+        3,
+        0
+      ]
+    },
+    {
+      "index": 4,
+      "duration": 2,
+      "pose": "swipe follow-through",
+      "cell": [
+        0,
+        1
+      ]
+    },
+    {
+      "index": 5,
+      "duration": 2,
+      "pose": "retract",
+      "cell": [
+        1,
+        1
+      ]
+    },
+    {
+      "index": 6,
+      "duration": 3,
+      "pose": "recover",
+      "cell": [
+        2,
+        1
+      ]
+    },
+    {
+      "index": 7,
+      "duration": 3,
+      "pose": "ready with open hand distinct from initial",
+      "cell": [
+        3,
+        1
+      ]
+    }
+  ],
+  "notes": "Rough grid estimate only; normalize each isolated figure to 80x96 and independently review before packing.",
+  "normalizedAtlas": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+  "normalizedLayout": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-layout.json"
+}

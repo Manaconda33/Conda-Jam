@@ -1,0 +1,2332 @@
+{
+  "status": "registered current-court normal-loader verification; independent review pending",
+  "renderer": "Chromium Jam Stage production simulation",
+  "athlete": "kraken",
+  "clip": "receive",
+  "productionAtlas": "./public/assets/animation/kraken-receive-right.webp",
+  "productionTrack": {
+    "height": [
+      1.3,
+      1.4,
+      1.74,
+      1.2
+    ],
+    "forward": [
+      3,
+      4.5,
+      3,
+      2
+    ]
+  },
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "runtimeIntegration": true,
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 75.0,
+  "frameDurations": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "catchAnchorTick": 4,
+  "captureMethod": "Registered production manifest/track loaded through normal Jam Stage; no candidate atlas, manifest, selector, simulation, or track injection. The test harness starts one deterministic Marin-to-Kraken pass, then ordinary stepMatch advances flight and catch.",
+  "matchup": "Vesper Harbor Undertow vs Blackthorn Court Kings",
+  "captures": [],
+  "runs": [
+    {
+      "facing": 1,
+      "zoom": 100,
+      "setup": {
+        "facing": 1,
+        "courtY": 75,
+        "passer": {
+          "id": "marin-dusk",
+          "x": 80,
+          "y": 75,
+          "facing": 1
+        },
+        "receiver": {
+          "id": "kraken",
+          "x": 100,
+          "y": 75,
+          "facing": -1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "catch": {
+        "step": 9,
+        "receiveTick": 4,
+        "correction": {
+          "x": 0.009090909090929244,
+          "z": -0.0021818181818182847
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 97,
+          "y": 75,
+          "z": 1.74,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step09-receive-tick04-zoom100.png"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "kraken": {
+            "clip": "idle",
+            "tick": 1,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 0,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 85.68181818181819,
+            "y": 75,
+            "z": 1.1363636363636365,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 1,
+          "kraken": {
+            "clip": "idle",
+            "tick": 2,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 1,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 85.11363636363636,
+            "y": 75,
+            "z": 1.1647727272727275,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 2,
+          "kraken": {
+            "clip": "idle",
+            "tick": 3,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 2,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 84.54545454545455,
+            "y": 75,
+            "z": 1.1931818181818183,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 3,
+          "kraken": {
+            "clip": "idle",
+            "tick": 4,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 3,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 89.6590909090909,
+            "y": 75,
+            "z": 1.278409090909091,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 4,
+          "kraken": {
+            "clip": "idle",
+            "tick": 5,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 4,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 94.77272727272728,
+            "y": 75,
+            "z": 1.3636363636363638,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 5,
+          "kraken": {
+            "clip": "receive",
+            "tick": 0,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 5,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 100.44090909090909,
+            "y": 75,
+            "z": 1.8381818181818184,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.005999999999999998
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step05-receive-tick00-zoom100.png"
+        },
+        {
+          "step": 6,
+          "kraken": {
+            "clip": "receive",
+            "tick": 1,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 6,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 99.29090909090908,
+            "y": 75,
+            "z": 1.8321818181818184,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.032
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step06-receive-tick01-zoom100.png"
+        },
+        {
+          "step": 7,
+          "kraken": {
+            "clip": "receive",
+            "tick": 2,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 7,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 98.14090909090908,
+            "y": 75,
+            "z": 1.8001818181818183,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.057999999999999996
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step07-receive-tick02-zoom100.png"
+        },
+        {
+          "step": 8,
+          "kraken": {
+            "clip": "receive",
+            "tick": 3,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 8,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 96.99090909090907,
+            "y": 75,
+            "z": 1.7421818181818183,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.08399999999999999
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step08-receive-tick03-zoom100.png"
+        },
+        {
+          "step": 9,
+          "kraken": {
+            "clip": "receive",
+            "tick": 4,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 9,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 2,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 97,
+            "y": 75,
+            "z": 1.74,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0.009090909090929244,
+            "z": -0.0021818181818182847
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step09-receive-tick04-zoom100.png"
+        },
+        {
+          "step": 10,
+          "kraken": {
+            "clip": "receive",
+            "tick": 5,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 10,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 98,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 1,
+            "z": -0.54
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step10-receive-tick05-zoom100.png"
+        },
+        {
+          "step": 11,
+          "kraken": {
+            "clip": "receive",
+            "tick": 6,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 0,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 98,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step11-receive-tick06-zoom100.png"
+        },
+        {
+          "step": 12,
+          "kraken": {
+            "clip": "receive",
+            "tick": 7,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 1,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 98,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step12-receive-tick07-zoom100.png"
+        }
+      ],
+      "final": {
+        "step": 12,
+        "kraken": {
+          "clip": "receive",
+          "tick": 7,
+          "action": null,
+          "hasBall": true,
+          "facing": -1
+        },
+        "marin": {
+          "clip": "idle",
+          "tick": 1,
+          "hasBall": false
+        },
+        "selection": {
+          "src": "./public/assets/animation/kraken-receive-right.webp",
+          "frame": 3,
+          "flip": true
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 98,
+          "y": 75,
+          "z": 1.2,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "score": [
+          0,
+          0
+        ],
+        "event": "Kraken catches it",
+        "catchCorrection": {
+          "x": 0,
+          "z": 0.0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step12-receive-tick07-zoom100.png"
+      }
+    },
+    {
+      "facing": -1,
+      "zoom": 100,
+      "setup": {
+        "facing": -1,
+        "courtY": 75,
+        "passer": {
+          "id": "marin-dusk",
+          "x": 120,
+          "y": 75,
+          "facing": -1
+        },
+        "receiver": {
+          "id": "kraken",
+          "x": 100,
+          "y": 75,
+          "facing": 1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "catch": {
+        "step": 9,
+        "receiveTick": 4,
+        "correction": {
+          "x": -0.009090909090929244,
+          "z": -0.0021818181818182847
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 103,
+          "y": 75,
+          "z": 1.74,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step09-receive-tick04-zoom100.png"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "kraken": {
+            "clip": "idle",
+            "tick": 1,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 0,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 114.31818181818181,
+            "y": 75,
+            "z": 1.1363636363636365,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 1,
+          "kraken": {
+            "clip": "idle",
+            "tick": 2,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 1,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 114.88636363636364,
+            "y": 75,
+            "z": 1.1647727272727275,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 2,
+          "kraken": {
+            "clip": "idle",
+            "tick": 3,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 2,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 115.45454545454545,
+            "y": 75,
+            "z": 1.1931818181818183,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 3,
+          "kraken": {
+            "clip": "idle",
+            "tick": 4,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 3,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 110.3409090909091,
+            "y": 75,
+            "z": 1.278409090909091,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 4,
+          "kraken": {
+            "clip": "idle",
+            "tick": 5,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 4,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 105.22727272727272,
+            "y": 75,
+            "z": 1.3636363636363638,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 5,
+          "kraken": {
+            "clip": "receive",
+            "tick": 0,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 5,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 99.55909090909091,
+            "y": 75,
+            "z": 1.8381818181818184,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.005999999999999998
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step05-receive-tick00-zoom100.png"
+        },
+        {
+          "step": 6,
+          "kraken": {
+            "clip": "receive",
+            "tick": 1,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 6,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 100.70909090909092,
+            "y": 75,
+            "z": 1.8321818181818184,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.032
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step06-receive-tick01-zoom100.png"
+        },
+        {
+          "step": 7,
+          "kraken": {
+            "clip": "receive",
+            "tick": 2,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 7,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 101.85909090909092,
+            "y": 75,
+            "z": 1.8001818181818183,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.057999999999999996
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step07-receive-tick02-zoom100.png"
+        },
+        {
+          "step": 8,
+          "kraken": {
+            "clip": "receive",
+            "tick": 3,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 8,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 103.00909090909093,
+            "y": 75,
+            "z": 1.7421818181818183,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.08399999999999999
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step08-receive-tick03-zoom100.png"
+        },
+        {
+          "step": 9,
+          "kraken": {
+            "clip": "receive",
+            "tick": 4,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 9,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 2,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 103,
+            "y": 75,
+            "z": 1.74,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": -0.009090909090929244,
+            "z": -0.0021818181818182847
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step09-receive-tick04-zoom100.png"
+        },
+        {
+          "step": 10,
+          "kraken": {
+            "clip": "receive",
+            "tick": 5,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 10,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 102,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": -1,
+            "z": -0.54
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step10-receive-tick05-zoom100.png"
+        },
+        {
+          "step": 11,
+          "kraken": {
+            "clip": "receive",
+            "tick": 6,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 0,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 102,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step11-receive-tick06-zoom100.png"
+        },
+        {
+          "step": 12,
+          "kraken": {
+            "clip": "receive",
+            "tick": 7,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 1,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 102,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step12-receive-tick07-zoom100.png"
+        }
+      ],
+      "final": {
+        "step": 12,
+        "kraken": {
+          "clip": "receive",
+          "tick": 7,
+          "action": null,
+          "hasBall": true,
+          "facing": 1
+        },
+        "marin": {
+          "clip": "idle",
+          "tick": 1,
+          "hasBall": false
+        },
+        "selection": {
+          "src": "./public/assets/animation/kraken-receive-right.webp",
+          "frame": 3,
+          "flip": false
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 102,
+          "y": 75,
+          "z": 1.2,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "score": [
+          0,
+          0
+        ],
+        "event": "Kraken catches it",
+        "catchCorrection": {
+          "x": 0,
+          "z": 0.0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step12-receive-tick07-zoom100.png"
+      }
+    },
+    {
+      "facing": 1,
+      "zoom": 120,
+      "setup": {
+        "facing": 1,
+        "courtY": 75,
+        "passer": {
+          "id": "marin-dusk",
+          "x": 80,
+          "y": 75,
+          "facing": 1
+        },
+        "receiver": {
+          "id": "kraken",
+          "x": 100,
+          "y": 75,
+          "facing": -1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "catch": {
+        "step": 9,
+        "receiveTick": 4,
+        "correction": {
+          "x": 0.009090909090929244,
+          "z": -0.0021818181818182847
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 97,
+          "y": 75,
+          "z": 1.74,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step09-receive-tick04-zoom120.png"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "kraken": {
+            "clip": "idle",
+            "tick": 1,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 0,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 85.68181818181819,
+            "y": 75,
+            "z": 1.1363636363636365,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 1,
+          "kraken": {
+            "clip": "idle",
+            "tick": 2,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 1,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 85.11363636363636,
+            "y": 75,
+            "z": 1.1647727272727275,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 2,
+          "kraken": {
+            "clip": "idle",
+            "tick": 3,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 2,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 84.54545454545455,
+            "y": 75,
+            "z": 1.1931818181818183,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 3,
+          "kraken": {
+            "clip": "idle",
+            "tick": 4,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 3,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 89.6590909090909,
+            "y": 75,
+            "z": 1.278409090909091,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 4,
+          "kraken": {
+            "clip": "idle",
+            "tick": 5,
+            "action": null,
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 4,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 94.77272727272728,
+            "y": 75,
+            "z": 1.3636363636363638,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 5,
+          "kraken": {
+            "clip": "receive",
+            "tick": 0,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 5,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 100.44090909090909,
+            "y": 75,
+            "z": 1.8381818181818184,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.005999999999999998
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step05-receive-tick00-zoom120.png"
+        },
+        {
+          "step": 6,
+          "kraken": {
+            "clip": "receive",
+            "tick": 1,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 6,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 99.29090909090908,
+            "y": 75,
+            "z": 1.8321818181818184,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.032
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step06-receive-tick01-zoom120.png"
+        },
+        {
+          "step": 7,
+          "kraken": {
+            "clip": "receive",
+            "tick": 2,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 7,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 98.14090909090908,
+            "y": 75,
+            "z": 1.8001818181818183,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.057999999999999996
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step07-receive-tick02-zoom120.png"
+        },
+        {
+          "step": 8,
+          "kraken": {
+            "clip": "receive",
+            "tick": 3,
+            "action": "catch",
+            "hasBall": false,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 8,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": true
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 96.99090909090907,
+            "y": 75,
+            "z": 1.7421818181818183,
+            "vx": -1.15,
+            "vy": 0,
+            "vz": -0.08399999999999999
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step08-receive-tick03-zoom120.png"
+        },
+        {
+          "step": 9,
+          "kraken": {
+            "clip": "receive",
+            "tick": 4,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 9,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 2,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 97,
+            "y": 75,
+            "z": 1.74,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0.009090909090929244,
+            "z": -0.0021818181818182847
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step09-receive-tick04-zoom120.png"
+        },
+        {
+          "step": 10,
+          "kraken": {
+            "clip": "receive",
+            "tick": 5,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 10,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 98,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 1,
+            "z": -0.54
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step10-receive-tick05-zoom120.png"
+        },
+        {
+          "step": 11,
+          "kraken": {
+            "clip": "receive",
+            "tick": 6,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 0,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 98,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step11-receive-tick06-zoom120.png"
+        },
+        {
+          "step": 12,
+          "kraken": {
+            "clip": "receive",
+            "tick": 7,
+            "action": null,
+            "hasBall": true,
+            "facing": -1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 1,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": true
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 98,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step12-receive-tick07-zoom120.png"
+        }
+      ],
+      "final": {
+        "step": 12,
+        "kraken": {
+          "clip": "receive",
+          "tick": 7,
+          "action": null,
+          "hasBall": true,
+          "facing": -1
+        },
+        "marin": {
+          "clip": "idle",
+          "tick": 1,
+          "hasBall": false
+        },
+        "selection": {
+          "src": "./public/assets/animation/kraken-receive-right.webp",
+          "frame": 3,
+          "flip": true
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 98,
+          "y": 75,
+          "z": 1.2,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "score": [
+          0,
+          0
+        ],
+        "event": "Kraken catches it",
+        "catchCorrection": {
+          "x": 0,
+          "z": 0.0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-right-step12-receive-tick07-zoom120.png"
+      }
+    },
+    {
+      "facing": -1,
+      "zoom": 120,
+      "setup": {
+        "facing": -1,
+        "courtY": 75,
+        "passer": {
+          "id": "marin-dusk",
+          "x": 120,
+          "y": 75,
+          "facing": -1
+        },
+        "receiver": {
+          "id": "kraken",
+          "x": 100,
+          "y": 75,
+          "facing": 1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "catch": {
+        "step": 9,
+        "receiveTick": 4,
+        "correction": {
+          "x": -0.009090909090929244,
+          "z": -0.0021818181818182847
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 103,
+          "y": 75,
+          "z": 1.74,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step09-receive-tick04-zoom120.png"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "kraken": {
+            "clip": "idle",
+            "tick": 1,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 0,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 114.31818181818181,
+            "y": 75,
+            "z": 1.1363636363636365,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 1,
+          "kraken": {
+            "clip": "idle",
+            "tick": 2,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 1,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 114.88636363636364,
+            "y": 75,
+            "z": 1.1647727272727275,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 2,
+          "kraken": {
+            "clip": "idle",
+            "tick": 3,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 2,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 115.45454545454545,
+            "y": 75,
+            "z": 1.1931818181818183,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 3,
+          "kraken": {
+            "clip": "idle",
+            "tick": 4,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 3,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 110.3409090909091,
+            "y": 75,
+            "z": 1.278409090909091,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 4,
+          "kraken": {
+            "clip": "idle",
+            "tick": 5,
+            "action": null,
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 4,
+            "hasBall": true
+          },
+          "selection": null,
+          "ball": {
+            "mode": "carried",
+            "owner": "marin-dusk",
+            "lastTouch": "marin-dusk",
+            "x": 105.22727272727272,
+            "y": 75,
+            "z": 1.3636363636363638,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "",
+          "catchCorrection": null,
+          "capture": null
+        },
+        {
+          "step": 5,
+          "kraken": {
+            "clip": "receive",
+            "tick": 0,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 5,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 99.55909090909091,
+            "y": 75,
+            "z": 1.8381818181818184,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.005999999999999998
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step05-receive-tick00-zoom120.png"
+        },
+        {
+          "step": 6,
+          "kraken": {
+            "clip": "receive",
+            "tick": 1,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 6,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 0,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 100.70909090909092,
+            "y": 75,
+            "z": 1.8321818181818184,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.032
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step06-receive-tick01-zoom120.png"
+        },
+        {
+          "step": 7,
+          "kraken": {
+            "clip": "receive",
+            "tick": 2,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 7,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 101.85909090909092,
+            "y": 75,
+            "z": 1.8001818181818183,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.057999999999999996
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step07-receive-tick02-zoom120.png"
+        },
+        {
+          "step": 8,
+          "kraken": {
+            "clip": "receive",
+            "tick": 3,
+            "action": "catch",
+            "hasBall": false,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 8,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 1,
+            "flip": false
+          },
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "lastTouch": "marin-dusk",
+            "x": 103.00909090909093,
+            "y": 75,
+            "z": 1.7421818181818183,
+            "vx": 1.15,
+            "vy": 0,
+            "vz": -0.08399999999999999
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Marin Dusk passes",
+          "catchCorrection": null,
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step08-receive-tick03-zoom120.png"
+        },
+        {
+          "step": 9,
+          "kraken": {
+            "clip": "receive",
+            "tick": 4,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 9,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 2,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 103,
+            "y": 75,
+            "z": 1.74,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": -0.009090909090929244,
+            "z": -0.0021818181818182847
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step09-receive-tick04-zoom120.png"
+        },
+        {
+          "step": 10,
+          "kraken": {
+            "clip": "receive",
+            "tick": 5,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "pass",
+            "tick": 10,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 102,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": -1,
+            "z": -0.54
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step10-receive-tick05-zoom120.png"
+        },
+        {
+          "step": 11,
+          "kraken": {
+            "clip": "receive",
+            "tick": 6,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 0,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 102,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step11-receive-tick06-zoom120.png"
+        },
+        {
+          "step": 12,
+          "kraken": {
+            "clip": "receive",
+            "tick": 7,
+            "action": null,
+            "hasBall": true,
+            "facing": 1
+          },
+          "marin": {
+            "clip": "idle",
+            "tick": 1,
+            "hasBall": false
+          },
+          "selection": {
+            "src": "./public/assets/animation/kraken-receive-right.webp",
+            "frame": 3,
+            "flip": false
+          },
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "lastTouch": "kraken",
+            "x": 102,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "event": "Kraken catches it",
+          "catchCorrection": {
+            "x": 0,
+            "z": 0.0
+          },
+          "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step12-receive-tick07-zoom120.png"
+        }
+      ],
+      "final": {
+        "step": 12,
+        "kraken": {
+          "clip": "receive",
+          "tick": 7,
+          "action": null,
+          "hasBall": true,
+          "facing": 1
+        },
+        "marin": {
+          "clip": "idle",
+          "tick": 1,
+          "hasBall": false
+        },
+        "selection": {
+          "src": "./public/assets/animation/kraken-receive-right.webp",
+          "frame": 3,
+          "flip": false
+        },
+        "ball": {
+          "mode": "carried",
+          "owner": "kraken",
+          "lastTouch": "kraken",
+          "x": 102,
+          "y": 75,
+          "z": 1.2,
+          "vx": 0,
+          "vy": 0,
+          "vz": 0
+        },
+        "score": [
+          0,
+          0
+        ],
+        "event": "Kraken catches it",
+        "catchCorrection": {
+          "x": 0,
+          "z": 0.0
+        },
+        "capture": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/gameplay-left-step12-receive-tick07-zoom120.png"
+      }
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 52
+}

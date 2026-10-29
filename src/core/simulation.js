@@ -1,4 +1,4 @@
-import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward, flightHeightFromHand } from './animation.js';
+import { animationClips, sampleAnimation, animationDuration, anchorTick, dunkVariants, sampleBallHeight, sampleBallForward, sampleBallReleaseVz, flightHeightFromHand } from './animation.js';
 const COURT = { minX: 0, maxX: 200, minY: 0, maxY: 100,
   hoops: [200 * 5.25 / 94, 200 * (1 - 5.25 / 94)],
   arcX: 200 * 23.75 / 94, arcY: 100 * 23.75 / 50, cornerY: 100 * 3 / 50,
@@ -101,13 +101,13 @@ function giveBall(match, player, announce = '', preserveAssist = false) {
   if (announce) event(match, announce);
 }
 function event(match, text) { match.lastEvent = text; match.events.push({ tick: Math.round((match.quarterSeconds - match.clock) * 60), text }); if (match.events.length > 60) match.events.shift(); }
-export function commitScore(match, attempt) {
+export function commitScore(match, attempt, {preserveAnimation = false} = {}) {
   if (!attempt?.id || match.scoredAttempts?.includes(attempt.id) || match.phase === 'final') return false;
   match.scoredAttempts ??= [];
   match.scoredAttempts.push(attempt.id);
   match.score[attempt.team] += attempt.points;
   const scorer = playerById(match, attempt.playerId);
-  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; if(attempt.id.startsWith('dunk-'))scorer.dunks++; scorer.madeRun++;scorer.highestStreak=Math.max(scorer.highestStreak,scorer.madeRun);if(scorer.onFire)scorer.fireGoals++; startAnimation(scorer,'celebrate'); }
+  if (scorer) { scorer.points += attempt.points; scorer.fgm++; if(attempt.points===3)scorer.threeMakes++; if(attempt.id.startsWith('dunk-'))scorer.dunks++; scorer.madeRun++;scorer.highestStreak=Math.max(scorer.highestStreak,scorer.madeRun);if(scorer.onFire)scorer.fireGoals++; if(!preserveAnimation)startAnimation(scorer,'celebrate'); }
   const assister=playerById(match,match.assistCandidateId);
   if(assister&&assister.team===attempt.team&&assister.id!==scorer?.id)assister.assists++;
   match.assistCandidateId=null;
@@ -138,7 +138,7 @@ function makeShot(match, player, chargeFrames = 0) {
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   // Preserve the rendered hand elevation when the attached ball becomes a projectile.
   const releaseHeight=flightHeightFromHand(sampleBallHeight(player.animation.clip,player.animation.tick,player.id),player.z);
-  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? 1.05 + Math.min(.3,distance*.002) : .88 + rand(match)*.35;
+  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? (sampleBallReleaseVz(player.animation.clip,player.id) ?? 1.05 + Math.min(.3,distance*.002)) : .88 + rand(match)*.35;
   const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-2.6)))/.026;
   const releaseDistance=Math.abs(hoop-match.ball.x);
   match.ball.vx = (Math.sign(hoop-match.ball.x)||direction) * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);
@@ -155,7 +155,7 @@ function passBall(match, player, turbo, alleyOop = false) {
   const clip=player.animation.clip,tick=player.animation.tick;
   const releaseX=player.x+player.facing*sampleBallForward(clip,tick,player.id),releaseZ=player.z+sampleBallHeight(clip,tick,player.id);
   const dx = target.x-releaseX, dy = target.y-player.y, d = hypot(dx,dy)||1;
-  releaseOwner(match); match.ball.alleyOop=alleyOop;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = releaseX; match.ball.y = player.y; match.ball.z = releaseZ; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = .02;
+  releaseOwner(match); match.ball.alleyOop=alleyOop;match.assistCandidateId=player.id; match.ball.mode = 'pass'; match.ball.targetId = target.id; match.ball.lastTouch = player.id; match.ball.x = releaseX; match.ball.y = player.y; match.ball.z = releaseZ; match.ball.vx = dx/d*(turbo?1.7:1.15); match.ball.vy = dy/d*(turbo?1.4:.95); match.ball.vz = sampleBallReleaseVz(clip,player.id) ?? .02;
   const hoop=target.team===0?COURT.hoops[1]:COURT.hoops[0];
   if(alleyOop&&target.stun===0&&hypot(hoop-target.x,50-target.y)<22){
     const reverse=alleyOop==='reverse'||alleyOop==='alley-oop-reverse'||(alleyOop!== 'power'&&alleyOop!=='alley-oop-power'&&target.facing!==(target.team===0?1:-1));
@@ -246,7 +246,7 @@ function advanceAnimations(match){
       if(a.tick===anchorTick('steal','grab')){
         delete a.action;const holder=playerById(match,action.targetId);
         if(holder&&holder.team!==p.team&&holder.stun===0&&holder.hasBall&&match.ball.mode==='carried'&&match.ball.ownerId===holder.id&&hypot(holder.x-p.x,holder.y-p.y)<8&&rand(match)<.1+p.steal/400){
-          holder.stun=30;p.steals++;match.ball.mode='loose';releaseOwner(match);Object.assign(match.ball,{x:holder.x,y:holder.y,z:1.3,vx:-holder.facing*.42,vy:(rand(match)-.5)*.35,vz:.12,lastTouch:p.id});event(match,`${p.name} pokes it loose!`);
+          const contact=heldBallPoint(p);holder.stun=30;p.steals++;match.ball.mode='loose';releaseOwner(match);Object.assign(match.ball,{...contact,vx:-holder.facing*.42,vy:(rand(match)-.5)*.35,vz:.12,lastTouch:p.id});event(match,`${p.name} pokes it loose!`);
         }
       }
     }else if(action?.kind==='push'){
@@ -257,7 +257,7 @@ function advanceAnimations(match){
         const chance=hasCarriedBall?clamp(.08+p.strength/400,.08,.32):clamp(.18+p.strength/250,.18,.58);
         if(target&&hypot(target.x-p.x,target.y-p.y)<6&&rand(match)<chance){
           const dx=target.x-p.x,dy=target.y-p.y,d=hypot(dx,dy),separated=dx*dx+dy*dy>1e-12,nx=separated?dx/d:(p.facing||1),ny=separated?dy/d:0;
-          if(hasCarriedBall){const ball=match.ball;releaseOwner(match);Object.assign(ball,{mode:'loose',ownerId:null,targetId:null,aerialTargetId:null,attemptId:null,scored:false,vx:nx*.36,vy:ny*.36,vz:.14,lastTouch:p.id});}
+          if(hasCarriedBall){const ball=match.ball;releaseOwner(match);match.pushContactActorId=p.id;Object.assign(ball,{mode:'loose',ownerId:null,targetId:null,aerialTargetId:null,attemptId:null,scored:false,vx:nx*.36,vy:ny*.36,vz:.14,lastTouch:p.id});}
           target.stun=45;startAnimation(target,'fall','knockdown');target.vx=nx*.58;target.vy=ny*.58;p.knockdowns++;event(match,hasCarriedBall?`${p.name} jars ${target.name}'s ball loose!`:`${p.name} knocks ${target.name} down!`);
         }
       }
@@ -279,11 +279,11 @@ function advanceAnimations(match){
         action.released=true;action.attemptId=`dunk-${match.nextAttempt++}`;p.fga++;
         releaseOwner(match);Object.assign(match.ball,{mode:'dunk',attemptId:action.attemptId,lastTouch:p.id,value:2,x:hoop,y:50,z:3,vx:0,vy:0,vz:0,made:true,targetX:hoop,targetY:50,targetZ:2.3,scored:false,rim:false,backboard:false});
       }
-      if(a.tick===finish){delete a.action;commitScore(match,{id:action.attemptId,team:p.team,playerId:p.id,points:2});}
+      if(a.tick===finish){delete a.action;if(commitScore(match,{id:action.attemptId,team:p.team,playerId:p.id,points:2},{preserveAnimation:true}))a.celebrateAfterCompletion=true;}
     } else if(action&&a.tick===anchorTick(a.clip,'release')){
       delete a.action;if(action.kind==='shot')makeShot(match,p,action.charge);else passBall(match,p,action.turbo,action.alleyOop);
     }
-    if(sampleAnimation(a.clip,a.tick).done&&!p.animation.action){const clip=p.hasBall?'idle-ball':'idle';startAnimation(p,clip,'idle');}
+    if(sampleAnimation(a.clip,a.tick).done&&!p.animation.action){const clip=a.celebrateAfterCompletion?'celebrate':p.hasBall?'idle-ball':'idle';startAnimation(p,clip,'idle');}
   }
 }
 function syncLocomotion(match,inputs){
@@ -401,7 +401,7 @@ function integrateBall(match) {
     if(target&&hypot(target.x-b.x,target.y-b.y)<6){scheduleCatch(match,target,'receive',true);}
   }
   if(b.z<=0){b.z=0;b.vz=Math.abs(b.vz)*.55;if(Math.abs(b.vz)<.08)b.vz=.14;b.vx*=.82;b.vy*=.82;}
-  const candidates=match.players.filter(p=>p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
+  const candidates=match.players.filter(p=>p.id!==match.pushContactActorId&&p.stun===0&&hypot(p.x-b.x,p.y-b.y)<4.5&&b.z<3&&!(b.mode==='pass'&&p.id===b.lastTouch&&hypot(p.x-b.x,p.y-b.y)<5)).sort((a,c)=>hypot(a.x-b.x,a.y-b.y)-hypot(c.x-b.x,c.y-b.y));
   if(candidates.length){const p=candidates[0];const pickup=b.z<1&&Math.hypot(b.vx,b.vy)<.24;const clip=b.mode==='pass'?(playerById(match,b.lastTouch)?.team===p.team?'receive':'steal'):pickup?'pickup':'rebound';scheduleCatch(match,p,clip,b.mode==='pass');}
 
   if(b.x<COURT.minX-5||b.x>COURT.maxX+5||b.y< -5||b.y>105){const lastTouch=playerById(match,b.lastTouch),offense=lastTouch?.team??match.possession,inbound=1-offense;if(lastTouch)lastTouch.turnovers++;b.x=100;b.y=50;b.z=1;b.vx=0;b.vy=0;b.vz=0;b.mode='dead';match.possession=inbound;match.pendingInboundTeam=inbound;match.shotClock=24;releaseOwner(match);b.lastTouch=`team-${offense}`;match.scorePause=30;event(match,'Out of bounds — quick opposing inbound');}
@@ -433,6 +433,7 @@ export function stepMatch(match, inputFrames = []) {
   syncLocomotion(match,allInputs);
   resolveShotBlock(match);
   integrateBall(match);
+  match.pushContactActorId=null;
   if(!match.practice)match.clock=Math.max(0,match.clock-1/60);
   if(!match.practice)match.shotClock=Math.max(0,match.shotClock-1/60);
   match.possessionAge++;

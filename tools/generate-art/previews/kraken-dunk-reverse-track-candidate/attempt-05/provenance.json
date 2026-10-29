@@ -1,0 +1,37 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-reverse",
+  "trackAttempt": 5,
+  "status": "independent candidate gameplay review passed; not production registered",
+  "generatedAt": "2026-10-29T05:30:00Z",
+  "trackFile": "tools/generate-art/previews/kraken-dunk-reverse-track-candidate/attempt-05/track.json",
+  "trackSha256": "a29755f5100ff792effd6dfb1ee69902d4cb700e1c4b4f4f2b9ac68a7e5d84b0",
+  "sourceRaw": "tools/generate-art/sources/kraken-dunk-reverse-attempt04-generated-raw.png",
+  "sourceRawSha256": "0f4199b0dfc401f0004d077266c3d3211465d7e628ec57dacecf340d4fe19e50",
+  "cleanupAtlas": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+  "cleanupAtlasSha256": "1b3b57281f839449c256308014cf26f8bf87e1c2b5a365fdbe743babb2ecea42",
+  "calibrationHistory": {
+    "attempt01": "Krios attempt03 values copied only as a seed; missed contact at frames8/9.",
+    "attempt02": "Lowered height and moved forward for target hands, but overshot: independent reviewer rejected torso/shoulder contact at frame8 and gap below hand at frame9.",
+    "attempt03": "Moved frame8/9 toward hand centers; visually still separated in attempt04, retained captures.",
+    "attempt04": "Small further adjustment; retained captures as an iteration, not independently reviewed.",
+    "attempt05": "Adjusted frame8 forward to 3.5 and frame9 height/forward to -0.1/1.5; independent reviewer passes contact at frames8/9."
+  },
+  "candidateCapture": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-05/report.json",
+  "candidateCaptureSha256": "a71792bba7087832b441788620469eea5521d79af484d07405b638e603013b6d",
+  "captureScript": "tools/capture-kraken-dunk-reverse-candidate.py",
+  "captureScriptSha256": "10a6c1a13f28610379e70931197098aa2007e1631d46e3b0332739321377fd20",
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": true,
+  "runtimeIntegration": false,
+  "captureCount": 60,
+  "runs": [
+    "right/100",
+    "left/100",
+    "right/120",
+    "left/120"
+  ],
+  "gameplayReview": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-05/INDEPENDENT_GAMEPLAY_REVIEW.md",
+  "gameplayReviewSha256": "e2a7a48dd2067e57db01ff7fc1932d28c1490767e602b4948ecc8d6292cc797c",
+  "reviewSummary": "Both-facing 120% captures close the prior ball/hand gaps at frames8 and9. All 60 captures select frames0\u201314 in order with correct mirror; tick21 rim release, tick23 two-point score, tick30 recovery, no browser errors. Candidate gameplay pass only; normal-loader review and production acceptance remain outstanding."
+}

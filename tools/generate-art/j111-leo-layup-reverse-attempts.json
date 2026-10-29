@@ -1,0 +1,96 @@
+{
+  "athlete": "leo",
+  "clip": "layup-reverse",
+  "status": "source-art-accepted-track-calibration-pending",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-fa0962a1-f8c3-43d9-8fcc-44302ad2caa8",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-face-fix-edit-prompt.md",
+      "reference": "original source sheet",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-face-fix-rejected-01.png",
+      "sha256": "7c6d295b3ab045af600b7ff42633cd0210415ecdbf8470ade8f07c49580753b4",
+      "review": "Rejected: smooth painterly backdrop is opaque/nontransparent and style diverges; profile improved but output is not packable."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-972f7585-a593-4042-8e40-cc3b925075b9",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-face-fix-edit-prompt2.md",
+      "reference": "original source sheet plus rejected attempt 1 as face-profile reference",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-face-fix-rejected-02.png",
+      "sha256": "078dc241067e077102df7c6abaa846cd8deb0398d1927b6c6569f742ac8134fd",
+      "review": "Rejected: retains smooth painterly brown background and wrong rendering style; not packable."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-6c41e511-57a1-4910-bd95-cfda354cb796",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-prompt-attempt2.md",
+      "reference": "Leo gameplay identity, original sheet, rejected attempt 1 for face reference",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-rejected-03.png",
+      "sha256": "8e0a7a583750b0ab71d663d77477c86fc808b5cff4202e882f1ad90ccc7064da",
+      "review": "Rejected: opaque painterly brown background and basketball-like props appear in several poses despite explicit prohibition."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-008ef105-c8fd-4280-955c-20adbcc37376",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-face-fix-edit-prompt3.md",
+      "reference": "original source sheet",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-rejected-04.png",
+      "sha256": "268d14779b91662218839608c65914eba19e08c49ff6a8d3dbe78c21248a7869",
+      "review": "Rejected: again renders a brown opaque background instead of transparent gutters; style mismatch prevents packaging."
+    },
+    {
+      "attempt": 5,
+      "generationId": "exec-d93365ce-0ee6-46e0-862c-2ea73eb4c9bf",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-pose05-facefix-attempt01-prompt.md",
+      "reference": "pose05 4x crop plus Leo identity atlas",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-pose05-facefix-attempt01-generated-raw.png",
+      "sha256": "29c3f02d865c59cbd555ed90964c705e779402841ce2505d37994585824229c6",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "derivedCell": "tools/generate-art/sources/j111-leo-layup-reverse-pose05-facefix-attempt01-cell.png",
+      "candidateAtlas": "tools/generate-art/sources/j111-leo-layup-reverse-attempt05-facefix-atlas.png",
+      "review": "Rejected after independent packed-scale review: edit preserved pose but frame5 profile and mustache remain unreadable at 80x96.",
+      "promptSha256": "aab8feea34f692e8d0ba6010a9b5fe128684fe398326cbe6d8f877f6ec162767"
+    },
+    {
+      "attempt": 6,
+      "generationId": "exec-ad359e27-75b9-43c1-af84-f9911bd6e978",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-pose05-facefix-attempt02-prompt.md",
+      "reference": "pose05 corrected full-body crop plus Leo identity atlas",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-pose05-facefix-attempt02-generated-raw.png",
+      "sha256": "24cfa87f419807d242da3d28cd79f0191f277192b939d345b2a780ea16e33342",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "mode": "RGBA",
+      "derivedCell": "tools/generate-art/sources/j111-leo-layup-reverse-pose05-facefix-attempt02-cell.png",
+      "precleanupAtlas": "tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-atlas.png",
+      "cleanupScript": "tools/generate-art/clean-j111-leo-layup-reverse-facefix-attempt06.py",
+      "acceptedCleanedAtlas": "tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "cleanedAtlasSha256": "5357ac7a2e36bf376e2979c2d72673add73f94fd631be595a3c281fc3cd4ab6a",
+      "review": "Face readability passed independent packed-size review; two low-alpha off-palette isolated pixels removed at explicit coordinates and independently re-reviewed; source accepted, track calibration pending.",
+      "promptSha256": "5a2581e3a97227fdc2cd76730a3cff3c0a97da05c816d387bd6c61944a2d8f20"
+    },
+    {
+      "attempt": 7,
+      "generationId": "exec-434fd6ee-da85-431c-9eba-2ba7ce6acf3d",
+      "promptFile": "tools/generate-art/j111-leo-layup-reverse-pose05-headfix-attempt03-prompt.md",
+      "promptSha256": "afb3f29d705144eaddb80fb1ef82df0ca2cd93b6422a09bbf8b4dfc6000b1a3d",
+      "reference": "head-only pose05 crop, 8x enlargement, plus Leo identity atlas",
+      "rawImage": "tools/generate-art/sources/j111-leo-layup-reverse-pose05-headfix-attempt03-generated-raw.png",
+      "sha256": "895bbfe7fa8831b59b3d8872214853b9cb8bf2e6fa2ff8edd982ebad47ebe5fa",
+      "dimensions": [
+        1310,
+        1201
+      ],
+      "mode": "RGBA",
+      "review": "Rejected and preserved: face appears large but output reworked the head/neck/shoulder and broad body-crop instead of a localized pixel patch; selected attempt06 cleanup01 already passed face and seam review with only two isolated specks removed."
+    }
+  ],
+  "latestCandidate": "attempt06 cleanup01 accepted for source art; track calibration pending"
+}

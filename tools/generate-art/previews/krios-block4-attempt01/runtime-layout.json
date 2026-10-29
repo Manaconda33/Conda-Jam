@@ -1,0 +1,111 @@
+{
+  "status": "runtime-size proof; not accepted or registered",
+  "sourceSheet": "tools/generate-art/sources/krios-block4-attempt01-generated-raw.png",
+  "sourceSha256": "86ba7df9103d405a7436469cbb5bd9bbd6bfbba91c4616ede58ac42aeabb941b",
+  "atlas": "tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+  "columns": 4,
+  "rows": 1,
+  "frameWidth": 128,
+  "frameHeight": 96,
+  "sourceToRuntimeScale": 0.16,
+  "baseline": 94,
+  "interpolation": "nearest-neighbor",
+  "frames": [
+    {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        228,
+        176,
+        574,
+        484
+      ],
+      "sourceToRuntimeScale": 0.16,
+      "scaledSize": [
+        55,
+        49
+      ],
+      "offsetInCell": [
+        36,
+        45
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 1,
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        902,
+        9,
+        1294,
+        484
+      ],
+      "sourceToRuntimeScale": 0.16,
+      "scaledSize": [
+        63,
+        76
+      ],
+      "offsetInCell": [
+        32,
+        18
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 2,
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        227,
+        492,
+        660,
+        949
+      ],
+      "sourceToRuntimeScale": 0.16,
+      "scaledSize": [
+        69,
+        73
+      ],
+      "offsetInCell": [
+        29,
+        21
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 3,
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        901,
+        672,
+        1270,
+        992
+      ],
+      "sourceToRuntimeScale": 0.16,
+      "scaledSize": [
+        59,
+        51
+      ],
+      "offsetInCell": [
+        34,
+        43
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    }
+  ]
+}

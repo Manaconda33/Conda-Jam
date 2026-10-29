@@ -1,0 +1,123 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "dunk-360",
+  "src": "./public/assets/animation/kraken-dunk-360-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    }
+  ],
+  "baselineY": 94,
+  "provenance": {
+    "athlete": "kraken",
+    "clip": "dunk-360",
+    "attempt": "05",
+    "generationId": "exec-4e862262-065e-43dd-82b6-43202cea5cee",
+    "generator": "OpenAI ImageGen",
+    "transparentBackgroundRequested": true,
+    "rawFile": "tools/generate-art/sources/kraken-dunk-360-attempt05-generated-raw.png",
+    "rawSha256": "24b9e5f933d4c89c1ca98ed29e7178cdf122ab99e628d8068d23c43332090004",
+    "promptFile": "tools/generate-art/kraken-dunk-360-attempt05-imagegen-prompt.txt",
+    "status": "source independently reviewed; component cleanup/candidate gameplay recommended",
+    "reviewFile": "tools/generate-art/previews/kraken-dunk-360-attempt05/INDEPENDENT_SOURCE_REVIEW.md",
+    "generatedAt": "2026-10-29",
+    "prompt": "tools/generate-art/kraken-dunk-360-attempt05-imagegen-prompt.txt",
+    "cleanupFile": "tools/generate-art/previews/kraken-dunk-360-attempt05/cleanup01/kraken-dunk-360-attempt05-cleanup01-atlas.png",
+    "cleanupReview": "tools/generate-art/previews/kraken-dunk-360-attempt05/cleanup01/INDEPENDENT_CLEANUP01_REVIEW.md",
+    "assetClassification": "derived-cleanup-from-imagegen-source",
+    "packaging": "Lossless WebP from reviewed 440x288 cleanup01 atlas.",
+    "trackAttempt": 10,
+    "trackFile": "tools/generate-art/previews/kraken-dunk-360-track-candidate/attempt-10/track.json",
+    "normalLoaderReview": "tools/generate-art/previews/kraken-dunk-360-attempt05/PRODUCTION_LOADER_REVIEW.md"
+  }
+}

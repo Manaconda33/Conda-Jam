@@ -1,0 +1,76 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "fall",
+  "src": "./public/assets/animation/kraken-fall-right.webp",
+  "columns": 5,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "classification": "original-authored composite; generated source frames with per-frame lineage",
+    "prompt": "frame-lineage composite",
+    "generatedAt": "2026-10-29",
+    "notes": "Composite from attempt02 generated frames0\u20138 and attempt03 pose09. Preserve per-frame generation/prompt/source lineage in `kraken-fall10-attempt03-composite-provenance.json`; no ball included. Cleanup candidate has independent source and cleanup review for candidate/gameplay trials; registration provisional for normal-loader review."
+  }
+}

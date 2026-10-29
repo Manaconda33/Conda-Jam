@@ -1,0 +1,29 @@
+{
+  "athlete": "kraken",
+  "clip": "rebound",
+  "attempt": 4,
+  "status": "unregistered adjusted track trial for cleaned attempt02 art",
+  "height": [
+    0.4,
+    0.2,
+    0.65,
+    0.65,
+    0.75
+  ],
+  "forward": [
+    3,
+    2.5,
+    0,
+    0,
+    1
+  ],
+  "frameStartTicks": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "grabTick": 5,
+  "reference": "Attempt03 lowered catch tick5 too far; review found ball at pelvis while hands were at chest. Attempt04 raises frame3 hand height from .25 to .65 to target chest-level catch. Requires independent review."
+}

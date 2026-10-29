@@ -1,0 +1,1192 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "kraken",
+  "clip": "rebound",
+  "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+  "atlasSha256": "1edc3d86ccf1ef4029ae49ac48bd056353a5e48a67be4ae7bc046129bb3340d0",
+  "productionTrack": "src/core/animation.js",
+  "productionManifest": "public/assets/animation/manifest.json",
+  "runtimeIntegration": "checked-in manifest and core track; production loadProductionSprites invoked directly before live simulation",
+  "candidateAtlasInjected": false,
+  "candidateTrackInjected": false,
+  "court": "current Jam Stage; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "frameDurations": [
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "grabAnchorFrame": 3,
+  "grabAnchorTick": 5,
+  "sampledFrameTicks": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "seed": 14384,
+  "captureMethod": "No manifest or core route is overridden. The production loadProductionSprites function loads the registered WebP from the checked-in manifest; the actual core track is used. A deterministic missed three-pointer from Leo triggers the production shot, live miss, loose-ball flight, scheduled Kraken rebound, tick5 catch and carried chest recovery. The court actors and ball are positioned once before the shot; all later motion uses normal simulation ticks. No per-tick teleporting.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "trajectory": {
+        "launched": true,
+        "reboundStarted": true,
+        "globalStep": 86,
+        "reboundTick": 0,
+        "ballMode": "loose",
+        "ball": {
+          "x": 68.18107610060595,
+          "y": 50.426666666666726,
+          "z": 0.679094909209619
+        },
+        "owner": null,
+        "player": "kraken",
+        "ballTrace": [
+          {
+            "step": 85,
+            "event": "Rebound!",
+            "x": 68.62857508605853,
+            "y": 50.66666666666673,
+            "z": 0,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.679094909209619,
+            "mode": "loose"
+          },
+          {
+            "step": 86,
+            "event": "Rebound!",
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.653094909209619,
+            "mode": "loose"
+          }
+        ],
+        "events": [
+          {
+            "tick": 13,
+            "text": "Leo launches a 3-pointer"
+          },
+          {
+            "tick": 85,
+            "text": "Rebound!"
+          }
+        ]
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "rebound",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 0,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619
+          },
+          "trackPoint": {
+            "height": 0.4,
+            "forward": 3
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "rebound",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 1,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 67.28607812970078,
+            "y": 49.94666666666672,
+            "z": 1.959284727628857
+          },
+          "trackPoint": {
+            "height": 0.2,
+            "forward": 2.5
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "rebound",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 2,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 66.39108015879562,
+            "y": 49.46666666666672,
+            "z": 3.135474546048095
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 0
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "rebound",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 3,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 69,
+            "y": 50.5,
+            "z": 0.95
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 0
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame3-tick5-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "clip": "rebound",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 4,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 70,
+            "y": 50.5,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame4-tick7-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "trajectory": {
+        "launched": true,
+        "reboundStarted": true,
+        "globalStep": 86,
+        "reboundTick": 0,
+        "ballMode": "loose",
+        "ball": {
+          "x": 68.18107610060595,
+          "y": 50.426666666666726,
+          "z": 0.679094909209619
+        },
+        "owner": null,
+        "player": "kraken",
+        "ballTrace": [
+          {
+            "step": 85,
+            "event": "Rebound!",
+            "x": 68.62857508605853,
+            "y": 50.66666666666673,
+            "z": 0,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.679094909209619,
+            "mode": "loose"
+          },
+          {
+            "step": 86,
+            "event": "Rebound!",
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.653094909209619,
+            "mode": "loose"
+          }
+        ],
+        "events": [
+          {
+            "tick": 13,
+            "text": "Leo launches a 3-pointer"
+          },
+          {
+            "tick": 85,
+            "text": "Rebound!"
+          }
+        ]
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "rebound",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 0,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619
+          },
+          "trackPoint": {
+            "height": 0.4,
+            "forward": 3
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "rebound",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 1,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 67.28607812970078,
+            "y": 49.94666666666672,
+            "z": 1.959284727628857
+          },
+          "trackPoint": {
+            "height": 0.2,
+            "forward": 2.5
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "rebound",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 2,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 66.39108015879562,
+            "y": 49.46666666666672,
+            "z": 3.135474546048095
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 0
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "rebound",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 3,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 69,
+            "y": 50.5,
+            "z": 0.95
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 0
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame3-tick5-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "clip": "rebound",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 4,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 68,
+            "y": 50.5,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame4-tick7-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "trajectory": {
+        "launched": true,
+        "reboundStarted": true,
+        "globalStep": 86,
+        "reboundTick": 0,
+        "ballMode": "loose",
+        "ball": {
+          "x": 68.18107610060595,
+          "y": 50.426666666666726,
+          "z": 0.679094909209619
+        },
+        "owner": null,
+        "player": "kraken",
+        "ballTrace": [
+          {
+            "step": 85,
+            "event": "Rebound!",
+            "x": 68.62857508605853,
+            "y": 50.66666666666673,
+            "z": 0,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.679094909209619,
+            "mode": "loose"
+          },
+          {
+            "step": 86,
+            "event": "Rebound!",
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.653094909209619,
+            "mode": "loose"
+          }
+        ],
+        "events": [
+          {
+            "tick": 13,
+            "text": "Leo launches a 3-pointer"
+          },
+          {
+            "tick": 85,
+            "text": "Rebound!"
+          }
+        ]
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "rebound",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 0,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619
+          },
+          "trackPoint": {
+            "height": 0.4,
+            "forward": 3
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "rebound",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 1,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 67.28607812970078,
+            "y": 49.94666666666672,
+            "z": 1.959284727628857
+          },
+          "trackPoint": {
+            "height": 0.2,
+            "forward": 2.5
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "rebound",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 2,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 66.39108015879562,
+            "y": 49.46666666666672,
+            "z": 3.135474546048095
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 0
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "rebound",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 3,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 69,
+            "y": 50.5,
+            "z": 0.95
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 0
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame3-tick5-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "clip": "rebound",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": false,
+          "expectedFrame": 4,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 70,
+            "y": 50.5,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/right-frame4-tick7-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "trajectory": {
+        "launched": true,
+        "reboundStarted": true,
+        "globalStep": 86,
+        "reboundTick": 0,
+        "ballMode": "loose",
+        "ball": {
+          "x": 68.18107610060595,
+          "y": 50.426666666666726,
+          "z": 0.679094909209619
+        },
+        "owner": null,
+        "player": "kraken",
+        "ballTrace": [
+          {
+            "step": 85,
+            "event": "Rebound!",
+            "x": 68.62857508605853,
+            "y": 50.66666666666673,
+            "z": 0,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.679094909209619,
+            "mode": "loose"
+          },
+          {
+            "step": 86,
+            "event": "Rebound!",
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619,
+            "vx": -0.44749898545257755,
+            "vy": -0.24,
+            "vz": 0.653094909209619,
+            "mode": "loose"
+          }
+        ],
+        "events": [
+          {
+            "tick": 13,
+            "text": "Leo launches a 3-pointer"
+          },
+          {
+            "tick": 85,
+            "text": "Rebound!"
+          }
+        ]
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "rebound",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 0,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 68.18107610060595,
+            "y": 50.426666666666726,
+            "z": 0.679094909209619
+          },
+          "trackPoint": {
+            "height": 0.4,
+            "forward": 3
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "rebound",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 1,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 67.28607812970078,
+            "y": 49.94666666666672,
+            "z": 1.959284727628857
+          },
+          "trackPoint": {
+            "height": 0.2,
+            "forward": 2.5
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "rebound",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 2,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": false,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "x": 66.39108015879562,
+            "y": 49.46666666666672,
+            "z": 3.135474546048095
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 0
+          },
+          "ballHandDelta": null,
+          "rebounds": 0,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "rebound",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 3,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 69,
+            "y": 50.5,
+            "z": 0.95
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 0
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame3-tick5-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "clip": "rebound",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-rebound-right.webp",
+          "flip": true,
+          "expectedFrame": 4,
+          "manifestReviewed": true,
+          "loadedImage": {
+            "present": true,
+            "complete": true,
+            "naturalWidth": 400
+          },
+          "score": [
+            0,
+            0
+          ],
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 68,
+            "y": 50.5,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1
+          },
+          "ballHandDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "rebounds": 1,
+          "events": [
+            {
+              "tick": 13,
+              "text": "Leo launches a 3-pointer"
+            },
+            {
+              "tick": 85,
+              "text": "Rebound!"
+            },
+            {
+              "tick": 91,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-rebound-right.webp",
+          "path": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-08/normal-loader/left-frame4-tick7-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 20
+}

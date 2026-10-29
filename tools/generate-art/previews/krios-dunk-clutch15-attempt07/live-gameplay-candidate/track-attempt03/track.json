@@ -1,0 +1,69 @@
+{
+  "athlete": "krios",
+  "clip": "dunk-clutch",
+  "attempt": 3,
+  "sourceAtlas": "tools/generate-art/previews/krios-dunk-clutch15-attempt07/krios-dunk-clutch15-attempt07-runtime-candidate.png",
+  "sourceAtlasSha256": "26e8cb3cc5511a9a3a2d5495b523a8de4b1b47cb790f0481b2ea3764b3fbb9471",
+  "target": {
+    "heldContactFrames": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "landTick": 30,
+    "facings": [
+      "right",
+      "left"
+    ],
+    "zoomPercent": [
+      100,
+      120
+    ]
+  },
+  "track": {
+    "height": [
+      0.95,
+      1.0,
+      1.1,
+      1.3,
+      1.5,
+      0.6,
+      0.6,
+      1.0,
+      1.7,
+      1.55,
+      1.55,
+      1.5,
+      1.0,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      5,
+      6,
+      8,
+      10,
+      9,
+      2,
+      1.5,
+      2,
+      6.5,
+      -2,
+      -2,
+      10,
+      7,
+      5,
+      4
+    ]
+  },
+  "notes": "Trial03 lowers the frame5 chest contact slightly, raises low-clutch frame6 from trial02, raises frame7 to the rib line, and aligns frame8 with the extended hand. Frame9 and its interpolated frame10 endpoint share a low/near-head hand position to avoid the premature forward jump seen at tick20 in trials01/02. Production release remains tick21.",
+  "rejected": false,
+  "rejectionEvidence": [],
+  "reviewStatus": "PASS FOR CANDIDATE-ONLY LIVE TRACK REVIEW; not registered",
+  "liveReport": "tools/generate-art/previews/krios-dunk-clutch15-attempt07/live-gameplay-candidate/track-attempt03/native/report.json",
+  "liveReportSha256": "5102034810374dd6c4b7a35ecb5f36476d11ab9b1649cdecca8b976a431c9c9e"
+}

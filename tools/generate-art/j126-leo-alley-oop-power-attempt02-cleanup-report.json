@@ -1,0 +1,164 @@
+{
+  "rawSource": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-generated-raw.png",
+  "rawSha256": "c8020c3e11ee47e3b44bd30479f4fbff34d4d8dd190077cbe53fc009849525cb",
+  "cleanedSource": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-cleaned-components.png",
+  "cleanedSourceSha256": "cdffd600486188363b31d2d4384515d8b9a6477ba7ae746ea0e6e0b99724de0c",
+  "thresholdAlphaBelow": 16,
+  "retainedFigureComponents": 15,
+  "removedComponents": 0,
+  "removedVisiblePixels": 0,
+  "discardedAlphaPixels": 144965,
+  "componentBounds": [
+    {
+      "poseIndex": 0,
+      "bbox": [
+        47,
+        58,
+        288,
+        318
+      ],
+      "pixels": 24973
+    },
+    {
+      "poseIndex": 1,
+      "bbox": [
+        408,
+        90,
+        605,
+        320
+      ],
+      "pixels": 22238
+    },
+    {
+      "poseIndex": 2,
+      "bbox": [
+        682,
+        35,
+        890,
+        320
+      ],
+      "pixels": 24154
+    },
+    {
+      "poseIndex": 3,
+      "bbox": [
+        1010,
+        22,
+        1175,
+        314
+      ],
+      "pixels": 21385
+    },
+    {
+      "poseIndex": 4,
+      "bbox": [
+        1333,
+        12,
+        1488,
+        302
+      ],
+      "pixels": 22627
+    },
+    {
+      "poseIndex": 5,
+      "bbox": [
+        68,
+        377,
+        212,
+        648
+      ],
+      "pixels": 20582
+    },
+    {
+      "poseIndex": 6,
+      "bbox": [
+        391,
+        368,
+        537,
+        651
+      ],
+      "pixels": 20592
+    },
+    {
+      "poseIndex": 7,
+      "bbox": [
+        698,
+        338,
+        828,
+        662
+      ],
+      "pixels": 21039
+    },
+    {
+      "poseIndex": 8,
+      "bbox": [
+        1007,
+        382,
+        1150,
+        654
+      ],
+      "pixels": 19123
+    },
+    {
+      "poseIndex": 9,
+      "bbox": [
+        1345,
+        419,
+        1491,
+        666
+      ],
+      "pixels": 20248
+    },
+    {
+      "poseIndex": 10,
+      "bbox": [
+        68,
+        715,
+        257,
+        986
+      ],
+      "pixels": 23813
+    },
+    {
+      "poseIndex": 11,
+      "bbox": [
+        385,
+        722,
+        549,
+        1004
+      ],
+      "pixels": 23425
+    },
+    {
+      "poseIndex": 12,
+      "bbox": [
+        645,
+        720,
+        900,
+        1004
+      ],
+      "pixels": 27244
+    },
+    {
+      "poseIndex": 13,
+      "bbox": [
+        970,
+        746,
+        1203,
+        1004
+      ],
+      "pixels": 26586
+    },
+    {
+      "poseIndex": 14,
+      "bbox": [
+        1327,
+        781,
+        1480,
+        1004
+      ],
+      "pixels": 21721
+    }
+  ],
+  "method": "Preserved the 15 largest >=50-pixel alpha>=16 connected components, one uniquely assigned to each source-grid cell; discarded all low-alpha and detached non-figure pixels. Raw source is unmodified."
+}

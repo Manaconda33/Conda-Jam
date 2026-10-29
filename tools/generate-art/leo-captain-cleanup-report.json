@@ -1,0 +1,298 @@
+{
+  "athlete": "leo",
+  "sourceClassification": "original-authored",
+  "operation": "remove detached alpha components, exterior haze, and isolated non-canon chromatic edge pixels from copied atlas cells",
+  "componentLimit": 6,
+  "clips": [
+    {
+      "clip": "block",
+      "source": "public/assets/animation/leo-block-right.webp",
+      "output": "public/assets/animation/leo-block-captain-reviewed-right.webp",
+      "width": 160,
+      "height": 192,
+      "sourceFrames": 4,
+      "removed": [],
+      "sourceSha256": "6548f3ad697c57db25affd42855ad6e0851f46fa285bc2ad49ae81c6d1b8e766",
+      "fringeRemoved": [
+        {
+          "frame": 0,
+          "pixels": 266
+        },
+        {
+          "frame": 1,
+          "pixels": 360
+        },
+        {
+          "frame": 2,
+          "pixels": 380
+        },
+        {
+          "frame": 3,
+          "pixels": 245
+        }
+      ],
+      "chromaRemoved": [
+        {
+          "frame": 0,
+          "pixels": 2
+        },
+        {
+          "frame": 3,
+          "pixels": 1
+        }
+      ],
+      "outputSha256": "5da31c4643e0a806e641e09d431caf3e07d8d28b28b82ed480f43c83a7675054"
+    },
+    {
+      "clip": "push",
+      "source": "public/assets/animation/leo-push-right.webp",
+      "output": "public/assets/animation/leo-push-captain-reviewed-right.webp",
+      "width": 448,
+      "height": 288,
+      "sourceFrames": 11,
+      "removed": [],
+      "sourceSha256": "dd1e6250f62ae2db2de1f7699d794d277d0b04c34177e04925ca10395c4e0d4c",
+      "fringeRemoved": [
+        {
+          "frame": 0,
+          "pixels": 524
+        },
+        {
+          "frame": 1,
+          "pixels": 519
+        },
+        {
+          "frame": 2,
+          "pixels": 539
+        },
+        {
+          "frame": 3,
+          "pixels": 491
+        },
+        {
+          "frame": 4,
+          "pixels": 530
+        },
+        {
+          "frame": 5,
+          "pixels": 509
+        },
+        {
+          "frame": 6,
+          "pixels": 489
+        },
+        {
+          "frame": 7,
+          "pixels": 458
+        },
+        {
+          "frame": 8,
+          "pixels": 496
+        },
+        {
+          "frame": 9,
+          "pixels": 505
+        },
+        {
+          "frame": 10,
+          "pixels": 456
+        }
+      ],
+      "chromaRemoved": [
+        {
+          "frame": 0,
+          "pixels": 1
+        },
+        {
+          "frame": 1,
+          "pixels": 2
+        },
+        {
+          "frame": 2,
+          "pixels": 3
+        },
+        {
+          "frame": 3,
+          "pixels": 1
+        },
+        {
+          "frame": 4,
+          "pixels": 2
+        },
+        {
+          "frame": 5,
+          "pixels": 3
+        },
+        {
+          "frame": 6,
+          "pixels": 2
+        },
+        {
+          "frame": 7,
+          "pixels": 2
+        },
+        {
+          "frame": 8,
+          "pixels": 3
+        },
+        {
+          "frame": 9,
+          "pixels": 3
+        },
+        {
+          "frame": 10,
+          "pixels": 5
+        }
+      ],
+      "outputSha256": "e087b87834e29b72742fa1158c6a77feafde51c81f1d38016b1e8ee9a86a47f1"
+    },
+    {
+      "clip": "fall",
+      "source": "public/assets/animation/leo-fall-right.webp",
+      "output": "public/assets/animation/leo-fall-captain-reviewed-right.webp",
+      "width": 480,
+      "height": 192,
+      "sourceFrames": 10,
+      "removed": [],
+      "sourceSha256": "9be6114d8023179a95f643b99968c61980fd46ba955432c59da34cfd190ee315",
+      "fringeRemoved": [
+        {
+          "frame": 0,
+          "pixels": 498
+        },
+        {
+          "frame": 1,
+          "pixels": 453
+        },
+        {
+          "frame": 2,
+          "pixels": 420
+        },
+        {
+          "frame": 3,
+          "pixels": 331
+        },
+        {
+          "frame": 4,
+          "pixels": 233
+        },
+        {
+          "frame": 5,
+          "pixels": 323
+        },
+        {
+          "frame": 6,
+          "pixels": 278
+        },
+        {
+          "frame": 7,
+          "pixels": 367
+        },
+        {
+          "frame": 8,
+          "pixels": 574
+        },
+        {
+          "frame": 9,
+          "pixels": 406
+        }
+      ],
+      "chromaRemoved": [
+        {
+          "frame": 0,
+          "pixels": 7
+        },
+        {
+          "frame": 1,
+          "pixels": 3
+        },
+        {
+          "frame": 2,
+          "pixels": 3
+        },
+        {
+          "frame": 3,
+          "pixels": 2
+        },
+        {
+          "frame": 4,
+          "pixels": 3
+        },
+        {
+          "frame": 5,
+          "pixels": 2
+        },
+        {
+          "frame": 6,
+          "pixels": 1
+        },
+        {
+          "frame": 7,
+          "pixels": 5
+        },
+        {
+          "frame": 8,
+          "pixels": 4
+        },
+        {
+          "frame": 9,
+          "pixels": 2
+        }
+      ],
+      "outputSha256": "377e735e2748c0100723ffef7377255dc72a439493e0b14bcb6615faecf33a6c"
+    },
+    {
+      "clip": "celebrate",
+      "source": "public/assets/animation/leo-celebrate-right.webp",
+      "output": "public/assets/animation/leo-celebrate-captain-reviewed-right.webp",
+      "width": 400,
+      "height": 192,
+      "sourceFrames": 10,
+      "removed": [],
+      "sourceSha256": "3b421d87ec78c3f0598b2847affe71e1636620a6415a6656df347671406174e5",
+      "fringeRemoved": [
+        {
+          "frame": 0,
+          "pixels": 258
+        },
+        {
+          "frame": 1,
+          "pixels": 367
+        },
+        {
+          "frame": 2,
+          "pixels": 254
+        },
+        {
+          "frame": 3,
+          "pixels": 330
+        },
+        {
+          "frame": 4,
+          "pixels": 303
+        },
+        {
+          "frame": 5,
+          "pixels": 284
+        },
+        {
+          "frame": 6,
+          "pixels": 321
+        },
+        {
+          "frame": 7,
+          "pixels": 258
+        },
+        {
+          "frame": 8,
+          "pixels": 254
+        },
+        {
+          "frame": 9,
+          "pixels": 258
+        }
+      ],
+      "outputSha256": "0d001ca25f4da978678ee359c7fc1a1b66a463928c971f9b55972128c0795b32"
+    }
+  ]
+}

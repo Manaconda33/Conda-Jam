@@ -1,0 +1,32 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-scythe",
+  "attempt": 2,
+  "generationId": "exec-0b77099b-4ead-4619-8538-e9638f7d3e8d",
+  "generatedAt": "2026-10-29T05:11:00Z",
+  "promptFile": "tools/generate-art/kraken-dunk-scythe-attempt02-imagegen-prompt.txt",
+  "promptSha256": "6a365fe056b042134f17ad3308ee590381236bfbaf11c3cc0aa20a65cc300185",
+  "sourceFile": "tools/generate-art/sources/kraken-dunk-scythe-attempt02-generated-raw.png",
+  "sourceSha256": "cf884557a0df46049b5625172bb216bb3a1152ec0fc804b752560ecc8b8d4a52",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA"
+  },
+  "transparentBackgroundRequested": true,
+  "alpha": {
+    "minimum": 0,
+    "maximum": 254
+  },
+  "status": "accepted as derived cleanup after independent art/gameplay review and current-branch no-injection production-loader review",
+  "notes": "Cleanup03 scaled-repack and track02 passed independent art/gameplay review. Current branch captures confirm all 15 poses and separate Kraken hand track; independent isolated loader review preserved. Slightly darker/noisier shading than idle is documented; anatomy, identity, margins, scale, and pixel edges pass.",
+  "cleanup03ScaledDerivative": {
+    "script": "tools/generate-art/scale-kraken-dunk-scythe-attempt02-cleanup03.py",
+    "atlas": "tools/generate-art/previews/kraken-dunk-scythe-attempt02/cleanup03-scaled-repack/kraken-dunk-scythe-attempt02-cleanup03-atlas.png",
+    "report": "tools/generate-art/previews/kraken-dunk-scythe-attempt02/cleanup03-scaled-repack/cleanup-layout-report.json",
+    "atlasSha256": "baef51515b6f0f5041ced9ea436736928e6d4924eac9ec83ae80dac02e588c54",
+    "status": "accepted production source; 15-frame cleanup03 used by registered WebP"
+  },
+  "productionAsset": "public/assets/animation/kraken-dunk-scythe-right.webp",
+  "normalLoaderReviewFile": "tools/generate-art/previews/kraken-dunk-scythe-attempt02/PRODUCTION_LOADER_REVIEW.md"
+}

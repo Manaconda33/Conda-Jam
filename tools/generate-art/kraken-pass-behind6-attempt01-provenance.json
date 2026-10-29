@@ -1,0 +1,189 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pass-behind",
+  "direction": "right",
+  "attempt": 1,
+  "status": "accepted and registered; strict audit counts one new captain clip",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-fd0b1354-ad58-4283-b43b-bf6eb19f0234",
+  "generatedAt": "2026-10-28T10:24:29Z",
+  "promptFile": "tools/generate-art/kraken-pass-behind6-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "cd711c23fc44cc071872d4ddc54dd817e0b5f0a4a15955c8f6c97f5e259576a8",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pass-behind6-attempt01-generated-raw.png",
+  "rawSourceSha256": "330048b48d179ac85252eaba2f04417e0fd6c2e42c59bb91342ed6fce7ef2a04",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    1,
+    2,
+    3
+  ],
+  "anchors": {
+    "release": 3,
+    "releaseTick": 7
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate a separate Kraken-specific track after source and cleanup review.",
+  "sourceReview": {
+    "status": "pass for careful cleanup only",
+    "evidence": "tools/generate-art/previews/kraken-pass-behind6-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Six full-body poses and identity pass; pose2 wrapped arm/hand is connected and pose3 is the release at tick7. No ball. Reviewer cautioned that largest-component deletion and blind cell crops are unsafe; use full-sheet global silhouettes and review every cleanup."
+  },
+  "cleanup": {
+    "status": "pass for separate ball-track trials only",
+    "script": "tools/generate-art/clean-kraken-pass-behind6-attempt01.py",
+    "atlas": "tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-pass-behind6-attempt01/layout.json",
+    "report": "tools/generate-art/previews/kraken-pass-behind6-attempt01/cleanup-layout-report.json",
+    "notes": "Global alpha>=32 segmentation selects six figures, full-component bounds, and preserves a two-source-pixel original-alpha fringe; 1,872 detached/low-alpha components remain documented. Independent review must confirm pose2 rear hand is intact.",
+    "independentReview": "tools/generate-art/previews/kraken-pass-behind6-attempt01/INDEPENDENT_CLEANUP_REVIEW_2026-10-28.md"
+  },
+  "ballTrack": {
+    "status": "accepted after independent registered normal-loader review",
+    "track": {
+      "height": [
+        1.0,
+        1.1,
+        1.2,
+        1.25,
+        1.2,
+        1.0
+      ],
+      "forward": [
+        5,
+        2,
+        -5,
+        -7,
+        -9,
+        4
+      ],
+      "releaseVz": 0.294
+    },
+    "releaseFrame": 3,
+    "releaseTick": 7,
+    "trialReport": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-11/native/report.json",
+    "independentReview": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-12/INDEPENDENT_REVIEW_2026-10-29.md",
+    "notes": "Marin faces the incoming pass; receiver setup is mirrored for both facings. Track stays airborne and reaches her hand at tick28 with about 1.17-unit attachment correction.",
+    "normalLoaderReview": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-12/INDEPENDENT_REVIEW_2026-10-29.md",
+    "normalLoaderReport": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-12/normal-loader/report.json",
+    "rejectedAttempts": [
+      {
+        "attempt": 1,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-01/native/",
+        "reason": "Initial trial used overhead-release points and failed to catch."
+      },
+      {
+        "attempt": 2,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-02/native/report.json",
+        "reason": "Default .02 release vertical velocity caused a floor bounce; pass arrived only after the bounce."
+      },
+      {
+        "attempt": 3,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-03/native/report.json",
+        "reason": "Airborne catch succeeded, but facing/receiver spacing produced a 2.55-unit excess catch correction."
+      },
+      {
+        "attempt": 4,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-04/native/report.json",
+        "reason": "Corrected the tick-key mismatch in static flight samples; gameplay catch still snapped."
+      },
+      {
+        "attempt": 5,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-05/native/report.json",
+        "reason": "Closer receiver position still caused a large catch correction."
+      },
+      {
+        "attempt": 6,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-06/native/report.json",
+        "reason": "Receiver was too close and overlapping; catch correction remained large."
+      },
+      {
+        "attempt": 7,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-07/native/report.json",
+        "reason": "Diagonal trajectory caught but still snapped; receiver overlap remained."
+      },
+      {
+        "attempt": 8,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-08/native/report.json",
+        "reason": "Catch correction improved but was still about 2.31 units and players overlapped."
+      },
+      {
+        "attempt": 9,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/report.json",
+        "reason": "Higher arc and same-facing receiver caused a visible handoff correction."
+      },
+      {
+        "attempt": 10,
+        "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-10/native/report.json",
+        "reason": "Fixed receiver facing and overlap; one-frame correction remained about 1.56 units."
+      }
+    ]
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-01/native/",
+      "reason": "Initial trial used overhead-release points and failed to catch."
+    },
+    {
+      "attempt": 2,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-02/native/report.json",
+      "reason": "Default .02 release vertical velocity caused a floor bounce; pass arrived only after the bounce."
+    },
+    {
+      "attempt": 3,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-03/native/report.json",
+      "reason": "Airborne catch succeeded, but facing/receiver spacing produced a 2.55-unit excess catch correction."
+    },
+    {
+      "attempt": 4,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-04/native/report.json",
+      "reason": "Corrected the tick-key mismatch in static flight samples; gameplay catch still snapped."
+    },
+    {
+      "attempt": 5,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-05/native/report.json",
+      "reason": "Closer receiver position still caused a large catch correction."
+    },
+    {
+      "attempt": 6,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-06/native/report.json",
+      "reason": "Receiver was too close and overlapping; catch correction remained large."
+    },
+    {
+      "attempt": 7,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-07/native/report.json",
+      "reason": "Diagonal trajectory caught but still snapped; receiver overlap remained."
+    },
+    {
+      "attempt": 8,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-08/native/report.json",
+      "reason": "Catch correction improved but was still about 2.31 units and players overlapped."
+    },
+    {
+      "attempt": 9,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/report.json",
+      "reason": "Higher arc and same-facing receiver caused a visible handoff correction."
+    },
+    {
+      "attempt": 10,
+      "report": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-10/native/report.json",
+      "reason": "Fixed receiver facing and overlap; one-frame correction remained about 1.56 units."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Create one clean, flat, opaque chroma-key GREEN sprite sheet (not a checkerboard) containing exactly ELEVEN distinct full-body animation drawings of the SAME canonical athlete, Krios, in the supplied style reference. Arrange one figure per spacious cell in a strict left-to-right, top-to-bottom 4-column by 3-row grid. Populate cells 1–11 only; leave cells 12 blank. Keep every complete figure fully inside its own cell with broad, even green margins, consistent apparent scale, and feet aligned to a shared baseline within each row. No cropping, touching, overlap, duplicates, extra figures, labels, shadows on the background, or objects beyond the athlete.
+
+Krios is a gigantic, enormously muscular adult male with vivid volcanic red skin, a heavy dark charcoal beard, huge black curled ram horns, strong human facial features, and a black/charcoal basketball uniform with ember-red accents. Preserve his exact recognizable face, horn shape, beard, skin tone, proportions, and uniform treatment from the supplied Krios references. The physique should read as huge and powerful while retaining coherent human joints and complete natural anatomy: two arms, two hands with five clear fingers each, two legs and two feet. Never turn him into a demon skeleton, creature, bodybuilder caricature, or a different person. Keep both hands empty. This is ball-free athlete artwork: do not draw a basketball, opponent, court, hoop, equipment, speed lines, impact effects, or contact prop.
+
+Action is an 11-pose basketball push/shove animation, with a distinct, readable silhouette and complete anatomy in every cell. Preserve this exact sequence and event timing; canonical frame durations are 2,2,2,1,1,2,2,3,3,3,3 ticks, and frame 5 (the sixth drawing) is the contact anchor at tick 8:
+1. Approach stance: knees bent, open hands near waist, shoulders squared toward opponent.
+2. Load: rear knee bends, chest draws back, elbows bend beside ribs.
+3. Step: lead foot reaches forward, hands rise toward chest, weight begins transferring.
+4. Drive preparation: torso inclines, rear heel lifts, palms rotate forward while elbows remain bent.
+5. Near-contact anticipation: palms just ahead of sternum, elbows halfway open, front knee braced.
+6. CONTACT: both arms extend straight forward with palms out, shoulders drive through, front leg bears weight. This is the clearest full-extension pose. Keep hands separately readable and fingers open.
+7. Power follow-through: arms stay extended, wrists lower, torso reaches maximum lean, back leg stretches.
+8. Recoil: elbows start folding, chest retreats, front knee compresses under return load.
+9. Recover step: rear foot comes under hips, open palms return near shoulders, head levels.
+10. Settle: feet widen, hands lower below chest, torso straightens but remains alert.
+11. Ready finish: balanced weight, elbows relaxed outward near waist, shoulders lowered; make this clearly different from the approach pose.
+
+Use restrained arcade pixel-art rendering with crisp, coherent edges and the same shading/detail density as the references. Keep red skin, dark beard/horns, charcoal kit, and ember accents consistent in every drawing. The green must be a uniform flat key color, RGB 0,255,0, with no gradients, shadows, texture, or green light reflected on Krios. Do not antialias the green background into the silhouette. Render each body fully within its cell and preserve generous gutters for reliable component extraction and alpha cleanup. The final result must contain exactly 11 pose drawings and one blank cell.

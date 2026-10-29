@@ -6,6 +6,64 @@ import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 import { animationAssetManifest } from '../src/content/animation-assets.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
+test('Krios shoot and chest pass keep the separate ball athlete-owned until their canonical release anchors',()=>{
+ for(const facing of [1,-1])for(const [clip,firstInput,release,mode] of [
+  ['shoot',{shootPressed:true},13,'shot'],['pass',{passPressed:true},5,'pass']
+ ]){
+  const m=createMatch({quarterSeconds:60,seed:128,home:{roster:[{id:'krios'},{id:'partner'}]}}),p=m.players[0];
+  p.facing=facing;
+  const inputs=action=>m.players.map(player=>createInput(player.id,player===p&&action?firstInput:{}));
+  stepMatch(m,inputs(true));assert.equal(p.animation.clip,clip);assert.equal(p.animation.tick,0);
+  for(let tick=0;tick<release;tick++){
+   assert.equal(p.hasBall,true,`${clip} facing ${facing} holds through tick ${tick}`);
+   assert.equal(m.ball.ownerId,p.id);
+   assert.ok(Math.abs((m.ball.x-p.x)-facing*sampleBallForward(clip,p.animation.tick,p.id))<.001);
+   assert.ok(Math.abs((m.ball.z-p.z)-sampleBallHeight(clip,p.animation.tick,p.id))<.001);
+   stepMatch(m,inputs(false));
+  }
+  assert.equal(p.animation.tick,release);assert.equal(p.animation.clip,clip);
+  stepMatch(m,inputs(false));
+  assert.equal(p.hasBall,false);assert.equal(m.ball.mode,mode,`${clip} releases once at tick ${release}`);
+  assert.equal(m.ball.ownerId,null);
+ }
+});
+test('Krios overhead pass keeps the ball through tick7 release and delivers it to a receiver in either facing',()=>{
+ const clip='pass-overhead',id='krios',height=[.8,1.1,2.3,2.3,2.85,1.4],forward=[9,2,5,7,13,9],release=anchorTick(clip,'release');
+ assert.equal(release,7);
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:128,home:{roster:[{id},{id:'partner'}]}}),p=m.players[0],receiver=m.players[1];
+  p.x=100;p.y=50;p.facing=facing;receiver.x=120;receiver.y=40;receiver.facing=-1;
+  const inputs=values=>m.players.map(player=>createInput(player.id,player===p?values:{}));
+  stepMatch(m,inputs({passPressed:true,turbo:true,y:-1}));assert.equal(p.animation.clip,clip);assert.equal(p.animation.tick,0);
+  for(const [frame,tick]of [[0,0],[1,2],[2,5],[3,7]]){
+   while(p.animation.tick<tick){stepMatch(m,inputs({}));}
+   assert.equal(p.animation.clip,clip);assert.equal(p.animation.tick,tick);
+   if(tick<release){
+    assert.equal(p.hasBall,true);assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
+    assert.ok(Math.abs(m.ball.x-p.x-facing*forward[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-height[frame])<.02);
+   }
+  }
+  stepMatch(m,inputs({}));assert.equal(p.hasBall,false);assert.equal(m.ball.mode,'pass');assert.equal(m.ball.ownerId,null);assert.equal(m.ball.targetId,receiver.id);
+  for(let tick=0;tick<30&&!receiver.hasBall;tick++)stepMatch(m,inputs({}));
+  assert.equal(receiver.hasBall,true,`receiver catches Krios's overhead pass, facing ${facing}`);assert.equal(m.ball.ownerId,receiver.id);assert.equal(receiver.animation.clip,'receive');
+ }
+});
+test('Kraken block is a ball-free defender action with the canonical jump and apex frames in either facing',()=>{
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:89,away:{roster:[{id:'kraken'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='kraken');
+  p.facing=facing;
+  stepMatch(m,m.players.map(player=>createInput(player.id,player===p?{blockPressed:true,x:facing}:{})));
+  assert.equal(p.animation.clip,'block');assert.equal(p.animation.tick,0);assert.ok(p.vz>0,'block action initiates the defensive jump');
+  assert.equal(p.hasBall,false);assert.equal(m.ball.mode,'carried');assert.notEqual(m.ball.ownerId,p.id);
+  const frames=[];
+  for(let tick=0;tick<=8;tick++){
+   frames.push(sampleAnimation('block',p.animation.tick).frame);
+   stepMatch(m,m.players.map(player=>createInput(player.id)));
+  }
+  assert.deepEqual(frames,[0,0,1,1,1,2,2,2,3],`canonical block pose sequence, facing ${facing}`);
+  assert.equal(m.ball.mode,'carried');assert.notEqual(m.ball.ownerId,p.id,'defensive animation does not steal ball ownership by itself');
+ }
+});
 test('Dorian has all reviewed clips and runtime ball paths match recorded provenance',()=>{
  const clips=animationAssetManifest.characters['dorian-mycel'].directions.right;
  assert.equal(Object.keys(clips).length,29);
@@ -156,6 +214,32 @@ test('Reed reverse dunk carries the ball behind his head and scores at its marke
   stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);
   for(let i=release+1;i<anchorTick('dunk-reverse','finish');i++){stepMatch(m,neutral(m));assert.equal(m.score[0],0);}
   stepMatch(m,neutral(m));assert.equal(m.score[0],2,'the reverse finish scores in either facing');
+ }
+});
+test('Leo reverse dunk carries behind the crown and releases backward at tick21 in both facings',()=>{
+ const clip='dunk-reverse',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ const heights=[1.1,1.05,.9,.2,1.25,.9,2.0,2.0,2.2,1.4,1.2,.8,.85,.8,.7];
+ const forwards=[8,8,1,6,4,-3,2.5,2,-2,-8,-9,-5,5,4,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/j120-leo-dunk-reverse-track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:66,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'reverse'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);assert.deepEqual(m.score,[0,0]);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves the authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
  }
 });
 test('Reed 360 dunk carries the separate ball through a full rotation and releases at the shared markers',()=>{
@@ -460,7 +544,10 @@ test('Dorian Mycel and Luca Velori keep possession at their forward hands on cor
 test('reviewed supporting athletes keep the separate game ball at their lead hand',()=>{
  for(const id of ['sera-bellini','moxie-capwell','sable-regent','marco-vellum','flint-rooker','ash-harth','marin-dusk','cove-knell','pixel-o-keeffe','fern-tempo','mira-wavelength','azul-voss','roxie-coil','vanta-slate','sylvie-shutter','noelle-pinstripe','cade-brixton','fenn-static','ember-rivet','bronze-calder','violet-lorne','cassian-quill','sol-meridian','mist-halo','wren-bravado','eden-north','raven-lux','thorn-sable','kai-suncrest','talia-kestrel','detective-halftone','trace-noire','jett-byte','cass-pixel','riff-voltage','fret-nova','thorn-script','nyx-steel','moss-quarry','digger-finch','willow-root','rowan-bark','moth-vale','owl-argent','auric-scale','cinder-royal','nox-striker','viper-veil','moss-granite','thump-alder','camden-union','poppy-stitch'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:51,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
-  assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball hand reach');
+  if(id==='marin-dusk'){
+   assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),1,'Marin’s reviewed receive/idle-ball track holds the ball close to her torso');
+   assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.45,'Marin’s separate ball remains chest high');
+  }else assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball hand reach');
   p.x=100;p.y=50;p.facing=facing;p.hasBall=true;m.ball.ownerId=p.id;m.ball.mode='carried';
   for(const [turbo,key] of [[false,'dribble'],[true,'dribble-run']]){
    const input=()=>neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{x:facing,turbo}):i);
@@ -825,7 +912,7 @@ for(const variant of ['normal','reverse'])test(`layup ${variant} uses its own re
 test('a match with CPU inputs reaches a decided final',()=>{const m=createMatch({quarterSeconds:12,seed:31});m.overtimeSeconds=12;let ticks=0;while(m.phase!=='final'&&ticks++<60000)stepMatch(m,[]);assert.equal(m.phase,'final');assert.notEqual(m.score[0],m.score[1]);});
 test('dunk separates the ball at release and can be interrupted before finish',()=>{const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1})]);const clip=p.animation.clip;for(let i=0;i<anchorTick(clip,'release');i++)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);m.ball.mode='loose';m.ball.attemptId=null;for(let i=0;i<10;i++)stepMatch(m,neutral(m));assert.equal(m.score[0],0);});
 test('a turbo pass near the hoop produces a playable alley oop finish',()=>{const m=setup(),p=m.players[0],r=m.players[1];p.x=170;r.x=186;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{passPressed:true,turbo:true})]);let sawOop=false;for(let i=0;i<90;i++){stepMatch(m,neutral(m));sawOop ||= r.animation.clip.startsWith('alley-oop-');}assert.equal(sawOop,true);assert.equal(r.dunks,1);assert.equal(p.assists,1);});
-test('celebration plays for 70 ticks before the opposing inbound',()=>{const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1})]);const finish=anchorTick(p.animation.clip,'finish');for(let i=0;i<finish;i++)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.equal(m.scorePause,70);const clock=m.clock;for(let i=0;i<69;i++){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dead');}assert.equal(p.animation.tick,69);assert.equal(m.clock,clock);stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(m.players.find(p=>p.hasBall).team,1);});
+test('dunk landing completes before the score-pause opposing inbound',()=>{const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1})]);const clip=p.animation.clip,finish=anchorTick(clip,'finish');for(let i=0;i<finish;i++)stepMatch(m,neutral(m));assert.equal(p.animation.clip,clip);assert.equal(m.scorePause,70);assert.equal(m.ball.mode,'dead');const clock=m.clock;while(p.animation.clip===clip){stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dead');}assert.equal(p.animation.clip,'celebrate');assert.equal(p.animation.tick,0);assert.ok(m.scorePause<70&&m.scorePause>0);while(m.ball.mode==='dead'){stepMatch(m,neutral(m));assert.ok(m.scorePause>=0);}assert.equal(m.clock,clock);assert.equal(m.players.find(p=>p.hasBall).team,1);});
 test('metadata has nonuniform action timing and the full unique frame contract',()=>{const counts=[6,4,10,11,11,10,6,6,6,4,5,8,8,4,8,11,5,10,10,...Array(10).fill(15)];assert.deepEqual(Object.values(animationClips).map(c=>c.frames.length),counts);for(const [key,c] of Object.entries(animationClips)){assert.ok(c.frames.every(f=>Number.isInteger(f.duration)&&f.duration>0));if(!c.loop)assert.ok(new Set(c.frames.map(f=>f.duration)).size>1,key);for(const anchor of Object.keys(c.anchors))assert.equal(sampleAnimation(key,anchorTick(key,anchor)).frame,c.anchors[anchor]);}});
 test('dunk height follows takeoff, peak and finish anchors',()=>{const m=setup(),p=m.players[0];p.x=182;p.vx=.2;p.dunk=99;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true,turbo:true,x:1})]);const clip=p.animation.clip;while(p.animation.tick<anchorTick(clip,'takeoff')){stepMatch(m,neutral(m));assert.equal(p.z,0);}while(p.animation.tick<anchorTick(clip,'peak'))stepMatch(m,neutral(m));assert.equal(p.z,5);});
 test('directional passes and lower court reverse layups are reachable through regular controls',()=>{for(const [y,clip] of [[1,'pass-behind'],[-1,'pass-overhead']]){const m=setup(),p=m.players[0];stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{passPressed:true,y})]);assert.equal(p.animation.clip,clip);}const m=setup(),p=m.players[0];p.x=182;p.y=55;stepMatch(m,[...neutral(m).filter(i=>i.playerId!==p.id),createInput(p.id,{shootPressed:true})]);assert.equal(p.animation.clip,'layup-reverse');});
@@ -1099,6 +1186,21 @@ test('Reed and Juniper steals use the authored contact frame and distinct hand l
   assert.equal(sampleBallHeight('steal',anchorTick('steal','grab'),id),height,id+' vertical contact track');
  }
 });
+test('Kraken J.07 steal pokes the separate ball from the reviewed low hook hand in both facings',()=>{
+ const id='kraken',height=[1,.9,.55,.55,.7,.9,1,1],forward=[5,7,6,6,7,8,7,5];
+ const registration=animationAssetManifest.characters[id].directions.right.steal;
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height,forward,trials:'tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json'});
+ for(const facing of [1,-1]){
+  const {m,holder,defender}=stealSetup();defender.id=id;defender.name='Kraken';defender.facing=facing;defender.x=holder.x-facing*forward[3];defender.y=holder.y;
+  startSteal(m,defender);assert.equal(defender.animation.clip,'steal');
+  while(defender.animation.tick<anchorTick('steal','grab')-1)stepMatch(m,neutral(m));
+  assert.equal(holder.hasBall,true);assert.equal(m.ball.ownerId,holder.id);
+  stepMatch(m,neutral(m));assert.equal(defender.steals,1);assert.ok(holder.stun>0);assert.equal(m.ball.mode,'loose');assert.equal(m.ball.ownerId,null);assert.equal(defender.hasBall,false);
+  assert.ok(Math.abs(m.ball.x-m.ball.vx-defender.x-facing*forward[3])<1e-9,'ball leaves Kraken low hook contact facing '+facing);
+  assert.ok(Math.abs(m.ball.z-m.ball.vz-defender.z-height[3])<.03);assert.equal(m.ball.lastTouch,id);
+ }
+});
 for(const disruption of ['range','ownership','stun','target-stun'])test(`steal rechecks ${disruption} at grab`,()=>{
   const {m,holder,defender}=stealSetup();startSteal(m,defender);
   if(disruption==='range')holder.x=150;
@@ -1253,6 +1355,20 @@ test('Keeg reaches for a separate high rebound beside his hat in both facings',(
   assert.ok(Math.abs(m.ball.z-p.z-2.4)<1e-9);
  }
 });
+test('Leo secures a separate rebound at tick5 and the authored track reaches the hands in both facings',()=>{
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:717,home:{roster:[{id:'leo'},{id:'partner'}]}}),p=m.players.find(player=>player.id==='leo');
+  for(const player of m.players)player.hasBall=false;
+  p.x=100;p.y=50;p.facing=facing;
+  Object.assign(m.ball,{mode:'loose',ownerId:null,targetId:null,lastTouch:m.players.find(player=>player.team!==p.team).id,x:p.x,y:p.y,z:1,vx:0,vy:0,vz:0});
+  stepMatch(m,neutral(m));assert.equal(p.animation.clip,'rebound');
+  const grab=anchorTick('rebound','grab');assert.equal(grab,5);
+  while(p.animation.tick<grab)stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,grab);assert.equal(p.hasBall,true);assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,'leo');
+  assert.equal(sampleBallHeight('rebound',grab,'leo'),1.85);assert.equal(sampleBallForward('rebound',grab,'leo'),4.5);
+  assert.ok(Math.abs(m.ball.x-p.x-facing*4.5)<1e-9);assert.ok(Math.abs(m.ball.z-p.z-1.85)<1e-9);
+ }
+});
 test('a receiver exactly at the releasing hand cannot create nonfinite pass velocities',()=>{
   const m=setup(),p=m.players[0],receiver=m.players[1];p.facing=1;
   receiver.x=p.x+sampleBallForward('pass',anchorTick('pass','release'));receiver.y=p.y;
@@ -1290,7 +1406,7 @@ for(const [variant,phases] of Object.entries(authoredDunkPhases))for(const facin
   while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.fga,0);
   stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.fga,1);assert.deepEqual(m.score,[0,0]);
   while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
-  stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
 });
 
 for(const facing of [1,-1])test(`power ball stays at the packed white-sleeved hand facing ${facing}`,()=>{
@@ -1309,7 +1425,7 @@ for(const facing of [1,-1])test(`power ball stays at the packed white-sleeved ha
   while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.fga,0);
   stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.fga,1);assert.deepEqual(m.score,[0,0]);
   while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
-  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves the authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
 });
 
 test('Reed power dunk keeps the separate ball at his raised hand and releases at the shared anchor in both facings',()=>{
@@ -1333,7 +1449,169 @@ test('Reed power dunk keeps the separate ball at his raised hand and releases at
   assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
   stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
   while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
-  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves the authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+ }
+});
+test('Leo power dunk carries the calibrated separate ball through tick20 and releases once at tick21 in both facings',()=>{
+ const clip='dunk-power',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[.95,1.1,1.25,1.45,1.5,2.3,2.1,2.3,1.7,.5,-.9,1.4,1.3,.9,.65];
+ const forwards=[6,8,6,2,0,-3,-5,5.5,0,5,5,10,7,5,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'power'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');
+  assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));
+  assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));
+  assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves the authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+ }
+});
+test('Leo 360 dunk carries the calibrated ball through tick20 and releases once at tick21 in both facings',()=>{
+ const clip='dunk-360',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[1.05,1.15,1.35,1.6,1.8,1.15,2.0,1.45,2.6,1.95,.3,2.2,1.5,.75,.65];
+ const forwards=[5,5,3,1,-4,0,-4,4.5,5,4,5,10,7,5,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(animationAssetManifest.characters.leo.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/j121-leo-dunk-360-track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'360'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves the authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
+ }
+});
+test('Leo tomahawk dunk carries the separate ball through tick20 and releases once at tick21 in both facings',()=>{
+ const clip='dunk-tomahawk',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[1.0,1.2,1.5,1.2,1.3,1.3,1.5,1.15,1.35,1.6,.25,1.0,1.2,.75,.65];
+ const forwards=[5,8,8,2,1,-3.5,-3,-3.4,-1,0,1,8,6,5,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(animationAssetManifest.characters.leo.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/j122-leo-dunk-tomahawk-track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'tomahawk'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+  assert.equal(animationClips[clip].frames.length,15);assert.equal(animationClips[clip].frames[14].duration,3);
+ }
+});
+test('Leo clutch dunk keeps its separate ball on the reviewed hand track and releases at the authored anchors',()=>{
+ const clip='dunk-clutch',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[1.1,1.0,1.1,.9,.8,.7,.65,.7,1.2,1.4,2.2,1.5,1.1,.8,.65];
+ const forwards=[5,4,3,1,0,-2,-3,-2,1,5,4,6,5,3,2];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(animationAssetManifest.characters.leo.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/j124-leo-dunk-clutch-track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'clutch'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+  assert.equal(animationClips[clip].frames.length,15);assert.equal(animationClips[clip].frames[14].duration,3);
+ }
+});
+test('Leo double dunk keeps the ball at the two-pump hand and releases at tick21 in both facings',()=>{
+ const clip='dunk-double',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[1.2,1.3,1.3,1.3,1.4,1.4,1.1,.95,1.6,1.7,.7,.5,.7,.8,.5];
+ const forwards=[5,4,3,1,1,1,0,1,1,1,2,3,2,1,0];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(animationAssetManifest.characters.leo.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/j123-leo-dunk-double-track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'double'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+  assert.equal(animationClips[clip].frames.length,15);assert.equal(animationClips[clip].frames[14].duration,3);
+ }
+});
+test('Leo windmill dunk follows the calibrated hand, releases once at tick21, and scores at tick23 in both facings',()=>{
+ const clip='dunk-windmill',frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,f)=>n+f.duration,0);
+ const heights=[1.2,1.1,1.2,.7,.5,0,1.1,.9,1.8,2.3,1.3,1.4,1.1,.75,.65];
+ const forwards=[6,8,-9,-10,-5,2,7.5,7.5,-2.5,0,5.5,10,8,5,5];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/j119-leo-dunk-windmill-track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:1,home:{roster:[{id:'leo'},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'windmill'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(let frame=0;frame<10;frame++){
+   while(p.animation.tick<frameTick(frame))stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);
+   assert.ok(Math.abs(sampleBallHeight(clip,p.animation.tick,p.id)-heights[frame])<.001);
+   assert.ok(Math.abs(sampleBallForward(clip,p.animation.tick,p.id)-forwards[frame])<.001);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);
+   assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish');assert.equal(release,21);assert.equal(finish,23);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);assert.deepEqual(m.score,[0,0]);
+  while(p.animation.tick<finish-1)stepMatch(m,neutral(m));assert.deepEqual(m.score,[0,0]);
+  stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.equal(p.animation.clip,clip,'score commit preserves the authored dunk finish and landing');while(p.animation.clip===clip)stepMatch(m,neutral(m));assert.equal(p.animation.clip,'celebrate');assert.deepEqual(m.score,[2,0]);
  }
 });
 test('Reed catches the reverse lob, carries behind his crown and finishes backward',()=>{
@@ -1657,5 +1935,73 @@ test('Keeg reverse alley-oop catches between empty hands, carries behind the hip
   while(p.animation.tick<finish)stepMatch(m,neutral(m));
   assert.equal(m.score[0],2);assert.equal(p.dunks,1);assert.equal(passer.assists,1);
   while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});
+
+test('Leo scythe dunk uses its reviewed hand track and releases one separate ball',()=>{
+ const clip='dunk-scythe',id='leo',heights=[1.1,.9,1,1.1,1.3,1.05,1.1,.85,.6,.3,-.3,.4,.2,.65,.55],forwards=[6,2,-5,-8,0,2.2,4,8.3,5,5.5,3.2,1,-2,-1,0];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/previews/leo-dunk-scythe-track-candidate/track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:84,home:{roster:[{id},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'scythe'}):i));
+  assert.equal(p.animation.clip,clip);
+  for(const frame of [0,2,5,7,8,9]){
+   const tick=animationClips[clip].frames.slice(0,frame).reduce((n,f)=>n+f.duration,0);
+   while(p.animation.tick<tick)stepMatch(m,neutral(m));
+   assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);
+   assert.equal(sampleBallHeight(clip,p.animation.tick,id),heights[frame]);assert.equal(sampleBallForward(clip,p.animation.tick,id),forwards[frame]);
+   assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);
+  stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);
+  while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});
+
+test('Leo alley-oop power follows the reviewed catch track and releases once at tick21',()=>{
+ const clip='alley-oop-power',id='leo',heights=[1,1.2,1.5,1.7,1.8,1.55,1.2,1.45,1.55,1.15,1,.9,.8,.65,.55],forwards=[6,8,10,8,6,1.5,2,2.3,2,1.8,10,12,9,7,6];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height:heights,forward:forwards,trials:'tools/generate-art/previews/leo-alley-oop-power-track-candidate/track-trials.json'});
+ for(const facing of [1,-1]){
+  const m=createMatch({quarterSeconds:60,seed:85,home:{roster:[{id},{id:'leo-partner'}]}}),p=m.players[0];p.x=182;p.y=50;p.vx=.2;p.dunk=99;p.facing=facing;
+  stepMatch(m,neutral(m).map(i=>i.playerId===p.id?createInput(p.id,{shootPressed:true,turbo:true,x:facing,dunkVariant:'alley-oop-power'}):i));assert.equal(p.animation.clip,clip);
+  for(const frame of [0,2,4,5,6,7,8,9]){const tick=animationClips[clip].frames.slice(0,frame).reduce((n,f)=>n+f.duration,0);while(p.animation.tick<tick)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,p.id);assert.equal(p.hasBall,true);assert.equal(sampleBallHeight(clip,p.animation.tick,id),heights[frame]);assert.equal(sampleBallForward(clip,p.animation.tick,id),forwards[frame]);assert.ok(Math.abs(m.ball.x-p.x-facing*forwards[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-heights[frame])<.02);}
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');assert.equal(anchorTick(clip,'grab'),10);assert.equal(anchorTick(clip,'peak'),14);assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(p.hasBall,true);assert.equal(p.fga,0);stepMatch(m,neutral(m));assert.equal(p.animation.tick,release);assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.tick<finish)stepMatch(m,neutral(m));assert.equal(p.dunks,1);assert.deepEqual(m.score,[2,0]);while(p.animation.tick<land)stepMatch(m,neutral(m));assert.equal(sampleAnimation(clip,p.animation.tick).frame,14);
+ }
+});
+
+test('Leo reverse alley-oop uses the J.127 hand track, catches and scores in either facing',()=>{
+ const clip='alley-oop-reverse',id='leo';
+ const height=[4.5,4.4,4.1,3.5,2.4,2.1,2.2,1.8187,2.1,2.3,1.55,1.7,1.2,.75,.6];
+ const forward=[-8,-7,-6,-5,-4,-4.5,-2,3.6545,-4,-2,-.5,-5,-2,1,3];
+ const registration=animationAssetManifest.characters.leo.directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);
+ assert.deepEqual(registration.provenance.ballTrack,{height,forward,trials:'tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-24/native/report.json'});
+ const frameTick=index=>animationClips[clip].frames.slice(0,index).reduce((n,frame)=>n+frame.duration,0);
+ for(const facing of [1,-1]){
+  const m=setup(),passer=m.players[0],p=m.players[1];p.id=id;p.name='Leo';passer.x=170;p.x=184;p.y=46;p.facing=facing;
+  stepMatch(m,[...neutral(m).filter(i=>i.playerId!==passer.id),createInput(passer.id,{passPressed:true,turbo:true,alleyOop:'reverse'})]);
+  while(passer.animation.tick<anchorTick(passer.animation.clip,'release'))stepMatch(m,neutral(m));
+  assert.equal(p.animation.clip,clip);assert.equal(m.ball.mode,'pass');
+  for(let frame=0;frame<10;frame++){
+   const tick=frameTick(frame);while(p.animation.tick<tick)stepMatch(m,neutral(m));
+   assert.equal(sampleBallHeight(clip,p.animation.tick,id),height[frame]);assert.equal(sampleBallForward(clip,p.animation.tick,id),forward[frame]);
+   if(frame<5)assert.equal(m.ball.mode,'pass');
+   else {assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,id);assert.equal(p.hasBall,true);assert.ok(Math.abs(m.ball.x-p.x-facing*forward[frame])<.06);assert.ok(Math.abs(m.ball.z-p.z-height[frame])<.02);}
+  }
+  const release=anchorTick(clip,'release'),finish=anchorTick(clip,'finish'),land=anchorTick(clip,'land');
+  assert.equal(release,21);assert.equal(finish,23);assert.equal(land,30);
+  while(p.animation.tick<release-1)stepMatch(m,neutral(m));assert.equal(m.ball.mode,'carried');assert.equal(m.ball.ownerId,id);
+  stepMatch(m,neutral(m));assert.equal(m.ball.mode,'dunk');assert.equal(p.hasBall,false);assert.equal(p.fga,1);
+  while(p.animation.clip===clip&&p.animation.tick<finish)stepMatch(m,neutral(m));
+  assert.equal(m.score[0],2);assert.equal(p.dunks,1);assert.equal(passer.assists,1);
+  while(p.animation.clip===clip&&p.animation.tick<land)stepMatch(m,neutral(m));
+  assert.ok(p.z<=0.001,'Leo reaches the floor before the post-score celebration');assert.equal(m.ball.mode,'dead');
  }
 });

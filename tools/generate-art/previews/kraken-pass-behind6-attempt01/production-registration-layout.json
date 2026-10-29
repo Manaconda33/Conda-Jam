@@ -1,0 +1,97 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "pass-behind",
+  "src": "./public/assets/animation/kraken-pass-behind-right.webp",
+  "columns": 3,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "Create exactly six unique full-body action drawings as one transparent sprite sheet, three columns by two rows, read left to right then top to bottom. Draw the same Kraken captain throughout: athletic natural-skinned male elf, short auburn hair, clearly pointed ear, copper amulet, burgundy Vesper Harbor uniform with copper/gold trim, matching shorts, wrist details and shoes. Keep his face, hair, body proportions, anatomy, identity, colors and costume consistent. Right-facing three-quarter profile. Crisp outlined arcade pixel-art sprite with clean color clusters and clear silhouettes, matching an early-1990s basketball game.\n\nThis is Kraken performing a behind-the-back basketball pass. Use canonical pose durations [2,2,3,1,2,3]. The basketball is a separate runtime object and must not appear in any pose. His empty hands mime the ball before release. Runtime release is exactly pose index 3 (fourth drawing, bottom-left; tick 7). Six distinct poses with clear spacing: pose 0 holds the invisible ball low beside the near hip, shoulders facing target, free hand guarding the chest; pose 1 winds up as torso turns away from target and passing elbow folds backward; pose 2 shows the hidden preparation, one anatomically connected passing forearm wrapping visibly behind the lower back, with its hand beside the opposite rear hip and knees flexed; keep both arms attached naturally, do not hide or duplicate the passing arm; pose 3 is the exact empty-handed release, passing wrist flicking outward from behind the opposite hip, fingers open sideways and torso untwisting toward target; pose 4 is follow-through with empty passing arm swinging from behind back to outside thigh and free arm counterbalancing forward; pose 5 is recovery with torso squared, passing hand rising toward abdomen and feet settling staggered and balanced. Do not place the release before or after pose 3. Pose 2 is the last held-ball pose; poses 4\u20135 happen after release.\n\nOnly six complete Kraken figures, one per cell. True transparent background with no glow or haze. Keep complete hair, pointed ear, both hands, shoes and full body within each cell. No ball, ball-shaped prop, court, floor, cast shadow, hoop, additional person, text, number, logo, gridline, border, panel divider, checkerboard, or detached pixel. Do not duplicate poses. Leave clear transparent gutters between figures.",
+    "promptFile": "tools/generate-art/kraken-pass-behind6-attempt01-imagegen-prompt.txt",
+    "promptSha256": "cd711c23fc44cc071872d4ddc54dd817e0b5f0a4a15955c8f6c97f5e259576a8",
+    "generationId": "exec-fd0b1354-ad58-4283-b43b-bf6eb19f0234",
+    "generatedAt": "2026-10-28T10:24:29Z",
+    "rawSourceImage": "tools/generate-art/sources/kraken-pass-behind6-attempt01-generated-raw.png",
+    "rawSourceSha256": "330048b48d179ac85252eaba2f04417e0fd6c2e42c59bb91342ed6fce7ef2a04",
+    "cleanupScript": "tools/generate-art/clean-kraken-pass-behind6-attempt01.py",
+    "cleanupAtlas": "tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+    "cleanupLayout": "tools/generate-art/previews/kraken-pass-behind6-attempt01/layout.json",
+    "cleanupReport": "tools/generate-art/previews/kraken-pass-behind6-attempt01/cleanup-layout-report.json",
+    "productionLayout": "tools/generate-art/previews/kraken-pass-behind6-attempt01/production-registration-layout.json",
+    "baselineY": 94,
+    "frameDurations": [
+      2,
+      2,
+      3,
+      1,
+      2,
+      3
+    ],
+    "releaseFrame": 3,
+    "releaseTick": 7,
+    "runtimeBallTrack": {
+      "height": [
+        1.0,
+        1.1,
+        1.2,
+        1.25,
+        1.2,
+        1.0
+      ],
+      "forward": [
+        5,
+        2,
+        -5,
+        -7,
+        -9,
+        4
+      ],
+      "releaseVz": 0.294,
+      "releaseFrame": 3,
+      "releaseTick": 7,
+      "trialReport": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-11/native/report.json",
+      "independentReview": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-12/INDEPENDENT_REVIEW_2026-10-29.md",
+      "reviewed": true,
+      "status": "accepted"
+    },
+    "status": "accepted and registered"
+  }
+}

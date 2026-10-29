@@ -1,0 +1,25 @@
+{
+  "classification": "original-imagegen-source-cleanup-candidate",
+  "athlete": "J.07 Kraken",
+  "clip": "pickup",
+  "generationId": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+  "baselineY": 90,
+  "frameSize": [
+    80,
+    96
+  ],
+  "frames": 5,
+  "uniquePixelFrames": 5,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "grabFrame": 3,
+  "grabTick": 7,
+  "atlasCandidate": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+  "ballBakedIn": false,
+  "status": "unreviewed cleanup candidate; no runtime registration"
+}

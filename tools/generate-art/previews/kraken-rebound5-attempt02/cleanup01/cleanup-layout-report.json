@@ -1,0 +1,268 @@
+{
+  "status": "cleanup/layout candidate only; independent visual review pending",
+  "source": "tools/generate-art/sources/kraken-rebound5-attempt02-edited-raw.png",
+  "sourceSha256": "aec263697e585c3ff195dcac25232b66fe1219c7311337c896630d7ba4d68def",
+  "atlas": "tools/generate-art/previews/kraken-rebound5-attempt02/cleanup01/kraken-rebound5-attempt02-cleanup01-atlas-candidate.png",
+  "atlasSha256": "c5a4f0c8c379ec0dfc674bcaf6aa3359a0eeb5603f40df3a6c3ab2e80f47532d",
+  "dimensions": [
+    400,
+    96
+  ],
+  "grid": [
+    5,
+    1
+  ],
+  "baselineY": 94,
+  "alphaThreshold": 128,
+  "cleanup": "clear alpha<128; preserve opaque RGB; shared uniform nearest-neighbor scale; no repaint or recolor",
+  "uniformScale": 0.109717868338558,
+  "componentsAboveThreshold": 5,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        23,
+        46,
+        23,
+        2
+      ]
+    },
+    {
+      "index": 1,
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        23,
+        24,
+        24,
+        2
+      ]
+    },
+    {
+      "index": 2,
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        27,
+        27,
+        27,
+        2
+      ]
+    },
+    {
+      "index": 3,
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        26,
+        36,
+        27,
+        2
+      ]
+    },
+    {
+      "index": 4,
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        23,
+        46,
+        24,
+        2
+      ]
+    }
+  ],
+  "poseHashes": [
+    "cde65392bd3f8c46e6d23e30c63786462b4bacb5bac49c1d7b9452f764f0fd11",
+    "13f92909c8f25d33e73ce582500da3af4ffbb1ce6e7e755be36317b79f1b2145",
+    "9c3a29c27f98fa0f1dc2ecdbc56a5bee5824dcaad18e38cfb4d3a1654c2b5fa6",
+    "047004d72fdaa80df8bd16a98212c54a84661e48550fe719874bb91981bb2ddd",
+    "499572710ff4f5f589fe4143f8ca7669c38e9c88570393985e285b4ecda11792"
+  ],
+  "uniquePoseCount": 5,
+  "poses": [
+    {
+      "index": 0,
+      "sourceBoundsLTRB": [
+        63,
+        298,
+        375,
+        736
+      ],
+      "sourceOpaquePixels": 70808,
+      "scaledSize": [
+        34,
+        48
+      ],
+      "offsetInCell": [
+        23,
+        46
+      ],
+      "frame": {
+        "index": 0,
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "baselineY": 94,
+        "marginsLTRB": [
+          23,
+          46,
+          23,
+          2
+        ]
+      },
+      "poseSha256": "cde65392bd3f8c46e6d23e30c63786462b4bacb5bac49c1d7b9452f764f0fd11"
+    },
+    {
+      "index": 1,
+      "sourceBoundsLTRB": [
+        446,
+        74,
+        748,
+        712
+      ],
+      "sourceOpaquePixels": 88819,
+      "scaledSize": [
+        33,
+        70
+      ],
+      "offsetInCell": [
+        23,
+        24
+      ],
+      "frame": {
+        "index": 1,
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "baselineY": 94,
+        "marginsLTRB": [
+          23,
+          24,
+          24,
+          2
+        ]
+      },
+      "poseSha256": "13f92909c8f25d33e73ce582500da3af4ffbb1ce6e7e755be36317b79f1b2145"
+    },
+    {
+      "index": 2,
+      "sourceBoundsLTRB": [
+        888,
+        80,
+        1121,
+        693
+      ],
+      "sourceOpaquePixels": 85330,
+      "scaledSize": [
+        26,
+        67
+      ],
+      "offsetInCell": [
+        27,
+        27
+      ],
+      "frame": {
+        "index": 2,
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "baselineY": 94,
+        "marginsLTRB": [
+          27,
+          27,
+          27,
+          2
+        ]
+      },
+      "poseSha256": "9c3a29c27f98fa0f1dc2ecdbc56a5bee5824dcaad18e38cfb4d3a1654c2b5fa6"
+    },
+    {
+      "index": 3,
+      "sourceBoundsLTRB": [
+        1258,
+        210,
+        1508,
+        736
+      ],
+      "sourceOpaquePixels": 74569,
+      "scaledSize": [
+        27,
+        58
+      ],
+      "offsetInCell": [
+        26,
+        36
+      ],
+      "frame": {
+        "index": 3,
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "baselineY": 94,
+        "marginsLTRB": [
+          26,
+          36,
+          27,
+          2
+        ]
+      },
+      "poseSha256": "047004d72fdaa80df8bd16a98212c54a84661e48550fe719874bb91981bb2ddd"
+    },
+    {
+      "index": 4,
+      "sourceBoundsLTRB": [
+        1622,
+        300,
+        1920,
+        736
+      ],
+      "sourceOpaquePixels": 68162,
+      "scaledSize": [
+        33,
+        48
+      ],
+      "offsetInCell": [
+        23,
+        46
+      ],
+      "frame": {
+        "index": 4,
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96,
+        "baselineY": 94,
+        "marginsLTRB": [
+          23,
+          46,
+          24,
+          2
+        ]
+      },
+      "poseSha256": "499572710ff4f5f589fe4143f8ca7669c38e9c88570393985e285b4ecda11792"
+    }
+  ],
+  "transparentOutside": "true; each empty pixel alpha=0"
+}

@@ -1,0 +1,31 @@
+{
+  "athlete": "J.128 Krios",
+  "clip": "pass-behind",
+  "attempt": 3,
+  "generationId": "exec-bacc1e68-e632-48c3-a10e-626382c9a505",
+  "generatedAt": "2026-10-28T00:04:07Z",
+  "promptFile": "tools/generate-art/krios-pass-behind6-attempt03-prompt.md",
+  "rawImage": "tools/generate-art/sources/krios-pass-behind6-attempt03-generated-raw.png",
+  "rawSha256": "0a9b9ecc7726af2f50eae3da5239c7be645e8656cda36f60031b6a59b79442f7",
+  "rawDimensions": [
+    1536,
+    1024
+  ],
+  "referenceImages": [
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "status": "accepted-after-cleanup",
+  "notes": "Pose sequence and pixel-art edge quality appear promising in initial inspection. Dark red background glow must be evaluated and likely removed with documented cleanup before acceptance. No atlas or runtime registration has been made.",
+  "cleanedSource": "tools/generate-art/sources/krios-pass-behind6-attempt03-cleanup01.png",
+  "cleanedSourceSha256": "64ab5da047ddd51f8220f8341feab21cab5514281f3ee7ff9d096e716eccf2ef",
+  "cleanupReport": "tools/generate-art/krios-pass-behind6-attempt03-cleanup01-report.json",
+  "reviewStatus": "accepted-for-packing",
+  "reviewEvidence": [
+    "tools/generate-art/previews/krios-pass-behind6-attempt03-cleanup01/light.png",
+    "tools/generate-art/previews/krios-pass-behind6-attempt03-cleanup01/dark.png",
+    "tools/generate-art/previews/krios-pass-behind6-attempt03-cleanup01/checker.png",
+    "tools/generate-art/previews/krios-pass-behind6-packed/light.png",
+    "tools/generate-art/previews/krios-pass-behind6-packed/dark.png"
+  ],
+  "rejectionReason": "Raw attempt03 required cleanup to remove its low-alpha red glow; cleanup01 removed haze without observed loss of meaningful anatomy."
+}

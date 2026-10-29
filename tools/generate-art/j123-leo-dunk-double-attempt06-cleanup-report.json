@@ -1,0 +1,15 @@
+{
+  "source": "tools/generate-art/sources/j123-leo-dunk-double-attempt06-generated-raw.png",
+  "cleanedSource": "tools/generate-art/sources/j123-leo-dunk-double-attempt06-cleaned.png",
+  "sourceSha256": "ccae9aab0af9584a85332b812b83b029e8b2001efaa71e0406014dfbf2996d5a",
+  "cleanedSha256": "2a067e6fc717f429f80fc7c468bd2b24fc8d81c787db09b9eb7ba940c88fc241",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "cleanup": "Set alpha 1\u201315 to zero, then remove only 8-connected visible components of at most six pixels. No color or character pixels were recolored.",
+  "clearedLowAlphaPixels": 116589,
+  "removedDetachedComponents": 15,
+  "removedDetachedPixels": 19,
+  "reviewStatus": "candidate only; independent visual review pending"
+}

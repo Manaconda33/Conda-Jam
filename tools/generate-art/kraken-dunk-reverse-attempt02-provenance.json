@@ -1,0 +1,58 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-reverse",
+  "attempt": 2,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "invalidated: raw source duplicates another clip attempt and generation provenance is misassociated; not a distinct dunk-reverse attempt",
+  "generatedAt": "2026-10-29T05:13:28Z",
+  "generationId": "exec-c94e4e32-b34b-431b-86b6-5d53ae74ca3b",
+  "promptFile": "tools/generate-art/kraken-dunk-reverse-attempt02-imagegen-prompt.txt",
+  "promptSha256": "5b4412f0de1c0b57c48b6ce854a355159d2eb5d0442a8bcc70a199627d6735f1",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-reverse-attempt02-generated-raw.png",
+  "rawSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "alphaZeroCornerSamples": [
+    [
+      41,
+      18,
+      6,
+      0
+    ],
+    [
+      74,
+      40,
+      20,
+      0
+    ],
+    [
+      20,
+      7,
+      1,
+      0
+    ],
+    [
+      58,
+      28,
+      18,
+      0
+    ]
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-reverse-attempt02/INDEPENDENT_SOURCE_REVIEW.md",
+  "provenanceStatus": "misassociated-duplicate",
+  "duplicateOf": {
+    "clip": "alley-oop-reverse",
+    "attempt": 3,
+    "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt03-generated-raw.png",
+    "rawSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769"
+  },
+  "reviewSummary": "Invalidated: raw source hash and generation ID duplicate alley-oop-reverse attempt03 despite a different prompt. Independent review also notes missing reverse-dunk apex/extension and raw cell/style issues. Preserve as a provenance-integrity failure; do not count it as a unique attempt."
+}

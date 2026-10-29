@@ -1,0 +1,27 @@
+{
+  "athlete": "kraken",
+  "athleteIndex": 89,
+  "clip": "block",
+  "candidate": 2,
+  "classification": "unreviewed-rejected-source-candidate",
+  "generationId": "exec-5c109ad9-cd14-4417-b161-0f4659b6503b",
+  "generatedAt": "2026-10-27",
+  "rawImage": "tools/generate-art/sources/kraken-block-candidate2/raw.png",
+  "rawSha256": "11935b6ebbeb9b9ef436283c020c000693808c3af77fc822993dca0e64352c5e",
+  "dimensions": [1145, 1374],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/sources/kraken-block-candidate2/prompt.md",
+  "layout": "tools/generate-art/sources/kraken-block-candidate2/layout.json",
+  "review": {
+    "status": "rejected-pending-revision",
+    "notes": [
+      "Independent review finds smooth, high-detail shaded concept rendering unlike Kraken's compact crisp 80x96 production sprites; reducing the source to cell scale would lose detail and not reliably match the game style.",
+      "Pose margins and row gutters are too small: the takeoff hand nears the top boundary, takeoff shoes and apex hand nearly touch across the row boundary, and the apex hand has almost no safe cell margin. No definite clipping was visible, but the required ample padding is absent.",
+      "The alpha edges are clean without visible halo, but the detailed soft shading and edge palette are unsuitable for simple downscaling to the sprite cell.",
+      "No cleanup, normalization, or packing was accepted because the raw sheet needs a more compact pixel-art treatment and wider margins."
+    ],
+    "identityAndAnatomy": "All four figures read as the same elf-like male with natural skin, cropped dark hair, pointed ears and burgundy/copper kit; no tentacles or baked-in ball are present.",
+    "ballBakedIntoAthleteArt": false,
+    "independentReview": "candidate_review: four distinct complete poses and identity/anatomy pass, but style and cell-margin requirements fail"
+  }
+}

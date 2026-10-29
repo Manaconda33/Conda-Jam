@@ -10,9 +10,11 @@ import {
   stageStandingHeightPercent,
   stageBallHeightPixels,
   stageAttackPanY,
+  stageShotPanY,
   stageAttackZoom,
   stageDunkContactOffsetPixels,
   stageCameraFocusX,
+  isStageDunkAttack,
   stageViewShearDirection,
   stageHoopGeometry,
   stageMidcourtScreenX,
@@ -103,8 +105,12 @@ test('court perspective changes continuously as the attack camera crosses midcou
   assert.ok(Math.abs(stageViewShearDirection(101)-stageViewShearDirection(99))<.11,'camera crossing the midpoint cannot flip court geometry in one frame');
   assert.equal(stageViewShearDirection(101,1),stageViewShearDirection(173,1),'attack camera translation keeps one stable viewing azimuth');
   assert.equal(stageAttackPanY(0),0);
-  assert.equal(stageAttackPanY(2.5),21);
-  assert.equal(stageAttackPanY(5),42,'apex pan keeps the higher jump clear of the HUD');
+  assert.equal(stageAttackPanY(2.5),70);
+  assert.equal(stageAttackPanY(5),140,'apex pan keeps tall captain sprites clear of the HUD');
+  assert.equal(stageShotPanY(85),0,'wide views do not shift the court');
+  assert.equal(stageShotPanY(100),0,'standard zoom keeps its existing composition');
+  assert.equal(stageShotPanY(110),8,'shot pan scales smoothly with zoom');
+  assert.equal(stageShotPanY(120),16,'close shot framing clears the fixed HUD');
 });
 
 test('depth scale matches Issue 4 near/far ratio and height responds to zoom',()=>{
@@ -149,6 +155,14 @@ test('attack camera frames either rim symmetrically and eases into the approach'
   assert.ok(approaching>150&&approaching<174,'focus transitions smoothly before reaching the rim');
   assert.equal(stageCameraFocusX(170,200,1),183,'focus settles on the attack framing inside the final 30 world units');
   assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
+});
+
+test('stage attack camera includes alley-oop clips as well as dunk clips',()=>{
+  assert.equal(isStageDunkAttack('dunk-power'),true);
+  assert.equal(isStageDunkAttack('alley-oop-power'),true);
+  assert.equal(isStageDunkAttack('alley-oop-reverse'),true);
+  assert.equal(isStageDunkAttack('shoot'),false);
+  assert.equal(isStageDunkAttack(undefined),false);
 });
 
 test('stage hoops use court anchors, reference-sized rims, and distinct support depth',()=>{

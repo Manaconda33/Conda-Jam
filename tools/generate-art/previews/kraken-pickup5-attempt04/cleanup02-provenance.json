@@ -1,0 +1,53 @@
+{
+  "status": "candidate for separate Kraken-specific ball-track trials only; no runtime registration",
+  "athlete": "J.07 Kraken",
+  "clip": "pickup",
+  "attempt": 4,
+  "cleanup": 2,
+  "candidateAtlas": "tools/generate-art/previews/kraken-pickup5-attempt04/kraken-pickup5-attempt04-cleanup02-atlas-candidate.png",
+  "candidateAtlasSha256": "055364f4286b2552e8fdf076ab422fcf9b78d97bcf1d12c7a99f0563bd73a1da",
+  "generationProvenance": [
+    {
+      "frames": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "generationId": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "source": "tools/generate-art/sources/kraken-pickup5-attempt03-generated-raw.png",
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceAtlasSha256": "101f9f4cbe34a975110bd4e5248fa01c3e2f85d8c3f321b3669394948d06ab5e",
+      "exactPrompt": "tools/generate-art/kraken-pickup5-attempt03-imagegen-prompt.txt",
+      "derivation": "reuse attempt03 cleanup01 cells pixel-identically"
+    },
+    {
+      "frame": 3,
+      "generationId": "exec-fa7b159c-0083-48d9-b25e-0da6650e06cc",
+      "source": "tools/generate-art/sources/kraken-pickup5-attempt04-pose03-generated-raw.png",
+      "sourceSha256": "8c9c02d13206ac20b0dd18d1bd054cbeda427b9f1ef204a167be53b80364543a",
+      "exactPrompt": "tools/generate-art/kraken-pickup5-attempt04-pose03-imagegen-prompt.txt",
+      "crop": "tools/generate-art/previews/kraken-pickup5-attempt04/poses/source-crops/pose-03-grab-tick07-attempt04-source-crop.png",
+      "cropSha256": "1f547bfac206f5ec225b55f4b1c00b0957c89d4fe05bdb1c43a91e49f9d8f0c0",
+      "fitScale": 0.06467065868263473,
+      "outputCell": "tools/generate-art/previews/kraken-pickup5-attempt04/poses/pose-03-grab-tick07-80x96.png",
+      "derivation": "isolate alpha>=32 connected component; retain original colors and alpha within 1.5 source px; nearest-neighbor uniform scale to 54x59; sole baseline y=90"
+    }
+  ],
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "grabFrame": 3,
+  "grabTick": 7,
+  "baselineY": 90,
+  "frameSize": [
+    80,
+    96
+  ],
+  "ballPolicy": "No ball in any source or candidate frame; ball must remain separate on a Kraken-specific track.",
+  "review": "tools/generate-art/previews/kraken-pickup5-attempt04/INDEPENDENT_CLEANUP02_REVIEW.md"
+}

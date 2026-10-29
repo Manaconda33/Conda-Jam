@@ -1,3 +1,9 @@
+## J.122 Leo `dunk-tomahawk` — 2026-10-27
+
+Selected attempt03 source generation `c2pa:28240929-9491-4ec1-960b-a46045db029a` passed independent 15-pose packed-art review. Its 512×384 4×4 atlas has 15 occupied cells, transparent cell16 and baseline94. The selected sheet corrects the release/finish hand separation; the original source and transparency-edit attempts remain preserved with prompts, IDs, hashes, cleanup, layout and light/dark proofs.
+
+Ten separate ball-track candidates each preserve 60 production Jam Stage captures. Attempt10 passed two independent reviews across both facings and 100%/120% zoom; selector assertions confirm the reviewed Leo atlas is selected in every shot (mirrored only for left-facing). The ball contacts the bent gather at tick10, the cocked hand at14, the descending hand at20, and the separate ownerless release hand at21. The final track vectors and rejection notes are in `tools/generate-art/j122-leo-dunk-tomahawk-track-trials.json`; gameplay simulation validates single tick21 release, tick23 score and tick30 landing.
+
 ## J.135 — Briar Foxglove `fall`
 
 ## Current J.137 Briar Foxglove `celebrate` — 2026-10-27

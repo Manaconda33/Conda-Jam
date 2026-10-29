@@ -1,0 +1,67 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "pass",
+  "src": "./public/assets/animation/kraken-pass-right.webp",
+  "columns": 3,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "Edit the attached transparent Kraken pass sprite sheet. Preserve its exact 3-column by 2-row reading order, canvas, alpha background, pixel-art style, original scale, body proportions, anatomy, colors, uniform, face, short auburn hair, pointed elf ear, copper amulet, and all poses except the specifically identified frame below.\n\nCorrect only frame 2 (top row, third cell). It must be a clear pre-release chest gather, not an extended pass: both elbows visibly bent close to the ribs; both hands open and clearly separated at chest height with an obvious space where the separate basketball will be rendered; shoulders and torso turned toward target, knees flexed. Do not reach the hands forward or extend either arm in this cell. Frame 2 is the last held-ball pose before the canonical frame 3 release anchor at tick 5.\n\nPreserve frame 3 (bottom row, first cell) as the unmistakable chest-pass release beginning at tick 5, with a small forward step and both arms extended toward target. Preserve frame 4 (bottom row, second cell) as the distinct follow-through and frame 5 (bottom row, third cell) as recovery. Keep frames 0 and 1 as the ready and preparation poses. Do not draw a basketball or any ball-shaped object in any frame.\n\nKeep the same exact Kraken identity in every frame: natural-skinned athletic male elf, short auburn hair, pointed ears, copper amulet, burgundy Vesper Harbor uniform with copper/gold trim, wrist details, matching shorts and shoes. Do not redesign or alter his face, hair, anatomy, kit, palette, or character. Preserve complete bodies and transparent space around each pose. No gridlines, labels, objects, extra fingers, cropped limbs, separated accessories, or detached pixels. Only adjust frame 2's arm pose enough to read as a held ball gather immediately before frame 3's release.\n",
+    "generationId": "exec-29a4da42-994e-4a1f-82eb-0fe919e3a283",
+    "generatedAt": "2026-10-28T10:13:07Z",
+    "rawSourceImage": "tools/generate-art/sources/kraken-pass6-attempt02-generated-raw.png",
+    "rawSourceSha256": "1b8957e8f8266e0a42ee35fa76ab46563b5808d795c46977d2abd4466b599994",
+    "promptFile": "tools/generate-art/kraken-pass6-attempt02-edit-prompt.txt",
+    "promptSha256": "07a707d92be43085f374ba23dd7e0cc03d1cefa1e6d71264f47743f8c19678ee",
+    "derivedRuntimeAtlas": "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png",
+    "derivedRuntimeAtlasSha256": "36e2a4e3fd62d19d6a471a26b837203b440fd7f13ae3ca66d255b54bdac60810",
+    "cleanupScript": "tools/generate-art/clean-kraken-pass6-attempt02.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-pass6-attempt02/layout.json",
+    "sourceReview": {
+      "status": "pass for cleanup and separate ball-track trials only; not production acceptance",
+      "evidence": "tools/generate-art/previews/kraken-pass6-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+      "notes": "Six distinct full-body Kraken poses, true transparency, clear component separation and no baked ball. Frame2 is the final chest gather before the frame3/tick5 release; track trials must verify contact through tick4 and continuity at release."
+    },
+    "cleanupReview": "The six poses are distinct, anatomy and identity are intact, alpha previews and baseline/margins pass. 121 detached alpha components more than 2 source pixels from each figure were excluded and documented. Gameplay trials must still establish ball contact through tick 4 and release continuity at frame3/tick5.",
+    "ballTrackReview": "tools/generate-art/previews/kraken-pass6-track-candidate/attempt-07/native/INDEPENDENT_REVIEW_2026-10-28.md",
+    "notes": "Original six-pose source and cleanup passed for ball-track trials. Runtime integration awaits no-injection normal-loader catch and receiver-hand continuity review."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-reverse",
+  "attempt": 3,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected as raw production source; cleanup candidate not pursued",
+  "generatedAt": "2026-10-29T05:19:00Z",
+  "generationId": "exec-7ce5cbe6-f258-448b-a490-e667f3cebbfe",
+  "promptFile": "tools/generate-art/kraken-dunk-reverse-attempt03-imagegen-prompt.txt",
+  "promptSha256": "21c580d182992ead80f082b5a03ad9a2c28dc1faf23db93ad9d45ae6b24a828c",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-reverse-attempt03-generated-raw.png",
+  "rawSha256": "1796869c262c71f4009157f3a14749edcf4114ba49bff7b32ee15311e89fee7e",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-reverse-attempt03/INDEPENDENT_SOURCE_REVIEW.md",
+  "uniquenessCheck": {
+    "previousDunkReverseRawSha256": "45905ef802f469021a95644d06c4eed456f03c6c7491dce022facf4bf1516901",
+    "alleyOopReverseAttempt03RawSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769",
+    "thisAttemptRawSha256": "1796869c262c71f4009157f3a14749edcf4114ba49bff7b32ee15311e89fee7e",
+    "uniqueAcrossComparedSources": true
+  },
+  "reviewSummary": "Independent reviewer verified unique generation/hash and distinct frames8\u201311 (inverted apex, cocked arm, downward extension, follow-through), but rejected raw alpha softness (531,829 partial-alpha pixels, no fully opaque pixels) and unsafe margins: pose9 reaches its cell right edge and pose10 reaches left/bottom. No cleanup or registration.",
+  "reviewFileSha256": "636c7eab077d297f32cf3c2496ee9698b314ec5e5047e70d5567add43498066a"
+}

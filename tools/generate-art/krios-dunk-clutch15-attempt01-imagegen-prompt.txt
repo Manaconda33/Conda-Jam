@@ -1,0 +1,24 @@
+Create one sprite source sheet with EXACTLY FIFTEEN separate full-body drawings of Krios in a 5-column by 3-row grid, read left to right. Keep all bodies inside their equal cells with clear gutters; no cropped horns, hands, feet or shoes. Solid chroma green RGB(0,255,0), no grid, labels, text, gradients, floor, shadow, court, hoop, ball, teammates, motion marks or decoration.
+
+STYLE: crisp 16-bit pixel art, square pixel clusters, hard stepped outlines, limited clustered highlights/shadows. Match Krios's accepted game sprite. No painterly texture, soft gradients, airbrush, antialiasing, 3D or photographic light. Keep pixel scale, proportion, palette, outlines, and baseline consistent. Readable at 64×96. Face three-quarter right throughout.
+
+Krios is the canonical Scoria Rams captain: colossal adult male, vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve exact identity, face, horns, beard, build, uniform. Plain charcoal chest with subtle ember trim only; no logo, number, text, badge or symbol. Exactly two arms/hands and two legs/feet. Never draw a basketball or ball-like circle; gameplay ball is separate.
+
+Draw exactly fifteen distinct frames of the cross-body clutch dunk in order; anchors takeoff2, grab5, peak7, release10, finish11, land14:
+0. Staggered approach, torso forward toward imaginary right rim; one hand holds invisible ball at outside waist, guide palm close underneath.
+1. Plant and load hips, shoulders lean; cradle crosses abdomen toward opposite hip.
+2. TAKEOFF: both feet clear ground; both hands tuck invisible ball tight against lower chest.
+3. Early ascent; one hand carries ball low across belly while other forearm shields in front.
+4. Mid-ascent; ball hand sweeps toward opposite thigh, knees lift to clear its path.
+5. GRAB: finishing hand secures invisible ball below abdomen as guide hand peels away.
+6. Single finishing arm extends low between lifted knees in a protected underbody clutch.
+7. PEAK: highest point; finishing elbow starts pulling ball upward across far ribs, free arm reaches high.
+8. Start descent; ball hand emerges from cross-body clutch beside opposite shoulder.
+9. Pre-release: finishing arm unfolds diagonally across face toward rim; free elbow pulls back.
+10. RELEASE: one hand reaches high diagonally then flicks down through the imaginary rim; fingers open and release invisible ball once.
+11. FINISH: finishing arm remains crossed above head; free arm extends laterally.
+12. Empty arm swings out from across face to natural side; shoulders square.
+13. Landing approach; both hands reach forward at different heights while knees move below body.
+14. LAND: both feet meet ground and knees bend; finishing hand lowers diagonally across chest, free palm steadies hip.
+
+Imaginary rim is to Krios's right outside the sheet; draw no rim or props. Make the protected underbody clutch and diagonal finish unmistakable. Keep all fifteen anatomically coherent, complete, and distinct; no repeated, missing, extra, cropped, merged or ambiguous pose.

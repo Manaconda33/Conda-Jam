@@ -1,0 +1,17 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-double",
+  "attempt": 2,
+  "status": "source output unavailable; do not count as a generated attempt or use for cleanup/production",
+  "attemptedAt": "2026-10-29T05:25:44Z",
+  "kind": "ImageGen requested with transparent_background=true",
+  "promptFile": "tools/generate-art/kraken-dunk-double-attempt02-imagegen-prompt.txt",
+  "promptSha256": "ad92afe9a408d577c4072af28bb11065170d84d4d2dc16c9a7c739e779d9197e",
+  "generationId": null,
+  "rawFile": null,
+  "rawSha256": null,
+  "dimensions": null,
+  "mode": null,
+  "outputStatus": "The wrapped tool response exposed only a PNG data URL. The calling code printed a truncated prefix and did not persist the full bytes or capture a generation ID. Concurrently present generated_images files have no reliable request-to-output mapping, so none is attributed to this attempt.",
+  "note": "Attempt02 prompt is preserved exactly. No raw output is assigned. Do not infer an ImageGen ID or copy an unverified shared output into this attempt. Await a serialized retry with its direct artifact ID and hash."
+}

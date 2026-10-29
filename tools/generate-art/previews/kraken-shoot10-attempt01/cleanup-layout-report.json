@@ -1,0 +1,407 @@
+{
+  "status": "cleanup/layout trial only; gameplay and production acceptance pending",
+  "source": "tools/generate-art/sources/kraken-shoot10-attempt01-generated-raw.png",
+  "sourceSha256": "b6e779cc44240a387e1298dd31808ea4f7bfcd51f00a644a444efc2dcf53e2c3",
+  "requestedDimensions": [
+    1536,
+    1536
+  ],
+  "actualDimensions": [
+    1254,
+    1254
+  ],
+  "key": {
+    "predicate": "G>=130, G-R>=40, G-B>=40",
+    "connectivity": "8-connected canvas-edge matte plus detached green islands",
+    "keyedPixels": 1259878,
+    "interiorIslandCount": 27,
+    "smallIslandRGBRepairs": 23,
+    "largeIslandsCleared": 4,
+    "localEdgePixelsCleared": 4577,
+    "weakInteriorRGBRepairs": 2548,
+    "rawPreserved": true,
+    "noRedraw": true,
+    "opaqueGreenDominantNativePixels": 0
+  },
+  "components": {
+    "expected": 10,
+    "found": 10,
+    "sourceGrid": [
+      4,
+      3
+    ],
+    "ordering": "row0 left-to-right; row1 left-to-right; bottom row first two cells",
+    "componentBoundsAndPixels": [
+      {
+        "boundsLTRB": [
+          63,
+          80,
+          239,
+          408
+        ],
+        "pixels": 31296
+      },
+      {
+        "boundsLTRB": [
+          386,
+          116,
+          562,
+          408
+        ],
+        "pixels": 29513
+      },
+      {
+        "boundsLTRB": [
+          698,
+          53,
+          876,
+          399
+        ],
+        "pixels": 30994
+      },
+      {
+        "boundsLTRB": [
+          1039,
+          31,
+          1197,
+          384
+        ],
+        "pixels": 31079
+      },
+      {
+        "boundsLTRB": [
+          85,
+          435,
+          271,
+          812
+        ],
+        "pixels": 33274
+      },
+      {
+        "boundsLTRB": [
+          400,
+          427,
+          592,
+          820
+        ],
+        "pixels": 32717
+      },
+      {
+        "boundsLTRB": [
+          665,
+          447,
+          909,
+          844
+        ],
+        "pixels": 32663
+      },
+      {
+        "boundsLTRB": [
+          1039,
+          463,
+          1203,
+          833
+        ],
+        "pixels": 29277
+      },
+      {
+        "boundsLTRB": [
+          65,
+          914,
+          288,
+          1226
+        ],
+        "pixels": 33154
+      },
+      {
+        "boundsLTRB": [
+          386,
+          894,
+          559,
+          1228
+        ],
+        "pixels": 33024
+      }
+    ]
+  },
+  "layout": {
+    "logicalGrid": [
+      4,
+      3
+    ],
+    "logicalCellSize": [
+      384,
+      512
+    ],
+    "logicalMarginRequirement": 24,
+    "logicalUniformFitScale": 1.1687657430730478,
+    "logicalSheet": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-logical-layout.png",
+    "runtimeGrid": [
+      5,
+      2
+    ],
+    "runtimeCellSize": [
+      80,
+      96
+    ],
+    "runtimeScale": 0.222,
+    "baseline": 94,
+    "runtimeCandidate": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-runtime-candidate.png",
+    "runtimeLayout": "tools/generate-art/previews/kraken-shoot10-attempt01/runtime-layout.json",
+    "distinctLogicalFrameHashes": 10,
+    "distinctNativeFrameHashes": 10,
+    "allLogicalMarginsPass": true,
+    "frames": [
+      {
+        "frame": 0,
+        "sourceGridRow": 0,
+        "sourceBoundsLTRB": [
+          63,
+          80,
+          239,
+          408
+        ],
+        "sourceComponentPixels": 31296,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          206,
+          383
+        ],
+        "logicalMarginsLTRB": [
+          90,
+          105,
+          90,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "5a81f4336aebec4c443688429796829d4368fcb137d600e86df9a675cc9a7622"
+      },
+      {
+        "frame": 1,
+        "sourceGridRow": 0,
+        "sourceBoundsLTRB": [
+          386,
+          116,
+          562,
+          408
+        ],
+        "sourceComponentPixels": 29513,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          206,
+          341
+        ],
+        "logicalMarginsLTRB": [
+          90,
+          147,
+          90,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "99879d18962fbfb3d77938851aae381f1294a1044db7cdb365c4335a2b4c5130"
+      },
+      {
+        "frame": 2,
+        "sourceGridRow": 0,
+        "sourceBoundsLTRB": [
+          698,
+          53,
+          876,
+          399
+        ],
+        "sourceComponentPixels": 30994,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          208,
+          404
+        ],
+        "logicalMarginsLTRB": [
+          88,
+          85,
+          88,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "fba126b87ab9d9c3ba64f16f9291ec5fca7b6a4ed6cf936f120cc6031ac595a3"
+      },
+      {
+        "frame": 3,
+        "sourceGridRow": 0,
+        "sourceBoundsLTRB": [
+          1039,
+          31,
+          1197,
+          384
+        ],
+        "sourceComponentPixels": 31079,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          185,
+          413
+        ],
+        "logicalMarginsLTRB": [
+          100,
+          75,
+          100,
+          25
+        ],
+        "minimumMarginPx": 25,
+        "meets24pxMargins": true,
+        "poseSha256": "8a3f12656f941415fc42302a5a2d62444d409d35a68f2cf3b7a07df9e9ecd0f2"
+      },
+      {
+        "frame": 4,
+        "sourceGridRow": 1,
+        "sourceBoundsLTRB": [
+          85,
+          435,
+          271,
+          812
+        ],
+        "sourceComponentPixels": 33274,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          217,
+          441
+        ],
+        "logicalMarginsLTRB": [
+          83,
+          48,
+          85,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "be32e4ccee798933108cb3a4845811be85f84a31b45a41ba8eeff29587618066"
+      },
+      {
+        "frame": 5,
+        "sourceGridRow": 1,
+        "sourceBoundsLTRB": [
+          400,
+          427,
+          592,
+          820
+        ],
+        "sourceComponentPixels": 32717,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          224,
+          459
+        ],
+        "logicalMarginsLTRB": [
+          80,
+          29,
+          81,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "c4d67d650dd86c967c7844ecd994db0444aa8a7489b00d7ceaa5b2cd23bc21ed"
+      },
+      {
+        "frame": 6,
+        "sourceGridRow": 1,
+        "sourceBoundsLTRB": [
+          665,
+          447,
+          909,
+          844
+        ],
+        "sourceComponentPixels": 32663,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          285,
+          464
+        ],
+        "logicalMarginsLTRB": [
+          50,
+          25,
+          50,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "a85b074f36a0b78d3d7ff1f6edc8398bfabb1cb64b89ae6546174e58668e665c"
+      },
+      {
+        "frame": 7,
+        "sourceGridRow": 1,
+        "sourceBoundsLTRB": [
+          1039,
+          463,
+          1203,
+          833
+        ],
+        "sourceComponentPixels": 29277,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          192,
+          432
+        ],
+        "logicalMarginsLTRB": [
+          96,
+          56,
+          96,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "a4e5539ddc9ed14abe5e2ee23f8389728b6c1b8676f5ccaf70fec507d5f4b63e"
+      },
+      {
+        "frame": 8,
+        "sourceGridRow": 2,
+        "sourceBoundsLTRB": [
+          65,
+          914,
+          288,
+          1226
+        ],
+        "sourceComponentPixels": 33154,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          261,
+          365
+        ],
+        "logicalMarginsLTRB": [
+          61,
+          124,
+          62,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "9b609c1a9d20c96ae8d41fc1a5951e070451713b6a4e6dd67e488ff5ef2d7b41"
+      },
+      {
+        "frame": 9,
+        "sourceGridRow": 2,
+        "sourceBoundsLTRB": [
+          386,
+          894,
+          559,
+          1228
+        ],
+        "sourceComponentPixels": 33024,
+        "uniformFitScale": 1.1687657430730478,
+        "scaledSize": [
+          202,
+          390
+        ],
+        "logicalMarginsLTRB": [
+          91,
+          99,
+          91,
+          24
+        ],
+        "minimumMarginPx": 24,
+        "meets24pxMargins": true,
+        "poseSha256": "4f9fd5c1611943f8d27c835bef5cd5eca97ae32647ae9be41442d16852568c52"
+      }
+    ]
+  }
+}

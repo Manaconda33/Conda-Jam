@@ -1,0 +1,5774 @@
+{
+  "athlete": "kraken",
+  "clip": "layup",
+  "atlas": "./public/assets/animation/kraken-layup-right.webp",
+  "track": {
+    "height": [
+      1.0,
+      1.2,
+      1.55,
+      1.78,
+      1.85,
+      2.0,
+      1.35,
+      0.75
+    ],
+    "forward": [
+      3,
+      3,
+      3.5,
+      2.9,
+      4.2,
+      4.0,
+      3,
+      3
+    ],
+    "releaseVz": 0.45
+  },
+  "runtimeIntegration": true,
+  "candidateAtlasInjected": false,
+  "candidateTrackInjected": false,
+  "matchup": "Vesper Harbor Undertow vs Blackthorn Court Kings",
+  "courtY": 60,
+  "method": "Normal production manifest, main.js loadProductionSprites image map, and athleteBallTracks code are used without route overrides. The harness changes only deterministic match/player state to launch the documented layup input and advance ordinary production stepMatch/render ticks.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "team": "vesper-harbor-undertow",
+      "home": "vesper-harbor-undertow",
+      "away": "blackthorn-court-kings",
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick02-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick05-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 184.9,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick08-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.55,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 2,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.277,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick10-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.354,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.586,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.895,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.127,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick21-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.822,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick30-zoom100.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 188.594,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick40-zoom100.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick49-zoom100.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick50-zoom100.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick60-zoom100.png"
+        }
+      ],
+      "trace": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick02-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick05-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 184.9,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick08-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.55,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 2,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.277,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick10-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.354,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.586,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.895,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.127,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick21-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.822,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick30-zoom100.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 188.594,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick40-zoom100.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick49-zoom100.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick50-zoom100.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick60-zoom100.png"
+        }
+      ],
+      "result": {
+        "releasedAtTick10": true,
+        "madeTwoByTick50": true,
+        "finalScore": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "team": "vesper-harbor-undertow",
+      "home": "blackthorn-court-kings",
+      "away": "vesper-harbor-undertow",
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick02-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick05-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15.1,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick08-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.45,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 2,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.723,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick10-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.646,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.414,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.105,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.873,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick21-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.178,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick30-zoom100.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 11.406,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick40-zoom100.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick49-zoom100.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick50-zoom100.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick60-zoom100.png"
+        }
+      ],
+      "trace": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick02-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick05-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15.1,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick08-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.45,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 2,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.723,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick10-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.646,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.414,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.105,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.873,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick21-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.178,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick30-zoom100.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 11.406,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick40-zoom100.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick49-zoom100.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick50-zoom100.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick60-zoom100.png"
+        }
+      ],
+      "result": {
+        "releasedAtTick10": true,
+        "madeTwoByTick50": true,
+        "finalScore": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "team": "vesper-harbor-undertow",
+      "home": "vesper-harbor-undertow",
+      "away": "blackthorn-court-kings",
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick02-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick05-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 184.9,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick08-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.55,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 2,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.277,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick10-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.354,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.586,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.895,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.127,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick21-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.822,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick30-zoom120.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 188.594,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick40-zoom120.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick49-zoom120.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick50-zoom120.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick60-zoom120.png"
+        }
+      ],
+      "trace": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick02-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick05-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 184.9,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick08-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 185.55,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 2,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.277,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick10-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.354,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.586,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 186.895,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.127,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick21-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 187.822,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick30-zoom120.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 188.594,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick40-zoom120.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick49-zoom120.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick50-zoom120.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 182,
+            "y": 60,
+            "z": 0,
+            "facing": 1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 188.98,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/right-tick60-zoom120.png"
+        }
+      ],
+      "result": {
+        "releasedAtTick10": true,
+        "madeTwoByTick50": true,
+        "finalScore": [
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "team": "vesper-harbor-undertow",
+      "home": "blackthorn-court-kings",
+      "away": "vesper-harbor-undertow",
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick02-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick05-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15.1,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick08-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.45,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 2,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.723,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick10-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.646,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.414,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.105,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.873,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick21-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.178,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick30-zoom120.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 11.406,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick40-zoom120.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick49-zoom120.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick50-zoom120.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick60-zoom120.png"
+        }
+      ],
+      "trace": [
+        {
+          "tick": 0,
+          "clip": "layup",
+          "animationTick": 0,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "layup",
+          "animationTick": 2,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15,
+            "y": 60,
+            "z": 1.2,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick02-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "layup",
+          "animationTick": 5,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.1111404660392044,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.5,
+            "y": 60,
+            "z": 2.661,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick05-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "layup",
+          "animationTick": 8,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.8477590650225735,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 15.1,
+            "y": 60,
+            "z": 3.628,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick08-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "layup",
+          "animationTick": 9,
+          "frame": 3,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": true,
+            "fga": 0,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 14.45,
+            "y": 60,
+            "z": 3.777,
+            "mode": "carried",
+            "owner": "kraken",
+            "made": null
+          },
+          "track": {
+            "height": 1.815,
+            "forward": 3.55
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "layup",
+          "animationTick": 10,
+          "frame": 4,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 2,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.723,
+            "y": 59.706,
+            "z": 2.8,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.85,
+            "forward": 4.2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick10-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "layup",
+          "animationTick": 11,
+          "frame": 5,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.9615705608064609,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.646,
+            "y": 59.413,
+            "z": 3.224,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 2,
+            "forward": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "clip": "layup",
+          "animationTick": 14,
+          "frame": 6,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 1.414213562373095,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.414,
+            "y": 58.532,
+            "z": 4.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.35,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "layup",
+          "animationTick": 18,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 13.105,
+            "y": 57.357,
+            "z": 5.464,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "layup",
+          "animationTick": 21,
+          "frame": 7,
+          "src": "./public/assets/animation/kraken-layup-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.873,
+            "y": 56.476,
+            "z": 6.034,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick21-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "clip": "idle",
+          "animationTick": 8,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 12.178,
+            "y": 53.833,
+            "z": 6.34,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.78,
+            "forward": 2.9
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick30-zoom120.png"
+        },
+        {
+          "tick": 40,
+          "clip": "idle",
+          "animationTick": 18,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-idle-right.webp",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 0
+          },
+          "ball": {
+            "x": 11.406,
+            "y": 50.896,
+            "z": 4.21,
+            "mode": "shot",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 0.75,
+            "forward": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick40-zoom120.png"
+        },
+        {
+          "tick": 49,
+          "clip": "celebrate",
+          "animationTick": 4,
+          "frame": 0,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.4333333333333333,
+            "forward": 3.3333333333333335
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick49-zoom120.png"
+        },
+        {
+          "tick": 50,
+          "clip": "celebrate",
+          "animationTick": 5,
+          "frame": 1,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.55,
+            "forward": 3.5
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick50-zoom120.png"
+        },
+        {
+          "tick": 60,
+          "clip": "celebrate",
+          "animationTick": 15,
+          "frame": 2,
+          "src": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "productionImage": {
+            "present": true,
+            "complete": true,
+            "width": 320,
+            "height": 192
+          },
+          "player": {
+            "x": 18,
+            "y": 60,
+            "z": 0,
+            "facing": -1,
+            "hasBall": false,
+            "fga": 1,
+            "fgm": 1
+          },
+          "ball": {
+            "x": 11.02,
+            "y": 49.428,
+            "z": 2.17,
+            "mode": "dead",
+            "owner": null,
+            "made": true
+          },
+          "track": {
+            "height": 1.2000000000000002,
+            "forward": 3
+          },
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 10,
+              "text": "Kraken launches a 2-pointer"
+            },
+            {
+              "tick": 45,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "phase": "playing",
+          "pause": false,
+          "path": "tools/generate-art/previews/kraken-layup-normal-loader/attempt-05/left-tick60-zoom120.png"
+        }
+      ],
+      "result": {
+        "releasedAtTick10": true,
+        "madeTwoByTick50": true,
+        "finalScore": [
+          0,
+          2
+        ]
+      }
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 60
+}

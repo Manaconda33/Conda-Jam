@@ -13,7 +13,11 @@ export function athleteVisualScale(athlete,zoom=100){
 /** A held ball stays in front of its carrier, while foreground defenders occlude it. */
 export function ballDrawDepth(ball,players){
   const owner=ball.mode==='carried'?players.find(p=>p.id===ball.ownerId):null;
-  return owner?owner.y-owner.z*.05+.01:ball.y-.5;
+  if(owner)return owner.y-owner.z*.05+.01;
+  const target=ball.mode==='pass'?players.find(p=>p.id===ball.targetId):null;
+  // Keep the last handoff visible above the catcher's sprite without changing ball physics.
+  if(target&&Math.hypot(target.x-ball.x,target.y-ball.y)<6)return target.y-target.z*.05+.01;
+  return ball.y-.5;
 }
 
 /** Select authored pixels using the simulation clock; drawing never advances gameplay. */
@@ -39,7 +43,16 @@ export function selectProductionSprite(player, {manifest,images,libraries=suppor
   const index=clip.frames.length===targetFrames?sampledFrame:Math.round(sampledFrame*(clip.frames.length-1)/Math.max(1,targetFrames-1));
   const frame=clip.frames[index],atlasWidth=atlas.width||atlas.naturalWidth,atlasHeight=atlas.height||atlas.naturalHeight;
   if(!frame||frame.x<0||frame.y<0||frame.w<=0||frame.h<=0||frame.x+frame.w>atlasWidth||frame.y+frame.h>atlasHeight)return null;
-  return {atlas,src:clip.src,sx:frame.x,sy:frame.y,sourceWidth:frame.w,sourceHeight:frame.h,flip,clip:key,frame:index,production:true,libraryId:library?.donorId??player.id,classification:library?.mode==='shared'?'derived-palette':'original-authored'};
+  const baselineMetadataValid=clip.baselineY===undefined||(Number.isFinite(clip.baselineY)&&clip.baselineY>=0&&clip.baselineY<=frame.h);
+  return {atlas,src:clip.src,sx:frame.x,sy:frame.y,sourceWidth:frame.w,sourceHeight:frame.h,baselineY:baselineMetadataValid?clip.baselineY:undefined,baselineMetadataInvalid:!baselineMetadataValid,flip,clip:key,frame:index,production:true,libraryId:library?.donorId??player.id,classification:library?.mode==='shared'?'derived-palette':'original-authored'};
+}
+
+/** Compensate for a clip's authored source-pixel baseline while keeping the legacy ground point fixed. */
+export function productionSpriteBaselineOffsetY(sprite,renderedHeight,legacyBaselineY=94){
+  if(sprite?.baselineY===undefined)return 0;
+  const sourceHeight=sprite.sourceHeight,baselineY=sprite.baselineY;
+  if(!Number.isFinite(sourceHeight)||sourceHeight<=0||!Number.isFinite(baselineY)||baselineY<0||baselineY>sourceHeight||!Number.isFinite(renderedHeight))return 0;
+  return (legacyBaselineY-baselineY)*renderedHeight/sourceHeight;
 }
 
 /** Use alpha occupancy across an authored clip to normalize transparent source padding. */

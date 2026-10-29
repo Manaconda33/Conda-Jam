@@ -1,0 +1,7 @@
+Edit the supplied J.111 Leo reverse-layup sprite sheet to correct the release identity defect while preserving its transparent 4×2 grid, all eight original action poses, figure scale, baseline, and cell placement. Return an RGBA sheet at the same dimensions.
+
+Leo is the pale adult human captain with long wavy black hair, refined mustache, composed face, and black/crimson Court Kings uniform. Preserve his natural anatomy, two arms/hands/legs/shoes, and the existing distinct pose sequence. Do not add or remove frames, rearrange cells, invent props, or paint any ball. Preserve the genuine transparent background and gutters.
+
+Across frames 3–6, adjust his head and shoulders enough that his recognizable face and refined mustache remain visible in a clear three-quarter profile during the turn, release, and follow-through. Do not show only the back of his head or torso. Keep the reverse-side release gesture and the right-facing approach. At frame5, the canonical release pose at simulation tick12, show his face and mustache clearly while his far-side hand releases toward image-right. The basketball remains separate runtime art, not in any drawing.
+
+Do not change the canonical animation durations or release timing. Do not change the other poses unless a small continuity adjustment is necessary to keep identity, anatomy, scale, gutters, and baseline consistent. Return only the corrected transparent sprite sheet.

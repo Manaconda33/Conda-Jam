@@ -1,0 +1,23 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 4,
+  "poseIndex": 3,
+  "generationId": "exec-fa7b159c-0083-48d9-b25e-0da6650e06cc",
+  "generatedAt": "2026-10-28T15:15:54Z",
+  "promptFile": "tools/generate-art/kraken-pickup5-attempt04-pose03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "sourceImage": "tools/generate-art/sources/kraken-pickup5-attempt04-pose03-generated-raw.png",
+  "sourceSha256": "8c9c02d13206ac20b0dd18d1bd054cbeda427b9f1ef204a167be53b80364543a",
+  "dimensions": [1145, 1374],
+  "format": "PNG RGBA",
+  "parentIdentityAndPoseReference": "tools/generate-art/previews/kraken-pickup5-attempt04/references/attempt03-pose03-4x-identity-and-pose-reference.png",
+  "parentGeneration": "tools/generate-art/kraken-pickup5-attempt03-provenance.json",
+  "poseTiming": {
+    "frameDuration": 1,
+    "grabTick": 7
+  },
+  "ballPolicy": "Empty cupped hand only; no ball in the artwork."
+}

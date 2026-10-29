@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-360",
+  "attempt": 3,
+  "kind": "serialized ImageGen with transparent_background=true",
+  "status": "source candidate; independent source review pending",
+  "generatedAt": "2026-10-29T05:40:00Z",
+  "generationId": "exec-0cb5d20f-f637-46df-9c12-efce4f80cffd",
+  "promptFile": "tools/generate-art/kraken-dunk-360-attempt03-imagegen-prompt.txt",
+  "promptSha256": "822b190aea0b306c00812f1f8dfd1995b4bc1e3add54d4597db2da03743c7609",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-360-attempt03-generated-raw.png",
+  "rawSha256": "cd506ca3bb4e77742de5543b109d888db96d4636bf97b7e143191fd545732fef",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentPixels": 1013835,
+  "opaquePixels": 867,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-360-attempt03/INDEPENDENT_SOURCE_REVIEW.md"
+}

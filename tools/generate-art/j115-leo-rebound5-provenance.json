@@ -12,26 +12,26 @@
   "rawSourceSha256": "0e71922ff96d2cb430f20bafe6150d3e73a41582515f8faba2bfe15135666076",
   "sourceSha256": "0e71922ff96d2cb430f20bafe6150d3e73a41582515f8faba2bfe15135666076",
   "promptFile": "tools/generate-art/j115-leo-rebound5-prompt.md",
-  "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly five distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major; leave the sixth cell fully transparent. Broad transparent gutters; full hair, hands and shoes inside each pose cell. Same scale and camera. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed face, natural adult anatomy and patient poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing rebound. The basketball is separate game art. Leo’s hands remain empty in every drawing; no ball is present even at the catch point. Do not draw any sphere, orb, seams, court, hoop, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters are true alpha-zero transparency, no checkerboard, matte, speckles or haze.\n\nFive distinct connected poses:\n0 sets his feet under the falling ball, eyes up, knees flexed and hands ready;\n1 jumps vertically, both arms reach high and slightly toward image-right;\n2 reaches at the apex, fingers spread to tip/grab the separate ball, face focused;\n3 GRAB at simulation tick5: hands close around empty air at the catch point, elbows start drawing down;\n4 lands under control in a composed ready stance, hands empty after securing the separate ball.\n\nKeep Leo pale, human, long-haired, mustached and recognizable in the black/crimson Court Kings uniform. Preserve complete anatomy and natural joints. Return only the transparent sprite sheet.",
+  "prompt": "Create an original 1536\u00d71024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly five distinct complete full-body Leo poses in a strict three-column by two-row grid, row-major; leave the sixth cell fully transparent. Broad transparent gutters; full hair, hands and shoes inside each pose cell. Same scale and camera. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed face, natural adult anatomy and patient poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a right-facing rebound. The basketball is separate game art. Leo\u2019s hands remain empty in every drawing; no ball is present even at the catch point. Do not draw any sphere, orb, seams, court, hoop, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters are true alpha-zero transparency, no checkerboard, matte, speckles or haze.\n\nFive distinct connected poses:\n0 sets his feet under the falling ball, eyes up, knees flexed and hands ready;\n1 jumps vertically, both arms reach high and slightly toward image-right;\n2 reaches at the apex, fingers spread to tip/grab the separate ball, face focused;\n3 GRAB at simulation tick5: hands close around empty air at the catch point, elbows start drawing down;\n4 lands under control in a composed ready stance, hands empty after securing the separate ball.\n\nKeep Leo pale, human, long-haired, mustached and recognizable in the black/crimson Court Kings uniform. Preserve complete anatomy and natural joints. Return only the transparent sprite sheet.",
   "promptVerbatim": true,
   "sourcePromptStatus": "verbatim",
   "rejectedGenerations": [],
   "mirrorEligible": true,
-  "ballPolicy": "The game basketball is separately rendered. Leo reaches with open empty hands; the separate ball meets his hands at frame3/tick5 and follows his controlled rebound gather. No ball is painted into any pose.",
+  "ballPolicy": "The game basketball is separately rendered. Leo\u2019s empty hands meet the separate ball at frame3/tick5; the loose ball remains unowned through tick4, and the rebound catch grants sole ownership at tick5. The Leo-specific track then follows the pull-down to the upper torso at frame4/tick7. No ball is painted into any pose.",
   "ballTrack": {
     "height": [
       1.1,
       1.55,
       2.25,
-      2.35,
-      1.4
+      1.85,
+      1.25
     ],
     "forward": [
       5,
       7,
       10,
-      8.5,
-      6
+      4.5,
+      4.5
     ]
   },
   "cleanup": {
@@ -41,9 +41,12 @@
   "review": {
     "status": "accepted",
     "reviewedBy": "Codex visual inspection",
-    "reviewNotes": "Five distinct full-body poses show set, jump, high reach, empty-hand catch at frame3/tick5, and recovery. Leo remains pale, adult and human with long wavy black hair, refined mustache and black/crimson kit. No ball is visible."
+    "reviewNotes": "Five distinct poses preserve Leo identity/anatomy with complete natural human proportions and no ball. Independent source review confirms clean packing and an empty sixth cell. Independent Jam Stage review accepts track attempt02 at tick5/tick7 in both facings at100%/120%. Deterministic Leo simulation confirms ownership transfers only at tick5."
   },
   "atlasPath": "public/assets/animation/leo-rebound-right.webp",
   "atlasSha256": "1cc7e180f9abf47360702e40e2efaef7d96ec19507b66167e5bfe7e7a66abd23",
-  "atlasBytes": 30350
+  "atlasBytes": 30350,
+  "trackTrials": "tools/generate-art/j115-leo-rebound-track-trials.json",
+  "lightPreview": "tools/generate-art/previews/leo-rebound-atlas-light.png",
+  "darkPreview": "tools/generate-art/previews/leo-rebound-atlas-dark.png"
 }

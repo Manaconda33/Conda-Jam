@@ -1,0 +1,831 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "krios",
+  "clip": "steal",
+  "candidateAtlas": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+  "candidateTrack": {
+    "height": [
+      1.0,
+      0.9,
+      0.75,
+      0.1,
+      0.6,
+      0.9,
+      1.05,
+      1.0
+    ],
+    "forward": [
+      6,
+      8,
+      10,
+      10.5,
+      10,
+      8,
+      8,
+      7
+    ]
+  },
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "court": "current Jam Stage court geometry; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "frameStartTicks": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    9,
+    11,
+    13
+  ],
+  "frameDurations": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "captureMethod": "The candidate atlas is decoded and placed in the app productionSpriteImages map; the in-memory manifest and athleteBallTracks.krios.steal are injected before startup. Production Jam Stage inputs and stepMatch drive all animation and ball state. Showcase runs use a real defensive steal input against a holder outside reach so all eight art frames can play; contact runs use in-range holders, search deterministic seeds with Krios\u2019s actual steal stat until a real tick5 steal occurs, then capture the separate loose ball created from heldBallPoint. No per-tick ball teleporting.",
+  "runs": [
+    {
+      "mode": "full-pose-sequence",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "initialState": {
+        "player": "krios",
+        "holder": "leo",
+        "teams": [
+          0,
+          1
+        ],
+        "steal": 63,
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "steal",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 3,
+          "clip": "steal",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame1-tick3-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "steal",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "steal",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame3-tick5-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "clip": "steal",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame4-tick7-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "steal",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame5-tick9-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "steal",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame6-tick11-zoom100.png"
+        },
+        {
+          "tick": 13,
+          "clip": "steal",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame7-tick13-zoom100.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-contact",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "seed": 1,
+      "tick": 5,
+      "clip": "steal",
+      "frame": 3,
+      "steals": 1,
+      "playerHasBall": false,
+      "holderHasBall": false,
+      "ball": {
+        "mode": "loose",
+        "ownerId": null,
+        "x": 110.92,
+        "y": 89.83051159986061,
+        "z": 0.22
+      },
+      "holderStun": 29,
+      "steal": 63,
+      "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-contact-frame3-tick5-zoom100.png"
+    },
+    {
+      "mode": "full-pose-sequence",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "initialState": {
+        "player": "krios",
+        "holder": "leo",
+        "teams": [
+          1,
+          0
+        ],
+        "steal": 63,
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "steal",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 3,
+          "clip": "steal",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame1-tick3-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "steal",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "steal",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame3-tick5-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "clip": "steal",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame4-tick7-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "steal",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame5-tick9-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "steal",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame6-tick11-zoom100.png"
+        },
+        {
+          "tick": 13,
+          "clip": "steal",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame7-tick13-zoom100.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-contact",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "seed": 1,
+      "tick": 5,
+      "clip": "steal",
+      "frame": 3,
+      "steals": 1,
+      "playerHasBall": false,
+      "holderHasBall": false,
+      "ball": {
+        "mode": "loose",
+        "ownerId": null,
+        "x": 89.08,
+        "y": 89.83051159986061,
+        "z": 0.22
+      },
+      "holderStun": 29,
+      "steal": 63,
+      "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-contact-frame3-tick5-zoom100.png"
+    },
+    {
+      "mode": "full-pose-sequence",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "initialState": {
+        "player": "krios",
+        "holder": "leo",
+        "teams": [
+          0,
+          1
+        ],
+        "steal": 63,
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "steal",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 3,
+          "clip": "steal",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame1-tick3-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "steal",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "steal",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame3-tick5-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "clip": "steal",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame4-tick7-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "steal",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame5-tick9-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "steal",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame6-tick11-zoom120.png"
+        },
+        {
+          "tick": 13,
+          "clip": "steal",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": false,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 118.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-frame7-tick13-zoom120.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-contact",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "seed": 1,
+      "tick": 5,
+      "clip": "steal",
+      "frame": 3,
+      "steals": 1,
+      "playerHasBall": false,
+      "holderHasBall": false,
+      "ball": {
+        "mode": "loose",
+        "ownerId": null,
+        "x": 110.92,
+        "y": 89.83051159986061,
+        "z": 0.22
+      },
+      "holderStun": 29,
+      "steal": 63,
+      "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/right-contact-frame3-tick5-zoom120.png"
+    },
+    {
+      "mode": "full-pose-sequence",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "initialState": {
+        "player": "krios",
+        "holder": "leo",
+        "teams": [
+          1,
+          0
+        ],
+        "steal": 63,
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "steal",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 3,
+          "clip": "steal",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame1-tick3-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "steal",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "steal",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame3-tick5-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "clip": "steal",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame4-tick7-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "steal",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame5-tick9-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "steal",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame6-tick11-zoom120.png"
+        },
+        {
+          "tick": 13,
+          "clip": "steal",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+          "flip": true,
+          "hasBall": false,
+          "steals": 0,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "leo",
+            "x": 81.5,
+            "y": 90,
+            "z": 1.1
+          },
+          "holderStun": 0,
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-frame7-tick13-zoom120.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-contact",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "seed": 1,
+      "tick": 5,
+      "clip": "steal",
+      "frame": 3,
+      "steals": 1,
+      "playerHasBall": false,
+      "holderHasBall": false,
+      "ball": {
+        "mode": "loose",
+        "ownerId": null,
+        "x": 89.08,
+        "y": 89.83051159986061,
+        "z": 0.22
+      },
+      "holderStun": 29,
+      "steal": 63,
+      "path": "tools/generate-art/previews/j128-krios-steal-track-candidate/attempt-03/native/left-contact-frame3-tick5-zoom120.png"
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 36,
+  "disposition": "rejected",
+  "reviewNotes": "Lowering the contact height to 0.1 while raising forward offset to 10.5 puts the ball on the court and too far ahead of the empty hand."
+}

@@ -1,0 +1,24 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-windmill",
+  "attempt": 2,
+  "kind": "fresh ImageGen request with transparent_background=true",
+  "status": "raw candidate rejected pending independent review: opaque RGB checkerboard; no production cleanup/registration",
+  "generatedAt": "2026-10-29T05:24:00Z",
+  "generationId": "exec-0e11989c-f0e6-4f98-8135-6f6bf4f761b7",
+  "promptFile": "tools/generate-art/kraken-dunk-windmill-attempt02-imagegen-prompt.txt",
+  "promptSha256": "2e7ad439b01a3f17ea67b76daa8880a31218eca37508683f2b4768ec0ad4f675",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-windmill-attempt02-generated-raw.png",
+  "rawSha256": "52bfbcf5d81edbc53d39377bbc0b981ef0626c4a98962cb684adcea91ac21fa7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "alphaExtrema": null,
+  "generatedBy": "ImageGen",
+  "transparentBackgroundRequested": true,
+  "rawInspection": "Output is opaque RGB with a visible checkerboard baked into the pixels despite transparent_background=true. At reduced sprite scale the source also retains smooth illustrated shading rather than the requested hard-edged compact pixel clusters. No cleanup or pose editing has been attempted.",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt02/README.md",
+  "reviewSummary": "Initial raw inspection sees 15 full-body sprites in row-major grid and a broadly legible approach/windmill/downstroke/landing sequence, but the checkerboard is opaque and the style is still smoother than desired. Independent review pending."
+}

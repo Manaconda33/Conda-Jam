@@ -1,0 +1,16 @@
+JAMVERSE '96 — KRAKEN / VESPER HARBOR — PASS ACTION SOURCE — ATTEMPT 01
+
+Create one clean pixel-art sprite sheet with exactly six complete poses in a 3-column by 2-row grid. The six cells must have equal size, straight gutters, generous transparent space around every body, and no gridlines or labels. Use a transparent background. Show one full-body character per cell, centered and fully inside the cell, with head, hair, both ears, both hands, legs, and both shoes visible. Keep scale, camera angle, lighting, outline weight, and baseline consistent across all six cells. Use crisp, deliberate 16-bit arcade pixel clusters; no painterly blur, gradients, antialiasing haze, extra objects, shadows separated from the feet, or motion trails.
+
+The character is Kraken, captain J.07 of Vesper Harbor: the same natural-skinned male elf shown in the attached Kraken idle sprite reference. Preserve his exact recognizable identity and natural athletic proportions: copper/terracotta skin, short auburn hair, pointed ears, facial features, and small copper amulet. Preserve the Vesper Harbor uniform colors from the reference: burgundy primary (#773c49) and copper secondary (#bd865f), with its established trim, shoes, and wrist details. Keep the same face, hair, ears, amulet, body type, uniform, and equipment in every cell. Do not reinterpret, gender-swap, age, beautify, or redesign him.
+
+This is the six-pose ordinary chest pass defined as frames 0–5. Keep the basketball out of the artwork in every pose; the game renders it on a separate Kraken-specific track. Hands remain clearly separated from the torso and from each other whenever the pose allows. Do not put a ball-shaped object, prop, badge, extra fingers, or other object in either hand. Make the passing gestures distinct and anatomically coherent:
+
+Frame 0: balanced ready stance, slight knee bend, ball-free hands naturally open near the waist.
+Frame 1: small preparatory weight shift and torso turn toward the target; hands draw inward without touching or crossing.
+Frame 2: controlled gather at the chest, elbows bent and visible, both hands open with a clear space between palms where the separate ball will appear.
+Frame 3: ordinary chest-pass release pose at the shoulder anchor: torso rotates forward, one foot steps toward target, both arms extend forward together, palms open and wrists flexed; no ball.
+Frame 4: distinct follow-through, arms continue outward and slightly apart with relaxed shoulders; preserve visible fingers and both arms.
+Frame 5: controlled recovery, arms lower, body returns toward a balanced stance, and gaze follows the pass.
+
+Use a consistent three-quarter side view matching the reference, facing right in every cell. Keep all limbs and clothing attached to Kraken, no inter-cell overlaps, no cropped pixels, no duplicated poses, and no objects. The action should read clearly at small sprite size: frame 2 is the gather, frame 3 is the release, frame 4 is follow-through, and frame 5 is recovery. Do not add text, numbers, borders, checkerboard pattern, fake transparency, or a basketball.

@@ -1,0 +1,65 @@
+{
+  "athlete": "kraken",
+  "athleteIndex": 89,
+  "clip": "steal",
+  "candidate": 2,
+  "classification": "original-authored-imagegen-edit",
+  "generationId": "exec-d2c0499f-b9d1-46cc-9b48-41de0d4454d3",
+  "generatedAt": "2026-10-27",
+  "rawImage": "tools/generate-art/sources/kraken-steal-candidate2-raw.png",
+  "rawSha256": "6d7d1059ba5da4d1585d83faf56e5e51f9aabad5d1763d2635cab7f9ce4e9aef",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/sources/kraken-steal-candidate2-prompt.md",
+  "references": [
+    {
+      "path": "tools/generate-art/sources/kraken-steal-candidate1/raw.png",
+      "sha256": "19534f0976d941a2562b8920910ff3699197660544ec575c4f210ef3322346f0",
+      "purpose": "preserve steal choreography"
+    },
+    {
+      "path": "public/assets/animation/kraken-block-right.webp",
+      "sha256": "15aa4e7fc243c0ab5666786cdf644691767cbe39e273c99248f17bd0b028cf43",
+      "purpose": "accepted identity and compact pixel-art style"
+    }
+  ],
+  "layout": "tools/generate-art/sources/kraken-steal-candidate2-layout.json",
+  "review": {
+    "status": "source-art-accepted; native-track-review-pending",
+    "previews": [
+      "tools/generate-art/previews/kraken-steal-candidate2-light.png",
+      "tools/generate-art/previews/kraken-steal-candidate2-dark.png"
+    ],
+    "ballBakedIntoAthleteArt": false,
+    "independentReviewer": "candidate_review",
+    "reviewNotes": "At native 80x96 style is compatible with the accepted Kraken block atlas. Eight poses are distinct with complete consistent identity/anatomy and clean margins; frame3/tick5 has the required knee-height inward hook. Targeted cleanup01 removed documented cyan/green/yellow fringe pixels; light/dark/zoom proofs show no obvious detached residue."
+  },
+  "normalization": {
+    "script": "tools/generate-art/normalize-kraken-steal-candidate2.py",
+    "atlas": "tools/generate-art/sources/kraken-steal-candidate2-atlas.png",
+    "layout": "tools/generate-art/sources/kraken-steal-candidate2-atlas-layout.json",
+    "atlasSha256": "5f48fec3f2a931ed1b3dcacf754a44b14f639362467eee695df2da2ffbc8a0c1",
+    "cleanupAttempt": {
+      "script": "tools/generate-art/clean-kraken-steal-candidate2-fringes.py",
+      "atlas": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+      "layout": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-layout.json",
+      "sha256": "3230c1c8701335883c1d4ceddd05eb0a172e2ea8281e6349eecbdf61c52eaed0",
+      "method": "Nearest-neighbor cell normalization with 8-connected silhouette extraction, then targeted removal of 11 isolated saturated cyan/green/yellow fringe pixels; raw and pre-cleanup atlas retained.",
+      "review": "Independent source review accepted on 2026-10-27."
+    },
+    "previews": [
+      "tools/generate-art/previews/kraken-steal-candidate2-cleanup01-light.png",
+      "tools/generate-art/previews/kraken-steal-candidate2-cleanup01-dark.png",
+      "tools/generate-art/previews/kraken-steal-candidate2-cleanup01-zoom4.png"
+    ]
+  },
+  "selectedSource": "tools/generate-art/sources/kraken-steal-candidate2-cleanup01-atlas.png",
+  "selectedSourceSha256": "3230c1c8701335883c1d4ceddd05eb0a172e2ea8281e6349eecbdf61c52eaed0",
+  "reviewStatus": "accepted",
+  "nativeTrackReview": "tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json",
+  "runtimeAtlas": "public/assets/animation/kraken-steal-right.webp",
+  "runtimeAtlasSha256": "a1ca80a859199fc7509587dede7531bf4aff1dd5d73c052163cfb3649de59bd7"
+}

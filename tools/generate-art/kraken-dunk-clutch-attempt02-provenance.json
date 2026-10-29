@@ -1,0 +1,50 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-clutch",
+  "attempt": 2,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "accepted as cleanup02 derived atlas after independent cleanup/gameplay review and current-branch no-injection loader verification",
+  "generatedAt": "2026-10-29T05:27:39Z",
+  "generationId": "exec-6d4aa74b-1401-44ce-9266-c5be3ff4a76c",
+  "promptFile": "tools/generate-art/kraken-dunk-clutch-attempt02-imagegen-prompt.txt",
+  "promptSha256": "562b559a29d9f1bc3f97e02177e4317b58955fb9ba51a363863e1db6c276ce00",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-clutch-attempt02-generated-raw.png",
+  "rawSha256": "2fc054e326f1d2962f8c5861221b77b31d1d1ecad25e24ef49ca656a529363b1",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 993801,
+  "opaquePixels": 0,
+  "generatedBy": "ImageGen",
+  "sourceClassification": "original-imagegen-source",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/INDEPENDENT_SOURCE_REVIEW.md",
+  "derivedCandidate": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+  "derivedCandidateStatus": "cleanup02 component repack candidate; independent art review pending; not registered",
+  "cleanupScript": "tools/generate-art/clean-kraken-dunk-clutch-attempt02-cleanup02.py",
+  "cleanupLayout": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/cleanup-layout-report.json",
+  "cleanupReview": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/INDEPENDENT_CLEANUP02_REVIEW.md",
+  "cleanupSummary": "Cleanup02 preserves the same 15 component figures and removes only the 6px/3px detached output specks found in cleanup01; all other atlas pixels are unchanged. It retains 88x96 cells, baselineY94, the same common scale, binary alpha and shared 16-color palette.",
+  "cleanupCandidates": [
+    {
+      "attempt": "cleanup01",
+      "atlas": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup01/kraken-dunk-clutch-attempt02-cleanup01-atlas.png",
+      "status": "rejected by independent review: 6px and 3px disconnected specks remain",
+      "review": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup01/INDEPENDENT_CLEANUP01_REVIEW.md"
+    },
+    {
+      "attempt": "cleanup02",
+      "atlas": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+      "status": "candidate; detached output components under 8px removed; independent review pending",
+      "script": "tools/generate-art/clean-kraken-dunk-clutch-attempt02-cleanup02.py",
+      "layout": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/cleanup-layout-report.json"
+    }
+  ],
+  "productionAsset": "public/assets/animation/kraken-dunk-clutch-right.webp",
+  "normalLoaderReviewFile": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/PRODUCTION_LOADER_REVIEW.md"
+}

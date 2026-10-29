@@ -1,0 +1,42 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "generationId": "exec-9d03ef60-48f3-4ab8-a07e-441c5d89b4bf",
+  "source": "tools/generate-art/sources/kraken-celebrate10-attempt04-generated-raw.png",
+  "sourceSha256": "b2b9b958b4118ef0d03b68ceffadb528efc71f8f72e04000b1dd786994fdeafa",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt04-imagegen-prompt.txt",
+  "cleanupPass": 2,
+  "cleanupScript": "tools/generate-art/previews/kraken-celebrate10-attempt04/clean-cleanup02.py",
+  "atlas": "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup02/kraken-celebrate10-attempt04-cleanup02-atlas-candidate.png",
+  "atlasSha256": "d5b57154dfa2f34781501027526e051a039b2ff40add53bd3512167bd5e51730",
+  "cellSize": [
+    88,
+    96
+  ],
+  "frameCount": 10,
+  "uniqueFrameCount": 10,
+  "baselineY": 94,
+  "durations": [
+    5,
+    5,
+    6,
+    8,
+    10,
+    10,
+    8,
+    7,
+    6,
+    5
+  ],
+  "frameSource": "One original source figure per frame; alpha connected-component isolation, preserve original RGB/alpha within 1.5 source-pixel edge fringe, uniform nearest-neighbor resize to 88px height, centered in 88\u00d796 cell.",
+  "previousCleanup": {
+    "atlas": "tools/generate-art/previews/kraken-celebrate10-attempt04/kraken-celebrate10-attempt04-cleanup01-atlas-candidate.png",
+    "reasonSuperseded": "Cleanup01's 76px sprite height was visibly shorter than Kraken's registered idle art (92px). Cleanup02 uses 88px height and the same baseline y=94, remaining within 4px of the idle height while preserving a six-pixel head margin. Cleanup01 remains preserved with its original review and capture record."
+  },
+  "status": "accepted and registered",
+  "runtimeAsset": "public/assets/animation/kraken-celebrate-right.png",
+  "normalLoaderReview": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/INDEPENDENT_NORMAL_LOADER_REVIEW.md",
+  "candidateGameplayReview": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/cleanup02-candidate-injected/INDEPENDENT_GAMEPLAY_REVIEW.md",
+  "review": "Source, cleanup, candidate gameplay and normal-loader production score transition independently reviewed. All ten frames, both facings, 100%/120%, scorer, score, dead/unowned ball and no-fallback state pass. Slightly brighter/bolder outlines are coherent with Kraken at court scale.",
+  "reviewedAt": "2026-10-28"
+}

@@ -1,0 +1,47 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-double",
+  "attempt": 3,
+  "status": "candidate gameplay review pending",
+  "art": "tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-atlas.png",
+  "seededFrom": "attempt02 independent review: restore ball to first overhead pump, keep chest recoil contact, raise second overhead point; preserve all remaining points.",
+  "height": [
+    0.85,
+    0.95,
+    1.25,
+    1.1,
+    1.25,
+    1.2,
+    1.6,
+    1.9,
+    1.0,
+    1.7,
+    2.1,
+    0.9,
+    0.7,
+    0.45,
+    0.6
+  ],
+  "forward": [
+    3,
+    4,
+    5,
+    3,
+    2,
+    4,
+    3,
+    1,
+    0.5,
+    0.3,
+    3,
+    5,
+    3,
+    2,
+    0
+  ],
+  "tuningNotes": {
+    "attempt01": "Frames7-9 high; missed the chest clasp.",
+    "attempt02": "Frame8 contact passes; frame7 was 25\u201335px below fingertips, frame9 near abdomen with arms overhead.",
+    "attempt03": "Restored frame7 to1.90, raised frame9 to1.70, frame8 forward to0.50; review both facings/zooms."
+  }
+}

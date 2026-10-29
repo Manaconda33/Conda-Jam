@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 1,
+  "status": "unregistered track trial",
+  "height": [0.9, 1.25, 1.7, 2.15, 2.3, 2.35, 1.4, 0.8],
+  "forward": [4, 5.5, 4, 3, -4, -1, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Krios reverse-layup track adapted only as initial calibration estimate; athlete-specific native captures required."
+}

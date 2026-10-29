@@ -1,0 +1,45 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "fall",
+  "direction": "right",
+  "attempt": 3,
+  "poseIndex": 9,
+  "status": "raw replacement pose accepted for composite/cleanup trial only",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-669d8da9-18a9-46ce-860e-ff55e88dc589",
+  "generatedAt": "2026-10-29T03:28:44.089507Z",
+  "promptFile": "tools/generate-art/kraken-fall10-attempt03-pose09-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "1ebb7399a6f2712425eca06501e743ebf0d5a86b4c010f6ae3adc54e3cce06be",
+  "referenceImages": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/sources/kraken-fall10-attempt02-generated-raw.png"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/kraken-fall10-attempt03-pose09-generated-raw.png",
+  "rawSourceSha256": "57d71dfb07a7529418aea63a644a3ea816b59cc8440e09e5eeb82929b4b2a6d4",
+  "dimensions": [
+    1145,
+    1374
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/sources/kraken-fall10-attempt02-generated-raw.png"
+  ],
+  "replaces": "attempt02 frame9 nearly duplicated frame0 at runtime; the replacement is a distinct winded stagger with lowered shoulders/head and one hand at hip/side.",
+  "poseTiming": {
+    "frameDuration": 7,
+    "finishTick": 33
+  },
+  "ballPolicy": "No ball or props in fall art.",
+  "sourceReview": {
+    "status": "pass for composite/cleanup trial only",
+    "evidence": "tools/generate-art/previews/kraken-fall10-attempt03/INDEPENDENT_POSE09_REVIEW_2026-10-29.md"
+  },
+  "cleanup": null
+}

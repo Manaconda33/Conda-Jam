@@ -1,0 +1,104 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "push",
+  "direction": "right",
+  "attempt": 2,
+  "status": "accepted and registered after independent normal-loader runtime review",
+  "tool": "GPT Image generation",
+  "toolArtifactId": "exec-3a184dd0-8c0e-4844-88f6-f94711f681b0",
+  "generationId": "exec-3a184dd0-8c0e-4844-88f6-f94711f681b0",
+  "generatedAt": "2026-10-28T06:19:29Z",
+  "promptFile": "tools/generate-art/krios-push-attempt02-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "89024ec87c941afb62cbd9908d1b9c443734c4a155cff07d6c5ccd68b73f58d7",
+  "rawSourceImage": "tools/generate-art/sources/krios-push-attempt02-generated-raw.png",
+  "rawSourceSha256": "4c90ca96480fc164200753617bde2398258500b640de6e5340c5368816fc137e",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "RGB PNG, opaque green chroma key",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp",
+    "public/assets/animation/krios-shoot-right.webp"
+  ],
+  "referenceSha256": {
+    "public/assets/animation/krios-block-right.webp": "feec8fcde6708c70fab9071d5719423a234dbcf119ee1f78efe16b84eeb7658f",
+    "public/assets/animation/krios-steal-right.webp": "197a1b59bbfef4a382d96dd882ff842dad7ca654f24689a239ad1a565a685d2a",
+    "public/assets/animation/krios-shoot-right.webp": "d189428aa72896a35fa138b195702002c486b341a73822592576f1acb1bbfa6f"
+  },
+  "requiredFrameDurations": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "contactAnchorFrame": 5,
+  "contactAnchorTick": 8,
+  "ballPolicy": "Empty-handed push; no ball artwork or ball track.",
+  "supersedesRejectedAttempt": {
+    "attempt": 1,
+    "generationId": "exec-711ce2c5-93c3-4cb8-854d-dadfc8773b85",
+    "rawSourceImage": "tools/generate-art/sources/krios-push-attempt01-generated-raw.png",
+    "rawSourceSha256": "8e4655158f653e6aeaaf94eb53c29e7d81549e8f49fb2c37289c41b308247310",
+    "reviewStatus": "rejected-source-contact-pose",
+    "evidence": "tools/generate-art/previews/krios-push-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "reason": "Frame index5/tick8 shows only one forward-reaching arm and one visible open hand; the second arm/hand is not separately visible. Fixing it during cleanup would invent anatomy."
+  },
+  "rejectedAttempts": [],
+  "sourceReview": {
+    "status": "accepted-for-cleanup-trials",
+    "evidence": "tools/generate-art/previews/krios-push-attempt02/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "At approximate 128\u00d796 fit, frame5/tick8 retains two separate open five-finger palms and two parallel arm paths. Full figure crosses 58px into preceding nominal column; isolate by complete connected component rather than nominal cell crops, then confirm safe native margins and visible proximal arm/shoulder anatomy."
+  },
+  "cleanupScript": "tools/generate-art/clean-krios-push-attempt02.py",
+  "cleanupReport": "tools/generate-art/previews/krios-push-attempt02/cleanup-layout-report.json",
+  "cleanupReview": {
+    "status": "accepted-for-gameplay-trials",
+    "evidence": "tools/generate-art/previews/krios-push-attempt02/INDEPENDENT_CLEANUP_REVIEW.md",
+    "notes": "Eleven ordered unique frames; frame5/tick8 retains separate parallel arms from shoulders to two distinct open hands with spread fingers. Distinct action poses, margins, baseline94, transparency, green cleanup and preserved crop pixels pass. No ball; this is cleanup/layout acceptance only."
+  },
+  "candidateAtlas": "tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+  "candidateAtlasSha256": "39875ef581bdcb2505d9776f2bd5545b755320ffab50f54a969b91f564eeb56f",
+  "runtimeLayout": "tools/generate-art/previews/krios-push-attempt02/cleanup-layout-report.json",
+  "registeredRuntimeReview": {
+    "status": "accepted",
+    "evidence": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+    "report": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/registered-runtime/report.json",
+    "notes": "Independent reviewer passed all 48 corrected registered-runtime captures. Normal loader supplied the public atlas with no atlas injection; all 11 sampled frame starts select correctly, both facings and zooms pass, and tick8/frame5 produces the real two-hand shove and Leo knockdown with ball dead/unowned."
+  },
+  "generationIdNote": "Image-generation tool returned a workspace artifact id; exported PNG is RGB and retained unchanged.",
+  "runtimeStatus": "production accepted; public atlas registered and normal-loader both-facing gameplay review passed",
+  "candidateRuntimeReview": {
+    "status": "accepted-for-registration",
+    "evidence": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/INDEPENDENT_CANDIDATE_REVIEW.md",
+    "report": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/report.json",
+    "notes": "Independent review accepts 48 current Jam Stage candidate captures, courtY90, both facings/100%/120%, all 11 frame starts, actual tick8/frame5 two-hand push and target knockdown, no fallback/clipping/errors, ball dead/unowned."
+  },
+  "packaging": {
+    "sourceCandidate": "tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+    "sourceCandidateSha256": "39875ef581bdcb2505d9776f2bd5545b755320ffab50f54a969b91f564eeb56f",
+    "runtimeAtlas": "public/assets/animation/krios-push-right.webp",
+    "runtimeSha256": "96372899ca45376b780a8884ca30f83d91cdb93df720505682738fabe59e4628",
+    "dimensions": [
+      1408,
+      96
+    ],
+    "columns": 11,
+    "rows": 1,
+    "cell": [
+      128,
+      96
+    ],
+    "encoding": "lossless WebP; decoded pixel comparison against transparent PNG candidate reports zero differing pixels"
+  }
+}

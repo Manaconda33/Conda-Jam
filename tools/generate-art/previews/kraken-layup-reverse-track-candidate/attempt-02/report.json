@@ -1,0 +1,987 @@
+{
+  "renderer": "Chromium current Jam Stage production canvas",
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 2,
+  "atlas": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+  "atlasLayout": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 80,
+    "cellHeight": 96,
+    "frames": 8
+  },
+  "candidateTrack": {
+    "height": [
+      0.9,
+      1.1,
+      1.4,
+      1.5,
+      1.5,
+      1.55,
+      1.1,
+      0.8
+    ],
+    "forward": [
+      4,
+      5.5,
+      4,
+      3,
+      -4,
+      -1,
+      5,
+      4
+    ]
+  },
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": true,
+  "runtimeIntegration": false,
+  "captureMethod": "Temporary candidate atlas and Kraken track overrides; forced carried possession for selector and hand-contact review only.",
+  "court": {
+    "home": "vesper-harbor-undertow",
+    "away": "scoria-rams",
+    "name": "Vesper Harbor Undertow vs Scoria Rams",
+    "courtY": 50
+  },
+  "seed": 713,
+  "frameStartTicks": [
+    0,
+    2,
+    5,
+    7,
+    10,
+    12,
+    13,
+    17
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "layup-reverse",
+          "clipTick": 0,
+          "track": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 0.9
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 0,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-00-tick00-right-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "layup-reverse",
+          "clipTick": 2,
+          "track": {
+            "height": 1.1,
+            "forward": 5.5
+          },
+          "carried": true,
+          "ball": {
+            "x": 105.5,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 1,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-01-tick02-right-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 5,
+          "clip": "layup-reverse",
+          "clipTick": 5,
+          "track": {
+            "height": 1.4,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 1.4
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 2,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-02-tick05-right-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "layup-reverse",
+          "clipTick": 7,
+          "track": {
+            "height": 1.5,
+            "forward": 3
+          },
+          "carried": true,
+          "ball": {
+            "x": 103,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 3,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-03-tick07-right-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 10,
+          "clip": "layup-reverse",
+          "clipTick": 10,
+          "track": {
+            "height": 1.5,
+            "forward": -4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 4,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-04-tick10-right-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 12,
+          "clip": "layup-reverse",
+          "clipTick": 12,
+          "track": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carried": true,
+          "ball": {
+            "x": 99,
+            "y": 50,
+            "z": 1.55
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 5,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-05-tick12-right-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 13,
+          "clip": "layup-reverse",
+          "clipTick": 13,
+          "track": {
+            "height": 1.1,
+            "forward": 5
+          },
+          "carried": true,
+          "ball": {
+            "x": 105,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 6,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-06-tick13-right-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 17,
+          "clip": "layup-reverse",
+          "clipTick": 17,
+          "track": {
+            "height": 0.8,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 0.8
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 7,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-07-tick17-right-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "layup-reverse",
+          "clipTick": 0,
+          "track": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 0.9
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 0,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-00-tick00-left-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "layup-reverse",
+          "clipTick": 2,
+          "track": {
+            "height": 1.1,
+            "forward": 5.5
+          },
+          "carried": true,
+          "ball": {
+            "x": 94.5,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 1,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-01-tick02-left-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 5,
+          "clip": "layup-reverse",
+          "clipTick": 5,
+          "track": {
+            "height": 1.4,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 1.4
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 2,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-02-tick05-left-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "layup-reverse",
+          "clipTick": 7,
+          "track": {
+            "height": 1.5,
+            "forward": 3
+          },
+          "carried": true,
+          "ball": {
+            "x": 97,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 3,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-03-tick07-left-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 10,
+          "clip": "layup-reverse",
+          "clipTick": 10,
+          "track": {
+            "height": 1.5,
+            "forward": -4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 4,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-04-tick10-left-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 12,
+          "clip": "layup-reverse",
+          "clipTick": 12,
+          "track": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carried": true,
+          "ball": {
+            "x": 101,
+            "y": 50,
+            "z": 1.55
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 5,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-05-tick12-left-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 13,
+          "clip": "layup-reverse",
+          "clipTick": 13,
+          "track": {
+            "height": 1.1,
+            "forward": 5
+          },
+          "carried": true,
+          "ball": {
+            "x": 95,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 6,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-06-tick13-left-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 17,
+          "clip": "layup-reverse",
+          "clipTick": 17,
+          "track": {
+            "height": 0.8,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 0.8
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 7,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-07-tick17-left-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "layup-reverse",
+          "clipTick": 0,
+          "track": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 0.9
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 0,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-00-tick00-right-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "layup-reverse",
+          "clipTick": 2,
+          "track": {
+            "height": 1.1,
+            "forward": 5.5
+          },
+          "carried": true,
+          "ball": {
+            "x": 105.5,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 1,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-01-tick02-right-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 5,
+          "clip": "layup-reverse",
+          "clipTick": 5,
+          "track": {
+            "height": 1.4,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 1.4
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 2,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-02-tick05-right-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "layup-reverse",
+          "clipTick": 7,
+          "track": {
+            "height": 1.5,
+            "forward": 3
+          },
+          "carried": true,
+          "ball": {
+            "x": 103,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 3,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-03-tick07-right-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 10,
+          "clip": "layup-reverse",
+          "clipTick": 10,
+          "track": {
+            "height": 1.5,
+            "forward": -4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 4,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-04-tick10-right-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 12,
+          "clip": "layup-reverse",
+          "clipTick": 12,
+          "track": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carried": true,
+          "ball": {
+            "x": 99,
+            "y": 50,
+            "z": 1.55
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 5,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-05-tick12-right-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 13,
+          "clip": "layup-reverse",
+          "clipTick": 13,
+          "track": {
+            "height": 1.1,
+            "forward": 5
+          },
+          "carried": true,
+          "ball": {
+            "x": 105,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 6,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-06-tick13-right-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 17,
+          "clip": "layup-reverse",
+          "clipTick": 17,
+          "track": {
+            "height": 0.8,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 0.8
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 7,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-07-tick17-right-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "layup-reverse",
+          "clipTick": 0,
+          "track": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 0.9
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 0,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-00-tick00-left-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "layup-reverse",
+          "clipTick": 2,
+          "track": {
+            "height": 1.1,
+            "forward": 5.5
+          },
+          "carried": true,
+          "ball": {
+            "x": 94.5,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 1,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-01-tick02-left-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 5,
+          "clip": "layup-reverse",
+          "clipTick": 5,
+          "track": {
+            "height": 1.4,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 1.4
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 2,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-02-tick05-left-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "layup-reverse",
+          "clipTick": 7,
+          "track": {
+            "height": 1.5,
+            "forward": 3
+          },
+          "carried": true,
+          "ball": {
+            "x": 97,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 3,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-03-tick07-left-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 10,
+          "clip": "layup-reverse",
+          "clipTick": 10,
+          "track": {
+            "height": 1.5,
+            "forward": -4
+          },
+          "carried": true,
+          "ball": {
+            "x": 104,
+            "y": 50,
+            "z": 1.5
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 4,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-04-tick10-left-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 12,
+          "clip": "layup-reverse",
+          "clipTick": 12,
+          "track": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carried": true,
+          "ball": {
+            "x": 101,
+            "y": 50,
+            "z": 1.55
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 5,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-05-tick12-left-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 13,
+          "clip": "layup-reverse",
+          "clipTick": 13,
+          "track": {
+            "height": 1.1,
+            "forward": 5
+          },
+          "carried": true,
+          "ball": {
+            "x": 95,
+            "y": 50,
+            "z": 1.1
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 6,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-06-tick13-left-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 17,
+          "clip": "layup-reverse",
+          "clipTick": 17,
+          "track": {
+            "height": 0.8,
+            "forward": 4
+          },
+          "carried": true,
+          "ball": {
+            "x": 96,
+            "y": 50,
+            "z": 0.8
+          },
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "frame": 7,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "score": [
+            0,
+            0
+          ],
+          "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-02/native/frame-07-tick17-left-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 32,
+  "expectedCaptureCount": 32,
+  "status": "candidate visual/selector review evidence only; no runtime asset/track registered"
+}

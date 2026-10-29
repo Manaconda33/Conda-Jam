@@ -1,0 +1,24 @@
+Create a flat source sheet with EXACTLY FIFTEEN full-body drawings of Krios, arranged in a 5-column by 3-row grid, read left to right. Keep complete isolated figures inside equal cells with gutters; no cropped horns, hands, feet or shoes. Solid chroma green RGB(0,255,0), no labels, grid lines, text, gradients, floor, shadow, court, hoop, ball, teammates, motion marks or decoration.
+
+STYLE: crisp 16-bit pixel art with square pixel clusters, hard stepped outlines, limited clustered highlights/shadows. Match Krios's accepted game sprite. No painterly texture, airbrush, soft gradients, antialiasing, 3D or photo light. Consistent pixel scale, proportions, palette, outline, baseline. Full bodies readable at 64×96. Three-quarter right-facing except as the lateral sweep requires.
+
+Krios is the canonical Scoria Rams captain: colossal adult male, vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve exact identity and costume. Plain charcoal chest with ember trim only, no logo/number/text/badge. Exactly two attached arms/hands and two legs/feet. Never draw basketball or ball-like circle; gameplay ball separate.
+
+Draw FIFTEEN distinct frames of a scythe dunk, anchors takeoff2/grab5/peak7/release10/finish11/land14:
+0. Staggered approach; one-hand invisible-ball cradle low beside far hip, free forearm crosses chest.
+1. Plant and load; finishing arm stretches sideways/back, loading a wide horizontal sweep.
+2. TAKEOFF: both feet clear ground; ball hand extends far outside body at waist, elbow nearly straight.
+3. Early ascent; straight finishing arm sweeps laterally across front from far hip toward near side.
+4. Mid-ascent; hand rises in a broad diagonal cutting arc across chest, free arm pulls back.
+5. GRAB: finishing hand secures invisible ball at near shoulder while arm remains extended laterally.
+6. Late ascent; ball arm arcs high sideways with elbow only slightly bent; chest leans opposite.
+7. PEAK: highest point; one arm extends almost sideways-above head, making a wide scythe silhouette.
+8. Start descent; long arm sweeps across upper body toward right rim in a lateral diagonal slash.
+9. Pre-release; forearm follows a broad sideways-to-downward path; free hand extends opposite for balance.
+10. RELEASE: one wrist cuts diagonally down through rim with fingers open; unmistakable diagonal, not vertical chop; invisible ball leaves now.
+11. FINISH: finishing arm crosses below face toward far side, torso follows lateral sweep.
+12. Drop away; empty arm continues broad cross-body arc down toward opposite hip.
+13. Landing approach; both arms spread wide horizontally to arrest sideways momentum.
+14. LAND: both feet meet ground and knees absorb impact; finishing elbow folds toward ribs, free palm lowers from extended balance.
+
+Imaginary rim is outside the sheet to Krios's right; draw no rim/prop. Preserve the wide lateral sweep, diagonal release, distinct follow-through and controlled landing. Exactly fifteen complete, distinct, coherent figures; no repeats, missing, extra, cropped or merged poses.

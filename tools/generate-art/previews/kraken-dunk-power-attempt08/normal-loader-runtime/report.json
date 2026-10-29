@@ -1,0 +1,2355 @@
+{
+  "renderer": "Chromium current Jam Stage production renderer",
+  "athlete": "kraken",
+  "clip": "dunk-power",
+  "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+  "atlasSha256": "4cb0393431026bca80065b5a04852cb1eee9732dadb7980714da09f2a61571e6",
+  "trackAttempt": "02",
+  "candidateTrack": {
+    "athlete": "kraken",
+    "clip": "dunk-power",
+    "attempt": 2,
+    "status": "unregistered track candidate after independent attempt01 alignment review",
+    "height": [
+      1.0,
+      1.0,
+      1.15,
+      1.0,
+      0.9,
+      0.8,
+      1.6,
+      1.65,
+      1.7,
+      1.8,
+      1.95,
+      0.85,
+      0.95,
+      0.8,
+      0.62
+    ],
+    "forward": [
+      5.5,
+      5.0,
+      7.5,
+      4.5,
+      3,
+      2,
+      1,
+      1,
+      8,
+      6,
+      12,
+      3,
+      8,
+      8,
+      -1
+    ],
+    "changesFromAttempt01": [
+      "frame3 H 1.45\u21921.0/F 0\u21924.5 to move ball off face toward reaching hand",
+      "frames4-5 H 1.75/1.7\u2192.9/.8 to remove ball float above head",
+      "frame9 F 12\u21926 to bring peak ball toward overhead hand"
+    ],
+    "preservedRelease": "Frame10 dunk contact/release and tick23 two-point score from attempt01 are retained.",
+    "referenceTrial": "Krios J.128 values were only a calibration seed; these Kraken values are adjusted per independent on-court review."
+  },
+  "runtimeIntegration": true,
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "court": "current Jam Stage; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "seed": 128128,
+  "sampleTicks": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    10,
+    12,
+    14,
+    17,
+    19,
+    21,
+    23,
+    26,
+    28,
+    30
+  ],
+  "expectedScore": [
+    2,
+    0
+  ],
+  "method": "Queue an actual production dunk-power action through Jam Stage simulation input and advance only normal simulation ticks. Runtime mode uses the registered manifest and athlete-specific track without candidate injection.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.640",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 191.5,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame00-tick00-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.640",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 191,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame01-tick02-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.640",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 193.5,
+            "y": 50,
+            "z": 1.15
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame02-tick04-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 186.4468085106383,
+            "y": 50
+          },
+          "cameraX": "185.087",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 190.9468085106383,
+            "y": 50,
+            "z": 3.2699524986977337
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 4.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame03-tick07-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 186.74468085106383,
+            "y": 50
+          },
+          "cameraX": "185.385",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.74468085106383,
+            "y": 50,
+            "z": 4.435533905932737
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame04-tick09-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 186.89361702127658,
+            "y": 50
+          },
+          "cameraX": "185.534",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.89361702127658,
+            "y": 50,
+            "z": 4.845084971874737
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame05-tick10-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 187.19148936170214,
+            "y": 50
+          },
+          "cameraX": "185.831",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.19148936170214,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame06-tick12-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 187.48936170212767,
+            "y": 50
+          },
+          "cameraX": "186.129",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.48936170212767,
+            "y": 50,
+            "z": 6.65
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame07-tick14-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.93617021276597,
+            "y": 50
+          },
+          "cameraX": "186.576",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 195.93617021276597,
+            "y": 50,
+            "z": 6.030127018922193
+          },
+          "trackPoint": {
+            "height": 1.7,
+            "forward": 8
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame08-tick17-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 188.2340425531915,
+            "y": 50
+          },
+          "cameraX": "186.874",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 194.2340425531915,
+            "y": 50,
+            "z": 5.0139380484326965
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 6
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame09-tick19-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.53191489361703,
+            "y": 50
+          },
+          "cameraX": "187.172",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.95,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame10-tick21-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame11-tick23-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame12-tick26-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame13-tick28-zoom100.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.360",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 8.5,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame00-tick00-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.360",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 9,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame01-tick02-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.360",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 6.5,
+            "y": 50,
+            "z": 1.15
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame02-tick04-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 13.553191489361701,
+            "y": 50
+          },
+          "cameraX": "14.913",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 9.053191489361701,
+            "y": 50,
+            "z": 3.2699524986977337
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 4.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame03-tick07-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 13.25531914893617,
+            "y": 50
+          },
+          "cameraX": "14.615",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.25531914893617,
+            "y": 50,
+            "z": 4.435533905932737
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame04-tick09-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 13.106382978723405,
+            "y": 50
+          },
+          "cameraX": "14.466",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.106382978723405,
+            "y": 50,
+            "z": 4.845084971874737
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame05-tick10-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 12.808510638297872,
+            "y": 50
+          },
+          "cameraX": "14.169",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.808510638297872,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame06-tick12-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 12.51063829787234,
+            "y": 50
+          },
+          "cameraX": "13.871",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.51063829787234,
+            "y": 50,
+            "z": 6.65
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame07-tick14-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.063829787234042,
+            "y": 50
+          },
+          "cameraX": "13.424",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 4.063829787234042,
+            "y": 50,
+            "z": 6.030127018922193
+          },
+          "trackPoint": {
+            "height": 1.7,
+            "forward": 8
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame08-tick17-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 11.76595744680851,
+            "y": 50
+          },
+          "cameraX": "13.126",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 5.76595744680851,
+            "y": 50,
+            "z": 5.0139380484326965
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 6
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame09-tick19-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.46808510638298,
+            "y": 50
+          },
+          "cameraX": "12.828",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.95,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame10-tick21-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame11-tick23-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame12-tick26-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame13-tick28-zoom100.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.867",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 191.5,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame00-tick00-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.867",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 191,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame01-tick02-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.867",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 193.5,
+            "y": 50,
+            "z": 1.15
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame02-tick04-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 186.4468085106383,
+            "y": 50
+          },
+          "cameraX": "185.313",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 190.9468085106383,
+            "y": 50,
+            "z": 3.2699524986977337
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 4.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame03-tick07-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 186.74468085106383,
+            "y": 50
+          },
+          "cameraX": "185.611",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.74468085106383,
+            "y": 50,
+            "z": 4.435533905932737
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame04-tick09-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 186.89361702127658,
+            "y": 50
+          },
+          "cameraX": "185.760",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.89361702127658,
+            "y": 50,
+            "z": 4.845084971874737
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame05-tick10-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 187.19148936170214,
+            "y": 50
+          },
+          "cameraX": "186.058",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.19148936170214,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame06-tick12-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 187.48936170212767,
+            "y": 50
+          },
+          "cameraX": "186.356",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.48936170212767,
+            "y": 50,
+            "z": 6.65
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame07-tick14-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.93617021276597,
+            "y": 50
+          },
+          "cameraX": "186.803",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 195.93617021276597,
+            "y": 50,
+            "z": 6.030127018922193
+          },
+          "trackPoint": {
+            "height": 1.7,
+            "forward": 8
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame08-tick17-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 188.2340425531915,
+            "y": 50
+          },
+          "cameraX": "187.101",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 194.2340425531915,
+            "y": 50,
+            "z": 5.0139380484326965
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 6
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame09-tick19-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.53191489361703,
+            "y": 50
+          },
+          "cameraX": "187.399",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.95,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame10-tick21-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame11-tick23-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame12-tick26-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame13-tick28-zoom120.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/right-frame14-tick30-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.133",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 8.5,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame00-tick00-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.133",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 9,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame01-tick02-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.133",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 6.5,
+            "y": 50,
+            "z": 1.15
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame02-tick04-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 13.553191489361701,
+            "y": 50
+          },
+          "cameraX": "14.687",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 9.053191489361701,
+            "y": 50,
+            "z": 3.2699524986977337
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 4.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame03-tick07-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 13.25531914893617,
+            "y": 50
+          },
+          "cameraX": "14.389",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.25531914893617,
+            "y": 50,
+            "z": 4.435533905932737
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame04-tick09-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 13.106382978723405,
+            "y": 50
+          },
+          "cameraX": "14.240",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.106382978723405,
+            "y": 50,
+            "z": 4.845084971874737
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame05-tick10-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 12.808510638297872,
+            "y": 50
+          },
+          "cameraX": "13.942",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.808510638297872,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame06-tick12-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 12.51063829787234,
+            "y": 50
+          },
+          "cameraX": "13.644",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.51063829787234,
+            "y": 50,
+            "z": 6.65
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame07-tick14-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.063829787234042,
+            "y": 50
+          },
+          "cameraX": "13.197",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 4.063829787234042,
+            "y": 50,
+            "z": 6.030127018922193
+          },
+          "trackPoint": {
+            "height": 1.7,
+            "forward": 8
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame08-tick17-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 11.76595744680851,
+            "y": 50
+          },
+          "cameraX": "12.899",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 5.76595744680851,
+            "y": 50,
+            "z": 5.0139380484326965
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 6
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame09-tick19-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.46808510638298,
+            "y": 50
+          },
+          "cameraX": "12.601",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.95,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame10-tick21-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame11-tick23-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame12-tick26-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame13-tick28-zoom120.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/kraken-dunk-power-right.webp",
+          "path": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/left-frame14-tick30-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 60
+}

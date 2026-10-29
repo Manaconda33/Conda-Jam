@@ -1,0 +1,1144 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "krios",
+  "clip": "push",
+  "atlas": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+  "candidateAtlasSha256": "39875ef581bdcb2505d9776f2bd5545b755320ffab50f54a969b91f564eeb56f",
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "court": "current Jam Stage court geometry; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "frameDurations": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "canonicalFrameStartTicks": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    15,
+    18,
+    21
+  ],
+  "sampledFrameStartTicks": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    15,
+    18,
+    21
+  ],
+  "simulationContactTick": 8,
+  "simulationContactFrame": 5,
+  "authoredContactFrame": 5,
+  "authoredContactCanonicalTick": 8,
+  "timingDisagreement": false,
+  "captureMethod": "Candidate mode adds the atlas to the in-memory Krios push manifest and decodes it into productionSpriteImages before input. Both modes use actual Jam Stage shove input and simulation ticks. No ball art or ball track is injected; the ball remains dead/unowned for this non-carrier push trial. Showcase seeds are selected for a failed push roll so every pose remains readable; separate successful-contact runs record the real tick-8/frame-5 knockdown and resulting ball state.",
+  "runs": [
+    {
+      "mode": "all-frame-showcase-failed-contact-roll",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "seed": 1013904226,
+      "initialState": {
+        "player": "krios",
+        "target": "leo",
+        "facing": 1,
+        "seed": 1,
+        "postInputTick": 0,
+        "clip": "push",
+        "targetX": 104.7,
+        "targetY": 90,
+        "targetDistance": 5.575840743780262,
+        "successRequested": false
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "push",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "push",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "push",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 6,
+          "clip": "push",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame3-tick6-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "clip": "push",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame4-tick7-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "push",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame5-tick8-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "push",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame6-tick10-zoom100.png"
+        },
+        {
+          "tick": 12,
+          "clip": "push",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame7-tick12-zoom100.png"
+        },
+        {
+          "tick": 15,
+          "clip": "push",
+          "frame": 8,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame8-tick15-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "push",
+          "frame": 9,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame9-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "push",
+          "frame": 10,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame10-tick21-zoom100.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-noncarrier-contact",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "seed": 2654435761,
+      "targetSetup": {
+        "playerY": 93,
+        "targetX": 104.7,
+        "targetY": 90,
+        "distance": 5.574
+      },
+      "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-successful-contact-frame5-tick8-zoom100.png",
+      "tick": 8,
+      "clip": "push",
+      "frame": 5,
+      "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+      "flip": false,
+      "target": {
+        "id": "leo",
+        "stun": 44,
+        "clip": "fall"
+      },
+      "knockdowns": 1,
+      "event": "Krios knocks Leo down!",
+      "ball": {
+        "mode": "dead",
+        "ownerId": null
+      }
+    },
+    {
+      "mode": "all-frame-showcase-failed-contact-roll",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "seed": 1013904226,
+      "initialState": {
+        "player": "krios",
+        "target": "leo",
+        "facing": -1,
+        "seed": 1,
+        "postInputTick": 0,
+        "clip": "push",
+        "targetX": 95.3,
+        "targetY": 90,
+        "targetDistance": 5.575840743780262,
+        "successRequested": false
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "push",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "push",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "push",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 6,
+          "clip": "push",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame3-tick6-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "clip": "push",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame4-tick7-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "push",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame5-tick8-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "push",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame6-tick10-zoom100.png"
+        },
+        {
+          "tick": 12,
+          "clip": "push",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame7-tick12-zoom100.png"
+        },
+        {
+          "tick": 15,
+          "clip": "push",
+          "frame": 8,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame8-tick15-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "push",
+          "frame": 9,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame9-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "push",
+          "frame": 10,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame10-tick21-zoom100.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-noncarrier-contact",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "seed": 2654435761,
+      "targetSetup": {
+        "playerY": 93,
+        "targetX": 95.3,
+        "targetY": 90,
+        "distance": 5.574
+      },
+      "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-successful-contact-frame5-tick8-zoom100.png",
+      "tick": 8,
+      "clip": "push",
+      "frame": 5,
+      "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+      "flip": true,
+      "target": {
+        "id": "leo",
+        "stun": 44,
+        "clip": "fall"
+      },
+      "knockdowns": 1,
+      "event": "Krios knocks Leo down!",
+      "ball": {
+        "mode": "dead",
+        "ownerId": null
+      }
+    },
+    {
+      "mode": "all-frame-showcase-failed-contact-roll",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "seed": 1013904226,
+      "initialState": {
+        "player": "krios",
+        "target": "leo",
+        "facing": 1,
+        "seed": 1,
+        "postInputTick": 0,
+        "clip": "push",
+        "targetX": 104.7,
+        "targetY": 90,
+        "targetDistance": 5.575840743780262,
+        "successRequested": false
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "push",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "push",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "push",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 6,
+          "clip": "push",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame3-tick6-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "clip": "push",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame4-tick7-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "push",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame5-tick8-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "push",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame6-tick10-zoom120.png"
+        },
+        {
+          "tick": 12,
+          "clip": "push",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame7-tick12-zoom120.png"
+        },
+        {
+          "tick": 15,
+          "clip": "push",
+          "frame": 8,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame8-tick15-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "push",
+          "frame": 9,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame9-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "push",
+          "frame": 10,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": false,
+          "playerFacing": 1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-frame10-tick21-zoom120.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-noncarrier-contact",
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "seed": 2654435761,
+      "targetSetup": {
+        "playerY": 93,
+        "targetX": 104.7,
+        "targetY": 90,
+        "distance": 5.574
+      },
+      "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/right-successful-contact-frame5-tick8-zoom120.png",
+      "tick": 8,
+      "clip": "push",
+      "frame": 5,
+      "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+      "flip": false,
+      "target": {
+        "id": "leo",
+        "stun": 44,
+        "clip": "fall"
+      },
+      "knockdowns": 1,
+      "event": "Krios knocks Leo down!",
+      "ball": {
+        "mode": "dead",
+        "ownerId": null
+      }
+    },
+    {
+      "mode": "all-frame-showcase-failed-contact-roll",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "seed": 1013904226,
+      "initialState": {
+        "player": "krios",
+        "target": "leo",
+        "facing": -1,
+        "seed": 1,
+        "postInputTick": 0,
+        "clip": "push",
+        "targetX": 95.3,
+        "targetY": 90,
+        "targetDistance": 5.575840743780262,
+        "successRequested": false
+      },
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "push",
+          "frame": 0,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "push",
+          "frame": 1,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "push",
+          "frame": 2,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 6,
+          "clip": "push",
+          "frame": 3,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame3-tick6-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "clip": "push",
+          "frame": 4,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame4-tick7-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "push",
+          "frame": 5,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame5-tick8-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "push",
+          "frame": 6,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame6-tick10-zoom120.png"
+        },
+        {
+          "tick": 12,
+          "clip": "push",
+          "frame": 7,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame7-tick12-zoom120.png"
+        },
+        {
+          "tick": 15,
+          "clip": "push",
+          "frame": 8,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame8-tick15-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "push",
+          "frame": 9,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame9-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "push",
+          "frame": 10,
+          "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+          "flip": true,
+          "playerFacing": -1,
+          "target": {
+            "id": "leo",
+            "stun": 0,
+            "clip": "idle"
+          },
+          "knockdowns": 0,
+          "ball": {
+            "mode": "dead",
+            "ownerId": null
+          },
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-frame10-tick21-zoom120.png"
+        }
+      ]
+    },
+    {
+      "mode": "successful-noncarrier-contact",
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "seed": 2654435761,
+      "targetSetup": {
+        "playerY": 93,
+        "targetX": 95.3,
+        "targetY": 90,
+        "distance": 5.574
+      },
+      "path": "tools/generate-art/previews/j128-krios-push-candidate/attempt-02/native/left-successful-contact-frame5-tick8-zoom120.png",
+      "tick": 8,
+      "clip": "push",
+      "frame": 5,
+      "src": "./tools/generate-art/previews/krios-push-attempt02/krios-push-attempt02-runtime-candidate.png",
+      "flip": true,
+      "target": {
+        "id": "leo",
+        "stun": 44,
+        "clip": "fall"
+      },
+      "knockdowns": 1,
+      "event": "Krios knocks Leo down!",
+      "ball": {
+        "mode": "dead",
+        "ownerId": null
+      }
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 48
+}

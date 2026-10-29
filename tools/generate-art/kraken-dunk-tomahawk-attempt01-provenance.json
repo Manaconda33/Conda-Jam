@@ -1,0 +1,25 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-tomahawk",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "source review requested; no cleanup or registration",
+  "generatedAt": "2026-10-29T05:01:00Z",
+  "generationId": "exec-83d77067-2595-48a7-9a2c-26e56f75dbf1",
+  "promptFile": "tools/generate-art/kraken-dunk-tomahawk-attempt01-imagegen-prompt.txt",
+  "promptSha256": "b14b02922ca754a082c055ff065d7e6529843d661ed558823811246ba84f9fa6",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-tomahawk-attempt01-generated-raw.png",
+  "rawSha256": "a3ad521f20c7190dc1609d0203a64180153a1b12ad4895de29cc11a26328683c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-tomahawk-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Independent source review pending: alpha/background, 15 distinct poses, crop margins, anatomy/identity and pixel-art style."
+}

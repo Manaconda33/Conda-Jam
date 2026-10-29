@@ -1,0 +1,110 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-scythe",
+  "direction": "right",
+  "attempt": 1,
+  "status": "accepted: source, cleanup, athlete-specific ball track and normal-loader gameplay review",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-bc73f0d0-27e6-4baa-b6b6-2b6aa450c265",
+  "generationId": "exec-bc73f0d0-27e6-4baa-b6b6-2b6aa450c265",
+  "generatedAt": "2026-10-28T08:59:00Z",
+  "promptFile": "tools/generate-art/krios-dunk-scythe15-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "8fb7544843f6f8620387b9a5c6ae92f49b8324e9d3033e5453d28e0b93313a3a",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-scythe15-attempt01-generated-raw.png",
+  "rawSourceSha256": "ca2ada640955fdb2e2efb31c4bc0f6930f577f7e4fe14a10e0017000826c6c33",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate Krios's separate ball track at all action anchors after source acceptance.",
+  "sourceReview": {
+    "status": "pass for ball-track trials only; not runtime registration",
+    "evidence": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Lateral source pose groups pass target-size review; inspect hand contact and transitions in gameplay motion."
+  },
+  "cleanup": {
+    "status": "accepted for trials",
+    "candidate": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/krios-dunk-scythe15-attempt01-runtime-candidate.png",
+    "cleanupReport": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/cleanup-layout-report.json",
+    "sha256": "87f16ec492c286c9ddcb61c09acc1f515d6acdfec92719fc1e144d097606f0ac",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/krios-dunk-scythe15-attempt01-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/krios-dunk-scythe15-attempt01-dark-preview.png"
+  },
+  "ballTrack": {
+    "status": "accepted",
+    "attempt": "09",
+    "track": {
+      "height": [
+        0.84,
+        1.0,
+        1.33,
+        1.16,
+        1.82,
+        1.13,
+        2.0,
+        1.75,
+        1.25,
+        1.2,
+        0.76,
+        0.59,
+        0.39,
+        0.39,
+        0.64
+      ],
+      "forward": [
+        0.73,
+        -8.5,
+        7.67,
+        2.19,
+        -5.0,
+        6.94,
+        -6.5,
+        -10.5,
+        10.0,
+        11.0,
+        9.5,
+        -4.38,
+        -6.57,
+        -1.83,
+        -5.11
+      ]
+    },
+    "candidateEvidence": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/live-gameplay-candidate/track-attempt08/REVIEW_2026-10-28.md",
+    "normalLoaderEvidence": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/live-gameplay-candidate/normal-loader-runtime-track09/report.json",
+    "independentReview": "tools/generate-art/previews/krios-dunk-scythe15-attempt01/live-gameplay-candidate/normal-loader-runtime-track09/INDEPENDENT_NORMAL_LOADER_REVIEW_2026-10-28.md",
+    "notes": "Attempt08 candidate track failed normal-loader review because frame06 detached from raised hand. Attempt09 raises frame06 by 0.60 world units, then passed all 60 normal-loader views."
+  },
+  "rejectedAttempts": []
+}

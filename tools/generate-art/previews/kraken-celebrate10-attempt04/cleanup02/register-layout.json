@@ -1,0 +1,83 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "celebrate",
+  "src": "./public/assets/animation/kraken-celebrate-right.png",
+  "columns": 10,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 440,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 528,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 616,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 704,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 792,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "tool": "imagegen",
+    "generationId": "exec-9d03ef60-48f3-4ab8-a07e-441c5d89b4bf",
+    "generatedAt": "2026-10-28",
+    "prompt": "tools/generate-art/kraken-celebrate10-attempt04-imagegen-prompt.txt",
+    "rawSource": "tools/generate-art/sources/kraken-celebrate10-attempt04-generated-raw.png",
+    "rawSourceSha256": "b2b9b958b4118ef0d03b68ceffadb528efc71f8f72e04000b1dd786994fdeafa",
+    "cleanupScript": "tools/generate-art/previews/kraken-celebrate10-attempt04/clean-cleanup02.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup02/cleanup02-layout.json",
+    "sourceReview": "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup02/INDEPENDENT_CLEANUP02_REVIEW.md",
+    "candidateGameplayReview": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/cleanup02-candidate-injected/INDEPENDENT_GAMEPLAY_REVIEW.md",
+    "note": "Cleanup02 candidate artwork; one right-facing bespoke Kraken source, safe horizontal mirror according to the canon policy. Ten distinct poses; no basketball is baked in."
+  }
+}

@@ -1,0 +1,6345 @@
+{
+  "status": "v2 corrected cleanup; independent review required before ball-track trials",
+  "source": "tools/generate-art/sources/kraken-pass-overhead6-attempt02-generated-raw.png",
+  "sourceAlphaRange": [
+    0,
+    254
+  ],
+  "threshold32StrongComponents": 6,
+  "componentBounds": [
+    [
+      140,
+      24,
+      463,
+      500
+    ],
+    [
+      624,
+      10,
+      918,
+      500
+    ],
+    [
+      1102,
+      46,
+      1396,
+      500
+    ],
+    [
+      111,
+      499,
+      513,
+      1005
+    ],
+    [
+      580,
+      503,
+      985,
+      1005
+    ],
+    [
+      1070,
+      531,
+      1409,
+      1005
+    ]
+  ],
+  "seamCrossings": {
+    "3": [
+      111,
+      499,
+      513,
+      1005
+    ],
+    "4": [
+      580,
+      503,
+      985,
+      1005
+    ]
+  },
+  "removedAlphaFragmentsNearComponentBounds": [
+    {
+      "pose": 0,
+      "pixels": 1580,
+      "sourceBoundsLTRB": [
+        289,
+        12,
+        402,
+        139
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        375,
+        26,
+        376,
+        27
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        121,
+        38,
+        122,
+        40
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        129,
+        39,
+        130,
+        40
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        42,
+        122,
+        43
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        45,
+        122,
+        46
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        45,
+        124,
+        46
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        47,
+        122,
+        48
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 24,
+      "sourceBoundsLTRB": [
+        286,
+        61,
+        293,
+        69
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        457,
+        71,
+        458,
+        72
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 429,
+      "sourceBoundsLTRB": [
+        281,
+        72,
+        303,
+        110
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        449,
+        74,
+        450,
+        75
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        451,
+        74,
+        452,
+        79
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        448,
+        76,
+        450,
+        79
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        457,
+        78,
+        458,
+        79
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        455,
+        87,
+        456,
+        88
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        457,
+        87,
+        458,
+        88
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 128,
+      "sourceBoundsLTRB": [
+        253,
+        110,
+        276,
+        124
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        283,
+        110,
+        284,
+        111
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        281,
+        111,
+        282,
+        112
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        278,
+        112,
+        279,
+        113
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        251,
+        124,
+        252,
+        125
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 563,
+      "sourceBoundsLTRB": [
+        205,
+        126,
+        250,
+        199
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        225,
+        134,
+        226,
+        135
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 523,
+      "sourceBoundsLTRB": [
+        399,
+        140,
+        418,
+        239
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        206,
+        202,
+        207,
+        203
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        205,
+        205,
+        206,
+        206
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 69,
+      "sourceBoundsLTRB": [
+        199,
+        207,
+        207,
+        224
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        197,
+        216,
+        198,
+        220
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        209,
+        225,
+        212,
+        228
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        213,
+        228,
+        216,
+        230
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        211,
+        229,
+        212,
+        230
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1402,
+      "sourceBoundsLTRB": [
+        176,
+        230,
+        245,
+        409
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        387,
+        246,
+        389,
+        247
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 151,
+      "sourceBoundsLTRB": [
+        370,
+        247,
+        386,
+        269
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        381,
+        269,
+        384,
+        272
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 79,
+      "sourceBoundsLTRB": [
+        386,
+        273,
+        401,
+        288
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        401,
+        289,
+        403,
+        291
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 400,
+      "sourceBoundsLTRB": [
+        403,
+        289,
+        433,
+        339
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1129,
+      "sourceBoundsLTRB": [
+        274,
+        313,
+        379,
+        373
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 16,
+      "sourceBoundsLTRB": [
+        433,
+        340,
+        436,
+        352
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 530,
+      "sourceBoundsLTRB": [
+        411,
+        353,
+        437,
+        428
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 260,
+      "sourceBoundsLTRB": [
+        240,
+        369,
+        273,
+        403
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 644,
+      "sourceBoundsLTRB": [
+        351,
+        386,
+        374,
+        480
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        425,
+        401,
+        426,
+        402
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 282,
+      "sourceBoundsLTRB": [
+        203,
+        403,
+        240,
+        464
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        175,
+        410,
+        176,
+        411
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 149,
+      "sourceBoundsLTRB": [
+        159,
+        412,
+        175,
+        430
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 64,
+      "sourceBoundsLTRB": [
+        420,
+        429,
+        432,
+        447
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 493,
+      "sourceBoundsLTRB": [
+        127,
+        430,
+        159,
+        497
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 146,
+      "sourceBoundsLTRB": [
+        434,
+        446,
+        463,
+        464
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        451,
+        447,
+        452,
+        448
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        139,
+        455,
+        140,
+        456
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        135,
+        459,
+        136,
+        460
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 139,
+      "sourceBoundsLTRB": [
+        208,
+        465,
+        224,
+        498
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 82555,
+      "sourceBoundsLTRB": [
+        107,
+        466,
+        516,
+        1008
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        127,
+        474,
+        128,
+        475
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        367,
+        481,
+        368,
+        482
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 6,
+      "sourceBoundsLTRB": [
+        393,
+        481,
+        398,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        371,
+        482,
+        378,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        379,
+        482,
+        380,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        381,
+        482,
+        382,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        386,
+        482,
+        388,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        389,
+        482,
+        390,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        401,
+        482,
+        402,
+        484
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        403,
+        483,
+        404,
+        484
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        160,
+        497,
+        161,
+        498
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 400,
+      "sourceBoundsLTRB": [
+        165,
+        499,
+        219,
+        512
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        190,
+        505,
+        191,
+        506
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        219,
+        508,
+        221,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        515,
+        124,
+        516
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        517,
+        122,
+        518
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        519,
+        122,
+        520
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 0,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        519,
+        124,
+        520
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 281,
+      "sourceBoundsLTRB": [
+        827,
+        0,
+        860,
+        14
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        861,
+        12,
+        864,
+        15
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        825,
+        15,
+        826,
+        16
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 78,
+      "sourceBoundsLTRB": [
+        865,
+        16,
+        879,
+        30
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        791,
+        17,
+        792,
+        18
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 53,
+      "sourceBoundsLTRB": [
+        815,
+        17,
+        824,
+        27
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 533,
+      "sourceBoundsLTRB": [
+        765,
+        18,
+        816,
+        49
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 17,
+      "sourceBoundsLTRB": [
+        749,
+        31,
+        762,
+        35
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        879,
+        31,
+        880,
+        32
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 866,
+      "sourceBoundsLTRB": [
+        702,
+        32,
+        747,
+        117
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        881,
+        33,
+        882,
+        34
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 202,
+      "sourceBoundsLTRB": [
+        883,
+        36,
+        897,
+        70
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        812,
+        50,
+        813,
+        53
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 882,
+      "sourceBoundsLTRB": [
+        798,
+        54,
+        832,
+        115
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        703,
+        57,
+        704,
+        58
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 775,
+      "sourceBoundsLTRB": [
+        897,
+        67,
+        928,
+        145
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 114,
+      "sourceBoundsLTRB": [
+        861,
+        86,
+        870,
+        110
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        723,
+        117,
+        728,
+        121
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        721,
+        121,
+        722,
+        122
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 124,
+      "sourceBoundsLTRB": [
+        702,
+        125,
+        717,
+        151
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 18,
+      "sourceBoundsLTRB": [
+        905,
+        143,
+        912,
+        149
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        903,
+        146,
+        904,
+        147
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 222,
+      "sourceBoundsLTRB": [
+        856,
+        149,
+        899,
+        162
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 29,
+      "sourceBoundsLTRB": [
+        700,
+        156,
+        703,
+        178
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 781,
+      "sourceBoundsLTRB": [
+        804,
+        160,
+        846,
+        252
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        702,
+        181,
+        703,
+        182
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        703,
+        183,
+        704,
+        184
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 172,
+      "sourceBoundsLTRB": [
+        702,
+        185,
+        714,
+        232
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        609,
+        199,
+        610,
+        200
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 74,
+      "sourceBoundsLTRB": [
+        702,
+        233,
+        711,
+        250
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1114,
+      "sourceBoundsLTRB": [
+        687,
+        251,
+        717,
+        366
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        818,
+        253,
+        819,
+        254
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        820,
+        254,
+        822,
+        256
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 107,
+      "sourceBoundsLTRB": [
+        823,
+        255,
+        849,
+        279
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        850,
+        280,
+        853,
+        283
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 27,
+      "sourceBoundsLTRB": [
+        854,
+        284,
+        865,
+        296
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        865,
+        297,
+        867,
+        299
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 68,
+      "sourceBoundsLTRB": [
+        868,
+        301,
+        881,
+        320
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        647,
+        311,
+        648,
+        312
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        647,
+        313,
+        648,
+        314
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        880,
+        321,
+        883,
+        325
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1001,
+      "sourceBoundsLTRB": [
+        726,
+        325,
+        804,
+        406
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 181,
+      "sourceBoundsLTRB": [
+        883,
+        326,
+        897,
+        368
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 938,
+      "sourceBoundsLTRB": [
+        783,
+        346,
+        836,
+        480
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        689,
+        349,
+        690,
+        350
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        687,
+        366,
+        688,
+        367
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 491,
+      "sourceBoundsLTRB": [
+        651,
+        367,
+        686,
+        428
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 225,
+      "sourceBoundsLTRB": [
+        865,
+        371,
+        884,
+        403
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        657,
+        388,
+        658,
+        392
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 289,
+      "sourceBoundsLTRB": [
+        852,
+        403,
+        868,
+        448
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 98,
+      "sourceBoundsLTRB": [
+        707,
+        404,
+        726,
+        420
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        705,
+        420,
+        706,
+        421
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 10,
+      "sourceBoundsLTRB": [
+        648,
+        421,
+        651,
+        426
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 183,
+      "sourceBoundsLTRB": [
+        689,
+        423,
+        705,
+        452
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        650,
+        429,
+        651,
+        430
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        643,
+        430,
+        644,
+        431
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        641,
+        431,
+        642,
+        432
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 263,
+      "sourceBoundsLTRB": [
+        621,
+        433,
+        640,
+        465
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 760,
+      "sourceBoundsLTRB": [
+        832,
+        448,
+        915,
+        496
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        689,
+        453,
+        690,
+        454
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        689,
+        461,
+        690,
+        462
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        690,
+        463,
+        691,
+        464
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        698,
+        463,
+        699,
+        464
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        700,
+        463,
+        701,
+        464
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 68,
+      "sourceBoundsLTRB": [
+        691,
+        464,
+        704,
+        477
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 146,
+      "sourceBoundsLTRB": [
+        619,
+        465,
+        642,
+        498
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 30,
+      "sourceBoundsLTRB": [
+        801,
+        481,
+        831,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 435,
+      "sourceBoundsLTRB": [
+        650,
+        482,
+        706,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 76170,
+      "sourceBoundsLTRB": [
+        573,
+        492,
+        994,
+        1010
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        643,
+        496,
+        645,
+        498
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        646,
+        498,
+        648,
+        500
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        647,
+        501,
+        648,
+        502
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        649,
+        501,
+        650,
+        502
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        648,
+        503,
+        649,
+        504
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 1,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        698,
+        509,
+        699,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1099,
+      "sourceBoundsLTRB": [
+        1258,
+        30,
+        1377,
+        115
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 15,
+      "sourceBoundsLTRB": [
+        1213,
+        45,
+        1228,
+        47
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1229,
+        46,
+        1230,
+        47
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1255,
+        46,
+        1258,
+        48
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 83,
+      "sourceBoundsLTRB": [
+        1185,
+        47,
+        1210,
+        53
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1233,
+        47,
+        1236,
+        49
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 58,
+      "sourceBoundsLTRB": [
+        1237,
+        47,
+        1254,
+        54
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 43,
+      "sourceBoundsLTRB": [
+        1157,
+        48,
+        1184,
+        51
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 36,
+      "sourceBoundsLTRB": [
+        1143,
+        51,
+        1156,
+        61
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1184,
+      "sourceBoundsLTRB": [
+        1137,
+        63,
+        1196,
+        274
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 161,
+      "sourceBoundsLTRB": [
+        1202,
+        91,
+        1229,
+        116
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 19,
+      "sourceBoundsLTRB": [
+        1309,
+        102,
+        1316,
+        111
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1308,
+        112,
+        1309,
+        113
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 177,
+      "sourceBoundsLTRB": [
+        1338,
+        114,
+        1364,
+        147
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 672,
+      "sourceBoundsLTRB": [
+        1295,
+        148,
+        1337,
+        235
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1173,
+        153,
+        1174,
+        154
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1296,
+        243,
+        1297,
+        244
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 185,
+      "sourceBoundsLTRB": [
+        1289,
+        245,
+        1328,
+        278
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1351,
+      "sourceBoundsLTRB": [
+        1135,
+        277,
+        1198,
+        416
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1329,
+        278,
+        1330,
+        279
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        1331,
+        280,
+        1334,
+        282
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1080,
+      "sourceBoundsLTRB": [
+        1335,
+        282,
+        1393,
+        447
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1113,
+        329,
+        1114,
+        330
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1322,
+      "sourceBoundsLTRB": [
+        1167,
+        329,
+        1288,
+        457
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1115,
+        331,
+        1116,
+        332
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1113,
+        333,
+        1114,
+        334
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1101,
+        339,
+        1102,
+        340
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1129,
+      "sourceBoundsLTRB": [
+        1280,
+        346,
+        1326,
+        469
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        1297,
+        401,
+        1298,
+        406
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1299,
+        401,
+        1300,
+        402
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 9,
+      "sourceBoundsLTRB": [
+        1299,
+        403,
+        1301,
+        408
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 105,
+      "sourceBoundsLTRB": [
+        1119,
+        417,
+        1135,
+        431
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 549,
+      "sourceBoundsLTRB": [
+        1089,
+        432,
+        1130,
+        502
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1366,
+        449,
+        1367,
+        450
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 104,
+      "sourceBoundsLTRB": [
+        1368,
+        449,
+        1393,
+        460
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1168,
+        460,
+        1169,
+        461
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1169,
+        462,
+        1170,
+        463
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 63,
+      "sourceBoundsLTRB": [
+        1170,
+        464,
+        1184,
+        477
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 579,
+      "sourceBoundsLTRB": [
+        1325,
+        464,
+        1408,
+        496
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1211,
+        467,
+        1212,
+        468
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1215,
+        472,
+        1216,
+        473
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1284,
+        472,
+        1285,
+        473
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 10,
+      "sourceBoundsLTRB": [
+        1286,
+        472,
+        1292,
+        479
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1283,
+        474,
+        1285,
+        476
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1286,
+        477,
+        1287,
+        478
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1184,
+        478,
+        1185,
+        479
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1293,
+        479,
+        1294,
+        480
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1185,
+        480,
+        1186,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1298,
+        481,
+        1299,
+        482
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 21,
+      "sourceBoundsLTRB": [
+        1301,
+        482,
+        1322,
+        483
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1185,
+        492,
+        1186,
+        494
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1350,
+        493,
+        1351,
+        494
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1389,
+        495,
+        1390,
+        496
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 2,
+      "pixels": 315,
+      "sourceBoundsLTRB": [
+        1131,
+        496,
+        1184,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 77036,
+      "sourceBoundsLTRB": [
+        127,
+        12,
+        480,
+        518
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        164,
+        499,
+        167,
+        500
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        190,
+        505,
+        191,
+        506
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        107,
+        507,
+        108,
+        508
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        219,
+        508,
+        221,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        410,
+        508,
+        412,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        482,
+        509,
+        489,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        408,
+        510,
+        409,
+        511
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        494,
+        510,
+        496,
+        512
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 166,
+      "sourceBoundsLTRB": [
+        384,
+        511,
+        407,
+        534
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 96,
+      "sourceBoundsLTRB": [
+        501,
+        512,
+        516,
+        544
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        513,
+        513,
+        514,
+        514
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        515,
+        124,
+        516
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        517,
+        122,
+        518
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        519,
+        122,
+        520
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        519,
+        124,
+        520
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        119,
+        520,
+        120,
+        522
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        521,
+        122,
+        522
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        115,
+        522,
+        116,
+        523
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        117,
+        523,
+        118,
+        524
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        523,
+        124,
+        524
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        121,
+        524,
+        122,
+        526
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        115,
+        525,
+        116,
+        526
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        123,
+        525,
+        124,
+        526
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        113,
+        527,
+        114,
+        528
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        121,
+        527,
+        122,
+        528
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 267,
+      "sourceBoundsLTRB": [
+        291,
+        529,
+        323,
+        545
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        313,
+        529,
+        314,
+        530
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 559,
+      "sourceBoundsLTRB": [
+        405,
+        531,
+        445,
+        565
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        383,
+        535,
+        384,
+        536
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        382,
+        537,
+        383,
+        538
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 513,
+      "sourceBoundsLTRB": [
+        324,
+        539,
+        382,
+        588
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        289,
+        541,
+        291,
+        543
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        287,
+        543,
+        288,
+        544
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 68,
+      "sourceBoundsLTRB": [
+        263,
+        544,
+        281,
+        553
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1541,
+      "sourceBoundsLTRB": [
+        365,
+        544,
+        510,
+        670
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 10,
+      "sourceBoundsLTRB": [
+        257,
+        554,
+        264,
+        560
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 234,
+      "sourceBoundsLTRB": [
+        238,
+        559,
+        253,
+        590
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        490,
+        559,
+        491,
+        560
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        492,
+        559,
+        494,
+        560
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        404,
+        563,
+        405,
+        564
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        403,
+        565,
+        404,
+        566
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        411,
+        566,
+        412,
+        567
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 62,
+      "sourceBoundsLTRB": [
+        387,
+        569,
+        407,
+        593
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        103,
+        575,
+        104,
+        576
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        507,
+        579,
+        508,
+        580
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        509,
+        579,
+        510,
+        580
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        105,
+        583,
+        106,
+        584
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        511,
+        583,
+        512,
+        584
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 127,
+      "sourceBoundsLTRB": [
+        239,
+        592,
+        255,
+        611
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 226,
+      "sourceBoundsLTRB": [
+        249,
+        614,
+        268,
+        645
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        523,
+        621,
+        524,
+        622
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        527,
+        623,
+        528,
+        624
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        525,
+        625,
+        526,
+        626
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        519,
+        639,
+        520,
+        640
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        521,
+        639,
+        522,
+        640
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 629,
+      "sourceBoundsLTRB": [
+        241,
+        645,
+        265,
+        725
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        241,
+        647,
+        242,
+        648
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 567,
+      "sourceBoundsLTRB": [
+        353,
+        675,
+        370,
+        755
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        533,
+        675,
+        534,
+        676
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        241,
+        685,
+        242,
+        686
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 102,
+      "sourceBoundsLTRB": [
+        254,
+        727,
+        265,
+        746
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        255,
+        747,
+        256,
+        748
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        129,
+        749,
+        130,
+        750
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1149,
+      "sourceBoundsLTRB": [
+        205,
+        749,
+        255,
+        860
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 35,
+      "sourceBoundsLTRB": [
+        373,
+        758,
+        383,
+        767
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        239,
+        761,
+        240,
+        762
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        239,
+        765,
+        240,
+        766
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 266,
+      "sourceBoundsLTRB": [
+        385,
+        769,
+        418,
+        808
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        199,
+        791,
+        200,
+        792
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        195,
+        795,
+        196,
+        796
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        469,
+        795,
+        470,
+        796
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        471,
+        799,
+        472,
+        800
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        469,
+        801,
+        470,
+        802
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 300,
+      "sourceBoundsLTRB": [
+        417,
+        808,
+        446,
+        850
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        475,
+        813,
+        476,
+        814
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        129,
+        821,
+        130,
+        822
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 423,
+      "sourceBoundsLTRB": [
+        310,
+        821,
+        348,
+        851
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        129,
+        823,
+        130,
+        824
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        97,
+        833,
+        98,
+        834
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        99,
+        833,
+        100,
+        840
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        101,
+        833,
+        102,
+        834
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        103,
+        833,
+        104,
+        834
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        95,
+        835,
+        96,
+        837
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        95,
+        835,
+        98,
+        840
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        101,
+        835,
+        102,
+        836
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        91,
+        837,
+        92,
+        838
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        93,
+        837,
+        94,
+        838
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        93,
+        841,
+        94,
+        842
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        95,
+        841,
+        96,
+        842
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        447,
+        841,
+        448,
+        842
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1038,
+      "sourceBoundsLTRB": [
+        351,
+        842,
+        382,
+        968
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        105,
+        845,
+        106,
+        846
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        107,
+        845,
+        108,
+        846
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        103,
+        847,
+        104,
+        848
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        97,
+        849,
+        98,
+        850
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        101,
+        849,
+        102,
+        850
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        525,
+        849,
+        526,
+        850
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        99,
+        850,
+        100,
+        852
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        101,
+        851,
+        102,
+        852
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        305,
+        851,
+        307,
+        852
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 774,
+      "sourceBoundsLTRB": [
+        412,
+        851,
+        438,
+        960
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        523,
+        851,
+        524,
+        852
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        525,
+        851,
+        526,
+        852
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        97,
+        852,
+        98,
+        854
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 604,
+      "sourceBoundsLTRB": [
+        246,
+        852,
+        308,
+        901
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        529,
+        852,
+        530,
+        854
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        521,
+        853,
+        522,
+        854
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        531,
+        853,
+        532,
+        854
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        527,
+        855,
+        528,
+        856
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        105,
+        860,
+        106,
+        861
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        107,
+        860,
+        108,
+        862
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        204,
+        861,
+        205,
+        862
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        103,
+        862,
+        106,
+        866
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 26,
+      "sourceBoundsLTRB": [
+        192,
+        862,
+        203,
+        872
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        503,
+        863,
+        504,
+        864
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        105,
+        865,
+        106,
+        872
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 17,
+      "sourceBoundsLTRB": [
+        107,
+        865,
+        110,
+        877
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        111,
+        865,
+        112,
+        866
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        97,
+        868,
+        98,
+        870
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        99,
+        869,
+        100,
+        870
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        103,
+        870,
+        104,
+        874
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        111,
+        870,
+        112,
+        874
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        95,
+        871,
+        96,
+        874
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        97,
+        871,
+        98,
+        872
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        99,
+        872,
+        102,
+        876
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        93,
+        873,
+        94,
+        874
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        97,
+        873,
+        98,
+        874
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        105,
+        873,
+        106,
+        875
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        190,
+        873,
+        192,
+        875
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 109,
+      "sourceBoundsLTRB": [
+        174,
+        874,
+        190,
+        894
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        91,
+        875,
+        92,
+        876
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        93,
+        875,
+        94,
+        876
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        103,
+        875,
+        104,
+        876
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        97,
+        877,
+        98,
+        878
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        99,
+        877,
+        100,
+        878
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        102,
+        877,
+        103,
+        878
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        105,
+        877,
+        106,
+        878
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        103,
+        879,
+        104,
+        880
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        105,
+        879,
+        106,
+        880
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 259,
+      "sourceBoundsLTRB": [
+        139,
+        894,
+        173,
+        912
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        244,
+        898,
+        245,
+        901
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 107,
+      "sourceBoundsLTRB": [
+        223,
+        900,
+        243,
+        913
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 170,
+      "sourceBoundsLTRB": [
+        107,
+        910,
+        137,
+        945
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        138,
+        910,
+        140,
+        912
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        219,
+        912,
+        222,
+        914
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        217,
+        913,
+        218,
+        914
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        215,
+        914,
+        216,
+        915
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 583,
+      "sourceBoundsLTRB": [
+        179,
+        916,
+        215,
+        984
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        105,
+        931,
+        106,
+        932
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        327,
+        943,
+        328,
+        944
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 680,
+      "sourceBoundsLTRB": [
+        111,
+        948,
+        192,
+        1008
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        321,
+        949,
+        322,
+        950
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        319,
+        951,
+        320,
+        952
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        321,
+        951,
+        322,
+        952
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        335,
+        953,
+        336,
+        954
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        333,
+        955,
+        334,
+        956
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        329,
+        956,
+        330,
+        957
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 127,
+      "sourceBoundsLTRB": [
+        438,
+        959,
+        464,
+        971
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        285,
+        969,
+        286,
+        970
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 58,
+      "sourceBoundsLTRB": [
+        352,
+        970,
+        360,
+        993
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        465,
+        973,
+        466,
+        974
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        249,
+        982,
+        250,
+        984
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        251,
+        983,
+        252,
+        984
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 9,
+      "sourceBoundsLTRB": [
+        191,
+        985,
+        192,
+        994
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 6,
+      "sourceBoundsLTRB": [
+        467,
+        985,
+        469,
+        991
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        251,
+        987,
+        252,
+        988
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        249,
+        989,
+        250,
+        990
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        249,
+        991,
+        250,
+        992
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 6,
+      "sourceBoundsLTRB": [
+        463,
+        992,
+        467,
+        998
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        361,
+        993,
+        362,
+        994
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        368,
+        995,
+        369,
+        996
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 511,
+      "sourceBoundsLTRB": [
+        386,
+        995,
+        463,
+        1008
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 3,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        460,
+        1005,
+        461,
+        1006
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 79291,
+      "sourceBoundsLTRB": [
+        619,
+        0,
+        928,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 821,
+      "sourceBoundsLTRB": [
+        877,
+        492,
+        976,
+        543
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        647,
+        501,
+        648,
+        502
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        649,
+        501,
+        650,
+        502
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        648,
+        503,
+        649,
+        504
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        698,
+        509,
+        699,
+        510
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 429,
+      "sourceBoundsLTRB": [
+        960,
+        510,
+        994,
+        556
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 759,
+      "sourceBoundsLTRB": [
+        723,
+        527,
+        817,
+        565
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        585,
+        535,
+        586,
+        536
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        591,
+        537,
+        592,
+        538
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        587,
+        539,
+        588,
+        540
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 648,
+      "sourceBoundsLTRB": [
+        894,
+        539,
+        956,
+        595
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 611,
+      "sourceBoundsLTRB": [
+        810,
+        543,
+        875,
+        598
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        723,
+        549,
+        724,
+        552
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        957,
+        551,
+        958,
+        552
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        721,
+        559,
+        722,
+        561
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        720,
+        568,
+        721,
+        569
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 534,
+      "sourceBoundsLTRB": [
+        705,
+        570,
+        740,
+        634
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        561,
+        575,
+        562,
+        576
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        567,
+        575,
+        568,
+        576
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 9,
+      "sourceBoundsLTRB": [
+        563,
+        577,
+        566,
+        583
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        567,
+        577,
+        568,
+        578
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        561,
+        578,
+        562,
+        582
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        561,
+        583,
+        562,
+        584
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        621,
+        585,
+        622,
+        586
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        633,
+        589,
+        634,
+        590
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 944,
+      "sourceBoundsLTRB": [
+        833,
+        595,
+        895,
+        723
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        621,
+        616,
+        623,
+        618
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        621,
+        619,
+        622,
+        620
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        579,
+        627,
+        580,
+        628
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        581,
+        633,
+        582,
+        634
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        583,
+        633,
+        584,
+        634
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        579,
+        635,
+        580,
+        636
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        581,
+        635,
+        582,
+        636
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 243,
+      "sourceBoundsLTRB": [
+        723,
+        638,
+        734,
+        676
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        721,
+        647,
+        722,
+        650
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        621,
+        649,
+        622,
+        650
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        721,
+        667,
+        722,
+        670
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 904,
+      "sourceBoundsLTRB": [
+        703,
+        677,
+        748,
+        811
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        732,
+        680,
+        733,
+        681
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        607,
+        681,
+        608,
+        682
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        609,
+        681,
+        610,
+        682
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        605,
+        683,
+        606,
+        684
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        603,
+        685,
+        604,
+        686
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 46,
+      "sourceBoundsLTRB": [
+        826,
+        727,
+        835,
+        745
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        832,
+        747,
+        834,
+        749
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        834,
+        750,
+        835,
+        752
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 163,
+      "sourceBoundsLTRB": [
+        834,
+        752,
+        848,
+        774
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        849,
+        776,
+        850,
+        777
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 72,
+      "sourceBoundsLTRB": [
+        851,
+        779,
+        864,
+        795
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        864,
+        796,
+        865,
+        798
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        866,
+        799,
+        867,
+        800
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1237,
+      "sourceBoundsLTRB": [
+        858,
+        801,
+        896,
+        962
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        933,
+        803,
+        934,
+        804
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        937,
+        804,
+        938,
+        806
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        633,
+        805,
+        634,
+        806
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        931,
+        805,
+        932,
+        806
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        933,
+        805,
+        934,
+        806
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        929,
+        806,
+        930,
+        808
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        631,
+        807,
+        632,
+        808
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        633,
+        807,
+        634,
+        808
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        935,
+        807,
+        936,
+        808
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        937,
+        807,
+        938,
+        808
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        919,
+        809,
+        920,
+        810
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        929,
+        809,
+        930,
+        810
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        955,
+        811,
+        956,
+        812
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        705,
+        812,
+        706,
+        813
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        953,
+        813,
+        954,
+        814
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        704,
+        814,
+        705,
+        815
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        927,
+        815,
+        928,
+        816
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        702,
+        816,
+        704,
+        819
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1048,
+      "sourceBoundsLTRB": [
+        593,
+        825,
+        709,
+        910
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 611,
+      "sourceBoundsLTRB": [
+        780,
+        829,
+        832,
+        892
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 141,
+      "sourceBoundsLTRB": [
+        754,
+        851,
+        772,
+        865
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 6,
+      "sourceBoundsLTRB": [
+        665,
+        856,
+        668,
+        858
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        753,
+        866,
+        754,
+        867
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1003,
+        867,
+        1004,
+        868
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 512,
+      "sourceBoundsLTRB": [
+        684,
+        868,
+        754,
+        912
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1005,
+        883,
+        1006,
+        884
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 536,
+      "sourceBoundsLTRB": [
+        797,
+        893,
+        820,
+        976
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1375,
+      "sourceBoundsLTRB": [
+        573,
+        910,
+        660,
+        1010
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        682,
+        912,
+        683,
+        913
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 63,
+      "sourceBoundsLTRB": [
+        659,
+        913,
+        681,
+        937
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        801,
+        933,
+        802,
+        934
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        801,
+        935,
+        802,
+        936
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        803,
+        935,
+        804,
+        936
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 41,
+      "sourceBoundsLTRB": [
+        891,
+        960,
+        907,
+        966
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 596,
+      "sourceBoundsLTRB": [
+        846,
+        966,
+        928,
+        1008
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 60,
+      "sourceBoundsLTRB": [
+        798,
+        983,
+        816,
+        999
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        709,
+        985,
+        710,
+        986
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        711,
+        985,
+        712,
+        986
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        713,
+        985,
+        714,
+        986
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        707,
+        987,
+        708,
+        988
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        709,
+        987,
+        710,
+        988
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        839,
+        995,
+        841,
+        997
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 4,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        844,
+        995,
+        845,
+        996
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1812,
+      "sourceBoundsLTRB": [
+        1183,
+        527,
+        1298,
+        622
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1185,
+        557,
+        1186,
+        558
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1331,
+        581,
+        1332,
+        582
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1341,
+        601,
+        1342,
+        602
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1295,
+        602,
+        1296,
+        603
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1295,
+        604,
+        1296,
+        606
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1337,
+        605,
+        1338,
+        606
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1291,
+        607,
+        1292,
+        608
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1343,
+        607,
+        1344,
+        608
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1061,
+        617,
+        1062,
+        618
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1063,
+        617,
+        1064,
+        618
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1059,
+        618,
+        1060,
+        619
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1182,
+        621,
+        1184,
+        623
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1377,
+        621,
+        1378,
+        622
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1279,
+        622,
+        1280,
+        623
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 495,
+      "sourceBoundsLTRB": [
+        1152,
+        623,
+        1180,
+        717
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1281,
+        623,
+        1282,
+        624
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 92,
+      "sourceBoundsLTRB": [
+        1283,
+        623,
+        1297,
+        639
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1375,
+        623,
+        1376,
+        624
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1377,
+        623,
+        1378,
+        624
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1365,
+        625,
+        1366,
+        626
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1367,
+        625,
+        1368,
+        626
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1381,
+        625,
+        1382,
+        626
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1379,
+        627,
+        1380,
+        628
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1381,
+        627,
+        1382,
+        628
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1413,
+        627,
+        1414,
+        628
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1369,
+        629,
+        1370,
+        630
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1377,
+        629,
+        1378,
+        630
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1379,
+        629,
+        1380,
+        630
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1409,
+        629,
+        1410,
+        630
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1377,
+        631,
+        1378,
+        632
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1296,
+        641,
+        1297,
+        642
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1297,
+        643,
+        1298,
+        646
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 400,
+      "sourceBoundsLTRB": [
+        1298,
+        648,
+        1332,
+        688
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1151,
+        673,
+        1152,
+        675
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 526,
+      "sourceBoundsLTRB": [
+        1334,
+        685,
+        1408,
+        712
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 98,
+      "sourceBoundsLTRB": [
+        1272,
+        696,
+        1287,
+        708
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 68,
+      "sourceBoundsLTRB": [
+        1408,
+        713,
+        1414,
+        737
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1415,
+        720,
+        1416,
+        721
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1415,
+        723,
+        1416,
+        724
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1030,
+      "sourceBoundsLTRB": [
+        1288,
+        724,
+        1392,
+        769
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 5,
+      "sourceBoundsLTRB": [
+        1165,
+        728,
+        1168,
+        732
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1659,
+      "sourceBoundsLTRB": [
+        1102,
+        733,
+        1168,
+        919
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 16,
+      "sourceBoundsLTRB": [
+        1401,
+        738,
+        1407,
+        746
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1393,
+        739,
+        1394,
+        740
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 157,
+      "sourceBoundsLTRB": [
+        1264,
+        740,
+        1282,
+        755
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1281,
+        741,
+        1284,
+        744
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1280,
+        757,
+        1282,
+        759
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1283,
+        760,
+        1286,
+        762
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1287,
+        763,
+        1290,
+        766
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1291,
+        766,
+        1293,
+        768
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 196,
+      "sourceBoundsLTRB": [
+        1294,
+        768,
+        1330,
+        816
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1073,
+        813,
+        1074,
+        814
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 167,
+      "sourceBoundsLTRB": [
+        1331,
+        814,
+        1344,
+        837
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1413,
+        817,
+        1414,
+        818
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 305,
+      "sourceBoundsLTRB": [
+        1222,
+        818,
+        1245,
+        852
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1415,
+        823,
+        1416,
+        824
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1417,
+        823,
+        1418,
+        824
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1423,
+        823,
+        1424,
+        824
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1119,
+        825,
+        1120,
+        826
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1423,
+        825,
+        1424,
+        826
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        1111,
+        827,
+        1114,
+        832
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 4,
+      "sourceBoundsLTRB": [
+        1115,
+        827,
+        1116,
+        831
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1117,
+        827,
+        1118,
+        828
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1419,
+        827,
+        1420,
+        828
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1417,
+        828,
+        1418,
+        829
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1419,
+        829,
+        1420,
+        830
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1119,
+        830,
+        1120,
+        833
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 3,
+      "sourceBoundsLTRB": [
+        1109,
+        833,
+        1110,
+        836
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1107,
+        834,
+        1108,
+        835
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1402,
+      "sourceBoundsLTRB": [
+        1245,
+        835,
+        1288,
+        978
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1107,
+        837,
+        1108,
+        838
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1105,
+        839,
+        1106,
+        840
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1088,
+      "sourceBoundsLTRB": [
+        1314,
+        843,
+        1347,
+        960
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 36,
+      "sourceBoundsLTRB": [
+        1210,
+        850,
+        1222,
+        868
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1222,
+        853,
+        1223,
+        854
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 437,
+      "sourceBoundsLTRB": [
+        1154,
+        868,
+        1214,
+        919
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1261,
+        872,
+        1262,
+        873
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1263,
+        903,
+        1264,
+        904
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1263,
+        909,
+        1264,
+        910
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 315,
+      "sourceBoundsLTRB": [
+        1070,
+        919,
+        1101,
+        967
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 417,
+      "sourceBoundsLTRB": [
+        1137,
+        920,
+        1154,
+        975
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 150,
+      "sourceBoundsLTRB": [
+        1349,
+        960,
+        1378,
+        979
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 53,
+      "sourceBoundsLTRB": [
+        1067,
+        971,
+        1074,
+        994
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 578,
+      "sourceBoundsLTRB": [
+        1081,
+        977,
+        1170,
+        1010
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 23,
+      "sourceBoundsLTRB": [
+        1255,
+        978,
+        1262,
+        991
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1255,
+        987,
+        1256,
+        988
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 353,
+      "sourceBoundsLTRB": [
+        1329,
+        987,
+        1376,
+        1008
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1254,
+        989,
+        1255,
+        990
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1263,
+        990,
+        1264,
+        992
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 7,
+      "sourceBoundsLTRB": [
+        1265,
+        991,
+        1269,
+        994
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 41,
+      "sourceBoundsLTRB": [
+        1290,
+        992,
+        1307,
+        996
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1311,
+        994,
+        1312,
+        995
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1079,
+        995,
+        1080,
+        996
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 2,
+      "sourceBoundsLTRB": [
+        1313,
+        995,
+        1315,
+        996
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 77,
+      "sourceBoundsLTRB": [
+        1313,
+        995,
+        1326,
+        1005
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    },
+    {
+      "pose": 5,
+      "pixels": 1,
+      "sourceBoundsLTRB": [
+        1315,
+        997,
+        1316,
+        998
+      ],
+      "reason": "generated haze or detached component outside the reviewed silhouette and two-pixel antialias fringe"
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+  "layout": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/layout-v2.json",
+  "rawPreserved": true,
+  "uniqueAlphaFrames": 6,
+  "uniqueNormalizedPoses": 6,
+  "minimumMarginsLTRB": [
+    10,
+    21,
+    11,
+    2
+  ],
+  "pixelTreatment": "Original source RGBA pixels; no keying, redraw, color replacement, despill, or interpolation. Nearest-neighbor scaling only."
+}

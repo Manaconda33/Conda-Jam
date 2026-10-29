@@ -1,0 +1,1337 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4224/",
+  "athlete": "krios",
+  "clip": "pass",
+  "candidateAtlas": "./public/assets/animation/krios-pass-right.webp",
+  "candidateTrack": {
+    "height": [
+      1.05,
+      1.15,
+      1.4,
+      1.5,
+      1.35,
+      1.05
+    ],
+    "forward": [
+      8,
+      9,
+      11,
+      13,
+      12,
+      8
+    ]
+  },
+  "releasePositions": {
+    "5": [
+      13,
+      1.5
+    ],
+    "6": [
+      19,
+      1.8
+    ],
+    "8": [
+      30,
+      1.6
+    ]
+  },
+  "courtY": 90.0,
+  "grid": "6 authored frame starts \u00d7 2 facings \u00d7 2 zooms = 24 captures per successful attempt",
+  "releaseTick": 5,
+  "captureMethod": "Temporary in-page manifest override for unregistered Krios chest-pass atlas; ball follows Krios-specific candidate offsets through tick4, transitions to ownerless pass at tick5, then uses staged free-flight sample coordinates.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 108,
+        "y": 90,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame00-tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 109,
+        "y": 90,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame01-tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 111,
+        "y": 90,
+        "z": 1.4
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame02-tick04-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 113,
+        "y": 90,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame03-tick05-right-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 119,
+        "y": 90,
+        "z": 1.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame04-tick06-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 130,
+        "y": 90,
+        "z": 1.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame05-tick08-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 92,
+        "y": 90,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame00-tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 91,
+        "y": 90,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame01-tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 89,
+        "y": 90,
+        "z": 1.4
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame02-tick04-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 87,
+        "y": 90,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame03-tick05-left-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 81,
+        "y": 90,
+        "z": 1.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame04-tick06-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 70,
+        "y": 90,
+        "z": 1.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame05-tick08-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 108,
+        "y": 90,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame00-tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 109,
+        "y": 90,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame01-tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 111,
+        "y": 90,
+        "z": 1.4
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame02-tick04-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 113,
+        "y": 90,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame03-tick05-right-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 119,
+        "y": 90,
+        "z": 1.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame04-tick06-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 130,
+        "y": 90,
+        "z": 1.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame05-tick08-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 92,
+        "y": 90,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame00-tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 91,
+        "y": 90,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame01-tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "krios",
+      "ball": {
+        "x": 89,
+        "y": 90,
+        "z": 1.4
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame02-tick04-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 3,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 87,
+        "y": 90,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame03-tick05-left-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "frame": 4,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 81,
+        "y": 90,
+        "z": 1.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame04-tick06-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 5,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "pass",
+      "owner": null,
+      "ball": {
+        "x": 70,
+        "y": 90,
+        "z": 1.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/krios-pass-right.webp",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/frame05-tick08-left-zoom120.png"
+    }
+  ],
+  "stageReset": {
+    "playerIds": [
+      "krios"
+    ],
+    "canvasCount": 73,
+    "canvasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 29,
+        "y": 34,
+        "width": 842,
+        "height": 631.5,
+        "top": 34,
+        "right": 871,
+        "bottom": 665.5,
+        "left": 29
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    ]
+  },
+  "captureCount": 24,
+  "uncaughtBrowserErrors": []
+}

@@ -17,7 +17,8 @@ def pack(clip:str,count:int,columns:int,source:Path,provenance:Path)->Path:
     if count<1 or columns<1 or columns>count:raise ValueError('Bad frame/grid count')
     meta=json.loads(provenance.read_text());raw=source.resolve()
     if meta.get('athlete')!='krios' or meta.get('clip')!=clip or meta.get('direction')!='right':raise ValueError('Provenance mismatch')
-    if meta.get('eligibleForPacking') is not True or meta.get('review',{}).get('status')!='accepted':raise ValueError('Source is not accepted')
+    allowed_reviews={'accepted','pose-approved-for-cleanup-and-pack-trials'}
+    if meta.get('eligibleForPacking') is not True or meta.get('review',{}).get('status') not in allowed_reviews:raise ValueError('Source is not accepted or explicitly approved for pack trials')
     if not meta.get('promptVerbatim') or meta.get('sourceSha256')!=digest(raw):raise ValueError('Prompt/source hash mismatch')
     image=Image.open(raw).convert('RGBA');pixels=np.asarray(image);alpha=pixels[:,:,3]
     if alpha.min()!=0 or alpha.max()<240:raise ValueError('Source requires true transparent RGBA')

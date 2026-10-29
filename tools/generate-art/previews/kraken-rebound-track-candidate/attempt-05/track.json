@@ -1,0 +1,29 @@
+{
+  "athlete": "kraken",
+  "clip": "rebound",
+  "attempt": 5,
+  "status": "unregistered adjusted track trial for cleaned attempt02 art",
+  "height": [
+    0.4,
+    0.2,
+    0.65,
+    0.95,
+    0.9
+  ],
+  "forward": [
+    3,
+    2.5,
+    0,
+    0,
+    1
+  ],
+  "frameStartTicks": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "grabTick": 5,
+  "reference": "Attempt04 catch tick5 remained at navel/upper pelvis while hands were at chest. Attempt05 raises frame3 from .65 to .95 and hold frame4 from .75 to .9; review all frames before acceptance."
+}

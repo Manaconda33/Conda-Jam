@@ -1,0 +1,1336 @@
+{
+  "source": "tools/generate-art/sources/krios-push-attempt01-generated-raw.png",
+  "sourceSha256": "8e4655158f653e6aeaaf94eb53c29e7d81549e8f49fb2c37289c41b308247310",
+  "sourceDimensions": [
+    1448,
+    1086
+  ],
+  "algorithm": "green-dominance mask g>r+70 and g>b+70 and g>100; 8-connected components; eleven largest athlete components; adjacent small colored components within24px attached; no redraw",
+  "backgroundPixelShare": 0.8062044046274534,
+  "foregroundConnectedComponentCount": 92,
+  "despilledNativePixels": 32,
+  "largestComponentAreas": [
+    29552,
+    29462,
+    29371,
+    28462,
+    28384,
+    28096,
+    27074,
+    26807,
+    26696,
+    25353,
+    25311
+  ],
+  "figures": [
+    {
+      "label": 3,
+      "area": 26807,
+      "bbox": [
+        46,
+        86,
+        295,
+        334
+      ],
+      "center": [
+        175.31226918342225,
+        206.64341403364793
+      ],
+      "attachedLabels": [
+        5,
+        7,
+        11,
+        17,
+        30,
+        31,
+        35
+      ],
+      "attachedAreas": [
+        3,
+        1,
+        1,
+        10,
+        1,
+        1,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            280,
+            217
+          ],
+          "before": [
+            101,
+            158,
+            27
+          ],
+          "after": [
+            101,
+            64,
+            27
+          ]
+        },
+        {
+          "sourcePixel": [
+            283,
+            220
+          ],
+          "before": [
+            68,
+            128,
+            2
+          ],
+          "after": [
+            68,
+            35,
+            2
+          ]
+        }
+      ],
+      "poseIndex": 0,
+      "attachedComponentCount": 7,
+      "attachedComponentAreas": [
+        3,
+        1,
+        1,
+        10,
+        1,
+        1,
+        1
+      ],
+      "frameSha256": "97a4e31ed28294fba430bf6bebebea7dc275427c46e26a9aa69824794ef15caa"
+    },
+    {
+      "label": 2,
+      "area": 25311,
+      "bbox": [
+        419,
+        81,
+        649,
+        332
+      ],
+      "center": [
+        542.6152660898424,
+        202.4294970566157
+      ],
+      "attachedLabels": [
+        10,
+        12,
+        13,
+        15,
+        19,
+        20,
+        21,
+        26,
+        32
+      ],
+      "attachedAreas": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        8,
+        6,
+        1,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            523,
+            114
+          ],
+          "before": [
+            91,
+            158,
+            0
+          ],
+          "after": [
+            91,
+            45,
+            0
+          ]
+        },
+        {
+          "sourcePixel": [
+            524,
+            114
+          ],
+          "before": [
+            122,
+            174,
+            0
+          ],
+          "after": [
+            122,
+            61,
+            0
+          ]
+        },
+        {
+          "sourcePixel": [
+            529,
+            114
+          ],
+          "before": [
+            74,
+            134,
+            5
+          ],
+          "after": [
+            74,
+            39,
+            5
+          ]
+        },
+        {
+          "sourcePixel": [
+            560,
+            261
+          ],
+          "before": [
+            74,
+            136,
+            16
+          ],
+          "after": [
+            74,
+            45,
+            16
+          ]
+        }
+      ],
+      "poseIndex": 1,
+      "attachedComponentCount": 9,
+      "attachedComponentAreas": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        8,
+        6,
+        1,
+        1
+      ],
+      "frameSha256": "dc94b9a01e0de7f9af62b02dd153736b48fb881b9ad678c37035bb0e8471b5c4"
+    },
+    {
+      "label": 1,
+      "area": 25353,
+      "bbox": [
+        776,
+        80,
+        1024,
+        334
+      ],
+      "center": [
+        909.8515363073403,
+        204.24920127795528
+      ],
+      "attachedLabels": [
+        8,
+        18,
+        22,
+        23,
+        25,
+        33,
+        34
+      ],
+      "attachedAreas": [
+        1,
+        3,
+        2,
+        2,
+        10,
+        1,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            881,
+            120
+          ],
+          "before": [
+            135,
+            186,
+            0
+          ],
+          "after": [
+            135,
+            67,
+            0
+          ]
+        },
+        {
+          "sourcePixel": [
+            1001,
+            147
+          ],
+          "before": [
+            58,
+            127,
+            11
+          ],
+          "after": [
+            58,
+            34,
+            11
+          ]
+        },
+        {
+          "sourcePixel": [
+            999,
+            148
+          ],
+          "before": [
+            139,
+            204,
+            55
+          ],
+          "after": [
+            139,
+            97,
+            55
+          ]
+        },
+        {
+          "sourcePixel": [
+            1000,
+            148
+          ],
+          "before": [
+            74,
+            142,
+            23
+          ],
+          "after": [
+            74,
+            48,
+            23
+          ]
+        },
+        {
+          "sourcePixel": [
+            997,
+            149
+          ],
+          "before": [
+            109,
+            170,
+            22
+          ],
+          "after": [
+            109,
+            65,
+            22
+          ]
+        },
+        {
+          "sourcePixel": [
+            997,
+            150
+          ],
+          "before": [
+            65,
+            123,
+            12
+          ],
+          "after": [
+            65,
+            38,
+            12
+          ]
+        }
+      ],
+      "poseIndex": 2,
+      "attachedComponentCount": 7,
+      "attachedComponentAreas": [
+        1,
+        3,
+        2,
+        2,
+        10,
+        1,
+        1
+      ],
+      "frameSha256": "8c73f38f072b68ad857852f506f98f74d7a64eb62d0e3cc8ddc687dd3071aa0c"
+    },
+    {
+      "label": 4,
+      "area": 27074,
+      "bbox": [
+        1104,
+        91,
+        1418,
+        334
+      ],
+      "center": [
+        1268.2113836152766,
+        208.24082145231588
+      ],
+      "attachedLabels": [
+        6,
+        9,
+        14,
+        16,
+        24,
+        27,
+        28,
+        29
+      ],
+      "attachedAreas": [
+        1,
+        4,
+        1,
+        3,
+        3,
+        4,
+        1,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            1302,
+            280
+          ],
+          "before": [
+            166,
+            243,
+            175
+          ],
+          "after": [
+            166,
+            170,
+            175
+          ]
+        }
+      ],
+      "poseIndex": 3,
+      "attachedComponentCount": 8,
+      "attachedComponentAreas": [
+        1,
+        4,
+        1,
+        3,
+        3,
+        4,
+        1,
+        1
+      ],
+      "frameSha256": "17f00d9852e1cce2f2276a9c15ffa6e36b7e728f120765287350b90298efc599"
+    },
+    {
+      "label": 36,
+      "area": 26696,
+      "bbox": [
+        42,
+        418,
+        300,
+        669
+      ],
+      "center": [
+        178.25153581060832,
+        539.3538732394367
+      ],
+      "attachedLabels": [
+        40,
+        47,
+        51,
+        56,
+        57,
+        60,
+        62
+      ],
+      "attachedAreas": [
+        3,
+        2,
+        1,
+        1,
+        5,
+        5,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            241,
+            620
+          ],
+          "before": [
+            72,
+            126,
+            39
+          ],
+          "after": [
+            72,
+            55,
+            39
+          ]
+        }
+      ],
+      "poseIndex": 4,
+      "attachedComponentCount": 7,
+      "attachedComponentAreas": [
+        3,
+        2,
+        1,
+        1,
+        5,
+        5,
+        1
+      ],
+      "frameSha256": "efb678fee4e78a1007e4f646764ce4dd826fa7c7ca88799c03a9507d1e9c6942"
+    },
+    {
+      "label": 37,
+      "area": 28462,
+      "bbox": [
+        366,
+        419,
+        717,
+        669
+      ],
+      "center": [
+        544.9268147003022,
+        537.2548310027405
+      ],
+      "attachedLabels": [
+        43,
+        44,
+        45,
+        50,
+        52,
+        61
+      ],
+      "attachedAreas": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        3
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            590,
+            611
+          ],
+          "before": [
+            95,
+            163,
+            102
+          ],
+          "after": [
+            95,
+            98,
+            102
+          ]
+        }
+      ],
+      "poseIndex": 5,
+      "attachedComponentCount": 6,
+      "attachedComponentAreas": [
+        2,
+        1,
+        2,
+        1,
+        1,
+        3
+      ],
+      "frameSha256": "a07f7500db18489dc0be7822d3cb21fcc50feac2d21b924c8e94102518969e97"
+    },
+    {
+      "label": 39,
+      "area": 29371,
+      "bbox": [
+        710,
+        445,
+        1084,
+        669
+      ],
+      "center": [
+        903.2030233904192,
+        548.2012188893807
+      ],
+      "attachedLabels": [
+        41,
+        46,
+        48,
+        53,
+        54,
+        55,
+        58
+      ],
+      "attachedAreas": [
+        3,
+        4,
+        2,
+        2,
+        3,
+        2,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            921,
+            461
+          ],
+          "before": [
+            65,
+            124,
+            17
+          ],
+          "after": [
+            65,
+            41,
+            17
+          ]
+        },
+        {
+          "sourcePixel": [
+            921,
+            462
+          ],
+          "before": [
+            78,
+            132,
+            14
+          ],
+          "after": [
+            78,
+            46,
+            14
+          ]
+        },
+        {
+          "sourcePixel": [
+            922,
+            462
+          ],
+          "before": [
+            76,
+            130,
+            8
+          ],
+          "after": [
+            76,
+            42,
+            8
+          ]
+        },
+        {
+          "sourcePixel": [
+            923,
+            462
+          ],
+          "before": [
+            73,
+            135,
+            12
+          ],
+          "after": [
+            73,
+            42,
+            12
+          ]
+        },
+        {
+          "sourcePixel": [
+            1073,
+            516
+          ],
+          "before": [
+            99,
+            156,
+            0
+          ],
+          "after": [
+            99,
+            49,
+            0
+          ]
+        },
+        {
+          "sourcePixel": [
+            1057,
+            528
+          ],
+          "before": [
+            53,
+            121,
+            0
+          ],
+          "after": [
+            53,
+            26,
+            0
+          ]
+        },
+        {
+          "sourcePixel": [
+            1042,
+            543
+          ],
+          "before": [
+            87,
+            143,
+            6
+          ],
+          "after": [
+            87,
+            46,
+            6
+          ]
+        },
+        {
+          "sourcePixel": [
+            1036,
+            551
+          ],
+          "before": [
+            70,
+            131,
+            7
+          ],
+          "after": [
+            70,
+            38,
+            7
+          ]
+        },
+        {
+          "sourcePixel": [
+            910,
+            593
+          ],
+          "before": [
+            85,
+            154,
+            1
+          ],
+          "after": [
+            85,
+            43,
+            1
+          ]
+        },
+        {
+          "sourcePixel": [
+            946,
+            606
+          ],
+          "before": [
+            178,
+            248,
+            183
+          ],
+          "after": [
+            178,
+            180,
+            183
+          ]
+        }
+      ],
+      "poseIndex": 6,
+      "attachedComponentCount": 7,
+      "attachedComponentAreas": [
+        3,
+        4,
+        2,
+        2,
+        3,
+        2,
+        1
+      ],
+      "frameSha256": "e9526d41a3728c9e6390ec64731e97cd673f1de4d9d5d4335e47dbb31d701bd6"
+    },
+    {
+      "label": 38,
+      "area": 28384,
+      "bbox": [
+        1138,
+        420,
+        1397,
+        669
+      ],
+      "center": [
+        1268.355622886133,
+        536.7554608229989
+      ],
+      "attachedLabels": [
+        42,
+        49,
+        59,
+        63
+      ],
+      "attachedAreas": [
+        1,
+        1,
+        3,
+        2
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            1285,
+            443
+          ],
+          "before": [
+            95,
+            163,
+            85
+          ],
+          "after": [
+            95,
+            90,
+            85
+          ]
+        }
+      ],
+      "poseIndex": 7,
+      "attachedComponentCount": 4,
+      "attachedComponentAreas": [
+        1,
+        1,
+        3,
+        2
+      ],
+      "frameSha256": "de88724eafa1e90843c8d159ae02f7cbb71be6fd38212cc52d65d93298ad12ab"
+    },
+    {
+      "label": 64,
+      "area": 28096,
+      "bbox": [
+        62,
+        748,
+        278,
+        1022
+      ],
+      "center": [
+        167.173013952164,
+        872.7770501138953
+      ],
+      "attachedLabels": [
+        68,
+        69,
+        71,
+        72,
+        74,
+        87
+      ],
+      "attachedAreas": [
+        2,
+        1,
+        1,
+        1,
+        3,
+        2
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            150,
+            788
+          ],
+          "before": [
+            162,
+            214,
+            4
+          ],
+          "after": [
+            162,
+            83,
+            4
+          ]
+        },
+        {
+          "sourcePixel": [
+            227,
+            814
+          ],
+          "before": [
+            68,
+            121,
+            23
+          ],
+          "after": [
+            68,
+            45,
+            23
+          ]
+        },
+        {
+          "sourcePixel": [
+            199,
+            974
+          ],
+          "before": [
+            79,
+            139,
+            78
+          ],
+          "after": [
+            79,
+            78,
+            78
+          ]
+        }
+      ],
+      "poseIndex": 8,
+      "attachedComponentCount": 6,
+      "attachedComponentAreas": [
+        2,
+        1,
+        1,
+        1,
+        3,
+        2
+      ],
+      "frameSha256": "a74ccbcf16414522684b3ab1464d91b394c15c983acbb999ee14471e9a27ca9c"
+    },
+    {
+      "label": 65,
+      "area": 29552,
+      "bbox": [
+        399,
+        753,
+        669,
+        1022
+      ],
+      "center": [
+        538.4936383324309,
+        883.0811789388197
+      ],
+      "attachedLabels": [
+        75,
+        79,
+        82,
+        83,
+        85,
+        90,
+        91
+      ],
+      "attachedAreas": [
+        3,
+        6,
+        1,
+        3,
+        1,
+        1,
+        3
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            634,
+            898
+          ],
+          "before": [
+            51,
+            121,
+            21
+          ],
+          "after": [
+            51,
+            36,
+            21
+          ]
+        },
+        {
+          "sourcePixel": [
+            636,
+            902
+          ],
+          "before": [
+            111,
+            181,
+            18
+          ],
+          "after": [
+            111,
+            64,
+            18
+          ]
+        }
+      ],
+      "poseIndex": 9,
+      "attachedComponentCount": 7,
+      "attachedComponentAreas": [
+        3,
+        6,
+        1,
+        3,
+        1,
+        1,
+        3
+      ],
+      "frameSha256": "8c9793929aca562f8d26a47cd9b83dff03534bdb70201d10391755162274eb50"
+    },
+    {
+      "label": 66,
+      "area": 29462,
+      "bbox": [
+        782,
+        756,
+        1030,
+        1022
+      ],
+      "center": [
+        903.1776525694114,
+        885.0425293598533
+      ],
+      "attachedLabels": [
+        67,
+        70,
+        73,
+        76,
+        77,
+        78,
+        80,
+        81,
+        84,
+        86,
+        88,
+        89,
+        92
+      ],
+      "attachedAreas": [
+        1,
+        3,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        5,
+        2,
+        1,
+        2,
+        1
+      ],
+      "despillPixels": [
+        {
+          "sourcePixel": [
+            1016,
+            879
+          ],
+          "before": [
+            112,
+            178,
+            25
+          ],
+          "after": [
+            112,
+            68,
+            25
+          ]
+        }
+      ],
+      "poseIndex": 10,
+      "attachedComponentCount": 13,
+      "attachedComponentAreas": [
+        1,
+        3,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        5,
+        2,
+        1,
+        2,
+        1
+      ],
+      "frameSha256": "e82d8b4084c6fb09553af64c95a2b46e11a60a98967e052c957e9b6207e51d83"
+    }
+  ],
+  "poseCount": 11,
+  "uniquePoseHashes": 11,
+  "uniformScale": 0.29927007299270075,
+  "nativeCell": [
+    128,
+    96
+  ],
+  "baseline": 94,
+  "frameMarginTarget": [
+    8,
+    7
+  ],
+  "packedFrames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        26,
+        20,
+        75,
+        74
+      ],
+      "sourceBBox": [
+        46,
+        86,
+        295,
+        334
+      ],
+      "scaledSize": [
+        75,
+        74
+      ],
+      "sha256": "af8c79f76355f1b4ef2031acd7b0db39a81909ed123b95d718180c1a8bc19217"
+    },
+    {
+      "index": 1,
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        29,
+        19,
+        69,
+        75
+      ],
+      "sourceBBox": [
+        419,
+        81,
+        649,
+        332
+      ],
+      "scaledSize": [
+        69,
+        75
+      ],
+      "sha256": "478f568440103ec7a1fa20e1c82aaa1d4a84d7d4bafbd073a2c446609af2b994"
+    },
+    {
+      "index": 2,
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        27,
+        18,
+        74,
+        76
+      ],
+      "sourceBBox": [
+        776,
+        80,
+        1024,
+        334
+      ],
+      "scaledSize": [
+        74,
+        76
+      ],
+      "sha256": "fbc6b59013876a1bed0935eee2b290f4f5cf776e423314f5e0b30565cc3ed148"
+    },
+    {
+      "index": 3,
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        17,
+        21,
+        94,
+        73
+      ],
+      "sourceBBox": [
+        1104,
+        91,
+        1418,
+        334
+      ],
+      "scaledSize": [
+        94,
+        73
+      ],
+      "sha256": "26c22b7c673e39a9f04885a82152b80c60e6a32d6d6cc547bca2ddbafdd5b320"
+    },
+    {
+      "index": 4,
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        25,
+        19,
+        77,
+        75
+      ],
+      "sourceBBox": [
+        42,
+        418,
+        300,
+        669
+      ],
+      "scaledSize": [
+        77,
+        75
+      ],
+      "sha256": "6a1504992d08010dc1c8ccf28ef4caaf5423156da5ca1a40925f0f67488bf392"
+    },
+    {
+      "index": 5,
+      "x": 640,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        11,
+        19,
+        105,
+        75
+      ],
+      "sourceBBox": [
+        366,
+        419,
+        717,
+        669
+      ],
+      "scaledSize": [
+        105,
+        75
+      ],
+      "sha256": "831bb9be509637e042e9e510da3846447063f1ed5bc0e11bdba0b9d79ed087cb"
+    },
+    {
+      "index": 6,
+      "x": 768,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        8,
+        27,
+        112,
+        67
+      ],
+      "sourceBBox": [
+        710,
+        445,
+        1084,
+        669
+      ],
+      "scaledSize": [
+        112,
+        67
+      ],
+      "sha256": "0a8829dfd27f81c232a7e8dbf4d759db75fc57eb0871fdc5784fc61254f2a5f6"
+    },
+    {
+      "index": 7,
+      "x": 896,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        25,
+        19,
+        78,
+        75
+      ],
+      "sourceBBox": [
+        1138,
+        420,
+        1397,
+        669
+      ],
+      "scaledSize": [
+        78,
+        75
+      ],
+      "sha256": "2366b93b5596f934132b8bc116dc72bedc88b45f852533f8d02ff2f51f39d32c"
+    },
+    {
+      "index": 8,
+      "x": 1024,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        31,
+        12,
+        65,
+        82
+      ],
+      "sourceBBox": [
+        62,
+        748,
+        278,
+        1022
+      ],
+      "scaledSize": [
+        65,
+        82
+      ],
+      "sha256": "f158086e2930cc45ff3c702f3422c33ed7a61452bd91742dbd85ff41a9fef522"
+    },
+    {
+      "index": 9,
+      "x": 1152,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        23,
+        13,
+        81,
+        81
+      ],
+      "sourceBBox": [
+        399,
+        753,
+        669,
+        1022
+      ],
+      "scaledSize": [
+        81,
+        81
+      ],
+      "sha256": "2b1d6dae0909ef360f85c2d56b5fa3f9603139bd80ca4d60783fef5ac3892a8f"
+    },
+    {
+      "index": 10,
+      "x": 1280,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        27,
+        14,
+        74,
+        80
+      ],
+      "sourceBBox": [
+        782,
+        756,
+        1030,
+        1022
+      ],
+      "scaledSize": [
+        74,
+        80
+      ],
+      "sha256": "5415b4dd0680aef786c904d72585e7b93f57086a3dc64cc96a58fe451ee53328"
+    }
+  ],
+  "rejectedComponents": []
+}

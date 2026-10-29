@@ -2,10 +2,30 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFileSync} from 'node:fs';
-import {athleteVisualScale,ballDrawDepth} from '../src/render/animation-sprites.js';
+import {athleteVisualScale,ballDrawDepth,productionSpriteBaselineOffsetY,selectProductionSprite} from '../src/render/animation-sprites.js';
 import {animationAssetManifest} from '../src/content/animation-assets.js';
 import {animationMirrorPolicy} from '../src/content/animation-mirror-policy.js';
 import {animationClips,anchorTick,sampleAnimation,sampleBallHeight,sampleBallForward} from '../src/core/animation.js';
+test('optional production clip baseline metadata preserves the legacy ground point',()=>{
+ const legacy={production:true,sourceHeight:96},adjusted={...legacy,baselineY:90};
+ const renderedHeight=78;
+ assert.equal(productionSpriteBaselineOffsetY(legacy,renderedHeight),0,'missing metadata leaves existing assets unchanged');
+ assert.equal(productionSpriteBaselineOffsetY(adjusted,renderedHeight),4*renderedHeight/96,'90px source baseline compensates to legacy baseline94');
+ assert.equal(productionSpriteBaselineOffsetY({...legacy,baselineY:95},renderedHeight),-renderedHeight/96,'metadata may also compensate when the authored baseline is below legacy');
+ assert.equal(productionSpriteBaselineOffsetY({...legacy,baselineY:97},renderedHeight),0,'invalid source baseline is ignored');
+});
+test('production sprite selection carries valid baseline metadata without wrong-character fallback on invalid bounds',()=>{
+ const atlas={complete:true,naturalWidth:80,naturalHeight:96},images=new Map([['baseline-atlas',atlas]]);
+ const clip={src:'baseline-atlas',reviewed:true,baselineY:90,frames:[{x:0,y:0,w:80,h:96}]};
+ const manifest={characters:{baseline:{directions:{right:{shoot:clip}}}}};
+ const player={id:'baseline',captain:true,facing:1,animation:{clip:'shoot',tick:0}};
+ assert.equal(selectProductionSprite(player,{manifest,images})?.baselineY,90);
+ const invalid=selectProductionSprite(player,{manifest:{characters:{baseline:{directions:{right:{shoot:{...clip,baselineY:97}}}}}},images});
+ assert.ok(invalid,'invalid optional metadata must not trigger another athlete’s legacy fallback');
+ assert.equal(invalid.baselineY,undefined);
+ assert.equal(invalid.baselineMetadataInvalid,true);
+ assert.equal(productionSpriteBaselineOffsetY(invalid,78),0);
+});
 test('Manaconda retains all29 reviewed production clips and293 distinct authored crops',()=>{
  const clips=animationAssetManifest.characters.manaconda.directions.right;
  assert.deepEqual(Object.keys(clips).sort(),Object.keys(animationClips).sort());let total=0;
@@ -61,9 +81,55 @@ test('Briar J.109 selects ten reviewed shoot poses with her own release hand and
   tick+=animationClips.shoot.frames[frame].duration;
  }
 });
+test('Krios J.128 shoot and chest pass select reviewed original poses with separate athlete-specific tracks',()=>{
+ const id='krios',character=animationAssetManifest.characters[id],clips=character.directions.right;
+ assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
+ for(const [key,atlas,count,columns,rows,height,forward] of [
+  ['shoot','./public/assets/animation/krios-shoot-right.webp',10,5,2,[1,1.2,1.4,1.1,2,1.7,4,2,1,0],[5,5,5,4,3.1,.7,2,4,6,7]],
+  ['pass','./public/assets/animation/krios-pass-right.webp',6,5,2,[1.05,1.15,1.4,1.5,1.35,1.05],[8,9,11,13,12,8]],
+  ['pass-overhead','./public/assets/animation/krios-pass-overhead-right.webp',6,5,2,[.8,1.1,2.3,2.3,2.85,1.4],[9,2,5,7,13,9]],
+ ]){
+  const clip=clips[key];assert.ok(clip,`${key} registered`);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+  assert.equal(clip.frames.length,count);assert.equal(new Set(clip.frames.map(frame=>frame.hash)).size,count);
+  assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.ballTrackReview.status,'accepted');
+  assert.deepEqual(clip.provenance.runtimeBallTrack,{height,forward,reviewed:true});
+  const images=new Map([[atlas,{complete:true,naturalWidth:key==='shoot'?400:key==='pass-overhead'?520:560,naturalHeight:192,file:atlas}]]);let tick=0;
+  for(let frame=0;frame<count;frame++){
+   assert.equal(sampleAnimation(key,tick).frame,frame,`${key} authored pose ${frame}`);
+   assert.equal(sampleBallHeight(key,tick,id),height[frame],`${key} hand height ${frame}`);
+   assert.equal(sampleBallForward(key,tick,id),forward[frame],`${key} hand offset ${frame}`);
+   for(const [facing,flip]of [[1,false],[-1,true]]){
+    const sprite=selectProductionSprite({id,facing,animation:{clip:key,tick}},{manifest:animationAssetManifest,images});
+    assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+   }
+   tick+=animationClips[key].frames[frame].duration;
+  }
+ }
+ assert.equal(anchorTick('shoot','release'),13);assert.equal(sampleAnimation('shoot',12).frame,4);assert.equal(sampleAnimation('shoot',13).frame,5);
+ assert.equal(anchorTick('pass','release'),5);assert.equal(sampleAnimation('pass',4).frame,2);assert.equal(sampleAnimation('pass',5).frame,3);
+ assert.equal(anchorTick('pass-overhead','release'),7);assert.equal(sampleAnimation('pass-overhead',6).frame,2);assert.equal(sampleAnimation('pass-overhead',7).frame,3);
+});
+test('Kraken J.07 block selects four canon-reviewed original poses at every anchor and facing',()=>{
+ const id='kraken',character=animationAssetManifest.characters[id],clip=character.directions.right.block,atlas='./public/assets/animation/kraken-block-right.webp';
+ assert.equal(character.mirrorSafe,true);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);
+ assert.equal(clip.columns,2);assert.equal(clip.rows,2);assert.equal(clip.frames.length,4);assert.equal(new Set(clip.frames.map(f=>f.hash)).size,4);
+ assert.equal(clip.provenance.promptVerbatim,true);assert.equal(clip.provenance.generationId,'exec-9014a559-d83c-42c5-a808-9d607c06a219');
+ assert.equal(clip.provenance.sourceCandidateReview.status,'accepted');assert.equal(clip.provenance.nativeCandidateReview.captures,16);
+ assert.deepEqual(clip.provenance.actionAnchors,{takeoff:1,apex:2,finish:3});
+ assert.equal(anchorTick('block','takeoff'),2);assert.equal(anchorTick('block','apex'),5);assert.equal(anchorTick('block','finish'),8);
+ const images=new Map([[atlas,{complete:true,naturalWidth:160,naturalHeight:192,file:atlas}]]);
+ for(const [tick,frame]of [[0,0],[2,1],[5,2],[8,3]])for(const [facing,flip]of [[1,false],[-1,true]]){
+  assert.equal(sampleAnimation('block',tick).frame,frame);
+  const sprite=selectProductionSprite({id,facing,animation:{clip:'block',tick}},{manifest:animationAssetManifest,images});
+  assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+ }
+});
 test('held balls remain visible in front of their carrier at every jump height',()=>{
  for(const z of [0,5,18]){const owner={id:'carrier',y:50,z};const depth=ballDrawDepth({mode:'carried',ownerId:owner.id,y:50},[owner]);assert.ok(depth>owner.y-owner.z*.05);assert.ok(depth<51);}
  assert.equal(ballDrawDepth({mode:'shot',y:50},[]),49.5);
+ const receiver={id:'receiver',x:110,y:50,z:0};
+ assert.ok(ballDrawDepth({mode:'pass',targetId:receiver.id,x:106,y:50},[receiver])>receiver.y,'a nearby pass ball draws in front of its receiver for visible hand contact');
+ assert.equal(ballDrawDepth({mode:'pass',targetId:receiver.id,x:100,y:50},[receiver]),49.5,'a distant pass keeps ordinary court depth ordering');
  assert.equal(ballDrawDepth({mode:'carried',ownerId:'missing',y:50},[]),49.5);
 });
 test('a tiny kit fox keeps quadruped scale and athletes follow camera magnification',()=>{
@@ -73,7 +139,7 @@ test('a tiny kit fox keeps quadruped scale and athletes follow camera magnificat
   assert.ok(Math.abs(athleteVisualScale(athlete,85)-athleteVisualScale(athlete)*.85)<1e-12);
  }
 });
-const {selectProductionSprite,legacySpritePose}=await import('../src/render/animation-sprites.js').catch(()=>({selectProductionSprite:()=>null,legacySpritePose:()=>null}));
+const {legacySpritePose}=await import('../src/render/animation-sprites.js').catch(()=>({legacySpritePose:()=>null}));
 const src='./public/assets/animation/test.webp',image={complete:true,naturalWidth:110,naturalHeight:20};
 function fixture(){return {manifest:{version:1,characters:{hero:{mirrorSafe:true,mirrorReview:{status:'reviewed',notes:'No directional markings'},directions:{right:{run:{src,reviewed:true,frames:Array.from({length:11},(_,i)=>({x:i*10,y:0,w:10,h:20}))}}}}}},images:new Map([[src,image]])};}
 test('samples live simulation action and tick rather than the immutable roster entry',()=>{
@@ -2002,6 +2068,22 @@ test('Paprika selects all eight reviewed quadruped steal poses with a paw-height
   tick+=animationClips.steal.frames[frame].duration;
  }
 });
+test('Kraken selects all eight J.07 steal poses with reviewed mirroring and a low-hook track',()=>{
+ const id='kraken',atlas='./public/assets/animation/kraken-steal-right.webp',clip=animationAssetManifest.characters[id]?.directions?.right?.steal;
+ assert.equal(animationAssetManifest.characters[id].mirrorSafe,true);assert.equal(animationAssetManifest.characters[id].mirrorReview.status,'reviewed');
+ assert.ok(clip);assert.equal(clip.reviewed,true);assert.equal(clip.src,atlas);assert.equal(clip.frames.length,8);
+ assert.deepEqual(clip.provenance.ballTrack,{height:[1,.9,.55,.55,.7,.9,1,1],forward:[5,7,6,6,7,8,7,5],trials:'tools/generate-art/previews/kraken-steal-track-candidate/attempt-02-single-start-atlas-first/native/report.json'});
+ assert.equal(anchorTick('steal','grab'),5);assert.equal(sampleAnimation('steal',5).frame,3);
+ const images=new Map([[atlas,{complete:true,naturalWidth:320,naturalHeight:192,file:atlas}]]);let tick=0;
+ for(let frame=0;frame<8;frame++){
+  assert.equal(sampleAnimation('steal',tick).frame,frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip:'steal',tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips.steal.frames[frame].duration;
+ }
+});
 test('Paprika selects all eleven reviewed quadruped push poses with contact at tick8',()=>{
  const character=animationAssetManifest.characters.paprika,policy=animationMirrorPolicy.paprika,atlas='./public/assets/animation/paprika-push-right.webp',clip=character?.directions?.right?.push;
  assert.equal(character.mirrorSafe,true);assert.equal(character.mirrorReview.status,'reviewed');
@@ -2608,6 +2690,24 @@ test('Keeg selects all fifteen reviewed J.107 reverse-lob poses and carries the 
    assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
   }
   tick+=animationClips['alley-oop-reverse'].frames[frame].duration;
+ }
+});
+
+test('Leo selects all fifteen J.127 reverse alley-oop poses from the reviewed atlas in both facings',()=>{
+ const id='leo',clip='alley-oop-reverse',atlas='./public/assets/animation/leo-alley-oop-reverse-right.webp';
+ const registration=animationAssetManifest.characters[id].directions.right[clip];
+ assert.equal(registration.reviewed,true);assert.equal(registration.mirrorSafe,true);assert.equal(registration.frames.length,15);
+ const expectedHeight=[4.5,4.4,4.1,3.5,2.4,2.1,2.2,1.8187,2.1,2.3,1.55,1.7,1.2,.75,.6];
+ const expectedForward=[-8,-7,-6,-5,-4,-4.5,-2,3.6545,-4,-2,-.5,-5,-2,1,3];
+ assert.deepEqual(registration.provenance.ballTrack,{height:expectedHeight,forward:expectedForward,trials:'tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-24/native/report.json'});
+ const images=new Map([[atlas,{complete:true,naturalWidth:512,naturalHeight:384,file:atlas}]]);let tick=0;
+ for(let frame=0;frame<15;frame++){
+  assert.equal(sampleAnimation(clip,tick).frame,frame,'Leo selects reverse alley-oop pose '+frame);
+  for(const [facing,flip] of [[1,false],[-1,true]]){
+   const sprite=selectProductionSprite({id,facing,animation:{clip,tick}},{manifest:animationAssetManifest,images});
+   assert.equal(sprite?.atlas.file,atlas);assert.equal(sprite?.frame,frame);assert.equal(sprite?.flip,flip);
+  }
+  tick+=animationClips[clip].frames[frame].duration;
  }
 });
 

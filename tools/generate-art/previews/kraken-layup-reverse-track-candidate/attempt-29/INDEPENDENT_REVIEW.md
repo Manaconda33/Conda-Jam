@@ -1,0 +1,9 @@
+# Independent candidate review — Kraken reverse layup attempt29
+
+**Verdict: pass for candidate-only visual/track validation; not registered.** Reviewed both facings and zooms at the grounded start, carried ball through tick11, release at tick12, score completion, and post-score captures.
+
+- The baseline-offset cleanup02 atlas is selected for every layup-reverse frame before recovery, and the loaded image is complete at 320px wide. Right-facing uses the source orientation; left-facing mirrors it. Full Kraken sprites are visible at the grounded start and tick12 release at 100% and 120%.
+- At the grounded start, the shoes sit on the court beneath the player marker/shadow at both zooms and facings. No visible hover or two-pixel vertical jump remains; the 92 baseline metadata compensation behaves as intended in these captures.
+- The ball stays carried by Kraken through tick11 at the raised behind-head hand. At tick12 the animation selects frame5, clears player ownership, and releases the ball into the shot path; the screenshots show it separating above the hand in both facings/zooms. The event reads “Kraken launches a 2-pointer.”
+- Both shots score two points: `[2,0]` for right-facing and `[0,2]` for left-facing. After the score, the renderer selects the actual `./public/assets/animation/kraken-celebrate-right.png` celebration, and the ball is dead/unowned. `uncaughtBrowserErrors` is empty.
+- The captures are candidate-only: the candidate atlas/track are injected for review and no production files change. One report metadata inconsistency remains: its `simulation` string says the review camera is recentered to x=100, while the supplied attempt29 setup description says it is centered at each attacking position (x=150/50). The captures themselves are centered and fully visible; align that report text before archival.

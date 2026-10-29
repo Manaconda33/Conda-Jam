@@ -1,0 +1,75 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 5,
+  "status": "source reviewed; rejected for canonical registration and ball-track trials",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-8a9a259c-e571-4f17-96c9-14ac92d01a85",
+  "generationId": "exec-8a9a259c-e571-4f17-96c9-14ac92d01a85",
+  "generatedAt": "2026-10-28T09:23:00Z",
+  "promptFile": "tools/generate-art/krios-dunk-clutch15-attempt05-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "3cb79a76bd33dabc737be85a252c0310bb4c04bc0c9d0cfea57c16a32313c5ff",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-clutch15-attempt05-generated-raw.png",
+  "rawSourceSha256": "b049ce68a8ebe97de632e75b4a32758d7bd3ff1255b58b3d85e0f9aa8e5843b1",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "ballPolicy": "No basketball/props in athlete artwork; separate ball track only.",
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "sourceReview": {
+    "status": "rejected",
+    "verdict": "REJECT \u2014 grab gesture is ambiguous and first visible landing precedes canonical land:14",
+    "reviewedAt": "2026-10-28",
+    "evidence": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md"
+  },
+  "cleanup": {
+    "status": "complete for review; source rejected",
+    "script": "tools/generate-art/clean-krios-dunk-clutch15-attempt05.py",
+    "report": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/cleanup-layout-report.json",
+    "reportSha256": "d9c80ef0c3e92c24e2a9479372f699efb52f6370800a75052b3da484eb9a0065",
+    "candidateAtlas": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/krios-dunk-clutch15-attempt05-runtime-candidate.png",
+    "candidateAtlasSha256": "8a181034242bcc20be3371d3ff7e2b84881011504cbfa2965329dc504119820e",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/krios-dunk-clutch15-attempt05-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/krios-dunk-clutch15-attempt05-dark-preview.png",
+    "contactSheet": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/target-size-pose-contact-sheet.png",
+    "isolatedFrames": "tools/generate-art/previews/krios-dunk-clutch15-attempt05/pose-00-isolated.png through pose-14-isolated.png",
+    "grid": [
+      5,
+      3
+    ],
+    "targetCell": [
+      128,
+      96
+    ],
+    "poseCount": 15,
+    "uniquePoseHashes": 15,
+    "baselineY": 94
+  },
+  "ballTrack": {
+    "status": "not calibrated; source rejected",
+    "track": null
+  },
+  "rejectedAttempts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

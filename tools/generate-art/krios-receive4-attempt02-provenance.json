@@ -1,0 +1,17 @@
+{
+  "athlete": "J.128 Krios",
+  "clip": "receive",
+  "attempt": 2,
+  "generationId": "exec-daedc623-9405-4aa4-b3f2-617e852955ba",
+  "generatedAt": "2026-10-28T00:14:46Z",
+  "promptFile": "tools/generate-art/krios-receive4-attempt02-prompt.md",
+  "rawImage": "tools/generate-art/sources/krios-receive4-attempt02-generated-raw.png",
+  "rawSha256": "428a920ee00efa1c378c7d8aba92e3919a6bde9b0d1d563525acd0a7766b3ef0",
+  "rawDimensions": [1380, 1140],
+  "referenceImages": [
+    "tools/generate-art/sources/krios-receive4-attempt01-generated-raw.png",
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "status": "under-review",
+  "notes": "Localized edit intended to remove duplicate/ghosted hands from pose1 while preserving the other three source poses. Independent anatomy review is pending."
+}

@@ -1,0 +1,66 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": 1,
+  "status": "source approved for cleanup/layout trials only; raw preserved and not registered",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-cc45af49-445c-4d92-8e5a-c7790bece5fd",
+  "generatedAt": "2026-10-28T10:49:02.750739Z",
+  "promptFile": "tools/generate-art/kraken-layup8-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "922a4acd641d42d07dbdd510376fbba9f2b9fe3ef2bde50734c40c9404a80422",
+  "rawSourceImage": "tools/generate-art/sources/kraken-layup8-attempt01-generated-raw.png",
+  "rawSourceSha256": "f19895e7f680d76f205bf265b18f8631e27d32b256887c120034a12c973375bb",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    3,
+    3,
+    2,
+    1,
+    3,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "takeoffTick": 2,
+    "release": 4,
+    "releaseTick": 10,
+    "peak": 4,
+    "finish": 7
+  },
+  "ballPolicy": "No ball in source artwork; calibrate a separate Kraken-specific takeoff/carry/release/flight track after source and cleanup review.",
+  "sourceReview": {
+    "status": "pass for cleanup trials only",
+    "evidence": "tools/generate-art/previews/kraken-layup8-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Eight full-body poses preserve Kraken identity and true transparency, with no baked ball. Source reviewer flagged apparent right-hand/screen-side shift around release; cleanup review must confirm anatomical hand continuity before any track trial."
+  },
+  "cleanup": {
+    "status": "cleanup/layout trial generated; independent review pending",
+    "script": "tools/generate-art/clean-kraken-layup8-attempt01.py",
+    "atlas": "tools/generate-art/previews/kraken-layup8-attempt01/kraken-layup8-attempt01-runtime-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-layup8-attempt01/layout.json",
+    "report": "tools/generate-art/previews/kraken-layup8-attempt01/cleanup-layout-report.json",
+    "notes": "Global alpha>=32 components with full component bounds; 2px fringe; 2,052 detached alpha components / 64,499 pixels removed; raw unchanged. Independent review must resolve right-hand continuity through release frames."
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": []
+}

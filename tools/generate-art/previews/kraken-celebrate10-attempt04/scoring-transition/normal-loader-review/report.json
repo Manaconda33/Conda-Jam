@@ -1,0 +1,894 @@
+{
+  "athlete": "kraken",
+  "clip": "celebrate",
+  "renderer": "Chromium production Jam Stage canvas",
+  "atlas": "./public/assets/animation/kraken-celebrate-right.png",
+  "atlasSha256": "d5b57154dfa2f34781501027526e051a039b2ff40add53bd3512167bd5e51730",
+  "generationId": "exec-9d03ef60-48f3-4ab8-a07e-441c5d89b4bf",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt04-imagegen-prompt.txt",
+  "runtimeIntegration": true,
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "normalLoader": "public/assets/animation/manifest.json \u2192 src/content/animation-assets.js \u2192 loadProductionSprites \u2192 selectProductionSprite",
+  "cleanupPass": "cleanup02",
+  "frameDimensions": [
+    88,
+    96
+  ],
+  "baselineY": 94,
+  "scoringTransition": "Production commitScore(match,{id,team,playerId,points}) starts Kraken celebrate and marks the ball dead/unowned; no score, clip, or tick is injected.",
+  "court": "current Jam Stage; Vesper Harbor Undertow vs Chicago Condas",
+  "courtY": 90,
+  "frameDurations": [
+    5,
+    5,
+    6,
+    8,
+    10,
+    10,
+    8,
+    7,
+    6,
+    5
+  ],
+  "sampledTicks": [
+    0,
+    5,
+    10,
+    16,
+    24,
+    34,
+    44,
+    52,
+    59,
+    65
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "scoreTransition": {
+        "score": [
+          2,
+          0
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Kraken scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame00-tick0-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame01-tick5-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame02-tick10-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame03-tick16-zoom100.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame04-tick24-zoom100.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame05-tick34-zoom100.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame06-tick44-zoom100.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame07-tick52-zoom100.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame08-tick59-zoom100.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame09-tick65-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "scoreTransition": {
+        "score": [
+          0,
+          2
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Kraken scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame00-tick0-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame01-tick5-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame02-tick10-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame03-tick16-zoom100.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame04-tick24-zoom100.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame05-tick34-zoom100.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame06-tick44-zoom100.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame07-tick52-zoom100.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame08-tick59-zoom100.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame09-tick65-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "scoreTransition": {
+        "score": [
+          2,
+          0
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Kraken scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame00-tick0-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame01-tick5-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame02-tick10-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame03-tick16-zoom120.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame04-tick24-zoom120.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame05-tick34-zoom120.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame06-tick44-zoom120.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame07-tick52-zoom120.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame08-tick59-zoom120.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/right-frame09-tick65-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "scoreTransition": {
+        "score": [
+          0,
+          2
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Kraken scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame00-tick0-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame01-tick5-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame02-tick10-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame03-tick16-zoom120.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame04-tick24-zoom120.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame05-tick34-zoom120.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame06-tick44-zoom120.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame07-tick52-zoom120.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame08-tick59-zoom120.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/kraken-celebrate-right.png",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Kraken scores 2!"
+          },
+          "path": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/left-frame09-tick65-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 40
+}

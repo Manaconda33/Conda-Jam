@@ -1,0 +1,16 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "attempt": 5,
+  "generationId": "exec-422bdeab-e833-487f-bca4-141347920928",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-celebrate10-attempt05-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt05-imagegen-prompt.txt",
+  "sourceSha256": "2ceeda124223ef083d5528e15ef936971fdf826b12d597105c0b7f1eac6e91b7",
+  "imageSize": [1983, 793],
+  "sourceMode": "RGBA",
+  "referenceImage": "tools/generate-art/previews/kraken-pickup5-attempt04/kraken-pickup5-attempt04-cleanup02-atlas-candidate.png",
+  "status": "preserved-alternate-needs-review",
+  "reason": "Retained as an unreviewed alternate generation. No cleanup, atlas, gameplay trial, or runtime registration has been performed.",
+  "review": null
+}

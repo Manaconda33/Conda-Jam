@@ -1,0 +1,44 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "push",
+  "attempt": 2,
+  "status": "candidate source and cleanup/layout trial; may proceed to separate current-court trial only; not accepted or registered",
+  "prompt": "tools/generate-art/kraken-push11-attempt02-imagegen-prompt.txt",
+  "promptSha256": "ae34b1340b5633663eff88d287bb3291a0ae29d0df45f5c6f08d777ccad99c11",
+  "generationId": "exec-4f79be8a-f48c-43f1-855a-93e90aec0cd7",
+  "generatedAt": "2026-10-29T03:32:00Z",
+  "source": "tools/generate-art/sources/kraken-push11-attempt02-generated-raw.png",
+  "sourceSha256": "800f865f47e900077e444846d48386b9392e176fc9041afc35bffd371e214961",
+  "sourceDimensions": [1322, 1190],
+  "sourceAlpha": "RGBA true transparency; alpha extrema 0..255",
+  "referenceImages": [
+    {"path": "public/assets/animation/kraken-idle-right.webp", "sha256": "e25a27df957386029a2f08c1f84d8fc3401a8a3a8d28b5835033f731d8deac75"},
+    {"path": "public/assets/animation/kraken-block-right.webp", "sha256": "15aa4e7fc243c0ab5666786cdf644691767cbe39e273c99248f17bd0b028cf43"}
+  ],
+  "generationRequestedLayout": {"columns": 4, "rows": 3, "cellSize": [80, 96], "frames": 11, "unusedCell": [3, 2]},
+  "cleanupTrialLayout": {"columns": 4, "rows": 3, "cellSize": [128, 112], "canvas": [512, 336], "frames": 11, "unusedCell": [3, 2]},
+  "canonicalDurations": [2, 2, 2, 1, 1, 2, 2, 3, 3, 3, 3],
+  "contact": {"frame": 5, "tick": 8},
+  "cleanup": {
+    "script": "tools/generate-art/clean-kraken-push11-attempt02.py",
+    "atlas": "tools/generate-art/previews/kraken-push11-attempt02/kraken-push11-attempt02-runtime-candidate.png",
+    "layoutReport": "tools/generate-art/previews/kraken-push11-attempt02/cleanup-layout-report.json",
+    "method": "Separate 11 RGBA figures by connected alpha>=32 components; crop each component; nearest-neighbor resize uniformly to max64x80; place in row-major 80x96 cells at baseline88. Preserve original colors and alpha. No recoloring or outline edits.",
+    "minimumMarginsLTRB": [8, 8, 8, 8],
+    "atlasSha256": "a0d116562164fc707bc185b3d0384fadb492a8569ac2ce344c551fd3d87a2fe7",
+    "layoutRationale": "The first per-pose 80x96 cleanup was preserved as rejected because fitting wide arm-extension poses independently caused a visible character-size reduction. The selected layout uses 128x112 cells and one shared scale so all frames keep consistent body height while retaining >=8px gutters and baseline alignment.",
+    "rawPreserved": true
+  },
+  "candidateReview": {
+    "status": "PASS for isolated cleanup and current-court track-trial preparation only; not approved for packing or runtime",
+    "notes": "All 11 poses are full-body, unique and in the intended sequence. Pose5 reads as a forward two-hand shove at sheet scale but the two palms/forearms overlap in the side-facing view; verify that both hands remain legible at native game scale. It is distinct from anticipation pose4 and follow-through pose6. Character identity, pointed ear, auburn hair, copper amulet, skin tone, and burgundy/copper uniform remain coherent with the accepted Kraken idle/block references. The final cell is transparent. The selected 128x112 shared-scale cleanup keeps all anatomy in bounds and has 8px margins on every side. Hands are empty and no basketball is drawn. Art has a little more blended shading than the sharpest accepted Kraken block pixels; identity is coherent, but independent visual review and gameplay trial are still required. The separate athlete-specific ball track is unvalidated for this new atlas."
+  },
+  "additionalGeneratedResult": {
+    "generationId": "exec-574fbbbe-e2af-427e-9543-db8c680abf14",
+    "generatedAt": "2026-10-29T03:30:48Z",
+    "preservedRaw": "tools/generate-art/sources/kraken-push11-attempt02-initial-unreviewed-raw.png",
+    "sha256": "49b662b3b6bfb19419de46408ccabc674a292575331f0bbaa9f4d38b7f98d630",
+    "review": "Same prompt and references. This result was generated before the first tool response had been forwarded for visual review, due to a wrapper handling mistake. It was inspected afterwards and preserved here. It has the same 11-pose content and similar quality, but offers no improvement over the selected result for the cleanup trial; it is retained as an unselected duplicate, not used to create a second layout or spent on further retries."
+  },
+  "ballPolicy": "The athlete art contains no ball. Basketball position and motion must remain on a separate Kraken-specific track."
+}

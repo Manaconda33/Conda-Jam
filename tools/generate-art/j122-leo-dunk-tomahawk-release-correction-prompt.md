@@ -1,0 +1,7 @@
+Edit the supplied J122 Leo dunk-tomahawk sheet without changing its 1536×1024 dimensions, 5-column × 3-row grid, cell boundaries, transparent background, identity, proportions, uniform, scale, baseline, or any pose outside bottom-row cells 0 and 1 (zero-based full-sheet frame indices 10 and 11). Preserve every other pixel and all other fourteen poses unchanged.
+
+Correct only frame 10 (bottom-left cell, release): at packed 128×96 runtime-cell size, the finishing hand must unmistakably be an open hand with five separated, readable fingers. Show the wrist sharply snapped downward and the open fingers spreading through the imaginary rim plane as the ball leaves. The hand must not read as a fist, mitten, or closed grip. Keep it anatomically attached to the arm, clear of the head and torso.
+
+Correct only frame 11 (bottom-row second cell, finish): show a completed, empty-hand downward follow-through distinct from frame10. The finishing arm remains extended steeply down, but the hand is clearly open and relaxed after release, fingers separated and wrist flexed; the free arm braces outward. Make the pose visibly progress beyond frame10 while preserving full anatomy and the same action direction.
+
+Do not add a ball, rim, text, labels, background, shadow, glow, cell borders, extra pose, or changed facial/uniform details. Return true transparent RGBA. Preserve the remaining thirteen frames exactly.

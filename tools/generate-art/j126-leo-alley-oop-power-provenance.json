@@ -1,0 +1,62 @@
+{
+  "athlete": "leo",
+  "clip": "alley-oop-power",
+  "runtimeRegistration": "registered and gameplay-validated",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-442e4e3e-2fbd-4ee0-b5f9-9d8e7df6785f",
+      "generationPath": "/workspace/generated_images/exec-442e4e3e-2fbd-4ee0-b5f9-9d8e7df6785f.png",
+      "rawSourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt01-generated-raw.png",
+      "sha256": "7a7c684c6ee7903dff44dc1a893920ec109534c07dbdede8610aef7ecf144977",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j126-leo-alley-oop-power-attempt01-prompt.md",
+      "promptSha256": "7388835365e9fa9c1edddd5cf4b4c20a4b9526cfedaea545758c443090850818",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw preserved",
+      "review": "Independent reviewer: catch and overhead carry read, but the two-hand release does not drive clearly down through the rim; style is smooth/soft-shaded rather than chunky. Raw alpha residue reaches edges and requires cleanup/margin fitting.",
+      "proofs": [
+        "tools/generate-art/previews/j126-attempt01-light.png",
+        "tools/generate-art/previews/j126-attempt01-dark.png"
+      ]
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-0784b702-b69c-4642-80ba-59757e601b01",
+      "generationPath": "/workspace/generated_images/exec-0784b702-b69c-4642-80ba-59757e601b01.png",
+      "rawSourceImage": "tools/generate-art/sources/j126-leo-alley-oop-power-attempt02-generated-raw.png",
+      "sha256": "c8020c3e11ee47e3b44bd30479f4fbff34d4d8dd190077cbe53fc009849525cb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j126-leo-alley-oop-power-attempt02-pixel-reference-prompt.md",
+      "promptSha256": "4be94bbf9a311d8b31da19a30bbfc84cb6faed3548959e80096847f0057e4eaa",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "accepted; registered",
+      "review": "Independent packed-art review accepted; 15 poses preserve identity, complete anatomy, transparency, legibility, and action progression.",
+      "proofs": [
+        "tools/generate-art/previews/j126-attempt02-light.png",
+        "tools/generate-art/previews/j126-attempt02-dark.png"
+      ]
+    }
+  ],
+  "trackReview": {
+    "attempt": 11,
+    "captureCount": 60,
+    "independentReviewer": "candidate_review and j123_track_visual_review",
+    "status": "visual accepted and deterministic gameplay-validated",
+    "evidence": "tools/generate-art/previews/leo-alley-oop-power-track-candidate/attempt-11/native"
+  }
+}

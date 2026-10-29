@@ -89,27 +89,29 @@
         "height": [
           0.95,
           1.1,
-          1.25,
-          1.55,
-          1.9,
-          2.15,
           2.1,
-          1.8,
-          1.35,
+          2.1,
+          2.2,
+          2.5,
+          2.3,
+          2.7,
+          2.1,
           1.05
         ],
         "forward": [
           6,
-          7.5,
-          8.5,
-          9.5,
-          10.5,
-          11.5,
-          10.5,
-          8.5,
+          7,
+          6.5,
+          4,
+          3,
+          4,
+          4,
+          4,
           6.5,
           5.5
-        ]
+        ],
+        "releaseVz": 0.65,
+        "status": "accepted"
       },
       "cleanup": {
         "script": "tools/generate-art/clean-leo-shoot10.py",
@@ -221,7 +223,14 @@
       "packaging": "package-action10.py; 64x96 cells; baseline94; lossless WebP; 10 original shoot poses",
       "atlasPath": "public/assets/animation/leo-shoot-right.webp",
       "atlasSha256": "34ecd0c8022338a92a612ca6a16d573219465fc2fa2c123aa562c588aaee6eef",
-      "atlasBytes": 57662
+      "atlasBytes": 57662,
+      "ballTrackReview": {
+        "status": "accepted",
+        "review": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/INDEPENDENT_REVIEW.md",
+        "productionGameplay": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-16/gameplay/rendered-production-courty95/report.json",
+        "productionReview": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-16/INDEPENDENT_REVIEW.md",
+        "notes": "Both facings; 100% and 120%; tick13 hand contact; no track or release-speed override; full flight and scoring."
+      }
     }
   }
 ]

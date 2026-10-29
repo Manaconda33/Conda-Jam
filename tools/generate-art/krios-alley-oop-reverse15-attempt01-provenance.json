@@ -1,0 +1,47 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "alley-oop-reverse",
+  "direction": "right",
+  "attempt": 1,
+  "status": "raw source awaiting independent review and cleanup",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-ba14a69c-3308-4622-ac14-3d47515cab05",
+  "generationId": "exec-ba14a69c-3308-4622-ac14-3d47515cab05",
+  "generatedAt": "2026-10-28T09:31:00Z",
+  "promptFile": "tools/generate-art/krios-alley-oop-reverse15-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "d51f02a320a59afa1bbda1303ee81915b826c65bcbeb0655c339398a72af53ea",
+  "rawSourceImage": "tools/generate-art/sources/krios-alley-oop-reverse15-attempt01-generated-raw.png",
+  "rawSourceSha256": "ed0309dff95cf639d4245555902da36ab07988f02bc1b593621a2d3a606469fa",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-reverse-right.png"
+  ],
+  "sourceReview": {
+    "status": "pending",
+    "scope": "15-pose identity/anatomy/ball-free and reverse-action readability"
+  },
+  "ballPolicy": "No basketball in athlete art; use separate Krios ball track.",
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "cleanup": {
+    "status": "pending"
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": []
+}

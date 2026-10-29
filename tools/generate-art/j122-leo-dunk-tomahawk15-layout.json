@@ -1,0 +1,580 @@
+{
+  "athlete": "leo",
+  "clip": "dunk-tomahawk",
+  "direction": "right",
+  "src": "./public/assets/animation/leo-dunk-tomahawk-right.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 0,
+      "sourceComponent": 4,
+      "sourceRect": {
+        "x": 31,
+        "y": 44,
+        "w": 225,
+        "h": 273
+      },
+      "destinationRect": {
+        "x": 40,
+        "y": 36,
+        "w": 48,
+        "h": 58
+      },
+      "baselineY": 94,
+      "sha256": "23d80fd34259b879eeaa9157049421590d4d720c9a7f19ff56a2b0feb09cb61c"
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 1,
+      "sourceComponent": 6,
+      "sourceRect": {
+        "x": 344,
+        "y": 64,
+        "w": 284,
+        "h": 257
+      },
+      "destinationRect": {
+        "x": 162,
+        "y": 40,
+        "w": 60,
+        "h": 54
+      },
+      "baselineY": 94,
+      "sha256": "f4b1db8c8eeb09b1381ea5aed2537171b35cd7735aa0461c11aa21dfdda545dd"
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 2,
+      "sourceComponent": 1,
+      "sourceRect": {
+        "x": 664,
+        "y": 21,
+        "w": 217,
+        "h": 301
+      },
+      "destinationRect": {
+        "x": 297,
+        "y": 30,
+        "w": 46,
+        "h": 64
+      },
+      "baselineY": 94,
+      "sha256": "f32a58f830f6eef7a16dd5955a64c59288c0ac46140fa78149cffa621af3f23b"
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 3,
+      "sourceComponent": 2,
+      "sourceRect": {
+        "x": 980,
+        "y": 33,
+        "w": 250,
+        "h": 281
+      },
+      "destinationRect": {
+        "x": 421,
+        "y": 35,
+        "w": 53,
+        "h": 59
+      },
+      "baselineY": 94,
+      "sha256": "057767867cae7824b0076ec0105bcb85d76eb1ca98ab46e1bdd09979cd653587"
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 4,
+      "sourceComponent": 3,
+      "sourceRect": {
+        "x": 1319,
+        "y": 42,
+        "w": 203,
+        "h": 249
+      },
+      "destinationRect": {
+        "x": 42,
+        "y": 137,
+        "w": 43,
+        "h": 53
+      },
+      "baselineY": 94,
+      "sha256": "5c6c6185f6b6f25c6888cfde0301894ae7255aa24ab35751b7f70dc759ae6749"
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 5,
+      "sourceComponent": 15,
+      "sourceRect": {
+        "x": 101,
+        "y": 357,
+        "w": 209,
+        "h": 253
+      },
+      "destinationRect": {
+        "x": 170,
+        "y": 137,
+        "w": 44,
+        "h": 53
+      },
+      "baselineY": 94,
+      "sha256": "b01dec2a8757f3ec705a4a251816fffdc128b8c606bf84f89bcba8e4a916710a"
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 6,
+      "sourceComponent": 13,
+      "sourceRect": {
+        "x": 409,
+        "y": 353,
+        "w": 215,
+        "h": 280
+      },
+      "destinationRect": {
+        "x": 297,
+        "y": 131,
+        "w": 45,
+        "h": 59
+      },
+      "baselineY": 94,
+      "sha256": "8701a50ee1f226bef9f86c5481fd7f4be3769d0fb0cfa40bec6ea95b0fcc814e"
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 7,
+      "sourceComponent": 14,
+      "sourceRect": {
+        "x": 673,
+        "y": 353,
+        "w": 242,
+        "h": 244
+      },
+      "destinationRect": {
+        "x": 422,
+        "y": 138,
+        "w": 51,
+        "h": 52
+      },
+      "baselineY": 94,
+      "sha256": "7b6ebdd2edbd4ce81a597ac405f95019e42f9e2de9f03000aebcf7f06dee4b8d"
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 8,
+      "sourceComponent": 16,
+      "sourceRect": {
+        "x": 979,
+        "y": 372,
+        "w": 259,
+        "h": 261
+      },
+      "destinationRect": {
+        "x": 36,
+        "y": 231,
+        "w": 55,
+        "h": 55
+      },
+      "baselineY": 94,
+      "sha256": "75193dc4a829b9333b92720d5a29b768efa8d14359e06b5cf4a0cb6af71e78e2"
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 9,
+      "sourceComponent": 12,
+      "sourceRect": {
+        "x": 1282,
+        "y": 339,
+        "w": 215,
+        "h": 303
+      },
+      "destinationRect": {
+        "x": 169,
+        "y": 222,
+        "w": 45,
+        "h": 64
+      },
+      "baselineY": 94,
+      "sha256": "524d7ff3a2d92e2b142f09bc01e6fc022cb81a0b34b805aef223c414901893eb"
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 10,
+      "sourceComponent": 26,
+      "sourceRect": {
+        "x": 50,
+        "y": 677,
+        "w": 211,
+        "h": 315
+      },
+      "destinationRect": {
+        "x": 297,
+        "y": 219,
+        "w": 45,
+        "h": 67
+      },
+      "baselineY": 94,
+      "sha256": "b7749fbaeb9ac67a64cbdd926bb52b9c2bfc4bf17561ee05e9ef28efb08365a8"
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 11,
+      "sourceComponent": 28,
+      "sourceRect": {
+        "x": 377,
+        "y": 690,
+        "w": 168,
+        "h": 293
+      },
+      "destinationRect": {
+        "x": 430,
+        "y": 224,
+        "w": 35,
+        "h": 62
+      },
+      "baselineY": 94,
+      "sha256": "e2473f2297f967f4a8fc340c6e6d48f361cca17c02f60b6977e52faff48ab9e1"
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 12,
+      "sourceComponent": 30,
+      "sourceRect": {
+        "x": 696,
+        "y": 703,
+        "w": 202,
+        "h": 280
+      },
+      "destinationRect": {
+        "x": 42,
+        "y": 323,
+        "w": 43,
+        "h": 59
+      },
+      "baselineY": 94,
+      "sha256": "840d45ec50374823e0eed58ac25b4bb457db798262217b556055914893e041db"
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 13,
+      "sourceComponent": 27,
+      "sourceRect": {
+        "x": 993,
+        "y": 679,
+        "w": 208,
+        "h": 301
+      },
+      "destinationRect": {
+        "x": 170,
+        "y": 318,
+        "w": 44,
+        "h": 64
+      },
+      "baselineY": 94,
+      "sha256": "0865055a95b5c16baef5c14c9e8fb233e6bed33111c19d76a55f5ce1a5699b15"
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96,
+      "sourceIndex": 14,
+      "sourceComponent": 31,
+      "sourceRect": {
+        "x": 1326,
+        "y": 712,
+        "w": 163,
+        "h": 266
+      },
+      "destinationRect": {
+        "x": 303,
+        "y": 326,
+        "w": 34,
+        "h": 56
+      },
+      "baselineY": 94,
+      "sha256": "8b738f397e027d2bc9410d2dcca9ef946e846e60c2de8e0ba99155ed7e4237f1"
+    }
+  ],
+  "sourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt03-cleaned.png",
+  "sourceSha256": "399e264a1cb0e55c1c073cfdc5376aaf6d8113b7fa993194a7918228308d9aab",
+  "rawSourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt03-generated-raw.png",
+  "rawSourceSha256": "04aba99ce424be11d96f66f1e86d69a5113ac5c3dc2eb6d9df977c535bda961a",
+  "generationId": "c2pa:28240929-9491-4ec1-960b-a46045db029a",
+  "provenance": {
+    "prompt": "tools/generate-art/j122-leo-dunk-tomahawk15-prompt.md",
+    "editPrompt": "tools/generate-art/j122-leo-dunk-tomahawk-release-correction-prompt.md",
+    "generatedAt": "2026-10-27",
+    "generationId": "c2pa:28240929-9491-4ec1-960b-a46045db029a",
+    "rawSourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt03-generated-raw.png",
+    "sourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt03-cleaned.png",
+    "sourceSha256": "399e264a1cb0e55c1c073cfdc5376aaf6d8113b7fa993194a7918228308d9aab",
+    "atlasPath": "public/assets/animation/leo-dunk-tomahawk-right.webp",
+    "atlasSha256": "cbfef4a7b4c8f47533141d5681263a0305f7714008373c7508c7c62ebc9f879e",
+    "sourceRects": [
+      {
+        "x": 31,
+        "y": 44,
+        "w": 225,
+        "h": 273
+      },
+      {
+        "x": 344,
+        "y": 64,
+        "w": 284,
+        "h": 257
+      },
+      {
+        "x": 664,
+        "y": 21,
+        "w": 217,
+        "h": 301
+      },
+      {
+        "x": 980,
+        "y": 33,
+        "w": 250,
+        "h": 281
+      },
+      {
+        "x": 1319,
+        "y": 42,
+        "w": 203,
+        "h": 249
+      },
+      {
+        "x": 101,
+        "y": 357,
+        "w": 209,
+        "h": 253
+      },
+      {
+        "x": 409,
+        "y": 353,
+        "w": 215,
+        "h": 280
+      },
+      {
+        "x": 673,
+        "y": 353,
+        "w": 242,
+        "h": 244
+      },
+      {
+        "x": 979,
+        "y": 372,
+        "w": 259,
+        "h": 261
+      },
+      {
+        "x": 1282,
+        "y": 339,
+        "w": 215,
+        "h": 303
+      },
+      {
+        "x": 50,
+        "y": 677,
+        "w": 211,
+        "h": 315
+      },
+      {
+        "x": 377,
+        "y": 690,
+        "w": 168,
+        "h": 293
+      },
+      {
+        "x": 696,
+        "y": 703,
+        "w": 202,
+        "h": 280
+      },
+      {
+        "x": 993,
+        "y": 679,
+        "w": 208,
+        "h": 301
+      },
+      {
+        "x": 1326,
+        "y": 712,
+        "w": 163,
+        "h": 266
+      }
+    ],
+    "destinationRects": [
+      {
+        "x": 40,
+        "y": 36,
+        "w": 48,
+        "h": 58
+      },
+      {
+        "x": 162,
+        "y": 40,
+        "w": 60,
+        "h": 54
+      },
+      {
+        "x": 297,
+        "y": 30,
+        "w": 46,
+        "h": 64
+      },
+      {
+        "x": 421,
+        "y": 35,
+        "w": 53,
+        "h": 59
+      },
+      {
+        "x": 42,
+        "y": 137,
+        "w": 43,
+        "h": 53
+      },
+      {
+        "x": 170,
+        "y": 137,
+        "w": 44,
+        "h": 53
+      },
+      {
+        "x": 297,
+        "y": 131,
+        "w": 45,
+        "h": 59
+      },
+      {
+        "x": 422,
+        "y": 138,
+        "w": 51,
+        "h": 52
+      },
+      {
+        "x": 36,
+        "y": 231,
+        "w": 55,
+        "h": 55
+      },
+      {
+        "x": 169,
+        "y": 222,
+        "w": 45,
+        "h": 64
+      },
+      {
+        "x": 297,
+        "y": 219,
+        "w": 45,
+        "h": 67
+      },
+      {
+        "x": 430,
+        "y": 224,
+        "w": 35,
+        "h": 62
+      },
+      {
+        "x": 42,
+        "y": 323,
+        "w": 43,
+        "h": 59
+      },
+      {
+        "x": 170,
+        "y": 318,
+        "w": 44,
+        "h": 64
+      },
+      {
+        "x": 303,
+        "y": 326,
+        "w": 34,
+        "h": 56
+      }
+    ],
+    "baselineY": 94,
+    "uniformScale": 0.2112676056338028,
+    "packingScript": "tools/generate-art/pack-j122-leo-dunk-tomahawk.py",
+    "preservedAlternateGenerations": [
+      "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt01-generated-raw.png",
+      "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt02-generated-raw.png",
+      "tools/generate-art/previews/j122-leo-dunk-tomahawk-attempt01-atlas-right.webp"
+    ],
+    "generationAttempts": [
+      {
+        "attempt": 1,
+        "generationId": "c2pa:b3d6a081-6ee1-46e6-b310-f8b89c3d31a7",
+        "rawSourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt01-generated-raw.png",
+        "sha256": "3372993d76be49b2db5cc834f128811a21fac5ce5b3ee0e64411134c38a1ef0b",
+        "decision": "Rejected at packed resolution: release/finish hand separation unreadable."
+      },
+      {
+        "attempt": 2,
+        "generationId": "c2pa:7308aca7-7193-47b0-97d6-8cdfe2ffd47c",
+        "rawSourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt02-generated-raw.png",
+        "sha256": "6a75e007566188739c1385ee85f276e2fb12db75f3c751dd15dea8be422a7f10",
+        "decision": "Superseded transparency edit; original was transparent, no material improvement."
+      },
+      {
+        "attempt": 3,
+        "generationId": "c2pa:28240929-9491-4ec1-960b-a46045db029a",
+        "rawSourceImage": "tools/generate-art/sources/j122-leo-dunk-tomahawk-attempt03-generated-raw.png",
+        "sha256": "04aba99ce424be11d96f66f1e86d69a5113ac5c3dc2eb6d9df977c535bda961a",
+        "decision": "Selected source; corrected release and finish hands, independently accepted packed proof."
+      }
+    ],
+    "supersededTransparencyEditPrompt": "tools/generate-art/j122-leo-dunk-tomahawk-transparency-correction-prompt.md"
+  },
+  "sourceComponentCount": 47,
+  "isolatedFigureCount": 15,
+  "blankCell": 15,
+  "rawAlpha": {
+    "zeroPixelCount": 1018014,
+    "nonzeroPixelCount": 554850,
+    "semiTransparentPixelCount": 554850
+  }
+}

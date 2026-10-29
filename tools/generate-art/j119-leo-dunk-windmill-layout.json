@@ -1,0 +1,110 @@
+{
+  "athlete": "leo",
+  "direction": "right",
+  "clip": "dunk-windmill",
+  "src": "./public/assets/animation/leo-dunk-windmill-right.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/j119-leo-dunk-windmill15-prompt.md",
+    "generatedAt": "2026-10-27",
+    "generationId": "c2pa:30641e9c-7acb-4ae1-828a-78981521b263",
+    "rawSourceImage": "tools/generate-art/sources/j119-leo-dunk-windmill-generated-raw.png",
+    "sourceImage": "tools/generate-art/sources/j119-leo-dunk-windmill-generated-raw.png",
+    "rawSourceSha256": "10caf6f9d4ef5f8c15a6f9100ac6ad9d7ed1c4a79d377c405cbe1d1c1a1880a",
+    "atlasPath": "public/assets/animation/leo-dunk-windmill-right.webp",
+    "ballTrack": "pending native calibration"
+  }
+}

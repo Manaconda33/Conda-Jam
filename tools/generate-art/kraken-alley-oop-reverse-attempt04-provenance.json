@@ -1,0 +1,28 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 4,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected by independent source review",
+  "generatedAt": "2026-10-29T05:19:00Z",
+  "generationId": "exec-4aae8e00-bf50-476a-b6c9-c140f7909095",
+  "promptFile": "tools/generate-art/kraken-alley-oop-reverse-attempt04-imagegen-prompt.txt",
+  "promptSha256": "2f0f20b38d51f0e969c218d767d6bbea8f231fe3546e6a9db69ede0918baa3be",
+  "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt04-generated-raw.png",
+  "rawSha256": "6e84f3a2913b734c76ca335bbce7f87106610f4afde1e60a4bf6fd97d953bc11",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1029532,
+  "partialAlphaPixels": 543332,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt04/INDEPENDENT_SOURCE_REVIEW.md",
+  "note": "Raw only. Preserve independently reviewed rejected attempts01-03. No cleanup, gameplay track, packing, or registration.",
+  "reviewSummary": "Independent review verified the ID/hash are unique and 15 full-body poses, but pose12 hand stays above crown rather than below/behind at far side, so reverse dunk direction is wrong; alpha remains soft and multiple poses violate cell margins."
+}

@@ -1,0 +1,896 @@
+{
+  "athlete": "leo",
+  "clip": "alley-oop-reverse",
+  "runtimeRegistration": "public/assets/animation/leo-alley-oop-reverse-right.webp",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-b82563a3-5ebd-4bd9-a0b8-ba984f47d021",
+      "generationPath": "/workspace/generated_images/exec-b82563a3-5ebd-4bd9-a0b8-ba984f47d021.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt01-generated-raw.png",
+      "rawSha256": "30ac9fcf0a5a72cbc7a2b2394c39bd735a690eb07b14fa8f54f3810659c5a402",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-prompt.md",
+      "promptSha256": "3251257412296e2b5de1e6f4a051913a7fa67298aac6cb4a745f676631a5cf67",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw preserved",
+      "rejection": "Dark opaque/partially opaque brown-black gradient/vignette remains behind poses despite transparent-background request; rendering is smooth and painterly rather than crisp constrained arcade pixel art. Frames also contain pose repetition; do not isolate/publish as production atlas."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-1badb1dc-9447-41fc-af8c-b667d62354cf",
+      "generationPath": "/workspace/generated_images/exec-1badb1dc-9447-41fc-af8c-b667d62354cf.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-generated-raw.png",
+      "rawSha256": "5ea4a556b858f574b92f8b1593691e104c198b46fe3e69a6d3fab9687a6586c2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-attempt02-prompt.md",
+      "promptSha256": "b1f61ec853dd0afad92d33b109741265885fd6a861c845cba6ea1988ff485e40",
+      "sourceReferences": [
+        "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt01-generated-raw.png",
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected; raw preserved",
+      "rejection": "Dark opaque/partially opaque brown-black gradient/vignette remains behind poses despite transparent-background request; rendering is smooth and painterly rather than crisp constrained arcade pixel art. Frames also contain pose repetition; do not isolate/publish as production atlas."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-76aec7b7-0bad-4859-b012-a4b67797483a",
+      "generationPath": "/workspace/generated_images/exec-76aec7b7-0bad-4859-b012-a4b67797483a.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt03-generated-raw.png",
+      "rawSha256": "8f9ef840a5dc9a4c56bb2c9f5c31762137941538ec02b1b29088458f3a833f52",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-attempt03-prompt.md",
+      "promptSha256": "15e98b9b8864ff7d6c05aaf61025a5775a36a2003fde9d331d021537dbba1956",
+      "sourceReferences": [],
+      "status": "rejected; raw preserved",
+      "rejection": "No-reference generation retained broad partial-alpha brown/black background haze, airbrushed/painterly shading, near-identical poses5\u20138 and frames12\u201313, and rounded orange marks at the carried hands that can read as a ball. Action direction is not clear enough. Do not normalize or pack."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-b51f6ade-8cd8-4ebe-a0cc-7138a50d4d4c",
+      "generationPath": "/workspace/generated_images/exec-b51f6ade-8cd8-4ebe-a0cc-7138a50d4d4c.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt04-generated-raw.png",
+      "rawSha256": "8d36f0bf7cc2065b2966a3152264904bf9f796cccadebff13a543902e44f73f6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-attempt04-prompt.md",
+      "promptSha256": "c44c484655a302275a518d9f82d5da89015c5590148ef5d20337f8c72b9b973d",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected by initial visual inspection; independent review pending",
+      "rejection": "Despite reference-free identity/style prompt restructure and explicit alpha-zero demand, the sheet retains an extensive brown-black partial-alpha vignette; pixel rendering remains painterly. Frames5\u20138 repeat the same overhead hold and reverse direction is weak. Not packed."
+    },
+    {
+      "attempt": 5,
+      "generationId": "exec-f519cdbe-5232-4b44-af41-47a849cf64ac",
+      "generationPath": "/workspace/generated_images/exec-f519cdbe-5232-4b44-af41-47a849cf64ac.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt05-generated-raw.png",
+      "rawSha256": "de4c754dc5333ec9f1d5b3ae3158b514f936883106c5ff8a598086a00e4e1ff7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-attempt05-edit-prompt.md",
+      "promptSha256": "b5322f76824db121eceee92fbcaf3e3702cbdb6da84d51d5469299205f3dad9b",
+      "sourceReferences": [
+        "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt04-generated-raw.png",
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "rejected by initial visual inspection; independent review pending",
+      "rejection": "Targeted image edit retains the same broad brown/black gradient backdrop and smooth shading. Frames5\u20138 remain repetitive holds despite specific silhouette edits; no alpha cleanup or packing attempted."
+    }
+  ],
+  "decision": "J127 accepted and integrated after independent source/native review, selector/mirror coverage, two-facing catch/carry/release/score/landing gameplay validation, and full suite validation.",
+  "independentReview": {
+    "reviewer": "candidate_review",
+    "decision": "reject attempts01\u201302",
+    "notes": "Both files have broad partial-alpha backdrop haze (~28.1% and ~34.4%), painterly shading, repeated poses5\u20138, weak reverse direction, and orange ball-like marks at carried hands."
+  },
+  "poseAttempts": [
+    {
+      "poseIndex": 10,
+      "attempt": 1,
+      "generationId": "exec-8fc75354-fb09-44c7-85fd-52ca334a2ed9",
+      "generationPath": "/workspace/generated_images/exec-8fc75354-fb09-44c7-85fd-52ca334a2ed9.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose10-attempt01-generated-raw.png",
+      "rawSha256": "2b24af2e0919751171501a8d6778107ed65e7094f20dd8e874fb31a02e923a26",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse-pose10-attempt01-prompt.md",
+      "promptSha256": "9dd3dfdad6d9c2deea4eb3f3f1eef736e376f9db6ee3375aba5e2506d9db9485",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-clutch-attempt04-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts: clean alpha-zero field; full anatomy and Leo identity; crisp pixel outline; airborne backward-down release gesture is readable. Raw requires fit normalization from 1254-square output."
+    },
+    {
+      "poseIndex": 0,
+      "attempt": 1,
+      "generationId": "exec-6dcf77eb-e0fd-476b-b68b-df000f728ce6",
+      "generationPath": "/workspace/generated_images/exec-6dcf77eb-e0fd-476b-b68b-df000f728ce6.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose00-attempt01-generated-raw.png",
+      "rawSha256": "6afa105c748d3701f4817d079817b23bad227c111252b073f613ab1de40d02f3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose00-tick00-attempt01-prompt.md",
+      "promptSha256": "b872e9d1b1a349c74775612a5ae92dec6e5c7b4091f24a865782afddd9a43627",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally: rightward approach, open hands, full anatomy, identity, clean transparency; requires fit normalization."
+    },
+    {
+      "poseIndex": 1,
+      "attempt": 1,
+      "generationId": "exec-32a28c23-c548-48d3-b88c-a116753c1626",
+      "generationPath": "/workspace/generated_images/exec-32a28c23-c548-48d3-b88c-a116753c1626.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose01-attempt01-generated-raw.png",
+      "rawSha256": "cc8ebb081baa64febac3460ef40ee668c5fe4344a1d39d39d0bae770a74bb234",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose01-tick02-attempt01-prompt.md",
+      "promptSha256": "c1465e6ddd87ba08e57ed52e03c4946f28efca02071717f1e324fa73796ef3ee",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected",
+      "review": "Rejected: arm overlap reads as possible third arm; stride/run rather than planted hip-sunk turn."
+    },
+    {
+      "poseIndex": 2,
+      "attempt": 1,
+      "generationId": "exec-804ba6b0-286e-412c-8d62-c7b04ed91288",
+      "generationPath": "/workspace/generated_images/exec-804ba6b0-286e-412c-8d62-c7b04ed91288.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose02-attempt01-generated-raw.png",
+      "rawSha256": "7601323fed182c865b786818d2b1e3b846e2f609bfd7f8c4577c4434c80790bb",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose02-tick04-attempt01-prompt.md",
+      "promptSha256": "94321ca10dffd891d1478316fae403a37ba429a78ea239f3ac5a860ee6209eb2",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally as takeoff; airborne reach and anatomy clear, torso turn is subtle; normalize and review in sequence."
+    },
+    {
+      "poseIndex": 3,
+      "attempt": 1,
+      "generationId": "exec-dbfeb8a3-3ebf-41e7-b472-f0e3e5dc5b36",
+      "generationPath": "/workspace/generated_images/exec-dbfeb8a3-3ebf-41e7-b472-f0e3e5dc5b36.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose03-attempt01-generated-raw.png",
+      "rawSha256": "6c4a3ad887faf5841fde6d084948b4138099eb0b17b2cdfb0d8739408e761519",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose03-tick07-attempt01-prompt.md",
+      "promptSha256": "6bd3cd1d08d5006d37f042aad3d4b2660867ca6c8cbe2c9fc194cc77c2f60105",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review provisionally accepts early ascent; hands split to either side of head instead of behind far shoulder; normalize and inspect sequence."
+    },
+    {
+      "poseIndex": 4,
+      "attempt": 1,
+      "generationId": "exec-337556ee-cdf8-4f3e-8539-780181f4723c",
+      "generationPath": "/workspace/generated_images/exec-337556ee-cdf8-4f3e-8539-780181f4723c.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose04-attempt01-generated-raw.png",
+      "rawSha256": "1a661818a7d2301f69d8b1c39eb70f5dc50bc6afe7d5d4a44e682ecf72af95a4",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose04-tick09-attempt01-prompt.md",
+      "promptSha256": "fe786272877ecadc9c36934faaa98c6e7fb88f0831b25b9e8299dea89a30a23d",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally as mid-ascent reach; anatomy/alpha clear, similar to pose02 but hands/legs distinguish transition."
+    },
+    {
+      "poseIndex": 5,
+      "attempt": 1,
+      "generationId": "exec-b5eb3420-6ed3-402d-88da-fa78b4344309",
+      "generationPath": "/workspace/generated_images/exec-b5eb3420-6ed3-402d-88da-fa78b4344309.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-attempt01-generated-raw.png",
+      "rawSha256": "3b15935b1a0c9885b31b54940621877251028944eb32d85116486490e96f5ca6",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose05-tick10-attempt01-prompt.md",
+      "promptSha256": "c3866890793a9442904251b2791385ec19d11c077b6c2c23d28776199cc49ff9",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected",
+      "review": "Rejected: hands remain open/separated; does not read as GRAB."
+    },
+    {
+      "poseIndex": 6,
+      "attempt": 1,
+      "generationId": "exec-30996356-ebe4-44be-a962-736e5136d881",
+      "generationPath": "/workspace/generated_images/exec-30996356-ebe4-44be-a962-736e5136d881.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose06-attempt01-generated-raw.png",
+      "rawSha256": "b710f3f0944614b066b426b55f184a92d683b119cda9d53bde23ab0e95803895",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose06-tick12-attempt01-prompt.md",
+      "promptSha256": "9b0728b1a5a0988c07f5159d941d9c332c86f6faed28a3e99a94e155ad8d553f",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally as bent-elbow late ascent carry; requires normalization."
+    },
+    {
+      "poseIndex": 7,
+      "attempt": 1,
+      "generationId": "exec-16151977-c596-41f1-896a-54265469f5ce",
+      "generationPath": "/workspace/generated_images/exec-16151977-c596-41f1-896a-54265469f5ce.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-attempt01-generated-raw.png",
+      "rawSha256": "ef41c07246a62de72be754964185b5356a0580a97d214e03265f48975b14f230",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose07-tick14-attempt01-prompt.md",
+      "promptSha256": "8eaa0de11fecb665cb183caf783bbb5744e99d7399ca7feed5b57dd9d1e8632b",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally as tighter tuck/peak; partial rather than full back turn, tiny transparent hole in hair to inspect at normalized size."
+    },
+    {
+      "poseIndex": 1,
+      "attempt": 2,
+      "generationId": "exec-0c059ccf-2552-4271-b9b6-e1368f8daded",
+      "generationPath": "/workspace/generated_images/exec-0c059ccf-2552-4271-b9b6-e1368f8daded.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose01-attempt02-generated-raw.png",
+      "rawSha256": "0eb14773f64a595507bc35b9069e5730fc6c8e7668a77cd741637e59325923e9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose01-tick02-attempt02-prompt.md",
+      "promptSha256": "7398ed7bfe8e0179a63672611ce74dddb820262aa86f21dc2905454ef07f2154",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts: two separated arms/hands; grounded hip-sunk plant and far-hand-behind/near-hand-low gesture; clean identity/anatomy/alpha."
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 1,
+      "generationId": "exec-8b9f7af6-1b51-4a16-8a1c-dc53d9b36d78",
+      "generationPath": "/workspace/generated_images/exec-8b9f7af6-1b51-4a16-8a1c-dc53d9b36d78.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt01-generated-raw.png",
+      "rawSha256": "f86bcf0cca30a4439dbbf8b625d608ff78963e9c7a6e22306a38c75b8dc05801",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt01-prompt.md",
+      "promptSha256": "0510cb89af8c83c58b32a095c71e991f4df9e934944374b4eb3d481141181af9",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected",
+      "review": "Rejected: remains overhead carry with no backward-down wrist turn; duplicates carry cluster."
+    },
+    {
+      "poseIndex": 9,
+      "attempt": 1,
+      "generationId": "exec-570f0d86-56d5-4de2-806c-abbc0c2c4b1d",
+      "generationPath": "/workspace/generated_images/exec-570f0d86-56d5-4de2-806c-abbc0c2c4b1d.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose09-attempt01-generated-raw.png",
+      "rawSha256": "755abfb739e3977ef92a1e457f0b73bea124aa35cd799e3bed0a4a73204340ca",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose09-tick19-attempt01-prompt.md",
+      "promptSha256": "ba8ffdae9a8056a55fe31e8e47970748a92189c4a68543fded3ff5c4d87093c7",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally as backward overhead pre-release extension; requires normalization."
+    },
+    {
+      "poseIndex": 11,
+      "attempt": 1,
+      "generationId": "exec-d5ae0c75-92c9-4d6c-b928-d87040afcc65",
+      "generationPath": "/workspace/generated_images/exec-d5ae0c75-92c9-4d6c-b928-d87040afcc65.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose11-attempt01-generated-raw.png",
+      "rawSha256": "6261bf843d9d321c311edfd85cf68e259139ef841e588817e996327f3d622101",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose11-tick23-attempt01-prompt.md",
+      "promptSha256": "15f53c11d2574b98a922fa9854dd809ba9dc4aebe5c5480d26fe26db3de997fc",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected",
+      "review": "Rejected: both arms remain bent overhead; not the required two-arm downward empty follow-through."
+    },
+    {
+      "poseIndex": 12,
+      "attempt": 1,
+      "generationId": "exec-6460a1f0-ba5d-4e5c-adcd-10e23e561db0",
+      "generationPath": "/workspace/generated_images/exec-6460a1f0-ba5d-4e5c-adcd-10e23e561db0.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose12-attempt01-generated-raw.png",
+      "rawSha256": "ec898255a6a1be46fb56462e70ea2df9ea185e6b269316bf3215a785912b11f3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose12-tick26-attempt01-prompt.md",
+      "promptSha256": "4dd5774bdd510eb80b6b502045b68f7e1d94b1e972cc81422b503cc3bccc14da",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review accepts provisionally as drop-away/unwind with arms outward and legs descending; requires normalization."
+    },
+    {
+      "poseIndex": 13,
+      "attempt": 1,
+      "generationId": "exec-b085a1ec-e3e6-4eda-96e9-70368780e0b4",
+      "generationPath": "/workspace/generated_images/exec-b085a1ec-e3e6-4eda-96e9-70368780e0b4.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose13-attempt01-generated-raw.png",
+      "rawSha256": "af12a2a5aa2ba3c275b4196ae98bfa02dc6fa17f40278f0be75a4540bdfa535e",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose13-tick28-attempt01-prompt.md",
+      "promptSha256": "3452413d967e7d0297fd844a39bd92ebaa3c91cd19ab1f7f8f3b4cdbf30e30fc",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review: clean alpha, complete anatomy and identity; both legs underneath, knees flexed, arms spread for landing balance; raw needs fit normalization."
+    },
+    {
+      "poseIndex": 14,
+      "attempt": 1,
+      "generationId": "exec-06de433f-553b-4cf3-b4d1-819e0afc7840",
+      "generationPath": "/workspace/generated_images/exec-06de433f-553b-4cf3-b4d1-819e0afc7840.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose14-attempt01-generated-raw.png",
+      "rawSha256": "577b6d85f16ce9e9519d58855fead174c618aad51ad38aa78dc5d7f5cc38b4f1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose14-tick30-attempt01-prompt.md",
+      "promptSha256": "cbf71106e3c6ab1e2168484ca3bcdeb6f1a09884ce3a3ede219f8819462283cb",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted provisionally after independent review",
+      "review": "Independent review: clean alpha, complete anatomy and identity; two-foot grounded deep-knee landing, hands down beside thighs; clearly distinct from pose13; raw needs fit normalization."
+    },
+    {
+      "poseIndex": 5,
+      "attempt": 2,
+      "generationId": "exec-92d5f5ec-ab90-42b7-8eac-704b8732f5ff",
+      "generationPath": "/workspace/generated_images/exec-92d5f5ec-ab90-42b7-8eac-704b8732f5ff.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-attempt02-generated-raw.png",
+      "rawSha256": "e31fc80689915044367f1ed01943ae83037f5e0419a75f3c542547eff951ff36",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose05-tick10-attempt02-prompt.md",
+      "promptSha256": "5a0b9e98a8af0882d68d507db075e937bd84d09224d1581fbd47c03dacfc917f",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after independent review",
+      "review": "Reviewer rejects: visible ball held in front of face/chest; not behind-crown catch, and pose gestures do not match reverse alley-oop."
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 2,
+      "generationId": "exec-e8c33739-5416-4af5-ab0b-d049ac279447",
+      "generationPath": "/workspace/generated_images/exec-e8c33739-5416-4af5-ab0b-d049ac279447.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt02-generated-raw.png",
+      "rawSha256": "f5ca7bc4262ed470adbf85651cb86a1834d4f1bd516df6aaae18e482977df174",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt02-prompt.md",
+      "promptSha256": "5a2a9bb598d10739f5652b6594a6bcb5159fbdc0d3816cf624e77edf94a5148b",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after independent review",
+      "review": "Reviewer rejects: visible overhead carried ball, not ball-free backward/downward transition."
+    },
+    {
+      "poseIndex": 11,
+      "attempt": 2,
+      "generationId": "exec-634074d9-cdf6-4434-a4cb-573d21e10a6b",
+      "generationPath": "/workspace/generated_images/exec-634074d9-cdf6-4434-a4cb-573d21e10a6b.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose11-attempt02-generated-raw.png",
+      "rawSha256": "c39f77c0d89cb1c55d99c95ee3f4f49a4dace0e063fcd53d2890f0371cc6a259",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose11-tick23-attempt02-prompt.md",
+      "promptSha256": "7400b8305bcea903a67fcb13ab7e0db50e85346770967eba87aab0dc39999351",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted candidate after independent cleanup review",
+      "review": "No ball; full anatomy and Leo identity preserved after removing 840 detached alpha pixels; distinct immediate post-release finish."
+    },
+    {
+      "poseIndex": 5,
+      "attempt": 3,
+      "generationId": "exec-08a1201d-ebec-4f9d-ab2d-95529f6f0dbe",
+      "generationPath": "/workspace/generated_images/exec-08a1201d-ebec-4f9d-ab2d-95529f6f0dbe.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-attempt03-generated-raw.png",
+      "rawSha256": "02534984ae0228f62363ec9fafc13dae91cfb94f0729f0c4ca5379ee786f3c2c",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose05-tick10-attempt03-prompt.md",
+      "promptSha256": "9d30c7f879e894debbefdd991b2372a80d4eb7804f10762871cd8eb26fa8b5a4",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted candidate after independent cleanup review",
+      "review": "Two hands clasp behind crown around invisible-ball contact point; separate hands readable, correct identity and anatomy; 373 detached pixels removed with raw retained.",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose05-attempt03-cleaned-light.png",
+        "tools/generate-art/previews/j127-pose05-attempt03-cleaned-dark.png"
+      ],
+      "cleanupReport": "tools/generate-art/j127-pose05-attempt03-cleanup.json"
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 3,
+      "generationId": "exec-75cafa79-6d06-4a9f-8277-7650b2c297b4",
+      "generationPath": "/workspace/generated_images/exec-75cafa79-6d06-4a9f-8277-7650b2c297b4.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt03-generated-raw.png",
+      "rawSha256": "90ec80ea69fde286ffa8e3f5a3e73fe48681be7e65cbccb8a30b09b31153c9f8",
+      "dimensions": [
+        1230,
+        1278
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt03-prompt.md",
+      "promptSha256": "110c8b17aac1117c1317820dfd923ee7236f9b7ff14807e6baa2801f6f1b67da",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after independent review",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-attempt03-light.png",
+        "tools/generate-art/previews/j127-pose08-attempt03-dark.png"
+      ],
+      "review": "Reviewer rejects: pose remains a close two-hand overhead carry, too similar to pose05 and no clear wrist/arm transition."
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 4,
+      "generationId": "exec-6984a620-2279-407e-af7d-3f98fd046625",
+      "generationPath": "/workspace/generated_images/exec-6984a620-2279-407e-af7d-3f98fd046625.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt04-generated-raw.png",
+      "rawSha256": "715050d4f22b9504604f766216a5ecf9d1ea286eb166eef9889ce70fd61502b1",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt04-prompt.md",
+      "promptSha256": "2b4193c6c1b3729ee58458bcc59e212cb58a1be3556c99db57a1950599db4aac",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after action review",
+      "review": "Although the pose gesture and cleaned silhouette were visually accepted, the authoritative sequence requires both hands carry behind crown through tick17. This one-arm trail contradicts that state.",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-attempt04-light.png",
+        "tools/generate-art/previews/j127-pose08-attempt04-dark.png"
+      ]
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 5,
+      "generationId": "exec-08991714-77db-4fba-9d86-158c9665b1c8",
+      "generationPath": "/workspace/generated_images/exec-08991714-77db-4fba-9d86-158c9665b1c8.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-attempt05-generated-raw.png",
+      "rawSha256": "733f6aae5d56e7aec883760b39be7ca39e280efea37dce2f78fdd1de23125f16",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/pose08-tick17-attempt05-prompt.md",
+      "promptSha256": "f910ec29ea6e08ff3b4c59fb95ad1aa5c01e2cf82b853ab3ee58989641d10b95",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "accepted candidate after independent cleanup review",
+      "review": "Both arms/hands clasp behind crown, no ball; reclined body and trailing legs distinguish beginning descent from compact peak pose07 and extended pre-release pose09; 363 detached pixels removed.",
+      "cleanupReport": "tools/generate-art/j127-pose08-attempt05-cleanup.json",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-attempt05-cleaned-light.png",
+        "tools/generate-art/previews/j127-pose08-attempt05-cleaned-dark.png"
+      ]
+    },
+    {
+      "poseIndex": 4,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-cc4b4b27-d621-4538-8650-32317e7b4c76",
+      "generationPath": "/workspace/generated_images/exec-cc4b4b27-d621-4538-8650-32317e7b4c76.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose04-revision-attempt01-generated-raw.png",
+      "rawSha256": "d5cb64b23defe0e1012a11274fe6bf64d01b314f06554450eaa8190b6f0e0a5b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose04-revision-attempt01-exact-prompt.md",
+      "promptSha256": "1a152152e7ac1809b2023a56b3e2f95bca94eaa6095fa69bf9657c8c382b0c38",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose04-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 5,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-7ec72286-0540-4ecd-bca3-609f08dd98a8",
+      "generationPath": "/workspace/generated_images/exec-7ec72286-0540-4ecd-bca3-609f08dd98a8.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-revision-attempt01-generated-raw.png",
+      "rawSha256": "9d07267784e9025dc930e65e73d90efb9aab7f5e85005cd70fac2da5ce442dc7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose05-revision-attempt01-exact-prompt.md",
+      "promptSha256": "fb97480da26a1798fa1794bb1ece6d1f56ac5150d8a91540523228634df8681b",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 4,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-cc4b4b27-d621-4538-8650-32317e7b4c76",
+      "generationPath": "/workspace/generated_images/exec-cc4b4b27-d621-4538-8650-32317e7b4c76.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose04-revision-attempt01-generated-raw.png",
+      "rawSha256": "d5cb64b23defe0e1012a11274fe6bf64d01b314f06554450eaa8190b6f0e0a5b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose04-revision-attempt01-exact-prompt.md",
+      "promptSha256": "1a152152e7ac1809b2023a56b3e2f95bca94eaa6095fa69bf9657c8c382b0c38",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "new differentiated candidate; alpha/anatomy/sequence review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose04-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose04-revision-attempt01-dark.png"
+      ]
+    },
+    {
+      "poseIndex": 5,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-7ec72286-0540-4ecd-bca3-609f08dd98a8",
+      "generationPath": "/workspace/generated_images/exec-7ec72286-0540-4ecd-bca3-609f08dd98a8.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose05-revision-attempt01-generated-raw.png",
+      "rawSha256": "9d07267784e9025dc930e65e73d90efb9aab7f5e85005cd70fac2da5ce442dc7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose05-revision-attempt01-exact-prompt.md",
+      "promptSha256": "fb97480da26a1798fa1794bb1ece6d1f56ac5150d8a91540523228634df8681b",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "new differentiated candidate; alpha/anatomy/sequence review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose05-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose05-revision-attempt01-dark.png"
+      ]
+    },
+    {
+      "poseIndex": 6,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-7797056e-b4c7-469e-9477-8bdceb22c7bb",
+      "generationPath": "/workspace/generated_images/exec-7797056e-b4c7-469e-9477-8bdceb22c7bb.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose06-revision-attempt01-generated-raw.png",
+      "rawSha256": "cc1a5c4aecbf0179b67ece8370a6a4751708eabba1fb2e3315737861a55d22bb",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose06-revision-attempt01-exact-prompt.md",
+      "promptSha256": "4710d48f570a65a64387aba977c04d108dc2a4150133078aeaa168e708463f98",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose06-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose06-revision-attempt01-dark.png"
+      ],
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose06-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 7,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-a8f4dc1f-2567-42f1-b0eb-cd6d816082a0",
+      "generationPath": "/workspace/generated_images/exec-a8f4dc1f-2567-42f1-b0eb-cd6d816082a0.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-revision-attempt01-generated-raw.png",
+      "rawSha256": "b20851ede51b9ae4e53f6db42a5be7156858296ac1c0a767b365c17fdc1a379b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose07-revision-attempt01-exact-prompt.md",
+      "promptSha256": "25a8be8c838a0982bd7ddacf7b9a39695f97a44182a17cd360b4be7a8af11221",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "rejected after independent pose review",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose07-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose07-revision-attempt01-dark.png"
+      ],
+      "review": "Too similar to late ascent pose06 and torso remains side-profile; preserve as rejected.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 8,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-4e8e53e5-204d-4382-947f-3d564805fa08",
+      "generationPath": "/workspace/generated_images/exec-4e8e53e5-204d-4382-947f-3d564805fa08.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-revision-attempt01-generated-raw.png",
+      "rawSha256": "f6bcbedad11d495446ab1c999d64f087a762756241a440e80969a06baf4e4cb1",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose08-revision-attempt01-exact-prompt.md",
+      "promptSha256": "c648b573cc84a4ba401848ab42946da60f41e75e24f496ff19c25c503fba7f83",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose08-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose08-revision-attempt01-dark.png"
+      ],
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose08-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 7,
+      "attempt": 2,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-72785053-a895-4b86-b300-08f0883c7768",
+      "generationPath": "/workspace/generated_images/exec-72785053-a895-4b86-b300-08f0883c7768.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-revision-attempt02-generated-raw.png",
+      "rawSha256": "a6a66192ca44440703ec8bc2cc0d3c9916135a424a57ca6030b9400bd852b88c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose07-revision-attempt02-exact-prompt.md",
+      "promptSha256": "5068261fdee81237a6c2ff425d792664c871b858e1002fd86a791823031517f0",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose07-revision-attempt02-light.png",
+        "tools/generate-art/previews/j127-pose07-revision-attempt02-dark.png"
+      ],
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose07-revision-attempt02-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 2,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-3ac0b602-19f4-4a98-a9b9-b82c2fd7ec1f",
+      "generationPath": "/workspace/generated_images/exec-3ac0b602-19f4-4a98-a9b9-b82c2fd7ec1f.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose02-revision-attempt01-generated-raw.png",
+      "rawSha256": "6068677a465b446c335bf8e44371b96c9d9ff9818e6217e3717d5563f5733b36",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose02-revision-attempt01-exact-prompt.md",
+      "promptSha256": "c8cdb71fa3f6934aeca660d1597d2dc96cf3d8c86aa5812e53d8882277b19a3e",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose02-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose02-revision-attempt01-dark.png"
+      ],
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose02-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    },
+    {
+      "poseIndex": 3,
+      "attempt": 1,
+      "revisionOfCandidateAtlas": "attempt01",
+      "generationId": "exec-92a1dff3-176c-4e93-b8f3-964ae52ac772",
+      "generationPath": "/workspace/generated_images/exec-92a1dff3-176c-4e93-b8f3-964ae52ac772.png",
+      "rawSourceImage": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose03-revision-attempt01-generated-raw.png",
+      "rawSha256": "c365094c3573c79eb8aa6a5aa4d3c41e2ca661cdbf4b673f633bdf8a1b79a575",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "format": "RGBA PNG",
+      "promptFile": "tools/generate-art/j127-leo-alley-oop-reverse/poses/revision/pose03-revision-attempt01-exact-prompt.md",
+      "promptSha256": "9939a778fbe9169ec0604bccad94f4db1ac550e116798e0a9c7c260b1fd341fc",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "selected in visually reviewed atlas attempt02; native gameplay review pending",
+      "proofs": [
+        "tools/generate-art/previews/j127-pose03-revision-attempt01-light.png",
+        "tools/generate-art/previews/j127-pose03-revision-attempt01-dark.png"
+      ],
+      "review": "Included in the 15-cell candidate atlas accepted for visual review. Complete Leo anatomy, clean alpha after detached-component cleanup, distinct action progression at cell size. See candidate atlas review; no runtime acceptance yet.",
+      "cleanupSource": "tools/generate-art/sources/j127-leo-alley-oop-reverse-pose03-revision-attempt01-cleaned.png",
+      "cleanupReport": "tools/generate-art/j127-revision-cleanup-reports.json"
+    }
+  ],
+  "atlasCandidateReview": {
+    "candidate": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+    "layout": "tools/generate-art/j127-leo-alley-oop-reverse-attempt02-candidate-layout.json",
+    "proofs": [
+      "tools/generate-art/previews/j127-atlas-attempt02-candidate-light.png",
+      "tools/generate-art/previews/j127-atlas-attempt02-candidate-dark.png"
+    ],
+    "status": "independent visual art review passed; native Jam Stage review and track calibration pending",
+    "reviewNotes": "All 15 row-major cells and transparent cell16 reviewed. Identity/anatomy, clean alpha, margins, scale/baseline pass. Frames04\u201308 are closest cluster but transitions remain legible at cell size. This is not runtime acceptance.",
+    "candidateSha256": "bb3ebe221fcee1f3688c23d2b6c2e25857e75ca79c38b9060752a1a39e03354f"
+  },
+  "acceptedRuntimeCandidate": "attempt02 composite atlas; source/pose generation IDs, prompts, raw images, rejected source attempts and cleanup details preserved in this file and referenced pose records",
+  "nativeTrackReview": {
+    "status": "accepted after two-facing independent visual review and live simulation tests",
+    "attempt": 24,
+    "captureReport": "tools/generate-art/previews/j127-leo-alley-oop-reverse-track-candidate/attempt-24/native/report.json",
+    "height": [
+      4.5,
+      4.4,
+      4.1,
+      3.5,
+      2.4,
+      2.1,
+      2.2,
+      1.8187,
+      2.1,
+      2.3,
+      1.55,
+      1.7,
+      1.2,
+      0.75,
+      0.6
+    ],
+    "forward": [
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -4.5,
+      -2,
+      3.6545,
+      -4,
+      -2,
+      -0.5,
+      -5,
+      -2,
+      1,
+      3
+    ],
+    "captureReleaseContact": "The static capture report contains a local release-position variant for the calibration overlay. Runtime uses the recorded frame track; scoring/release/landing are verified in tests/animation.test.js for both facings."
+  }
+}

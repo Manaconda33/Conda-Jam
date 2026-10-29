@@ -1,0 +1,22 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": "diagnostic",
+  "status": "rejected diagnostic, unrelated single sprite; not a production clip/candidate; preserved transparently",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-74a33b88-de9d-4fce-9959-264803fe8fa3",
+  "generatedAt": "2026-10-29T03:05:04.277479Z",
+  "promptFile": "tools/generate-art/kraken-layup8-attempt02-diagnostic-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "01da50cdc160c63e0fe90b85fbc60224265cdf44a52ed9b6cf4aa40ac35342a9",
+  "rawSourceImage": "tools/generate-art/sources/kraken-layup8-attempt02-diagnostic-single-sprite-generated-raw.png",
+  "rawSourceSha256": "ac785813bdafdee6fdefe18b20e87ca819da11047b620efc7fa6f2362271d1c8",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "format": "PNG RGBA",
+  "rejectionReason": "A single-sprite tool-response diagnostic, not a full eight-pose layup sheet; excluded from art review, cleanup, registration and coverage."
+}

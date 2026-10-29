@@ -1,0 +1,30 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 3,
+  "status": "rejected before cleanup: generated sheet violates ball-free athlete-art requirement",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-2c45fa7d-1763-40da-a2b9-90c9bb5fa10b",
+  "generationId": "exec-2c45fa7d-1763-40da-a2b9-90c9bb5fa10b",
+  "generatedAt": "2026-10-28T09:06:00Z",
+  "promptFile": "tools/generate-art/krios-dunk-clutch15-attempt03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "29fa0221766d0f2ce947621bc29604c16197c550c3578752a6bc5732fa345287",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-clutch15-attempt03-generated-raw.png",
+  "rawSourceSha256": "9e2e41da4d9cf24fef2a57c442f7b9ecccf061a0177f08ecac2ab269a5d12cd1",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "review": {
+    "status": "reject",
+    "date": "2026-10-28",
+    "scope": "raw sheet and target-size visual check",
+    "findings": "Although the edit prompt explicitly required no basketball in the athlete art, the output visibly bakes basketballs into multiple frames, including the protected gather and apex. Frame7 also puts the ball at the shoulder instead of pulling it across the ribs. Reject before cleanup; do not extract or register."
+  },
+  "ballPolicy": "No basketball in athlete artwork; use a separate Krios-specific ball track.",
+  "rejectedAttempts": []
+}
