@@ -1,3 +1,9 @@
+## Kraken dunk-double accepted — 2026-10-29 12:12 UTC
+
+Kraken J.07 now has **26/29 accepted bespoke clips**; three remain: `dunk-windmill`, `dunk-360`, and `dunk-tomahawk`. `dunk-double` uses ImageGen attempt04, cleanup01, and Kraken-specific ball-track attempt04. The source and cleanup reviews pass. Current-branch production-loader captures use the registered lossless WebP and separate track with no candidate injection: all 15 frames across both facings and 100%/120%, 60 captures, hand contact through poses7–9, release tick21, two-point score tick23, recovery tick30, correct scoring side, and zero browser errors. Original prompt/raw source, rejected candidates, cleanup layouts/proofs, and all track attempts remain preserved.
+
+Strict report-only audit: 2,394 assignments inspected, 567 source atlases, 5,444 unique source drawings, 709 missing assignments, zero target-frame shortfalls, and four inherited prompt findings. Validation passes: `npm test` 86/86, lint checks 21 modules, content validation passes 35 franchises / 105 athletes / 35 captains, and `npm run build` produces the 119,671,763-byte standalone Jamverse preview embedding the accepted atlas.
+
 ## Kraken dunk-clutch accepted — 2026-10-29 06:02 UTC
 
 Kraken J.07 now has **25/29 accepted bespoke clips**; four remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, and `dunk-double`. `dunk-clutch` uses cleanup02 and Kraken-specific track02. Independent source, cleanup and candidate-gameplay reviews plus current-branch no-injection loader captures pass. All 15 frames select in both facings/zooms; contact holds through poses7–9, release tick21, score tick23, recovery pose14, correct scoring side, and zero browser errors. Cleanup removed two detached marks (nine transparent pixels); all attached art is unchanged.

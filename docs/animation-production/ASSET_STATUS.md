@@ -1,4 +1,10 @@
-## Current captain lane — 2026-10-29 06:02 UTC
+## Current captain lane — 2026-10-29 12:12 UTC
+
+Kraken J.07: **26/29 accepted bespoke clips**; the remaining gaps are `dunk-windmill`, `dunk-360`, and `dunk-tomahawk`. `dunk-double` is accepted from attempt04/cleanup01 with Kraken-specific track attempt04. The registered lossless WebP and separate track pass the independent art/gameplay checks and 60 current-court normal-loader captures without candidate injection. Both facings and zooms select all 15 frames; contact is maintained through poses7–9, release occurs at tick21, Kraken scores at tick23, recovery completes at tick30, and browser errors are zero. Raw source, exact prompt, cleanup proof, rejected candidates, and calibration history are retained under `tools/generate-art/`.
+
+Strict report-only audit: 2,394 assignments, 567 unique source atlases, 5,444 unique source drawings, 709 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Validation: tests 86/86, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, standalone preview 119,671,763 bytes. Next, calibrate Kraken windmill attempt05 track from attempt02; attempts01 and 02 gameplay evidence and rejected rationale remain separate. 360 attempt05 cleanup01 is independently accepted for candidate gameplay trials; tomahawk attempt05 cleanup01 has independent source/cleanup review. Neither is runtime accepted.
+
+## Previous captain lane — 2026-10-29 06:02 UTC
 
 Kraken J.07: **25/29 accepted bespoke clips**, four missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, and `dunk-double`. Latest acceptance `dunk-clutch` uses cleanup02 and a separate track02 with independent and current-branch loader evidence.
 

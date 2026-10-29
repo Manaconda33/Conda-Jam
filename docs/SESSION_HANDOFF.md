@@ -1,3 +1,9 @@
+## Kraken dunk-double accepted — 2026-10-29 12:12 UTC
+
+Kraken J.07 is **26/29 accepted bespoke clips**; `dunk-windmill`, `dunk-360`, and `dunk-tomahawk` remain. `dunk-double` attempt04/cleanup01 is registered at `public/assets/animation/kraken-dunk-double-right.webp` with a separate Kraken track attempt04. The current-branch normal-loader review has 60 no-injection captures covering all 15 frames, both facings, and 100%/120% zoom; independent art/gameplay review passes hand contact poses7–9, tick21 release, tick23 score, tick30 recovery, correct side, and zero browser errors. Exact prompt, generation ID/raw hash, cleanup and light/dark proofs, rejected candidates, and track calibration history remain under `tools/generate-art/`.
+
+Strict audit: 2,394 assignments, 567 source atlases, 5,444 unique drawings, 709 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Validation: tests 86/86, lint 21 modules, content validation 35/105/35, standalone preview 119,671,763 bytes. Next, finish separate ball-track and production-loader reviews for windmill, 360, and tomahawk; no candidate-only pass will count as production acceptance.
+
 ## Kraken dunk-clutch accepted — 2026-10-29 06:02 UTC
 
 Kraken J.07 now has **25/29 accepted bespoke clips**; four remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, and `dunk-double`. `dunk-clutch` uses cleanup02 and Kraken-specific track02. Independent source, cleanup and candidate-gameplay reviews plus current-branch no-injection loader captures pass. All 15 frames select in both facings/zooms; contact holds through poses7–9, release tick21, score tick23, recovery pose14, correct scoring side, and zero browser errors. Cleanup removed two detached marks (nine transparent pixels); all attached art is unchanged.

@@ -1,0 +1,13 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-windmill",
+  "attempt": 5,
+  "generationId": "exec-d84a3f6d-12ba-4593-a17a-e0a3e683c916",
+  "generator": "OpenAI ImageGen",
+  "transparentBackgroundRequested": true,
+  "rawFile": "tools/generate-art/sources/kraken-dunk-windmill-attempt05-generated-raw.png",
+  "rawSha256": "133b9f5a4f02144ee2c8211aa6fdacb122afb00be3930b9e093d20fcd87f3eff",
+  "promptFile": "tools/generate-art/kraken-dunk-windmill-attempt05-imagegen-prompt.txt",
+  "status": "source independently reviewed; component cleanup/candidate gameplay recommended",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/INDEPENDENT_SOURCE_REVIEW.md"
+}
