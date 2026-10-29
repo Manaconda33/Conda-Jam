@@ -1,3 +1,9 @@
+## Current captain lane — 2026-10-29 05:45 UTC
+
+Kraken J.07: **22/29 accepted bespoke clips**, seven missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, and `alley-oop-reverse`. `dunk-reverse` joined the accepted set after independent cleanup, candidate gameplay and actual normal-loader review; it has a separate Kraken ball track and correct mirrored inverted contact, rim release, score and recovery. `alley-oop-power` and `dunk-power` are also accepted with registered normal-loader evidence.
+
+Strict report-only audit: 2,390 inspected assignments; 563 unique source atlases; 5,384 unique source drawings; 713 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Candidate and rejected raw sources, exact prompts, hashes, provenance, cleanup, track attempts, and reviews are stored by clip under `tools/generate-art/`.
+
 ## Current captain lane — 2026-10-29 05:18 UTC
 
 Kraken J.07: **21/29 accepted bespoke clips**, with eight missing: `dunk-windmill`, `dunk-reverse`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, and `alley-oop-reverse`. Both `dunk-power` and `alley-oop-power` passed independent source, separate-track candidate, and actual normal-loader gameplay review. Alley-oop-power uses Kraken-specific ball tracks and verifies the teammate catch, rim release, score, mirroring and landing.

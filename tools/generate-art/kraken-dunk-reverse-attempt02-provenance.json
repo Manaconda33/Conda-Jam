@@ -54,5 +54,5 @@
     "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt03-generated-raw.png",
     "rawSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769"
   },
-  "reviewSummary": "The reviewer found this raw SHA-256 and generation ID exactly match alley-oop-reverse attempt03 despite a different prompt. Preserve this file as a provenance-integrity failure; do not count it as a generated dunk-reverse source or candidate."
+  "reviewSummary": "Invalidated: raw source hash and generation ID duplicate alley-oop-reverse attempt03 despite a different prompt. Independent review also notes missing reverse-dunk apex/extension and raw cell/style issues. Preserve as a provenance-integrity failure; do not count it as a unique attempt."
 }

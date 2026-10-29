@@ -1,0 +1,116 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "dunk-reverse",
+  "src": "./public/assets/animation/kraken-dunk-reverse-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "baselineY": 92,
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-dunk-reverse-attempt04-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29T05:21:41Z",
+    "generationId": "exec-e2e2b1c9-30e1-4975-ac29-fcc18d9fee93",
+    "promptSha256": "e306c62cf582255322dc4ddb2e5dbfe9e0b099fd7abced1047240b5da5a51c52",
+    "rawSource": "tools/generate-art/sources/kraken-dunk-reverse-attempt04-generated-raw.png",
+    "rawSourceSha256": "0f4199b0dfc401f0004d077266c3d3211465d7e628ec57dacecf340d4fe19e50",
+    "assetClassification": "derived-cleanup-from-imagegen-source",
+    "cleanupScript": "tools/generate-art/clean-kraken-dunk-reverse-attempt04-cleanup01.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/cleanup-layout-report.json",
+    "cleanupNotes": "Extract 15 existing poses; alpha>=64; shared scale; nearest-neighbor fit; binary alpha; shared16-color visible palette; remove <8px components; align visible bounds to baselineY92; no repaint or invented poses.",
+    "track": "tools/generate-art/previews/kraken-dunk-reverse-track-candidate/attempt-05/track.json",
+    "candidateGameplayReview": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-05/INDEPENDENT_GAMEPLAY_REVIEW.md",
+    "webpLosslessPixelIdentical": true
+  }
+}

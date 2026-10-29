@@ -1,3 +1,9 @@
+## Kraken reverse dunk accepted — 2026-10-29 05:45 UTC
+
+Kraken J.07 now has **22/29 accepted bespoke clips**. `dunk-reverse` uses the 15-pose cleanup01 derived atlas `public/assets/animation/kraken-dunk-reverse-right.webp` and its own Kraken track (height `[1,.9,1.2,1.6,1.55,1.65,1.6,1.75,-1.4,-.1,2.1,1.2,1,.8,.7]`, forward `[5,4,3,1,-1,-2,-3,-4,3.5,1.5,12,10,8,6,4]`). Independent source, cleanup, candidate gameplay and actual production-loader reviews pass. The 60 registered captures show the inverted hand contact at frames8–9, rim release tick21, 2-point score tick23 and recovery tick30 in both facings/zooms, with no injection or browser errors.
+
+Seven clips remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, and `alley-oop-reverse`. Strict report-only audit: 2,390 inspected assignments, 563 unique source atlases, 5,384 unique source drawings, 713 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Duplicate/ambiguous generation outputs remain explicitly ineligible; distinct source prompts/IDs/hashes are checked before future cleanup or registration.
+
 ## Kraken alley-oop power accepted — 2026-10-29 05:18 UTC
 
 Kraken J.07 now has **21/29 accepted bespoke clips**. `alley-oop-power` is registered at `public/assets/animation/kraken-alley-oop-power-right.webp`; this is a lossless derived cleanup of ImageGen attempt09, not a new generated sheet. The 15-pose atlas has baselineY92, transparent gutters and separate Kraken-only hand tracks. Candidate track attempt04 passed independent visual/gameplay review and the actual production-loader review. The 60 registered captures verify the real Marin Dusk pass, Kraken catch at tick10, carry through frame9, rim dunk/release at tick21, two points at tick23, recovery, both facings, both zooms, and no browser errors. The live capture uses the checked-in atlas and track with no injection.
