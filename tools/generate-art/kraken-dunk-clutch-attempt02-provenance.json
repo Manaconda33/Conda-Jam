@@ -3,7 +3,7 @@
   "clip": "dunk-clutch",
   "attempt": 2,
   "kind": "fresh ImageGen with transparent_background=true",
-  "status": "cleanup01 rejected for two detached specks; cleanup02 candidate awaits independent review; not registered",
+  "status": "accepted as cleanup02 derived atlas after independent cleanup/gameplay review and current-branch no-injection loader verification",
   "generatedAt": "2026-10-29T05:27:39Z",
   "generationId": "exec-6d4aa74b-1401-44ce-9266-c5be3ff4a76c",
   "promptFile": "tools/generate-art/kraken-dunk-clutch-attempt02-imagegen-prompt.txt",
@@ -44,5 +44,7 @@
       "script": "tools/generate-art/clean-kraken-dunk-clutch-attempt02-cleanup02.py",
       "layout": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/cleanup-layout-report.json"
     }
-  ]
+  ],
+  "productionAsset": "public/assets/animation/kraken-dunk-clutch-right.webp",
+  "normalLoaderReviewFile": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/PRODUCTION_LOADER_REVIEW.md"
 }

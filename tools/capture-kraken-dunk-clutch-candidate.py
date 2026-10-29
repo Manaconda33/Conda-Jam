@@ -25,7 +25,7 @@ if RUNTIME:
     ATLAS = './public/assets/animation/kraken-dunk-clutch-right.webp'
 TRACK_PATH = ROOT / f'tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-{TRACK_ATTEMPT}/track.json'
 TRACK = json.loads(TRACK_PATH.read_text())
-TICKS = [14,15,16,17,18,19,20,21,22,23,24,26,28,30]
+TICKS = [0,2,4,7,9,10,12,14,17,19,21,23,26,28,30]
 OUT = ROOT / (f'tools/generate-art/previews/kraken-dunk-clutch-attempt02/normal-loader-runtime' if RUNTIME else f'tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-{TRACK_ATTEMPT}/captures/{CAPTURE_LABEL}')
 OUT.mkdir(parents=True, exist_ok=True)
 report = {
@@ -33,7 +33,7 @@ report = {
     'atlas':ATLAS, 'atlasSha256':sha256((ROOT/ATLAS[2:]).read_bytes()).hexdigest(),
     'trackAttempt':TRACK_ATTEMPT, 'candidateTrack':TRACK, 'runtimeIntegration':RUNTIME,
     'candidateAtlasInjected':not RUNTIME, 'candidateBallTrackInjected':not RUNTIME,
-    'candidateStatus':'gameplay calibration only; not registered',
+    'candidateStatus':'registered production-loader capture' if RUNTIME else 'gameplay calibration only; not registered',
     'court':'current Jam Stage; Vesper Harbor Undertow vs Blackthorn Court Kings', 'courtY':90,
     'seed':128128, 'sampleTicks':TICKS, 'expectedScoreByFacing':{'right':[2,0],'left':[0,2]},
     'method':'Queue an actual production dunk-clutch action through Jam Stage simulation input and advance only normal simulation ticks. Runtime mode uses the registered manifest and athlete-specific track without candidate injection.',

@@ -1,8 +1,8 @@
-## Current captain lane — 2026-10-29 05:55 UTC
+## Current captain lane — 2026-10-29 06:02 UTC
 
-Kraken J.07: **24/29 accepted bespoke clips**, five missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`. Latest acceptance is `dunk-scythe` from cleanup03 with its own track02; independent art/gameplay reviews and current-branch normal-loader verification pass.
+Kraken J.07: **25/29 accepted bespoke clips**, four missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, and `dunk-double`. Latest acceptance `dunk-clutch` uses cleanup02 and a separate track02 with independent and current-branch loader evidence.
 
-Strict report-only audit: 2,392 assignments inspected; 565 unique source atlases; 5,414 source drawings; 711 missing assignments; zero target-frame shortfalls; four inherited prompt findings.
+Strict report-only audit: 2,393 assignments; 566 unique source atlases; 5,429 source drawings; 710 missing assignments; zero target-frame shortfalls; four inherited prompt findings.
 
 ## Current captain lane — 2026-10-29 05:18 UTC
 

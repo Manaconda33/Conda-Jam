@@ -1,8 +1,8 @@
-## Kraken dunk-scythe accepted — 2026-10-29 05:55 UTC
+## Kraken dunk-clutch accepted — 2026-10-29 06:02 UTC
 
-Kraken J.07 now has **24/29 accepted bespoke clips**; five remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, and `dunk-clutch`. `dunk-scythe` uses the cleanup03 scaled-repack WebP and separate Kraken track02. Independent art/gameplay review, a separate isolated-loader review, and a current-branch no-injection capture pass. All 15 frames render and mirror at 100%/120%; hand contact frames6–9, tick21 release, tick23 score, tick30 recovery, correct team scoring, zero browser errors. Style caveat: the atlas is slightly darker/noisier than idle, while identity, anatomy, pixel edges, margins and upright scale pass.
+Kraken J.07 now has **25/29 accepted bespoke clips**; four remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, and `dunk-double`. `dunk-clutch` uses cleanup02 and Kraken-specific track02. Independent source, cleanup and candidate-gameplay reviews plus current-branch no-injection loader captures pass. All 15 frames select in both facings/zooms; contact holds through poses7–9, release tick21, score tick23, recovery pose14, correct scoring side, and zero browser errors. Cleanup removed two detached marks (nine transparent pixels); all attached art is unchanged.
 
-Strict report-only audit: 2,392 inspected assignments; 565 source atlases; 5,414 unique source drawings; 711 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Validation passed: `npm test` 84/84, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, and `npm run build` produced the 119,624,406-byte standalone preview with the new atlas. This checkpoint is ready to publish.
+Strict audit: 2,393 assignments inspected; 566 source atlases; 5,429 unique source drawings; 710 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Full validation/build is pending for this checkpoint.
 
 ## Kraken alley-oop power accepted — 2026-10-29 05:18 UTC
 
