@@ -1,0 +1,111 @@
+# Parallel Captain Studio Architecture
+
+**Status:** Architecture proposal for review. It does not start captain production, merge PRs, or deploy.
+
+## Intent
+
+Once the repository has one clean, accepted baseline containing the Kraken-complete captain lane and reconciled support-player changes, produce the remaining bespoke captain libraries through independent captain lanes. Keep each lane constrained to one captain, preserve accepted art and provenance, and prevent concurrent workers from racing on the shared runtime manifest.
+
+The current registry is a single-writer surface: `tools/register-animation-atlas.mjs` mutates `public/assets/animation/manifest.json` and regenerates `src/content/animation-assets.js`; ball tracks currently live in `src/core/animation.js`. Workers therefore need an isolated contribution format and an integrator that alone owns global outputs.
+
+## Goals
+
+- Keep captain art bespoke and captain-specific. Do not use supporting-player donors or edit captain assets already accepted on the pinned base.
+- Assign one stable owner and one namespaced output area per incomplete non-Kraken captain.
+- Make a captain's contribution portable, immutable, hash-verifiable, and reviewable without direct worker writes to shared registries.
+- Reject stale, incomplete, ambiguous, conflicting, or unreviewed contributions before they affect active assets.
+- Combine a batch from one pinned base in one deterministic integration pass; generate the canonical manifest and runtime asset registry once.
+- Keep track data, provenance, review evidence, audit results, and accepted/rejected status attached to the exact art they describe.
+- Launch only the bounded 6–8 captain wave after the integrated base and this architecture pass review; measure real acceptance and integration throughput before any scale-up.
+
+## Non-goals and anti-goals
+
+- This design does not launch production lanes, generate art, merge PR #6 or #7, deploy, or authorize expansion past the first 6–8 lanes.
+- It does not weaken captain frame, identity, anatomy, facing, ball-contact, provenance, or independent-review requirements.
+- Workers do not edit `manifest.json`, `src/content/animation-assets.js`, `src/core/animation.js`, shared render/simulation code, global audit summaries, team/roster code, CI, or another captain's files.
+- No “last writer wins”, silent overwrite, inferred approval, borrowed support art, or generated-frame/hash inflation is allowed.
+
+## Chosen approach
+
+Use a **captain-scoped Git contribution package** plus a **single-writer batch integrator**.
+
+Each worker branch contains one package under `tools/generate-art/studio/<captain-id>/` and adds captain-unique runtime atlas files under `public/assets/animation/`. The package records paths to those assets, hashes, layouts, provenance, independent review evidence, and per-clip ball tracks. Before review, freeze an artwork inventory and compute an `artworkDigest` over its canonical clip/facing assignments, source and runtime artwork paths and byte hashes, source-to-packed lineage, and layout/geometry data. The independent reviewer inspects that fixed artwork digest and its associated previews. Only after approval and evidence are recorded is the final `packageId` computed, including the approval and evidence hashes. The Git commit is the portable package boundary; this two-stage digest avoids a circular approval dependency while keeping the entire contribution retrievable from its branch/commit.
+
+The coordinator collects one package per captain for each integration batch. The integrator validates all packages against the exact pinned baseline, applies the accepted clip deltas in memory to a temporary manifest and track registry, runs structural/content checks, generates the runtime registries once, and stages an integration report. Only a passing batch is atomically promoted to an integration branch/commit. Failed packages remain unchanged and receive a machine-readable rejection report with reason codes; a corrected package gets a new digest and commit.
+
+### Why this approach
+
+- Direct concurrent registry edits are ruled out by the shared manifest and generated registry.
+- Sequential cherry-picking of worker changes still allows worker PRs to contain conflicting global edits, and makes silent overwrite/rebase mistakes hard to detect.
+- A detached ZIP would duplicate the large binary assets and would need a second delivery path to get them into Git review. A namespaced Git package keeps the assets and the package metadata together, remains portable, and uses existing repository history and review.
+
+## Package contract
+
+One package represents the full missing-clip delta for one captain, not a partial stream. This makes the assignment single-owner and avoids same-captain package ordering within a batch. The captain can be marked complete only after its package passes integration and post-integration review.
+
+The package manifest is versioned JSON with at least:
+
+- `schemaVersion`, `packageId`, `captainId`, `baseCommit`, `createdAt`, and `producer`.
+- `expectedCaptainStateSha256`, computed from canonical serialization of that captain's manifest entry and track state at `baseCommit`.
+- `updates[]`: one row per added direction/clip, with `direction`, `clip`, `assetPath`, `assetSha256`, source/packed layouts, cell rectangles, baseline, frame anchors, and `trackPath`/`trackSha256`.
+- `trials[]`: every generated or edited attempt, including rejected candidates, with exact prompt and prompt hash, generation ID, timestamp, raw source path/hash, cleanup/source-to-packed lineage, reviewer, disposition, and a specific rejection reason when rejected. For new art, an unavailable generation ID never gets fabricated or inherited: preserve the exact tool response, prompt, timestamp, source hash, and attempt record, quarantine the package, retry only through a verified ID-producing route, and if that still fails stop and ask the user whether to authorize a documented exception or alternate source. Existing accepted baseline art remains as-is and is classified as legacy; this exception cannot be applied to newly produced art.
+- `acceptance`: accepted state and separate named evidence for source/art review, anatomy/identity and costume consistency, transparency/layout review, action timing and anchors, separate-ball track review, and native normal-loader gameplay review. Each evidence file is path-bound and hashed. Timing records include frame durations/loop behavior and applicable release, catch, grab, takeoff, peak, landing, and scoring events.
+- `dependencies`: only explicitly reviewed shared-engine/integration dependencies; package acceptance fails if a dependency is absent from the pinned baseline.
+- `artworkDigest`: SHA-256 over canonical JSON describing the frozen, sorted artwork inventory: clip/direction assignments, raw/source and packed/runtime artwork paths and SHA-256 hashes, source-to-packed lineage, and layout/cell geometry. The review request and approval bind to this digest. It excludes the review request, approval, review evidence, final `packageId`, timestamps, and activity logs.
+- `trackDigest`: SHA-256 over canonical sorted per-clip ball-track and action-anchor inputs. Gameplay/track evidence binds to this frozen digest so track review is independently reproducible.
+- `reviewRecord`: the worker branch/PR or equivalent traceable reference, author/owner, independent reviewer identity, disposition, `artworkDigest`, `trackDigest`, request nonce, separately dispatched reviewer session/task evidence, and hashes for the review report and captures. The reviewer must verify the fixed `artworkDigest` before visual approval; gameplay review verifies the `trackDigest`. Neither approval nor evidence can refer to or depend on the final `packageId`. After all approvals are recorded, freeze the evidence and compute the final package digest. A different free-text name or the same Codex GitHub login is not proof of independence. If the orchestration environment exposes a distinct reviewer session/task identifier, the coordinator can audit session separation and digest binding, but cannot cryptographically authenticate the agent's identity. If no stable separate-session evidence is available, require a distinct human GitHub reviewer identity; otherwise quarantine the package. The validator rejects a missing/spoofed request, a reused nonce, a reviewer session matching the worker session, any artwork/track change after its review, or evidence for another digest.
+
+`artworkDigest` is computed and frozen before the independent visual review. Final `packageId` is SHA-256 over canonical JSON of the completed manifest with `packageId` omitted, followed by sorted relative path/SHA-256 pairs for every other package file, review/evidence file, and runtime atlas; the manifest file itself is excluded from the path list to avoid a circular hash. The final digest includes the recorded approval and its supporting evidence. Review records/evidence must not contain or depend on the final package digest; if any artwork or approval evidence changes, issue a new review request against the new artwork digest as applicable and recompute the package digest. Paths must be normalized, remain within the captain package or `public/assets/animation/`, and contain no symlink or traversal component. Preserve the user-owned `tools/generate-art/review-j106-keeg-alley-oop-pose.py` byte-for-byte; the package collector and integrator must reject any change to that path.
+
+The package manifest does not authorize its own contents. Before reading declared files, the collector scans every commit in `baseCommit..workerCommit` and the complete base-to-worker tree diff, including Git object modes and additions, modifications, deletions, renames, and paths that do not appear in the package manifest. Only newly added regular files under the assigned captain's `tools/generate-art/studio/<captain-id>/` tree and assigned captain-prefixed original atlases for actually missing clips are allowed. Reject all other paths or changes, executable files, symlinks (mode `120000`), submodules (mode `160000`), LFS pointer files unless a separately reviewed repository policy permits them, path/case-fold collisions, merge commits, and any deletion/rewrite of baseline content. This prevents a valid-looking package manifest from hiding an unrelated worker-branch change.
+
+The package cannot claim a clip already accepted on the base. A worker may add only the missing clips and explicit facing variants from its assignment. Existing entries and files are immutable. All 29 actions and required directions are checked after integration; atlas files are checked against their actual decoded bytes, frame rectangles and unique-frame minimums. Ball art stays separate from sprites; track arrays and action anchors must match the clip and required gameplay events.
+
+## Baseline and batch rules
+
+- A production wave has one recorded `baseCommit` shared by all packages. The coordinator records the base manifest hash, captain roster/gap matrix, mirror policy, support-library state, and strict audit hash alongside the assignment sheet.
+- Each package's expected captain-state hash must match the corresponding captain in that same base. This permits independent captain packages to share the pinned base without tolerating a stale or changed captain entry.
+- A batch contains at most one package per captain and no duplicate runtime paths. Packages are first validated independently against the same base; a rejected package does not block unrelated valid captains from that wave. Integrate only the valid subset into one batch commit. A rejected package remains in the rejection ledger and must be rebased, regenerated with a new digest, and re-reviewed against the next base before reconsideration.
+- A new wave must pin the previous accepted integration commit and regenerate its gap inventory. Packages from a prior wave are stale and require explicit rebase/re-review; the integrator does not silently adapt them.
+- Until PR #6/#7 overlap is reconciled, there is no production base SHA and no worker assignments. The architecture branch may be based on Kraken-complete PR #6 only for design review.
+
+## Deterministic single-writer integration
+
+The integrator takes an explicit base commit, a package directory/list, and an output directory. It must:
+
+1. Verify the base SHA and audit/manifest hashes, captain-only scope, roster identity, current clip state, expected captain-state hash, package digest, all file hashes, and every review/evidence reference. Scan full worker commit ranges and complete tree diffs; never trust manifest-declared paths as the whole contribution.
+2. Fail closed for stale bases, duplicate captain ownership, duplicate/occupied asset paths, unsupported clips/directions, accepted-clip replacement, invalid frame geometry/counts/hashes, missing raw/prompt/provenance/review evidence, invalid anchors/tracks, dependency mismatch, path traversal, and malformed JSON.
+3. Decode each atlas and compare real file/frame hashes; never trust supplied frame hashes as proof of pixel content.
+4. Apply sorted package and clip deltas to a copy of the pinned manifest and structured track data. Preserve all unrelated captain and support entries byte-for-byte where practical.
+5. Render the generated asset/track registries and a normalized audit finding report deterministically into a temporary tree. Compare the strict report-only audit with the pinned complete baseline finding set: preserve all baseline findings visibly and by canonical detail hash; reject any new/unexplained error, new shortfall, or increase in missing directional assignments. Require no missing assignments for captains included in the batch and zero league gaps at final completion. Keep timestamps, environment-specific run metadata, raw timestamped audits, and activity/event logs out of the integration tree in separate append-only run records keyed by batch ID and resulting tree SHA. The normalized in-tree audit contains finding data and hashes only, including a deterministic normalized-audit fingerprint; the sidecar stores the raw audit hash and links it to the batch/tree, never back into the tree. Do not suppress or relabel inherited findings.
+6. Use canonical serialization (recursive lexicographic object keys, array order preserved, UTF-8, no insignificant whitespace, normalized LF). Derive the batch ID from a canonical integration-input record containing the base SHA, sorted final package IDs, integrator implementation commit/version, schema and registry-generator versions, strict-audit configuration and pinned baseline finding-set hashes, mirror-policy hash, and resource-policy hash. Hash every pinned input that can affect acceptance or output, not only its version label. Exclude wall-clock timestamps, elapsed durations, random IDs, raw timestamped audit hashes, and activity-log contents from every in-tree generated file. Create one integration commit from the verified temporary Git tree and update an explicitly allowlisted review/integration branch with a Git expected-old-SHA lease. Reject `main`, release, deployment, and any unapproved protected ref before commit promotion. Run the exact batch twice under different clocks and event-log contents and require identical tree objects. The active ref is the promotion boundary: a crash before it leaves active refs and registries unchanged; if the ref already equals the expected integration commit, the retry is idempotent; if the ref is still the expected old SHA, verify and safely promote the complete commit; if it moved elsewhere, fail stale and require a fresh base. Never expose a partial multi-file registry.
+
+Resource limits are explicit before any production batch: at most 8 packages in a batch, at most 64,000,000 decoded pixels per image (matching `decodeImage`), and at most 64 MiB per input file. A baseline profiling step records per-captain file count and total bytes; the committed limits file sets package file/byte caps to 125% of the largest observed complete captain evidence bundle, rounded up to a MiB, and sets a batch-byte cap no greater than measured available workspace after preserving the build/checkout reserve. Reject and report over-limit packages before decode/copy; limits cannot be silently raised mid-batch.
+
+Existing athlete tracks are embedded in `src/core/animation.js`, which is not a safe generated target. Before pilot integration, add a separate reviewed infrastructure change that moves the track data into a deterministically generated `src/content/animation-ball-tracks.js`, preserves the current track-source/fallback behavior, and proves exact gameplay parity. Captain packages then contribute to that data registry without worker edits to runtime code. This infrastructure change must be reviewed and integrated independently before any lane uses the package importer.
+
+## QA and production control
+
+Every accepted package must have exact prompts, generation IDs, source hashes, cleanup/source-to-packed layouts, rejected-candidate history, independent art/anatomy review, light/dark previews, native Jam Stage normal-loader captures for every pose and required facing at 100%/120%, separate athlete-specific ball-track review, and real gameplay validation for action timing and possession events. After integration, an independent reviewer checks visual identity, costume, silhouette, anatomy, motion continuity, and action coverage across the captain's complete 29-clip set, including the accepted clips retained from the base. Runtime tests must assert genuine registered selector/atlas use, correct mirror behavior, no candidate injection, no fallback, and zero browser errors.
+
+The scoreboard is a versioned coordinator artifact with captain ID, lane/owner, base SHA, existing accepted clips, missing clips, accepted since start, review/reject counts, blocker, package digest, integration commit, and QA state. It and the timestamped lane/event log are append-only operational records outside the deterministic integration tree; they record generation attempts and rate-limit failures, CPU/memory/worktree/build bottlenecks, rejection and rework frequency, integration conflicts, and elapsed integration cycle time. Their record hashes may point to a batch/tree SHA but never feed back into that tree. Its states are `not_started`, `art_in_progress`, `review`, `approved_package`, `integration_pending`, `integrated`, `complete`. Throughput is measured from actual timestamps and accepted packages; no linear scaling claim is made.
+
+The initial wave is 6–8 non-Kraken captains with unique owners. Stop/hold expansion if resource or ImageGen usage blocks progress, package QA rejects too often, or the integrator cannot keep up. Any 12–16 or larger wave requires demonstrated results and separate user authorization.
+
+## Pre-activation dependencies
+
+1. Pin `main`, PR #6, and PR #7 head/base SHAs. In a disposable clean scratch worktree, construct a local-only candidate from `main`, apply PR #6 first, then replay/rebase PR #7 on top. Resolve the exact shared paths—`docs/animation-production/ASSET_AUDIT_LATEST.json`, `docs/animation-production/ASSET_AUDIT_LATEST.md`, `docs/animation-production/ASSET_STATUS.md`, and `src/render/animation-sprites.js`—by regenerating the audit/status files from the candidate manifest after both changes and manually preserving both renderer behaviors. Keep all upstream PR refs and `main` unchanged.
+2. Independently compare the candidate with PR #6 to prove Kraken/captain assets, tracks, prompts, and accepted evidence are preserved; compare with PR #7 to prove all seven donor assignments, palettes, and 2,030 support clips are preserved. Run focused suites, full tests, content validation, strict audit, build, and registered-loader visual/gameplay checks on the candidate. Record conflicts, decisions, and candidate tree hash.
+3. Do not publish the candidate or merge either PR until separate user merge authorization. Without that authorization, stop at the reviewed scratch-candidate plan; no worker assignments or production base SHA exist.
+4. After authorized reconciliation, regenerate the strict audit and exact directional gap matrix on the final clean integrated base. The earlier 2026-10-29 Kraken audit (706 missing assignments, 28 incomplete captains, four inherited prompt findings) is only a reference. Store every baseline finding by full canonical detail and hash; preserve the full audit unchanged.
+5. Compare each later audit to that pinned finding set. Keep baseline missing clips and inherited prompt findings visible; reject any added/unexplained error, prompt finding, frame shortfall, or increase to missing assignments. At final league completion require zero missing assignments and resolve inherited findings only with reviewed evidence; never suppress or relabel them.
+6. Implement and independently review the structured track-registry prerequisite and package schema/collector/integrator as infrastructure changes, with positive, fail-closed, legacy, and conflict fixtures.
+7. Only after dependencies are reviewed and the user separately authorizes activation, create the 6–8 stable captain lanes from one base SHA and start production.
+
+## Decisions left to the implementation plan
+
+- Exact module and CLI names for package export, validation, integration, and audit ledger.
+- Exact canonical artwork/track inventory fields; the two-stage digest ordering and canonical serialization are specified above.
+- Exact track registry migration scope and parity fixture list.
+- Whether the coordinator stages by package commit or by a read-only package collector; both must preserve the same immutable package digest and pinned-base checks.
+- Resource limits for package count, atlas bytes, and image decode pixels, set from measured repository constraints before the first production batch.
