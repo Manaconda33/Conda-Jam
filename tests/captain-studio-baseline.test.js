@@ -29,7 +29,7 @@ function readPinnedAudit(){
  const {format,players,clips,classifications,donors,lineages,missing,prompts,...audit}=record;
  const direction=value=>value===0?'left':value===1?'right':null;
  audit.errors=[
-  ...missing.map(([athlete,clip,facing])=>({code:'missing-clip',athlete:players[athlete],clip:clips[clip],direction:direction(facing)})),
+  ...missing.map(([athlete,clip,facing,classification])=>({code:'missing-clip',athlete:players[athlete],clip:clips[clip],direction:direction(facing),classification:classifications[classification]})),
   ...prompts.map(([athlete,clip,facing,classification,donor,lineage])=>({
    code:'prompt-not-verbatim',athlete:players[athlete],clip:clips[clip],direction:direction(facing),
    ...(donor>=0?{donor:donors[donor]}:{}),...(lineage>=0?{lineage:lineages[lineage]}:{}),
