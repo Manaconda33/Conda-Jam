@@ -1,0 +1,30 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-scythe",
+  "attempt": 2,
+  "generationId": "exec-0b77099b-4ead-4619-8538-e9638f7d3e8d",
+  "generatedAt": "2026-10-29T05:11:00Z",
+  "promptFile": "tools/generate-art/kraken-dunk-scythe-attempt02-imagegen-prompt.txt",
+  "promptSha256": "6a365fe056b042134f17ad3308ee590381236bfbaf11c3cc0aa20a65cc300185",
+  "sourceFile": "tools/generate-art/sources/kraken-dunk-scythe-attempt02-generated-raw.png",
+  "sourceSha256": "cf884557a0df46049b5625172bb216bb3a1152ec0fc804b752560ecc8b8d4a52",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA"
+  },
+  "transparentBackgroundRequested": true,
+  "alpha": {
+    "minimum": 0,
+    "maximum": 254
+  },
+  "status": "raw source grid-split rejected; cleanup02 component-repack passes only for candidate gameplay trial",
+  "notes": "Independent source review verified hashes and found 15 connected components but nominal grid slicing clips pose8. cleanup01 is rejected. cleanup02-component-repack uses 15 whole components, is approved for gameplay trial only, and remains unregistered pending gameplay/normal-loader review. A separate cleanup03 scaled-repack derivative raises maximum occupied height from82 to89px in 88x96 cells (min horizontal clearance7px, top5px, bottom2px), preserving the source cleanup02 atlas unchanged; it awaits independent art review and has not entered gameplay or production.",
+  "cleanup03ScaledDerivative": {
+    "script": "tools/generate-art/scale-kraken-dunk-scythe-attempt02-cleanup03.py",
+    "atlas": "tools/generate-art/previews/kraken-dunk-scythe-attempt02/cleanup03-scaled-repack/kraken-dunk-scythe-attempt02-cleanup03-atlas.png",
+    "report": "tools/generate-art/previews/kraken-dunk-scythe-attempt02/cleanup03-scaled-repack/cleanup-layout-report.json",
+    "atlasSha256": "baef51515b6f0f5041ced9ea436736928e6d4924eac9ec83ae80dac02e588c54",
+    "status": "awaiting independent art review; not gameplay tested or registered"
+  }
+}

@@ -1,8 +1,8 @@
-## Kraken reverse dunk accepted — 2026-10-29 05:45 UTC
+## Kraken alley-oop-reverse accepted — 2026-10-29 05:52 UTC
 
-Kraken J.07 now has **22/29 accepted bespoke clips**. `dunk-reverse` uses the 15-pose cleanup01 derived atlas `public/assets/animation/kraken-dunk-reverse-right.webp` and its own Kraken track (height `[1,.9,1.2,1.6,1.55,1.65,1.6,1.75,-1.4,-.1,2.1,1.2,1,.8,.7]`, forward `[5,4,3,1,-1,-2,-3,-4,3.5,1.5,12,10,8,6,4]`). Independent source, cleanup, candidate gameplay and actual production-loader reviews pass. The 60 registered captures show the inverted hand contact at frames8–9, rim release tick21, 2-point score tick23 and recovery tick30 in both facings/zooms, with no injection or browser errors.
+Kraken J.07 now has **23/29 accepted bespoke clips**; six remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, and `dunk-scythe`. `alley-oop-reverse` uses attempt05 cleanup01 as a lossless WebP and the separately calibrated Kraken track attempt06. Independent raw/cleanup reviews and a 60-capture actual production-loader review pass: real Marin pass/catch, contact frames5–9, reverse finish, tick21 release, tick23 score, tick30 recovery, mirrored facings and both zooms, no injection or browser errors. Known caveats are documented: median figure height is about 16% below idle, and two raw source bounds touched cell edges before cleanup; no anatomy is visibly clipped in the cleaned asset or runtime.
 
-Seven clips remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, and `alley-oop-reverse`. Strict report-only audit: 2,390 inspected assignments, 563 unique source atlases, 5,384 unique source drawings, 713 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Duplicate/ambiguous generation outputs remain explicitly ineligible; distinct source prompts/IDs/hashes are checked before future cleanup or registration.
+Current strict audit: 2,391 inspected clip assignments; 564 source atlases; 5,399 unique source drawings; 712 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Full test/lint/build validation and push for this checkpoint are pending. Rejected and unreviewed candidate generations remain separate and are not registered.
 
 ## Kraken alley-oop power accepted — 2026-10-29 05:18 UTC
 

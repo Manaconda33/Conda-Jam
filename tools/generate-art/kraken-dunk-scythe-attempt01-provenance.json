@@ -17,6 +17,7 @@
     "minimum": 0,
     "maximum": 254
   },
-  "status": "raw candidate; independent review pending",
-  "notes": "Preserved without edits. No cleanup, runtime registration, or ball track has been created."
+  "status": "raw generation rejected by independent review; no cleanup or runtime registration accepted",
+  "notes": "Independent reviewer found painterly/antialiased contours, source-cell boundary crossings, and near-duplicate overhead beats 7/8. Raw source is preserved exactly; cleanup01 is diagnostic only.",
+  "promptSha256": "dcfb824108d5ac2488b8756157c34a95c89aa596cfc445a45eca9f48fc236c84"
 }

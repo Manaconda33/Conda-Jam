@@ -1,8 +1,8 @@
-## Current captain lane — 2026-10-29 05:45 UTC
+## Current captain lane — 2026-10-29 05:52 UTC
 
-Kraken J.07: **22/29 accepted bespoke clips**, seven missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, and `alley-oop-reverse`. `dunk-reverse` joined the accepted set after independent cleanup, candidate gameplay and actual normal-loader review; it has a separate Kraken ball track and correct mirrored inverted contact, rim release, score and recovery. `alley-oop-power` and `dunk-power` are also accepted with registered normal-loader evidence.
+Kraken J.07: **23/29 accepted bespoke clips**, six missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`. The newest accepted clip is `alley-oop-reverse` (attempt05 cleanup01, Kraken track06), with independent source, cleanup, and no-injection production-loader review. It preserves contact through frames5–9, reverse finish, release, score, recovery, mirroring, and the 16% shorter median scale/raw-edge caveats.
 
-Strict report-only audit: 2,390 inspected assignments; 563 unique source atlases; 5,384 unique source drawings; 713 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Candidate and rejected raw sources, exact prompts, hashes, provenance, cleanup, track attempts, and reviews are stored by clip under `tools/generate-art/`.
+Strict report-only audit: 2,391 assignments inspected; 564 unique source atlases; 5,399 source drawings; 712 missing assignments; zero target-frame shortfalls; four inherited prompt findings.
 
 ## Current captain lane — 2026-10-29 05:18 UTC
 
