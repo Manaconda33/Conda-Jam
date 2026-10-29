@@ -32,6 +32,17 @@ function gitBytes(root, args) {
 }
 function isRecord(value) { return value !== null && typeof value === 'object' && !Array.isArray(value) && Object.getPrototypeOf(value) === Object.prototype; }
 function assignmentKey(item) { return `${item.clip}\0${item.direction}`; }
+function hasRejectedPromptGap(trial) {
+  return trial?.disposition === 'rejected'
+    && trial.promptAvailability === 'unavailable'
+    && typeof trial.promptSummary === 'string'
+    && trial.promptSummary.trim().length > 0
+    && trial.promptSummaryVerbatim === false
+    && Array.isArray(trial.cleanupLineage)
+    && trial.cleanupLineage.length === 0
+    && !('promptPath' in trial)
+    && !('promptSha256' in trial);
+}
 function sortedAssignments(rows) {
   if (!Array.isArray(rows) || !rows.length) fail('INVALID_ASSIGNMENT');
   const seen = new Set();
@@ -141,7 +152,8 @@ function verifyUpdates(manifest, assignment, files, contents, captainId) {
   for (const trial of trials) {
     if (!isRecord(trial) || !expected.has(assignmentKey(trial)) || !['accepted', 'rejected', 'quarantined'].includes(trial.disposition)) fail('INVALID_TRIAL_RECORD');
     if (typeof trial.generatedAt !== 'string' || !Number.isFinite(Date.parse(trial.generatedAt))) fail('TRIAL_TIMESTAMP_MISSING');
-    requireFile(files, trial.promptPath, trial.promptSha256, captainId, 'prompts');
+    if (trial.promptAvailability === 'unavailable' && !hasRejectedPromptGap(trial)) fail('REJECTED_PROMPT_EXCEPTION_INVALID');
+    if (!hasRejectedPromptGap(trial)) requireFile(files, trial.promptPath, trial.promptSha256, captainId, 'prompts');
     requireFile(files, trial.rawSourcePath, trial.rawSourceSha256, captainId, 'sources');
     if (trial.disposition === 'rejected') {
       if (typeof trial.rejectionReason !== 'string' || !trial.rejectionReason.trim()) fail('REJECTION_REASON_MISSING');
