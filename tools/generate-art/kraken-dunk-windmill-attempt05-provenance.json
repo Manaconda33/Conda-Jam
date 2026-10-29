@@ -8,6 +8,7 @@
   "rawFile": "tools/generate-art/sources/kraken-dunk-windmill-attempt05-generated-raw.png",
   "rawSha256": "133b9f5a4f02144ee2c8211aa6fdacb122afb00be3930b9e093d20fcd87f3eff",
   "promptFile": "tools/generate-art/kraken-dunk-windmill-attempt05-imagegen-prompt.txt",
-  "status": "source independently reviewed; component cleanup/candidate gameplay recommended",
-  "reviewFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/INDEPENDENT_SOURCE_REVIEW.md"
+  "status": "accepted: independent source/cleanup/gameplay and current-branch production-loader review passed",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/PRODUCTION_LOADER_REVIEW.md",
+  "generatedAt": "2026-10-29"
 }

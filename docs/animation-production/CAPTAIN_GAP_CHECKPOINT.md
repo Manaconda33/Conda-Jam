@@ -1,3 +1,21 @@
+## Kraken dunk-tomahawk accepted — 2026-10-29 12:43 UTC
+
+Kraken J.07 is now **29/29 accepted bespoke clips**. Final `dunk-tomahawk` uses ImageGen attempt05, cleanup01 and Kraken-specific track attempt05. Independent source, cleanup, gameplay and registered-loader reviews pass. The checked-in lossless atlas and separate track render with no injection in 60 captures: all 15 frames at both facings and 100%/120%; contact through frames6–9; release tick21; correct-side score tick23; upright recovery tick30; zero browser errors. Raw generation, exact prompt, cleanup proofs, rejected and interrupted calibrations, and final runtime captures are retained.
+
+The Kraken lane is complete. Full validation passes: `npm test` 89/89, lint checks 21 modules, content validation confirms 35 franchises / 105 athletes / 35 captains, and the standalone build is 119,741,103 bytes. The strict league-wide audit remains incomplete for other athletes: 2,397 inspected assignments, 570 source atlases, 5,489 unique source drawings, 706 missing assignments, zero target-frame shortfalls, and four inherited prompt findings.
+
+## Kraken dunk-360 accepted — 2026-10-29 12:40 UTC
+
+Kraken J.07 now has **28/29 accepted bespoke clips**; only `dunk-tomahawk` remains. `dunk-360` uses ImageGen attempt05, cleanup01, and Kraken-specific track attempt10. Independent source, cleanup, gameplay and registered-loader reviews pass. The checked-in lossless atlas and separate track render with no candidate injection in 60 captures: all 15 frames across both facings and 100%/120%; visible contact through rotating poses6–9; release tick21; correct-side score tick23; upright recovery tick30; no browser errors. Earlier high, clipped, and low contact calibrations remain preserved.
+
+Strict report-only audit: 2,396 assignments inspected, 569 source atlases, 5,474 unique source drawings, 707 missing assignments, zero target-frame shortfalls, and four inherited prompt findings.
+
+## Kraken dunk-windmill accepted — 2026-10-29 12:31 UTC
+
+Kraken J.07 now has **27/29 accepted bespoke clips**; two remain: `dunk-360` and `dunk-tomahawk`. `dunk-windmill` uses ImageGen attempt05, cleanup01, and Kraken-specific track attempt03. Independent source, cleanup, gameplay and current-branch production-loader reviews pass. The registered lossless WebP and separate track render with no injection in 60 captures: all 15 frames at both facings and 100%/120%; hand contact at frames6–9; release tick21; expected-side score tick23; upright recovery tick30; zero browser errors. Raw source, exact prompt, component layout, light/dark proofs, rejected track attempts, and runtime screenshots are retained.
+
+Strict report-only audit: 2,395 assignments inspected, 568 source atlases, 5,459 unique source drawings, 708 missing assignments, zero target-frame shortfalls, and four inherited prompt findings.
+
 ## Kraken dunk-double accepted — 2026-10-29 12:12 UTC
 
 Kraken J.07 now has **26/29 accepted bespoke clips**; three remain: `dunk-windmill`, `dunk-360`, and `dunk-tomahawk`. `dunk-double` uses ImageGen attempt04, cleanup01, and Kraken-specific ball-track attempt04. The source and cleanup reviews pass. Current-branch production-loader captures use the registered lossless WebP and separate track with no candidate injection: all 15 frames across both facings and 100%/120%, 60 captures, hand contact through poses7–9, release tick21, two-point score tick23, recovery tick30, correct scoring side, and zero browser errors. Original prompt/raw source, rejected candidates, cleanup layouts/proofs, and all track attempts remain preserved.

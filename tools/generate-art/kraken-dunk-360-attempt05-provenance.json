@@ -8,6 +8,6 @@
   "rawFile": "tools/generate-art/sources/kraken-dunk-360-attempt05-generated-raw.png",
   "rawSha256": "24b9e5f933d4c89c1ca98ed29e7178cdf122ab99e628d8068d23c43332090004",
   "promptFile": "tools/generate-art/kraken-dunk-360-attempt05-imagegen-prompt.txt",
-  "status": "source independently reviewed; component cleanup/candidate gameplay recommended",
-  "reviewFile": "tools/generate-art/previews/kraken-dunk-360-attempt05/INDEPENDENT_SOURCE_REVIEW.md"
+  "status": "accepted: independent source/cleanup/gameplay and current-branch production-loader review passed",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-360-attempt05/PRODUCTION_LOADER_REVIEW.md"
 }

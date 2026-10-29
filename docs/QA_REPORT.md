@@ -1,3 +1,15 @@
+## Kraken dunk-tomahawk checkpoint — 2026-10-29 12:43 UTC
+
+Accepted ImageGen attempt05/cleanup01 with Kraken-specific track attempt05. The registered current-branch normal-loader review passes 60 captures across every frame, both facings and zooms, with candidate injection disabled. Independent source/cleanup/gameplay/loader reviews verify frames6–9 contact, release tick21, correct-side score tick23, recovery tick30, and zero browser errors. The strict league audit now records 2,397 assignments, 570 source atlases, 5,489 drawings, 706 remaining assignments outside Kraken, zero target-frame shortfalls and four inherited prompt findings. Kraken is 29/29. Full validation passes: `npm test` 89/89, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, build 119,741,103 bytes.
+
+## Kraken dunk-360 checkpoint — 2026-10-29 12:40 UTC
+
+Accepted ImageGen attempt05/cleanup01 with Kraken-specific track attempt10. Strict audit: 2,396 assignments, 569 unique source atlases, 5,474 unique drawings, 707 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Independent source/cleanup/gameplay review and current-branch 60-capture registered normal-loader review pass; all frames, both facings/zooms, no injection, rotating contact frames6–9, release tick21, correct score tick23, recovery tick30, zero browser errors. Focused integration test passes. Kraken has 28/29 clips; `dunk-tomahawk` remains.
+
+## Kraken dunk-windmill checkpoint — 2026-10-29 12:31 UTC
+
+Accepted ImageGen attempt05/cleanup01 with Kraken-only track attempt03. Strict report-only audit: 2,395 assignments, 568 unique source atlases, 5,459 drawings, 708 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Independent source/cleanup/gameplay review and current-branch normal-loader review pass 60 captures, all 15 frames, both facings and zooms, no injection, hand contact at frames6–9, tick21 release, expected-side tick23 score, tick30 upright recovery, zero browser errors. Focused integration test passes. Kraken has 27/29 clips; 360 and tomahawk remain.
+
 ## Kraken dunk-double checkpoint — 2026-10-29 12:12 UTC
 
 Accepted attempt04 cleanup01 derived atlas with Kraken-specific ball-track attempt04. Strict audit: 2,394 inspected assignments, 567 unique source atlases, 5,444 source drawings, 709 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Independent source/cleanup/gameplay reviews and a current-branch 60-capture normal-loader run pass: all 15 frames at both facings and 100%/120%, no candidate injection, contact poses7–9, release tick21, correct two-point score tick23, recovery tick30, zero browser errors. Full validation passes: `npm test` 86/86, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, build 119,671,763 bytes. Three Kraken clips remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`.

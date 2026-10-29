@@ -1,3 +1,21 @@
+## Kraken animation lane complete — 2026-10-29 12:43 UTC
+
+Kraken J.07 is **29/29 accepted bespoke clips**. Final `dunk-tomahawk` uses attempt05/cleanup01 and Kraken-specific track attempt05. Independent source/cleanup/gameplay and production-loader reviews pass 60 no-injection captures across all 15 frames, both facings and both zooms; contact frames6–9, tick21 release, score tick23, recovery tick30, no browser errors. Raw source, exact prompt, cleanup proofs, rejected/interrupted calibrations and final runtime captures remain under `tools/generate-art/`.
+
+Validation passes: `npm test` 89/89, lint checks 21 modules, content validation 35 franchises / 105 athletes / 35 captains, and standalone build 119,741,103 bytes. League-wide audit remains incomplete for other captains: 2,397 assignments, 570 source atlases, 5,489 drawings, 706 missing assignments, zero target-frame shortfalls and four inherited prompt findings. Final commit and push are in progress.
+
+## Kraken dunk-360 accepted — 2026-10-29 12:40 UTC
+
+Kraken J.07 is **28/29 accepted**; only `dunk-tomahawk` remains. Dunk-360 attempt05/cleanup01 is registered at `public/assets/animation/kraken-dunk-360-right.webp` with Kraken-specific attempt10 ball tracking. Independent art/gameplay and current-branch normal-loader reviews pass 60 no-injection captures across every frame, both facings and zooms; contact frames6–9, release tick21, score tick23, recovery tick30, zero browser errors. All prompts, raw sources, cleanup previews, tracks and rejected calibration screenshots remain under `tools/generate-art/`.
+
+Strict audit: 2,396 assignments, 569 atlases, 5,474 drawings, 707 missing assignments, zero target shortfalls, four inherited prompt findings. Tomahawk attempt05 has candidate approval only; perform its no-injection runtime gate before treating it as complete.
+
+## Kraken dunk-windmill accepted — 2026-10-29 12:31 UTC
+
+Kraken J.07 is **27/29 accepted bespoke clips**; `dunk-360` and `dunk-tomahawk` remain. Windmill attempt05/cleanup01 is registered at `public/assets/animation/kraken-dunk-windmill-right.webp` with separate Kraken track attempt03. Independent source, cleanup, gameplay and normal-loader reviews pass 60 no-injection captures across all 15 frames, both facings and zooms; contacts frames6–9, tick21 release, tick23 score, tick30 recovery, zero browser errors. Source/raw provenance, exact prompt, cleanup layout/proofs, candidate tracks and loader captures are preserved under `tools/generate-art/`.
+
+Audit: 2,395 assignments, 568 atlases, 5,459 source drawings, 708 missing assignments, zero target shortfalls and four inherited prompt findings. Continue with 360 attempt10 through the no-injection loader gate, then finish tomahawk track calibration and both production reviews.
+
 ## Kraken dunk-double accepted — 2026-10-29 12:12 UTC
 
 Kraken J.07 is **26/29 accepted bespoke clips**; `dunk-windmill`, `dunk-360`, and `dunk-tomahawk` remain. `dunk-double` attempt04/cleanup01 is registered at `public/assets/animation/kraken-dunk-double-right.webp` with a separate Kraken track attempt04. The current-branch normal-loader review has 60 no-injection captures covering all 15 frames, both facings, and 100%/120% zoom; independent art/gameplay review passes hand contact poses7–9, tick21 release, tick23 score, tick30 recovery, correct side, and zero browser errors. Exact prompt, generation ID/raw hash, cleanup and light/dark proofs, rejected candidates, and track calibration history remain under `tools/generate-art/`.

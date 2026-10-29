@@ -1,4 +1,22 @@
-## Current captain lane — 2026-10-29 12:12 UTC
+## Current captain lane — 2026-10-29 12:43 UTC
+
+Kraken J.07 is **29/29 accepted bespoke clips**. Final `dunk-tomahawk` attempt05/cleanup01 is registered as a lossless derived atlas with Kraken-specific ball-track attempt05. Independent source/cleanup/gameplay and current-branch no-injection loader reviews pass 60 captures for all poses, facings and zooms. Contact frames6–9, release tick21, expected-side tick23 score, tick30 recovery, zero browser errors, and exact atlas hash are verified. Raw source, exact prompt, cleanup layout and previews, all rejected/interrupted calibrations, and runtime captures remain preserved.
+
+Kraken's requested captain animation lane is complete. Validation passes: `npm test` 89/89, lint checks 21 modules, content validation confirms 35 franchises / 105 athletes / 35 captains, and `npm run build` produces a 119,741,103-byte standalone Jamverse preview embedding all Kraken clips. The league-wide strict audit remains incomplete because 706 assignments remain missing on other athletes; it reports 2,397 inspected assignments, 570 unique source atlases, 5,489 unique source drawings, zero target-frame shortfalls, and four inherited prompt findings.
+
+## Previous captain lane — 2026-10-29 12:40 UTC
+
+Kraken J.07: **28/29 accepted bespoke clips**; only `dunk-tomahawk` remains. `dunk-360` attempt05/cleanup01 is registered as a lossless derived atlas with Kraken-specific track attempt10. Independent source/cleanup/gameplay and current-branch no-injection loader reviews pass 60 captures covering every pose, facing and zoom. Rotating contact frames6–9, tick21 release, expected-side tick23 score, tick30 recovery, and zero browser errors are verified. Raw source, prompt, cleanup proofs, all 10 track calibrations and screenshot reports remain preserved.
+
+Strict report-only audit: 2,396 assignments, 569 unique source atlases, 5,474 unique source drawings, 707 missing assignments, zero target-frame shortfalls, and four inherited prompt findings. Focused Kraken 360 integration test passes. Tomahawk attempt05 passes independent candidate gameplay review and is ready for registered-loader validation; it remains unregistered.
+
+## Previous captain lane — 2026-10-29 12:31 UTC
+
+Kraken J.07: **27/29 accepted bespoke clips**; `dunk-360` and `dunk-tomahawk` remain. `dunk-windmill` attempt05/cleanup01 is registered as a lossless derived atlas with Kraken-specific track attempt03. Independent art/gameplay and current-branch no-injection loader reviews pass 60 captures across every pose, both facings and both zooms. Contact frames6–9, tick21 release, expected-side tick23 score, tick30 upright recovery and zero browser errors are verified. Provenance and rejected calibration history are preserved.
+
+Strict report-only audit: 2,395 assignments, 568 unique source atlases, 5,459 unique source drawings, 708 missing assignments, zero target-frame shortfalls, four inherited prompt findings. Validation of the windmill-focused integration test passes. The 360 attempt10 candidate track passes independent gameplay review and is queued for no-injection validation; tomahawk attempt03 calibration is in progress. Neither remaining candidate is registered.
+
+## Previous captain lane — 2026-10-29 12:12 UTC
 
 Kraken J.07: **26/29 accepted bespoke clips**; the remaining gaps are `dunk-windmill`, `dunk-360`, and `dunk-tomahawk`. `dunk-double` is accepted from attempt04/cleanup01 with Kraken-specific track attempt04. The registered lossless WebP and separate track pass the independent art/gameplay checks and 60 current-court normal-loader captures without candidate injection. Both facings and zooms select all 15 frames; contact is maintained through poses7–9, release occurs at tick21, Kraken scores at tick23, recovery completes at tick30, and browser errors are zero. Raw source, exact prompt, cleanup proof, rejected candidates, and calibration history are retained under `tools/generate-art/`.
 
