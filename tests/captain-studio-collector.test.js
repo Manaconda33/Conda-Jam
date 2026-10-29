@@ -98,6 +98,26 @@ test('collector detects path collisions and incomplete assigned clip sets',async
   await assert.rejects(()=>collectCaptainContribution({repositoryRoot:occupied.root,baseCommit:occupied.base,workerCommit:alternate,captainId:'reef-captain',assignment}),e=>e.code==='BASE_ATLAS_ALREADY_EXISTS');
 });
 
+test('collector resolves hyphenated captain and clip IDs only through exact assignment paths',async t=>{
+  const f=await fixture(t),expanded={missing:[{clip:'dunk-windmill',direction:'right'},{clip:'alley-oop-power',direction:'left'}]};
+  await f.put('tools/generate-art/studio/reef-captain/prompts/actions.md','prompt');
+  await f.put('public/assets/animation/reef-captain-dunk-windmill-right.webp','right atlas');
+  await f.put('public/assets/animation/reef-captain-alley-oop-power-left.png','left atlas');
+  const worker=f.commit('add hyphenated actions');
+  const result=await collectCaptainContribution({repositoryRoot:f.root,baseCommit:f.base,workerCommit:worker,captainId:'reef-captain',assignment:expanded});
+  assert.deepEqual(result.files.filter(x=>x.disposition.kind==='runtime-atlas').map(x=>[x.disposition.clip,x.disposition.direction]),[['alley-oop-power','left'],['dunk-windmill','right']]);
+});
+
+test('collector checks exact hyphenated baseline collisions and rejects lookalike prefixes',async t=>{
+  const occupied=await fixture(t),assigned={missing:[{clip:'dunk-windmill',direction:'right'}]};
+  await occupied.put('public/assets/animation/reef-captain-dunk-windmill-right.webp','baseline atlas');occupied.base=occupied.commit('pin occupied atlas');
+  await occupied.put('public/assets/animation/reef-captain-dunk-windmill-right.png','duplicate extension');const duplicate=occupied.commit('add duplicate action');
+  await assert.rejects(()=>collectCaptainContribution({repositoryRoot:occupied.root,baseCommit:occupied.base,workerCommit:duplicate,captainId:'reef-captain',assignment:assigned}),e=>e.code==='BASE_ATLAS_ALREADY_EXISTS');
+
+  const lookalike=await fixture(t);await lookalike.put('public/assets/animation/reef-captain-extra-dunk-windmill-right.webp','lookalike');const worker=lookalike.commit('add lookalike prefix');
+  await assert.rejects(()=>collectCaptainContribution({repositoryRoot:lookalike.root,baseCommit:lookalike.base,workerCommit:worker,captainId:'reef-captain',assignment:assigned}),e=>e.code==='UNASSIGNED_ATLAS');
+});
+
 test('collector rejects oversized blobs from Git metadata before loading their contents',async t=>{
   const f=await fixture(t);const large=path.join(f.root,'tools/generate-art/studio/reef-captain/sources/oversized.bin');await mkdir(path.dirname(large),{recursive:true});await writeFile(large,'');await truncate(large,64*1024*1024+1);await f.put('public/assets/animation/reef-captain-pass-right.webp','atlas');const worker=f.commit('oversized input');
   await assert.rejects(()=>collectCaptainContribution({repositoryRoot:f.root,baseCommit:f.base,workerCommit:worker,captainId:'reef-captain',assignment}),e=>e.code==='FILE_TOO_LARGE');
