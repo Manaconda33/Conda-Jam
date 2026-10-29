@@ -22,3 +22,29 @@ Ruling: implement independently testable digest/audit primitives while reconcili
 ## Validation and review
 
 New focused tests pass (two test files). Existing full source checkout suite passes 89/89 test files. Sparse infrastructure checkout cannot independently run existing asset-sensitive suites until its required assets are materialized. Independent foundation review found unsorted artwork inventories and getter-backed arrays; reproducing tests failed first, both fixes now pass. Reversed audit finding/result ordering is also covered. No visual or gameplay change is claimed.
+
+## Audit schema correction and continued infrastructure
+
+PR10 review comment 6502961040 identified that targetShortfalls is an array of structured findings in strict JSON, not the CLI count. The comparator now validates that schema, hashes exact shortfall details with multiplicity, normalizes their order, and rejects missing-count/context mismatches. A provenance-linked fixture extracted from the actual Kraken audit retains all 706 directional gaps and four inherited prompt findings. Unchanged real JSON accepts itself; changed shortfall details at equal count are rejected. The original count-based tests were insufficient.
+
+Independent review also identified missing directional context validation; a failing regression now covers it. Continued infrastructure adds a read-only resource profiler (measured bytes/files and explicit reserve; no production caps committed) and trusted-coordinator review-request checks. The latter bind dispatch evidence to a hash of the exact nonce, digests and scope, and reject malformed replay ledgers. These are auditable orchestration records, not cryptographic identity. Persistent review ledger, human-review fallback, package schema/validator and atomic consumption are still pending.
+
+Local verification commands:
+
+- node --test tests/captain-studio-*.test.js (in sparse infrastructure worktree): four files pass.
+- node --test tests/*.test.js tests/integration/*.test.js /workspace/captain-studio-infra/tests/captain-studio-package.test.js /workspace/captain-studio-infra/tests/captain-studio-baseline.test.js (in existing full captain checkout): 91/91 files pass after audit fix.
+- node --test tests/*.test.js tests/integration/*.test.js /workspace/captain-studio-infra/tests/captain-studio-*.test.js (same full checkout plus four infrastructure files): 93/93 pass after final review-dispatch fixes. This is local source/foundation evidence, not reconciled-candidate acceptance or remote Actions verification.
+
+## Complete readable scratch candidate
+
+A local-only sparse validation view at /workspace/captain-studio-reconciliation materializes source, runtime atlases, tests and tooling from the combined Git tree. Only tools/generate-art is referenced through an absolute validation-only directory link to the existing full captain checkout. Both Git source/evidence subtree hashes are exactly 33f0c6e1b813bc620ccb6db14373352af2c57be2; the original tracked subtree is clean. This avoids duplicating 7.0 GiB, leaving approximately 5.0 GiB free after materialization. The link is not a contribution, must never be staged/promoted, and no source-cleanup or generation command is allowed through it. All source/art validation must verify readable bytes and preserve originals. No Git tree-only check is claimed as visual acceptance.
+
+Actual candidate strict audit completed: 706 missing assignments,40 inherited prompt findings,zero target shortfalls. Comparing to PR7's full audit with the corrected comparator yields zero added findings and72 resolved missing entries (PR7 had778). The higher prompt count than the captain-only reference is inherited from PR7, not suppressed.
+
+Independent static reconciliation review proves candidate runtime atlas and source/evidence trees, core animation, generated registry and mirror policy match PR6; all seven donor mappings/profiles/palette implementation and donor manifest entries match PR7. Renderer retains both implementations. Status aggregates remain to be reconciled to the actual candidate audit.
+
+Candidate lint (24 modules), content validation and build pass. Initial candidate suite:87/90 pass. One failure was the sparse view omitting docs/LOSSLESS_ATLAS_PROVENANCE.json; materializing its exact Git blob makes that test pass. Two remaining failures require diagnosis before candidate acceptance: supporting lead-hand assertion for Marin's dribble and Marin-to-Kraken receive continuity (x correction about -4.64545). These are not failures in the reported 93-file source/foundation run; that run uses the existing captain baseline. Full combined candidate, visual/gameplay acceptance, production baseline pinning and track migration remain gated.
+
+Independent diagnosis of candidate failures: PR6's late Marin receive/idle assignment replaced her entire earlier track record, erasing own dribble overrides. Echo's fallback masked this; PR7's Juniper donor has no locomotion-forward track, exposing generic default1.5. The local-only scratch candidate now merges receive/idle overrides into the retained Marin record; the existing animation test passes. This proposed reconciliation change is not promoted into any production branch.
+
+The remaining pass/catch issue is distinct: Marin's donor pass release changes from Echo forward21.590909/height1.81818 to Juniper forward17.045455/height1.70455 at tick5. Kraken's incoming catch was calibrated for the earlier release. It produces an approximately4.64545px correction in the actual combined interaction. Do not weaken the test or transplant Echo's art track solely to make it pass; donor-aligned calibration and rendered gameplay review are required before accepting the combined baseline. Candidate remains unaccepted, and registry migration has not started.
