@@ -1,0 +1,4984 @@
+{
+  "version": 2,
+  "generatedAt": "2026-10-29T12:43:59.045Z",
+  "errors": [
+    {
+      "code": "prompt-not-verbatim",
+      "athlete": "reed-ashcroft",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "prompt-not-verbatim",
+      "athlete": "reed-ashcroft",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "prompt-not-verbatim",
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "prompt-not-verbatim",
+      "athlete": "juniper-vale",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lavi",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "ria",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gummiefish",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "colossus",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "mcfleurdel",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "toph",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "heph",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "liv",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "e-indigo",
+      "direction": "left",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "myth",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "wicked",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "anna",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alexithymia",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "alex",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "avek",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "cilia",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "steeb",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jennifer",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "eow",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dragon-queen",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "suga",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "6foot10",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "shoot",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "gb-design",
+      "direction": "left",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "jragena",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "dea",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "pack-mama",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "quirky",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "pass",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "pass-behind",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "receive",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "pickup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "layup",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "block",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "steal",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "fall",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "celebrate",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-windmill",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-reverse",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-360",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-tomahawk",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-double",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-clutch",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "alley-oop-power",
+      "classification": "original-authored"
+    },
+    {
+      "code": "missing-clip",
+      "athlete": "lula",
+      "direction": "right",
+      "clip": "alley-oop-reverse",
+      "classification": "original-authored"
+    }
+  ],
+  "targetShortfalls": [],
+  "missingClipCount": 706,
+  "inspectedClips": 2397,
+  "fixtureSource": {
+    "commit": "55a2ab104d6b108cc08132fddc01b32afb958e75",
+    "path": "docs/animation-production/ASSET_AUDIT_LATEST.json",
+    "sha256": "39d578067568c9f94f1932d4ec2beb4295807b3cfd7079e6f08ca58f76cb6562"
+  }
+}
