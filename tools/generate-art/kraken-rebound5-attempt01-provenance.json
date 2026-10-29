@@ -1,23 +1,26 @@
 {
-  "athlete": "J.07 Kraken",
+  "athlete": "J.129 Kraken",
   "clip": "rebound",
+  "direction": "right",
   "attempt": 1,
-  "status": "source generated; independent review pending",
-  "prompt": "tools/generate-art/kraken-rebound5-attempt01-imagegen-prompt.txt",
-  "generationId": "exec-f5c0870b-b24a-4660-9e24-7ab13a1bb4e4",
-  "generatedAt": "2026-10-28T13:11:00Z",
-  "source": "tools/generate-art/sources/kraken-rebound5-attempt01-generated-raw.png",
-  "sha256": "97fb6b205acd7555025cdbded86712767d1f2a968bad99d7b908fe05f0ab73fb",
-  "canonicalFrames": 5,
-  "durations": [
-    2,
-    2,
-    1,
-    2,
-    4
+  "status": "raw source awaiting independent cleanup trial review; not accepted",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-42873269-f086-4d8e-8a08-85d16a4cc185",
+  "generatedAt": "2026-10-29T03:37:59.024242Z",
+  "promptFile": "tools/generate-art/kraken-rebound5-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "853b7b759e132980d1ce8f9b4189ee5ea70ad77169e2a560524d7e2952586e1f",
+  "rawSourceImage": "tools/generate-art/sources/kraken-rebound5-attempt01-generated-raw.png",
+  "rawSha256": "1b294d8391027af9d7edcc33ba67a35f08214c2109199db5c789a2272b4f7db5",
+  "dimensions": [1983,793],
+  "format": "PNG RGBA",
+  "alphaRange": [0,255],
+  "referenceImages": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "public/assets/animation/kraken-celebrate-right.png"
   ],
-  "anchors": {
-    "grab": 3
-  },
-  "notes": "Ball stays separate and Kraken-specific; no cleanup, track registration or runtime integration before independent review."
+  "ballPolicy": "Ball remains a separate runtime object; no ball in athlete art.",
+  "frameCount": 5,
+  "durations": [2,2,2,2,2],
+  "notes": "Single five-pose source output. Preserve raw even if the art is rejected; no cleanup, packing or runtime use until review."
 }

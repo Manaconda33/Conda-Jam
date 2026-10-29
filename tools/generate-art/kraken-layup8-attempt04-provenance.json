@@ -1,0 +1,96 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": 4,
+  "status": "source approved for cleanup/layout trials only",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-372eebb2-64cc-4a98-995a-024d4078e912",
+  "generatedAt": "2026-10-29T03:10:57.824383Z",
+  "promptFile": "tools/generate-art/kraken-layup8-attempt04-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "2a4f7ecff27f30a7cb372a3912c65aa68ff08aafd54375cd7ea266325155dd11",
+  "referenceImages": [
+    "public/assets/animation/kraken-idle-right.webp"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/kraken-layup8-attempt04-generated-raw.png",
+  "rawSourceSha256": "68607684b1afa676b2c55c6925fc33f41d3634d1bf6009dcc0583f116a83a753",
+  "dimensions": [
+    1402,
+    1122
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "public/assets/animation/kraken-block-right.webp"
+  ],
+  "replaces": "attempt03 had smooth painterly gradients, antialiased contour and edge-fringe concerns; attempt04 references only the accepted production Kraken sprite for style and identity.",
+  "requiredFrameDurations": [
+    2,
+    3,
+    3,
+    2,
+    1,
+    3,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "takeoffTick": 2,
+    "release": 4,
+    "releaseTick": 10,
+    "peak": 4,
+    "finish": 7
+  },
+  "ballPolicy": "No ball in source artwork; calibrate a separate Kraken-specific track only after source and cleanup review.",
+  "cleanup": {
+    "status": "independent cleanup02 approved for separate ball-track trials only; runtime registration pending",
+    "script": "tools/generate-art/clean-kraken-layup8-attempt04-cleanup02.py",
+    "atlas": "tools/generate-art/previews/kraken-layup8-attempt04/cleanup02/kraken-layup8-attempt04-cleanup02-atlas-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-layup8-attempt04/cleanup02/layout.json",
+    "report": "tools/generate-art/previews/kraken-layup8-attempt04/cleanup02/cleanup-layout-report.json",
+    "review": "tools/generate-art/previews/kraken-layup8-attempt04/cleanup02/INDEPENDENT_CLEANUP_REVIEW_2026-10-29.md"
+  },
+  "ballTrack": {
+    "status": "candidate-injected review passed; normal-loader review pending",
+    "track": {
+      "height": [
+        1.0,
+        1.2,
+        1.55,
+        1.95,
+        2.25,
+        2.0,
+        1.35,
+        0.75
+      ],
+      "forward": [
+        3,
+        3,
+        3.5,
+        4,
+        5,
+        4,
+        3,
+        3
+      ],
+      "releaseVz": 0.45
+    },
+    "candidateReview": "tools/generate-art/previews/kraken-layup-layup-track-candidate/attempt-03/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md"
+  },
+  "rejectedAttempts": [],
+  "sourceReview": {
+    "status": "pass for cleanup/layout trials only",
+    "evidence": "tools/generate-art/previews/kraken-layup8-attempt04/INDEPENDENT_SOURCE_REVIEW_2026-10-29.md",
+    "notes": "Distinct sequence, Kraken identity, empty hands, complete anatomy, plausible right-arm continuity, alpha-zero background. Visible edge fringe/soft contours, frame4/5 distinction and tight 2px bottom margin require cleanup review."
+  },
+  "cleanupRejected": {
+    "cleanup01": "Per-sheet common scale left visible heights53\u201373px, creating size drift and frames4/5 required normalization. See tools/generate-art/previews/kraken-layup8-attempt04/INDEPENDENT_CLEANUP_REVIEW_2026-10-29.md."
+  }
+}

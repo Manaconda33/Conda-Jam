@@ -1533,7 +1533,8 @@ athleteBallTracks.kraken={steal:{height:[1,.9,.55,.55,.7,.9,1,1],forward:[5,7,6,
 athleteBallTracks.kraken['pass-overhead']={height:[1.05,1.85,1.75,1.9,2.1,1.2],forward:[2.5,3,2,6,10,14],releaseVz:.232}; // J.129 attempt09: independent review confirms visible, airborne path into Marin's hands
 athleteBallTracks.kraken['pass-behind']={height:[1.0,1.1,1.2,1.25,1.2,1.0],forward:[5,2,-5,-7,-9,4],releaseVz:.294};
 athleteBallTracks.kraken.pickup={height:[0.65,0.45,0.2,0.2,0.68],forward:[3.5,4.5,5.5,4.5,2.5]};
-athleteBallTracks.kraken.receive={height:[1.3,1.4,1.74,1.2],forward:[3,4.5,3,2]}; // J.07 receive attempt01: Marin pass meets pose2 at tick4; pose3 secures at tick5 // J.07 pickup attempt06/08: independently reviewed tick7 grab and gathered-hand carry // J.07 pass-behind attempt11/12: reviewed normal-loader pass; Marin catches at the facing hand anchor
+athleteBallTracks.kraken.receive={height:[1.3,1.4,1.74,1.2],forward:[3,4.5,3,2]};
+athleteBallTracks.kraken.layup={height:[1.0,1.2,1.55,1.78,1.85,2.0,1.35,.75],forward:[3,3,3.5,2.9,4.2,4.0,3,3],releaseVz:.45}; // J.129 layup track attempt06: independently reviewed candidate and registered normal-loader pass // J.07 receive attempt01: Marin pass meets pose2 at tick4; pose3 secures at tick5 // J.07 pickup attempt06/08: independently reviewed tick7 grab and gathered-hand carry // J.07 pass-behind attempt11/12: reviewed normal-loader pass; Marin catches at the facing hand anchor
 athleteBallTracks['marin-dusk']={'receive':{height:[1.3,1.35,1.7,1.75],forward:[4,4,2,1]},'idle-ball':{height:[1.45,1.45,1.45,1.45],forward:[1,1,1,1]}}; // J.07 pass attempt15: raised receive frame2/3 to meet Marin's cupped hands; separate held-ball track remains stable
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);

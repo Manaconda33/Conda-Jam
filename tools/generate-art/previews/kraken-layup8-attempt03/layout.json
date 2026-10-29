@@ -1,0 +1,305 @@
+{
+  "status": "cleanup/layout trial only; independent source and cleanup reviews pending",
+  "source": "tools/generate-art/sources/kraken-layup8-attempt03-generated-raw.png",
+  "sourceSha256": "5daf879f88a04dcc3b5d5a27c971702460995803dc7db210ea4d0431de78df40",
+  "atlas": "tools/generate-art/previews/kraken-layup8-attempt03/kraken-layup8-attempt03-runtime-candidate.png",
+  "atlasSha256": "8e5538806f2c0201ed1a352cecdd42f39361b7178c2a32719fa54181cddb9889",
+  "columns": 4,
+  "rows": 2,
+  "frameWidth": 80,
+  "frameHeight": 96,
+  "uniformScale": 0.1906005221932115,
+  "baselineY": 94,
+  "segmentation": "Global full-sheet alpha>=32 components assigned by centroid to row-major cells; full global component bounds preserve any pixels crossing cell seams; retain original-alpha pixels within 2px of each figure.",
+  "resampling": "nearest-neighbor",
+  "frames": [
+    {
+      "index": 0,
+      "slot": [
+        0,
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        113,
+        55,
+        400,
+        378
+      ],
+      "sourceStrongComponentPixels": 35149,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        55,
+        62
+      ],
+      "offsetInCell": [
+        12,
+        32
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        12,
+        32,
+        13,
+        2
+      ],
+      "alphaHash": "abdb8a990a8bbffc4ba7a0f9ddd8a2dad49ab1cc77f2e68e7013665d9f0d775a",
+      "poseHash": "e48e81ce4384a2f468496a3391b786956d1a34112edcdb9d3799d2deec9ac159"
+    },
+    {
+      "index": 1,
+      "slot": [
+        1,
+        0
+      ],
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        629,
+        36,
+        852,
+        383
+      ],
+      "sourceStrongComponentPixels": 32993,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        43,
+        66
+      ],
+      "offsetInCell": [
+        18,
+        28
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        18,
+        28,
+        19,
+        2
+      ],
+      "alphaHash": "4a1f0152d1c2737c62d9e815423f7b87afb33354585ffb0a49b11e8d8d265e04",
+      "poseHash": "eec99cefb9378a41f6becf761b0c58cb9bb440c0edb60b6bfec80944f62756d6"
+    },
+    {
+      "index": 2,
+      "slot": [
+        2,
+        0
+      ],
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        1138,
+        22,
+        1405,
+        392
+      ],
+      "sourceStrongComponentPixels": 36629,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        51,
+        71
+      ],
+      "offsetInCell": [
+        14,
+        23
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        14,
+        23,
+        15,
+        2
+      ],
+      "alphaHash": "cc1eae5590702ed879239a104ad9d39e05fc36140f1dd3e2f16b0f899650ad4a",
+      "poseHash": "b60fe1423f098db034b2075568519383a35868b3fe7c1fd9959e51645a29226a"
+    },
+    {
+      "index": 3,
+      "slot": [
+        3,
+        0
+      ],
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        1670,
+        12,
+        1931,
+        395
+      ],
+      "sourceStrongComponentPixels": 35848,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        50,
+        73
+      ],
+      "offsetInCell": [
+        15,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        15,
+        21,
+        15,
+        2
+      ],
+      "alphaHash": "49aff4b2f34e40cc3f5775c49d55266f25cef310c8fbc56b6cf2600db7268693",
+      "poseHash": "32eae45c6533144384b07a07fc590f71e53fac6611d48ddf750e69c10865127e"
+    },
+    {
+      "index": 4,
+      "slot": [
+        0,
+        1
+      ],
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        123,
+        402,
+        386,
+        784
+      ],
+      "sourceStrongComponentPixels": 33280,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        50,
+        73
+      ],
+      "offsetInCell": [
+        15,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        15,
+        21,
+        15,
+        2
+      ],
+      "alphaHash": "536ececb601f70493aa0b5b0394ce5729cbf8a713e53918de78e3c21ada5095f",
+      "poseHash": "7406809b00ea136c8e1e7aa844d59ada0bb218e4ac7e13fc26ed0afc11df6016"
+    },
+    {
+      "index": 5,
+      "slot": [
+        1,
+        1
+      ],
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        658,
+        424,
+        918,
+        784
+      ],
+      "sourceStrongComponentPixels": 33566,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        50,
+        69
+      ],
+      "offsetInCell": [
+        15,
+        25
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        15,
+        25,
+        15,
+        2
+      ],
+      "alphaHash": "0a8e631f6ff6fb37b0dca6803aab72209316e59e66b9cd8b7bc150a206f0a403",
+      "poseHash": "2c78a0c22d2b9dde454d072755b1be92d3e307f9de2c48577f8680824508b6af"
+    },
+    {
+      "index": 6,
+      "slot": [
+        2,
+        1
+      ],
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        1107,
+        439,
+        1393,
+        782
+      ],
+      "sourceStrongComponentPixels": 40293,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        55,
+        65
+      ],
+      "offsetInCell": [
+        12,
+        29
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        12,
+        29,
+        13,
+        2
+      ],
+      "alphaHash": "f3aeb3be1fa36ae3067aed2191028967c522351b0c352ac9e6696aa5ac009320",
+      "poseHash": "b75e4b85f29d958ecd24860ed38d9efe79316aa3b93db5a49e765573183474d3"
+    },
+    {
+      "index": 7,
+      "slot": [
+        3,
+        1
+      ],
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        1650,
+        442,
+        1839,
+        781
+      ],
+      "sourceStrongComponentPixels": 35751,
+      "uniformScale": 0.1906005221932115,
+      "scaledSize": [
+        36,
+        65
+      ],
+      "offsetInCell": [
+        22,
+        29
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        22,
+        29,
+        22,
+        2
+      ],
+      "alphaHash": "a4566c23db950b4eb0be003fc9bab178ecd04b47703e3a688f08464b2fc6dea0",
+      "poseHash": "e3a0def2443f674c688452bc6af4cc46edeaf4cace9f74d0a1c91313215c83ce"
+    }
+  ]
+}

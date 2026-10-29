@@ -1,0 +1,54 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "fall",
+  "direction": "right",
+  "attempt": 2,
+  "status": "raw source candidate; independent review pending; not cleaned, packed or registered",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-06df6cba-7336-4073-a8a5-2873f88fedff",
+  "generatedAt": "2026-10-29T03:14:19.404307Z",
+  "promptFile": "tools/generate-art/kraken-fall10-attempt02-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "9fd8e6d5d76656822f880f6d118a73cabfe1a1d3654e82b0b9e5f8d4c01785c5",
+  "referenceImages": [
+    "public/assets/animation/kraken-idle-right.webp"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/kraken-fall10-attempt02-generated-raw.png",
+  "rawSourceSha256": "b8cfb97fa22fe188614b70c5c21616191101710b8caae3a2da9a6402ba47c790",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "public/assets/animation/kraken-block-right.webp"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7
+  ],
+  "anchors": {
+    "finish": 9
+  },
+  "ballPolicy": "No ball is part of a fall action; do not bake props into athlete artwork.",
+  "cleanup": null,
+  "ballTrack": {
+    "status": "not-applicable",
+    "track": null
+  },
+  "rejectedAttempts": []
+}

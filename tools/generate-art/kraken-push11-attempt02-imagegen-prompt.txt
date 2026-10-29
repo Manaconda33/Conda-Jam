@@ -1,0 +1,20 @@
+Create a transparent production-style sprite sheet of exactly eleven unique, full-body poses of J.07 Kraken for the non-ball-contact `push` animation. Treat the supplied accepted Kraken idle and block sprite atlases as the authoritative references for the exact face, pointed elf ears, auburn hair, natural skin tone, athletic proportions, Vesper Harbor burgundy uniform with copper trim and amulet, outlines, shading, pixel density, and hard-edged arcade pixel-art style. Match those sprites closely; do not introduce painterly rendering, smooth gradients, soft focus, texture noise, or a different character design.
+
+Canvas and layout: a transparent 320×288 sheet arranged as four columns by three rows of 80×96 cells, row-major left to right, top to bottom. Put one complete Kraken figure in each of the first eleven cells and leave the twelfth cell fully transparent. Center each figure in its cell with at least 8 transparent pixels on every side; keep hair, both pointed ears, both hands and both shoes completely inside the cell. Use consistent scale and a common foot baseline for all grounded poses. Preserve true alpha and sharp pixel edges. No shadows or floor pixels.
+
+Character: Kraken is the same lean, athletic adult male elf in all frames, with natural skin, short auburn hair, clearly pointed ears, copper amulet, Vesper Harbor burgundy jersey and shorts with copper-gold piping, matching wrist details and shoes. Use a right-facing three-quarter view. Match the accepted references rather than embellishing them. His hands stay empty: never draw a basketball, ball, opponent or prop. The ball is a separate runtime object.
+
+Show a powerful two-handed forward shove with clear sequential weight transfer and full anatomy. Eleven distinct poses:
+0. Ready approach: knees bent, hands open near waist, shoulders squared.
+1. Load: rear knee bends, chest draws back, elbows bend beside ribs.
+2. Step: lead foot reaches forward, hands rise near chest, weight transfers forward.
+3. Drive preparation: torso inclines, rear heel lifts, palms rotate forward with elbows bent.
+4. Near-contact anticipation: palms just ahead of sternum, elbows half-open, front knee braced.
+5. Contact: both arms extend forward with palms out; shoulders drive through and front leg bears weight.
+6. Follow-through: arms stay extended as wrists drop; torso reaches its deepest lean and back leg stretches.
+7. Recoil: elbows begin folding, chest retreats and front knee compresses.
+8. Recovery step: rear foot returns under hips, open palms near shoulders, head levels.
+9. Settle: feet widen, hands lower below chest, torso straightens but stays alert.
+10. Ready finish: weight balanced, elbows relaxed outward near waist and shoulders lowered. Make this visibly distinct from pose 0.
+
+Keep one figure per cell and a clear transparent gutter between every pose. No crop, overlapping silhouettes, duplicate poses, extra or missing limbs, detached pixels, gridlines, cell dividers, borders, labels, numbers, logos, checkerboard, backdrop, glow, haze, vignette, court, floor, or cast shadow. The final unused cell must be fully transparent.

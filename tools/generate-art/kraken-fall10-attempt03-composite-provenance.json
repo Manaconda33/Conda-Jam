@@ -1,0 +1,64 @@
+{
+  "athlete": "J.129 Kraken",
+  "clip": "fall",
+  "direction": "right",
+  "classification": "original authored composite; not shared or palette-derived",
+  "status": "provisional atlas registered locally for production-loader review only",
+  "compositeAttempt": 3,
+  "frameLineage": [
+    {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "generationId": "exec-06df6cba-7336-4073-a8a5-2873f88fedff",
+      "rawSource": "tools/generate-art/sources/kraken-fall10-attempt02-generated-raw.png",
+      "rawSha256": "b8cfb97fa22fe188614b70c5c21616191101710b8caae3a2da9a6402ba47c790",
+      "prompt": "tools/generate-art/kraken-fall10-attempt02-imagegen-prompt.txt",
+      "promptSha256": "9fd8e6d5d76656822f880f6d118a73cabfe1a1d3654e82b0b9e5f8d4c01785c5"
+    },
+    {
+      "frames": [
+        9
+      ],
+      "generationId": "exec-669d8da9-18a9-46ce-860e-ff55e88dc589",
+      "rawSource": "tools/generate-art/sources/kraken-fall10-attempt03-pose09-generated-raw.png",
+      "rawSha256": "57d71dfb07a7529418aea63a644a3ea816b59cc8440e09e5eeb82929b4b2a6d4",
+      "prompt": "tools/generate-art/kraken-fall10-attempt03-pose09-imagegen-prompt.txt",
+      "promptSha256": "1ebb7399a6f2712425eca06501e743ebf0d5a86b4c010f6ae3adc54e3cce06be"
+    }
+  ],
+  "cleanupScript": "tools/generate-art/clean-kraken-fall10-attempt03.py",
+  "cleanupLayout": "tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/layout.json",
+  "cleanupAtlas": "tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+  "registeredAtlas": "public/assets/animation/kraken-fall-right.webp",
+  "registeredAtlasSha256": "f876730311ef7456a0494feb9614bbd1ac9fcfd79e1f9a724b8bd7ff03df1165",
+  "durationTicks": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7
+  ],
+  "anchors": {
+    "finish": 9
+  },
+  "sourceReview": "tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/INDEPENDENT_CLEANUP_REVIEW_2026-10-29.md",
+  "candidateGameplayReview": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/INDEPENDENT_REVIEW.md",
+  "ballPolicy": "No ball is baked into fall art; the ball remains separately simulated and dead/unowned through this action.",
+  "normalLoaderReview": {
+    "status": "pending"
+  }
+}

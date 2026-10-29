@@ -1,0 +1,5 @@
+# Independent review — Kraken layup track attempt 05
+
+**Verdict: refine once more before accepting contact.** The camera framing is good and the ball is now very close to Kraken's raised fingertips at ticks 8–9. In the zoomed captures for both facings and both zooms, a small visible gap remains between the ball edge and fingertips (roughly 3–6 screen pixels). The trajectory is now at the right height and forward position; use only a small adjustment toward the hand and recapture, rather than another large height change.
+
+At tick 10/frame 4, the ball has left the hand toward the rim, consistent with the release beat; tick 11 continues the follow-through/shot. The report records Kraken carrying through tick 9, unowned shot from tick 10, and a made 2-pointer by tick 44 (final score 2–0 / 0–2 depending on facing). The ball trajectory is visible toward the rim in both facings. All four facing/zoom views keep the athlete, ball, rim and HUD in frame without material occlusion. Candidate atlas/track injection is expected for this calibration run; this is not yet normal-loader production verification. No browser errors are reported.
