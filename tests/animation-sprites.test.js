@@ -127,6 +127,9 @@ test('Kraken J.07 block selects four canon-reviewed original poses at every anch
 test('held balls remain visible in front of their carrier at every jump height',()=>{
  for(const z of [0,5,18]){const owner={id:'carrier',y:50,z};const depth=ballDrawDepth({mode:'carried',ownerId:owner.id,y:50},[owner]);assert.ok(depth>owner.y-owner.z*.05);assert.ok(depth<51);}
  assert.equal(ballDrawDepth({mode:'shot',y:50},[]),49.5);
+ const receiver={id:'receiver',x:110,y:50,z:0};
+ assert.ok(ballDrawDepth({mode:'pass',targetId:receiver.id,x:106,y:50},[receiver])>receiver.y,'a nearby pass ball draws in front of its receiver for visible hand contact');
+ assert.equal(ballDrawDepth({mode:'pass',targetId:receiver.id,x:100,y:50},[receiver]),49.5,'a distant pass keeps ordinary court depth ordering');
  assert.equal(ballDrawDepth({mode:'carried',ownerId:'missing',y:50},[]),49.5);
 });
 test('a tiny kit fox keeps quadruped scale and athletes follow camera magnification',()=>{

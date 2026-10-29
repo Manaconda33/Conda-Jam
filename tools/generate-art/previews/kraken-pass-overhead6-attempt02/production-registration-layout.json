@@ -1,0 +1,108 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "pass-overhead",
+  "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+  "columns": 3,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "Edit the FIRST attached image, the six-pose Kraken overhead-pass sprite sheet. Use the SECOND attached image only as the required crisp pixel-art rendering and exact Kraken identity reference. Preserve the exact 3-column by 2-row grid, canvas composition, poses, timing, anatomy, right-facing direction, face, short auburn hair, pointed ear, copper amulet, body proportions, burgundy Vesper Harbor uniform with copper/gold trim, matching shorts, wrist details and shoes. Preserve all six poses and their order; edit only the problems specified below.\n\nRequired fixes:\n1. Remove the visible basketball from pose 0 (top-left). Pose 0 must have empty hands held close together at upper abdomen, miming the invisible ball. There must be a clear small gap between the hands and no ball-shaped object or prop.\n2. Remove the brown/orange vignette, glow, and all background contamination from every cell. The background must be genuinely transparent, with no semi-transparent color haze. Preserve only Kraken and his clean anti-aliased pixel-art silhouette.\n3. Match the SECOND reference's crisp, outlined arcade pixel-art rendering at the small-sprite scale. Convert excessive painterly gradients and soft airbrush shading to clean separated pixel clusters with clear outlines. Keep skin, hair, uniform, trim, face and accessories in their exact existing colors and positions. Do not redesign him or change his anatomy.\n4. Remove the small bright white detached-looking spot near pose 4 (bottom-middle) while preserving the arm, hand, face and pointed ear.\n\nKeep the canonical overhead-pass timing and silhouette: pose durations [2,3,2,1,2,3]; pose 0 holds the invisible ball at upper abdomen, knees soft; pose 1 lifts both hands above forehead, elbows spread and weight shifts rearward; pose 2 is the bent-elbow windup just behind crown; pose 3 is the exact empty-handed release, arms straightening above head toward target, wrists flicking forward and front foot stepping through (release tick 7); pose 4 is empty-palmed high-forward follow-through with rear heel lifted; pose 5 is recovery with hands lowering and feet balanced. No ball may appear in any pose, because the basketball is a separate runtime object.\n\nReturn exactly six complete figures in the same cells, same scale and alignment. True transparent background. No court, floor, cast shadow, hoop, other person, text, numbers, labels, gridlines, panel dividers, glow, haze, extra limbs, missing fingers, cropped anatomy, or detached pixels. Keep the same six poses; do not add or omit drawings.",
+    "promptFile": "tools/generate-art/kraken-pass-overhead6-attempt02-edit-prompt.txt",
+    "promptSha256": "f4abef3d272f3a28c0d342ecf8fcaf8f7d0406d1be3d2aab08cc3463266abdb6",
+    "generationId": "exec-c4431957-32b5-428e-b129-7dfdf0f745b4",
+    "generatedAt": "2026-10-28T10:22:18Z",
+    "rawSourceImage": "tools/generate-art/sources/kraken-pass-overhead6-attempt02-generated-raw.png",
+    "rawSourceSha256": "3c43eac04b5f68b11a3b1948d938392dfdae9831312881a44e27c8e50b14e71f",
+    "derivedRuntimeAtlas": "public/assets/animation/kraken-pass-overhead-right.png",
+    "derivedRuntimeAtlasSha256": "21b8433d251adc476bc5feabe6738a8bf294f9543c8e450614eb9646a8b9e4a4",
+    "cleanupScript": "tools/generate-art/clean-kraken-pass-overhead6-attempt02-v2.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/layout-v2.json",
+    "sourceReview": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "cleanupReview": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_CLEANUP_REVIEW_V2_2026-10-28.md",
+    "notes": "Attempt09 uses the production asset and separate athlete-specific track. The release arcs over the passer, remains airborne, and stays visible through Marin\u2019s reaching hands. Marin faces the incoming pass at receive time. A reviewed pass-target depth rule renders the ball in front of its receiver inside the 6-unit catch radius; simulation remains unchanged. The 2px bottom margin is tight but shoes remain complete. Both facings at 100%/120% show clear HUD framing and a continuous catch.",
+    "runtimeBallTrack": {
+      "height": [
+        1.05,
+        1.85,
+        1.75,
+        1.9,
+        2.1,
+        1.2
+      ],
+      "forward": [
+        2.5,
+        3,
+        2,
+        6,
+        10,
+        14
+      ],
+      "releaseVz": 0.232,
+      "reviewed": true
+    },
+    "normalLoaderReview": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/INDEPENDENT_REVIEW_2026-10-28.md",
+    "normalLoaderReport": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/report.json",
+    "rejectedCaptureTrials": [
+      {
+        "attempt": 5,
+        "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-05/gameplay/both/report.json",
+        "reason": "Candidate-only atlas and injected track; tick-key mismatch mislabeled carry samples as free flight."
+      },
+      {
+        "attempt": 6,
+        "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-06/normal-loader/report.json",
+        "reason": "Normal-loader contact and track passed, but at courtY=50 the 120% catch screenshots crop Marin beneath the HUD; superseded with courtY=75."
+      },
+      {
+        "attempt": 7,
+        "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-07/normal-loader/report.json",
+        "reason": "The track bounced at floor height before catch and made a 0.95-unit vertical correction despite clean final contact screenshots."
+      },
+      {
+        "attempt": 8,
+        "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/report.json",
+        "reason": "Arc stayed airborne but the ball was occluded behind Marin late and snapped 4.15 units horizontally into the catch while she faced away from passer."
+      }
+    ],
+    "renderingDepthReview": "Reviewed ballDrawDepth target overlay: an airborne pass within 6 world units of its intended receiver draws in front of that receiver, making late hand contact visible without changing simulation."
+  },
+  "status": "accepted and registered"
+}

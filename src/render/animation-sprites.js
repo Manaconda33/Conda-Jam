@@ -13,7 +13,11 @@ export function athleteVisualScale(athlete,zoom=100){
 /** A held ball stays in front of its carrier, while foreground defenders occlude it. */
 export function ballDrawDepth(ball,players){
   const owner=ball.mode==='carried'?players.find(p=>p.id===ball.ownerId):null;
-  return owner?owner.y-owner.z*.05+.01:ball.y-.5;
+  if(owner)return owner.y-owner.z*.05+.01;
+  const target=ball.mode==='pass'?players.find(p=>p.id===ball.targetId):null;
+  // Keep the last handoff visible above the catcher's sprite without changing ball physics.
+  if(target&&Math.hypot(target.x-ball.x,target.y-ball.y)<6)return target.y-target.z*.05+.01;
+  return ball.y-.5;
 }
 
 /** Select authored pixels using the simulation clock; drawing never advances gameplay. */

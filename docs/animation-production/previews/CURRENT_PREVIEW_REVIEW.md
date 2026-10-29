@@ -1,26 +1,20 @@
 # Current Jamverse animation preview verification
 
-**Review timestamp:** 2026-10-28 19:25 UTC
-**Branch baseline:** `codex/captain-animation-completion` with the Kraken pass checkpoint built and validated
-**Build:** `npm run build`, standalone `dist/JAMVERSE_96.html`; exact current atlas bytes verified embedded
+**Review timestamp:** 2026-10-28 19:55 UTC
+**Branch:** `codex/captain-animation-completion` with Kraken J.129 `pass-overhead` and the reviewed catch-depth fix
+**Build:** `npm run build`; standalone `dist/JAMVERSE_96.html`
 
-The rebuilt branch preview contains all current animation registrations:
+The current local preview includes all registered animation assets:
 
 - 105 roster athletes
-- 885 registered athlete/clip assignments
-- 885 unique referenced atlas assets
-- 8,067 frame rectangles
-- 0 missing atlas sources in the built preview
-- 0 extra atlas sources outside the manifest references
-- 0 embedded atlas byte mismatches
-- Standalone preview size: 119,062,808 bytes
+- 886 registered athlete/clip assignments
+- 886 production animation atlases
+- 8,073 production frame rectangles
+- 48 referenced legacy atlases
+- 934 total embedded atlases, checked byte-for-byte
+- 0 missing, extra, or mismatched embedded atlas sources
+- Standalone preview size: 119,117,646 bytes
 
-Krios has all 29 registered clips; Kraken has 10 registered clips, including `celebrate`, `shoot`, and the newly accepted bespoke `pass`. The local preview uses Kraken's reviewed elf art, plus accepted separate-ball shooting and passing tracks. Kraken rebound and reverse-layup candidates remain excluded.
+Kraken J.07 / J.129 has 11 of 29 registered clips. Its new six-pose `pass-overhead` atlas and separate track are included. A normal-loader check exercised all six frame selections in both facings; four live passes reached Marin Dusk at courtY=75 and 100%/120% zoom, with the ball visible into her hands and no score change or browser error. The renderer draws the ball ahead of its intended receiver only within the 6-unit catch radius; simulation remains unchanged. Rejected track trials 05–08 and the accepted attempt09 evidence remain in `tools/generate-art/previews/kraken-pass-overhead-track-candidate/`.
 
-The preview embeds every registered manifest atlas byte-for-byte with no missing or extra source. Normal-loader gameplay evidence for Kraken `shoot` confirms the new manifest entry and integrated ball track select `kraken-shoot-right.webp` in both facings and score correctly in all four zoom/facing runs; see `tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt36/offset-+10.0/`.
-
-Kraken `pass` also uses its registered normal-loader atlas and athlete-specific ball path. The live pass reaches Marin Dusk's receive frame2/tick4 hand track without a floor bounce or catch snap; attempt15 passes 64 captures at both facings and zooms. Evidence and independent review: `tools/generate-art/previews/kraken-pass6-track-candidate/attempt-15/native/`.
-
-An identity follow-up compared the user-provided Krios-on-court screenshot with the authoritative roster specs, the Kraken/Krios source atlases, and the current branch's normal-loader celebration capture. The submitted screenshot depicts Krios while Kraken receives the score, but its source build is unknown. The registered celebration atlas and current branch capture depict Kraken's elf design. See `tools/generate-art/previews/kraken-celebrate10-attempt04/identity-audit/INDEPENDENT_IDENTITY_AUDIT.md`; this comparison does not establish the submitted screenshot's build provenance.
-
-This validates the local branch build. The Pages workflow deploys `main`; this preview check does not claim a deployed Pages commit or URL.
+The preview still uses Kraken's reviewed elf artwork in its celebration, shooting, chest-pass, and overhead-pass clips. Kraken's rebound and reverse layup remain unregistered. The local preview is not a Pages deployment.

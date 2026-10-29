@@ -4,7 +4,7 @@
   "clip": "pass-overhead",
   "direction": "right",
   "attempt": 2,
-  "status": "source and cleanup accepted for separate ball-track trials only; no production registration",
+  "status": "registered and accepted after attempt09 normal-loader gameplay review",
   "tool": "image_gen__imagegen",
   "generationId": "exec-c4431957-32b5-428e-b129-7dfdf0f745b4",
   "generatedAt": "2026-10-28T10:22:18Z",
@@ -42,12 +42,12 @@
   },
   "ballPolicy": "No basketball in athlete artwork; calibrate a separate Kraken-specific track after source and cleanup review.",
   "sourceReview": {
-    "status": "pass for cleanup/layout trials only",
+    "status": "accepted",
     "evidence": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
-    "notes": "Six pose sequence and identity are coherent, ball-free. Threshold32 isolates six figures; painterly raw can be evaluated after nearest-neighbor runtime scale. Brown haze still requires mask cleanup."
+    "notes": "Six unique, ball-free overhead-pass poses preserve Kraken identity and complete anatomy; frame3 is the release anchor at tick7."
   },
   "cleanup": {
-    "status": "pass for separate ball-track trials only (v2)",
+    "status": "accepted for production; two-pixel bottom margin verified without shoe clipping",
     "attempts": [
       {
         "version": "v1",
@@ -65,11 +65,33 @@
         "status": "pass for separate ball-track trials only; globally segmented, complete poses3/4 across seam"
       }
     ],
-    "independentReview": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_CLEANUP_REVIEW_V2_2026-10-28.md"
+    "independentReview": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/INDEPENDENT_CLEANUP_REVIEW_V2_2026-10-28.md",
+    "finalIndependentReview": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/INDEPENDENT_REVIEW_2026-10-28.md"
   },
   "ballTrack": {
-    "status": "not-calibrated",
-    "track": null
+    "status": "accepted",
+    "track": {
+      "height": [
+        1.05,
+        1.85,
+        1.75,
+        1.9,
+        2.1,
+        1.2
+      ],
+      "forward": [
+        2.5,
+        3,
+        2,
+        6,
+        10,
+        14
+      ],
+      "releaseVz": 0.232
+    },
+    "review": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/INDEPENDENT_REVIEW_2026-10-28.md",
+    "normalLoaderReport": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/report.json",
+    "notes": "All four normal-loader passes keep the flight airborne and visible through Marin\u2019s hands; catch correction is ~0.15 horizontal and 0.162 vertical."
   },
   "rejectedAttempts": [
     {
@@ -79,5 +101,51 @@
       "review": "tools/generate-art/previews/kraken-pass-overhead6-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
       "reason": "Baked basketball in pose0, semi-transparent brown/orange vignette contamination, painterly rendering, white spot near pose4."
     }
-  ]
+  ],
+  "rejectedCaptureTrials": [
+    {
+      "attempt": 5,
+      "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-05/gameplay/both/report.json",
+      "reason": "Candidate-only atlas and injected track; tick-key mismatch mislabeled carry samples as free flight."
+    },
+    {
+      "attempt": 6,
+      "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-06/normal-loader/report.json",
+      "reason": "Normal-loader contact and track passed, but at courtY=50 the 120% catch screenshots crop Marin beneath the HUD; superseded with courtY=75."
+    },
+    {
+      "attempt": 7,
+      "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-07/normal-loader/report.json",
+      "reason": "The track bounced at floor height before catch and made a 0.95-unit vertical correction despite clean final contact screenshots."
+    },
+    {
+      "attempt": 8,
+      "report": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-08/normal-loader/report.json",
+      "reason": "Arc stayed airborne but the ball was occluded behind Marin late and snapped 4.15 units horizontally into the catch while she faced away from passer."
+    }
+  ],
+  "runtimeBallTrack": {
+    "height": [
+      1.05,
+      1.85,
+      1.75,
+      1.9,
+      2.1,
+      1.2
+    ],
+    "forward": [
+      2.5,
+      3,
+      2,
+      6,
+      10,
+      14
+    ],
+    "releaseVz": 0.232,
+    "reviewed": true
+  },
+  "normalLoaderReview": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/INDEPENDENT_REVIEW_2026-10-28.md",
+  "normalLoaderReport": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-09/normal-loader/report.json",
+  "notes": "Attempt09 uses the production asset and separate athlete-specific track. The release arcs over the passer, remains airborne, and stays visible through Marin\u2019s reaching hands. Marin faces the incoming pass at receive time. A reviewed pass-target depth rule renders the ball in front of its receiver inside the 6-unit catch radius; simulation remains unchanged. The 2px bottom margin is tight but shoes remain complete. Both facings at 100%/120% show clear HUD framing and a continuous catch.",
+  "renderingDepthReview": "Reviewed ballDrawDepth target overlay: an airborne pass within 6 world units of its intended receiver draws in front of that receiver, making late hand contact visible without changing simulation."
 }

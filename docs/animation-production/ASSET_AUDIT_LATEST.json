@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-28T19:27:07.991Z",
+  "generatedAt": "2026-10-28T19:53:14.128Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2378,
-  "missingClipCount": 725,
+  "inspectedClips": 2379,
+  "missingClipCount": 724,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 551,
-  "uniqueSourceDrawings": 5276,
+  "uniqueSourceAtlases": 552,
+  "uniqueSourceDrawings": 5282,
   "classifications": {
-    "original-authored": 551,
+    "original-authored": 552,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -169,8 +169,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "kraken": {
-      "clips": 10,
-      "missingClips": 19,
+      "clips": 11,
+      "missingClips": 18,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -892,13 +892,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "fall",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "kraken",
-      "direction": "right",
-      "clip": "pass-overhead",
       "classification": "original-authored"
     },
     {
@@ -63257,6 +63250,77 @@
           "h": 96,
           "hash": "feb0e586a916617ba8263a0f42d1db9ffa361e37e0c8f2a16b5dd607397bfaaf",
           "visiblePixels": 1861
+        }
+      ]
+    },
+    {
+      "athlete": "kraken",
+      "direction": "right",
+      "clip": "pass-overhead",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/kraken-pass-overhead-right.png",
+      "width": 240,
+      "height": 192,
+      "sha256": "21b8433d251adc476bc5feabe6738a8bf294f9543c8e450614eb9646a8b9e4a4",
+      "required": 6,
+      "target": 6,
+      "targetReached": true,
+      "actualFrames": 6,
+      "distinctFrames": 6,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "a35cbb290bd342c143ae954410e5ca7b5aa38e0abccc68ddad2cc237fe1bccd2",
+          "visiblePixels": 1580
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "3b204a3cac5b158052ff705e2e05985cf18b6bb8861c281a02a0a9a7e341d194",
+          "visiblePixels": 1504
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "4a7996b4837faa3c5a8982a72819c5ff832401f6ae699f2f6c075299eea1796f",
+          "visiblePixels": 1722
+        },
+        {
+          "index": 3,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "b7a608963a8300481e5d25b611258673354ce8fb40d0894ef0a983cc3fc9eeed",
+          "visiblePixels": 1444
+        },
+        {
+          "index": 4,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "657ad0f41ae8229d88e8cc8ba504b47cde9d0f70e07b0bcc4e8991fc7f0a7a5e",
+          "visiblePixels": 1350
+        },
+        {
+          "index": 5,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4b2174c1562d23a302b69611ea2d859194c2502d1acef5aed7f646efdcbf8465",
+          "visiblePixels": 1551
         }
       ]
     },
