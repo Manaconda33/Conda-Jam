@@ -30,7 +30,22 @@ export function computeArtworkDigest({artworkInventory}) {
   return digest({domain:'captain-artwork-v1',inventory:{...metadata,files:canonicalFileInventory(files),assignments:sorted}});
 }
 export function computeTrackDigest({trackInventory}) {
-  return digest({domain:'captain-tracks-v1',inventory:trackInventory});
+  if (!trackInventory || typeof trackInventory !== 'object' || Array.isArray(trackInventory)) throw new TypeError('Track inventory required');
+  let inventory=trackInventory;
+  if (Array.isArray(trackInventory.assignments)) {
+    const seen=new Set();
+    const assignments=trackInventory.assignments.map(row=>{
+      if (!row || typeof row.clip!=='string' || !['left','right'].includes(row.direction)) throw new TypeError('Invalid track assignment');
+      const key=`${row.clip}\0${row.direction}`;
+      if (seen.has(key)) throw new TypeError('Duplicate track assignment');
+      seen.add(key);return row;
+    }).sort((a,b)=>{
+      const x=`${a.clip}\0${a.direction}`,y=`${b.clip}\0${b.direction}`;
+      return x<y?-1:x>y?1:0;
+    });
+    inventory={...trackInventory,assignments};
+  }
+  return digest({domain:'captain-tracks-v1',inventory});
 }
 export function computePackageDigest({manifest,files}) {
   const {packageId: omitted,...payload} = manifest;
