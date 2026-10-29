@@ -23,9 +23,25 @@ test('audit finding and result enumeration does not change normalized bytes',()=
 });
 
 import { readFileSync } from 'node:fs';
-test('real strict audit baseline accepts its 706 gaps and four inherited prompts',()=>{
- const audit=JSON.parse(readFileSync(new URL('./fixtures/captain-studio/baselines/kraken-reference.json',import.meta.url)));
- assert.equal(audit.missingClipCount,706);assert.equal(audit.errors.length,710);
+function readPinnedAudit(){
+ const record=JSON.parse(readFileSync(new URL('./fixtures/captain-studio/baselines/kraken-reference.json',import.meta.url)));
+ if(record.format!=='captain-studio-audit-findings-v1')return record;
+ const {format,players,clips,classifications,donors,lineages,missing,prompts,...audit}=record;
+ const direction=value=>value===0?'left':value===1?'right':null;
+ audit.errors=[
+  ...missing.map(([athlete,clip,facing])=>({code:'missing-clip',athlete:players[athlete],clip:clips[clip],direction:direction(facing)})),
+  ...prompts.map(([athlete,clip,facing,classification,donor,lineage])=>({
+   code:'prompt-not-verbatim',athlete:players[athlete],clip:clips[clip],direction:direction(facing),
+   ...(donor>=0?{donor:donors[donor]}:{}),...(lineage>=0?{lineage:lineages[lineage]}:{}),
+   classification:classifications[classification],
+  })),
+ ];
+ return audit;
+}
+test('combined candidate strict audit baseline accepts its 706 gaps and forty inherited prompts',()=>{
+ const audit=readPinnedAudit();
+ assert.equal(audit.missingClipCount,706);assert.equal(audit.errors.length,746);
+ assert.equal(audit.errors.filter(error=>error.code==='prompt-not-verbatim').length,40);
  assert.equal(compareAudits(audit,audit).ok,true);
 });
 test('exact shortfall detail changes fail even when counts stay equal',()=>{
