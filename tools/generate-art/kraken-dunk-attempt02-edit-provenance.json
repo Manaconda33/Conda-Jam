@@ -1,0 +1,28 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk",
+  "attempt": 2,
+  "kind": "image edit of attempt01 raw",
+  "status": "rejected by independent source review",
+  "generatedAt": "2026-10-29T03:59:00Z",
+  "generationId": "exec-606e0e29-7975-4d94-a3db-63f29859e09a",
+  "parentRaw": "tools/generate-art/sources/kraken-dunk-attempt01-generated-raw.png",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt02-edit-prompt.txt",
+  "promptSha256": "d92cfee85e7543ca3af9ff80dd1ac98864aac42ab4facb31b30b72cfc4453e3d",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt02-edited-raw.png",
+  "rawSha256": "9acf76a5b4ad7c8f8b07e6567f627f3ea0b49caf0bc0dc71beee7c2224ba6a61",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentPixels": 1007116,
+  "partialAlphaPixels": 564155,
+  "generatedBy": "ImageGen",
+  "note": "Edited result has not been independently reviewed or accepted.",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt02/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Rejected by independent source review: editing did not fix cell spill, semi-transparent fringe, pose similarity, or painterly style."
+}

@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-power",
+  "attempt": 8,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected for production; cleanup02 pixel-art trial awaits independent review",
+  "generatedAt": "2026-10-29T04:40:00Z",
+  "generationId": "exec-70464830-b9cf-44ba-ba73-ee7444aced0a",
+  "promptFile": "tools/generate-art/kraken-dunk-power-attempt08-imagegen-prompt.txt",
+  "promptSha256": "fc61e2fb6000950034fbeb22f3a56a3baff1bfa397a56e4b3136bba3c447fb77",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-power-attempt08-generated-raw.png",
+  "rawSha256": "9042a57fd4f003a8a3a7050ea611d88d8cd27ecf9d36e3504ca3101883e98322",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-power-attempt08/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Independent raw-source review found true alpha transparency and 15 distinct silhouettes, but smooth painted shading/antialiased edges and tight/zero margins. cleanup02 deterministically nearest-neighbor downsamples, applies a shared 24-color palette and removes tiny detached components; no poses were invented. Runtime acceptance remains pending.",
+  "derivedCandidate": "tools/generate-art/previews/kraken-dunk-power-attempt08/cleanup02/cleanup-layout-report.json"
+}

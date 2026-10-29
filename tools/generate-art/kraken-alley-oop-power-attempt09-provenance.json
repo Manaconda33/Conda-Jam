@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-power",
+  "attempt": 9,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected for production; cleanup02 pixel-art trial awaits independent review",
+  "generatedAt": "2026-10-29T04:45:00Z",
+  "generationId": "exec-acc4c354-79ac-4caa-a8ff-b08eeedf16b0",
+  "promptFile": "tools/generate-art/kraken-alley-oop-power-attempt09-imagegen-prompt.txt",
+  "promptSha256": "3a942eee85b5a471a1f4c6e0c7718a29146f0053722a21a6dc42889079aa4585",
+  "rawFile": "tools/generate-art/sources/kraken-alley-oop-power-attempt09-generated-raw.png",
+  "rawSha256": "134c514b8266ae45844ce2a858241e9283ff5dba9693042797086ba552838d68",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Independent raw-source review found transparent gutters and 15 distinct poses with readable catch-to-dunk sequence, but painterly gradients/antialiased edges and several edge-touching cells. cleanup02 applies a deterministic shared-palette nearest-neighbor pixel conversion and removes tiny detached components; no poses were invented. Runtime acceptance remains pending.",
+  "derivedCandidate": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/cleanup02/cleanup-layout-report.json"
+}

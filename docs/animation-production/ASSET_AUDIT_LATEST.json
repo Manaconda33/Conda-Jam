@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-29T03:51:22.430Z",
+  "generatedAt": "2026-10-29T04:43:36.261Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2384,
-  "missingClipCount": 719,
+  "inspectedClips": 2387,
+  "missingClipCount": 716,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 557,
-  "uniqueSourceDrawings": 5315,
+  "uniqueSourceAtlases": 560,
+  "uniqueSourceDrawings": 5339,
   "classifications": {
-    "original-authored": 557,
+    "original-authored": 560,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -169,8 +169,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "kraken": {
-      "clips": 16,
-      "missingClips": 13,
+      "clips": 19,
+      "missingClips": 10,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -892,27 +892,6 @@
       "athlete": "juniper-vale",
       "direction": "right",
       "clip": "fall",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "kraken",
-      "direction": "right",
-      "clip": "layup-reverse",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "kraken",
-      "direction": "right",
-      "clip": "push",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "kraken",
-      "direction": "right",
-      "clip": "rebound",
       "classification": "original-authored"
     },
     {
@@ -63567,6 +63546,95 @@
     {
       "athlete": "kraken",
       "direction": "right",
+      "clip": "layup-reverse",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/kraken-layup-reverse-right.webp",
+      "width": 320,
+      "height": 192,
+      "sha256": "79a82632bec7f096a9e016452dd237bdd2a0908542d91487902329a52160eb66",
+      "required": 8,
+      "target": 8,
+      "targetReached": true,
+      "actualFrames": 8,
+      "distinctFrames": 8,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "999a6358f56ebf2e93185010c648ae6cb69fbaa3e547b8d607216a74f0f4fc8d",
+          "visiblePixels": 1556
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "b1691d54726d477c533e908e4a2f48edcc64458f4d6aa959ecc0be9ae36f657f",
+          "visiblePixels": 1053
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "65b53ab1b44d49cd717c323fd2500291f8e7fc8930ab0e2d6915a86139f03512",
+          "visiblePixels": 1143
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "2cfce55baecc18866f622a2170464a0350c19eb547c3450e5ed0b6c6653435c7",
+          "visiblePixels": 1160
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "03de313cfa342e304e81724046957908f3c29b381831a70f65bd4331e24889a5",
+          "visiblePixels": 1295
+        },
+        {
+          "index": 5,
+          "x": 80,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "bbfeae50eade52010baf82812c08fd2ac64ca1b9a1dea7b9ce8d73a1f820fae3",
+          "visiblePixels": 1109
+        },
+        {
+          "index": 6,
+          "x": 160,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "6bfbd8bae14d6bb68702e3379c184b0c5b20810228967868ef411695ac5043c2",
+          "visiblePixels": 1151
+        },
+        {
+          "index": 7,
+          "x": 240,
+          "y": 96,
+          "w": 80,
+          "h": 96,
+          "hash": "4661af0a40b70f78ee1565e7addff74fced90f46bd0371ca355193ab5983839f",
+          "visiblePixels": 1658
+        }
+      ]
+    },
+    {
+      "athlete": "kraken",
+      "direction": "right",
       "clip": "block",
       "classification": "original-authored",
       "src": "./public/assets/animation/kraken-block-right.webp",
@@ -63703,6 +63771,184 @@
           "h": 96,
           "hash": "edac6486174145995614d1c8fb694eed5f979387025694d2fb2284f1b76798b9",
           "visiblePixels": 2845
+        }
+      ]
+    },
+    {
+      "athlete": "kraken",
+      "direction": "right",
+      "clip": "push",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/kraken-push-right.webp",
+      "width": 512,
+      "height": 336,
+      "sha256": "17e091cbaa1fb21319ea07a7d506e7684bd3e1a3ec109d812c844ff8d6d32a64",
+      "required": 8,
+      "target": 11,
+      "targetReached": true,
+      "actualFrames": 11,
+      "distinctFrames": 11,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 128,
+          "h": 112,
+          "hash": "a6cfa59352182f6588aeaf61e1ea043aa0f92ee3e534082c112959e013ba3fc6",
+          "visiblePixels": 3390
+        },
+        {
+          "index": 1,
+          "x": 128,
+          "y": 0,
+          "w": 128,
+          "h": 112,
+          "hash": "3c56d844011545b72d315e4364d8db3b34a4e3561f7206a6d93f6e171e615718",
+          "visiblePixels": 3188
+        },
+        {
+          "index": 2,
+          "x": 256,
+          "y": 0,
+          "w": 128,
+          "h": 112,
+          "hash": "bd3ac8704cc02483e954672de60fe89bb4d3c0ee014a16d43b426ac0ef05539c",
+          "visiblePixels": 3385
+        },
+        {
+          "index": 3,
+          "x": 384,
+          "y": 0,
+          "w": 128,
+          "h": 112,
+          "hash": "a670db3af94c6d36234301a5e2f9fe44c3a106eb9ddda3839879d521fff95f05",
+          "visiblePixels": 3310
+        },
+        {
+          "index": 4,
+          "x": 0,
+          "y": 112,
+          "w": 128,
+          "h": 112,
+          "hash": "0e0f6ee910ae3677f5981fe50e53286b2b820077c372d500f54de1a0567665c6",
+          "visiblePixels": 3608
+        },
+        {
+          "index": 5,
+          "x": 128,
+          "y": 112,
+          "w": 128,
+          "h": 112,
+          "hash": "6f8ee9c03b10b27aab0d0e398535acfa5c32c321a819b163e33e8e8ada73de85",
+          "visiblePixels": 3966
+        },
+        {
+          "index": 6,
+          "x": 256,
+          "y": 112,
+          "w": 128,
+          "h": 112,
+          "hash": "3fb10397c6b79e3b2dff54dbf2cc122f903ec28aee3190e8b259e6e4a165680f",
+          "visiblePixels": 3680
+        },
+        {
+          "index": 7,
+          "x": 384,
+          "y": 112,
+          "w": 128,
+          "h": 112,
+          "hash": "c2b1db09cb674cad846b3415ad57769958d4f4a19565749bdc80e30331ef9b35",
+          "visiblePixels": 3289
+        },
+        {
+          "index": 8,
+          "x": 0,
+          "y": 224,
+          "w": 128,
+          "h": 112,
+          "hash": "0f8edf924cb535cb1c2553a833b81d2fdf60a54b584cf0e0f9f605d87f111ac0",
+          "visiblePixels": 3529
+        },
+        {
+          "index": 9,
+          "x": 128,
+          "y": 224,
+          "w": 128,
+          "h": 112,
+          "hash": "536fa9507f30c9fd875e34f88a388d0cb1f5b855865867ef663e24be2bb9d369",
+          "visiblePixels": 3527
+        },
+        {
+          "index": 10,
+          "x": 256,
+          "y": 224,
+          "w": 128,
+          "h": 112,
+          "hash": "3617ddbaa392517c3e25e61a71de0821f7a208252034e23eb8504380bcbe4e26",
+          "visiblePixels": 3425
+        }
+      ]
+    },
+    {
+      "athlete": "kraken",
+      "direction": "right",
+      "clip": "rebound",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/kraken-rebound-right.webp",
+      "width": 400,
+      "height": 96,
+      "sha256": "1edc3d86ccf1ef4029ae49ac48bd056353a5e48a67be4ae7bc046129bb3340d0",
+      "required": 5,
+      "target": 5,
+      "targetReached": true,
+      "actualFrames": 5,
+      "distinctFrames": 5,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "5f8f8f08170deecf761f937ca0e1901e253e7c447a71ed0bf9ae8cfc2ca669d1",
+          "visiblePixels": 842
+        },
+        {
+          "index": 1,
+          "x": 80,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "e0c21465ba0d9882d947cc84eca4c5268a8bc2610dbbf1e1e32f7e99cd04c659",
+          "visiblePixels": 1060
+        },
+        {
+          "index": 2,
+          "x": 160,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "70c09c13c8e74656c4fd3fcbe3317a2eb48807758bfff68f369c92e293633620",
+          "visiblePixels": 1042
+        },
+        {
+          "index": 3,
+          "x": 240,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "05448f6d2bb9b5f4cd284b366c90eff609485e70c3fa1389ac6b973c088420a8",
+          "visiblePixels": 887
+        },
+        {
+          "index": 4,
+          "x": 320,
+          "y": 0,
+          "w": 80,
+          "h": 96,
+          "hash": "53da61daa73d874cde0bac26811ab94146d134ab63b368c7556b7d9851d7dd7a",
+          "visiblePixels": 830
         }
       ]
     },

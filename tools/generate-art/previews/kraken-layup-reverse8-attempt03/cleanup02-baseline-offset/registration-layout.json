@@ -1,0 +1,76 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "layup-reverse",
+  "src": "./public/assets/animation/kraken-layup-reverse-right.webp",
+  "columns": 4,
+  "rows": 2,
+  "baselineY": 92,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-layup-reverse8-attempt03-imagegen-prompt.txt",
+    "promptSha256": "b7c2f9fb54fdb460c44894f492cf1c9cb78eaf4ff026b14937dd321b18d36c06",
+    "generatedAt": "2026-10-28T13:07:00Z",
+    "generationId": "exec-72b785b9-b712-4681-a55e-a635732d44d0",
+    "rawSource": "tools/generate-art/sources/kraken-layup-reverse8-attempt03-generated-raw.png",
+    "rawSourceSha256": "77b1238cec584d87c871e82953452ae8c0ba8b3ca91ad82412d09b590f744d0a",
+    "cleanupScript": "tools/generate-art/clean-kraken-layup-reverse8-attempt03.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-layup-reverse8-attempt03/cleanup-layout-report.json",
+    "baselineCleanupScript": "tools/generate-art/clean-kraken-layup-reverse8-attempt03-cleanup02-baseline-offset.py",
+    "baselineCleanupLayout": "tools/generate-art/previews/kraken-layup-reverse8-attempt03/cleanup02-baseline-offset/layout.json",
+    "baselineYExplanation": "Shift atlas pixels up 2 source pixels for 4px bottom margin, record baselineY=92; renderer offsets sprite down by 2 pixels to preserve baseline94 at any zoom. Independent review confirms formula; attempt29 checks both facing/zoom.",
+    "track": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-25/track.json",
+    "review": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-29/INDEPENDENT_REVIEW.md",
+    "cleanupAtlasSha256": "b3a8bef9510f7da1b6469234b7dcfd5a828448e776d40be97490039c86a9d727",
+    "webpLosslessPixelIdentical": true
+  }
+}

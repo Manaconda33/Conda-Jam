@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk",
+  "attempt": 3,
+  "status": "rejected by independent source review",
+  "generatedAt": "2026-10-29T04:00:00Z",
+  "generationId": "exec-462c03b3-d90d-4bd5-a8b8-bd5be38c21a0",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt03-imagegen-prompt.txt",
+  "promptSha256": "fe73fca1bc3b7efdec4bf967700a7df9367cdba93dac57ee166441831fbc436b",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt03-generated-raw.png",
+  "rawSha256": "e49854d0b94a4cd148be4f9b96b0ac9e2b61e4281e424de2721fe29d9894840a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1093425,
+  "partialAlphaPixels": 479439,
+  "generatedBy": "ImageGen",
+  "note": "Exact raw response preserved. Independent alpha-pixel review confirms fully transparent background; nonzero pixels are mostly semitransparent, with cross-cell figure spill, edge fringe and smooth/painterly style. Rejected for production source.",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt03/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Rejected by independent source review: cell spill, semi-transparent edge fringe, and peak/slam/descent similarity; hidden RGB is transparent but unsafe under filtering."
+}
