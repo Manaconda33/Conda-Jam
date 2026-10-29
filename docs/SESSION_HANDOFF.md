@@ -2,7 +2,7 @@
 
 Kraken J.07 is **29/29 accepted bespoke clips**. Final `dunk-tomahawk` uses attempt05/cleanup01 and Kraken-specific track attempt05. Independent source/cleanup/gameplay and production-loader reviews pass 60 no-injection captures across all 15 frames, both facings and both zooms; contact frames6–9, tick21 release, score tick23, recovery tick30, no browser errors. Raw source, exact prompt, cleanup proofs, rejected/interrupted calibrations and final runtime captures remain under `tools/generate-art/`.
 
-Validation passes: `npm test` 89/89, lint checks 21 modules, content validation 35 franchises / 105 athletes / 35 captains, and standalone build 119,741,103 bytes. League-wide audit remains incomplete for other captains: 2,397 assignments, 570 source atlases, 5,489 drawings, 706 missing assignments, zero target-frame shortfalls and four inherited prompt findings. Final commit and push are in progress.
+Validation passes: `npm test` 89/89, lint checks 21 modules, content validation 35 franchises / 105 athletes / 35 captains, and standalone build 119,741,103 bytes. Commit `6c613933` is pushed to `codex/captain-animation-completion`. League-wide audit remains incomplete for other captains: 2,397 assignments, 570 source atlases, 5,489 drawings, 706 missing assignments, zero target-frame shortfalls and four inherited prompt findings.
 
 ## Kraken dunk-360 accepted — 2026-10-29 12:40 UTC
 
