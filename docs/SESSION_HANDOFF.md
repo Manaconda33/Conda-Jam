@@ -1,3 +1,11 @@
+## PR #10 infrastructure corrections — 2026-10-29
+
+Current isolated development branch: `codex/captain-studio-infrastructure`, starting from `a5c8fd39207c737dbeac81ad3c8cd6dda18c0c44`. Latest review requests standalone ball-track bundling, storage-bounded integration staging, and mandatory worker-history checks inside the integrator. Changes and focused regressions are in progress; do not accept the reconciliation baseline, start the 6–8-captain pilot, merge, or deploy.
+
+Integration staging now streams the base tree and hardlinks unchanged tracked files; same-filesystem output is required. Existing shared files are atomically replaced before modification. The integrator collects worker Git history directly and compares the resulting complete contribution inventory with the exported manifest. Do not rely on package JSON alone for history security.
+
+Focused captain-studio tests pass 55/55 and lint passes for 22 JavaScript modules. The standalone test passes against infrastructure source plus the available full public asset tree. A broader combined animation test run reached 260/267; six tests require artwork/inventory files absent from this sparse checkout, while its default standalone test tried to write to read-only `dist`. Chromium terminated at startup (`SIGTRAP`, `setsockopt: Operation not permitted`), so browser gameplay remains unverified. Update PR #10 and publish the isolated development checkpoint; do not merge, deploy, accept the reconciliation baseline, or launch the pilot.
+
 ## Kraken animation lane complete — 2026-10-29 12:43 UTC
 
 Kraken J.07 is **29/29 accepted bespoke clips**. Final `dunk-tomahawk` uses attempt05/cleanup01 and Kraken-specific track attempt05. Independent source/cleanup/gameplay and production-loader reviews pass 60 no-injection captures across all 15 frames, both facings and both zooms; contact frames6–9, tick21 release, score tick23, recovery tick30, no browser errors. Raw source, exact prompt, cleanup proofs, rejected/interrupted calibrations and final runtime captures remain under `tools/generate-art/`.

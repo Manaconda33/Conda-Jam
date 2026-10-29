@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
-import { access, lstat, mkdir, mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { spawn } from 'node:child_process';
+import { access, link, lstat, mkdir, mkdtemp, readFile, readdir, rm, stat, symlink, writeFile, rename } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { dirname, isAbsolute, join, relative, resolve, sep } from 'node:path';
 import { pathToFileURL } from 'node:url';
@@ -9,6 +10,7 @@ import { compareAudits, normalizeAudit } from './compare-audits.mjs';
 import { validateRelativePath } from './package-hash.mjs';
 import { renderIntegrationLedger, renderIntegrationReport } from './integration-report.mjs';
 import { writeBallTrackRegistry } from '../register-animation-ball-tracks.mjs';
+import { collectCaptainContribution } from './collect-worker-diff.mjs';
 import { animationClips } from '../../src/core/animation.js';
 
 const SHA=/^[a-f0-9]{64}$/;
@@ -127,11 +129,43 @@ async function defaultValidatePackage(options){
 }
 async function createStage({baseRoot,baseCommit,out,batchId}){
   await mkdir(out,{recursive:true});
+  if((await stat(baseRoot)).dev!==(await stat(out)).dev)throw Object.assign(new Error('STAGING_DEVICE_MISMATCH'),{code:'STAGING_DEVICE_MISMATCH'});
   const stagingRoot=await mkdtemp(join(out,`captain-batch-${batchId.slice(0,12)}-`));
-  const archive=git(baseRoot,['archive','--format=tar',baseCommit],{encoding:'buffer'});
-  try{execFileSync('tar',['-xf','-','-C',stagingRoot],{input:archive,stdio:['pipe','ignore','pipe']});}
-  catch(error){await rm(stagingRoot,{recursive:true,force:true});throw Object.assign(new Error('BASE_ARCHIVE_FAILED'),{code:'BASE_ARCHIVE_FAILED',cause:error});}
-  return stagingRoot;
+  const child=spawn('git',['ls-tree','-rz','-r','--full-tree',baseCommit],{cwd:baseRoot,stdio:['ignore','pipe','pipe']});
+  const closed=new Promise((resolveClose,rejectClose)=>{child.once('error',rejectClose);child.once('close',resolveClose);});
+  let pending='',stderr='',failure=null;
+  child.stderr.setEncoding('utf8');child.stderr.on('data',chunk=>{stderr=(stderr+chunk).slice(-4096);});
+  const createEntry=async record=>{
+    const tab=record.indexOf('\t');if(tab<0)throw new Error('MALFORMED_BASE_TREE');
+    const [mode,type]=record.slice(0,tab).split(' '),file=record.slice(tab+1);
+    validateRelativePath(file);
+    const source=join(baseRoot,file),target=join(stagingRoot,file);await mkdir(dirname(target),{recursive:true});
+    if(type!=='blob')throw new Error('UNSUPPORTED_BASE_OBJECT');
+    if(mode==='120000')await symlink(await readFile(source,'utf8'),target);
+    else if(mode==='100644'||mode==='100755')await link(source,target);
+    else throw new Error('UNSUPPORTED_BASE_MODE');
+  };
+  let tasks=[];
+  child.stdout.setEncoding('utf8');
+  try{
+    for await(const chunk of child.stdout){
+      pending+=chunk;let end;
+      while((end=pending.indexOf('\0'))>=0){const record=pending.slice(0,end);pending=pending.slice(end+1);tasks.push(createEntry(record).catch(error=>{failure??=error;}));if(tasks.length>=32){await Promise.all(tasks);tasks=[];if(failure)throw failure;}}
+    }
+    if(pending)throw new Error('MALFORMED_BASE_TREE');
+    await Promise.all(tasks);
+    if(failure)throw failure;
+    const exitCode=await closed;
+    if(exitCode!==0)throw new Error(`GIT_LS_TREE_FAILED ${stderr}`);
+    return stagingRoot;
+  }catch(error){
+    child.kill();await rm(stagingRoot,{recursive:true,force:true});
+    throw Object.assign(new Error(error.message==='UNSUPPORTED_BASE_MODE'?'UNSUPPORTED_BASE_MODE':error.message==='MALFORMED_BASE_TREE'?'MALFORMED_BASE_TREE':'BASE_TREE_STAGING_FAILED'),{code:error.message==='UNSUPPORTED_BASE_MODE'?'UNSUPPORTED_BASE_MODE':error.message==='MALFORMED_BASE_TREE'?'MALFORMED_BASE_TREE':'BASE_TREE_STAGING_FAILED',cause:error});
+  }
+}
+async function replaceFile(path,bytes){
+  const temporary=`${path}.integrator-${process.pid}-${Math.random().toString(16).slice(2)}`;
+  try{await writeFile(temporary,bytes);await rename(temporary,path);}catch(error){await rm(temporary,{force:true});throw error;}
 }
 async function readTrackRegistry(file){
   const module=await import(`${pathToFileURL(file).href}?batch=${hash(file).slice(0,12)}`);
@@ -193,9 +227,9 @@ async function applyUpdates({stagingRoot,updates,packages}){
     trackRegistry.athleteBallTrackProvenance[captainId]??={};
     if(!trackRegistry.athleteBallTrackProvenance[captainId][clip])trackRegistry.athleteBallTrackProvenance[captainId][clip]=update.trackProvenance??{classification:'captain-package',packageId:update.packageId,trackPath:update.trackPath,trackSha256:update.trackSha256};
   }
-  await writeFile(manifestPath,`${canonicalJson(manifest)}\n`,'utf8');
+  await replaceFile(manifestPath,`${canonicalJson(manifest)}\n`);
   const canonicalManifest=canonicalJson(manifest);
-  await writeFile(join(stagingRoot,'src/content/animation-assets.js'),`// Generated by tools/register-animation-atlas.mjs from the production manifest.\nexport const animationAssetManifest = ${canonicalManifest};\n`,'utf8');
+  await replaceFile(join(stagingRoot,'src/content/animation-assets.js'),`// Generated by tools/register-animation-atlas.mjs from the production manifest.\nexport const animationAssetManifest = ${canonicalManifest};\n`);
   await writeBallTrackRegistry(trackRegistry,join(stagingRoot,'src/content/animation-ball-tracks.js'));
 }
 function hashTree(root){
@@ -252,6 +286,13 @@ export async function integrateCaptainBatch(options){
       const manifest=JSON.parse(await readFile(located.absolutePath,'utf8'));
       packageId=manifest.packageId??packageId;captainId=manifest.captainId??captainId;
       if(manifest.baseCommit!==baseCommit)throw Object.assign(new Error('STALE_PACKAGE_BASE'),{code:'STALE_PACKAGE_BASE'});
+      const workerCommit=manifest.reviewRecord?.workerCommit;
+      const assignment=(baseline?.captains??baseline?.audit?.captains)?.[captainId]?.missing;
+      if(!Array.isArray(assignment)||!assignment.length)throw Object.assign(new Error('WORKER_ASSIGNMENT_BASELINE_MISSING'),{code:'WORKER_ASSIGNMENT_BASELINE_MISSING'});
+      const collected=await collectCaptainContribution({repositoryRoot:packageRoot,baseCommit,workerCommit,captainId,assignment:{missing:assignment}});
+      const declared=new Map((manifest.files??manifest.fileInventory??[]).map(row=>[row.path,row.sha256]));
+      const actual=collected.files.filter(row=>row.disposition.kind!=='package-manifest');
+      if(declared.size!==actual.length||actual.some(row=>declared.get(row.path)!==row.sha256))throw Object.assign(new Error('WORKER_HISTORY_INVENTORY_MISMATCH'),{code:'WORKER_HISTORY_INVENTORY_MISMATCH'});
       const bytes=await packageBytes(packageRoot,manifest,limits);batchBytes+=bytes;
       const result=await validate({packageRoot,manifestRoot:located.root,manifestRelativePath:located.relativePath,baseRoot:paths.root,baseCommit,baseline});
       if(!result?.ok){const codes=stableCodes(result?.errors??[]);rejectedPackages.push({captainId:result?.captainId??captainId,packageId:result?.packageId??packageId,reasonCodes:codes.length?codes:['PACKAGE_REJECTED'],rebaseAndReviewRequired:true});continue;}

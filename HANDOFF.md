@@ -1,3 +1,13 @@
+## PR #10 infrastructure review corrections in progress — 2026-10-29
+
+Working on `codex/captain-studio-infrastructure`, based at `a5c8fd39207c737dbeac81ad3c8cd6dda18c0c44`. Implementing three latest review findings without accepting the reconciliation baseline, launching captain sessions, merging, or deploying:
+
+- The offline bundler now includes `animation-ball-tracks.js` before `core/animation.js`; the standalone regression executes the bundled animation and athlete-specific ball sampling.
+- Integration staging streams `git ls-tree` and hardlinks unchanged regular files from the clean pinned checkout. It requires output staging on the same filesystem, and replaces changed shared-file paths atomically so hardlinked base bytes cannot be modified. This removes the archive buffer and duplicate artwork storage.
+- Integration independently invokes `collectCaptainContribution` using the pinned base, exported worker commit, captain ID, and coordinator baseline assignment; collected history inventory must exactly match the export manifest before package validation.
+
+Focused captain-studio tests pass 55/55; lint passes for 22 JavaScript modules. This includes a hidden forbidden worker-history path and hardlink/base immutability checks. The standalone production bundle test passes against current infrastructure source plus the available full public asset tree. A combined animation test run reached 260/267; six failures need omitted artwork/inventory files from the sparse checkout, and the standalone test's default output path is read-only here. The standalone test passed when run against a temporary full-asset verification root. Browser launch was attempted for a file-URL gameplay smoke but Chromium terminated at startup with container `SIGTRAP`/`setsockopt: Operation not permitted`; browser gameplay therefore remains unverified in this environment. Next update PR #10 and publish this isolated development checkpoint. No asset audit refresh is needed because no animation assets changed.
+
 ## Kraken animation lane complete — 2026-10-29 12:43 UTC
 
 Kraken J.07 is **29/29 accepted bespoke clips**. Final `dunk-tomahawk` attempt05/cleanup01 is registered at `public/assets/animation/kraken-dunk-tomahawk-right.webp` with Kraken-specific ball-track attempt05. Independent source, cleanup, gameplay and registered-loader reviews pass 60 no-injection captures across every frame, both facings and zooms: contact frames6–9, release tick21, correct-side score tick23, upright recovery tick30, zero browser errors. All generation/cleanup provenance, exact prompt, rejected/partial trials, and previews are under `tools/generate-art/`.
