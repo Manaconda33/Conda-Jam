@@ -43,11 +43,12 @@ function classifyPath(file,captainId,expectedAtlases){
     if(slash<1||!ALLOWED_PACKAGE_DIRS.has(tail.slice(0,slash))||slash===tail.length-1)reject('CAPTAIN_SCOPE_VIOLATION',file);
     return {kind:'captain-evidence',category:tail.slice(0,slash)};
   }
-  const match=file.match(/^public\/assets\/animation\/([^/]+)-([a-z0-9]+(?:-[a-z0-9]+)*)-(left|right)\.(png|webp)$/);
-  if(match&&match[1]===captainId){
-    const key=`${match[2]}\0${match[3]}`;if(!expectedAtlases.has(key))reject('UNASSIGNED_ATLAS',file);
-    return {kind:'runtime-atlas',clip:match[2],direction:match[3]};
+  for(const {clip,direction} of expectedAtlases.values()){
+    for(const extension of ['png','webp']){
+      if(file===`public/assets/animation/${captainId}-${clip}-${direction}.${extension}`)return {kind:'runtime-atlas',clip,direction};
+    }
   }
+  if(file.startsWith(`public/assets/animation/${captainId}-`))reject('UNASSIGNED_ATLAS',file);
   reject('CAPTAIN_SCOPE_VIOLATION',file);
 }
 function readBlob(root,oid){return git(root,['cat-file','blob',oid],{encoding:'buffer'});}
@@ -85,12 +86,12 @@ export async function collectCaptainContribution({repositoryRoot,baseCommit,work
   const finalEntries=parseTree(git(repositoryRoot,['ls-tree','-rz','-r','--full-tree',worker]));
   const checkedBlobs=new Map();
   const baseFolded=new Map();for(const file of baseEntries.keys())baseFolded.set(file.normalize('NFC').toLowerCase(),file);
-  const baseAtlasPairs=new Set();
-  for(const file of baseEntries.keys()){
-    const match=file.match(/^public\/assets\/animation\/([^/]+)-([a-z0-9]+(?:-[a-z0-9]+)*)-(left|right)\.(png|webp)$/);
-    if(match&&match[1]===captainId)baseAtlasPairs.add(`${match[2]}\0${match[3]}`);
+  for(const [key,entry] of expectedAtlases){
+    for(const extension of ['png','webp']){
+      const path=`public/assets/animation/${captainId}-${entry.clip}-${entry.direction}.${extension}`;
+      if(baseEntries.has(path))reject('BASE_ATLAS_ALREADY_EXISTS',`${entry.clip}:${entry.direction}`);
+    }
   }
-  for(const [key,entry] of expectedAtlases)if(baseAtlasPairs.has(key))reject('BASE_ATLAS_ALREADY_EXISTS',`${entry.clip}:${entry.direction}`);
   const changed=parseNameStatus(git(repositoryRoot,['diff','--name-status','-z','--no-renames',base,worker]));
   const inventory=new Map();
   for(const change of changed){
