@@ -32,6 +32,7 @@ const manifestSource=`const embeddedAtlases=${JSON.stringify(embeddedAtlases)};\
 const modules={
   './content/teams.js':await wrapModule('content/teams.js'),
   './content/supporting-animation-libraries.js':await wrapModule('content/supporting-animation-libraries.js'),
+  './content/animation-ball-tracks.js':await wrapModule('content/animation-ball-tracks.js'),
   './core/animation.js':await wrapModule('core/animation.js'),
   './content/animation-assets.js':await wrapModule('content/animation-assets.js',manifestSource),
   './render/uniform-palette.js':await wrapModule('render/uniform-palette.js'),
