@@ -1,0 +1,601 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 3,
+  "cleanupAttempt": 1,
+  "sourceRaw": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt03-generated-raw.png",
+  "sourceSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769",
+  "cleanupScript": "tools/generate-art/clean-kraken-alley-oop-reverse-attempt03-cleanup01.py",
+  "method": "15 nominal 5x3 row-major cells; threshold source alpha at 64; isolate each cell foreground bbox; common nearest-neighbor scale; binary alpha at 128; one shared 16-color palette sampled from visible pixels; remove detached 8-connected components under 24 output pixels; baselineY=92; no repaint or pose creation",
+  "threshold": 64,
+  "scale": 0.21476510067114093,
+  "outputDimensions": [
+    400,
+    288
+  ],
+  "cellSize": [
+    80,
+    96
+  ],
+  "baselineY": 92,
+  "poseCount": 15,
+  "uniqueFrameCount": 15,
+  "frameHashes": [
+    "43bf7c1a9fce4e171049933eb2008baf2618253356556c5fb5309aade442f16a",
+    "a0ec12e032bcfce791b7c40e76f281853b897a74c150874f92f5335998709c77",
+    "14acaa52ee8c027a336fb1e95203b0b8b4cb59dfc79a185f5eae2fd164b07dab",
+    "7dab935ca524cc30c235edb61037a4c936492bf0cd180617fa4baa7cc7387de8",
+    "e1c8d501ee00066b02d1306a64efa46222574289c5c968ed8b19e8a1e4742490",
+    "81e380be5fef36cafa3978bbf3ae7b87efe7c2b0ebc17ea2405c0c473392c492",
+    "f91ac3a7bb404fdc3fce93b11e61bcbe1e3208a6396dbdfd22813bcb5f04b859",
+    "406bad20a4820ea8663079f3884042ca0bab61a3d088d18688a62aba6f6b7099",
+    "aa96cddae696c908387f1b794bf1c1322893a9a56412a6e01b58b3d402c5eb3a",
+    "b618f6d676a0d760fd89018ed5e452539b0c04bafd99c5bc8a7ebcb192ed72ff",
+    "fa2b6f04f96946a0449b45432f1928539e494c1d46a7b81d717345b6452f7bb0",
+    "09dc8c4783ef9f37f6f49a741f45fd5e8669c8db26854e7a86fbb5473f54d18a",
+    "458c35e2ecd03ac515985f2ebbfd4a0470cab286fd2622a0394bee6448b34fa9",
+    "63fe85602a22d142d04b0bda2bc46dba57640d54c980476126ea632982af7c9f",
+    "aa8f3f12155c1e37fa2413bb23a863ee7a12a4649252f3a625bc836204e3cf4d"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "marginsLTRB": [
+        19,
+        26,
+        19,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        19,
+        26,
+        61,
+        92
+      ],
+      "alphaBoundsInAtlas": [
+        19,
+        26,
+        61,
+        92
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 1,
+      "marginsLTRB": [
+        16,
+        29,
+        16,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        96,
+        29,
+        144,
+        92
+      ],
+      "alphaBoundsInAtlas": [
+        96,
+        29,
+        144,
+        92
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 2,
+      "marginsLTRB": [
+        12,
+        29,
+        13,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        172,
+        29,
+        227,
+        98
+      ],
+      "alphaBoundsInAtlas": [
+        172,
+        29,
+        227,
+        92
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 3,
+      "marginsLTRB": [
+        17,
+        28,
+        18,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        257,
+        28,
+        302,
+        97
+      ],
+      "alphaBoundsInAtlas": [
+        257,
+        28,
+        302,
+        92
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 4,
+      "marginsLTRB": [
+        24,
+        27,
+        25,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        344,
+        27,
+        375,
+        92
+      ],
+      "alphaBoundsInAtlas": [
+        344,
+        27,
+        375,
+        92
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 5,
+      "marginsLTRB": [
+        20,
+        39,
+        20,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        20,
+        135,
+        60,
+        188
+      ],
+      "alphaBoundsInAtlas": [
+        20,
+        135,
+        60,
+        188
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 6,
+      "marginsLTRB": [
+        12,
+        28,
+        12,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        92,
+        124,
+        148,
+        188
+      ],
+      "alphaBoundsInAtlas": [
+        92,
+        124,
+        148,
+        188
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 7,
+      "marginsLTRB": [
+        26,
+        30,
+        8,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        168,
+        126,
+        232,
+        188
+      ],
+      "alphaBoundsInAtlas": [
+        186,
+        126,
+        232,
+        188
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 8,
+      "marginsLTRB": [
+        18,
+        24,
+        18,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        258,
+        120,
+        302,
+        188
+      ],
+      "alphaBoundsInAtlas": [
+        258,
+        120,
+        302,
+        188
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 9,
+      "marginsLTRB": [
+        17,
+        26,
+        18,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        337,
+        122,
+        382,
+        188
+      ],
+      "alphaBoundsInAtlas": [
+        337,
+        122,
+        382,
+        188
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 10,
+      "marginsLTRB": [
+        23,
+        25,
+        24,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        23,
+        217,
+        56,
+        284
+      ],
+      "alphaBoundsInAtlas": [
+        23,
+        217,
+        56,
+        284
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 11,
+      "marginsLTRB": [
+        9,
+        30,
+        10,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        89,
+        222,
+        150,
+        284
+      ],
+      "alphaBoundsInAtlas": [
+        89,
+        222,
+        150,
+        284
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 12,
+      "marginsLTRB": [
+        17,
+        30,
+        17,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        177,
+        222,
+        223,
+        284
+      ],
+      "alphaBoundsInAtlas": [
+        177,
+        222,
+        223,
+        284
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 13,
+      "marginsLTRB": [
+        15,
+        37,
+        16,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        255,
+        229,
+        304,
+        284
+      ],
+      "alphaBoundsInAtlas": [
+        255,
+        229,
+        304,
+        284
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 14,
+      "marginsLTRB": [
+        18,
+        38,
+        19,
+        4
+      ],
+      "imagePlacementRectInAtlas": [
+        338,
+        230,
+        381,
+        284
+      ],
+      "alphaBoundsInAtlas": [
+        338,
+        230,
+        381,
+        284
+      ],
+      "alphaBottomWithinCell": 92,
+      "baselineY": 92,
+      "baselineDelta": 0
+    }
+  ],
+  "sourceFrames": [
+    {
+      "index": 0,
+      "sourceBounds": [
+        74,
+        15,
+        269,
+        322
+      ],
+      "sourceCropSize": [
+        195,
+        307
+      ]
+    },
+    {
+      "index": 1,
+      "sourceBounds": [
+        56,
+        20,
+        278,
+        315
+      ],
+      "sourceCropSize": [
+        222,
+        295
+      ]
+    },
+    {
+      "index": 2,
+      "sourceBounds": [
+        31,
+        20,
+        285,
+        341
+      ],
+      "sourceCropSize": [
+        254,
+        321
+      ]
+    },
+    {
+      "index": 3,
+      "sourceBounds": [
+        77,
+        20,
+        285,
+        341
+      ],
+      "sourceCropSize": [
+        208,
+        321
+      ]
+    },
+    {
+      "index": 4,
+      "sourceBounds": [
+        108,
+        14,
+        253,
+        316
+      ],
+      "sourceCropSize": [
+        145,
+        302
+      ]
+    },
+    {
+      "index": 5,
+      "sourceBounds": [
+        63,
+        57,
+        249,
+        306
+      ],
+      "sourceCropSize": [
+        186,
+        249
+      ]
+    },
+    {
+      "index": 6,
+      "sourceBounds": [
+        47,
+        3,
+        307,
+        302
+      ],
+      "sourceCropSize": [
+        260,
+        299
+      ]
+    },
+    {
+      "index": 7,
+      "sourceBounds": [
+        0,
+        0,
+        298,
+        287
+      ],
+      "sourceCropSize": [
+        298,
+        287
+      ]
+    },
+    {
+      "index": 8,
+      "sourceBounds": [
+        55,
+        0,
+        262,
+        315
+      ],
+      "sourceCropSize": [
+        207,
+        315
+      ]
+    },
+    {
+      "index": 9,
+      "sourceBounds": [
+        88,
+        12,
+        296,
+        317
+      ],
+      "sourceCropSize": [
+        208,
+        305
+      ]
+    },
+    {
+      "index": 10,
+      "sourceBounds": [
+        89,
+        0,
+        242,
+        312
+      ],
+      "sourceCropSize": [
+        153,
+        312
+      ]
+    },
+    {
+      "index": 11,
+      "sourceBounds": [
+        12,
+        6,
+        296,
+        293
+      ],
+      "sourceCropSize": [
+        284,
+        287
+      ]
+    },
+    {
+      "index": 12,
+      "sourceBounds": [
+        45,
+        14,
+        260,
+        302
+      ],
+      "sourceCropSize": [
+        215,
+        288
+      ]
+    },
+    {
+      "index": 13,
+      "sourceBounds": [
+        58,
+        30,
+        288,
+        288
+      ],
+      "sourceCropSize": [
+        230,
+        258
+      ]
+    },
+    {
+      "index": 14,
+      "sourceBounds": [
+        59,
+        45,
+        257,
+        298
+      ],
+      "sourceCropSize": [
+        198,
+        253
+      ]
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt03/cleanup01/kraken-alley-oop-reverse-attempt03-cleanup01-atlas.png",
+  "reviewStatus": "candidate only; independent art and gameplay review pending"
+}
