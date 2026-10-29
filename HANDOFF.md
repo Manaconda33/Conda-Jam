@@ -1,3 +1,25 @@
+## Kraken pickup accepted — 2026-10-29 02:47 UTC
+
+Kraken J.129 now has **13/29** accepted bespoke clips; Krios remains complete at 29/29. `pickup` is registered as `public/assets/animation/kraken-pickup-right.webp`, a five-pose source composite that replaces the previously rejected double-body grab pose. The separate track is height `[0.65,0.45,0.2,0.2,0.68]`, forward `[3.5,4.5,5.5,4.5,2.5]`: frame3 grabs at tick7, frame4 raises the ball into the gathered hands and holds it steadily. Source, each frame's lineage, raw prompt/PNG, cleanup/layout, rejected trial captures, and independent reviews are preserved under `tools/generate-art/`. The ImageGen response omitted its generation ID; this is explicitly recorded.
+
+Independent visual, current-court gameplay, and registered normal-loader reviews pass. Jam Stage evidence covers Vesper Harbor vs Blackthorn Court Kings at courtY75, both facings, 100%/120%, all five frames, tick7 ownership transfer and ticks8/10/11 carry contact; 32/32 captures are intact with no browser errors. The stale Scoria matchup, shin carry vector, face/head vector, and an incorrect-vector normal-loader run remain preserved as invalid/rejected.
+
+The current local preview rebuild includes **888 registered assignments**, **888 production atlas assignments**, **8,084 frame rectangles**, 48 legacy atlases, and 936 total embedded atlases; standalone size is 119,200,693 bytes. This is not a Pages deployment. Validation passes: `npm test` 78/78, lint (21 modules), content validation (35 franchises/105 athletes/35 captains), and static build.
+
+Refreshed strict report-only audit: **2,381 inspected assignments**, **554 source atlases**, **5,293 unique source drawings**, **722 missing captain assignments**, zero target shortfalls and four inherited prompt findings. Kraken has 16 clips open: `receive`, `layup`, `layup-reverse`, `push`, `rebound`, `fall`, eight dunks, and two alley-oops. A separate `receive` art cleanup and ball-track calibration remain in progress.
+
+## Kraken pickup calibration checkpoint — 2026-10-29 02:44 UTC
+
+Kraken remains at **12/29 registered clips**; `pass-behind` is the latest accepted clip. No `receive` or `pickup` candidate is registered yet.
+
+`receive` attempt01's refined four-pose atlas passed independent source/cleanup review for separate-track trials: four distinct poses, recognizable Kraken identity, clean light/dark transparency, 5px side margins and baseline94. Its 2px lower margin is tight. The ball track and runtime contact review remain open.
+
+`pickup` attempt05 replaces the formerly rejected two-body grab pose with one coherent low crouch. Independent visual review approves the five-pose candidate for track trials. The source prompt, raw PNG, new pose crop, layout and lineage are preserved.
+
+Current Jam Stage calibration uses **Vesper Harbor Undertow vs Blackthorn Court Kings at courtY75**. The initial copied Scoria matchup is marked invalid and kept for audit. Track attempt04 caught at tick7 but left the carried ball by the shin; attempt05 moved it into the face and was rejected. Attempt06 uses height `[0.65,0.45,0.2,0.2,0.68]`, forward `[3.5,4.5,5.5,4.5,2.5]`; my visual inspection shows the ball over Kraken's gathered hands at ticks8/10/11 in both facings. Independent gameplay review is pending. All attempts use separate ball artwork/data, candidate-only injection, and have no browser errors or selector/mirror failures. Do not register until track review and normal-loader checks pass.
+
+Strict audit remains 2,380 assignments / 553 atlases / 5,288 drawings / 723 missing captain assignments. The local preview contains all 887 registered assignments and 8,079 frame rectangles; no deployment is claimed.
+
 ## Kraken asset continuation — 2026-10-29 02:39 UTC
 
 Kraken J.129 has **12/29** accepted clips; Krios remains complete at 29/29. The `pass-behind` checkpoint is committed and published. Kraken's celebration atlas was directly inspected in this turn and correctly shows Kraken's brown skin, dark hair, and red/gold kit—not Krios.

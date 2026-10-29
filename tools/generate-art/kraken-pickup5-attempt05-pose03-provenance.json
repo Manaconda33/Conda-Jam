@@ -5,7 +5,7 @@
   "direction": "right",
   "attempt": 5,
   "poseIndex": 3,
-  "status": "new pose source and assembled cleanup candidate; independent visual and gameplay review pending",
+  "status": "accepted and registered",
   "tool": "image_gen__imagegen",
   "generationId": "not exposed by the image-generation tool response",
   "generatedAt": "2026-10-29T02:36:00Z",
@@ -35,9 +35,53 @@
     "script": "tools/generate-art/previews/kraken-pickup5-attempt05/clean-and-layout.py",
     "atlas": "tools/generate-art/previews/kraken-pickup5-attempt05/kraken-pickup5-attempt05-cleanup01-atlas-candidate.png",
     "layout": "tools/generate-art/previews/kraken-pickup5-attempt05/cleanup01-layout.json",
-    "status": "track candidate only; review pending"
+    "status": "accepted and registered after independent source, gameplay, and production normal-loader review",
+    "independentReview": "tools/generate-art/previews/kraken-pickup5-attempt05/INDEPENDENT_SOURCE_AND_CLEANUP_REVIEW_2026-10-29.md"
   },
   "rawPreserved": true,
-  "registration": null,
-  "rejectedAttempts": []
+  "registration": {
+    "atlas": "public/assets/animation/kraken-pickup-right.webp",
+    "atlasSha256": "0820af5175c770a3609c2acd21de22f025db61942b43875fde3452eabb79da65",
+    "review": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-08/normal-loader/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md"
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 3,
+      "reason": "candidate-only gameplay set used stale Scoria matchup; do not use as current-court acceptance evidence"
+    },
+    {
+      "attempt": 4,
+      "reason": "carry ball at the forward knee/shin instead of gathered hands"
+    },
+    {
+      "attempt": 5,
+      "reason": "frame4 H1.4/F2.5 moves the ball into Kraken face/head"
+    },
+    {
+      "attempt": 7,
+      "reason": "normal-loader capture script used stale attempt04 track vector rather than registered attempt06; retained as invalid evidence"
+    }
+  ],
+  "gameplayTrials": [
+    {
+      "attempt": 3,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-03/native/report.json",
+      "status": "invalid acceptance evidence: stale Vesper Harbor vs Scoria matchup at courtY75; preserved"
+    },
+    {
+      "attempt": 4,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-04/native/report.json",
+      "status": "current court technical catch passes, but carry ball placement rejected at shin"
+    },
+    {
+      "attempt": 5,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-05/native/report.json",
+      "status": "rejected: frame4 ball placement too high, overlaps face/head"
+    },
+    {
+      "attempt": 6,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-06/native/report.json",
+      "status": "accepted after independent normal-loader review: production atlas/track, current court, both facings and zooms, tick7 grab and carried hand placement"
+    }
+  ]
 }
