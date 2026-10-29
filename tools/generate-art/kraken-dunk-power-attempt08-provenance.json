@@ -3,7 +3,7 @@
   "clip": "dunk-power",
   "attempt": 8,
   "kind": "fresh ImageGen with transparent_background=true",
-  "status": "rejected for production; cleanup02 pixel-art trial awaits independent review",
+  "status": "accepted for production after cleanup04 art review and normal-loader gameplay review",
   "generatedAt": "2026-10-29T04:40:00Z",
   "generationId": "exec-70464830-b9cf-44ba-ba73-ee7444aced0a",
   "promptFile": "tools/generate-art/kraken-dunk-power-attempt08-imagegen-prompt.txt",
@@ -21,6 +21,10 @@
   ],
   "generatedBy": "ImageGen",
   "reviewFile": "tools/generate-art/previews/kraken-dunk-power-attempt08/INDEPENDENT_SOURCE_REVIEW.md",
-  "reviewSummary": "Independent raw-source review found true alpha transparency and 15 distinct silhouettes, but smooth painted shading/antialiased edges and tight/zero margins. cleanup02 deterministically nearest-neighbor downsamples, applies a shared 24-color palette and removes tiny detached components; no poses were invented. Runtime acceptance remains pending.",
-  "derivedCandidate": "tools/generate-art/previews/kraken-dunk-power-attempt08/cleanup02/cleanup-layout-report.json"
+  "assetClassification": "derived-cleanup-from-imagegen-source",
+  "reviewSummary": "The raw generated source has true alpha and 15 distinct silhouettes but painterly shading and tight margins. cleanup04 nearest-neighbor downsamples into a common 16-color visible-pixel palette, removes detached components below 64 output pixels, and aligns each retained silhouette to baselineY92; no poses were invented. Independent art and actual production-loader reviews passed.",
+  "derivedCandidate": "tools/generate-art/previews/kraken-dunk-power-attempt08/cleanup04/cleanup-layout-report.json",
+  "derivedCandidateStatus": "accepted production atlas",
+  "derivedCandidateReview": "tools/generate-art/previews/kraken-dunk-power-attempt08/cleanup04/INDEPENDENT_CLEANUP04_REVIEW.md",
+  "normalLoaderReview": "tools/generate-art/previews/kraken-dunk-power-attempt08/normal-loader-runtime/INDEPENDENT_NORMAL_LOADER_REVIEW.md"
 }
