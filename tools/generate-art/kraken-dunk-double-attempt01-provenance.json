@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-double",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "raw source review pending",
+  "generatedAt": "2026-10-29T05:03:00Z",
+  "generationId": "exec-ef33077d-0aa9-4050-b9ad-974e38f25c22",
+  "promptFile": "tools/generate-art/kraken-dunk-double-attempt01-imagegen-prompt.txt",
+  "promptSha256": "ff73116a0cdf8df01505890436897a14467854e6ece01d1dc1b2c20d7ea2e113",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-double-attempt01-generated-raw.png",
+  "rawSha256": "3094935f22e9bf29c96bb0658a019fa540eea6ae4adc951f388a0dd020146311",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 966089,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-double-attempt01/README.md",
+  "reviewSummary": "15-pose double-dunk sequence; first generation is preserved for independent source review. No cleanup or packing."
+}
