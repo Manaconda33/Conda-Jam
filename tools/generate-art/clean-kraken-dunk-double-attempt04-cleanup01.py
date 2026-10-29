@@ -1,243 +1,163 @@
-"""Create a component-extracted candidate atlas for Kraken dunk-double attempt04.
+"""Component-aware, non-destructive cleanup of Kraken dunk-double attempt04.
 
-The raw sheet's figures cross nominal cell boundaries. This cleanup extracts
-the 15 connected figures, keeps their row-major pose order, applies one shared
-palette and uniform nearest-neighbor scale, and packs them into transparent
-80x96 cells. It does not redraw or invent poses.
+The raw sheet has 15 distinct alpha-connected athletes that cross nominal
+5x3 cell boundaries. This script extracts complete components and repacks them
+in row-major order; it does not redraw or invent poses.
 """
 from pathlib import Path
 from PIL import Image
 import hashlib
 import json
 
-ROOT = Path(__file__).resolve().parents[2]
-RAW = ROOT / 'tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png'
-OUT = ROOT / 'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01'
-OUT.mkdir(parents=True, exist_ok=True)
-
-SOURCE_SHA256 = '8a582d128de208c2dc6fb5b10063e463dd978e6baef9f99d5e04b08cb49a17a4'
-raw_bytes = RAW.read_bytes()
-raw_sha = hashlib.sha256(raw_bytes).hexdigest()
-if raw_sha != SOURCE_SHA256:
-    raise SystemExit(f'Raw source hash mismatch: expected {SOURCE_SHA256}, got {raw_sha}')
-
-raw = Image.open(RAW).convert('RGBA')
-width, height = raw.size
-alpha = raw.getchannel('A')
-alpha_threshold = 64
-binary = alpha.point(lambda a: 255 if a >= alpha_threshold else 0)
-mask = binary.load()
-visited = bytearray(width * height)
-components = []
-
-# Extract 8-connected alpha silhouettes. Transparent RGB is never considered.
-for y in range(height):
-    for x in range(width):
-        offset = y * width + x
-        if not mask[x, y] or visited[offset]:
+ROOT=Path(__file__).resolve().parents[2]
+RAW=ROOT/'tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png'
+OUT=ROOT/'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01'
+OUT.mkdir(parents=True,exist_ok=True)
+raw=Image.open(RAW).convert('RGBA')
+w,h=raw.size
+alpha=raw.getchannel('A')
+threshold=64
+binary=alpha.point(lambda a:255 if a>=threshold else 0)
+mask=binary.load()
+seen=bytearray(w*h)
+components=[]
+for y in range(h):
+    for x in range(w):
+        pos=y*w+x
+        if not mask[x,y] or seen[pos]:
             continue
-        stack = [(x, y)]
-        visited[offset] = 1
-        x0 = x1 = x
-        y0 = y1 = y
-        area = 0
+        stack=[(x,y)]
+        seen[pos]=1
+        area=0
+        x0=x1=x; y0=y1=y
         while stack:
-            xx, yy = stack.pop()
-            area += 1
-            x0, x1 = min(x0, xx), max(x1, xx)
-            y0, y1 = min(y0, yy), max(y1, yy)
-            for ny in range(max(0, yy - 1), min(height, yy + 2)):
-                for nx in range(max(0, xx - 1), min(width, xx + 2)):
-                    neighbor = ny * width + nx
-                    if mask[nx, ny] and not visited[neighbor]:
-                        visited[neighbor] = 1
-                        stack.append((nx, ny))
-        bbox = [x0, y0, x1 + 1, y1 + 1]
-        components.append({
-            'area': area,
-            'bbox': bbox,
-            'centroid': [(x0 + x1 + 1) / 2, (y0 + y1 + 1) / 2],
-        })
-
-if len(components) != 15:
-    raise SystemExit(f'Expected 15 athlete components at alpha threshold {alpha_threshold}; found {len(components)}')
-
-# Source rows are separated by figure centroids, not source cell crops; some
-# silhouettes intentionally overlap nominal row boundaries.
-rows = [[], [], []]
+            xx,yy=stack.pop(); area+=1
+            x0=min(x0,xx); x1=max(x1,xx); y0=min(y0,yy); y1=max(y1,yy)
+            for ny in range(max(0,yy-1),min(h,yy+2)):
+                off=ny*w
+                for nx in range(max(0,xx-1),min(w,xx+2)):
+                    ni=off+nx
+                    if mask[nx,ny] and not seen[ni]:
+                        seen[ni]=1
+                        stack.append((nx,ny))
+        components.append({'area':area,'bbox':[x0,y0,x1+1,y1+1],
+                           'cx':(x0+x1+1)/2,'cy':(y0+y1+1)/2})
+if len(components)!=15:
+    raise SystemExit(f'Expected 15 separate alpha components at threshold {threshold}, found {len(components)}')
+# Restore the authored 5x3 order using source-row bands, then x-centroid.
+rows=[[],[],[]]
 for component in components:
-    row = min(2, int(component['centroid'][1] / (height / 3)))
+    row=min(2,int(component['cy']/(h/3)))
     rows[row].append(component)
-row_counts = [len(row) for row in rows]
-if row_counts != [5, 5, 5]:
-    raise SystemExit(f'Expected five figures per pose row, found {row_counts}')
-ordered = [component for row in rows for component in sorted(row, key=lambda c: c['centroid'][0])]
+if [len(row) for row in rows] != [5,5,5]:
+    raise SystemExit(f'Expected five components per row, found {[len(row) for row in rows]}')
+ordered=[]
+for row in rows:
+    ordered.extend(sorted(row,key=lambda c:c['cx']))
 
-cell_width, cell_height = 80, 96
-baseline_y = 94
-safe_side_margin = 4
-safe_top_margin = 5
-palette_colors = 24
-crops = []
+cell_w,cell_h=88,96
+baseline=94
+safe_margin=5
+crops=[]
 for component in ordered:
-    x0, y0, x1, y1 = component['bbox']
-    crop = raw.crop((x0, y0, x1, y1)).convert('RGB')
-    crop.putalpha(binary.crop((x0, y0, x1, y1)))
-    crops.append((crop, component))
-
-max_source_width = max(crop.width for crop, _ in crops)
-max_source_height = max(crop.height for crop, _ in crops)
-uniform_scale = min(
-    (cell_width - 2 * safe_side_margin) / max_source_width,
-    (baseline_y - safe_top_margin) / max_source_height,
-)
-
-scaled = []
-for crop, component in crops:
-    scaled_width = max(1, round(crop.width * uniform_scale))
-    scaled_height = max(1, round(crop.height * uniform_scale))
-    color = crop.convert('RGB').resize((scaled_width, scaled_height), Image.Resampling.NEAREST)
-    mask = crop.getchannel('A').resize((scaled_width, scaled_height), Image.Resampling.NEAREST)
-    scaled.append((Image.merge('RGBA', (*color.split(), mask)), component))
-
-# Derive one palette from visible pixels across all poses, then apply it to
-# every pose without dithering so that the uniform colors remain consistent.
-visible_pixels = []
-for frame, _ in scaled:
-    rgb = frame.convert('RGB').load()
-    frame_alpha = frame.getchannel('A').load()
+    x0,y0,x1,y1=component['bbox']
+    color=raw.crop((x0,y0,x1,y1)).convert('RGB')
+    cutmask=binary.crop((x0,y0,x1,y1))
+    color.putalpha(cutmask)
+    crops.append((color,component))
+max_w=max(crop.width for crop,_ in crops)
+max_h=max(crop.height for crop,_ in crops)
+scale=min((cell_w-2*safe_margin)/max_w,(baseline-safe_margin)/max_h)
+scaled=[]
+removedByFrame=[]
+def remove_small_alpha_components(alpha_image,min_pixels=8):
+    ww,hh=alpha_image.size; p=alpha_image.load(); seen=bytearray(ww*hh); removed=[]
+    for yy in range(hh):
+        for xx in range(ww):
+            i=yy*ww+xx
+            if not p[xx,yy] or seen[i]: continue
+            stack=[(xx,yy)]; seen[i]=1; points=[]
+            while stack:
+                ax,ay=stack.pop();points.append((ax,ay))
+                for by in range(max(0,ay-1),min(hh,ay+2)):
+                    off=by*ww
+                    for bx in range(max(0,ax-1),min(ww,ax+2)):
+                        bi=off+bx
+                        if p[bx,by] and not seen[bi]:seen[bi]=1;stack.append((bx,by))
+            if len(points)<min_pixels:
+                for ax,ay in points:p[ax,ay]=0
+                removed.append(len(points))
+    return removed
+for crop,component in crops:
+    sw=max(1,round(crop.width*scale)); sh=max(1,round(crop.height*scale))
+    rgb=crop.convert('RGB').resize((sw,sh),Image.Resampling.NEAREST)
+    a=crop.getchannel('A').resize((sw,sh),Image.Resampling.NEAREST).point(lambda v:255 if v>=128 else 0)
+    removed=remove_small_alpha_components(a,8)
+    component['removedSmallComponents']=removed
+    rgb.putalpha(a)
+    scaled.append((rgb,component))
+# Derive one shared 16-color palette from visible pixels across the complete clip.
+visible=[]
+for frame,_ in scaled:
+    rgb=frame.convert('RGB').load(); a=frame.getchannel('A').load()
     for yy in range(frame.height):
         for xx in range(frame.width):
-            if frame_alpha[xx, yy]:
-                visible_pixels.append(rgb[xx, yy])
-palette_source = Image.new('RGB', (len(visible_pixels), 1))
-palette_source.putdata(visible_pixels)
-shared_palette = palette_source.quantize(
-    colors=palette_colors,
-    method=Image.Quantize.MEDIANCUT,
-    dither=Image.Dither.NONE,
-)
+            if a[xx,yy]: visible.append(rgb[xx,yy])
+contact=Image.new('RGB',(len(visible),1)); contact.putdata(visible)
+palette=contact.quantize(colors=16,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.NONE)
+quantized=[]
+for frame,component in scaled:
+    q=frame.convert('RGB').quantize(palette=palette,dither=Image.Dither.NONE).convert('RGB')
+    q.putalpha(frame.getchannel('A'))
+    quantized.append((q,component))
 
-frames = []
-for frame, component in scaled:
-    quantized = frame.convert('RGB').quantize(
-        palette=shared_palette,
-        dither=Image.Dither.NONE,
-    ).convert('RGB')
-    quantized.putalpha(frame.getchannel('A'))
-    frames.append((quantized, component))
-
-atlas = Image.new('RGBA', (cell_width * 5, cell_height * 3), (0, 0, 0, 0))
-frame_reports = []
-normalized_hashes = []
-for index, (frame, component) in enumerate(frames):
-    column, row = index % 5, index // 5
-    x = column * cell_width + (cell_width - frame.width) // 2
-    y = row * cell_height + baseline_y - frame.height
-    atlas.alpha_composite(frame, (x, y))
-
-    cell = atlas.crop((column * cell_width, row * cell_height,
-                       (column + 1) * cell_width, (row + 1) * cell_height))
-    bounds = cell.getchannel('A').getbbox()
-    if not bounds:
-        raise SystemExit(f'Pose {index} became transparent')
-    left, top, right, bottom = bounds
-    margins = [left, top, cell_width - right, cell_height - bottom]
-    if left < safe_side_margin or cell_width - right < safe_side_margin:
-        raise SystemExit(f'Pose {index} violates safe horizontal margins: {margins}')
-    if top < safe_top_margin or bottom != baseline_y:
-        raise SystemExit(f'Pose {index} violates top/baseline margins: bounds={bounds}, margins={margins}')
-
-    # Clear hidden RGB under transparent pixels in normalized frame hashes.
-    pixels = bytearray(cell.tobytes())
-    for offset in range(0, len(pixels), 4):
-        if pixels[offset + 3] == 0:
-            pixels[offset:offset + 3] = b'\0\0\0'
-    normalized_sha = hashlib.sha256(pixels).hexdigest()
-    normalized_hashes.append(normalized_sha)
-    frame_reports.append({
-        'index': index,
-        'sourceRowMajorIndex': index,
-        'cell': [column * cell_width, row * cell_height, cell_width, cell_height],
-        'sourceComponentBBox': component['bbox'],
-        'sourceComponentAreaAtThreshold': component['area'],
-        'sourceCentroid': component['centroid'],
-        'outputAlphaBounds': list(bounds),
-        'marginsLTRB': margins,
-        'visibleHeight': bottom - top,
-        'baselineY': baseline_y,
-        'baselineDelta': 0,
-        'normalizedSha256': normalized_sha,
-    })
-
-if len(set(normalized_hashes)) != 15:
-    raise SystemExit('Expected 15 distinct cleanup frames')
-
-atlas_path = OUT / 'kraken-dunk-double-attempt04-cleanup01-atlas.png'
+atlas=Image.new('RGBA',(cell_w*5,cell_h*3),(0,0,0,0))
+frame_rows=[]
+hashes=[]
+for index,(frame,component) in enumerate(quantized):
+    col,row=index%5,index//5
+    x=col*cell_w+(cell_w-frame.width)//2
+    y=row*cell_h+baseline-frame.height
+    atlas.alpha_composite(frame,(x,y))
+    cell=atlas.crop((col*cell_w,row*cell_h,(col+1)*cell_w,(row+1)*cell_h))
+    bounds=cell.getchannel('A').getbbox()
+    if not bounds: raise SystemExit(f'Frame {index} became empty')
+    left,top,right,bottom=bounds
+    margins=[left,top,cell_w-right,cell_h-bottom]
+    if left<safe_margin or cell_w-right<safe_margin or top<safe_margin or bottom!=baseline:
+        raise SystemExit(f'Unsafe fit/baseline at frame {index}: bounds {bounds}, margins {margins}')
+    pixels=bytearray(cell.tobytes())
+    for offset in range(0,len(pixels),4):
+        if pixels[offset+3]==0: pixels[offset:offset+3]=b'\0\0\0'
+    hashes.append(hashlib.sha256(pixels).hexdigest())
+    frame_rows.append({'index':index,'cell':[col*cell_w,row*cell_h,cell_w,cell_h],
+        'sourceComponentBBox':component['bbox'],'sourceComponentArea':component['area'],
+        'sourceCentroid':[component['cx'],component['cy']],
+        'removedDetachedOutputComponentSizes':component['removedSmallComponents'],
+        'outputAlphaBounds':[left,top,right,bottom],
+        'atlasAlphaBounds':[col*cell_w+left,row*cell_h+top,col*cell_w+right,row*cell_h+bottom],
+        'marginsLTRB':margins,'visibleHeight':bottom-top,
+        'baselineY':baseline,'baselineDelta':0,'normalizedSha256':hashes[-1]})
+if len(set(hashes))!=15: raise SystemExit('Expected 15 unique output frames')
+atlas_path=OUT/'kraken-dunk-double-attempt04-cleanup01-atlas.png'
 atlas.save(atlas_path)
-for label, background in [('light', (238, 234, 222, 255)), ('dark', (24, 25, 37, 255))]:
-    proof = Image.new('RGBA', atlas.size, background)
-    proof.alpha_composite(atlas)
-    proof.resize((atlas.width * 3, atlas.height * 3), Image.Resampling.NEAREST).save(
-        OUT / f'kraken-dunk-double-attempt04-cleanup01-{label}-preview.png'
-    )
-
-report = {
-    'athlete': 'kraken',
-    'clip': 'dunk-double',
-    'attempt': 4,
-    'cleanup': 'component-extracted cleanup01 candidate',
-    'sourceRaw': 'tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png',
-    'sourceSha256': raw_sha,
-    'generationId': 'exec-082755a3-2ba2-4385-b10c-5cd7664f98f7',
-    'promptFile': 'tools/generate-art/kraken-dunk-double-attempt04-imagegen-prompt.txt',
-    'cleanupScript': 'tools/generate-art/clean-kraken-dunk-double-attempt04-cleanup01.py',
-    'cleanupMethod': (
-        'Threshold source alpha at 64; extract all 15 8-connected athlete components; '
-        'sort by source centroid into three rows and then by x-centroid; crop each complete '
-        'component; apply one 24-color palette derived from all visible poses; resize all '
-        'poses with a shared uniform scale and nearest-neighbor sampling; preserve binary '
-        'transparent background; center horizontally in transparent cells and align visible '
-        'feet to baselineY94. No fixed-cell source cropping, repainting, recoloring, pose edits, '
-        'or invented poses.'
-    ),
-    'sourceGrid': 'Nominal 5x3 source layout; figures cross nominal cell boundaries; component extraction prevents clipping.',
-    'threshold': alpha_threshold,
-    'componentCount': len(components),
-    'discardedComponents': 0,
-    'poseCount': len(frames),
-    'uniqueFrameCount': len(set(normalized_hashes)),
-    'sharedPaletteColors': palette_colors,
-    'sourceDimensions': [width, height],
-    'outputDimensions': list(atlas.size),
-    'cellSize': [cell_width, cell_height],
-    'baselineY': baseline_y,
-    'safeSideMargin': safe_side_margin,
-    'safeTopMargin': safe_top_margin,
-    'sharedUniformScale': uniform_scale,
-    'sourceAlpha': {
-        'min': raw.getchannel('A').getextrema()[0],
-        'max': raw.getchannel('A').getextrema()[1],
-        'pixelsBelowThreshold': sum(1 for value in raw.getchannel('A').getdata() if value < alpha_threshold),
-        'pixelsAtOrAboveThreshold': sum(1 for value in raw.getchannel('A').getdata() if value >= alpha_threshold),
-    },
-    'normalizedPoseSha256': normalized_hashes,
-    'frames': frame_reports,
-    'atlas': 'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-atlas.png',
-    'lightPreview': 'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-light-preview.png',
-    'darkPreview': 'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-dark-preview.png',
-    'reviewStatus': 'candidate cleanup only; independent final review pending; no gameplay track or production registration',
-}
-report['atlasSha256'] = hashlib.sha256(atlas_path.read_bytes()).hexdigest()
-(OUT / 'cleanup-layout-report.json').write_text(json.dumps(report, indent=2) + '\n')
-print(json.dumps({
-    'components': len(components),
-    'rowCounts': row_counts,
-    'scale': uniform_scale,
-    'dimensions': atlas.size,
-    'paletteColors': palette_colors,
-    'uniqueFrames': len(set(normalized_hashes)),
-    'atlasSha256': report['atlasSha256'],
-    'visibleHeights': [item['visibleHeight'] for item in frame_reports],
-    'minimumMargins': [min(item['marginsLTRB'][i] for item in frame_reports) for i in range(4)],
-}))
+for label,bg in [('light',(236,232,220,255)),('dark',(25,26,38,255))]:
+    board=Image.new('RGBA',atlas.size,bg); board.alpha_composite(atlas)
+    board.resize((atlas.width*3,atlas.height*3),Image.Resampling.NEAREST).save(OUT/f'kraken-dunk-double-attempt04-cleanup01-{label}-preview.png')
+raw_sha=hashlib.sha256(RAW.read_bytes()).hexdigest()
+report={'athlete':'kraken','clip':'dunk-double','attempt':2,'cleanup':'component-aware repack cleanup01',
+ 'sourceRaw':'tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png','sourceSha256':raw_sha,
+ 'cleanupScript':'tools/generate-art/clean-kraken-dunk-double-attempt04-cleanup01.py',
+ 'cleanupMethod':'Threshold source alpha at 64; isolate all 15 separate 8-connected figures globally; sort components by source row-band centroid then x-centroid to preserve row-major action; common uniform scale; nearest-neighbor resize; binary alpha at 128; remove detached 8-connected output components smaller than 8 pixels; derive one shared 16-color palette from visible pixels; align visible feet to baselineY94. No fixed-cell source crops, repainting, pose edits, or invented poses.',
+ 'sourceGrid':'5x3 nominal rows; several figures cross cell edges; component extraction avoids clipping.',
+ 'threshold':threshold,'componentCount':len(components),'poseCount':len(quantized),'uniqueFrameCount':len(set(hashes)),
+ 'sourceDimensions':[w,h],'outputDimensions':list(atlas.size),'cellSize':[cell_w,cell_h],
+ 'baselineY':baseline,'safeSideTopMargin':safe_margin,'sharedUniformScale':scale,
+ 'normalizedPoseSha256':hashes,'frames':frame_rows,
+ 'atlas':'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-atlas.png',
+ 'lightPreview':'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-light-preview.png',
+ 'darkPreview':'tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-dark-preview.png',
+ 'reviewStatus':'candidate cleanup only; independent cleanup review pending; not registered'}
+report['atlasSha256']=hashlib.sha256(atlas_path.read_bytes()).hexdigest()
+(OUT/'cleanup-layout-report.json').write_text(json.dumps(report,indent=2)+'\n')
+print(json.dumps({'components':len(components),'scale':scale,'dimensions':atlas.size,'atlasSha256':report['atlasSha256'],'unique':len(set(hashes)),'visibleHeights':[f['visibleHeight'] for f in frame_rows],'minMargins':[min(f['marginsLTRB'][i] for f in frame_rows) for i in range(4)]}))

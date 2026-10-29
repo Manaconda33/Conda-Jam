@@ -1,8 +1,8 @@
-## Current captain lane — 2026-10-29 05:52 UTC
+## Current captain lane — 2026-10-29 05:55 UTC
 
-Kraken J.07: **23/29 accepted bespoke clips**, six missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`. The newest accepted clip is `alley-oop-reverse` (attempt05 cleanup01, Kraken track06), with independent source, cleanup, and no-injection production-loader review. It preserves contact through frames5–9, reverse finish, release, score, recovery, mirroring, and the 16% shorter median scale/raw-edge caveats.
+Kraken J.07: **24/29 accepted bespoke clips**, five missing: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`. Latest acceptance is `dunk-scythe` from cleanup03 with its own track02; independent art/gameplay reviews and current-branch normal-loader verification pass.
 
-Strict report-only audit: 2,391 assignments inspected; 564 unique source atlases; 5,399 source drawings; 712 missing assignments; zero target-frame shortfalls; four inherited prompt findings.
+Strict report-only audit: 2,392 assignments inspected; 565 unique source atlases; 5,414 source drawings; 711 missing assignments; zero target-frame shortfalls; four inherited prompt findings.
 
 ## Current captain lane — 2026-10-29 05:18 UTC
 

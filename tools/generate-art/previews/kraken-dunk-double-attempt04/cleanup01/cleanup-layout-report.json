@@ -1,68 +1,56 @@
 {
   "athlete": "kraken",
   "clip": "dunk-double",
-  "attempt": 4,
-  "cleanup": "component-extracted cleanup01 candidate",
+  "attempt": 2,
+  "cleanup": "component-aware repack cleanup01",
   "sourceRaw": "tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png",
   "sourceSha256": "8a582d128de208c2dc6fb5b10063e463dd978e6baef9f99d5e04b08cb49a17a4",
-  "generationId": "exec-082755a3-2ba2-4385-b10c-5cd7664f98f7",
-  "promptFile": "tools/generate-art/kraken-dunk-double-attempt04-imagegen-prompt.txt",
   "cleanupScript": "tools/generate-art/clean-kraken-dunk-double-attempt04-cleanup01.py",
-  "cleanupMethod": "Threshold source alpha at 64; extract all 15 8-connected athlete components; sort by source centroid into three rows and then by x-centroid; crop each complete component; apply one 24-color palette derived from all visible poses; resize all poses with a shared uniform scale and nearest-neighbor sampling; preserve binary transparent background; center horizontally in transparent cells and align visible feet to baselineY94. No fixed-cell source cropping, repainting, recoloring, pose edits, or invented poses.",
-  "sourceGrid": "Nominal 5x3 source layout; figures cross nominal cell boundaries; component extraction prevents clipping.",
+  "cleanupMethod": "Threshold source alpha at 64; isolate all 15 separate 8-connected figures globally; sort components by source row-band centroid then x-centroid to preserve row-major action; common uniform scale; nearest-neighbor resize; binary alpha at 128; remove detached 8-connected output components smaller than 8 pixels; derive one shared 16-color palette from visible pixels; align visible feet to baselineY94. No fixed-cell source crops, repainting, pose edits, or invented poses.",
+  "sourceGrid": "5x3 nominal rows; several figures cross cell edges; component extraction avoids clipping.",
   "threshold": 64,
   "componentCount": 15,
-  "discardedComponents": 0,
   "poseCount": 15,
   "uniqueFrameCount": 15,
-  "sharedPaletteColors": 24,
   "sourceDimensions": [
     1536,
     1024
   ],
   "outputDimensions": [
-    400,
+    440,
     288
   ],
   "cellSize": [
-    80,
+    88,
     96
   ],
   "baselineY": 94,
-  "safeSideMargin": 4,
-  "safeTopMargin": 5,
-  "sharedUniformScale": 0.23300970873786409,
-  "sourceAlpha": {
-    "min": 0,
-    "max": 254,
-    "pixelsBelowThreshold": 1156682,
-    "pixelsAtOrAboveThreshold": 416182
-  },
+  "safeSideTopMargin": 5,
+  "sharedUniformScale": 0.2524271844660194,
   "normalizedPoseSha256": [
-    "924673a2e90ae9d09eb97df262703184e0b37a7fafcda114ddaef4e859a71809",
-    "89dc921e58d001cff4c68f59e0e95fb96d3424f3281a2a37882cfeb6324215d3",
-    "11e1d78e0e2479d1d96f8ea30fe387232f3adbbaa671c860e9a9e1c95836db06",
-    "bcd95bfc2eb5f78785177d46449a6c621c6b5cf343c61fd154a36907efc1e3a6",
-    "7171791d198eca2115652139a413bd165a9efc1f1faad601bb2a034ee3e7a8b9",
-    "50f9e46be4faefeca8ff8603ceb0d40025db434feff42cd280c3bc68da8d0184",
-    "9dfa50e490cbd4d8fc8aec42d0738d7a27c530fb9d925c45156028b5a48b5752",
-    "30b042bf2f0ff1302f611d40bdde3f6d0a00f0af58609a2bc7ba2ab593c6e76a",
-    "b94832e1a875651164d3c9a1afa36211249650cd02aa3dd4a7cd17c22c9a8cf7",
-    "b2f7d5b7d878da3b34a0355ef7bcede281c03d6e0f565ff0a1713b7ef2625b55",
-    "d44a8b6deb3388f40eab4a4c8c1351354dd490c634e0e13afbe290a20b2a2269",
-    "9836bebe9a0e67f416640cb6ed7219312c7ea212f2c395b9c03fe1b7dae81784",
-    "4296e90cefe7e1e5ec223ee299723b8d9d7e562b9385087b6a7b79783d605ba7",
-    "345d3959c759085f0f4a617c1bcafc168dd4646eb9767c9a0e373fabbc15a335",
-    "2f5f93660ef0b9cba024ef94e8f71ba8a107ca2d402c9a39a720c4ef8efc96c4"
+    "939ca4fc8b647d685c76b562265721f9e198d93ce5afa97c6d968b402e716243",
+    "4eb3f790be04afe1d9d7fe05b8cc0bad55b83bdb9527103f6438343ee6471cff",
+    "ab4d0af4fa7953670d118f46b8b06df5a08de89dc1ba6c401a9e87c1e52dcf18",
+    "c1b108df03476d8bfcb1bb4417d83891f31929e6cf743c3e739db9f36f268dcf",
+    "65bcf833358463c5447ca6b67b882e0bc28e3acd481f0f4795532dea098a38c9",
+    "1a025f7907f548a94a3de91c89292b78e7205db4017956fd506385be277e3fa3",
+    "4def78fd07859d3146d032edd2fe7c6df9fdb17c8cd043788021b7fd83f2d97e",
+    "67f48a5d922a8de4791abe60a6256d0716e3ee526694f1bd90206a700e78facd",
+    "071a20252f8abcd90d2077e4bc12aadb3e6877dbb228543345b142803de02d23",
+    "e790b81d19200768ab7826ef46683ac66a9efff9198f5fb20bde294ad532aa33",
+    "f2039796266a3e88a075295a420636878263759d402e7d52c92b3723d2e8ef1f",
+    "ad21f4a7be78fe6f350e41b9c30e1152bbd99b9ce0954ce7fea72482a53bdaf8",
+    "1da2a40dc0a49b5f7dae7674a4129794fd5650959624c8a03dfc80bb235e90c4",
+    "b9a8ac40cc3cd7fe7024397902aecd5a11ebce58789f317b93e3a04c23c1e48b",
+    "87613d092d921679314ac5a4314dbd50aac028333aaa94cfef3b0a443c4b891a"
   ],
   "frames": [
     {
       "index": 0,
-      "sourceRowMajorIndex": 0,
       "cell": [
         0,
         0,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -71,35 +59,41 @@
         327,
         323
       ],
-      "sourceComponentAreaAtThreshold": 29553,
+      "sourceComponentArea": 29553,
       "sourceCentroid": [
         186.5,
         169.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        7,
-        22,
-        72,
+        8,
+        17,
+        79,
+        94
+      ],
+      "atlasAlphaBounds": [
+        8,
+        17,
+        79,
         94
       ],
       "marginsLTRB": [
-        7,
-        22,
         8,
+        17,
+        9,
         2
       ],
-      "visibleHeight": 72,
+      "visibleHeight": 77,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "924673a2e90ae9d09eb97df262703184e0b37a7fafcda114ddaef4e859a71809"
+      "normalizedSha256": "939ca4fc8b647d685c76b562265721f9e198d93ce5afa97c6d968b402e716243"
     },
     {
       "index": 1,
-      "sourceRowMajorIndex": 1,
       "cell": [
-        80,
+        88,
         0,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -108,35 +102,41 @@
         640,
         321
       ],
-      "sourceComponentAreaAtThreshold": 29986,
+      "sourceComponentArea": 29986,
       "sourceCentroid": [
         501.5,
         168.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        7,
-        23,
-        72,
+        9,
+        17,
+        79,
+        94
+      ],
+      "atlasAlphaBounds": [
+        97,
+        17,
+        167,
         94
       ],
       "marginsLTRB": [
-        7,
-        23,
-        8,
+        9,
+        17,
+        9,
         2
       ],
-      "visibleHeight": 71,
+      "visibleHeight": 77,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "89dc921e58d001cff4c68f59e0e95fb96d3424f3281a2a37882cfeb6324215d3"
+      "normalizedSha256": "4eb3f790be04afe1d9d7fe05b8cc0bad55b83bdb9527103f6438343ee6471cff"
     },
     {
       "index": 2,
-      "sourceRowMajorIndex": 2,
       "cell": [
-        160,
+        176,
         0,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -145,35 +145,41 @@
         919,
         325
       ],
-      "sourceComponentAreaAtThreshold": 27945,
+      "sourceComponentArea": 27945,
       "sourceCentroid": [
         817.0,
         168.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        16,
-        21,
-        64,
+        18,
+        15,
+        69,
+        94
+      ],
+      "atlasAlphaBounds": [
+        194,
+        15,
+        245,
         94
       ],
       "marginsLTRB": [
-        16,
-        21,
-        16,
+        18,
+        15,
+        19,
         2
       ],
-      "visibleHeight": 73,
+      "visibleHeight": 79,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "11e1d78e0e2479d1d96f8ea30fe387232f3adbbaa671c860e9a9e1c95836db06"
+      "normalizedSha256": "ab4d0af4fa7953670d118f46b8b06df5a08de89dc1ba6c401a9e87c1e52dcf18"
     },
     {
       "index": 3,
-      "sourceRowMajorIndex": 3,
       "cell": [
-        240,
+        264,
         0,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -182,35 +188,41 @@
         1163,
         326
       ],
-      "sourceComponentAreaAtThreshold": 27886,
+      "sourceComponentArea": 27886,
       "sourceCentroid": [
         1066.5,
         179.0
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        17,
-        25,
-        62,
+        19,
+        20,
+        68,
+        94
+      ],
+      "atlasAlphaBounds": [
+        283,
+        20,
+        332,
         94
       ],
       "marginsLTRB": [
-        17,
-        25,
-        18,
+        19,
+        20,
+        20,
         2
       ],
-      "visibleHeight": 69,
+      "visibleHeight": 74,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "bcd95bfc2eb5f78785177d46449a6c621c6b5cf343c61fd154a36907efc1e3a6"
+      "normalizedSha256": "c1b108df03476d8bfcb1bb4417d83891f31929e6cf743c3e739db9f36f268dcf"
     },
     {
       "index": 4,
-      "sourceRowMajorIndex": 4,
       "cell": [
-        320,
+        352,
         0,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -219,35 +231,41 @@
         1448,
         325
       ],
-      "sourceComponentAreaAtThreshold": 25610,
+      "sourceComponentArea": 25610,
       "sourceCentroid": [
         1357.0,
         193.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        19,
-        33,
-        61,
+        21,
+        28,
+        67,
+        94
+      ],
+      "atlasAlphaBounds": [
+        373,
+        28,
+        419,
         94
       ],
       "marginsLTRB": [
-        19,
-        33,
-        19,
+        21,
+        28,
+        21,
         2
       ],
-      "visibleHeight": 61,
+      "visibleHeight": 66,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "7171791d198eca2115652139a413bd165a9efc1f1faad601bb2a034ee3e7a8b9"
+      "normalizedSha256": "65bcf833358463c5447ca6b67b882e0bc28e3acd481f0f4795532dea098a38c9"
     },
     {
       "index": 5,
-      "sourceRowMajorIndex": 5,
       "cell": [
         0,
         96,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -256,35 +274,41 @@
         262,
         651
       ],
-      "sourceComponentAreaAtThreshold": 26906,
+      "sourceComponentArea": 26906,
       "sourceCentroid": [
         163.5,
         502.0
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        17,
-        25,
-        63,
+        19,
+        19,
+        69,
         94
       ],
+      "atlasAlphaBounds": [
+        19,
+        115,
+        69,
+        190
+      ],
       "marginsLTRB": [
-        17,
-        25,
-        17,
+        19,
+        19,
+        19,
         2
       ],
-      "visibleHeight": 69,
+      "visibleHeight": 75,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "50f9e46be4faefeca8ff8603ceb0d40025db434feff42cd280c3bc68da8d0184"
+      "normalizedSha256": "1a025f7907f548a94a3de91c89292b78e7205db4017956fd506385be277e3fa3"
     },
     {
       "index": 6,
-      "sourceRowMajorIndex": 6,
       "cell": [
-        80,
+        88,
         96,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -293,35 +317,41 @@
         570,
         676
       ],
-      "sourceComponentAreaAtThreshold": 27642,
+      "sourceComponentArea": 27642,
       "sourceCentroid": [
         468.5,
         516.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        16,
-        20,
-        63,
+        18,
+        13,
+        69,
         94
       ],
+      "atlasAlphaBounds": [
+        106,
+        109,
+        157,
+        190
+      ],
       "marginsLTRB": [
-        16,
-        20,
-        17,
+        18,
+        13,
+        19,
         2
       ],
-      "visibleHeight": 74,
+      "visibleHeight": 81,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "9dfa50e490cbd4d8fc8aec42d0738d7a27c530fb9d925c45156028b5a48b5752"
+      "normalizedSha256": "4def78fd07859d3146d032edd2fe7c6df9fdb17c8cd043788021b7fd83f2d97e"
     },
     {
       "index": 7,
-      "sourceRowMajorIndex": 7,
       "cell": [
-        160,
+        176,
         96,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -330,35 +360,41 @@
         858,
         674
       ],
-      "sourceComponentAreaAtThreshold": 28969,
+      "sourceComponentArea": 28969,
       "sourceCentroid": [
         761.0,
         505.0
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        17,
-        15,
-        62,
+        19,
+        9,
+        68,
         94
       ],
+      "atlasAlphaBounds": [
+        195,
+        105,
+        244,
+        190
+      ],
       "marginsLTRB": [
-        17,
-        15,
-        18,
+        19,
+        9,
+        20,
         2
       ],
-      "visibleHeight": 79,
+      "visibleHeight": 85,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "30b042bf2f0ff1302f611d40bdde3f6d0a00f0af58609a2bc7ba2ab593c6e76a"
+      "normalizedSha256": "67f48a5d922a8de4791abe60a6256d0716e3ee526694f1bd90206a700e78facd"
     },
     {
       "index": 8,
-      "sourceRowMajorIndex": 8,
       "cell": [
-        240,
+        264,
         96,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -367,35 +403,41 @@
         1159,
         688
       ],
-      "sourceComponentAreaAtThreshold": 25825,
+      "sourceComponentArea": 25825,
       "sourceCentroid": [
         1060.0,
         547.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        17,
-        29,
-        63,
+        19,
+        23,
+        69,
         94
       ],
+      "atlasAlphaBounds": [
+        283,
+        119,
+        333,
+        190
+      ],
       "marginsLTRB": [
-        17,
-        29,
-        17,
+        19,
+        23,
+        19,
         2
       ],
-      "visibleHeight": 65,
+      "visibleHeight": 71,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "b94832e1a875651164d3c9a1afa36211249650cd02aa3dd4a7cd17c22c9a8cf7"
+      "normalizedSha256": "071a20252f8abcd90d2077e4bc12aadb3e6877dbb228543345b142803de02d23"
     },
     {
       "index": 9,
-      "sourceRowMajorIndex": 9,
       "cell": [
-        320,
+        352,
         96,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -404,35 +446,41 @@
         1443,
         667
       ],
-      "sourceComponentAreaAtThreshold": 26924,
+      "sourceComponentArea": 26924,
       "sourceCentroid": [
         1352.5,
         502.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        19,
-        17,
-        61,
+        21,
+        11,
+        67,
         94
       ],
+      "atlasAlphaBounds": [
+        373,
+        107,
+        419,
+        190
+      ],
       "marginsLTRB": [
-        19,
-        17,
-        19,
+        21,
+        11,
+        21,
         2
       ],
-      "visibleHeight": 77,
+      "visibleHeight": 83,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "b2f7d5b7d878da3b34a0355ef7bcede281c03d6e0f565ff0a1713b7ef2625b55"
+      "normalizedSha256": "e790b81d19200768ab7826ef46683ac66a9efff9198f5fb20bde294ad532aa33"
     },
     {
       "index": 10,
-      "sourceRowMajorIndex": 10,
       "cell": [
         0,
         192,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -441,35 +489,41 @@
         285,
         974
       ],
-      "sourceComponentAreaAtThreshold": 27613,
+      "sourceComponentArea": 27613,
       "sourceCentroid": [
         185.0,
         836.0
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        16,
-        30,
-        63,
+        19,
+        24,
+        69,
         94
       ],
+      "atlasAlphaBounds": [
+        19,
+        216,
+        69,
+        286
+      ],
       "marginsLTRB": [
-        16,
-        30,
-        17,
+        19,
+        24,
+        19,
         2
       ],
-      "visibleHeight": 64,
+      "visibleHeight": 70,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "d44a8b6deb3388f40eab4a4c8c1351354dd490c634e0e13afbe290a20b2a2269"
+      "normalizedSha256": "f2039796266a3e88a075295a420636878263759d402e7d52c92b3723d2e8ef1f"
     },
     {
       "index": 11,
-      "sourceRowMajorIndex": 11,
       "cell": [
-        80,
+        88,
         192,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -478,35 +532,41 @@
         564,
         1000
       ],
-      "sourceComponentAreaAtThreshold": 27246,
+      "sourceComponentArea": 27246,
       "sourceCentroid": [
         465.0,
         850.0
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        17,
-        24,
-        63,
+        19,
+        18,
+        69,
         94
       ],
+      "atlasAlphaBounds": [
+        107,
+        210,
+        157,
+        286
+      ],
       "marginsLTRB": [
-        17,
-        24,
-        17,
+        19,
+        18,
+        19,
         2
       ],
-      "visibleHeight": 70,
+      "visibleHeight": 76,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "9836bebe9a0e67f416640cb6ed7219312c7ea212f2c395b9c03fe1b7dae81784"
+      "normalizedSha256": "ad21f4a7be78fe6f350e41b9c30e1152bbd99b9ce0954ce7fea72482a53bdaf8"
     },
     {
       "index": 12,
-      "sourceRowMajorIndex": 12,
       "cell": [
-        160,
+        176,
         192,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -515,35 +575,41 @@
         928,
         994
       ],
-      "sourceComponentAreaAtThreshold": 29372,
+      "sourceComponentArea": 29372,
       "sourceCentroid": [
         773.5,
         850.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        4,
-        27,
-        76,
+        5,
+        22,
+        83,
         94
       ],
+      "atlasAlphaBounds": [
+        181,
+        214,
+        259,
+        286
+      ],
       "marginsLTRB": [
-        4,
-        27,
-        4,
+        5,
+        22,
+        5,
         2
       ],
-      "visibleHeight": 67,
+      "visibleHeight": 72,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "4296e90cefe7e1e5ec223ee299723b8d9d7e562b9385087b6a7b79783d605ba7"
+      "normalizedSha256": "1da2a40dc0a49b5f7dae7674a4129794fd5650959624c8a03dfc80bb235e90c4"
     },
     {
       "index": 13,
-      "sourceRowMajorIndex": 13,
       "cell": [
-        240,
+        264,
         192,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -552,35 +618,41 @@
         1198,
         1003
       ],
-      "sourceComponentAreaAtThreshold": 26627,
+      "sourceComponentArea": 26627,
       "sourceCentroid": [
         1076.0,
         881.0
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        11,
-        37,
-        68,
+        13,
+        32,
+        75,
         94
       ],
+      "atlasAlphaBounds": [
+        277,
+        224,
+        339,
+        286
+      ],
       "marginsLTRB": [
-        11,
-        37,
-        12,
+        13,
+        32,
+        13,
         2
       ],
-      "visibleHeight": 57,
+      "visibleHeight": 62,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "345d3959c759085f0f4a617c1bcafc168dd4646eb9767c9a0e373fabbc15a335"
+      "normalizedSha256": "b9a8ac40cc3cd7fe7024397902aecd5a11ebce58789f317b93e3a04c23c1e48b"
     },
     {
       "index": 14,
-      "sourceRowMajorIndex": 14,
       "cell": [
-        320,
+        352,
         192,
-        80,
+        88,
         96
       ],
       "sourceComponentBBox": [
@@ -589,32 +661,39 @@
         1470,
         1004
       ],
-      "sourceComponentAreaAtThreshold": 28078,
+      "sourceComponentArea": 28078,
       "sourceCentroid": [
         1384.0,
         841.5
       ],
+      "removedDetachedOutputComponentSizes": [],
       "outputAlphaBounds": [
-        20,
-        18,
-        60,
+        22,
+        12,
+        65,
         94
       ],
+      "atlasAlphaBounds": [
+        374,
+        204,
+        417,
+        286
+      ],
       "marginsLTRB": [
-        20,
-        18,
-        20,
+        22,
+        12,
+        23,
         2
       ],
-      "visibleHeight": 76,
+      "visibleHeight": 82,
       "baselineY": 94,
       "baselineDelta": 0,
-      "normalizedSha256": "2f5f93660ef0b9cba024ef94e8f71ba8a107ca2d402c9a39a720c4ef8efc96c4"
+      "normalizedSha256": "87613d092d921679314ac5a4314dbd50aac028333aaa94cfef3b0a443c4b891a"
     }
   ],
   "atlas": "tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-atlas.png",
   "lightPreview": "tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-light-preview.png",
   "darkPreview": "tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-dark-preview.png",
-  "reviewStatus": "candidate cleanup only; independent final review pending; no gameplay track or production registration",
-  "atlasSha256": "76167ac98b43e1c9d132cf197982445619425a65e35157c5fd6c774f26c672f6"
+  "reviewStatus": "candidate cleanup only; independent cleanup review pending; not registered",
+  "atlasSha256": "057c7a200563dc9c20e80182b4be01317a879476b5e399a7559fea473c98761e"
 }

@@ -1,8 +1,8 @@
-## Kraken alley-oop-reverse accepted — 2026-10-29 05:52 UTC
+## Kraken dunk-scythe accepted — 2026-10-29 05:55 UTC
 
-Kraken J.07 now has **23/29 accepted bespoke clips**; six remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, and `dunk-scythe`. `alley-oop-reverse` uses attempt05 cleanup01 as a lossless WebP and the separately calibrated Kraken track attempt06. Independent raw/cleanup reviews and a 60-capture actual production-loader review pass: real Marin pass/catch, contact frames5–9, reverse finish, tick21 release, tick23 score, tick30 recovery, mirrored facings and both zooms, no injection or browser errors. Known caveats are documented: median figure height is about 16% below idle, and two raw source bounds touched cell edges before cleanup; no anatomy is visibly clipped in the cleaned asset or runtime.
+Kraken J.07 now has **24/29 accepted bespoke clips**; five remain: `dunk-windmill`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, and `dunk-clutch`. `dunk-scythe` uses the cleanup03 scaled-repack WebP and separate Kraken track02. Independent art/gameplay review, a separate isolated-loader review, and a current-branch no-injection capture pass. All 15 frames render and mirror at 100%/120%; hand contact frames6–9, tick21 release, tick23 score, tick30 recovery, correct team scoring, zero browser errors. Style caveat: the atlas is slightly darker/noisier than idle, while identity, anatomy, pixel edges, margins and upright scale pass.
 
-Current strict audit: 2,391 inspected clip assignments; 564 source atlases; 5,399 unique source drawings; 712 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Full test/lint/build validation and push for this checkpoint are pending. Rejected and unreviewed candidate generations remain separate and are not registered.
+Strict report-only audit: 2,392 inspected assignments; 565 source atlases; 5,414 unique source drawings; 711 missing assignments; zero target-frame shortfalls; four inherited prompt findings. Validation passed: `npm test` 84/84, lint 21 modules, content validation 35 franchises / 105 athletes / 35 captains, and `npm run build` produced the 119,624,406-byte standalone preview with the new atlas. This checkpoint is ready to publish.
 
 ## Kraken alley-oop power accepted — 2026-10-29 05:18 UTC
 

@@ -1,0 +1,116 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "dunk-scythe",
+  "src": "./public/assets/animation/kraken-dunk-scythe-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    }
+  ],
+  "baselineY": 94,
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-dunk-scythe-attempt02-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29T05:11:00Z",
+    "sourceRects": [
+      {
+        "sourceImage": "tools/generate-art/sources/kraken-dunk-scythe-attempt02-generated-raw.png",
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 1024,
+        "sourceScale": 1.0853658536585367
+      }
+    ],
+    "packaging": "Cleanup03 scaled component repack, pixel-identical lossless WebP; shared palette and nearest-neighbor scale."
+  }
+}

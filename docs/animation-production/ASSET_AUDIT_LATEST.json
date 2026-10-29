@@ -4,17 +4,17 @@
   "requiredClipsMinimum": 3045,
   "requiredFramesMinimum": 29190,
   "version": 2,
-  "generatedAt": "2026-10-29T05:53:26.198Z",
+  "generatedAt": "2026-10-29T11:51:31.915Z",
   "ok": false,
   "athletes": 105,
   "clipDefinitions": 29,
-  "inspectedClips": 2391,
-  "missingClipCount": 712,
+  "inspectedClips": 2392,
+  "missingClipCount": 711,
   "uniqueSourceLibraries": 42,
-  "uniqueSourceAtlases": 564,
-  "uniqueSourceDrawings": 5399,
+  "uniqueSourceAtlases": 565,
+  "uniqueSourceDrawings": 5414,
   "classifications": {
-    "original-authored": 564,
+    "original-authored": 565,
     "derived-palette": 1827
   },
   "assignmentClassifications": {
@@ -169,8 +169,8 @@
       "sourceLibrary": "echo-catwalk"
     },
     "kraken": {
-      "clips": 23,
-      "missingClips": 6,
+      "clips": 24,
+      "missingClips": 5,
       "classification": "incomplete",
       "assignmentStatus": "original-authored",
       "lineage": null,
@@ -927,13 +927,6 @@
       "athlete": "kraken",
       "direction": "right",
       "clip": "dunk-clutch",
-      "classification": "original-authored"
-    },
-    {
-      "code": "missing-clip",
-      "athlete": "kraken",
-      "direction": "right",
-      "clip": "dunk-scythe",
       "classification": "original-authored"
     },
     {
@@ -64439,6 +64432,158 @@
           "h": 96,
           "hash": "dbe197baf205c1ea9d0ba57937dd62624b51044a67c9bb44688a43ac414a9054",
           "visiblePixels": 1544
+        }
+      ]
+    },
+    {
+      "athlete": "kraken",
+      "direction": "right",
+      "clip": "dunk-scythe",
+      "classification": "original-authored",
+      "src": "./public/assets/animation/kraken-dunk-scythe-right.webp",
+      "width": 440,
+      "height": 288,
+      "sha256": "433f427f13a004b2bae42da55287243ed2903257ce3ebabbc69b44850362417e",
+      "required": 15,
+      "target": 15,
+      "targetReached": true,
+      "actualFrames": 15,
+      "distinctFrames": 15,
+      "frames": [
+        {
+          "index": 0,
+          "x": 0,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "8782de1043e806996bd0d26979000a89af7dcbe39673926e567e3f96246aaafa",
+          "visiblePixels": 1547
+        },
+        {
+          "index": 1,
+          "x": 88,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "2356fc18bcaaf26c3bf960800a0b72d9ca7871ff4bc19479bdf6fe0ac8f48a84",
+          "visiblePixels": 1737
+        },
+        {
+          "index": 2,
+          "x": 176,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "115232c5515d80993ef4b9f2126b042259c2ca58533037309b58a1d637ef0236",
+          "visiblePixels": 1639
+        },
+        {
+          "index": 3,
+          "x": 264,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "dd6ea0e7e37f3b9946c727296aa1c98c29d51a5f138c1a7162010319aa92b490",
+          "visiblePixels": 1706
+        },
+        {
+          "index": 4,
+          "x": 352,
+          "y": 0,
+          "w": 88,
+          "h": 96,
+          "hash": "5f56f3265cdaae939788c585ddac1b63af1e43be5d68d83c61c06e1bc38c832b",
+          "visiblePixels": 1503
+        },
+        {
+          "index": 5,
+          "x": 0,
+          "y": 96,
+          "w": 88,
+          "h": 96,
+          "hash": "24e7a6b855718f255423e81505d9a1374c154d7fc983f0937af5fce6825cf70c",
+          "visiblePixels": 1631
+        },
+        {
+          "index": 6,
+          "x": 88,
+          "y": 96,
+          "w": 88,
+          "h": 96,
+          "hash": "f1fb9632489f075c9bf3ed54646f8c50b0cb720b21c42f572c2e73695647f830",
+          "visiblePixels": 1696
+        },
+        {
+          "index": 7,
+          "x": 176,
+          "y": 96,
+          "w": 88,
+          "h": 96,
+          "hash": "b2a3a04ecdeac0cfec467e884fd91acb343f3056c52f7f2a180de45e776b1dac",
+          "visiblePixels": 1723
+        },
+        {
+          "index": 8,
+          "x": 264,
+          "y": 96,
+          "w": 88,
+          "h": 96,
+          "hash": "ad1d359ea86fac093e4be42232e1dcd27a73db9477b708a6f5d8062a77dea49b",
+          "visiblePixels": 1711
+        },
+        {
+          "index": 9,
+          "x": 352,
+          "y": 96,
+          "w": 88,
+          "h": 96,
+          "hash": "881c4a8f8bafa30f36fbeb5b330e49c9ae4aa1aac5b057491f6a442dd373078e",
+          "visiblePixels": 1723
+        },
+        {
+          "index": 10,
+          "x": 0,
+          "y": 192,
+          "w": 88,
+          "h": 96,
+          "hash": "3224490d8756d2a867dda90aab28758f2b0e50789b6e4616354cbdf213aee61c",
+          "visiblePixels": 1654
+        },
+        {
+          "index": 11,
+          "x": 88,
+          "y": 192,
+          "w": 88,
+          "h": 96,
+          "hash": "42109d17d669e2b119115c3ebd4f3223c0ed7861edb0e9dc05b85b3d199acb10",
+          "visiblePixels": 1609
+        },
+        {
+          "index": 12,
+          "x": 176,
+          "y": 192,
+          "w": 88,
+          "h": 96,
+          "hash": "439a54e977d1437e0c60c9a8a267a3e31d69b7cbae47326fc0b2f1481594544f",
+          "visiblePixels": 1717
+        },
+        {
+          "index": 13,
+          "x": 264,
+          "y": 192,
+          "w": 88,
+          "h": 96,
+          "hash": "5ea753753e2cf1a7ccbaeab166ea46fd427376b4dcd57d8bf5b478bb39df5f58",
+          "visiblePixels": 1556
+        },
+        {
+          "index": 14,
+          "x": 352,
+          "y": 192,
+          "w": 88,
+          "h": 96,
+          "hash": "7a8a295a7a0d2099d400cdbd3fcd054c4eae6cc768cf165284ceaf4545a64b66",
+          "visiblePixels": 1859
         }
       ]
     },
