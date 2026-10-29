@@ -127,7 +127,9 @@ async function defaultValidatePackage(options){
   const {validatePackage}=await import('./validate-package.mjs');
   return validatePackage(options);
 }
-async function createStage({baseRoot,baseCommit,out,batchId}){
+export async function createStage({baseRoot,baseCommit,out,batchId}){
+  if(git(baseRoot,['rev-parse','--verify','HEAD']).trim()!==baseCommit)throw Object.assign(new Error('STALE_BASE'),{code:'STALE_BASE'});
+  if(git(baseRoot,['status','--porcelain=v1','--untracked-files=all']).trim())throw Object.assign(new Error('DIRTY_BASE'),{code:'DIRTY_BASE'});
   await mkdir(out,{recursive:true});
   if((await stat(baseRoot)).dev!==(await stat(out)).dev)throw Object.assign(new Error('STAGING_DEVICE_MISMATCH'),{code:'STAGING_DEVICE_MISMATCH'});
   const stagingRoot=await mkdtemp(join(out,`captain-batch-${batchId.slice(0,12)}-`));
