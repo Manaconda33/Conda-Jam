@@ -129,7 +129,7 @@ export async function collectCaptainContribution({repositoryRoot,baseCommit,work
   for(const file of [...inventory.keys()].sort()){
     const entry=finalEntries.get(file);if(!entry)reject('FINAL_FILE_MISSING',file);
     const {blob,size,sha256:hash}=validatedBlob(repositoryRoot,entry,file,checkedBlobs);
-    files.push({path:file,mode:entry.mode,objectId:entry.oid,size,sha256:hash,disposition:inventory.get(file),blob});
+    files.push({path:file,mode:entry.mode,objectId:entry.oid,objectType:entry.type,size,sha256:hash,disposition:inventory.get(file),blob});
   }
   for(const [key,entry] of expectedAtlases)if(!seenAtlases.has(key))reject('MISSING_ASSIGNED_ATLAS',`${entry.clip}:${entry.direction}`);
   return {ok:true,baseCommit,workerCommit,commits,files};
