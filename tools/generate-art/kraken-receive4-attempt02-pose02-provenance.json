@@ -1,0 +1,70 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "receive",
+  "direction": "right",
+  "attempt": 2,
+  "poseIndex": 2,
+  "status": "accepted and registered",
+  "tool": "image_gen__imagegen",
+  "generationId": "not exposed by the image-generation tool response",
+  "generatedAt": "2026-10-29T02:54:00Z",
+  "promptFile": "tools/generate-art/kraken-receive4-attempt02-pose02-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "d40b2165c03236258550f09a9c2e561727e9dc744ddbe114157e3b203ee5c5ff",
+  "rawSourceImage": "tools/generate-art/sources/kraken-receive4-attempt02-pose02-generated-raw.png",
+  "rawSourceSha256": "0850e44a36ebf21d025f288b5c6ef4a089c1aa3d4ab8c369649527fa6d215258",
+  "dimensions": [
+    1145,
+    1374
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/previews/kraken-receive4-attempt01/poses/pose-02-normalized.png"
+  ],
+  "replaces": "attempt01 pose02 catch at sternum; the current incoming Marin pass arrived at upper chest/face height and did not visually meet the lower hands",
+  "poseTiming": {
+    "frameDuration": 1,
+    "catchTick": 4
+  },
+  "ballPolicy": "No basketball in the art; calibrate and validate a separate Kraken-specific receive track.",
+  "cleanup": {
+    "script": "tools/generate-art/clean-kraken-receive4-attempt02-cleanup02.py",
+    "atlas": "tools/generate-art/previews/kraken-receive4-attempt02/cleanup02/kraken-receive4-attempt02-cleanup02-atlas-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-receive4-attempt02/cleanup02/layout.json",
+    "status": "independent visual review pass for track trials only",
+    "review": "tools/generate-art/previews/kraken-receive4-attempt02/cleanup02/INDEPENDENT_CLEANUP_REVIEW_2026-10-29.md"
+  },
+  "rawPreserved": true,
+  "registration": {
+    "manifest": "public/assets/animation/manifest.json",
+    "asset": "public/assets/animation/kraken-receive-right.webp",
+    "productionLayout": "tools/generate-art/previews/kraken-receive4-attempt02/production-layout.json",
+    "trackReview": "tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md",
+    "runtimeBallTrack": {
+      "height": [
+        1.3,
+        1.4,
+        1.74,
+        1.2
+      ],
+      "forward": [
+        3,
+        4.5,
+        3,
+        2
+      ]
+    }
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": "cleanup01 / track attempts01-02",
+      "reason": "Normalized frames were assembled without source atlas margins; three poses touched top-left and floated above baseline. Replaced by cleanup02; dependent trial tracks invalidated."
+    }
+  ]
+}

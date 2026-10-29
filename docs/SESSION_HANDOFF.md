@@ -1,3 +1,13 @@
+## Kraken receive accepted — 2026-10-29 03:01 UTC
+
+Kraken J.129 now has **14/29** accepted bespoke clips; 15 remain. `receive` is registered as `public/assets/animation/kraken-receive-right.webp`, four distinct poses with a separate athlete-specific track H `[1.3,1.4,1.74,1.2]`, F `[3,4.5,3,2]`. The tick4 catch lands on the raised hands and lowers into a stable cradle at tick5. Raw prompts/images, frame lineage, cleanup, atlas layout, rejected cleanup/track trials and review records are retained under `tools/generate-art/`. The image-generation response omitted the replacement pose's generation ID; provenance records this limitation.
+
+Independent source and current-court normal-loader reviews pass. Marin-to-Kraken gameplay uses Vesper Harbor Undertow vs Blackthorn Court Kings at courtY75, both facings and 100%/120% zoom; 32 screenshots show correct frame selection/mirroring, near-zero catch correction, no score change and no browser errors. The report's 52 count is trace snapshots, not screenshot files. Focused receive integration tests pass.
+
+The current local Jamverse preview rebuild includes **889 registered clip/atlas assignments**, **8,088 frame rectangles**, 48 legacy atlases and 937 total embedded atlases; standalone size is 119,226,114 bytes. This is not a Pages deployment. The strict report-only audit now records **2,382 inspected assignments**, **555 source atlases**, **5,297 unique source drawings**, **721 missing clip assignments**, zero target-frame shortfalls and four inherited prompt findings.
+
+Next Kraken gaps: `layup`, `layup-reverse`, `push`, `rebound`, `fall`, eight dunk variants and two alley-oops.
+
 ## Kraken pickup accepted — 2026-10-29 02:47 UTC
 
 Kraken J.129 now has **13/29** accepted bespoke clips; Krios remains complete at 29/29. `pickup` is registered as `public/assets/animation/kraken-pickup-right.webp`, a five-pose source composite that replaces the previously rejected double-body grab pose. The separate track is height `[0.65,0.45,0.2,0.2,0.68]`, forward `[3.5,4.5,5.5,4.5,2.5]`: frame3 grabs at tick7, frame4 raises the ball into the gathered hands and holds it steadily. Source, each frame's lineage, raw prompt/PNG, cleanup/layout, rejected trial captures, and independent reviews are preserved under `tools/generate-art/`. The ImageGen response omitted its generation ID; this is explicitly recorded.

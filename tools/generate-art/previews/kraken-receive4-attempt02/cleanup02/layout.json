@@ -1,0 +1,157 @@
+{
+  "status": "cleanup02 layout candidate; independent review and track calibration pending",
+  "athlete": "kraken",
+  "clip": "receive",
+  "attempt": 2,
+  "cleanup": 2,
+  "columns": 2,
+  "rows": 2,
+  "frameSize": [
+    80,
+    96
+  ],
+  "baselineY": 94,
+  "durations": [
+    2,
+    2,
+    1,
+    3
+  ],
+  "catchFrame": 2,
+  "catchTick": 4,
+  "ballBakedIn": false,
+  "sourceAtlas": "tools/generate-art/previews/kraken-receive4-attempt01/kraken-receive4-attempt01-runtime-candidate.png",
+  "atlas": "tools/generate-art/previews/kraken-receive4-attempt02/cleanup02/kraken-receive4-attempt02-cleanup02-atlas-candidate.png",
+  "atlasSha256": "8944e55abdb46b238a78fc56b14704b9e2930985dfaa5605738bdcdbe8e3c45c",
+  "lineage": {
+    "frames": [
+      0,
+      1,
+      3
+    ],
+    "sourceAtlas": "tools/generate-art/previews/kraken-receive4-attempt01/kraken-receive4-attempt01-runtime-candidate.png",
+    "sourceGeneration": "exec-73626bfe-e2fb-4dc5-8768-f297ab8edbdf",
+    "frame2Source": "tools/generate-art/sources/kraken-receive4-attempt02-pose02-generated-raw.png",
+    "frame2Prompt": "tools/generate-art/kraken-receive4-attempt02-pose02-imagegen-prompt.txt",
+    "frame2GenerationId": "not exposed by the image-generation tool response",
+    "frame2SourceSha256": "0850e44a36ebf21d025f288b5c6ef4a089c1aa3d4ab8c369649527fa6d215258",
+    "sourceBoundsLTRB": [
+      223,
+      233,
+      921,
+      1219
+    ],
+    "cropSha256": "63dcbb91db00202c1d7e1c79930a0560503b85217b290b152169287c3863a56a",
+    "scale": 0.07099391480730223,
+    "outputSize": [
+      50,
+      70
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "slot": [
+        0,
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCellLTRB": [
+        13,
+        24,
+        66,
+        94
+      ],
+      "marginsLTRB": [
+        13,
+        24,
+        14,
+        2
+      ],
+      "baselineY": 94,
+      "alphaHash": "87f219ebc6613b52072b833d6540c3cfc8389a071be40461ca2448ce458f4851",
+      "pixelHash": "0fc6a500da20e4460d62928ef34c841c157cb53dfd654078f42b93d1d7e0bfcd"
+    },
+    {
+      "index": 1,
+      "slot": [
+        1,
+        0
+      ],
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCellLTRB": [
+        5,
+        24,
+        75,
+        94
+      ],
+      "marginsLTRB": [
+        5,
+        24,
+        5,
+        2
+      ],
+      "baselineY": 94,
+      "alphaHash": "28650ecec09f3a130ccb2cd522b766a03250d05393c6d6671f71c565af6da51c",
+      "pixelHash": "9a999e8a8b08b7793212ab5ee8f760614c9c30d3f3f128cc1e1d7aeb5afcb841"
+    },
+    {
+      "index": 2,
+      "slot": [
+        0,
+        1
+      ],
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "bboxInCellLTRB": [
+        15,
+        24,
+        65,
+        94
+      ],
+      "marginsLTRB": [
+        15,
+        24,
+        15,
+        2
+      ],
+      "baselineY": 94,
+      "alphaHash": "d3826a7ea559b169480a4f25eb39d8adf8ffd873f4a1d5ef9aaa1a73461af2a2",
+      "pixelHash": "0b6485d3cc7dae6c3669ec15c1b659845834b5c07590204a7f99103e42673c8a"
+    },
+    {
+      "index": 3,
+      "slot": [
+        1,
+        1
+      ],
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "bboxInCellLTRB": [
+        13,
+        24,
+        66,
+        94
+      ],
+      "marginsLTRB": [
+        13,
+        24,
+        14,
+        2
+      ],
+      "baselineY": 94,
+      "alphaHash": "3c44626a624149b352d70ad05a239b645de806bb5ce4eccf787285ed31a233bb",
+      "pixelHash": "634070c9cb8a7d71df09af49729c7944251e0372e66df334a0e0c6227edf347d"
+    }
+  ]
+}
