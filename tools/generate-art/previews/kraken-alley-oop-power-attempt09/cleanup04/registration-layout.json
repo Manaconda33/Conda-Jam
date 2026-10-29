@@ -1,0 +1,116 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "alley-oop-power",
+  "src": "./public/assets/animation/kraken-alley-oop-power-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 192,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "baselineY": 92,
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-alley-oop-power-attempt09-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29T04:45:00Z",
+    "generationId": "exec-acc4c354-79ac-4caa-a8ff-b08eeedf16b0",
+    "promptSha256": "3a942eee85b5a471a1f4c6e0c7718a29146f0053722a21a6dc42889079aa4585",
+    "rawSource": "tools/generate-art/sources/kraken-alley-oop-power-attempt09-generated-raw.png",
+    "rawSourceSha256": "134c514b8266ae45844ce2a858241e9283ff5dba9693042797086ba552838d68",
+    "assetClassification": "derived-cleanup-from-imagegen-source",
+    "cleanupScript": "tools/generate-art/clean-kraken-alley-oop-power-attempt09-cleanup04.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/cleanup04/cleanup-layout-report.json",
+    "cleanupNotes": "15-cell extraction; source alpha threshold64; common scale; nearest-neighbor resize; binary alpha; one shared16-color visible-pixel palette; remove isolated8-connected components <64 output pixels; align retained bounds to baselineY92; no repaint or generated poses.",
+    "track": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/gameplay-candidate/track-attempt04/track.json",
+    "candidateGameplayReview": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/gameplay-candidate/track-attempt04/INDEPENDENT_REVIEW.md",
+    "webpLosslessPixelIdentical": true
+  }
+}

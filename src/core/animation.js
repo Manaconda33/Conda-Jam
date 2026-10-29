@@ -1536,6 +1536,7 @@ athleteBallTracks.kraken['pass-overhead']={height:[1.05,1.85,1.75,1.9,2.1,1.2],f
 athleteBallTracks.kraken['pass-behind']={height:[1.0,1.1,1.2,1.25,1.2,1.0],forward:[5,2,-5,-7,-9,4],releaseVz:.294};
 athleteBallTracks.kraken.pickup={height:[0.65,0.45,0.2,0.2,0.68],forward:[3.5,4.5,5.5,4.5,2.5]};
 athleteBallTracks.kraken.receive={height:[1.3,1.4,1.74,1.2],forward:[3,4.5,3,2]};
+athleteBallTracks.kraken['alley-oop-power']={height:[1.37,1.71,2.22,2.16,1.96,.55,1.55,1.8,1.75,1.52,.70,.64,.39,.37,.65],forward:[9.50,10.23,7.67,5.12,8.40,8.2,6,6,5.5,6.8,5.12,1.10,-2.19,-1.10,-2.92]}; // J.07 attempt09 track04, independently reviewed candidate; actual normal-loader trial pending.
 athleteBallTracks.kraken.layup={height:[1.0,1.2,1.55,1.78,1.85,2.0,1.35,.75],forward:[3,3,3.5,2.9,4.2,4.0,3,3],releaseVz:.45}; // J.129 layup track attempt06: independently reviewed candidate and registered normal-loader pass // J.07 receive attempt01: Marin pass meets pose2 at tick4; pose3 secures at tick5 // J.07 pickup attempt06/08: independently reviewed tick7 grab and gathered-hand carry // J.07 pass-behind attempt11/12: reviewed normal-loader pass; Marin catches at the facing hand anchor
 athleteBallTracks['marin-dusk']={'receive':{height:[1.3,1.35,1.7,1.75],forward:[4,4,2,1]},'idle-ball':{height:[1.45,1.45,1.45,1.45],forward:[1,1,1,1]}}; // J.07 pass attempt15: raised receive frame2/3 to meet Marin's cupped hands; separate held-ball track remains stable
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){

@@ -1,3 +1,9 @@
+## Current captain lane — 2026-10-29 05:18 UTC
+
+Kraken J.07: **21/29 accepted bespoke clips**, with eight missing: `dunk-windmill`, `dunk-reverse`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, and `alley-oop-reverse`. Both `dunk-power` and `alley-oop-power` passed independent source, separate-track candidate, and actual normal-loader gameplay review. Alley-oop-power uses Kraken-specific ball tracks and verifies the teammate catch, rim release, score, mirroring and landing.
+
+Strict report-only audit: 2,389 inspected assignments; 562 unique source atlases; 5,369 unique source drawings; 714 missing clip assignments; zero target-frame shortfalls; four inherited prompt findings. Raw source attempts, exact prompts, provenance, cleanup candidates and rejected review findings are preserved under matching `tools/generate-art/kraken-*` and preview folders. A dunk-reverse source duplicated alley-oop-reverse attempt03 byte-for-byte and shares its generation ID; both records mark this provenance ambiguous/ineligible.
+
 ## Current captain lane — 2026-10-29 05:10 UTC
 
 Kraken J.07: **20/29 accepted bespoke clips**, with nine missing: `dunk-windmill`, `dunk-reverse`, `dunk-360`, `dunk-tomahawk`, `dunk-double`, `dunk-clutch`, `dunk-scythe`, `alley-oop-power`, and `alley-oop-reverse`. `dunk-power` is accepted as a derived cleanup of ImageGen attempt08, with generation provenance explicit; independent art and actual normal-loader gameplay reviews pass. Normal-loader celebration review also confirms the registered Kraken artwork is selected after scoring.

@@ -3,7 +3,7 @@
   "clip": "alley-oop-power",
   "attempt": 9,
   "kind": "fresh ImageGen with transparent_background=true",
-  "status": "rejected for production; cleanup02 pixel-art trial awaits independent review",
+  "status": "accepted for production after cleanup04 art review, attempt04 candidate gameplay review, and registered normal-loader review",
   "generatedAt": "2026-10-29T04:45:00Z",
   "generationId": "exec-acc4c354-79ac-4caa-a8ff-b08eeedf16b0",
   "promptFile": "tools/generate-art/kraken-alley-oop-power-attempt09-imagegen-prompt.txt",
@@ -21,6 +21,15 @@
   ],
   "generatedBy": "ImageGen",
   "reviewFile": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/INDEPENDENT_SOURCE_REVIEW.md",
-  "reviewSummary": "Independent raw-source review found transparent gutters and 15 distinct poses with readable catch-to-dunk sequence, but painterly gradients/antialiased edges and several edge-touching cells. cleanup02 applies a deterministic shared-palette nearest-neighbor pixel conversion and removes tiny detached components; no poses were invented. Runtime acceptance remains pending.",
-  "derivedCandidate": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/cleanup02/cleanup-layout-report.json"
+  "reviewSummary": "Cleanup04 art and track attempt04 passed independent candidate gameplay review and actual production-loader review. Sixty registered captures cover 15 frames, both facings and zooms; the actual Kraken atlas/track handle Marin catch tick10, tick21 rim release, tick23 two-point score, and landing/recovery with zero browser errors.",
+  "derivedCandidate": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/cleanup04/cleanup-layout-report.json",
+  "derivedCandidateStatus": "accepted for production",
+  "derivedCandidateReview": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/cleanup04/INDEPENDENT_CLEANUP04_REVIEW.md",
+  "assetClassification": "derived-cleanup-from-imagegen-source",
+  "candidateGameplayReview": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/gameplay-candidate/track-attempt04/INDEPENDENT_REVIEW.md",
+  "candidateTrack": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/gameplay-candidate/track-attempt04/track.json",
+  "webpPixelIdentical": true,
+  "webpSha256": "880ed3a1128e46bb76c53681f44e9678b50086149ff8c6951216e06607478fdc",
+  "webpBytes": 12172,
+  "normalLoaderReview": "tools/generate-art/previews/kraken-alley-oop-power-attempt09/normal-loader-runtime/INDEPENDENT_NORMAL_LOADER_REVIEW.md"
 }
