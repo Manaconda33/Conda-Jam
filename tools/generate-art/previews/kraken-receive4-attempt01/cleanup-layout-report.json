@@ -10579,10 +10579,10 @@
   "rawPreserved": true,
   "uniqueFrames": 4,
   "minimumMarginsLTRB": [
-    4,
-    22,
-    4,
+    5,
+    24,
+    5,
     2
   ],
-  "pixelTreatment": "Original RGBA only. Alpha under threshold retained only within a 2-source-pixel figure fringe; nearest-neighbor downscale, no chroma recolor/despill."
+  "pixelTreatment": "Original RGBA only. Alpha under threshold retained only within a 1.25-source-pixel figure fringe; nearest-neighbor downscale, no chroma recolor/despill."
 }

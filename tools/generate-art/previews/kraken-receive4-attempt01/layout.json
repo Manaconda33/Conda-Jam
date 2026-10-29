@@ -1,16 +1,16 @@
 {
-  "status": "cleanup/layout trial only; independent visual review pending",
+  "status": "refined cleanup/layout candidate; source/track acceptance pending independent review",
   "source": "tools/generate-art/sources/kraken-receive4-attempt01-generated-raw.png",
   "sourceSha256": "d76b0b4ef3cee3427f0e8fdaf919982a95291e6967b3d6a9a351a2554a827d11",
   "atlas": "tools/generate-art/previews/kraken-receive4-attempt01/kraken-receive4-attempt01-runtime-candidate.png",
-  "atlasSha256": "5f9236ce289087a1596a6d6cb597f5d7d57de6e75068068c1693e57fff7d3f4e",
+  "atlasSha256": "0c1e17a3afedff2089d23ddc645aee76770754c410ba2bb2bffc976cbc99c633",
   "columns": 2,
   "rows": 2,
   "frameWidth": 80,
   "frameHeight": 96,
-  "uniformScale": 0.12743362831858407,
+  "uniformScale": 0.12389380530973451,
   "baselineY": 94,
-  "segmentation": "Global full-sheet alpha>=24; assign four strong components by centroid to row-major poses; retain original-alpha fringe within two source pixels.",
+  "segmentation": "Global full-sheet alpha>=24; assign four strong components by centroid to row-major poses; retain original-alpha fringe within 1.25 source pixels.",
   "resampling": "nearest-neighbor",
   "frames": [
     {
@@ -30,24 +30,24 @@
         583
       ],
       "sourceStrongComponentPixels": 85711,
-      "scale": 0.12743362831858407,
+      "scale": 0.12389380530973451,
       "scaledSize": [
-        55,
-        72
+        53,
+        70
       ],
       "offsetInCell": [
-        12,
-        22
+        13,
+        24
       ],
       "baselineY": 94,
       "marginsLTRB": [
-        12,
-        22,
         13,
+        24,
+        14,
         2
       ],
-      "alphaHash": "497dbd2654e7f32fc30ce46fecd2ba6580bda70174b6565cc6e0a27c03b95aa2",
-      "poseHash": "4b38fbc39ae8771a5ddf339a7bb3ce6539b550fc6e9f92c4b62b1f1b225123bc"
+      "alphaHash": "87f219ebc6613b52072b833d6540c3cfc8389a071be40461ca2448ce458f4851",
+      "poseHash": "87a13e9611b05bbc8075ffc3ceb88e0ee1945d80cf784d1f79a9e71c1d96677d"
     },
     {
       "index": 1,
@@ -66,24 +66,24 @@
         582
       ],
       "sourceStrongComponentPixels": 87420,
-      "scale": 0.12743362831858407,
+      "scale": 0.12389380530973451,
       "scaledSize": [
-        72,
-        72
+        70,
+        70
       ],
       "offsetInCell": [
-        4,
-        22
+        5,
+        24
       ],
       "baselineY": 94,
       "marginsLTRB": [
-        4,
-        22,
-        4,
+        5,
+        24,
+        5,
         2
       ],
-      "alphaHash": "78ffd6fa7d535db9df0ad6f3253ab51a004aeea5da4eb1a17dfbc93a2bc3f287",
-      "poseHash": "a632478abb2d750636510306c02b42198343f814bf38232c63c7efe7fe03520b"
+      "alphaHash": "28650ecec09f3a130ccb2cd522b766a03250d05393c6d6671f71c565af6da51c",
+      "poseHash": "f97f8ed4ebc4eab8f96e87899ade11f3580d5529ecc9373db4cbd027dbff83d7"
     },
     {
       "index": 2,
@@ -102,24 +102,24 @@
         1181
       ],
       "sourceStrongComponentPixels": 83873,
-      "scale": 0.12743362831858407,
+      "scale": 0.12389380530973451,
       "scaledSize": [
-        55,
-        72
+        53,
+        70
       ],
       "offsetInCell": [
-        12,
-        22
+        13,
+        24
       ],
       "baselineY": 94,
       "marginsLTRB": [
-        12,
-        22,
         13,
+        24,
+        14,
         2
       ],
-      "alphaHash": "afa46fc45dbed6e5314f3cfc5bc54425b1e251549592bc2018fa6ab9baaa55eb",
-      "poseHash": "f2debc520e8fff9150fa532778418e145721286bfcdd26130788c169c8381184"
+      "alphaHash": "0454b889f28a5e6fed4b4f7f48dff834c8136e0eaad89da626d43a1fd2a9f008",
+      "poseHash": "5c2eb4a4bbf03dfeccf70de0c19a52e00d0af06897f58663962a4d97a09e96ae"
     },
     {
       "index": 3,
@@ -138,24 +138,24 @@
         1181
       ],
       "sourceStrongComponentPixels": 87677,
-      "scale": 0.12743362831858407,
+      "scale": 0.12389380530973451,
       "scaledSize": [
-        54,
-        72
+        53,
+        70
       ],
       "offsetInCell": [
         13,
-        22
+        24
       ],
       "baselineY": 94,
       "marginsLTRB": [
         13,
-        22,
-        13,
+        24,
+        14,
         2
       ],
-      "alphaHash": "b62887a2bedca6116f0037e4e04b06000bbf5973944c7626dcdd771fd2c9cc28",
-      "poseHash": "2787ff361794006af0d18648da602ae4467ef8b6a27de46ecd82a101bc61ce15"
+      "alphaHash": "3c44626a624149b352d70ad05a239b645de806bb5ce4eccf787285ed31a233bb",
+      "poseHash": "514990395760f2e7af7712584b29c589ac29f71eed5c0f0f9b74c69fff730b70"
     }
   ]
 }
