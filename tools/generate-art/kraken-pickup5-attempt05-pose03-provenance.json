@@ -1,0 +1,43 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 5,
+  "poseIndex": 3,
+  "status": "new pose source and assembled cleanup candidate; independent visual and gameplay review pending",
+  "tool": "image_gen__imagegen",
+  "generationId": "not exposed by the image-generation tool response",
+  "generatedAt": "2026-10-29T02:36:00Z",
+  "promptFile": "tools/generate-art/kraken-pickup5-attempt05-pose03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "e900dab9ae7e7295b92ac3bd315e358513a8a4a844a0cae69fd4ec8c53630f6b",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pickup5-attempt05-pose03-generated-raw.png",
+  "rawSourceSha256": "75c60ad9ec1f0b11665464fc4d8d53980df9986fcff8429720700cad459ae88c",
+  "dimensions": [
+    1214,
+    1295
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReference": "public/assets/animation/kraken-idle-right.webp",
+  "priorRejectedPoseReference": "tools/generate-art/previews/kraken-pickup5-attempt04/poses/pose-03-grab-tick07-80x96.png",
+  "replaces": "attempt04 pose03, previously rejected in the independent single-player review as reading like two crouched bodies",
+  "poseTiming": {
+    "frameDuration": 1,
+    "grabTick": 7
+  },
+  "ballPolicy": "Empty cupped near hand only; no ball in artwork. Calibrate a separate Kraken-specific ball track.",
+  "cleanupCandidate": {
+    "script": "tools/generate-art/previews/kraken-pickup5-attempt05/clean-and-layout.py",
+    "atlas": "tools/generate-art/previews/kraken-pickup5-attempt05/kraken-pickup5-attempt05-cleanup01-atlas-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-pickup5-attempt05/cleanup01-layout.json",
+    "status": "track candidate only; review pending"
+  },
+  "rawPreserved": true,
+  "registration": null,
+  "rejectedAttempts": []
+}

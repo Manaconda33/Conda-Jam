@@ -43,13 +43,14 @@
     "notes": "Four full-body poses align to receive timings; pose2 is the tick4 grab; source is ball-free and transparent. Source has a red edge fringe and painterly gradients, which require cleanup and runtime-scale review."
   },
   "cleanup": {
-    "status": "pass for separate ball-track trials only; not ready for packing/registration",
+    "status": "refined cleanup approved for separate Kraken ball-track trials only; no production packing or registration yet",
     "script": "tools/generate-art/clean-kraken-receive4-attempt01.py",
     "atlas": "tools/generate-art/previews/kraken-receive4-attempt01/kraken-receive4-attempt01-runtime-candidate.png",
     "layout": "tools/generate-art/previews/kraken-receive4-attempt01/layout.json",
     "report": "tools/generate-art/previews/kraken-receive4-attempt01/cleanup-layout-report.json",
     "independentReview": "tools/generate-art/previews/kraken-receive4-attempt01/INDEPENDENT_CLEANUP_REVIEW_2026-10-28.md",
-    "notes": "Four unique full-body poses and common baseline pass. Faint gray/red edge fringe remains, and min horizontal margins are 4px; refine to at least5px, review both backgrounds and repack before registration."
+    "notes": "Refined scale limits visible pose width to 70px, achieving 5px minimum left/right margins. Threshold/fringe pass removes broad red haze on light/dark proofs. Four unique poses remain anatomically complete; baseline94 and 2px bottom margin remain tight. Ball-track and normal-loader contact review are outstanding.",
+    "refinedIndependentReview": "tools/generate-art/previews/kraken-receive4-attempt01/INDEPENDENT_REFINED_CLEANUP_REVIEW_2026-10-29.md"
   },
   "ballTrack": {
     "status": "not-calibrated",

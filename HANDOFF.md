@@ -1,3 +1,13 @@
+## Kraken asset continuation — 2026-10-29 02:39 UTC
+
+Kraken J.129 has **12/29** accepted clips; Krios remains complete at 29/29. The `pass-behind` checkpoint is committed and published. Kraken's celebration atlas was directly inspected in this turn and correctly shows Kraken's brown skin, dark hair, and red/gold kit—not Krios.
+
+The refined `receive` attempt01 cleanup is approved by independent review for ball-track trials only. It has four distinct poses, baseline94, 5px side margins, complete shoes and clear light/dark transparency; the lower margin remains a tight 2px. A separate track and normal-loader incoming-pass review are still needed, so it remains unregistered. The superseded 2026-10-28 cleanup note is retained; the refined review is `tools/generate-art/previews/kraken-receive4-attempt01/INDEPENDENT_REFINED_CLEANUP_REVIEW_2026-10-29.md`.
+
+A fresh ImageGen edit supplies a replacement `pickup` pose03 because attempt04's grab pose read as two bodies. The exact prompt, raw source, provenance and 5-pose cleanup candidate are preserved under `tools/generate-art/kraken-pickup5-attempt05-*` and `tools/generate-art/previews/kraken-pickup5-attempt05/`. Its gameplay/independent review is pending; it is not registered.
+
+The current local preview still contains all **887** registered assignments (8,079 frame rectangles), including `pass-behind`; it is not a Pages deployment. Strict audit: 2,380 inspected assignments, 553 source atlases, 5,288 source drawings, 723 missing assignments. The fresh fall attempt01 source is preserved but rejected for painterly style, so it is not counted.
+
 ## Kraken continuation — 2026-10-29 02:31 UTC
 
 Kraken J.129 remains at **12/29 registered clips** after the accepted `pass-behind` checkpoint; 17 clips remain. A fresh ImageGen request succeeded at 2026-10-29 02:25 UTC, so the stale 429 estimate is cleared. I generated Kraken fall attempt01 and saved its exact prompt and raw PNG under `tools/generate-art/`; visual review rejected it because the rendering is painterly rather than matching the crisp pixel-art runtime style. Identity and ten pose silhouettes are acceptable, but this source is not cleaned, packed, registered, or counted. The tool response did not expose a generation ID; that provenance limitation is recorded.

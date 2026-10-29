@@ -1,5 +1,5 @@
 {
-  "status": "cleanup/layout trial only; source/track acceptance pending",
+  "status": "refined cleanup candidate; approved for separate Kraken ball-track trials only; not approved for packing or runtime registration",
   "source": "tools/generate-art/sources/kraken-receive4-attempt01-generated-raw.png",
   "sourceAlphaRange": [
     0,
