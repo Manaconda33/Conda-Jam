@@ -8,7 +8,7 @@ Edit ImageGen ID: exec-942b5454-6a3d-4c51-a910-99909094a510.png
 - Non-verbatim prompt summary: “Asked to remove the ball.”
 - Execution ID: `exec-942b5454-6a3d-4c51-a910-99909094a510`.
 - Original generated PNG: `sources/layup-right-attempt-03-edit-output.png`.
-- SHA-256: `25cd40040985bf9bd7e5d73ad9518afd18bddd06ac368b92f14a612660490bbc`.
+- SHA-256: `25cd40040985bf9bd5e7d73ad9518afd18bddd06ac368b92f14a612660490bbc`.
 - Size: 1,389,279 bytes.
 - Original generated-image file modification time: `2026-10-29T21:37:46.915Z` (filesystem metadata, not a tool-reported generation timestamp).
 - Rejection reason: the follow-up edit retained the visible basketball. It remains rejected and is never used as accepted artwork.
