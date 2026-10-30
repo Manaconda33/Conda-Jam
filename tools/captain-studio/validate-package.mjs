@@ -24,10 +24,6 @@ function isObject(value) { return value !== null && typeof value === 'object' &&
 function hasRejectedPromptGap(trial) {
   return trial?.disposition === 'rejected'
     && trial.promptAvailability === 'unavailable'
-    && validText(trial.promptSummary)
-    && trial.promptSummaryVerbatim === false
-    && Array.isArray(trial.cleanupLineage)
-    && trial.cleanupLineage.length === 0
     && !('promptPath' in trial)
     && !('promptSha256' in trial);
 }
@@ -221,6 +217,7 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
   }
 
   const trialKeys = new Set();
+  const warnings = [];
   for (const trial of manifest.trials ?? []) {
     if (!isObject(trial) || !ID.test(trial.clip ?? '') || !['left', 'right'].includes(trial.direction)) { errors.push(issue('TRIAL_INVALID')); continue; }
     const key = keyOf(trial); trialKeys.add(key);
@@ -228,6 +225,7 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
     if (trial.promptAvailability === 'unavailable' && !rejectedPromptGap) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
     const prompt = rejectedPromptGap ? null : (typeof trial.promptPath === 'string' ? requireFile(trial.promptPath, trial.promptSha256) : null);
     if (!rejectedPromptGap && (!validText(trial.promptPath) || !SHA256.test(trial.promptSha256 ?? ''))) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
+    if (rejectedPromptGap) warnings.push(issue('REJECTED_PROMPT_UNAVAILABLE', key.replace('\0', ':')));
     const raw = requireFile(trial.rawSourcePath, trial.rawSourceSha256);
     if (!validText(trial.generationId)) {
       errors.push(issue('GENERATION_ID_MISSING', key.replace('\0', ':')));
@@ -353,5 +351,6 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
     updates: errors.length === 0 ? updates : [],
     totalBytes: fileRows.reduce((sum, row) => sum + row.size, 0),
     errors: sortIssues(errors),
+    warnings: sortIssues(warnings),
   };
 }
