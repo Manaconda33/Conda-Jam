@@ -146,7 +146,7 @@ test('validator accepts one complete captain package after frozen artwork/track 
   assert.deepEqual(await readTree(fixture.baseRoot), before);
 });
 
-test('validator accepts a rejected-only trial with an unavailable exact prompt and explicit summary', async t => {
+test('validator accepts unavailable prompt metadata for unused rejected art as a warning', async t => {
   const fixture = await validPackage(t);
   const prefix = `tools/generate-art/studio/${captainId}`;
   const rawSource = `${prefix}/sources/rejected-edit-output.png`;
@@ -158,7 +158,6 @@ test('validator accepts a rejected-only trial with an unavailable exact prompt a
     ...assignment,
     promptAvailability: 'unavailable',
     promptSummary: 'Asked to remove the ball.',
-    promptSummaryVerbatim: false,
     generationId: 'exec-rejected-without-prompt',
     generatedAt: '2026-10-29T21:37:46.915Z',
     rawSourcePath: rawSource,
@@ -174,6 +173,7 @@ test('validator accepts a rejected-only trial with an unavailable exact prompt a
   await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
   const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
   assert.equal(result.ok, true, JSON.stringify(result.errors));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
 });
 
 test('validator rejects an unavailable-prompt rejected source used by accepted artwork, including byte aliases', async t => {
@@ -195,7 +195,6 @@ test('validator rejects an unavailable-prompt rejected source used by accepted a
       ...assignment,
       promptAvailability: 'unavailable',
       promptSummary: 'Asked to remove the ball.',
-      promptSummaryVerbatim: false,
       generationId: 'exec-rejected-without-prompt',
       generatedAt: '2026-10-29T21:37:46.915Z',
       rawSourcePath: rejectedPath,
@@ -226,7 +225,6 @@ test('validator binds rejected unavailable-prompt history to its raw bytes and p
     ...assignment,
     promptAvailability: 'unavailable',
     promptSummary: 'Asked to remove the ball.',
-    promptSummaryVerbatim: false,
     generationId: 'exec-942b5454-6a3d-4c51-a910-99909094a510',
     generatedAt: '2026-10-29T21:37:46.915Z',
     rawSourcePath,
@@ -254,7 +252,7 @@ test('validator binds rejected unavailable-prompt history to its raw bytes and p
   assert.ok(result.errors.some(issue => issue.code === 'PACKAGE_DIGEST_MISMATCH'));
 });
 
-test('validator rejects an unavailable-prompt summary without an explicit non-verbatim marker', async t => {
+test('validator permits a rejected prompt summary without a separate authorization marker', async t => {
   const fixture = await validPackage(t);
   const prefix = `tools/generate-art/studio/${captainId}`;
   const rawSource = `${prefix}/sources/rejected-edit-output.png`;
@@ -280,37 +278,8 @@ test('validator rejects an unavailable-prompt summary without an explicit non-ve
   fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
   await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
   const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
-  assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'));
-});
-
-test('validator limits unavailable-prompt exception to rejected output with no cleanup lineage', async t => {
-  const fixture = await validPackage(t);
-  const accepted = fixture.manifest.trials[0];
-  fixture.manifest.trials.push({
-    ...assignment,
-    promptAvailability: 'unavailable',
-    promptSummary: 'Asked to remove the ball.',
-    promptSummaryVerbatim: false,
-    generationId: 'exec-rejected-without-prompt',
-    generatedAt: '2026-10-29T21:37:46.915Z',
-    rawSourcePath: accepted.rawSourcePath,
-    rawSourceSha256: accepted.rawSourceSha256,
-    reviewer: 'producer-record',
-    cleanupLineage: [{
-      sourcePath: accepted.rawSourcePath,
-      sourceSha256: accepted.rawSourceSha256,
-      packedPath: fixture.manifest.updates[0].assetPath,
-      packedSha256: fixture.manifest.updates[0].assetSha256,
-    }],
-    disposition: 'rejected',
-    rejectionReason: 'Rejected candidate must not become accepted artwork.',
-    rejectionEvidencePath: accepted.promptPath,
-    rejectionEvidenceSha256: accepted.promptSha256,
-  });
-  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
-  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
-  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
-  assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'));
+  assert.equal(result.ok, true, JSON.stringify(result.errors));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
 });
 
 test('validator rejects unavailable prompt metadata that retains prompt paths or hashes', async t => {
@@ -326,7 +295,6 @@ test('validator rejects unavailable prompt metadata that retains prompt paths or
       ...assignment,
       promptAvailability: 'unavailable',
       promptSummary: 'Asked to remove the ball.',
-      promptSummaryVerbatim: false,
       [field]: field === 'promptPath' ? fixture.manifest.trials[0].promptPath : fixture.manifest.trials[0].promptSha256,
       generationId: 'exec-rejected-without-prompt',
       generatedAt: '2026-10-29T21:37:46.915Z',
@@ -358,7 +326,6 @@ test('validator rejects unavailable-prompt metadata on quarantined output', asyn
     ...assignment,
     promptAvailability: 'unavailable',
     promptSummary: 'Asked to remove the ball.',
-    promptSummaryVerbatim: false,
     generationId: 'exec-quarantined-without-prompt',
     generatedAt: '2026-10-29T21:37:46.915Z',
     rawSourcePath: rawSource,
@@ -396,9 +363,7 @@ test('package schema requires cleanup lineage for accepted trials only', async (
   const unavailable = trial.allOf.find(branch => branch.if?.properties?.promptAvailability?.const === 'unavailable');
   assert.ok(unavailable);
   assert.equal(unavailable.then.properties.disposition.const, 'rejected');
-  assert.equal(unavailable.then.properties.cleanupLineage.maxItems, 0);
-  assert.ok(unavailable.then.required.includes('promptSummaryVerbatim'));
-  assert.equal(unavailable.then.properties.promptSummaryVerbatim.const, false);
+  assert.equal(unavailable.then.properties.cleanupLineage, undefined);
   assert.equal(trial.properties.promptSummary.pattern, '\\S');
   assert.equal(unavailable.else.properties?.cleanupLineage, undefined);
   const accepted = trial.allOf.find(branch => branch.if?.properties?.disposition?.const === 'accepted');
