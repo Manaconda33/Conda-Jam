@@ -252,6 +252,37 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
     if (trial.disposition === 'accepted' && (!validText(trial.generationId) || !prompt || !raw)) errors.push(issue('ACCEPTED_TRIAL_INCOMPLETE', key.replace('\0', ':')));
     if (!expectedMissing.some(item => keyOf(item) === key)) errors.push(issue('UNASSIGNED_TRIAL', key.replace('\0', ':')));
   }
+  // A rejected trial with unavailable prompt text can remain in provenance,
+  // but its image must not feed accepted artwork (including byte-identical
+  // aliases at another path). Otherwise the exception would describe an
+  // accepted drawing whose complete source prompt is unknowable.
+  const checkedRejectedSources = new Set();
+  for (const rejected of (manifest.trials ?? []).filter(hasRejectedPromptGap)) {
+    const identity = `${rejected.rawSourcePath}\0${rejected.rawSourceSha256}`;
+    if (checkedRejectedSources.has(identity)) continue;
+    checkedRejectedSources.add(identity);
+    const dependsOnRejectedSource = (file, digest) => file === rejected.rawSourcePath || digest === rejected.rawSourceSha256;
+    const dependencyPath = (file, digest) => {
+      if (dependsOnRejectedSource(file, digest)) errors.push(issue('REJECTED_PROMPT_SOURCE_ACCEPTED_DEPENDENCY', file ?? rejected.rawSourcePath));
+    };
+    for (const update of manifest.updates ?? []) {
+      dependencyPath(update.sourcePath, update.sourceSha256);
+      dependencyPath(update.assetPath, update.assetSha256);
+      dependencyPath(update.layoutPath, update.layoutSha256);
+    }
+    for (const acceptedTrial of (manifest.trials ?? []).filter(item => item?.disposition === 'accepted')) {
+      dependencyPath(acceptedTrial.rawSourcePath, acceptedTrial.rawSourceSha256);
+      for (const lineage of acceptedTrial.cleanupLineage ?? []) {
+        dependencyPath(lineage?.sourcePath, lineage?.sourceSha256);
+        dependencyPath(lineage?.packedPath, lineage?.packedSha256);
+      }
+    }
+    for (const file of manifest.artworkInventory?.files ?? []) dependencyPath(file?.path, file?.sha256);
+    for (const lineage of manifest.artworkInventory?.lineage ?? []) {
+      dependencyPath(lineage?.sourcePath, lineage?.sourceSha256);
+      dependencyPath(lineage?.packedPath, lineage?.packedSha256);
+    }
+  }
   for (const item of expectedMissing) if (!trialKeys.has(keyOf(item))) errors.push(issue('TRIAL_MISSING', keyOf(item).replace('\0', ':')));
   for (const item of expectedMissing) if (!(manifest.trials ?? []).some(trial => keyOf(trial) === keyOf(item) && trial.disposition === 'accepted')) errors.push(issue('ACCEPTED_TRIAL_MISSING', keyOf(item).replace('\0', ':')));
 

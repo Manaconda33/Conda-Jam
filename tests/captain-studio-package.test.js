@@ -176,6 +176,84 @@ test('validator accepts a rejected-only trial with an unavailable exact prompt a
   assert.equal(result.ok, true, JSON.stringify(result.errors));
 });
 
+test('validator rejects an unavailable-prompt rejected source used by accepted artwork, including byte aliases', async t => {
+  for (const dependency of ['same-path', 'same-bytes-different-path']) {
+    const fixture = await validPackage(t);
+    const accepted = fixture.manifest.trials[0];
+    const prefix = `tools/generate-art/studio/${captainId}`;
+    const rejectedPath = dependency === 'same-path'
+      ? accepted.rawSourcePath
+      : `${prefix}/sources/rejected-alias.png`;
+    const raw = dependency === 'same-path'
+      ? fixture.files.find(row => row.path === accepted.rawSourcePath)
+      : await fixture.put(rejectedPath, await readFile(path.join(fixture.packageRoot, accepted.rawSourcePath)));
+    const rejectionEvidencePath = `${prefix}/rejected/unavailable-prompt.md`;
+    const rejectionEvidence = await fixture.put(rejectionEvidencePath, 'Exact prompt unavailable; summary is not verbatim.');
+    if (dependency !== 'same-path') fixture.manifest.files.push(raw);
+    fixture.manifest.files.push(rejectionEvidence);
+    fixture.manifest.trials.push({
+      ...assignment,
+      promptAvailability: 'unavailable',
+      promptSummary: 'Asked to remove the ball.',
+      promptSummaryVerbatim: false,
+      generationId: 'exec-rejected-without-prompt',
+      generatedAt: '2026-10-29T21:37:46.915Z',
+      rawSourcePath: rejectedPath,
+      rawSourceSha256: raw.sha256,
+      reviewer: 'producer-record',
+      cleanupLineage: [],
+      disposition: 'rejected',
+      rejectionReason: 'The edit output retained the unwanted ball.',
+      rejectionEvidencePath,
+      rejectionEvidenceSha256: rejectionEvidence.sha256,
+    });
+    fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+    await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+    const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+    assert.ok(result.errors.some(issue => issue.code === 'REJECTED_PROMPT_SOURCE_ACCEPTED_DEPENDENCY'), dependency);
+  }
+});
+
+test('validator binds rejected unavailable-prompt history to its raw bytes and package digest', async t => {
+  const fixture = await validPackage(t);
+  const prefix = `tools/generate-art/studio/${captainId}`;
+  const rawSourcePath = `${prefix}/sources/rejected-edit-output.png`;
+  const rejectionEvidencePath = `${prefix}/rejected/rejected-edit-output.md`;
+  const raw = await fixture.put(rawSourcePath, makePng(32, 32, 99));
+  const rejectionEvidence = await fixture.put(rejectionEvidencePath, 'Exact prompt unavailable; summary is not verbatim.');
+  fixture.manifest.files.push(raw, rejectionEvidence);
+  const rejected = {
+    ...assignment,
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+    promptSummaryVerbatim: false,
+    generationId: 'exec-942b5454-6a3d-4c51-a910-99909094a510',
+    generatedAt: '2026-10-29T21:37:46.915Z',
+    rawSourcePath,
+    rawSourceSha256: raw.sha256,
+    reviewer: 'producer-record',
+    cleanupLineage: [],
+    disposition: 'rejected',
+    rejectionReason: 'The edit output retained the visible basketball.',
+    rejectionEvidencePath,
+    rejectionEvidenceSha256: rejectionEvidence.sha256,
+  };
+  fixture.manifest.trials.push(rejected);
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+
+  rejected.rawSourceSha256 = '0'.repeat(64);
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  let result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'REFERENCED_HASH_MISMATCH'));
+
+  rejected.rawSourceSha256 = raw.sha256;
+  rejected.generationId = 'exec-changed-after-review';
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'PACKAGE_DIGEST_MISMATCH'));
+});
+
 test('validator rejects an unavailable-prompt summary without an explicit non-verbatim marker', async t => {
   const fixture = await validPackage(t);
   const prefix = `tools/generate-art/studio/${captainId}`;
