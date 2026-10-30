@@ -93,6 +93,14 @@ The scoreboard is a versioned coordinator artifact with captain ID, lane/owner, 
 
 The initial wave is 6–8 non-Kraken captains with unique owners. Stop/hold expansion if resource or ImageGen usage blocks progress, package QA rejects too often, or the integrator cannot keep up. Any 12–16 or larger wave requires demonstrated results and separate user authorization.
 
+## Workspace lifecycle and storage reclamation
+
+The user confirms Myth is the **only live Codex captain session** as of October 30, 2026. Completed session workspaces are retired after their necessary source and evidence are durably published to retained GitHub PR/branch refs. Open PRs #6, #7, #9, #10 and #11 are not merged into `main`; their remote branches and dependencies must be preserved. GitHub is the durable source of truth for *published* work, not proof that every dirty local worktree file is published.
+
+The coordinator may delete confirmed reproducible ignored builds and retire redundant local completed worktrees, including old reconciliation, `rejected-prompt-fix`, `cj-issue7`, `jam-j130-full` and `captain-animation`, **only after** recording local HEAD and status (modified/untracked/ignored), checking `git worktree list --porcelain` and shared Git object stores, comparing all required source/QA evidence to accessible GitHub commits and publication refs, verifying unique unpushed required changes are safely published, and measuring allocated bytes including hardlink identity. If any unpublished required art, source, record or HOLD evidence exists, hold that worktree for remediation rather than deleting it. Never equate a successful remote push or an open PR with proof that local unstaged work was published.
+
+Keep active `myth-worker-composite`, its unpublished assets/reviews, the pinned accepted composite input, accepted source chains, protected helper and the Git object store required by active worktrees intact. The large `/workspace/Conda-Jam/.git` pack is shared infrastructure until proven otherwise; no blind directory deletion, forced worktree removal, `git clean`, history rewrite or destructive Git garbage collection. Report measured free-space recovery after each safely retired worktree. Moving or deleting local copies is **not** authorization to merge, deploy, change production refs or activate additional captains.
+
 ## Pre-activation dependencies
 
 1. Pin `main`, PR #6, and PR #7 head/base SHAs. In a disposable clean scratch worktree, construct a local-only candidate from `main`, apply PR #6 first, then replay/rebase PR #7 on top. Resolve the exact shared paths—`docs/animation-production/ASSET_AUDIT_LATEST.json`, `docs/animation-production/ASSET_AUDIT_LATEST.md`, `docs/animation-production/ASSET_STATUS.md`, and `src/render/animation-sprites.js`—by regenerating the audit/status files from the candidate manifest after both changes and manually preserving both renderer behaviors. Keep all upstream PR refs and `main` unchanged.
