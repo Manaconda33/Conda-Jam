@@ -17,7 +17,7 @@ const crcTable = Array.from({length:256},(_,value)=>{let c=value;for(let bit=0;b
 function pngChunk(type,data){const name=Buffer.from(type),payload=Buffer.concat([name,data]);let crc=0xffffffff;for(const byte of payload)crc=crcTable[(crc^byte)&255]^(crc>>>8);const out=Buffer.alloc(12+data.length);out.writeUInt32BE(data.length,0);name.copy(out,4);data.copy(out,8);out.writeUInt32BE((crc^0xffffffff)>>>0,8+data.length);return out;}
 function tinyPng(color){const width=32,height=48,header=Buffer.alloc(13);header.writeUInt32BE(width,0);header.writeUInt32BE(height,4);header[8]=8;header[9]=6;const rows=Buffer.alloc(height*(1+width*4));for(let y=0;y<height;y++)for(let x=0;x<width;x++){const offset=y*(1+width*4)+1+x*4;rows[offset]=color;rows[offset+1]=80;rows[offset+2]=100;rows[offset+3]=255;}return Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),pngChunk('IHDR',header),pngChunk('IDAT',deflateSync(rows)),pngChunk('IEND',Buffer.alloc(0))]);}
 
-async function fixture(t, { generationId = 'imggen-reef-001', includeUndeclared = false, manifestCaptainId = 'reef-captain', badToolResponseHash = false } = {}) {
+async function fixture(t, { generationId = 'imggen-reef-001', includeUndeclared = false, manifestCaptainId = 'reef-captain', badToolResponseHash = false, missingRejectedPrompt = false, discardRejectedArtifacts = false } = {}) {
   const root = await mkdtemp(path.join(os.tmpdir(), 'captain-export-'));
   t.after(() => rm(root, { recursive: true, force: true }));
   const git = (...args) => execFileSync('git', args, { cwd: root, encoding: 'utf8' }).trim();
@@ -54,7 +54,11 @@ async function fixture(t, { generationId = 'imggen-reef-001', includeUndeclared 
   contents.set('public/assets/animation/reef-captain-pass-right.png', tinyPng(120));
   contents.set(`${prefix}/tracks/pass.json`, trackText);
   contents.set(`${prefix}/layouts/pass-layout.json`, layoutText);
-  const files = assigned.map(file => ({ path: file, sha256: sha(contents.get(file)) }));
+  if (discardRejectedArtifacts) {
+    contents.delete(`${prefix}/sources/pass-attempt-01-raw.png`);
+    contents.delete(`${prefix}/rejected/pass-attempt-01.md`);
+  }
+  const files = assigned.filter(file => contents.has(file)).map(file => ({ path: file, sha256: sha(contents.get(file)) }));
   const artworkFiles = [
     { path: `${prefix}/sources/pass-raw.png`, sha256: sha(contents.get(`${prefix}/sources/pass-raw.png`)) },
     { path: 'public/assets/animation/reef-captain-pass-right.png', sha256: sha(contents.get('public/assets/animation/reef-captain-pass-right.png')) },
@@ -91,11 +95,30 @@ async function fixture(t, { generationId = 'imggen-reef-001', includeUndeclared 
   const rejectedTrial = {
     clip: 'pass', direction: 'right', promptPath: update.promptPath, promptSha256: update.promptSha256,
     generationId: 'imggen-reef-rejected-001', generatedAt: '2026-10-29T09:00:00.000Z',
-    rawSourcePath: rejectedPath, rawSourceSha256: sha(contents.get(rejectedPath)),
+    rawSourcePath: rejectedPath, rawSourceSha256: sha(`fixture:${rejectedPath}`),
     reviewer: 'reviewer', disposition: 'rejected', rejectionReason: 'duplicate pose', cleanupLineage: [],
     rejectionEvidencePath: `${prefix}/rejected/pass-attempt-01.md`,
-    rejectionEvidenceSha256: sha(contents.get(`${prefix}/rejected/pass-attempt-01.md`)),
+    rejectionEvidenceSha256: sha(`fixture:${prefix}/rejected/pass-attempt-01.md`),
   };
+  if (discardRejectedArtifacts) {
+    delete rejectedTrial.promptPath;
+    delete rejectedTrial.promptSha256;
+    delete rejectedTrial.rawSourcePath;
+    delete rejectedTrial.rejectionEvidencePath;
+    delete rejectedTrial.rejectionEvidenceSha256;
+    delete rejectedTrial.generationId;
+    delete rejectedTrial.generatedAt;
+    delete rejectedTrial.reviewer;
+    delete rejectedTrial.cleanupLineage;
+    rejectedTrial.promptAvailability = 'unavailable';
+    rejectedTrial.promptSummary = 'Non-verbatim summary of the rejected attempt.';
+  }
+  if (missingRejectedPrompt) {
+    delete rejectedTrial.promptPath;
+    delete rejectedTrial.promptSha256;
+    rejectedTrial.promptAvailability = 'unavailable';
+    rejectedTrial.promptSummary = 'Non-verbatim summary: the edit requested a visual correction.';
+  }
   const artworkInventory = {
     assignments: [{ clip: 'pass', direction: 'right' }], files: artworkFiles,
     lineage: [{ clip: 'pass', direction: 'right', sourcePath: update.sourcePath, sourceSha256: update.sourceSha256, packedPath: update.assetPath, packedSha256: update.assetSha256 }],
@@ -177,6 +200,41 @@ test('exporter emits a reproducible one-captain package that references rather t
     outputRoot: path.join(f.outputRoot, 'again'),
   });
   assert.equal(second.packageId, result.packageId);
+});
+
+test('exporter preserves rejected-only missing prompt metadata without weakening accepted prompt lineage', async t => {
+  const f = await fixture(t, { missingRejectedPrompt: true });
+  const result = await exportCaptainPackage({
+    baseRoot: f.baseRoot, contributionRoot: f.root, captainId: 'reef-captain',
+    baseCommit: f.baseCommit, workerCommit: f.workerCommit, assignment: f.assignment,
+    outputRoot: f.outputRoot,
+  });
+  assert.equal(result.state, 'accepted');
+  const rejected = result.trials.find(trial => trial.disposition === 'rejected');
+  assert.equal(rejected.promptAvailability, 'unavailable');
+  assert.equal(rejected.promptSummary, 'Non-verbatim summary: the edit requested a visual correction.');
+  assert.ok(result.warnings.some(warning => warning.code === 'REJECTED_PROMPT_UNAVAILABLE'));
+  assert.equal(rejected.promptPath, undefined);
+  const accepted = result.trials.find(trial => trial.disposition === 'accepted');
+  assert.equal(accepted.promptPath, `${f.workerManifest.updates[0].promptPath}`);
+});
+
+test('exporter accepts omitted rejected-only raw, prompt and evidence files with a summary warning', async t => {
+  const f = await fixture(t, { discardRejectedArtifacts: true });
+  const result = await exportCaptainPackage({
+    baseRoot: f.baseRoot, contributionRoot: f.root, captainId: 'reef-captain',
+    baseCommit: f.baseCommit, workerCommit: f.workerCommit, assignment: f.assignment,
+    outputRoot: f.outputRoot,
+  });
+  assert.equal(result.state, 'accepted');
+  assert.ok(result.warnings.some(warning => warning.code === 'REJECTED_ARTIFACTS_OMITTED'));
+  const exported = JSON.parse(await readFile(path.join(f.outputRoot, 'reef-captain', 'package.json'), 'utf8'));
+  const rejected = exported.trials.find(trial => trial.disposition === 'rejected');
+  assert.equal(rejected.rawSourcePath, undefined);
+  assert.equal(rejected.promptPath, undefined);
+  assert.equal(rejected.rejectionEvidencePath, undefined);
+  const validation = await validatePackage({ packageRoot: f.root, manifestRoot: path.join(f.outputRoot, 'reef-captain'), manifestRelativePath: 'package.json', baseRoot: f.baseRoot, baseCommit: f.baseCommit, baseline: f.baseline });
+  assert.equal(validation.ok, true, JSON.stringify(validation.errors));
 });
 
 test('exporter quarantines a missing generation ID without inventing one', async t => {

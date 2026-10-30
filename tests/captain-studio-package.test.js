@@ -146,6 +146,269 @@ test('validator accepts one complete captain package after frozen artwork/track 
   assert.deepEqual(await readTree(fixture.baseRoot), before);
 });
 
+test('validator accepts unavailable prompt metadata for unused rejected art as a warning', async t => {
+  const fixture = await validPackage(t);
+  const prefix = `tools/generate-art/studio/${captainId}`;
+  const rawSource = `${prefix}/sources/rejected-edit-output.png`;
+  const rejectionEvidence = `${prefix}/rejected/rejected-edit-output.md`;
+  const raw = await fixture.put(rawSource, makePng(32, 32, 99));
+  const rejection = await fixture.put(rejectionEvidence, 'Exact prompt unavailable. Non-verbatim summary: asked to remove the ball.');
+  fixture.manifest.files.push(raw, rejection);
+  fixture.manifest.trials.push({
+    ...assignment,
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+    generationId: 'exec-rejected-without-prompt',
+    generatedAt: '2026-10-29T21:37:46.915Z',
+    rawSourcePath: rawSource,
+    rawSourceSha256: raw.sha256,
+    reviewer: 'producer-record',
+    cleanupLineage: [],
+    disposition: 'rejected',
+    rejectionReason: 'The edit output retained the unwanted ball.',
+    rejectionEvidencePath: rejectionEvidence,
+    rejectionEvidenceSha256: rejection.sha256,
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.equal(result.ok, true, JSON.stringify(result.errors));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
+});
+
+test('validator accepts a rejected-only summary when the raw image, prompt, and evidence were discarded', async t => {
+  const fixture = await validPackage(t);
+  fixture.manifest.trials.push({
+    ...assignment,
+    disposition: 'rejected',
+    rejectionReason: 'The unused attempt retained an unwanted ball.',
+    rawSourceSha256: 'd'.repeat(64),
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.equal(result.ok, true, JSON.stringify(result.errors));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_ARTIFACTS_OMITTED'));
+});
+
+test('validator rejects a discarded rejected image when its retained hash aliases accepted artwork', async t => {
+  const fixture = await validPackage(t);
+  const accepted = fixture.manifest.trials.find(trial => trial.disposition === 'accepted');
+  fixture.manifest.trials.push({
+    ...assignment,
+    disposition: 'rejected',
+    rejectionReason: 'Unused rejected output.',
+    rawSourceSha256: accepted.rawSourceSha256,
+    promptAvailability: 'unavailable',
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'REJECTED_PROMPT_SOURCE_ACCEPTED_DEPENDENCY'));
+});
+
+test('validator rejects an unavailable-prompt rejected source used by accepted artwork, including byte aliases', async t => {
+  for (const dependency of ['same-path', 'same-bytes-different-path']) {
+    const fixture = await validPackage(t);
+    const accepted = fixture.manifest.trials[0];
+    const prefix = `tools/generate-art/studio/${captainId}`;
+    const rejectedPath = dependency === 'same-path'
+      ? accepted.rawSourcePath
+      : `${prefix}/sources/rejected-alias.png`;
+    const raw = dependency === 'same-path'
+      ? fixture.files.find(row => row.path === accepted.rawSourcePath)
+      : await fixture.put(rejectedPath, await readFile(path.join(fixture.packageRoot, accepted.rawSourcePath)));
+    const rejectionEvidencePath = `${prefix}/rejected/unavailable-prompt.md`;
+    const rejectionEvidence = await fixture.put(rejectionEvidencePath, 'Exact prompt unavailable; summary is not verbatim.');
+    if (dependency !== 'same-path') fixture.manifest.files.push(raw);
+    fixture.manifest.files.push(rejectionEvidence);
+    fixture.manifest.trials.push({
+      ...assignment,
+      promptAvailability: 'unavailable',
+      promptSummary: 'Asked to remove the ball.',
+      generationId: 'exec-rejected-without-prompt',
+      generatedAt: '2026-10-29T21:37:46.915Z',
+      rawSourcePath: rejectedPath,
+      rawSourceSha256: raw.sha256,
+      reviewer: 'producer-record',
+      cleanupLineage: [],
+      disposition: 'rejected',
+      rejectionReason: 'The edit output retained the unwanted ball.',
+      rejectionEvidencePath,
+      rejectionEvidenceSha256: rejectionEvidence.sha256,
+    });
+    fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+    await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+    const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+    assert.ok(result.errors.some(issue => issue.code === 'REJECTED_PROMPT_SOURCE_ACCEPTED_DEPENDENCY'), dependency);
+  }
+});
+
+test('validator binds rejected unavailable-prompt history to its raw bytes and package digest', async t => {
+  const fixture = await validPackage(t);
+  const prefix = `tools/generate-art/studio/${captainId}`;
+  const rawSourcePath = `${prefix}/sources/rejected-edit-output.png`;
+  const rejectionEvidencePath = `${prefix}/rejected/rejected-edit-output.md`;
+  const raw = await fixture.put(rawSourcePath, makePng(32, 32, 99));
+  const rejectionEvidence = await fixture.put(rejectionEvidencePath, 'Exact prompt unavailable; summary is not verbatim.');
+  fixture.manifest.files.push(raw, rejectionEvidence);
+  const rejected = {
+    ...assignment,
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+    generationId: 'exec-942b5454-6a3d-4c51-a910-99909094a510',
+    generatedAt: '2026-10-29T21:37:46.915Z',
+    rawSourcePath,
+    rawSourceSha256: raw.sha256,
+    reviewer: 'producer-record',
+    cleanupLineage: [],
+    disposition: 'rejected',
+    rejectionReason: 'The edit output retained the visible basketball.',
+    rejectionEvidencePath,
+    rejectionEvidenceSha256: rejectionEvidence.sha256,
+  };
+  fixture.manifest.trials.push(rejected);
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+
+  rejected.rawSourceSha256 = '0'.repeat(64);
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  let result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'REFERENCED_HASH_MISMATCH'));
+
+  rejected.rawSourceSha256 = raw.sha256;
+  rejected.generationId = 'exec-changed-after-review';
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'PACKAGE_DIGEST_MISMATCH'));
+});
+
+test('validator permits a rejected prompt summary without a separate authorization marker', async t => {
+  const fixture = await validPackage(t);
+  const prefix = `tools/generate-art/studio/${captainId}`;
+  const rawSource = `${prefix}/sources/rejected-edit-output.png`;
+  const rejectionEvidence = `${prefix}/rejected/rejected-edit-output.md`;
+  const raw = await fixture.put(rawSource, makePng(32, 32, 99));
+  const rejection = await fixture.put(rejectionEvidence, 'Exact prompt unavailable; summary is not verbatim.');
+  fixture.manifest.files.push(raw, rejection);
+  fixture.manifest.trials.push({
+    ...assignment,
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+    generationId: 'exec-rejected-without-prompt',
+    generatedAt: '2026-10-29T21:37:46.915Z',
+    rawSourcePath: rawSource,
+    rawSourceSha256: raw.sha256,
+    reviewer: 'producer-record',
+    cleanupLineage: [],
+    disposition: 'rejected',
+    rejectionReason: 'The edit output retained the unwanted ball.',
+    rejectionEvidencePath: rejectionEvidence,
+    rejectionEvidenceSha256: rejection.sha256,
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.equal(result.ok, true, JSON.stringify(result.errors));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
+});
+
+test('validator rejects unavailable prompt metadata that retains prompt paths or hashes', async t => {
+  for (const field of ['promptPath', 'promptSha256']) {
+    const fixture = await validPackage(t);
+    const prefix = `tools/generate-art/studio/${captainId}`;
+    const rawSource = `${prefix}/sources/rejected-edit-output.png`;
+    const rejectionEvidence = `${prefix}/rejected/rejected-edit-output.md`;
+    const raw = await fixture.put(rawSource, makePng(32, 32, 99));
+    const rejection = await fixture.put(rejectionEvidence, 'Exact prompt unavailable; summary is not verbatim.');
+    fixture.manifest.files.push(raw, rejection);
+    fixture.manifest.trials.push({
+      ...assignment,
+      promptAvailability: 'unavailable',
+      promptSummary: 'Asked to remove the ball.',
+      [field]: field === 'promptPath' ? fixture.manifest.trials[0].promptPath : fixture.manifest.trials[0].promptSha256,
+      generationId: 'exec-rejected-without-prompt',
+      generatedAt: '2026-10-29T21:37:46.915Z',
+      rawSourcePath: rawSource,
+      rawSourceSha256: raw.sha256,
+      reviewer: 'producer-record',
+      cleanupLineage: [],
+      disposition: 'rejected',
+      rejectionReason: 'The edit output retained the unwanted ball.',
+      rejectionEvidencePath: rejectionEvidence,
+      rejectionEvidenceSha256: rejection.sha256,
+    });
+    fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+    await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+    const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+    assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'), field);
+  }
+});
+
+test('validator rejects unavailable-prompt metadata on quarantined output', async t => {
+  const fixture = await validPackage(t);
+  const prefix = `tools/generate-art/studio/${captainId}`;
+  const rawSource = `${prefix}/sources/quarantined-edit-output.png`;
+  const rejectionEvidence = `${prefix}/rejected/quarantined-edit-output.md`;
+  const raw = await fixture.put(rawSource, makePng(32, 32, 99));
+  const rejection = await fixture.put(rejectionEvidence, 'Exact prompt unavailable; summary is not verbatim.');
+  fixture.manifest.files.push(raw, rejection);
+  fixture.manifest.trials.push({
+    ...assignment,
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+    generationId: 'exec-quarantined-without-prompt',
+    generatedAt: '2026-10-29T21:37:46.915Z',
+    rawSourcePath: rawSource,
+    rawSourceSha256: raw.sha256,
+    reviewer: 'producer-record',
+    cleanupLineage: [],
+    disposition: 'quarantined',
+    rejectionReason: 'Provenance is incomplete.',
+    rejectionEvidencePath: rejectionEvidence,
+    rejectionEvidenceSha256: rejection.sha256,
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'));
+});
+
+test('validator never permits unavailable prompt metadata on accepted artwork', async t => {
+  const fixture = await validPackage(t);
+  const accepted = fixture.manifest.trials[0];
+  delete accepted.promptPath;
+  delete accepted.promptSha256;
+  accepted.promptAvailability = 'unavailable';
+  accepted.promptSummary = 'Asked to remove the ball.';
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'));
+  assert.ok(result.errors.some(issue => issue.code === 'ACCEPTED_TRIAL_INCOMPLETE'));
+});
+
+test('package schema requires cleanup lineage for accepted trials only', async () => {
+  const schema = JSON.parse(await readFile(new URL('../tools/captain-studio/package-schema.json', import.meta.url), 'utf8'));
+  const trial = schema.properties.trials.items;
+  const unavailable = trial.allOf.find(branch => branch.if?.properties?.promptAvailability?.const === 'unavailable');
+  assert.ok(unavailable);
+  assert.equal(unavailable.then.properties.disposition.const, 'rejected');
+  assert.equal(unavailable.then.properties.cleanupLineage, undefined);
+  assert.ok(!trial.required.includes('rawSourcePath'));
+  assert.ok(!trial.required.includes('generatedAt'));
+  const rejectedSummary = trial.allOf.find(branch => branch.if?.properties?.disposition?.const === 'rejected');
+  assert.ok(rejectedSummary.then.required.includes('rejectionReason'));
+  assert.equal(trial.properties.promptSummary.pattern, '\\S');
+  assert.equal(unavailable.else.properties?.cleanupLineage, undefined);
+  const accepted = trial.allOf.find(branch => branch.if?.properties?.disposition?.const === 'accepted');
+  assert.ok(accepted);
+  assert.equal(accepted.then.properties.cleanupLineage.minItems, 1);
+});
+
 test('validator accepts an exported manifest separated from its immutable worker content root', async t => {
   const fixture = await validPackage(t);
   const manifestRoot = path.join(fixture.root, 'exported-package');
