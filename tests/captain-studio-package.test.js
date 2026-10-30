@@ -235,6 +235,69 @@ test('validator limits unavailable-prompt exception to rejected output with no c
   assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'));
 });
 
+test('validator rejects unavailable prompt metadata that retains prompt paths or hashes', async t => {
+  for (const field of ['promptPath', 'promptSha256']) {
+    const fixture = await validPackage(t);
+    const prefix = `tools/generate-art/studio/${captainId}`;
+    const rawSource = `${prefix}/sources/rejected-edit-output.png`;
+    const rejectionEvidence = `${prefix}/rejected/rejected-edit-output.md`;
+    const raw = await fixture.put(rawSource, makePng(32, 32, 99));
+    const rejection = await fixture.put(rejectionEvidence, 'Exact prompt unavailable; summary is not verbatim.');
+    fixture.manifest.files.push(raw, rejection);
+    fixture.manifest.trials.push({
+      ...assignment,
+      promptAvailability: 'unavailable',
+      promptSummary: 'Asked to remove the ball.',
+      promptSummaryVerbatim: false,
+      [field]: field === 'promptPath' ? fixture.manifest.trials[0].promptPath : fixture.manifest.trials[0].promptSha256,
+      generationId: 'exec-rejected-without-prompt',
+      generatedAt: '2026-10-29T21:37:46.915Z',
+      rawSourcePath: rawSource,
+      rawSourceSha256: raw.sha256,
+      reviewer: 'producer-record',
+      cleanupLineage: [],
+      disposition: 'rejected',
+      rejectionReason: 'The edit output retained the unwanted ball.',
+      rejectionEvidencePath: rejectionEvidence,
+      rejectionEvidenceSha256: rejection.sha256,
+    });
+    fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+    await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+    const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+    assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'), field);
+  }
+});
+
+test('validator rejects unavailable-prompt metadata on quarantined output', async t => {
+  const fixture = await validPackage(t);
+  const prefix = `tools/generate-art/studio/${captainId}`;
+  const rawSource = `${prefix}/sources/quarantined-edit-output.png`;
+  const rejectionEvidence = `${prefix}/rejected/quarantined-edit-output.md`;
+  const raw = await fixture.put(rawSource, makePng(32, 32, 99));
+  const rejection = await fixture.put(rejectionEvidence, 'Exact prompt unavailable; summary is not verbatim.');
+  fixture.manifest.files.push(raw, rejection);
+  fixture.manifest.trials.push({
+    ...assignment,
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+    promptSummaryVerbatim: false,
+    generationId: 'exec-quarantined-without-prompt',
+    generatedAt: '2026-10-29T21:37:46.915Z',
+    rawSourcePath: rawSource,
+    rawSourceSha256: raw.sha256,
+    reviewer: 'producer-record',
+    cleanupLineage: [],
+    disposition: 'quarantined',
+    rejectionReason: 'Provenance is incomplete.',
+    rejectionEvidencePath: rejectionEvidence,
+    rejectionEvidenceSha256: rejection.sha256,
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'PROMPT_METADATA_INVALID'));
+});
+
 test('validator never permits unavailable prompt metadata on accepted artwork', async t => {
   const fixture = await validPackage(t);
   const accepted = fixture.manifest.trials[0];
@@ -249,7 +312,7 @@ test('validator never permits unavailable prompt metadata on accepted artwork', 
   assert.ok(result.errors.some(issue => issue.code === 'ACCEPTED_TRIAL_INCOMPLETE'));
 });
 
-test('package schema limits empty cleanup lineage to rejected trials with unavailable prompts', async () => {
+test('package schema requires cleanup lineage for accepted trials only', async () => {
   const schema = JSON.parse(await readFile(new URL('../tools/captain-studio/package-schema.json', import.meta.url), 'utf8'));
   const trial = schema.properties.trials.items;
   const unavailable = trial.allOf.find(branch => branch.if?.properties?.promptAvailability?.const === 'unavailable');
@@ -258,7 +321,11 @@ test('package schema limits empty cleanup lineage to rejected trials with unavai
   assert.equal(unavailable.then.properties.cleanupLineage.maxItems, 0);
   assert.ok(unavailable.then.required.includes('promptSummaryVerbatim'));
   assert.equal(unavailable.then.properties.promptSummaryVerbatim.const, false);
-  assert.equal(unavailable.else.properties.cleanupLineage.minItems, 1);
+  assert.equal(trial.properties.promptSummary.pattern, '\\S');
+  assert.equal(unavailable.else.properties?.cleanupLineage, undefined);
+  const accepted = trial.allOf.find(branch => branch.if?.properties?.disposition?.const === 'accepted');
+  assert.ok(accepted);
+  assert.equal(accepted.then.properties.cleanupLineage.minItems, 1);
 });
 
 test('validator accepts an exported manifest separated from its immutable worker content root', async t => {
