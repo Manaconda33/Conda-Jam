@@ -35,11 +35,6 @@ function assignmentKey(item) { return `${item.clip}\0${item.direction}`; }
 function hasRejectedPromptGap(trial) {
   return trial?.disposition === 'rejected'
     && trial.promptAvailability === 'unavailable'
-    && typeof trial.promptSummary === 'string'
-    && trial.promptSummary.trim().length > 0
-    && trial.promptSummaryVerbatim === false
-    && Array.isArray(trial.cleanupLineage)
-    && trial.cleanupLineage.length === 0
     && !('promptPath' in trial)
     && !('promptSha256' in trial);
 }
@@ -152,7 +147,7 @@ function verifyUpdates(manifest, assignment, files, contents, captainId) {
   for (const trial of trials) {
     if (!isRecord(trial) || !expected.has(assignmentKey(trial)) || !['accepted', 'rejected', 'quarantined'].includes(trial.disposition)) fail('INVALID_TRIAL_RECORD');
     if (typeof trial.generatedAt !== 'string' || !Number.isFinite(Date.parse(trial.generatedAt))) fail('TRIAL_TIMESTAMP_MISSING');
-    if (trial.promptAvailability === 'unavailable' && !hasRejectedPromptGap(trial)) fail('REJECTED_PROMPT_EXCEPTION_INVALID');
+    if (trial.promptAvailability === 'unavailable' && !hasRejectedPromptGap(trial)) fail('PROMPT_METADATA_INVALID');
     if (!hasRejectedPromptGap(trial)) requireFile(files, trial.promptPath, trial.promptSha256, captainId, 'prompts');
     requireFile(files, trial.rawSourcePath, trial.rawSourceSha256, captainId, 'sources');
     if (trial.disposition === 'rejected') {
@@ -290,6 +285,7 @@ export async function exportCaptainPackage({ baseRoot, contributionRoot, captain
     workerCommit,
     state,
     reasonCodes,
+    warnings: trials.filter(hasRejectedPromptGap).map(trial => ({ code: 'REJECTED_PROMPT_UNAVAILABLE', clip: trial.clip, direction: trial.direction })).sort((a, b) => `${a.clip}\0${a.direction}`.localeCompare(`${b.clip}\0${b.direction}`)),
     updateCount: updates.length,
     trialCount: trials.length,
     fileCount: declaredFiles.length,
