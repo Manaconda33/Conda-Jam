@@ -27,6 +27,10 @@ function hasRejectedPromptGap(trial) {
     && !('promptPath' in trial)
     && !('promptSha256' in trial);
 }
+function isDiscardedRejectedSummary(trial) {
+  return trial?.disposition === 'rejected'
+    && !('rawSourcePath' in trial);
+}
 
 async function noSymlinkFile(root, file) {
   validateRelativePath(file);
@@ -221,20 +225,33 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
   for (const trial of manifest.trials ?? []) {
     if (!isObject(trial) || !ID.test(trial.clip ?? '') || !['left', 'right'].includes(trial.direction)) { errors.push(issue('TRIAL_INVALID')); continue; }
     const key = keyOf(trial); trialKeys.add(key);
+    const discardedSummary = isDiscardedRejectedSummary(trial);
     const rejectedPromptGap = hasRejectedPromptGap(trial);
     if (trial.promptAvailability === 'unavailable' && !rejectedPromptGap) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
     const prompt = rejectedPromptGap ? null : (typeof trial.promptPath === 'string' ? requireFile(trial.promptPath, trial.promptSha256) : null);
-    if (!rejectedPromptGap && (!validText(trial.promptPath) || !SHA256.test(trial.promptSha256 ?? ''))) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
+    if (!rejectedPromptGap && !discardedSummary && (!validText(trial.promptPath) || !SHA256.test(trial.promptSha256 ?? ''))) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && !trial.promptPath && trial.promptAvailability !== 'unavailable') errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
     if (rejectedPromptGap) warnings.push(issue('REJECTED_PROMPT_UNAVAILABLE', key.replace('\0', ':')));
-    const raw = requireFile(trial.rawSourcePath, trial.rawSourceSha256);
-    if (!validText(trial.generationId)) {
+    if (discardedSummary) warnings.push(issue('REJECTED_ARTIFACTS_OMITTED', key.replace('\0', ':')));
+    if (discardedSummary && trial.promptAvailability === 'unavailable') warnings.push(issue('REJECTED_PROMPT_UNAVAILABLE', key.replace('\0', ':')));
+    const raw = discardedSummary ? null : requireFile(trial.rawSourcePath, trial.rawSourceSha256);
+    if (discardedSummary && trial.rawSourceSha256 !== undefined && !SHA256.test(trial.rawSourceSha256)) errors.push(issue('RAW_SOURCE_HASH_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && trial.promptSha256 !== undefined && !SHA256.test(trial.promptSha256)) errors.push(issue('PROMPT_HASH_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && trial.rejectionEvidenceSha256 !== undefined && !SHA256.test(trial.rejectionEvidenceSha256)) errors.push(issue('REJECTION_EVIDENCE_HASH_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && trial.rawSourcePath !== undefined) errors.push(issue('REJECTED_SUMMARY_HAS_ARTIFACT_PATH', key.replace('\0', ':')));
+    if (discardedSummary && trial.promptSummary !== undefined && !validText(trial.promptSummary)) errors.push(issue('PROMPT_SUMMARY_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && trial.promptAvailability !== undefined && !['unavailable', 'available'].includes(trial.promptAvailability)) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && trial.promptPath === undefined && trial.promptSha256 !== undefined) errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
+    if (discardedSummary && trial.rejectionEvidencePath === undefined && trial.rejectionEvidenceSha256 !== undefined) errors.push(issue('REJECTION_EVIDENCE_METADATA_INVALID', key.replace('\0', ':')));
+    if (!discardedSummary && trial.rawSourceSha256 !== undefined && !SHA256.test(trial.rawSourceSha256)) errors.push(issue('RAW_SOURCE_HASH_INVALID', key.replace('\0', ':')));
+    if (!discardedSummary && !validText(trial.generationId)) {
       errors.push(issue('GENERATION_ID_MISSING', key.replace('\0', ':')));
       if (!trial.toolResponsePath || !trial.toolResponseSha256 || !validText(trial.generatedAt)) errors.push(issue('GENERATION_FAILURE_LINEAGE_MISSING', key.replace('\0', ':')));
       else requireFile(trial.toolResponsePath, trial.toolResponseSha256, 'GENERATION_TOOL_RESPONSE_MISSING');
     }
-    if (!validText(trial.generatedAt) || !Number.isFinite(Date.parse(trial.generatedAt))) errors.push(issue('TRIAL_TIMESTAMP_INVALID', key.replace('\0', ':')));
-    if (!validText(trial.reviewer)) errors.push(issue('TRIAL_REVIEWER_MISSING', key.replace('\0', ':')));
-    if (!Array.isArray(trial.cleanupLineage) || (trial.disposition === 'accepted' && trial.cleanupLineage.length === 0)) errors.push(issue('CLEANUP_LINEAGE_MISSING', key.replace('\0', ':')));
+    if (!discardedSummary && (!validText(trial.generatedAt) || !Number.isFinite(Date.parse(trial.generatedAt)))) errors.push(issue('TRIAL_TIMESTAMP_INVALID', key.replace('\0', ':')));
+    if (!discardedSummary && !validText(trial.reviewer)) errors.push(issue('TRIAL_REVIEWER_MISSING', key.replace('\0', ':')));
+    if (!discardedSummary && (!Array.isArray(trial.cleanupLineage) || (trial.disposition === 'accepted' && trial.cleanupLineage.length === 0))) errors.push(issue('CLEANUP_LINEAGE_MISSING', key.replace('\0', ':')));
     const update = (manifest.updates ?? []).find(item => keyOf(item) === key);
     for (const lineage of trial.cleanupLineage ?? []) {
       if (!isObject(lineage)) { errors.push(issue('CLEANUP_LINEAGE_INVALID', key.replace('\0', ':'))); continue; }
@@ -244,8 +261,8 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
     }
     if (trial.disposition === 'rejected') {
       if (!validText(trial.rejectionReason)) errors.push(issue('REJECTION_REASON_MISSING', key.replace('\0', ':')));
-      if (!validText(trial.rejectionEvidencePath)) errors.push(issue('REJECTION_EVIDENCE_MISSING', key.replace('\0', ':')));
-      else requireFile(trial.rejectionEvidencePath, trial.rejectionEvidenceSha256, 'REJECTION_EVIDENCE_MISSING');
+      if (!discardedSummary && !validText(trial.rejectionEvidencePath)) errors.push(issue('REJECTION_EVIDENCE_MISSING', key.replace('\0', ':')));
+      else if (typeof trial.rejectionEvidencePath === 'string') requireFile(trial.rejectionEvidencePath, trial.rejectionEvidenceSha256, 'REJECTION_EVIDENCE_MISSING');
     }
     if (trial.disposition === 'accepted' && (!validText(trial.generationId) || !prompt || !raw)) errors.push(issue('ACCEPTED_TRIAL_INCOMPLETE', key.replace('\0', ':')));
     if (!expectedMissing.some(item => keyOf(item) === key)) errors.push(issue('UNASSIGNED_TRIAL', key.replace('\0', ':')));
@@ -255,11 +272,11 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
   // aliases at another path). Otherwise the exception would describe an
   // accepted drawing whose complete source prompt is unknowable.
   const checkedRejectedSources = new Set();
-  for (const rejected of (manifest.trials ?? []).filter(hasRejectedPromptGap)) {
+  for (const rejected of (manifest.trials ?? []).filter(trial => hasRejectedPromptGap(trial) || isDiscardedRejectedSummary(trial))) {
     const identity = `${rejected.rawSourcePath}\0${rejected.rawSourceSha256}`;
     if (checkedRejectedSources.has(identity)) continue;
     checkedRejectedSources.add(identity);
-    const dependsOnRejectedSource = (file, digest) => file === rejected.rawSourcePath || digest === rejected.rawSourceSha256;
+    const dependsOnRejectedSource = (file, digest) => (rejected.rawSourcePath && file === rejected.rawSourcePath) || (rejected.rawSourceSha256 && digest === rejected.rawSourceSha256);
     const dependencyPath = (file, digest) => {
       if (dependsOnRejectedSource(file, digest)) errors.push(issue('REJECTED_PROMPT_SOURCE_ACCEPTED_DEPENDENCY', file ?? rejected.rawSourcePath));
     };

@@ -102,6 +102,9 @@ function verifyReferencedInventory(manifest, files, captainId) {
   for (const file of inventory) if (!referenced.has(file)) fail('UNREFERENCED_PACKAGE_FILE', file);
   for (const file of referenced) if (!inventory.has(file)) fail('REFERENCED_FILE_MISSING', file);
 }
+function isDiscardedRejectedSummary(trial) {
+  return trial?.disposition === 'rejected' && !('rawSourcePath' in trial);
+}
 function verifyUpdates(manifest, assignment, files, contents, captainId) {
   if (!Array.isArray(manifest.updates)) fail('UPDATES_MISSING');
   const expected = new Map(assignment.map(item => [assignmentKey(item), item]));
@@ -146,16 +149,20 @@ function verifyUpdates(manifest, assignment, files, contents, captainId) {
   const trialPaths = new Set();
   for (const trial of trials) {
     if (!isRecord(trial) || !expected.has(assignmentKey(trial)) || !['accepted', 'rejected', 'quarantined'].includes(trial.disposition)) fail('INVALID_TRIAL_RECORD');
-    if (typeof trial.generatedAt !== 'string' || !Number.isFinite(Date.parse(trial.generatedAt))) fail('TRIAL_TIMESTAMP_MISSING');
-    if (trial.promptAvailability === 'unavailable' && !hasRejectedPromptGap(trial)) fail('PROMPT_METADATA_INVALID');
-    if (!hasRejectedPromptGap(trial)) requireFile(files, trial.promptPath, trial.promptSha256, captainId, 'prompts');
-    requireFile(files, trial.rawSourcePath, trial.rawSourceSha256, captainId, 'sources');
+    const discardedSummary = isDiscardedRejectedSummary(trial);
+    if (!discardedSummary && (typeof trial.generatedAt !== 'string' || !Number.isFinite(Date.parse(trial.generatedAt)))) fail('TRIAL_TIMESTAMP_MISSING');
+    if (trial.promptAvailability === 'unavailable' && !hasRejectedPromptGap(trial) && !(discardedSummary && !trial.promptPath && !trial.promptSha256)) fail('PROMPT_METADATA_INVALID');
+    if (!hasRejectedPromptGap(trial) && typeof trial.promptPath === 'string') requireFile(files, trial.promptPath, trial.promptSha256, captainId, 'prompts');
+    else if (!discardedSummary && !hasRejectedPromptGap(trial)) fail('PROMPT_METADATA_MISSING');
+    if (trial.rawSourcePath) requireFile(files, trial.rawSourcePath, trial.rawSourceSha256, captainId, 'sources');
+    else if (!discardedSummary || (trial.rawSourceSha256 !== undefined && !HASH.test(trial.rawSourceSha256))) fail('RAW_SOURCE_METADATA_INVALID');
     if (trial.disposition === 'rejected') {
       if (typeof trial.rejectionReason !== 'string' || !trial.rejectionReason.trim()) fail('REJECTION_REASON_MISSING');
-      requireFile(files, trial.rejectionEvidencePath, trial.rejectionEvidenceSha256, captainId, 'rejected');
+      if (trial.rejectionEvidencePath) requireFile(files, trial.rejectionEvidencePath, trial.rejectionEvidenceSha256, captainId, 'rejected');
+      else if (!discardedSummary) fail('REJECTION_EVIDENCE_MISSING');
     }
-    trialPaths.add(trial.rawSourcePath);
-    if (typeof trial.generationId !== 'string' || !trial.generationId.trim()) {
+    if (trial.rawSourcePath) trialPaths.add(trial.rawSourcePath);
+    if (!discardedSummary && (typeof trial.generationId !== 'string' || !trial.generationId.trim())) {
       missingGenerationId = true;
       if (typeof trial.toolResponsePath !== 'string' || !HASH.test(trial.toolResponseSha256 ?? '') || !Array.isArray(trial.retryHistory) || !trial.retryHistory.length) fail('IDLESS_TRIAL_EVIDENCE_INCOMPLETE');
       requireFile(files, trial.toolResponsePath, trial.toolResponseSha256, captainId, 'sources');
@@ -285,7 +292,10 @@ export async function exportCaptainPackage({ baseRoot, contributionRoot, captain
     workerCommit,
     state,
     reasonCodes,
-    warnings: trials.filter(hasRejectedPromptGap).map(trial => ({ code: 'REJECTED_PROMPT_UNAVAILABLE', clip: trial.clip, direction: trial.direction })).sort((a, b) => `${a.clip}\0${a.direction}`.localeCompare(`${b.clip}\0${b.direction}`)),
+    warnings: trials.flatMap(trial => [
+      ...(hasRejectedPromptGap(trial) || (isDiscardedRejectedSummary(trial) && trial.promptAvailability === 'unavailable') ? [{ code: 'REJECTED_PROMPT_UNAVAILABLE', clip: trial.clip, direction: trial.direction }] : []),
+      ...(isDiscardedRejectedSummary(trial) ? [{ code: 'REJECTED_ARTIFACTS_OMITTED', clip: trial.clip, direction: trial.direction }] : []),
+    ]).sort((a, b) => `${a.clip}\0${a.direction}\0${a.code}`.localeCompare(`${b.clip}\0${b.direction}\0${b.code}`)),
     updateCount: updates.length,
     trialCount: trials.length,
     fileCount: declaredFiles.length,

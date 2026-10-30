@@ -176,6 +176,40 @@ test('validator accepts unavailable prompt metadata for unused rejected art as a
   assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
 });
 
+test('validator accepts a rejected-only summary when the raw image, prompt, and evidence were discarded', async t => {
+  const fixture = await validPackage(t);
+  fixture.manifest.trials.push({
+    ...assignment,
+    disposition: 'rejected',
+    rejectionReason: 'The unused attempt retained an unwanted ball.',
+    rawSourceSha256: 'd'.repeat(64),
+    promptAvailability: 'unavailable',
+    promptSummary: 'Asked to remove the ball.',
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.equal(result.ok, true, JSON.stringify(result.errors));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
+  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_ARTIFACTS_OMITTED'));
+});
+
+test('validator rejects a discarded rejected image when its retained hash aliases accepted artwork', async t => {
+  const fixture = await validPackage(t);
+  const accepted = fixture.manifest.trials.find(trial => trial.disposition === 'accepted');
+  fixture.manifest.trials.push({
+    ...assignment,
+    disposition: 'rejected',
+    rejectionReason: 'Unused rejected output.',
+    rawSourceSha256: accepted.rawSourceSha256,
+    promptAvailability: 'unavailable',
+  });
+  fixture.manifest.packageId = computePackageDigest({ manifest: fixture.manifest, files: fixture.manifest.files });
+  await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
+  const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
+  assert.ok(result.errors.some(issue => issue.code === 'REJECTED_PROMPT_SOURCE_ACCEPTED_DEPENDENCY'));
+});
+
 test('validator rejects an unavailable-prompt rejected source used by accepted artwork, including byte aliases', async t => {
   for (const dependency of ['same-path', 'same-bytes-different-path']) {
     const fixture = await validPackage(t);
@@ -364,6 +398,10 @@ test('package schema requires cleanup lineage for accepted trials only', async (
   assert.ok(unavailable);
   assert.equal(unavailable.then.properties.disposition.const, 'rejected');
   assert.equal(unavailable.then.properties.cleanupLineage, undefined);
+  assert.ok(!trial.required.includes('rawSourcePath'));
+  assert.ok(!trial.required.includes('generatedAt'));
+  const rejectedSummary = trial.allOf.find(branch => branch.if?.properties?.disposition?.const === 'rejected');
+  assert.ok(rejectedSummary.then.required.includes('rejectionReason'));
   assert.equal(trial.properties.promptSummary.pattern, '\\S');
   assert.equal(unavailable.else.properties?.cleanupLineage, undefined);
   const accepted = trial.allOf.find(branch => branch.if?.properties?.disposition?.const === 'accepted');

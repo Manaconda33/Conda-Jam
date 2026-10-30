@@ -285,3 +285,13 @@ The combined PR #6/#7 reconciliation candidate is now independently accepted as 
 A complete 55,134-file candidate view was staged through the integrator's same-filesystem hardlink path. The source remained Git-clean; manifest and Kraken/Krios celebration atlas content hashes and inodes match between source and stage. Focused infrastructure, validator, worker-history, deterministic-integration, audit and registry tests pass 57/57; lint and roster validation pass 35 franchises/105 athletes/35 captains. This verifies full-tree staging and the audit baseline, not production package integration.
 
 No real package manifest is present in available workspaces. Production E2E remains pending until an authentic worker package with reviewed artwork, separate ball-track approval, and complete worker history is available. PR #10 remains draft. Do not launch captain sessions/pilot, merge, deploy, or promote a ref without their separate gate. GitHub run #274 is in progress at checkout; the PR workflow skips the Pages deploy job.
+
+
+## Myth session checkpoint — 2026-10-30
+
+- Strict report-only audit: 2,397 registered assignments inspected; 570 source atlases; 5,489 unique source drawings; 706 missing assignments; 40 prompt findings; zero target-frame shortfalls. The audit remains incomplete.
+- Myth remains 8/29 accepted, with 21 assignments outstanding and no package manifest. Candidate art is not runtime accepted.
+- The selected push attempt02 cleanup02 candidate has an independent native shove and visual gameplay PASS: eight desktop/mobile runs, both facings, 100%/120% zoom, real shove event and carried-to-loose ball transition. All 30 ticks per run and browser-loaded atlas evidence are retained.
+- Rejected-art cleanup removed 29 verified-unused rejected sources/edit outputs and obsolete previews (39,966,990 file bytes); free space rose by 40,022,016 filesystem bytes, from 892,841,984 to 932,864,000. Active source chains, selected candidates, HOLD and gameplay evidence remain.
+- Discarded rejected-only files are optional in package export/validation. Accepted artwork remains strict, including exact prompt, source hash, generation, lineage and independent approval. Focused package/export/collector/integrator suite: 49/49 pass.
+- The genuine Myth package, default validator, deterministic integration and final strict audit remain blocked until all 21 candidate assignments have the required reviewed evidence. No merge, deployment, production-ref promotion or additional captain session occurred.
