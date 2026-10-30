@@ -101,7 +101,6 @@ async function fixture(t, { generationId = 'imggen-reef-001', includeUndeclared 
     delete rejectedTrial.promptSha256;
     rejectedTrial.promptAvailability = 'unavailable';
     rejectedTrial.promptSummary = 'Non-verbatim summary: the edit requested a visual correction.';
-    rejectedTrial.promptSummaryVerbatim = false;
   }
   const artworkInventory = {
     assignments: [{ clip: 'pass', direction: 'right' }], files: artworkFiles,
@@ -197,7 +196,7 @@ test('exporter preserves rejected-only missing prompt metadata without weakening
   const rejected = result.trials.find(trial => trial.disposition === 'rejected');
   assert.equal(rejected.promptAvailability, 'unavailable');
   assert.equal(rejected.promptSummary, 'Non-verbatim summary: the edit requested a visual correction.');
-  assert.equal(rejected.promptSummaryVerbatim, false);
+  assert.ok(result.warnings.some(warning => warning.code === 'REJECTED_PROMPT_UNAVAILABLE'));
   assert.equal(rejected.promptPath, undefined);
   const accepted = result.trials.find(trial => trial.disposition === 'accepted');
   assert.equal(accepted.promptPath, `${f.workerManifest.updates[0].promptPath}`);
