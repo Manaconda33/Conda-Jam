@@ -399,7 +399,7 @@ jobs:
           node --input-type=module <<'NODE'
           import {spawnSync} from 'node:child_process';
           import {writeFileSync} from 'node:fs';
-          const sha='30df3c1c02c2bce0657d7da9c60a1a7b6e713cc6';
+          const sha='e842cc965d51c2e9b8fe23aedbbfb8a3b7fd498d';
           const response=await fetch('https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha,{
             headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}
           });
