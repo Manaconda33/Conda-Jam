@@ -320,6 +320,22 @@ jobs:
           git show 55a2ab104d6b108cc08132fddc01b32afb958e75:tools/capture-marin-ball-track-review.py |
             sed "s@executable_path='/usr/bin/chromium'@executable_path='/usr/bin/google-chrome'@" \
             > tools/capture-marin-ball-track-review-ci.py
+          # Freeze the browser's background simulation so screenshot pixels match
+          # the same sampled state/pose that the report records.
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tools/capture-marin-ball-track-review-ci.py')
+          s=p.read_text()
+          old="                page.on('pageerror', lambda exc: REPORT['errors'].append(str(exc)))"
+          new=old+"\n                page.add_init_script('window.requestAnimationFrame=()=>0')"
+          assert s.count(old)==1
+          s=s.replace(old,new)
+          old2="                        page.wait_for_timeout(100)"
+          new2="                        page.evaluate('window.jamverse.tick(0,[])')\n                        page.wait_for_timeout(50)"
+          assert s.count(old2)==1
+          s=s.replace(old2,new2)
+          p.write_text(s)
+          PY
           python tools/capture-marin-ball-track-review-ci.py
           python - <<'PY'
           import json
