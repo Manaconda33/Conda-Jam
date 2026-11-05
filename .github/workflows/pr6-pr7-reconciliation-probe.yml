@@ -279,6 +279,41 @@ jobs:
       - name: Run focused gameplay integration regression tests
         run: node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
 
+      - name: Temporary Marin track-source compatibility experiment (never commit)
+        if: success() || failure()
+        shell: bash
+        run: |
+          set -euo pipefail
+          file=src/content/supporting-animation-libraries.js
+          cp "$file" /tmp/supporting-animation-libraries.original.js
+          trap 'cp /tmp/supporting-animation-libraries.original.js "$file"' EXIT
+          node --input-type=module - <<'NODE'
+          import {readFileSync,writeFileSync} from 'node:fs';
+          const file='src/content/supporting-animation-libraries.js';
+          const text=readFileSync(file,'utf8');
+          const old="mode: 'shared', donorId, classification: 'derived-palette', lineage: 'shared-source', ballTrackSource: donorId,";
+          const updated="mode: 'shared', donorId, classification: 'derived-palette', lineage: 'shared-source', ballTrackSource: player.id === 'marin-dusk' ? 'echo-catwalk' : donorId,";
+          if(!text.includes(old))throw new Error('Unexpected candidate file content');
+          writeFileSync(file,text.replace(old,updated));
+          NODE
+          set +e
+          node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
+          experiment_status=$?
+          set -e
+          {
+            echo '### Temporary Marin ball-track compatibility probe'
+            echo
+            echo 'Only the in-run selected ball-track fallback for Marin was changed to the previous Echo source. Her PR7 **visual donor mapping remains Juniper**.'
+            echo
+            echo "- Focused test exit code: **$experiment_status**"
+            echo
+            echo 'This is a mechanical hypothesis only. It does not prove visual contact, donor-identity compatibility, or acceptance.'
+            echo 'The original file is restored automatically; no candidate source change is committed or pushed.'
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$experiment_status" -ne 0 ]; then
+            echo 'Hypothesis did not clear both tests.'
+          fi
+
       - name: Run lint and content validation
         if: success() || failure()
         run: |
