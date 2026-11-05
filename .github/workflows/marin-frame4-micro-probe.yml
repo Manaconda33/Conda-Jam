@@ -1,4 +1,4 @@
-name: Marin saved-source bounce and focused regression validation (diagnostic only)
+name: Marin saved-source regressions, bounce and live transitions (diagnostic only)
 
 on:
   push:
@@ -253,6 +253,73 @@ jobs:
             echo '- Machine continuity: max 1.01 horizontal world-unit per tick; bounce heights verified unchanged.'
             echo '- Review-only source code is now versioned on a separate branch; visual acceptance, nonsparse test suite, and integration approval remain outstanding.'
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate genuine live idle, dribble, turbo and Marin-to-Kraken catch (both facings and zooms)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Original native harness: 4 scenarios × 2 facings × 2 zooms, no fake freeze-frame contact.
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync} from 'node:fs';
+          const sha='0d2b891d6b0fa4f3d3c58e5be7962335627682ad';
+          const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
+          const response=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
+          if(!response.ok)throw Error('Pinned original live-gameplay harness unavailable: '+response.status);
+          const obj=await response.json();
+          const bytes=Buffer.from(obj.content.replace(/\s/g,''),'base64');
+          const hash=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(hash.status!==0||hash.stdout.trim()!==sha)throw Error('Original gameplay harness hash mismatch');
+          const src=bytes.toString('utf8');
+          const before='OUT = ROOT / "tools/generate-art/previews/marin-live-pr6-pr7-scratch"';
+          const after='OUT = ROOT / "tools/generate-art/previews/marin-committed-live-transition-review"';
+          if(src.split(before).length!==2)throw Error('Original native harness layout changed');
+          writeFileSync('tools/diagnostics/marin-full-transition-review.py',src.replace(before,after));
+          NODE
+          python -m py_compile tools/diagnostics/marin-full-transition-review.py
+          python tools/diagnostics/marin-full-transition-review.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('tools/generate-art/previews/marin-committed-live-transition-review/report.json')
+          data=json.loads(p.read_text())
+          assert not data['errors'],data['errors']
+          assert len(data['runs'])==16,len(data['runs'])
+          assert data['screenshotCount']==136,data['screenshotCount']
+          expected={(f,z,s) for f in ('left','right') for z in (100,120)
+                    for s in ('idle-ball','dribble','dribble-run','pass-catch')}
+          actual={(r['facing'],r['zoom'],r['scenario']) for r in data['runs']}
+          assert actual==expected,expected-actual
+          catches=[r for r in data['runs'] if r['scenario']=='pass-catch']
+          assert len(catches)==4
+          assert all(r['catchStep']==10 for r in catches),[(r['facing'],r['zoom'],r.get('catchStep')) for r in catches]
+          assert all(abs(r['catchDelta']['x'])<.02 and abs(r['catchDelta']['z'])<.01 for r in catches)
+          assert all(
+              f['marin']['atlas'] and f['marin']['atlas']['production']
+              and f['marin']['atlas']['libraryId']=='juniper-vale'
+              for r in data['runs'] for f in r['frames']
+          )
+          print('Complete native 16-scenario review: 136 images; real Kraken catches x4; no browser errors.')
+          PY
+          {
+            echo '### Live gameplay transitions using saved Marin source/test'
+            echo '- 16/16 completed native scenarios: idle-ball, normal dribble, turbo dribble, live pass/catch; both facings; 100%/120% zoom.'
+            echo '- 136 game-driven registered-loader screenshots and zero recorded browser errors.'
+            echo '- Kraken received all 4 genuine Marin passes with accepted x and z snap bounds.'
+            echo '- Source and tests are pinned to versioned PR #16 blobs; integration still review-only.'
+            echo '- Independent pixel-contact signoff and full non-sparse audit remain open.'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload native gameplay transition screenshots (not independent art signoff)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marin-versioned-source-16-live-transitions
+          path: tools/generate-art/previews/marin-committed-live-transition-review/
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Upload 36 screenshots plus measurement report for independent visual review
         if: always()
