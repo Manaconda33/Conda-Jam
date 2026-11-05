@@ -53,6 +53,24 @@ The final two scenarios used the pinned PR6 + PR7 **runner-local combined checko
 
 These GitHub Actions artifacts have finite retention. The exact control values, simulation sample arrays, baseline IDs, source code and links above remain version-controlled even after artifacts expire.
 
+## Regression reconciliation and native action-driven validation — 2026-11-05
+
+**Saved tests:** PR #16 now also includes `tests/animation.test.js` (Git blob `ec15263acd89508ecc4590671cbbd516f3fc3ee6`). The historical Marin idle-ball expectations were **not simply weakened or deleted**: the test strictly asserts `forward=1, height=1.45` for the original non-Juniper baseline and `forward=6, height=1.05` when the authoritative donor mapping selects Juniper. A dedicated test verifies the complete 9-tick 9/8/9 forward path and unchanged vertical bounce; both variants are checked according to their donor condition.
+
+**Exact saved source and saved-test combined validation:**
+
+- [GitHub Actions run 42100248465](https://github.com/Manaconda33/Conda-Jam/actions/runs/42100248465) retrieved the exact PR #16 animation source and test blobs, verified their Git hashes, ran all three selected regression tests **3/3 passed, 0 failed**, and repeated the 36-image full-bounce check **4/4 scenarios passed**.
+- [GitHub Actions run 42100569559](https://github.com/Manaconda33/Conda-Jam/actions/runs/42100569559) repeated those same passing tests and bounce checks, then ran the complete original *simulation-driven normal-loader* 16-scenario harness on the pinned PR #6 + #7 combined checkout **with the saved PR #16 candidate source and tests**.
+- **16/16 live action scenarios:** idle-ball, normal dribble, turbo-dribble, and genuine Marin-to-Kraken pass/catch, each at both facings and both 100%/120% zooms. **136 PNG screenshots**, **300 simulated frame-state records**, **zero reported browser errors**; every checked Marin atlas was registered Juniper source.
+- Kraken received **all four real passes at step 10**, with catch corrections **±0.00909090909 world X and −0.00218181818 world Z**, within the prior **0.02 X / 0.01 Z** acceptance tolerances. These were actual possession transitions, not manually forced catches.
+- Preserved temporary [live-scenario screenshot evidence artifact 13449951343](https://github.com/Manaconda33/Conda-Jam/actions/runs/42100569559/artifacts/13449951343) and [36-frame bounce artifact 13449856591](https://github.com/Manaconda33/Conda-Jam/actions/runs/42100569559/artifacts/13449856591).
+- For future evidence reconciliation after artifact expiry: downloaded original **live-scenario ZIP SHA-256** `d01c5dcb1a54b3733bc274cc548fd633c4f4d16811b532430ef176b382569d37`; `report.json` SHA-256 `d7cd69ef01947232580134a9f16fb71db20740e626dd1d7fa52c1e80ef94bc5c`. The report contains per-screenshot hashes and frame-by-frame mechanics, but the PNG archive itself remains subject to GitHub Actions retention.
+- Per-scene screenshot counts: idle-ball 24, normal dribble 28, turbo-dribble 28, pass/catch 56. All sixteen scenarios and their exact input heads are attributable to the above run.
+
+**This is a passing *review-only compatible source-and-tests candidate*.** The original unmodified combined branch's two historical assertion failures remain intentionally visible in PR #13's original diagnostic job. Do not misread that expected-red baseline job as a failure of the corrected isolated candidate, nor imply the corrected code/test changes have already been integrated into PR #6 or #7.
+
+**Still required:** independent visual/pixel-contact signoff on all relevant poses and transitions, non-sparse complete regression suite and archival provenance checks, combined strict audit/status regeneration, and owner review/merge authorization. The temporary screenshots and this mechanical check do not grant production acceptance.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
