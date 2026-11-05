@@ -231,15 +231,27 @@ def run_all(browser):
             if missing:
                 raise RuntimeError("Registered manifest missing needed clips: " + repr(missing))
             REPORT["registeredSources"] = sources
-            page.wait_for_function(
-                """items=>items.every(item=>{
-                  const im=window.__productionSpriteImagesForReview?.get(item.src);
-                  return Boolean(im?.complete&&im.naturalWidth);
-                })""",
-                arg=sources, timeout=120000, polling=100,
-            )
             for scene in ["idle-ball", "dribble", "dribble-run", "pass-catch"]:
                 setup = setup_scenario(page, facing, zoom, scene)
+                # Source atlases are loaded by beginMatch/loadProductionSprites,
+                # so never await the images while still in the menu.
+                try:
+                    page.wait_for_function(
+                        """items=>items.every(item=>{
+                          const im=window.__productionSpriteImagesForReview?.get(item.src);
+                          return Boolean(im?.complete&&im.naturalWidth);
+                        })""",
+                        arg=sources, timeout=30000, polling=100,
+                    )
+                except Exception as exc:
+                    statuses = page.evaluate(
+                        """items=>items.map(item=>{
+                          const im=window.__productionSpriteImagesForReview?.get(item.src);
+                          return {clip:item.clip,src:item.src,inMap:Boolean(im),
+                            complete:Boolean(im?.complete),width:im?.naturalWidth||0};
+                        })""", sources
+                    )
+                    raise RuntimeError("Post-match sprite readiness failed: " + json.dumps(statuses)) from exc
                 run = {
                     "facing": label, "zoom": zoom, "scenario": scene,
                     "setup": setup, "frames": [], "screenshots": []
