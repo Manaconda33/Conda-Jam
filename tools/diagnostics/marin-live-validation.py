@@ -1,4 +1,4 @@
-"""GitHub Actions-only Marin/Jupiter visual-donor integration probe.
+"""GitHub Actions-only Marin/Juniper visual-donor integration probe.
 
 All scenarios use the registered JAMVERSE gameplay renderer, simulation ticks
 and original published PR6/PR7 source. The candidate calibration is installed
@@ -20,14 +20,7 @@ OUT = ROOT / "tools/generate-art/previews/marin-live-pr6-pr7-scratch"
 OUT.mkdir(parents=True, exist_ok=True)
 PORT = "4297"
 URL = "http://127.0.0.1:" + PORT + "/"
-EXPECTED_ATLASES = [
-    "juniper-vale-idle-ball-right.webp",
-    "juniper-vale-dribble-right.webp",
-    "juniper-vale-dribble-run-right.webp",
-    "juniper-vale-pass-right.webp",
-    "juniper-vale-receive-right.webp",
-    "kraken-receive-right.webp",
-]
+REQUIRED_CLIPS = ["idle-ball", "dribble", "dribble-run", "pass", "receive"]
 CAPTURE_STEPS = {
     "idle-ball": {0, 1, 4, 8, 16, 24},
     "dribble": {0, 1, 2, 3, 5, 7, 9},
@@ -224,12 +217,26 @@ def run_all(browser):
             page.route("**/src/main.js", expose_images)
             page.goto(URL, wait_until="networkidle", timeout=120000)
             page.wait_for_function("window.jamverse && window.jamverse.rosterCheck.athletes===105")
+            sources = page.evaluate(
+                """async clips=>{
+                  const {animationAssetManifest:m}=await import('/src/content/animation-assets.js');
+                  const own=m.characters['juniper-vale'].directions.right;
+                  return clips.map(clip=>({clip,src:own[clip]?.src||null})).concat([
+                    {clip:'kraken-receive',src:m.characters.kraken.directions.right.receive?.src||null}
+                  ]);
+                }""",
+                REQUIRED_CLIPS,
+            )
+            missing = [s["clip"] for s in sources if not s["src"]]
+            if missing:
+                raise RuntimeError("Registered manifest missing needed clips: " + repr(missing))
+            REPORT["registeredSources"] = sources
             page.wait_for_function(
-                """names=>names.every(name=>{
-                  const im=window.__productionSpriteImagesForReview?.get('./public/assets/animation/'+name);
+                """items=>items.every(item=>{
+                  const im=window.__productionSpriteImagesForReview?.get(item.src);
                   return Boolean(im?.complete&&im.naturalWidth);
                 })""",
-                arg=EXPECTED_ATLASES, timeout=120000, polling=100,
+                arg=sources, timeout=120000, polling=100,
             )
             for scene in ["idle-ball", "dribble", "dribble-run", "pass-catch"]:
                 setup = setup_scenario(page, facing, zoom, scene)
