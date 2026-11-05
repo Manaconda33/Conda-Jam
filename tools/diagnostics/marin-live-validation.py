@@ -78,7 +78,9 @@ def setup_scenario(page, direction, zoom, scenario):
           marin.stun=0;marin.facing=facing;marin.y=75;
           marin.x=scenario==='pass-catch'?100-facing*20:100;
           marin.animation={clip:'idle-ball',tick:0};
-          marin.anim='idle-ball';marin.hasBall=true;
+          // Simulation locomotion state is idle, while animation clip is idle-ball.
+          // This is the normal createMatch/stepMatch contract.
+          marin.anim='idle';marin.hasBall=true;
           kraken.stun=0;kraken.facing=-facing;kraken.y=75;
           kraken.x=scenario==='pass-catch'?100:145;
           const core=await import('/src/core/animation.js');
