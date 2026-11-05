@@ -85,6 +85,14 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 
 **Conclusion of this small pass:** PR #6 Echo backward compatibility is verified, and the stricter test is also green on Juniper. Neither passing result constitutes independent visual art signoff, a complete non-sparse integration audit, or merge authorization.
 
+## Additional visual triage and complete normal-dribble capture — 2026-11-05
+
+- **Durable detailed visual evidence:** [Marin rendered-contact triage](./MARIN_RENDERED_CONTACT_TRIAGE_2026-11-05.md) (representative screenshots, SHA-256 hashes, source boundary, visual concerns, unresolved art signoff).
+- The previous successful 136-screenshot live-scenario validation stopped the **normal dribble** screenshots at animation tick 8, although its physical floor bounce occurs at **tick 15**. The missing full-cycle visual coverage is now explicitly addressed by a new diagnostic workflow.
+- [New full normal-dribble probe run 42103174543](https://github.com/Manaconda33/Conda-Jam/actions/runs/42103174543) **PASSED**: 4/4 direction×zoom combinations, **88 actual gameplay screenshots**, 33 sampled frame states per combination (132 total), unmodified registered Juniper artwork and preserved Marin possession. Validated normal-dribble frame 5 at floor-contact tick 15, and the loop reset at tick 30.
+- [Artifact 13451055105](https://github.com/Manaconda33/Conda-Jam/actions/runs/42103174543/artifacts/13451055105) contains the 88 PNGs and reproducible `report.json`. Exact ZIP and report hashes are retained in the triage note.
+- Screen review found visually separated wrist and ball during some **airborne** normal-dribble poses; such separation alone does not establish error because the ball is intentionally released between impacts. **No new track values were changed** and no independent art/pixel-contact signoff is claimed. The next art-review action is to assign contact expectations by phase (held/released/ground/catch), not force midair poses to touch a hand.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
