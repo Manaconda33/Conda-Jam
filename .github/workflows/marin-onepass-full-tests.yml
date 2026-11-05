@@ -1,0 +1,288 @@
+name: Marin exact 115-fixture full test suite (diagnostic only)
+
+on:
+  push:
+    branches:
+      - maintenance/pr6-pr7-reconciliation-probe
+    paths:
+      - '.github/workflows/marin-onepass-full-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  micro-calibration:
+    name: Full npm tests with complete historical fixture manifest
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out complete runtime asset and test paths from pinned main
+        uses: actions/checkout@v4
+        with:
+          ref: 7e700c0eb392800794167007e076c51ac8357a77
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /.github/
+            /index.html
+            /package.json
+            /package-lock.json
+            /src/
+            /public/
+            /tests/
+            /tools/*.mjs
+            /tools/*.js
+            /docs/animation-production/ASSET_AUDIT_LATEST.json
+            /docs/animation-production/ASSET_AUDIT_LATEST.md
+          sparse-checkout-cone-mode: false
+
+      - name: Assemble original pinned PR6/PR7 checkout in runner only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          p6=55a2ab104d6b108cc08132fddc01b32afb958e75
+          p7=97119d54fd24c442c15192a798cae1e8a279eb1d
+          git config user.name 'GitHub CI diagnostic'
+          git config user.email 'ci-local@example.invalid'
+          git fetch --no-tags --filter=blob:none origin \
+            '+refs/heads/codex/captain-animation-completion:refs/remotes/origin/codex/captain-animation-completion' \
+            '+refs/heads/codex/issue-7-seven-donor-supporting-reuse:refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse'
+          test "$(git rev-parse HEAD)" = 7e700c0eb392800794167007e076c51ac8357a77
+          test "$(git rev-parse refs/remotes/origin/codex/captain-animation-completion)" = "$p6"
+          test "$(git rev-parse refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse)" = "$p7"
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          const base='https://api.github.com/repos/Manaconda33/Conda-Jam';
+          const headers={Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'};
+          const response=await fetch(base+'/pulls/7/files?per_page=100',{headers});
+          if(!response.ok) throw Error('PR7 files unavailable: '+response.status);
+          const files=await response.json();
+          const selected=files.filter(f=>f.status!=='removed'&&/^(src\/|tools\/|tests\/|docs\/animation-production\/ASSET_)/.test(f.filename));
+          if(selected.length!==14) throw Error('Unexpected PR7 changed source count '+selected.length);
+          for(const file of selected) {
+            const response=await fetch(base+'/git/blobs/'+file.sha,{headers});
+            if(!response.ok)throw Error('Missing PR7 blob '+file.filename);
+            const blob=await response.json();
+            const bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+            const got=spawnSync('git',['hash-object','-w','--stdin'],{input:bytes,encoding:'utf8'});
+            if(got.status!==0||got.stdout.trim()!==file.sha)throw Error('PR7 blob hash mismatch '+file.filename);
+          }
+          console.log('Hydrated all 14 pinned PR7 source/audit blobs');
+          NODE
+          git merge --quiet --no-edit --no-ff "$p6"
+          set +e
+          git merge --no-commit --no-ff "$p7"
+          rc=$?
+          set -e
+          test "$rc" -eq 1
+          git diff --name-only --diff-filter=U | sort > /tmp/marin-unmerged.txt
+          expected=$(printf 'docs/animation-production/ASSET_AUDIT_LATEST.json\ndocs/animation-production/ASSET_AUDIT_LATEST.md\n')
+          test "$(cat /tmp/marin-unmerged.txt)" = "$expected"
+          git checkout --ours -- docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md
+          git add docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md
+          git commit -qm 'Ephemeral pinned integration only; generated audit excluded from acceptance'
+          grep -q 'library.maskProfile,key' src/render/animation-sprites.js
+          grep -q 'productionSpriteBaselineOffsetY' src/render/animation-sprites.js
+          echo 'Only two known generated-audit conflicts; no remote code was altered.'
+
+      - name: Install EXACT committed Marin candidate source in ephemeral combined checkout
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # PR #7 does not modify animation.js. Abort rather than clobber a new integration change.
+          test "$(git hash-object src/core/animation.js)" = d2540e37cc8cb635e3263a54f5794052fd8d6847
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync,readFileSync} from 'node:fs';
+          // This is the exact source blob committed to the separate review-only branch.
+          const sha='2b1413fce2582fd588f7df111bfb719e8605f046';
+          const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
+          const r=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
+          if(!r.ok)throw Error('Versioned candidate blob unavailable: '+r.status);
+          const blob=await r.json();
+          const bytes=Buffer.from(blob.content.replace(/\\s/g,''),'base64');
+          const verify=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(verify.status!==0||verify.stdout.trim()!==sha)throw Error('Committed candidate blob hash mismatch');
+          const source=bytes.toString('utf8');
+          if(!source.includes("donorId === 'juniper-vale'"))throw Error('Juniper-only guard missing');
+          if(!source.includes("'dribble-run':{forward:[8,9,10,9,8,9,11,10,9,8,8]}"))throw Error('Frame 3/4/5 calibration missing');
+          writeFileSync('src/core/animation.js',bytes);
+          console.log('Ephemeral integration now uses exact committed review-branch candidate source '+sha);
+          NODE
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          node --input-type=module <<'NODE'
+          import {sampleBallForward,sampleBallHeight,athleteBallTrackSource} from './src/core/animation.js';
+          import {supportingAnimationLibraries} from './src/content/supporting-animation-libraries.js';
+          if(supportingAnimationLibraries['marin-dusk'].donorId!=='juniper-vale')throw Error('Visual donor changed');
+          const actual=sampleBallForward('dribble-run',8,'marin-dusk');
+          const height=sampleBallHeight('dribble-run',8,'marin-dusk');
+          if(actual!==8)throw Error('Frame4 horizontal candidate not active: '+actual);
+          const ticks=[4,5,6,7,8,9,10,11,12];
+          const observed=ticks.map(t=>sampleBallForward('dribble-run',t,'marin-dusk'));
+          const expected=[10,9.5,9,8.5,8,8.5,9,10,11];
+          if(observed.some((v,i)=>Math.abs(v-expected[i])>1e-8))throw Error('Full bounce forward samples mismatch: '+observed);
+          if(Math.abs(height-.25)>1e-9)throw Error('Bounce height unexpectedly changed: '+height);
+          if(athleteBallTrackSource('marin-dusk','dribble-run','forward')!=='marin-dusk')throw Error('Own dribble track not retained');
+          for(const clip of ['idle-ball','dribble','dribble-run','receive','pass']){
+            if(athleteBallTrackSource('marin-dusk',clip,'forward')!=='marin-dusk')throw Error('Marin action not owned by Marin: '+clip);
+          }
+          console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,originalControls:[11,12,12],previousScratchControls:[11,8,12],candidateControls:[9,8,9],bounceSamples:observed,bounceHeight:height}));
+          NODE
+
+      - name: Install npm dependencies with a bounded timeout
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 180s npm ci
+
+      - name: Verify existing image decoder or install with a bounded timeout
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v identify; then
+            echo 'Using installed ImageMagick decoder.'
+          else
+            timeout 120s sudo apt-get update -qq
+            timeout 120s sudo apt-get install -y -qq imagemagick
+            command -v identify
+          fi
+
+      - name: Verify source-matched regression migration (runner local, no source changes)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # The PR6-original test is retained on its protected branch. For this
+          # combined local checkout, use exact source-versioned test corrections.
+          test "$(git hash-object tests/animation.test.js)" = e09490c73e6f0facdb8f65253469c9f22de5f27b
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync} from 'node:fs';
+          const sha='9456ffdcdf73f397c15a520b48f75a6cc91ca569';
+          const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
+          const r=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
+          if(!r.ok)throw Error('Saved regression test unavailable: '+r.status);
+          const blob=await r.json(),bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+          const verify=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(verify.status!==0||verify.stdout.trim()!==sha)throw Error('Versioned regression test hash mismatch');
+          const source=bytes.toString('utf8');
+          if(!source.includes("const expectedForward=usesJuniper?6:1"))throw Error('Legacy donor expectation not retained');
+          if(!source.includes("const expectedHeight=usesJuniper?1.05:1.45"))throw Error('Legacy ball height expectation not retained');
+          if(!source.includes("Marin ball-track migration preserves the old donor"))throw Error('Calibration test missing');
+          if(!source.includes("const expectedEchoHeight=[.85,.70,.55,.40,.25,.125,0,.125,.25]"))throw Error("Echo scaled-height assertion missing");
+          writeFileSync('tests/animation.test.js',bytes);
+          console.log('Pinned migration test source installed in ephemeral checkout');
+          NODE
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+          node --test --test-name-pattern="Marin ball-track migration|reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken" \
+            tests/animation.test.js tests/kraken-receive.integration.test.js
+          echo '### Committed Marin regression migration (review-only)' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Two historical donor-specific idle-ball assertions remain strict, with conditionally correct baselines.' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Marin authored 9/8/9 bounce and Kraken real pass/catch tests executed against combined saved source.' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Original PR6 test files, PR7, main, and production artifacts remain untouched.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Confirm full tracked runtime corpus and pinned integration source
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+          test -f public/assets/animation/manifest.json
+          test -f public/assets/animation/juniper-vale-dribble-run-right.webp
+          test -f public/assets/animation/kraken-receive-right.webp
+          mkdir -p ci-diagnostic
+          echo "scope=sparse-source-tests-entire-public-runtime-not-full-historical-repo" > ci-diagnostic/provenance.txt
+          echo "main=7e700c0eb392800794167007e076c51ac8357a77" >> ci-diagnostic/provenance.txt
+          echo "pr6=55a2ab104d6b108cc08132fddc01b32afb958e75" >> ci-diagnostic/provenance.txt
+          echo "pr7=97119d54fd24c442c15192a798cae1e8a279eb1d" >> ci-diagnostic/provenance.txt
+          echo "source_blob=2b1413fce2582fd588f7df111bfb719e8605f046" >> ci-diagnostic/provenance.txt
+          echo "tests_blob=9456ffdcdf73f397c15a520b48f75a6cc91ca569" >> ci-diagnostic/provenance.txt
+          printf "asset_files=" >> ci-diagnostic/provenance.txt
+          find public/assets/animation -type f | wc -l >> ci-diagnostic/provenance.txt
+          printf "asset_bytes=" >> ci-diagnostic/provenance.txt
+          du -sb public/assets/animation | cut -f1 >> ci-diagnostic/provenance.txt
+          cat ci-diagnostic/provenance.txt
+
+      - name: Restore complete 115-fixture historical corpus from pinned PR6 by Git blob hash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-diagnostic
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import {gunzipSync} from 'node:zlib';
+          import {spawnSync} from 'node:child_process';
+          const compressed='H4sIAAAAAAAC/72aS3OjOBDH7/tdFB42dnJMTeWWmpkab+11ShYdIwMSKwkz/vYrMPiBwSCE95SD6V//1erWo5WQE+l8/thsPj82m9/vf3++b37//PXjn4/v79+/fbzsJWd/Kc4T6eyAgcAKEBbKARJxRLAqcBIjkTNFU0BbnCRICUxi2Wu4X3tIAIQIy4gI/qVQmLMYSXJUEehflDiiTPA0Uy9p2A3wWwDtFY6I8wxlvAAxZL7oNRdwACHHqXhdoH3OaKb93QMemqZYEI4OkCR5ijIsJcJKgf5+iUgCmOVZb/DuTbcQURY2BL/0fACGGQFjyAol+MhzJQ0stTMRAQ4vQ5gkoMFMkGBqQkmcZ4GZkQAC9ADNIFeW1qYhqgFLQ7cGRXljKCPOVaN23eQkOvgG5p47LJb/oaCXkKzQdsh/045ohijToVFcHHvtGD9gJBVVJDIaY1bV6r+5TgCpILupPB9BSNWg5E7EbQV60yDtOrIR1GaNN29l6tLYfwvwwFCvlBQK6ew9V7sBXmddNYc6KVhIQ/2tU4OQt3J2OIVMC3IEsBCEXsF1HYU5UZQzRHgu1PEt0D9mXKgxfj2v8quJ+WXh7vPve06da04CX+p/cCPoLjLx46/QVlAs0Bf/s0t0Dtwmg8OwKmfGc90nQH0j6LoTeqqjiTpHIc1UvraRdXJPVDiIM1UXC8r1EBPemUnuWtN2VFdlWSnnpDJ3MC5xXW9Wd093c71y9zoL6rmZ5KA6Z/SzX23YuYy6mP5MwRGw5bkOTIeLhXMakbuazddpx+gNlG8RKC0PJ09LpoXfLumqGK9LcNJSYcA1WjMWiza3is99qE31juea6V3eLeo68SdqfMwy0xW0WV/6+HldI9MkjsYaqI0FjoHd3ZBrqPumT9Mi1TWScKzPVMZFcIdv9onGQTCPg6pFsFi5T+GSJC/vEg3anxEd8nybXKKxnBF9O5GvM5Lbczin6rrN84xYK57iCBfxU3Kk0AeFlOpL5nzwcoMikMC2/NG7pLbnSMIFZbty42KSlvcbm43q5OmSM15wFf6kXFCam9XVHjnH4Mrl62ZclbOY6b0s5AW78mYxur5m1pQ1eJDl27BsbmIjaDbaZpFkrcTifvWQM1VP1ZGwVnNLMdDyoNk0RdQY3LzqTp9ORLXz2wY2V7jmipPtmCwKZQA1oEjyXBComnZB1dWqpqr5RC/euHjJ2G7AdHUxPbcqTRnrC6O+xZsS3k6E0zXd0Ljsbp97eoa2ftDZqjKlPG7MNZvuYiTtUfvMWFpfp8sQtHa73gnrw/p8KC8YNn/0Ynnu+wvYAykVpXkYJvqvLAAyO7jhMB+ghofZ9UxmZHP3zlW9HF2OeXYwo1AMvmddVJXvWgO09qLZuk0Ph7YfUN+1zBEdr1eG4R5BNIr5qMexOTS2mfYq28vmM5gzTlIP2krz3dOfpdA73jh1eVaeY8rL7/lSKjNBFciX8/9U/Ac3Z9rmsiIAAA==';
+          const paths=gunzipSync(Buffer.from(compressed,'base64')).toString('utf8').trim().split('\n');
+          if(paths.length!==115||new Set(paths).size!==115)throw Error('Expected 115 unique fixture paths');
+          const permitted=p=>!p.startsWith('..')&&!path.isAbsolute(p)&&
+            (p.startsWith('tools/generate-art/')||p==='docs/LOSSLESS_ATLAS_PROVENANCE.json');
+          if(!paths.every(permitted))throw Error('Unapproved manifest path');
+          const root='https://api.github.com/repos/Manaconda33/Conda-Jam',pin='55a2ab104d6b108cc08132fddc01b32afb958e75';
+          const headers={Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'};
+          let index=0;const results=[];
+          async function restore(rel){
+            const encoded=rel.split('/').map(encodeURIComponent).join('/');
+            const response=await fetch(root+'/contents/'+encoded+'?ref='+pin,{headers});
+            if(!response.ok)throw Error(rel+' pinned PR6 metadata HTTP '+response.status);
+            const meta=await response.json();
+            if(meta.type!=='file'||!meta.sha||meta.size>65_000_000)throw Error('Invalid fixture '+rel);
+            const blobResponse=await fetch(root+'/git/blobs/'+meta.sha,{headers});
+            if(!blobResponse.ok)throw Error(rel+' Git blob HTTP '+blobResponse.status);
+            const blob=await blobResponse.json(),bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+            const check=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+            if(bytes.length!==meta.size||check.status!==0||check.stdout.trim()!==meta.sha)
+              throw Error(rel+' Git SHA or byte-length mismatch');
+            fs.mkdirSync(path.dirname(rel),{recursive:true});
+            fs.writeFileSync(rel,bytes);
+            return {path:rel,sha:meta.sha,size:bytes.length};
+          }
+          await Promise.all(Array.from({length:4},async()=>{
+            while(index<paths.length){const p=paths[index++];results.push(await restore(p));}
+          }));
+          results.sort((a,b)=>a.path.localeCompare(b.path));
+          fs.writeFileSync('ci-diagnostic/verified-fixtures.json',JSON.stringify({
+            revision:pin,restored:results.length,files:results
+          },null,2)+'\n');
+          console.log('Restored all '+results.length+' hash-verified pinned historical fixtures');
+          NODE
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+
+      - name: Execute full test command after complete fixture recovery
+        shell: bash
+        run: |
+          set +e
+          timeout 600s npm test >ci-diagnostic/full-test.log 2>&1
+          code=$?
+          set -e
+          echo "$code" >ci-diagnostic/full-test.exit
+          tail -n 85 ci-diagnostic/full-test.log
+          echo "Full test exit: $code"
+
+      - name: Upload exact manifest and full test log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marin-115-pinned-fixture-full-suite
+          path: ci-diagnostic/
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Enforce actual complete test command result
+        if: always()
+        shell: bash
+        run: |
+          test -f ci-diagnostic/full-test.exit
+          test "$(cat ci-diagnostic/full-test.exit)" = 0
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          echo 'All scoped npm tests passed using 115 exact pinned historical fixtures.'
