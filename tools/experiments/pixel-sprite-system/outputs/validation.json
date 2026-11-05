@@ -1,0 +1,148 @@
+{
+  "manaconda": {
+    "frames": 6,
+    "cell": [
+      128,
+      192
+    ],
+    "atlas": [
+      384,
+      384
+    ],
+    "occupied_bounds": [
+      [
+        8,
+        10,
+        116,
+        185
+      ],
+      [
+        8,
+        5,
+        116,
+        185
+      ],
+      [
+        8,
+        3,
+        116,
+        185
+      ],
+      [
+        8,
+        14,
+        116,
+        185
+      ],
+      [
+        8,
+        17,
+        116,
+        185
+      ],
+      [
+        8,
+        11,
+        116,
+        185
+      ]
+    ],
+    "visible_pixels": [
+      8759,
+      9032,
+      9125,
+      8500,
+      8443,
+      8725
+    ],
+    "all_distinct": true
+  },
+  "reed": {
+    "frames": 6,
+    "cell": [
+      128,
+      192
+    ],
+    "atlas": [
+      384,
+      384
+    ],
+    "occupied_bounds": [
+      [
+        41,
+        12,
+        116,
+        185
+      ],
+      [
+        41,
+        7,
+        116,
+        185
+      ],
+      [
+        41,
+        5,
+        116,
+        185
+      ],
+      [
+        41,
+        16,
+        116,
+        185
+      ],
+      [
+        41,
+        19,
+        116,
+        185
+      ],
+      [
+        41,
+        13,
+        116,
+        185
+      ]
+    ],
+    "visible_pixels": [
+      6957,
+      7222,
+      7304,
+      6738,
+      6616,
+      6927
+    ],
+    "all_distinct": true
+  },
+  "parts": [
+    "scarf_back",
+    "crest_back",
+    "rear_leg",
+    "front_leg",
+    "rear_shoe",
+    "front_shoe",
+    "shorts",
+    "rear_arm",
+    "torso",
+    "front_arm",
+    "neck",
+    "head",
+    "hair",
+    "beard",
+    "crest_front",
+    "glasses",
+    "facial_highlights",
+    "scarf_knot",
+    "uniform_emblem"
+  ],
+  "generator": "Python/Pillow raster primitives only; no image model, source-image tracing, or reference pixel reuse",
+  "render_sha256": "87cec93adfec2767b95e315a87948813f5b7badd82178e13dacb411801bc4bfa",
+  "component_columns": 19,
+  "workbench": {
+    "characters": 2,
+    "poses": 6,
+    "edit_variants": 4,
+    "baked_component_atlases": 3
+  }
+}
