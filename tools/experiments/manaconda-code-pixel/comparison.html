@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Manaconda | Code pixels versus ImageGen</title><style>
+:root { color-scheme: dark; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #111324; color: #f4f1fc }
+* { box-sizing: border-box } body { max-width: 1300px; padding: 36px 20px 80px; margin: auto; }
+h1 { font-size:clamp(1.5rem,3.5vw,2.55rem);letter-spacing:-.035em;margin:.15em 0 .35em } h2 {font-size:1rem;margin:0}
+.eyebrow{color:#d3b47f;letter-spacing:.16em;text-transform:uppercase;font-size:.75rem;font-weight:800}
+.description {max-width: 900px;color:#b4b4c9;line-height:1.55;font-size:.97rem}
+.toolbar {display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;background:#1c1e31;padding:16px 18px;border-radius:12px;margin:25px 0 20px;border:1px solid #35354c}
+.toolbar label {display:flex;gap:10px;align-items:center;color:#f7ebd4;font-size:.9rem;}
+input,select {accent-color:#e3b959}select{font:inherit;background:#101321;color:white;border:1px solid #595779;padding:8px;border-radius:7px}
+.cards {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;} .card {min-width:0;background:#181a2b;border:1px solid #393752;border-radius:15px;overflow:hidden}
+.head {padding:18px 18px 14px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center;}
+.marker {font-size:.69rem;background:#413764;color:#f2e3ff;border:1px solid #5e508d;padding:4px 8px;border-radius:20px;font-weight:800;letter-spacing:.08em}
+.marker.code {background:#46361f;color:#f8dc8a;border-color:#9c7546}
+.stage {min-height:480px;overflow:auto;display:flex;justify-content:center;align-items:center;padding:24px;position:relative;background:#282643}
+.stage.checker{background-color:#d9d7e2;background-image:conic-gradient(#b4b1c2 25%,transparent 0 50%,#b4b1c2 0 75%,transparent 0);background-size:32px 32px}
+.stage.court{background:linear-gradient(0deg,#a06a42 0%,#ae7748 35%,#6c4261 100%)}
+.crop {position:relative;flex:none;overflow:hidden}.crop img {position:absolute;image-rendering:pixelated;max-width:none;user-select:none;pointer-events:none}
+#generated {display:block;image-rendering:pixelated;max-width:none;user-select:none;flex:none}
+.foot{padding:16px 18px 19px;color:#a5a5bd;font-size:.85rem;line-height:1.5;min-height:90px}.foot b{color:#e1d8fa}
+.alert {display:none;color:#ffd998;margin:5px 0 0;font-size:.82rem}.alert.shown{display:block}
+a {color:#b6d6ff} .footer {color:#b5b5c8;line-height:1.55;margin:22px 0 0;font-size:.87rem}
+code {color:#f5d68d}
+@media(max-width:850px){.cards{grid-template-columns:1fr}.stage{min-height:440px}body{padding-top:20px}}
+</style></head>
+<body>
+<p class="eyebrow">JAMVERSE '96 · experimental art lab · test 001</p>
+<h1>Manaconda: ImageGen vs. 100% code</h1>
+<p class="description">A direct comparison at the exact same <b>64×96 pixel cell size</b>. Left is an actual production idle frame from the repo, right is newly authored procedural pixel art. The right image was built pixel by pixel from source code: no image-generation model, training-time image synthesis, tracing, or external render inputs.</p>
+<div class="toolbar"><label>Zoom <input id="zoom" type="range" min="2" max="8" value="5" step="1"/><output id="zoomlabel">5×</output></label>
+<label>Reference frame <input id="frame" type="range" min="0" max="5" value="0" step="1"/><output id="framelabel">1 of 6</output></label>
+<label>Backdrop <select id="backdrop"><option value="dark">Arcade violet</option><option value="checker">Transparent checkerboard</option><option value="court">Hardwood court</option></select></label></div>
+<div class="cards">
+<section class="card"><div class="head"><h2>Existing production sprite</h2><span class="marker">IMAGE MODEL</span></div>
+<div class="stage dark" id="oldstage"><div class="crop" id="oldcrop"><img id="original" src="https://raw.githubusercontent.com/Manaconda33/Conda-Jam/main/public/assets/animation/manaconda-idle-right.webp" alt="First frame of original six-pose Manaconda idle atlas"/></div></div>
+<div class="foot">Original <b>ImageGen-authored</b> pose, cropped live from the 3×2 atlas at <code>public/assets/animation/manaconda-idle-right.webp</code>. <p class="alert" id="referencefail">Could not load GitHub's original sprite. Connect to the internet and reopen this page.</p></div></section>
+<section class="card"><div class="head"><h2>Experimental code sprite</h2><span class="marker code">CODE ONLY</span></div>
+<div class="stage dark" id="newstage"><img id="generated" src="data:image/png;base64,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" alt="Code-generated Manaconda pixel sprite"/></div>
+<div class="foot"><b>Hand-programmed pixel geometry.</b> 42 palette entries, hard RGBA edges, true transparency, manually coded details, white sleeve, backward blossom crest, and violet/gold Condas jersey.</div></section>
+</div><p class="footer"><b>Interpretation:</b> neither asset has been modified to mimic the other's pixel positions. The poses can vary, so judge character identity, silhouette, color discipline, native-size legibility and style rather than exact pixel alignment. Code-only sprite has one authored pose; the ImageGen atlas has six. This demo does not modify the game's active animation manifest. The new sprite is embedded in this HTML and works offline; the original reference downloads from GitHub.</p>
+<script>
+const $=id=>document.getElementById(id);
+function update(){const z=+$('zoom').value,frame=+$('frame').value;
+$('zoomlabel').textContent=z+'×';$('framelabel').textContent=frame+1+' of 6';
+$('oldcrop').style.width=(64*z)+'px';$('oldcrop').style.height=(96*z)+'px';
+$('original').style.width=(192*z)+'px';$('original').style.height=(192*z)+'px';
+$('original').style.left=-((frame%3)*64*z)+'px';$('original').style.top=-(Math.floor(frame/3)*96*z)+'px';
+$('generated').style.width=(64*z)+'px';$('generated').style.height=(96*z)+'px';
+for(const stage of [$('oldstage'),$('newstage')])stage.className='stage '+$('backdrop').value;
+}
+for(const id of ['zoom','frame','backdrop'])$(id).addEventListener('input',update);
+$('original').addEventListener('error',()=>{$('referencefail').classList.add('shown')});update();
+</script></body></html>
