@@ -1,4 +1,4 @@
-name: Marin exact 119-fixture full test suite (diagnostic only)
+name: Marin exact 120-fixture full test suite (diagnostic only)
 
 on:
   push:
@@ -209,7 +209,7 @@ jobs:
           du -sb public/assets/animation | cut -f1 >> ci-diagnostic/provenance.txt
           cat ci-diagnostic/provenance.txt
 
-      - name: Restore complete 119-fixture historical corpus from pinned PR6 by Git blob hash
+      - name: Restore complete 120-fixture historical corpus from pinned PR6 by Git blob hash
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -225,7 +225,8 @@ jobs:
           const paths=gunzipSync(Buffer.from(compressed,'base64')).toString('utf8').trim().split('\n');
           paths.push('tools/generate-art/piper-quickstep-pass-overhead-attempt1-prompt.md','tools/generate-art/piper-quickstep-pass-behind-attempt1-prompt.md','tools/generate-art/previews/piper-quickstep-receive/native-120/report.json');
           paths.push('tools/generate-art/previews/piper-quickstep-pass-overhead/native-100/report.json');
-          if(paths.length!==119||new Set(paths).size!==119)throw Error('Expected 119 unique fixture paths');
+          paths.push('tools/generate-art/previews/piper-quickstep-pass-overhead/native-120/report.json');
+          if(paths.length!==120||new Set(paths).size!==120)throw Error('Expected 120 unique fixture paths');
           const permitted=p=>!p.startsWith('..')&&!path.isAbsolute(p)&&
             (p.startsWith('tools/generate-art/')||p==='docs/LOSSLESS_ATLAS_PROVENANCE.json');
           if(!paths.every(permitted))throw Error('Unapproved manifest path');
@@ -275,7 +276,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: marin-119-pinned-fixture-full-suite
+          name: marin-120-pinned-fixture-full-suite
           path: ci-diagnostic/
           if-no-files-found: warn
           retention-days: 7
@@ -287,4 +288,4 @@ jobs:
           test -f ci-diagnostic/full-test.exit
           test "$(cat ci-diagnostic/full-test.exit)" = 0
           test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
-          echo 'All scoped npm tests passed using 119 exact pinned historical fixtures.'
+          echo 'All scoped npm tests passed using 120 exact pinned historical fixtures.'
