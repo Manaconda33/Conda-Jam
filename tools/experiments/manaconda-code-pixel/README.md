@@ -33,3 +33,7 @@ To integrate later, generate additional distinct frames, author an idle clip man
 - Simpler to revise than the painterly hand-composed generated assets
 
 This test intentionally prioritizes arcade-pixel readability over the painterly/high-frequency detail of the original ImageGen artwork.
+
+## V2: native 128×192 code redraw
+
+The approved high-detail follow-up is under [`v2/`](./v2/README.md). It is a new, independently hand-coded sprite at native 128×192 (not a 2× V1 upscale), with a 64×96 reduction, an expanded same-scale four-way comparison, and a separate deterministic regression test. Original V1 source and production game assets remain unchanged. To evaluate, open [`v2/comparison-v2.html`](./v2/comparison-v2.html).
