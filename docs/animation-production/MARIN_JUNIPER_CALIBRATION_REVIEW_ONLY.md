@@ -95,10 +95,10 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 
 ## Broader suite and provenance gate (still incomplete) — 2026-11-05
 
-See [`MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md`](./MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) for exact input commits and verified blobs, test failure manifests, the two historical fixture recovery waves, and audit evidence hashes.
+See [`MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md`](./MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) for exact input commits and verified blobs, test failure manifests, the three completed historical fixture recovery waves, and audit evidence hashes.
 
 - True full non-sparse checkout encountered an **unavailable historical Git object** during local PR #6 merge; the full checkout did not reach the tests. [Attempt 42108460440](https://github.com/Manaconda33/Conda-Jam/actions/runs/42108460440).
-- The scoped runtime/production-asset checkout ran `npm test`. It initially passed **502/570**. Two waves recovered **79/79** missing historical fixtures from immutable PR #6, each hash-verified; the latest [run 42110543688](https://github.com/Manaconda33/Conda-Jam/actions/runs/42110543688) passed **571/587** with **16 further missing-file failures**, no identified assertion errors. The overall suite is **still RED**, not approved.
+- The scoped runtime/production-asset checkout ran `npm test`. It initially passed **502/570**. Three waves recovered **95/95** missing historical fixtures from immutable PR #6, each hash-verified; the latest [run 42114465183](https://github.com/Manaconda33/Conda-Jam/actions/runs/42114465183) passed **576/587** with **11 further missing-file failures**, no identified assertion errors. The overall suite is **still RED**, not approved.
 - Lint, content validation, league simulation, and the non-deployed standalone build passed.
 - The regenerated report-only production-asset audit inspected 2,397 clips, 570 source atlases, 5,489 decoded drawings, and remained **INCOMPLETE**: 706 missing-clip findings, 40 prompt-not-verbatim findings, zero target shortfalls.
 - No source or test expectations were weakened, no unknown image blobs were synthesized, no accepted audit reports were overwritten, and no remote PR or deployment refs were changed.
