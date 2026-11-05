@@ -134,12 +134,23 @@ jobs:
           console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,originalControls:[11,12,12],previousScratchControls:[11,8,12],candidateControls:[9,8,9],bounceSamples:observed,bounceHeight:height}));
           NODE
 
-      - name: Install production test and image decoding requirements
+      - name: Install npm dependencies with a bounded timeout
+        shell: bash
         run: |
-          npm ci
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq imagemagick
-          command -v identify
+          set -euo pipefail
+          timeout 180s npm ci
+
+      - name: Verify existing image decoder or install with a bounded timeout
+        shell: bash
+        run: |
+          set -euo pipefail
+          if command -v identify; then
+            echo 'Using installed ImageMagick decoder.'
+          else
+            timeout 120s sudo apt-get update -qq
+            timeout 120s sudo apt-get install -y -qq imagemagick
+            command -v identify
+          fi
 
       - name: Verify source-matched regression migration (runner local, no source changes)
         env:
