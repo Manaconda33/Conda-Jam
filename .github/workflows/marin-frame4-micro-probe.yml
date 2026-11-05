@@ -108,7 +108,7 @@ jobs:
           end=s.index("},'cove-knell':{",start)
           before=s[start:end]
           original="'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}"
-          candidate="'dribble-run':{forward:[8,9,10,9,8,10,11,10,9,8,8]}"
+          candidate="'dribble-run':{forward:[8,9,10,9,8,9,11,10,9,8,8]}"
           assert before.count(original)==1,'Unique Marin frame-4 control point missing'
           s=s[:start]+before.replace(original,candidate)+s[end:]
           p.write_text(s)
@@ -122,11 +122,11 @@ jobs:
           if(actual!==8)throw Error('Frame4 horizontal candidate not active: '+actual);
           const ticks=[4,5,6,7,8,9,10,11,12];
           const observed=ticks.map(t=>sampleBallForward('dribble-run',t,'marin-dusk'));
-          const expected=[10,9.5,9,8.5,8,9,10,10.5,11];
+          const expected=[10,9.5,9,8.5,8,8.5,9,10,11];
           if(observed.some((v,i)=>Math.abs(v-expected[i])>1e-8))throw Error('Full bounce forward samples mismatch: '+observed);
           if(Math.abs(height-.25)>1e-9)throw Error('Bounce height unexpectedly changed: '+height);
           if(athleteBallTrackSource('marin-dusk','dribble-run','forward')!=='marin-dusk')throw Error('Own dribble track not retained');
-          console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,originalControls:[11,12,12],previousScratchControls:[11,8,12],candidateControls:[9,8,10],bounceSamples:observed,bounceHeight:height}));
+          console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,originalControls:[11,12,12],previousScratchControls:[11,8,12],candidateControls:[9,8,9],bounceSamples:observed,bounceHeight:height}));
           NODE
 
       - name: Install browser test dependencies
@@ -192,7 +192,7 @@ jobs:
             assert all(abs(f['expectedHandMarin']['x']-f['ball']['x'])<1e-4 for f in frames)
             facing=item['setup']['facing']
             xs=[(f['ball']['x']-f['marin']['x'])*facing for f in frames]
-            expected=[10,9.5,9,8.5,8,9,10,10.5,11]
+            expected=[10,9.5,9,8.5,8,8.5,9,10,11]
             assert all(abs(a-b)<.001 for a,b in zip(xs,expected)),(facing,item['zoom'],xs)
             deltas=[round(xs[i+1]-xs[i],4) for i in range(len(xs)-1)]
             assert all(abs(d)<=1.01 for d in deltas),(facing,item['zoom'],deltas)
@@ -208,7 +208,7 @@ jobs:
             echo
             echo '- Exact pinned main, PR #6, PR #7 inputs verified on this runner.'
             echo '- Same Juniper visual donor and existing per-action scratch calibration.'
-            echo '- Marin turbo-dribble forward: frame 3 **11 → 9**, frame 4 **8 retained**, frame 5 **12 → 10**.'
+            echo '- Marin turbo-dribble forward: frame 3 **11 → 9**, frame 4 **8 retained**, frame 5 **12 → 9**.'
             echo '- No vertical bounce, other clip/athlete, original PR, or production reference modifications.'
             echo '- Captured actual simulation ticks 4–12, frames 2–6, both facings, at 100% and 120% zoom.'
             echo '- Machine continuity: max 1.01 horizontal world-unit per tick; bounce heights verified unchanged.'
@@ -219,7 +219,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: marin-frames3-5-full-bounce-9-8-10-scratch
+          name: marin-frames3-5-full-bounce-9-8-9-scratch
           path: tools/generate-art/previews/marin-live-pr6-pr7-scratch/
           if-no-files-found: warn
           retention-days: 7
