@@ -1,4 +1,4 @@
-name: Marin frame 4 horizontal micro calibration (diagnostic only)
+name: Marin frame 4 plus adjacent frames micro calibration (diagnostic only)
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   micro-calibration:
-    name: Two facings, one gameplay frame, no production writes
+    name: Two facings, five gameplay ticks, no production writes
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -108,7 +108,7 @@ jobs:
           end=s.index("},'cove-knell':{",start)
           before=s[start:end]
           original="'dribble-run':{forward:[8,9,10,11,12,12,11,10,9,8,8]}"
-          candidate="'dribble-run':{forward:[8,9,10,11,10,12,11,10,9,8,8]}"
+          candidate="'dribble-run':{forward:[8,9,10,11,8,12,11,10,9,8,8]}"
           assert before.count(original)==1,'Unique Marin frame-4 control point missing'
           s=s[:start]+before.replace(original,candidate)+s[end:]
           p.write_text(s)
@@ -119,10 +119,10 @@ jobs:
           if(supportingAnimationLibraries['marin-dusk'].donorId!=='juniper-vale')throw Error('Visual donor changed');
           const actual=sampleBallForward('dribble-run',8,'marin-dusk');
           const height=sampleBallHeight('dribble-run',8,'marin-dusk');
-          if(actual!==10)throw Error('Frame4 horizontal candidate not active: '+actual);
+          if(actual!==8)throw Error('Frame4 horizontal candidate not active: '+actual);
           if(Math.abs(height-.25)>1e-9)throw Error('Bounce height unexpectedly changed: '+height);
           if(athleteBallTrackSource('marin-dusk','dribble-run','forward')!=='marin-dusk')throw Error('Own dribble track not retained');
-          console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,baselineForward:12,candidateForward:actual,bounceHeight:height}));
+          console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,originalForward:12,previousScratchForward:10,candidateForward:actual,bounceHeight:height}));
           NODE
 
       - name: Install browser test dependencies
@@ -131,7 +131,7 @@ jobs:
           python -m pip install --quiet playwright
           command -v google-chrome
 
-      - name: Run action-driven two-facing one-frame capture
+      - name: Run action-driven two-facing adjacent-tick capture
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -155,16 +155,16 @@ jobs:
           p=Path('tools/diagnostics/marin-live-validation.py')
           s=p.read_text()
           swaps=[
-            ('"dribble-run": {0, 1, 2, 3, 5, 7, 9}', '"dribble-run": {9}'),
+            ('"dribble-run": {0, 1, 2, 3, 5, 7, 9}', '"dribble-run": {7, 8, 9, 10, 11}'),
             ('for zoom in [100, 120]:','for zoom in [120]:'),
             ('for scene in ["idle-ball", "dribble", "dribble-run", "pass-catch"]:','for scene in ["dribble-run"]:'),
-            ('limit = 26 if scene == "pass-catch" else 25 if scene == "idle-ball" else 12','limit = 10'),
+            ('limit = 26 if scene == "pass-catch" else 25 if scene == "idle-ball" else 12','limit = 12'),
             ('if len(REPORT["runs"]) != 16:', 'if len(REPORT["runs"]) != 2:')
           ]
           for a,b in swaps:
             assert s.count(a)==1,('Unexpected harness source',a)
             s=s.replace(a,b)
-          # Do not capture extra frames or alter the game sim/render implementation.
+          # The sole visual adjustment remains frame-4 forward; 5 captures assess adjacent-frame continuity without changing sim/render code.
           p.write_text(s)
           PY
           python -m py_compile tools/diagnostics/marin-live-validation.py
@@ -176,33 +176,47 @@ jobs:
           data=json.loads(p.read_text())
           assert not data['errors']
           assert len(data['runs'])==2
-          assert data['screenshotCount']==2
+          assert data['screenshotCount']==10
           for item in data['runs']:
             assert item['zoom']==120 and item['scenario']=='dribble-run'
             shots=item['screenshots']
-            assert len(shots)==1 and shots[0]['step']==9
-            frame=item['frames'][9]
-            assert frame['marin']['atlas']['frame']==4
-            assert frame['marin']['atlas']['libraryId']=='juniper-vale'
-            assert abs(frame['expectedHandMarin']['x']-frame['ball']['x'])<1e-4
-          print('Candidate captured both facings at 120%, step09/tick8/frame4')
+            assert [shot['step'] for shot in shots]==[7,8,9,10,11]
+            frames=[item['frames'][i] for i in [7,8,9,10,11]]
+            assert [f['marin']['atlas']['frame'] for f in frames]==[3,3,4,4,5]
+            assert all(f['marin']['atlas']['libraryId']=='juniper-vale' for f in frames)
+            assert all(f['marin']['atlas']['production'] for f in frames)
+            assert all(abs(f['expectedHandMarin']['x']-f['ball']['x'])<1e-4 for f in frames)
+            # Check actual simulated ball path in athlete-facing local coordinates, not absolute court X.
+            facing=item['setup']['facing']
+            xs=[(f['ball']['x']-f['marin']['x'])*facing for f in frames]
+            expected=[11,9.5,8,10,12]
+            assert all(abs(a-b)<.001 for a,b in zip(xs,expected)),(facing,xs)
+            # No more than 2 world-units horizontal movement between adjacent simulation ticks.
+            deltas=[round(xs[i+1]-xs[i],4) for i in range(len(xs)-1)]
+            assert all(abs(d)<=2.0 for d in deltas),(facing,deltas)
+            # Vertical bounce in these ticks is unchanged: frame3, halfway, frame4, halfway, frame5.
+            heights=[f['ball']['z']-f['marin']['z'] for f in frames]
+            expected_heights=[.55,.4,.25,.125,0]
+            assert all(abs(a-b)<.001 for a,b in zip(heights,expected_heights)),(facing,heights)
+            print('Facing',facing,'forward path',xs,'per-tick deltas',deltas,'bounce heights',heights)
+          print('Captured game-driven frames 3/4/5 around tick8, both facings at 120%.')
           PY
           {
             echo '## Marin frame-4 horizontal micro calibration (UNACCEPTED)'
             echo
             echo '- Exact pinned main, PR #6, PR #7 inputs verified on this runner.'
             echo '- Same Juniper visual donor and existing per-action scratch calibration.'
-            echo '- Changed exactly one Marin turbo-dribble forward control value: **12 → 10** at frame 4.'
+            echo '- Changed exactly one Marin turbo-dribble forward control value: **12 → 8** at frame 4 (prior scratch candidate was 10).'
             echo '- No vertical bounce, other clip/athlete, original PR, or production reference modifications.'
-            echo '- Captured genuine simulation-driven normal-loader frame 4 in both facings, 120%.'
+            echo '- Captured game-driven adjacent ticks 6–10 (frames 3, 4, 5), both facings at 120%.\n            echo '- Machine continuity check: max 2 world-units forward movement between consecutive ticks; bounce heights verified unchanged.''
             echo '- Visual ball-to-hand acceptance is **not** implied by technical success.'
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Upload 2 screenshots plus measurement report for independent visual review
+      - name: Upload 10 screenshots plus measurement report for independent visual review
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: marin-frame4-forward10-scratch
+          name: marin-frame4-forward8-adjacent-scratch
           path: tools/generate-art/previews/marin-live-pr6-pr7-scratch/
           if-no-files-found: warn
           retention-days: 7
