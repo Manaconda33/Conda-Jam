@@ -276,16 +276,18 @@ jobs:
           appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary.join('\n')+'\n');
           NODE
 
-      - name: Run full automated tests
-        run: npm test
+      - name: Run focused gameplay integration regression tests
+        run: node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
 
       - name: Run lint and content validation
+        if: success() || failure()
         run: |
           npm run lint
           npm run validate:content
           npm run simulate:league
 
       - name: Produce non-deployed standalone build
+        if: success() || failure()
         run: npm run build
 
       - name: Check worktree hygiene and final generated file differences
@@ -296,3 +298,29 @@ jobs:
           git diff --check
           echo '### Test job outcome' >> "$GITHUB_STEP_SUMMARY"
           echo 'See individual job steps above. No checkout contents were pushed or deployed.' >> "$GITHUB_STEP_SUMMARY"
+
+  pr6-baseline-gameplay:
+    name: Compare accepted PR6 gameplay assertions before donor reassignments
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - name: Check out exact accepted PR6 with lightweight sources
+        uses: actions/checkout@v4
+        with:
+          ref: 55a2ab104d6b108cc08132fddc01b32afb958e75
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /package.json
+            /package-lock.json
+            /src/
+            /public/assets/animation/
+            /tests/animation.test.js
+            /tests/kraken-receive.integration.test.js
+          sparse-checkout-cone-mode: false
+      - name: Install dependencies
+        run: npm ci
+      - name: Run the two PR6 acceptance assertions unchanged
+        run: node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
