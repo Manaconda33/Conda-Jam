@@ -93,15 +93,15 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 - [Artifact 13451055105](https://github.com/Manaconda33/Conda-Jam/actions/runs/42103174543/artifacts/13451055105) contains the 88 PNGs and reproducible `report.json`. Exact ZIP and report hashes are retained in the triage note.
 - Screen review found visually separated wrist and ball during some **airborne** normal-dribble poses; such separation alone does not establish error because the ball is intentionally released between impacts. **No new track values were changed** and no independent art/pixel-contact signoff is claimed. The next art-review action is to assign contact expectations by phase (held/released/ground/catch), not force midair poses to touch a hand.
 
-## Broader suite and provenance gate (still incomplete) — 2026-11-05
+## Scoped full `npm test` suite GREEN; wider provenance gates still open — 2026-11-05
 
-See [`MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md`](./MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) for exact input commits and verified blobs, test failure manifests, the three completed historical fixture recovery waves, and audit evidence hashes.
+See [`MARIN_120_FIXTURE_SCOPED_TEST_SUITE_GREEN_2026-11-05.md`](./MARIN_120_FIXTURE_SCOPED_TEST_SUITE_GREEN_2026-11-05.md) for the permanent, verified passing test report and [`MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md`](./MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) for the earlier fixture-recovery and full-checkout evidence.
 
-- True full non-sparse checkout encountered an **unavailable historical Git object** during local PR #6 merge; the full checkout did not reach the tests. [Attempt 42108460440](https://github.com/Manaconda33/Conda-Jam/actions/runs/42108460440).
-- The scoped runtime/production-asset checkout ran `npm test`. It initially passed **502/570**. Three waves recovered **95/95** missing historical fixtures from immutable PR #6, each hash-verified; the latest [run 42114465183](https://github.com/Manaconda33/Conda-Jam/actions/runs/42114465183) passed **576/587** with **11 further missing-file failures**, no identified assertion errors. The overall suite is **still RED**, not approved.
-- Lint, content validation, league simulation, and the non-deployed standalone build passed.
-- The regenerated report-only production-asset audit inspected 2,397 clips, 570 source atlases, 5,489 decoded drawings, and remained **INCOMPLETE**: 706 missing-clip findings, 40 prompt-not-verbatim findings, zero target shortfalls.
-- No source or test expectations were weakened, no unknown image blobs were synthesized, no accepted audit reports were overwritten, and no remote PR or deployment refs were changed.
+- **New [GitHub Actions run 42131202002](https://github.com/Manaconda33/Conda-Jam/actions/runs/42131202002): PASS** with the exact committed Marin animation and regression-test blobs. A fixed corpus of **120/120 hash-verified fixtures** restored from pinned PR #6 enabled **587/587 passing tests, 0 failed, 0 skipped, `npm test` exit 0**. Source, tests, and original PR heads were unchanged. [Full logs and verified fixture manifest](https://github.com/Manaconda33/Conda-Jam/actions/runs/42131202002/artifacts/13463925766) (finite retention).
+- Scope is the source-and-production-runtime-asset checkout plus exact verified historical test fixtures. It **does not** constitute a full non-sparse historical checkout. The latter remains blocked by unavailable Git promisor objects in [run 42108460440](https://github.com/Manaconda33/Conda-Jam/actions/runs/42108460440).
+- Lint, roster/content validation, league simulation, and standalone build had already passed in the preceding full-command diagnostics; the new passing workflow ran the complete test command and did not claim rerunning those separate commands.
+- The most recent **report-only** source-art audit had 2,397 inspected clips, 570 atlases and 5,489 source drawings, but was **INCOMPLETE**: 706 missing-clip findings and 40 non-verbatim prompt findings, with zero target-frame shortfalls. No strict audit findings were accepted, waived or silently repaired.
+- Independent rendered pixel-contact art acceptance, full historical checkout/provenance, combined integration signoff, and explicit permission for any merge/deployment remain outstanding.
 
 ## Remaining gates, intentionally not waived
 
