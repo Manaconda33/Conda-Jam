@@ -283,6 +283,8 @@ jobs:
 
       - name: Scratch per-clip Marin track compatibility (preserve original individual tracks)
         if: success() || failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
@@ -391,6 +393,26 @@ jobs:
                   assert cap['selection']['src']==expected,(cap['clip'],cap['selection']['src'],expected)
           print('All reviewed saved poses selected real registered Juniper atlas for both facings and both zooms')
           PY
+          # Fetch the pinned diagnostic helper from this maintenance branch via
+          # GitHub's authenticated blobs API. Checkout itself remains exact main+PR6+PR7.
+          mkdir -p tools/diagnostics
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync} from 'node:fs';
+          const sha='30df3c1c02c2bce0657d7da9c60a1a7b6e713cc6';
+          const response=await fetch('https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha,{
+            headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}
+          });
+          if(!response.ok)throw new Error('Cannot read pinned review harness: '+response.status);
+          const blob=await response.json();
+          const bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+          const verify=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(verify.status!==0||verify.stdout.trim()!==sha)throw new Error('Diagnostic harness blob SHA mismatch');
+          writeFileSync('tools/diagnostics/marin-live-validation.py',bytes);
+          NODE
+          python -m py_compile tools/diagnostics/marin-live-validation.py
+          python tools/diagnostics/marin-live-validation.py
+          echo 'Native game-driven Marin ball/contact evidence captured; independent visual review pending.'
           {
             echo '### Scratch Marin per-action compatibility (not published)'
             echo
@@ -410,6 +432,15 @@ jobs:
         with:
           name: marin-per-action-scratch-review
           path: tools/generate-art/previews/marin-dusk-ball-track-review-05/
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Publish native action-driven gameplay captures (not accepted)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marin-action-driven-normal-loader
+          path: tools/generate-art/previews/marin-live-pr6-pr7-scratch/
           if-no-files-found: warn
           retention-days: 7
 
