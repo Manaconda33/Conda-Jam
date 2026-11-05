@@ -1,0 +1,124 @@
+name: Diagnose PR 6 + PR 7 reconciliation (no writes)
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/pr6-pr7-reconciliation-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  virtual-merge-diagnostic:
+    name: Read-only Git tree merge diagnostic
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the exact reviewed main commit, blobless and sparse
+        uses: actions/checkout@v4
+        with:
+          ref: 7e700c0eb392800794167007e076c51ac8357a77
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            .github
+            src/render
+            docs/animation-production
+          sparse-checkout-cone-mode: true
+
+      - name: Compare complete Git trees and attempt a local-only virtual merge
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=7e700c0eb392800794167007e076c51ac8357a77
+          p6=55a2ab104d6b108cc08132fddc01b32afb958e75
+          p7=97119d54fd24c442c15192a798cae1e8a279eb1d
+          git fetch --no-tags --filter=blob:none origin \
+            '+refs/heads/codex/captain-animation-completion:refs/remotes/origin/codex/captain-animation-completion' \
+            '+refs/heads/codex/issue-7-seven-donor-supporting-reuse:refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse'
+          test "$(git rev-parse HEAD)" = "$base"
+          test "$(git rev-parse refs/remotes/origin/codex/captain-animation-completion)" = "$p6"
+          test "$(git rev-parse refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse)" = "$p7"
+
+          original=$(git merge-base "$p6" "$p7")
+          git diff --name-only "$original" "$p6" | sort > /tmp/pr6-changes.txt
+          git diff --name-only "$original" "$p7" | sort > /tmp/pr7-changes.txt
+          comm -12 /tmp/pr6-changes.txt /tmp/pr7-changes.txt > /tmp/overlap.txt
+          count6=$(wc -l </tmp/pr6-changes.txt)
+          count7=$(wc -l </tmp/pr7-changes.txt)
+          count_overlap=$(wc -l </tmp/overlap.txt)
+          tree6=$(git ls-tree -r --name-only "$p6" | wc -l)
+          tree7=$(git ls-tree -r --name-only "$p7" | wc -l)
+
+          {
+            echo '## PR #6 / #7 virtual merge diagnostic'
+            echo
+            echo 'Diagnostic only. No repository refs, assets, or production deployments are changed.'
+            echo
+            echo "| Input | Full SHA |"
+            echo "| --- | --- |"
+            echo "| Main after CI PR #12 | \`$base\` |"
+            echo "| Published PR #6 | \`$p6\` |"
+            echo "| Published PR #7 | \`$p7\` |"
+            echo "| Original PR common base | \`$original\` |"
+            echo
+            echo "- PR #6 changed paths (complete Git tree diff): **$count6**"
+            echo "- PR #7 changed paths (complete Git tree diff): **$count7**"
+            echo "- Overlapping changed paths: **$count_overlap**"
+            echo "- PR #6 complete tree files: **$tree6**"
+            echo "- PR #7 complete tree files: **$tree7**"
+            echo
+            echo '### Overlapping paths'
+            echo '~~~'
+            cat /tmp/overlap.txt
+            echo '~~~'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          git config user.name "Local diagnostic only"
+          git config user.email "local-probe@example.invalid"
+
+          set +e
+          first_output=$(git merge-tree --write-tree --messages "$base" "$p6" 2>&1)
+          first_status=$?
+          set -e
+          {
+            echo
+            echo "### Virtual merge: published PR #6 onto main"
+            echo "- Git merge-tree exit code: **$first_status**"
+            echo '~~~'
+            printf '%s\n' "$first_output" | head -100
+            echo '~~~'
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$first_status" -ne 0 ]; then
+            echo 'PR #6 could not be virtually merged onto the pinned main commit.'
+            exit 0
+          fi
+
+          first_tree=$(printf '%s\n' "$first_output" | head -1)
+          virtual_commit=$(printf 'Local-only virtual PR6 integration (not published)\n' |
+            git commit-tree "$first_tree" -p "$base" -p "$p6")
+
+          set +e
+          second_output=$(git merge-tree --write-tree --messages "$virtual_commit" "$p7" 2>&1)
+          second_status=$?
+          set -e
+
+          {
+            echo
+            echo '### Virtual merge: PR #7 after PR #6'
+            echo "- Git merge-tree exit code: **$second_status**"
+            if [ "$second_status" -eq 0 ]; then
+              echo '- **Clean virtual merge**. This does not validate semantic correctness, artwork, tests, audits, or gameplay.'
+            else
+              echo '- **Conflicts detected**. Manual semantic reconciliation and tests are still required.'
+            fi
+            echo
+            echo '~~~'
+            printf '%s\n' "$second_output" | head -180
+            echo '~~~'
+            echo
+            echo '**No remote branch, PR, main, deployment, or Myth workspace was modified.**'
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "Virtual merge results: PR6=$first_status PR7-after-PR6=$second_status"
+          # Exit zero: execution of this diagnostic is not an assertion of merge readiness.
