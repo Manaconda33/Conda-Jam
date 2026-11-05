@@ -55,7 +55,7 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 
 ## Regression reconciliation and native action-driven validation — 2026-11-05
 
-**Saved tests:** PR #16 now also includes `tests/animation.test.js` (Git blob `ec15263acd89508ecc4590671cbbd516f3fc3ee6`). The historical Marin idle-ball expectations were **not simply weakened or deleted**: the test strictly asserts `forward=1, height=1.45` for the original non-Juniper baseline and `forward=6, height=1.05` when the authoritative donor mapping selects Juniper. A dedicated test verifies the complete 9-tick 9/8/9 forward path and unchanged vertical bounce; both variants are checked according to their donor condition.
+**Saved tests:** PR #16 now also includes `tests/animation.test.js` (Git blob `ec15263acd89508ecc4590671cbbd516f3fc3ee6`). The historical Marin idle-ball expectations were **not simply weakened or deleted**: the test strictly asserts `forward=1, height=1.45` for the original non-Juniper baseline and `forward=6, height=1.05` when the authoritative donor mapping selects Juniper. A dedicated test verifies the complete 9-tick 9/8/9 forward path and unchanged vertical bounce. The combined PR #6 + #7 CI run exercised the **Juniper** branch of these strict expectations; the **legacy Echo** branch is preserved in code but still needs its own isolated execution with the newly saved tests.
 
 **Exact saved source and saved-test combined validation:**
 
@@ -69,7 +69,7 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 
 **This is a passing *review-only compatible source-and-tests candidate*.** The original unmodified combined branch's two historical assertion failures remain intentionally visible in PR #13's original diagnostic job. Do not misread that expected-red baseline job as a failure of the corrected isolated candidate, nor imply the corrected code/test changes have already been integrated into PR #6 or #7.
 
-**Still required:** independent visual/pixel-contact signoff on all relevant poses and transitions, non-sparse complete regression suite and archival provenance checks, combined strict audit/status regeneration, and owner review/merge authorization. The temporary screenshots and this mechanical check do not grant production acceptance.
+**Still required:** run the migrated strict tests against the PR #6-only Echo donor as a separate backward-compatibility check; independent visual/pixel-contact signoff on all relevant poses and transitions; non-sparse complete regression suite and archival provenance checks; combined strict audit/status regeneration; and owner review/merge authorization. The temporary screenshots and this mechanical check do not grant production acceptance.
 
 ## Remaining gates, intentionally not waived
 
