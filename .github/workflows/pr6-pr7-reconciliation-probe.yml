@@ -155,6 +155,8 @@ jobs:
           sparse-checkout-cone-mode: false
 
       - name: Construct isolated combined checkout with only two known audit-file conflicts
+        env:
+          GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
@@ -169,7 +171,30 @@ jobs:
           test "$(git rev-parse HEAD)" = "$base"
           test "$(git rev-parse refs/remotes/origin/codex/captain-animation-completion)" = "$p6"
           test "$(git rev-parse refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse)" = "$p7"
-          git merge --no-edit --no-ff "$p6"
+          # GitHub's blobless promisor fetch rejected an individually reachable PR7
+          # blob in the first attempt. Pre-hydrate only changed source/audit blobs
+          # via the authenticated REST blobs API; never fetch gigabytes of raw previews.
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          const root='https://api.github.com/repos/Manaconda33/Conda-Jam';
+          const headers={Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'};
+          const filesResponse=await fetch(root+'/pulls/7/files?per_page=100',{headers});
+          if(!filesResponse.ok)throw new Error('PR file enumeration failed: '+filesResponse.status);
+          const files=await filesResponse.json();
+          const selected=files.filter(f=>f.status!=='removed'&&/^(src\/|tools\/|tests\/|docs\/animation-production\/ASSET_)/.test(f.filename));
+          if(selected.length!==14)throw new Error('Unexpected changed-source file count '+selected.length);
+          for(const file of selected) {
+            const response=await fetch(root+'/git/blobs/'+file.sha,{headers});
+            if(!response.ok)throw new Error('REST blob unavailable: '+file.filename+' '+response.status);
+            const blob=await response.json();
+            const bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+            const result=spawnSync('git',['hash-object','-w','--stdin'],{input:bytes,encoding:'utf8'});
+            if(result.status!==0||result.stdout.trim()!==file.sha)
+              throw new Error('Unexpected blob hash for '+file.filename);
+          }
+          console.log('Verified and locally hydrated '+selected.length+' published PR7 source/audit blobs');
+          NODE
+          git merge --quiet --no-edit --no-ff "$p6"
           set +e
           git merge --no-commit --no-ff "$p7"
           merge_rc=$?
