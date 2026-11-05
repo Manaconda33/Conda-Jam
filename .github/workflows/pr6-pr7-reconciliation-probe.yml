@@ -281,106 +281,14 @@ jobs:
       - name: Run focused gameplay integration regression tests
         run: node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
 
-      - name: Temporary Marin track-source compatibility experiment (never commit)
-        if: success() || failure()
-        shell: bash
-        run: |
-          set -euo pipefail
-          file=src/content/supporting-animation-libraries.js
-          cp "$file" /tmp/supporting-animation-libraries.original.js
-          trap 'cp /tmp/supporting-animation-libraries.original.js "$file"' EXIT
-          node --input-type=module - <<'NODE'
-          import {readFileSync,writeFileSync} from 'node:fs';
-          const file='src/content/supporting-animation-libraries.js';
-          const text=readFileSync(file,'utf8');
-          const old="mode: 'shared', donorId, classification: 'derived-palette', lineage: 'shared-source', ballTrackSource: donorId,";
-          const updated="mode: 'shared', donorId, classification: 'derived-palette', lineage: 'shared-source', ballTrackSource: player.id === 'marin-dusk' ? 'echo-catwalk' : donorId,";
-          if(!text.includes(old))throw new Error('Unexpected candidate file content');
-          writeFileSync(file,text.replace(old,updated));
-          NODE
-          # Proposed test expectation migration is runner-local, strict, and restored.
-          # It is NOT an accepted rewrite of historical PR6 evidence.
-          cp tests/animation.test.js /tmp/animation.test.pr6-7-original
-          trap 'cp /tmp/animation.js.pr6-7-original src/core/animation.js; cp /tmp/animation.test.pr6-7-original tests/animation.test.js' EXIT
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('tests/animation.test.js')
-          s=p.read_text()
-          old1="assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),1,'Marin’s reviewed receive/idle-ball track holds the ball close to her torso');"
-          new1="assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),6,'Marin’s Juniper visual lead-hand track reaches the outstretched hand');"
-          old2="assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.45,'Marin’s separate ball remains chest high');"
-          new2="assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.05,'Marin’s visual track positions the ball at the donor’s lead hand');"
-          assert s.count(old1)==1 and s.count(old2)==1
-          p.write_text(s.replace(old1,new1).replace(old2,new2))
-          PY
-          set +e
-          node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
-          experiment_status=$?
-          set -e
-          {
-            echo '### Temporary Marin ball-track compatibility probe'
-            echo
-            echo 'Only the in-run selected ball-track fallback for Marin was changed to the previous Echo source. Her PR7 **visual donor mapping remains Juniper**.'
-            echo
-            echo "- Focused test exit code: **$experiment_status**"
-            echo
-            echo 'This is a mechanical hypothesis only. It does not prove visual contact, donor-identity compatibility, or acceptance.'
-            echo 'The original file is restored automatically; no candidate source change is committed or pushed.'
-          } >> "$GITHUB_STEP_SUMMARY"
-          if [ "$experiment_status" -ne 0 ]; then
-            echo 'Hypothesis did not clear both tests.'
-          fi
-          # Review-only normal-loader visual evidence. Fetch the existing PR6
-          # capture harness into this *ephemeral* runner checkout.
-          git show 55a2ab104d6b108cc08132fddc01b32afb958e75:tools/capture-marin-ball-track-review.py |
-            sed "s@executable_path='/usr/bin/chromium'@executable_path='/usr/bin/google-chrome'@" \
-            > tools/capture-marin-ball-track-review-ci.py
-          # Freeze the browser's background simulation so screenshot pixels match
-          # the same sampled state/pose that the report records.
-          python - <<'PY'
-          from pathlib import Path
-          p=Path('tools/capture-marin-ball-track-review-ci.py')
-          s=p.read_text()
-          old="                page.on('pageerror', lambda exc: REPORT['errors'].append(str(exc)))"
-          new=old+"\n                page.add_init_script('window.requestAnimationFrame=()=>0')"
-          assert s.count(old)==1
-          s=s.replace(old,new)
-          old2="                        page.wait_for_timeout(100)"
-          new2="                        page.evaluate('window.jamverse.tick(0,[])')\n                        page.wait_for_timeout(50)"
-          assert s.count(old2)==1
-          s=s.replace(old2,new2)
-          p.write_text(s)
-          PY
-          python tools/capture-marin-ball-track-review-ci.py
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          path=Path('tools/generate-art/previews/marin-dusk-ball-track-review-05/report.json')
-          report=json.loads(path.read_text())
-          assert report['captureCount']==40, report['captureCount']
-          assert not report['errors'], report['errors']
-          names={(c['facing'],c['zoom']) for c in report['captures']}
-          assert names=={(d,z) for d in ['right','left'] for z in [100,120]},names
-          print('Recorded 40 actual registered-loader canvas captures across both facings and zooms')
-          print('NOTE: Not a visual acceptance or genuine action-by-action gameplay PASS')
-          PY
-
-      - name: Publish temporary normal-loader screenshots for independent review
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: marin-normal-loader-preview
-          path: tools/generate-art/previews/marin-dusk-ball-track-review-05/
-          if-no-files-found: warn
-          retention-days: 7
-
       - name: Scratch per-clip Marin track compatibility (preserve original individual tracks)
         if: success() || failure()
         shell: bash
         run: |
           set -euo pipefail
           cp src/core/animation.js /tmp/animation.js.pr6-7-original
-          trap 'cp /tmp/animation.js.pr6-7-original src/core/animation.js' EXIT
+          cp tests/animation.test.js /tmp/animation.test.pr6-7-original
+          trap 'cp /tmp/animation.js.pr6-7-original src/core/animation.js; cp /tmp/animation.test.pr6-7-original tests/animation.test.js' EXIT
           python - <<'PY'
           from pathlib import Path
           p=Path('src/core/animation.js')
@@ -409,12 +317,50 @@ jobs:
           }
           NODE
 
+          # Strict proposed test-migration in scratch only: visual identity has changed.
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tests/animation.test.js')
+          s=p.read_text()
+          old1="assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),1,'Marin’s reviewed receive/idle-ball track holds the ball close to her torso');"
+          new1="assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),6,'Marin’s Juniper visual lead-hand track reaches the outstretched hand');"
+          old2="assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.45,'Marin’s separate ball remains chest high');"
+          new2="assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.05,'Marin’s separate ball follows the new lead-hand pose');"
+          assert s.count(old1)==1 and s.count(old2)==1
+          p.write_text(s.replace(old1,new1).replace(old2,new2))
+          PY
           set +e
           node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
           test_rc=$?
           set -e
           echo "Scratch per-clip track two focused tests exit code: $test_rc"
 
+          # Build the unmodified PR6 review harness locally, then freeze background
+          # animation and explicitly await donor images before each screenshot.
+          git show 55a2ab104d6b108cc08132fddc01b32afb958e75:tools/capture-marin-ball-track-review.py |
+            sed "s@executable_path='/usr/bin/chromium'@executable_path='/usr/bin/google-chrome'@" > tools/capture-marin-ball-track-review-ci.py
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tools/capture-marin-ball-track-review-ci.py')
+          s=p.read_text()
+          old="                page.on('pageerror', lambda exc: REPORT['errors'].append(str(exc)))"
+          assert s.count(old)==1
+          s=s.replace(old,old+"\n                page.add_init_script('window.requestAnimationFrame=()=>0')")
+          old2="                        page.wait_for_timeout(100)"
+          assert s.count(old2)==1
+          s=s.replace(old2,"                        page.evaluate('window.jamverse.tick(0,[])')\n                        page.wait_for_timeout(50)")
+          ready="                page.wait_for_function(\"() => ['./public/assets/animation/juniper-vale-receive-right.webp','./public/assets/animation/juniper-vale-idle-ball-right.webp'].every(src => {const im=window.__productionSpriteImagesForReview?.get(src);return Boolean(im?.complete && im.naturalWidth)})\", timeout=120000, polling=100)"
+          lines=s.splitlines()
+          revised=[]
+          inserted=0
+          for line in lines:
+              if line.strip()=="for clip, ticks in FRAME_TICKS.items():":
+                  revised.append(ready)
+                  inserted+=1
+              revised.append(line)
+          assert inserted==1
+          p.write_text('\n'.join(revised)+'\n')
+          PY
           # The existing PR6 proof-harness writes to temporary runner storage.
           # Mark its saved files as an unaccepted scratch candidate, not accepted review.
           python - <<'PY'
@@ -423,11 +369,6 @@ jobs:
           s=p.read_text()
           s=s.replace("'registered-normal-loader'", "'scratch-unpublished-normal-loader'")
           # Ensure the first pose also has the actual registered donor atlas ready.
-          anchor="                for clip, ticks in FRAME_TICKS.items():"
-          wait="""                page.wait_for_function("() => ['./public/assets/animation/juniper-vale-receive-right.webp','./public/assets/animation/juniper-vale-idle-ball-right.webp'].every(src => {const im=window.__productionSpriteImagesForReview?.get(src);return Boolean(im?.complete && im.naturalWidth)})", timeout=120000, polling=100)
-                for clip, ticks in FRAME_TICKS.items():"""
-          assert s.count(anchor)==1
-          s=s.replace(anchor,wait)
           lines=s.splitlines()
           lines=["    REPORT['tracks']={'status':'scratch-only-unaccepted','note':'Actual sampled values are in captures; not legacy PR6 constants'}" if line.startswith("    REPORT['tracks']=") else line for line in lines]
           s='\n'.join(lines)+'\n'
