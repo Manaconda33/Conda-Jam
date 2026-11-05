@@ -298,6 +298,21 @@ jobs:
           if(!text.includes(old))throw new Error('Unexpected candidate file content');
           writeFileSync(file,text.replace(old,updated));
           NODE
+          # Proposed test expectation migration is runner-local, strict, and restored.
+          # It is NOT an accepted rewrite of historical PR6 evidence.
+          cp tests/animation.test.js /tmp/animation.test.pr6-7-original
+          trap 'cp /tmp/animation.js.pr6-7-original src/core/animation.js; cp /tmp/animation.test.pr6-7-original tests/animation.test.js' EXIT
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('tests/animation.test.js')
+          s=p.read_text()
+          old1="assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),1,'Marin’s reviewed receive/idle-ball track holds the ball close to her torso');"
+          new1="assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),6,'Marin’s Juniper visual lead-hand track reaches the outstretched hand');"
+          old2="assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.45,'Marin’s separate ball remains chest high');"
+          new2="assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.05,'Marin’s visual track positions the ball at the donor’s lead hand');"
+          assert s.count(old1)==1 and s.count(old2)==1
+          p.write_text(s.replace(old1,new1).replace(old2,new2))
+          PY
           set +e
           node --test --test-name-pattern='reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken' tests/animation.test.js tests/kraken-receive.integration.test.js
           experiment_status=$?
@@ -371,10 +386,14 @@ jobs:
           p=Path('src/core/animation.js')
           s=p.read_text()
           old="athleteBallTracks['marin-dusk']={'receive':{height:[1.3,1.35,1.7,1.75],forward:[4,4,2,1]},'idle-ball':{height:[1.45,1.45,1.45,1.45],forward:[1,1,1,1]}};"
-          new="""// Combined PR6/7 scratch calibration: preserve Marin's existing original idle/dribble tracks,
-          // inherit Juniper's registered receive tracking, and explicitly pin the previously
-          // accepted Marin-to-Kraken pass handoff instead of depending on a visual donor.
-          athleteBallTracks['marin-dusk'].pass={height:[1,1.05,1.2,1.6,1.3,1],forward:[5,4,13,19,16,8]};"""
+          new="""// Scratch candidate only. Keep individual Marin dribble and ball-ready track ownership.
+          // Calibrate receive and idle-ball to the actual PR7 Juniper donor pose geometry.
+          // Preserve the PR6 Echo-source pass profile at the historical tall/compact scale (1/.88).
+          Object.assign(athleteBallTracks['marin-dusk'],{
+            receive:{height:[1.0,2.0,1.7,1.75],forward:[9,10,2,1]},
+            'idle-ball':{height:[1.05,.75,.65,.9],forward:[6,7,7,6]},
+            pass:{height:[1,1.05,1.2,1.6,1.3,1].map(v=>v/.88),forward:[5,4,13,19,16,8].map(v=>v/.88)}
+          });"""
           assert s.count(old)==1, 'Unexpected original Marin track assignment'
           p.write_text(s.replace(old,new))
           PY
@@ -383,7 +402,7 @@ jobs:
           import {sampleBallForward,sampleBallHeight,athleteBallTrackSource} from './src/core/animation.js';
           import {supportingAnimationLibraries} from './src/content/supporting-animation-libraries.js';
           if(supportingAnimationLibraries['marin-dusk'].donorId!=='juniper-vale')throw new Error('Marin visual donor altered');
-          for(const [clip,expected] of [['idle-ball','marin-dusk'],['dribble','marin-dusk'],['dribble-run','marin-dusk'],['receive','juniper-vale'],['pass','marin-dusk']]){
+          for(const [clip,expected] of [['idle-ball','marin-dusk'],['dribble','marin-dusk'],['dribble-run','marin-dusk'],['receive','marin-dusk'],['pass','marin-dusk']]){
             const src=athleteBallTrackSource('marin-dusk',clip,'forward');
             console.log('Marin',clip,'forward source',src,'sample',sampleBallForward(clip,0,'marin-dusk'),'height',sampleBallHeight(clip,0,'marin-dusk'));
             if(src!==expected)throw new Error('unexpected Marin track source '+clip+': '+src+' expected '+expected);
@@ -403,6 +422,12 @@ jobs:
           p=Path('tools/capture-marin-ball-track-review-ci.py')
           s=p.read_text()
           s=s.replace("'registered-normal-loader'", "'scratch-unpublished-normal-loader'")
+          # Ensure the first pose also has the actual registered donor atlas ready.
+          anchor="                for clip, ticks in FRAME_TICKS.items():"
+          wait="""                page.wait_for_function("() => ['./public/assets/animation/juniper-vale-receive-right.webp','./public/assets/animation/juniper-vale-idle-ball-right.webp'].every(src => {const im=window.__productionSpriteImagesForReview?.get(src);return Boolean(im?.complete && im.naturalWidth)})", timeout=120000, polling=100)
+                for clip, ticks in FRAME_TICKS.items():"""
+          assert s.count(anchor)==1
+          s=s.replace(anchor,wait)
           lines=s.splitlines()
           lines=["    REPORT['tracks']={'status':'scratch-only-unaccepted','note':'Actual sampled values are in captures; not legacy PR6 constants'}" if line.startswith("    REPORT['tracks']=") else line for line in lines]
           s='\n'.join(lines)+'\n'
@@ -430,7 +455,7 @@ jobs:
             echo
             echo '- Visual donor: Juniper Vale (unchanged).'
             echo '- Restores individual Marin idle-ball/dribble/dribble-run tracks rather than replacing the whole athlete track registry.'
-            echo '- Uses Juniper receiving track and a Marin-specific copy of previously accepted pass handoff.'
+            echo '- Proposes pose-specific Marin/Juniper receiving and idle tracks plus historical pass handoff with tall/compact scaling.'
             echo "- Two focused gameplay test exit code: **$test_rc**"
             echo '- Captures use normal loader source and renderer but a **scratch-only local track candidate**; not independent acceptance.'
           } >> "$GITHUB_STEP_SUMMARY"
