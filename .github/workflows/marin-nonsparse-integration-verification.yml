@@ -1,0 +1,275 @@
+name: Marin non-sparse integration and provenance diagnostic
+
+on:
+  push:
+    branches:
+      - maintenance/pr6-pr7-reconciliation-probe
+    paths:
+      - '.github/workflows/marin-nonsparse-integration-verification.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  micro-calibration:
+    name: Full checkout tests and provenance, no production writes
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out the entire immutable main tree without sparse filtering
+        uses: actions/checkout@v4
+        with:
+          ref: 7e700c0eb392800794167007e076c51ac8357a77
+          fetch-depth: 0
+          filter: blob:none
+          lfs: false
+          # No sparse checkout: raw assets must be present for provenance.
+
+      - name: Assemble original pinned PR6/PR7 checkout in runner only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          p6=55a2ab104d6b108cc08132fddc01b32afb958e75
+          p7=97119d54fd24c442c15192a798cae1e8a279eb1d
+          git config user.name 'GitHub CI diagnostic'
+          git config user.email 'ci-local@example.invalid'
+          git fetch --no-tags --filter=blob:none origin \
+            '+refs/heads/codex/captain-animation-completion:refs/remotes/origin/codex/captain-animation-completion' \
+            '+refs/heads/codex/issue-7-seven-donor-supporting-reuse:refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse'
+          test "$(git rev-parse HEAD)" = 7e700c0eb392800794167007e076c51ac8357a77
+          test "$(git rev-parse refs/remotes/origin/codex/captain-animation-completion)" = "$p6"
+          test "$(git rev-parse refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse)" = "$p7"
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          const base='https://api.github.com/repos/Manaconda33/Conda-Jam';
+          const headers={Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'};
+          const response=await fetch(base+'/pulls/7/files?per_page=100',{headers});
+          if(!response.ok) throw Error('PR7 files unavailable: '+response.status);
+          const files=await response.json();
+          const selected=files.filter(f=>f.status!=='removed'&&/^(src\/|tools\/|tests\/|docs\/animation-production\/ASSET_)/.test(f.filename));
+          if(selected.length!==14) throw Error('Unexpected PR7 changed source count '+selected.length);
+          for(const file of selected) {
+            const response=await fetch(base+'/git/blobs/'+file.sha,{headers});
+            if(!response.ok)throw Error('Missing PR7 blob '+file.filename);
+            const blob=await response.json();
+            const bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+            const got=spawnSync('git',['hash-object','-w','--stdin'],{input:bytes,encoding:'utf8'});
+            if(got.status!==0||got.stdout.trim()!==file.sha)throw Error('PR7 blob hash mismatch '+file.filename);
+          }
+          console.log('Hydrated all 14 pinned PR7 source/audit blobs');
+          NODE
+          git merge --quiet --no-edit --no-ff "$p6"
+          set +e
+          git merge --no-commit --no-ff "$p7"
+          rc=$?
+          set -e
+          test "$rc" -eq 1
+          git diff --name-only --diff-filter=U | sort > /tmp/marin-unmerged.txt
+          expected=$(printf 'docs/animation-production/ASSET_AUDIT_LATEST.json\ndocs/animation-production/ASSET_AUDIT_LATEST.md\n')
+          test "$(cat /tmp/marin-unmerged.txt)" = "$expected"
+          git checkout --ours -- docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md
+          git add docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md
+          git commit -qm 'Ephemeral pinned integration only; generated audit excluded from acceptance'
+          grep -q 'library.maskProfile,key' src/render/animation-sprites.js
+          grep -q 'productionSpriteBaselineOffsetY' src/render/animation-sprites.js
+          echo 'Only two known generated-audit conflicts; no remote code was altered.'
+
+      - name: Install EXACT committed Marin candidate source in ephemeral combined checkout
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # PR #7 does not modify animation.js. Abort rather than clobber a new integration change.
+          test "$(git hash-object src/core/animation.js)" = d2540e37cc8cb635e3263a54f5794052fd8d6847
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync,readFileSync} from 'node:fs';
+          // This is the exact source blob committed to the separate review-only branch.
+          const sha='2b1413fce2582fd588f7df111bfb719e8605f046';
+          const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
+          const r=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
+          if(!r.ok)throw Error('Versioned candidate blob unavailable: '+r.status);
+          const blob=await r.json();
+          const bytes=Buffer.from(blob.content.replace(/\\s/g,''),'base64');
+          const verify=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(verify.status!==0||verify.stdout.trim()!==sha)throw Error('Committed candidate blob hash mismatch');
+          const source=bytes.toString('utf8');
+          if(!source.includes("donorId === 'juniper-vale'"))throw Error('Juniper-only guard missing');
+          if(!source.includes("'dribble-run':{forward:[8,9,10,9,8,9,11,10,9,8,8]}"))throw Error('Frame 3/4/5 calibration missing');
+          writeFileSync('src/core/animation.js',bytes);
+          console.log('Ephemeral integration now uses exact committed review-branch candidate source '+sha);
+          NODE
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          node --input-type=module <<'NODE'
+          import {sampleBallForward,sampleBallHeight,athleteBallTrackSource} from './src/core/animation.js';
+          import {supportingAnimationLibraries} from './src/content/supporting-animation-libraries.js';
+          if(supportingAnimationLibraries['marin-dusk'].donorId!=='juniper-vale')throw Error('Visual donor changed');
+          const actual=sampleBallForward('dribble-run',8,'marin-dusk');
+          const height=sampleBallHeight('dribble-run',8,'marin-dusk');
+          if(actual!==8)throw Error('Frame4 horizontal candidate not active: '+actual);
+          const ticks=[4,5,6,7,8,9,10,11,12];
+          const observed=ticks.map(t=>sampleBallForward('dribble-run',t,'marin-dusk'));
+          const expected=[10,9.5,9,8.5,8,8.5,9,10,11];
+          if(observed.some((v,i)=>Math.abs(v-expected[i])>1e-8))throw Error('Full bounce forward samples mismatch: '+observed);
+          if(Math.abs(height-.25)>1e-9)throw Error('Bounce height unexpectedly changed: '+height);
+          if(athleteBallTrackSource('marin-dusk','dribble-run','forward')!=='marin-dusk')throw Error('Own dribble track not retained');
+          for(const clip of ['idle-ball','dribble','dribble-run','receive','pass']){
+            if(athleteBallTrackSource('marin-dusk',clip,'forward')!=='marin-dusk')throw Error('Marin action not owned by Marin: '+clip);
+          }
+          console.log(JSON.stringify({visualDonor:'juniper-vale',clip:'dribble-run',tick:8,frame:4,originalControls:[11,12,12],previousScratchControls:[11,8,12],candidateControls:[9,8,9],bounceSamples:observed,bounceHeight:height}));
+          NODE
+
+      - name: Install tests and ImageMagick decoding tools
+        run: |
+          npm ci
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq imagemagick
+          command -v identify
+
+      - name: Verify source-matched regression migration (runner local, no source changes)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # The PR6-original test is retained on its protected branch. For this
+          # combined local checkout, use exact source-versioned test corrections.
+          test "$(git hash-object tests/animation.test.js)" = e09490c73e6f0facdb8f65253469c9f22de5f27b
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync} from 'node:fs';
+          const sha='9456ffdcdf73f397c15a520b48f75a6cc91ca569';
+          const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
+          const r=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
+          if(!r.ok)throw Error('Saved regression test unavailable: '+r.status);
+          const blob=await r.json(),bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+          const verify=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(verify.status!==0||verify.stdout.trim()!==sha)throw Error('Versioned regression test hash mismatch');
+          const source=bytes.toString('utf8');
+          if(!source.includes("const expectedForward=usesJuniper?6:1"))throw Error('Legacy donor expectation not retained');
+          if(!source.includes("const expectedHeight=usesJuniper?1.05:1.45"))throw Error('Legacy ball height expectation not retained');
+          if(!source.includes("Marin ball-track migration preserves the old donor"))throw Error('Calibration test missing');
+          if(!source.includes("const expectedEchoHeight=[.85,.70,.55,.40,.25,.125,0,.125,.25]"))throw Error("Echo scaled-height assertion missing");
+          writeFileSync('tests/animation.test.js',bytes);
+          console.log('Pinned migration test source installed in ephemeral checkout');
+          NODE
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+          node --test --test-name-pattern="Marin ball-track migration|reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken" \
+            tests/animation.test.js tests/kraken-receive.integration.test.js
+          echo '### Committed Marin regression migration (review-only)' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Two historical donor-specific idle-ball assertions remain strict, with conditionally correct baselines.' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Marin authored 9/8/9 bounce and Kraken real pass/catch tests executed against combined saved source.' >> "$GITHUB_STEP_SUMMARY"
+          echo '- Original PR6 test files, PR7, main, and production artifacts remain untouched.' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Verify exact pinned source and full working tree materialization
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git config --local --get core.sparseCheckout || true)" != true
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+          test -f public/assets/animation/manifest.json
+          test -f public/assets/animation/juniper-vale-dribble-run-right.webp
+          test -f public/assets/animation/kraken-receive-right.webp
+          mkdir -p ci-diagnostic
+          {
+            echo "non_sparse=true"
+            echo "main=7e700c0eb392800794167007e076c51ac8357a77"
+            echo "pr6=55a2ab104d6b108cc08132fddc01b32afb958e75"
+            echo "pr7=97119d54fd24c442c15192a798cae1e8a279eb1d"
+            echo "source_blob=2b1413fce2582fd588f7df111bfb719e8605f046"
+            echo "tests_blob=9456ffdcdf73f397c15a520b48f75a6cc91ca569"
+            printf "tracked_files="; git ls-files | wc -l
+            printf "animation_files="; find public/assets/animation -type f | wc -l
+            printf "animation_bytes="; du -sb public/assets/animation | cut -f1
+          } | tee ci-diagnostic/provenance.txt
+
+      - name: Execute full test suite, lint, content, league and build
+        shell: bash
+        run: |
+          set -u
+          for script in test lint validate:content simulate:league build; do
+            filepart="$(echo "$script" | tr : -)"
+            echo "== Executing npm run $script (or npm test) =="
+            if [ "$script" = test ]; then
+              timeout 540s npm test >"ci-diagnostic/$filepart.log" 2>&1
+            else
+              timeout 240s npm run "$script" >"ci-diagnostic/$filepart.log" 2>&1
+            fi
+            status=$?
+            echo "$status" >"ci-diagnostic/$filepart.exit"
+            echo "$script exit code: $status"
+            tail -n 35 "ci-diagnostic/$filepart.log"
+          done
+          exit 0
+
+      - name: Recompute complete animation provenance and asset report without accepting gaps
+        shell: bash
+        run: |
+          set +e
+          timeout 540s node tools/audit-animation-assets.mjs --report-only --json ci-diagnostic/audit.json --markdown ci-diagnostic/audit.md > ci-diagnostic/audit.log 2>&1
+          status=$?
+          set -e
+          echo "$status" >ci-diagnostic/audit.exit
+          echo "Audit generator exit: $status"
+          tail -n 90 ci-diagnostic/audit.log
+
+      - name: Preserve independent result statuses and an honest audit classification
+        if: always()
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const read=n=>{try{return fs.readFileSync('ci-diagnostic/'+n,'utf8').trim()}catch{return null}};
+          const commands=['test','lint','validate-content','simulate-league','build','audit'];
+          const exits=Object.fromEntries(commands.map(key=>[key,read(key+'.exit')]));
+          let summary={checkout:'non-sparse',exits,sourceBlob:'2b1413fce2582fd588f7df111bfb719e8605f046',testBlob:'9456ffdcdf73f397c15a520b48f75a6cc91ca569'};
+          if(read('audit.json')){
+            const obj=JSON.parse(read('audit.json'));
+            summary.audit={
+              ok:obj.ok,athletes:obj.athletes,inspectedClips:obj.inspectedClips,
+              uniqueSourceLibraries:obj.uniqueSourceLibraries,
+              uniqueSourceAtlases:obj.uniqueSourceAtlases,
+              uniqueSourceDrawings:obj.uniqueSourceDrawings,
+              missingClipCount:obj.missingClipCount,targetShortfalls:obj.targetShortfalls?.length,
+              errorCount:obj.errors?.length,
+              findings:Object.fromEntries([...new Set(obj.errors.map(e=>e.code))].map(k=>[k,obj.errors.filter(e=>e.code===k).length]))
+            };
+          }else summary.audit={error:'not generated'};
+          summary.checksGreen=commands.every(k=>exits[k]==='0')&&!summary.audit.error;
+          fs.mkdirSync('ci-diagnostic',{recursive:true});
+          fs.writeFileSync('ci-diagnostic/summary.json',JSON.stringify(summary,null,2)+'\n');
+          let lines=['## Full non-sparse integration diagnostic','','| Command | Exit |','| --- | --- |'];
+          for(const name of commands)lines.push('| '+name+' | '+exits[name]+' |');
+          lines.push('','### Regenerated source provenance','~~~json',JSON.stringify(summary.audit,null,2),'~~~','','A completed audit can still have unaccepted inherited findings; audit ok=false is not a merged or accepted artifact state.');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
+          console.log(JSON.stringify(summary,null,2));
+          NODE
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+
+      - name: Upload logs, comprehensive audit and command summary
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marin-nonsparse-test-provenance-review
+          path: ci-diagnostic/
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Enforce command failures, audit acceptance remains a separate gate
+        if: always()
+        shell: bash
+        run: |
+          test -f ci-diagnostic/summary.json
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const s=JSON.parse(fs.readFileSync('ci-diagnostic/summary.json','utf8'));
+          if(!s.checksGreen)process.exit(1);
+          console.log('All non-sparse commands ran to completion and passed.');
+          console.log('Asset audit acceptance status:',s.audit.ok);
+          NODE
