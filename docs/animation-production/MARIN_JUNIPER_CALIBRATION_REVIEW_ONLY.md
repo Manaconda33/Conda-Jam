@@ -2,6 +2,8 @@
 
 **Status: REVIEW ONLY. This is a source-code preservation checkpoint, NOT an accepted production merge.**
 
+**Latest checkpoint (2026-11-05): Both the original PR #6 Echo-donor configuration and the combined PR #6/#7 Juniper-donor configuration pass the updated strict Marin regression tests. The combined Juniper run additionally passes the full-bounce and 16-scenario live-transition harness. Independent art acceptance and full non-sparse integration validation are still pending.**
+
 ## Why this exists
 
 GitHub [draft diagnostic PR #13](https://github.com/Manaconda33/Conda-Jam/pull/13) repeatedly demonstrated that combining published PR #6's captain animation source with PR #7's supporting-player donor mapping moves Marin Dusk's *visual* animation to Juniper Vale while inherited ball-track selection does not adequately match Juniper hand geometry. Earlier work existed only as ephemeral GitHub Actions runner-local `src/core/animation.js` edits. This branch preserves the measured candidate in **real version-controlled game source**, without changing original PR #6, PR #7, or `main`.
@@ -55,7 +57,7 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 
 ## Regression reconciliation and native action-driven validation — 2026-11-05
 
-**Saved tests:** PR #16 now also includes `tests/animation.test.js` (Git blob `ec15263acd89508ecc4590671cbbd516f3fc3ee6`). The historical Marin idle-ball expectations were **not simply weakened or deleted**: the test strictly asserts `forward=1, height=1.45` for the original non-Juniper baseline and `forward=6, height=1.05` when the authoritative donor mapping selects Juniper. A dedicated test verifies the complete 9-tick 9/8/9 forward path and unchanged vertical bounce. The combined PR #6 + #7 CI run exercised the **Juniper** branch of these strict expectations; the **legacy Echo** branch is preserved in code but still needs its own isolated execution with the newly saved tests.
+**Saved tests:** PR #16 includes `tests/animation.test.js` (current Git blob `9456ffdcdf73f397c15a520b48f75a6cc91ca569`; earlier test blob `ec15263acd89508ecc4590671cbbd516f3fc3ee6` is preserved in Git history). The historical Marin idle-ball expectations were **not simply weakened or deleted**: the test strictly asserts `forward=1, height=1.45` for the original non-Juniper baseline and `forward=6, height=1.05` when the authoritative donor mapping selects Juniper. The dedicated migration test strictly checks the 9-tick Juniper 9/8/9 forward path and unchanged canonical bounce; for Echo it strictly checks the **published PR #6 donor track on both axes multiplied by the original 1/.88 visual-size scale**. The original Echo baseline and Juniper candidate have both been separately executed and passed with the current saved tests.
 
 **Exact saved source and saved-test combined validation:**
 
@@ -69,13 +71,25 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 
 **This is a passing *review-only compatible source-and-tests candidate*.** The original unmodified combined branch's two historical assertion failures remain intentionally visible in PR #13's original diagnostic job. Do not misread that expected-red baseline job as a failure of the corrected isolated candidate, nor imply the corrected code/test changes have already been integrated into PR #6 or #7.
 
-**Still required:** run the migrated strict tests against the PR #6-only Echo donor as a separate backward-compatibility check; independent visual/pixel-contact signoff on all relevant poses and transitions; non-sparse complete regression suite and archival provenance checks; combined strict audit/status regeneration; and owner review/merge authorization. The temporary screenshots and this mechanical check do not grant production acceptance.
+**Still required:** independent visual/pixel-contact signoff on relevant poses and transitions; non-sparse complete regression suite and archival provenance checks; combined strict audit/status regeneration; and owner review/merge authorization. The temporary screenshots and this mechanical check do not grant production acceptance.
+
+## Echo original-donor backward compatibility — verified, 2026-11-05
+
+- Original source remains **PR #6 commit `55a2ab104d6b108cc08132fddc01b32afb958e75`** and animation source blob `d2540e37cc8cb635e3263a54f5794052fd8d6847`. Its original Echo Catwalk donor mapping and Marin idle-ball expectations (`forward=1`, `height=1.45`) were verified before substituting the saved PR #16 test *only inside the temporary runner*.
+- [Initial fail, run 42101493954](https://github.com/Manaconda33/Conda-Jam/actions/runs/42101493954): two legacy assertions and the actual Marin-to-Kraken pass/catch test passed; the new dedicated migration test incorrectly assumed Echo's bounce heights were unscaled Juniper heights. The discrepancy was in the newly authored **test expectation**, not in a demonstrated production regression.
+- **Root cause established from the unchanged PR #6 runtime:** the original Echo donor is compact, and Marin's athlete-specific `ballTrackScale` is `1/.88`. Echo's authentic authored forward samples across ticks 4–12 are `[11,11.5,12,12.5,13,13,13,12.5,12]` before scaling; its authored height samples are `[.85,.70,.55,.40,.25,.125,0,.125,.25]` before scaling. The corrected test checks each scaled value within `1e-12`, checks the exact scale and donor identity, and separately requires floor contact at tick 10.
+- The improved regression test was committed as immutable Git blob **`9456ffdcdf73f397c15a520b48f75a6cc91ca569`** on this review branch; no game source was altered to satisfy the test.
+- [Corrected original Echo run 42101692226](https://github.com/Manaconda33/Conda-Jam/actions/runs/42101692226) **PASSED**: 3/3 strict focused tests, zero failures, original PR #6 source and visual donor untouched.
+- [Retested combined Juniper run 42101770297](https://github.com/Manaconda33/Conda-Jam/actions/runs/42101770297) **PASSED** with the *same* saved source and corrected test blobs: 3/3 strict focused regressions, 4/4 complete 9-tick bounce scenarios (36 captures), and 16/16 live idle/normal-dribble/turbo/pass-catch scenarios (136 screenshots), with four genuine Kraken catches, no reported browser errors.
+- [36-image full bounce artifact](https://github.com/Manaconda33/Conda-Jam/actions/runs/42101770297/artifacts/13448803495) and [136-image live transition artifact](https://github.com/Manaconda33/Conda-Jam/actions/runs/42101770297/artifacts/13449288211) are subject to GitHub Actions retention. This Markdown record and the exact source/test blobs are durable in the repository.
+
+**Conclusion of this small pass:** PR #6 Echo backward compatibility is verified, and the stricter test is also green on Juniper. Neither passing result constitutes independent visual art signoff, a complete non-sparse integration audit, or merge authorization.
 
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
-2. Exercise live `idle-ball`, `dribble`, `dribble-run`, pass, receive, and genuine Marin-to-Kraken handoff transitions; verify timing, mirroring and ball ownership.
-3. Resolve the two original combined-source regression assertions **without silently weakening legitimate tests**. The previous scratch `idle-ball` expectation replacements are not approved production tests.
+2. **Mechanically verified:** idle-ball, normal dribble, turbo dribble, and genuine Marin-to-Kraken live pass/catch completed the 16-scenario native-gameplay matrix in both facings/zooms. **Still open:** independent visual contact acceptance of relevant poses/transitions and broader integration.
+3. **Scoped regression migration completed:** historical strict Marin values retained for PR #6 Echo; the Juniper-specific authored values are asserted separately; both saved-source variants pass focused regression checks. **Still open:** full regression suite, independent review, and integration approval. The original unmigrated combined-baseline check remains red by design.
 4. Run the full *non-sparse* test suite, source/provenance validation and complete audit as appropriate; a prior sparse runner omitted large raw assets.
 5. Reconcile the full integration of PR #6, PR #7 and their dependent PR stack, and produce a separately authorized review-only integration branch with independent QA.
 
