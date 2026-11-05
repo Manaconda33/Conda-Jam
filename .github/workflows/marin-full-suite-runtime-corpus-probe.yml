@@ -1,4 +1,4 @@
-name: Marin full test suite on pinned runtime asset corpus (diagnostic only)
+name: Marin complete suite with verified legacy fixture recovery (diagnostic only)
 
 on:
   push:
@@ -216,6 +216,72 @@ jobs:
             tail -n 32 "ci-diagnostic/$name.log"
           done
 
+      - name: Recover only hash-verified missing historical test fixtures from pinned PR6
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import {spawnSync} from 'node:child_process';
+          const log=fs.readFileSync('ci-diagnostic/test.log','utf8');
+          const absolutes=[...log.matchAll(/Error: ENOENT: no such file or directory, open '([^']+)'/g)].map(m=>m[1]);
+          const names=[...new Set(absolutes.map(f=>path.relative(process.cwd(),f)))].sort();
+          const root='https://api.github.com/repos/Manaconda33/Conda-Jam';
+          const pin='55a2ab104d6b108cc08132fddc01b32afb958e75';
+          const headers={Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'};
+          const results=[];
+          let index=0;
+          async function downloadOne(rel){
+            if(rel.startsWith('..')||path.isAbsolute(rel)||
+              !(rel.startsWith('tools/generate-art/')||rel==='docs/LOSSLESS_ATLAS_PROVENANCE.json'))
+              return {path:rel,ok:false,why:'File path not in strict allowlist'};
+            const encoded=rel.split('/').map(encodeURIComponent).join('/');
+            const url=root+'/contents/'+encoded+'?ref='+pin;
+            try{
+              const response=await fetch(url,{headers});
+              if(!response.ok)return {path:rel,ok:false,why:'Pinned PR6 path metadata HTTP '+response.status};
+              const meta=await response.json();
+              if(meta.type!=='file'||!meta.sha||meta.size>65_000_000)return {path:rel,ok:false,why:'Invalid or oversized pinned file'};
+              const blobResponse=await fetch(root+'/git/blobs/'+meta.sha,{headers});
+              if(!blobResponse.ok)return {path:rel,ok:false,why:'Pinned blob unavailable HTTP '+blobResponse.status,sha:meta.sha};
+              const blob=await blobResponse.json();
+              const bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+              if(bytes.length!==meta.size)return {path:rel,ok:false,why:'Fixture size mismatch',sha:meta.sha};
+              const verified=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+              if(verified.status!==0||verified.stdout.trim()!==meta.sha)
+                return {path:rel,ok:false,why:'Fixture Git hash mismatch',sha:meta.sha};
+              fs.mkdirSync(path.dirname(rel),{recursive:true});
+              fs.writeFileSync(rel,bytes);
+              return {path:rel,ok:true,bytes:bytes.length,sha:meta.sha};
+            }catch(e){return {path:rel,ok:false,why:String(e)}}
+          }
+          await Promise.all(Array.from({length:4},async()=>{
+            while(index<names.length)results.push(await downloadOne(names[index++]));
+          }));
+          results.sort((a,b)=>a.path.localeCompare(b.path));
+          const summary={source:'exact pinned PR6 GitHub REST metadata + verified Git blobs',
+            initialMissingFixturePaths:names.length,hydrated:results.filter(r=>r.ok).length,
+            unavailable:results.filter(r=>!r.ok),files:results};
+          fs.writeFileSync('ci-diagnostic/fixture-hydration.json',JSON.stringify(summary,null,2)+'\n');
+          console.log(JSON.stringify({initialMissingFixturePaths:names.length,hydrated:summary.hydrated,unavailable:summary.unavailable},null,2));
+          NODE
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+
+      - name: Re-run complete npm test against exact pinned recovered fixtures
+        shell: bash
+        run: |
+          set +e
+          timeout 540s npm test >ci-diagnostic/test-hydrated.log 2>&1
+          code=$?
+          set -e
+          echo "$code" > ci-diagnostic/test-hydrated.exit
+          echo "Hydrated fixture npm test exit $code"
+          tail -n 60 ci-diagnostic/test-hydrated.log
+
       - name: Regenerate report-only asset source and provenance audit
         shell: bash
         run: |
@@ -234,7 +300,7 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           const read=n=>{try{return fs.readFileSync('ci-diagnostic/'+n,'utf8').trim()}catch{return null}};
-          const keys=['test','lint','validate-content','simulate-league','build','audit'];
+          const keys=['test','test-hydrated','lint','validate-content','simulate-league','build','audit'];
           const exits=Object.fromEntries(keys.map(k=>[k,read(k+'.exit')]));
           const output={scope:'sparse-source-tests-complete-runtime-public-assets',exits,sourceBlob:'2b1413fce2582fd588f7df111bfb719e8605f046',testBlob:'9456ffdcdf73f397c15a520b48f75a6cc91ca569'};
           if(read('audit.json')){
@@ -246,7 +312,9 @@ jobs:
               findings:Object.fromEntries([...new Set(a.errors.map(e=>e.code))].map(k=>[k,a.errors.filter(e=>e.code===k).length]))
             };
           }else output.assetAudit={error:'No completed audit'};
-          output.commandChecksPassed=keys.every(k=>exits[k]==='0')&&!output.assetAudit.error;
+          output.commandChecksPassed=keys.filter(k=>k!=='test').every(k=>exits[k]==='0')&&!output.assetAudit.error;
+          output.unhydratedBaselineTestExit=exits.test;
+          output.fixtureHydration=read('fixture-hydration.json')?JSON.parse(read('fixture-hydration.json')):{error:'Not completed'};
           fs.mkdirSync('ci-diagnostic',{recursive:true});
           fs.writeFileSync('ci-diagnostic/summary.json',JSON.stringify(output,null,2)+'\n');
           let md='## Broad runtime source and asset verification (NOT non-sparse)\n\n';
@@ -276,6 +344,6 @@ jobs:
           import fs from 'node:fs';
           const s=JSON.parse(fs.readFileSync('ci-diagnostic/summary.json','utf8'));
           if(!s.commandChecksPassed)process.exit(1);
-          console.log('All command checks passed in the scoped runtime corpus; full non-sparse checkout remains unverified.');
+          console.log('All scoped command checks passed after exact pinned fixture hydration; original incomplete baseline test still recorded. Full non-sparse checkout remains unverified.');
           console.log('Asset audit:',s.assetAudit.ok?'ok':'INCOMPLETE; preserve original findings');
           NODE
