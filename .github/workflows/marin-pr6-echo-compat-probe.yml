@@ -64,7 +64,7 @@ jobs:
           node --input-type=module <<'NODE'
           import {spawnSync} from 'node:child_process';
           import {writeFileSync} from 'node:fs';
-          const sha='ec15263acd89508ecc4590671cbbd516f3fc3ee6';
+          const sha='9456ffdcdf73f397c15a520b48f75a6cc91ca569';
           const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
           const res=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
           if(!res.ok)throw Error('Saved regression test Git blob unavailable '+res.status);
@@ -75,10 +75,12 @@ jobs:
           if(!test.includes("const expectedForward=usesJuniper?6:1"))throw Error('Legacy strict forward expectation missing');
           if(!test.includes("const expectedHeight=usesJuniper?1.05:1.45"))throw Error('Legacy strict height expectation missing');
           if(!test.includes("Marin ball-track migration preserves the old donor"))throw Error('Dedicated legacy track check missing');
+          if(!test.includes("const expectedEchoForward=[11,11.5,12,12.5,13,13,13,12.5,12]"))throw Error('Exact Echo baseline forward checks missing');
+          if(!test.includes("const expectedEchoHeight=[.85,.70,.55,.40,.25,.125,0,.125,.25]"))throw Error('Exact Echo baseline vertical checks missing');
           writeFileSync('tests/animation.test.js',bytes);
           console.log('Only test source in this disposable checkout updated, saved SHA: '+sha);
           NODE
-          test "$(git hash-object tests/animation.test.js)" = ec15263acd89508ecc4590671cbbd516f3fc3ee6
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
           test "$(git hash-object src/core/animation.js)" = d2540e37cc8cb635e3263a54f5794052fd8d6847
 
       - name: Run strict migrated regression and real Marin to Kraken passing tests
