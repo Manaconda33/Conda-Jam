@@ -36,7 +36,7 @@ A subsequent workflow change retrieves only paths reported as `ENOENT` under `to
 - [Run 42110543688](https://github.com/Manaconda33/Conda-Jam/actions/runs/42110543688): first **58/58**, second **21/21**, total **79 hash-verified missing historical fixture files** recovered; standard `npm test` then **571 passed / 587 total**, **16 missing-file failures**. No assertions failed in this run. [Complete logs, two recovery manifests, full generated audit artifact 13453931269](https://github.com/Manaconda33/Conda-Jam/actions/runs/42110543688/artifacts/13453931269).
 - All 79 recovered files existed at the published PR #6 commit. Recovery followed newly exposed chained dependencies, explaining why test registration/counts increased from 570 to 587 as additional fixture modules could initialize. **Do not interpret 571/587 as 98% of all eventual tests if still more historical modules could be enabled by additional fixtures.**
 
-### Sixteen remaining required pinned fixture paths
+### Historical checkpoint: sixteen missing paths after wave two (all recovered in wave three)
 
 ```text
 tools/generate-art/previews/j126-briar-foxglove-pass-overhead/native-120/report.json
@@ -59,9 +59,36 @@ tools/generate-art/sources/j71-reed-ashcroft-dunk-scythe-attempt1-rejected-muddl
 
 Archive identity checks for the latest diagnostic: artifact ZIP SHA-256 `8830e83a4e971d8d245a8e3c9eef433840fe00c632e57bc1423f2b5189dd8f81`; third full-test log SHA-256 `c2ad0d9d51eb3df56d2aeb490125e9224bcf072b6981711e36772de2b7040907`; report-only audit JSON SHA-256 `4af1dc9d571eab73ddbed0bbde5a6516ac20dd551180c16191414c76a28ad395`.
 
+## Third bounded fixture recovery: original sixteen resolved, eleven newly exposed
+
+The next diagnostic commit **`f2aec04295e6e3f50ba1c4a4a9364f88081c72ba`** adds a third narrowly scoped fixture-recovery step to the isolated workflow on PR #13. It uses the same pinned PR #6 metadata, permits only `tools/generate-art/` historical artifacts and the specifically authorized provenance document, downloads the exact blob, and verifies each byte stream with `git hash-object` **before writing to temporary runner storage**. Game source and tests remain unchanged.
+
+- [Third recovery Actions run 42114465183](https://github.com/Manaconda33/Conda-Jam/actions/runs/42114465183): **16/16** new missing fixtures recovered, **0 unavailable**. Total recovered across three passes: **58 + 21 + 16 = 95 distinct observed dependencies**.
+- Final standard `npm test` on the scoped production-runtime-asset checkout: **576 passed, 11 failed, 587 executed, zero skipped/cancelled**. All eleven remaining failures were `ENOENT` for additional archived fixture paths. No assertion failures were identified in the last captured log. The full suite **remains red**, and its total number of runnable tests could still increase as historical source files become accessible.
+- [Versioned CI artifact 13456175254](https://github.com/Manaconda33/Conda-Jam/actions/runs/42114465183/artifacts/13456175254) contains all four full-test outputs, three per-wave recovery manifests, exact source/test pins, and the regenerated pixel-audit JSON. Artifact ZIP SHA-256: `0f0264f2df8e44f6428f6c32884722c3a922c64876cf761da75024fe48b53474`. Final test log SHA-256: `8c4c65ded1507b1881620bb2412fbc16743932dd1b2b3f1a17104cfc556efccb`; third hydration manifest SHA-256: `2eecbb16832c563a8c34d5f915e424e6fdef6294d752c32539190828309555ea`.
+- Syntax lint, content verification, league simulation, and isolated build all returned **0**. Report-only production pixel-audit execution also returned **0**, but audit status remains `ok=false` with **706 missing clips and 40 non-verbatim prompts**, unchanged. Audit JSON SHA-256 from this run: `24305f97abfddb5a2130ab5553238e565f2a741b5ad2d848aac1abc1e0ce6859`.
+
+### Eleven currently missing historical test fixtures
+
+```text
+tools/generate-art/previews/marco-vellum-pass-behind/native-120/report.json
+tools/generate-art/previews/marco-vellum-pass-overhead/native-120/report.json
+tools/generate-art/previews/marco-vellum-pass/native-120/report.json
+tools/generate-art/previews/marco-vellum-receive/native-120/report.json
+tools/generate-art/previews/marco-vellum-shoot/native-120/report.json
+tools/generate-art/sources/marco-vellum-receive-attempt6-clean-candidate.png
+tools/generate-art/j71-reed-ashcroft-dunk-scythe-retry-prompt.md
+tools/generate-art/previews/piper-quickstep-pass-behind/native-review.json
+tools/generate-art/previews/piper-quickstep-pass-overhead/native-review.json
+tools/generate-art/previews/piper-quickstep-pass/native-review.json
+tools/generate-art/previews/piper-quickstep-receive/native-review.json
+```
+
+The eleven paths include both absolute working-directory paths and project-relative file references in the original Node.js `ENOENT` logs. The next bounded pass should restore and hash-verify exactly these paths from pinned PR #6, then rerun tests. **No fixture should be manufactured from a missing image or report.**
+
 ## Source-pixel and provenance audit, run-to-run stable
 
-Both diagnostics regenerated audit from the entire available `public/assets/animation` production sprite corpus:
+The scoped diagnostics regenerated audit from the entire available `public/assets/animation` production sprite corpus:
 
 | Metric | Regenerated value |
 |---|---:|
@@ -80,7 +107,7 @@ A zero command exit from `--report-only` means the audit **executed**, not that 
 ## Disposition and bounded next action
 
 - **Completed and recorded:** Core Marin Echo and Juniper strict regressions, 9/8/9 full bounce, live transitions, both-facing visual triage, actual normal-dribble floor bounce, four catch mechanics, normal build, lint, roster and league checks. These prior scoped validations remain green.
-- **Still RED:** Overall repository `npm test` on scoped checkout, with **16 missing historical fixture dependencies** after two recovery waves. Execute a bounded additional fixture recovery and rerun, preserving the baseline failure log; never weaken assertions, synthesize image content, or skip unavailable test cases.
+- **Still RED:** Overall repository `npm test` on scoped checkout, with **11 missing historical fixture dependencies** after three recovery waves. Execute a bounded fourth fixture recovery and rerun, preserving the baseline failure log; never weaken assertions, synthesize image content, or skip unavailable test cases.
 - **Still BLOCKED:** True full non-sparse checkout until the missing historic Git object can be retrieved/repaired through a legitimate repository maintenance path.
 - **Still INCOMPLETE:** strict full source-provenance audit with 706 missing clip and 40 prompt findings; independent pixel-level artwork contact review; combined integration/provenance acceptance.
 - **Absolutely no merges or deployments** until source/provenance, tests and independent acceptance are reconciled and explicit user authorization is given. Draft PR #13 remains diagnostic; draft PR #16 remains code preservation. Original PR #6/#7 and unpublished Myth workspace remain unchanged.
