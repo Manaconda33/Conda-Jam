@@ -43,6 +43,14 @@ The final two scenarios used the pinned PR6 + PR7 **runner-local combined checko
 - Relative vertical ball heights **[.85,.70,.55,.40,.25,.125,0,.125,.25]**; court contact preserved.
 - The visual review found tighter horizontal placement at frames 3 and 4, and a closer low frame 5 at the final 9/8/9 values, with the expected vertically separated bounce. **Pixel-landmark contact was not independently certified.**
 
+### Exact versioned-source validation (after this branch was committed)
+
+- **Draft source PR:** [PR #16](https://github.com/Manaconda33/Conda-Jam/pull/16), based on PR #6 head. The source file's verified Git blob is `2b1413fce2582fd588f7df111bfb719e8605f046`.
+- **Recheck:** [GitHub Actions run 42099107812](https://github.com/Manaconda33/Conda-Jam/actions/runs/42099107812) on diagnostic PR #13. This separate workflow retrieved the *exact saved source blob* from GitHub, verified its SHA-1 with `git hash-object`, installed it only into a runner-local PR #6 + PR #7 combined checkout, and repeated the full nine-tick bounce test.
+- **Result: PASS**, 4 facing/zoom combinations × 9 simulation steps = **36 screenshots**, registered Juniper donor and Marin ball ownership retained, expected horizontal and vertical trajectories reproduced, no reported gameplay/browser errors.
+- **Saved visual evidence:** [artifact 13447929263](https://github.com/Manaconda33/Conda-Jam/actions/runs/42099107812/artifacts/13447929263) (36 PNGs plus `report.json`; temporary artifact retention).
+- **Important limitation:** Only the scoped full-bounce game-driven harness passed. The historical original combined-checkout regressions, whole-play pass/catch/normal dribble transitions, full nonsparse test corpus, independent pixel-contact acceptance, and merge gates remain unresolved. Do not present this as a release pass.
+
 These GitHub Actions artifacts have finite retention. The exact control values, simulation sample arrays, baseline IDs, source code and links above remain version-controlled even after artifacts expire.
 
 ## Remaining gates, intentionally not waived
