@@ -1,4 +1,4 @@
-name: Marin exact 118-fixture full test suite (diagnostic only)
+name: Marin exact 119-fixture full test suite (diagnostic only)
 
 on:
   push:
@@ -209,7 +209,7 @@ jobs:
           du -sb public/assets/animation | cut -f1 >> ci-diagnostic/provenance.txt
           cat ci-diagnostic/provenance.txt
 
-      - name: Restore complete 118-fixture historical corpus from pinned PR6 by Git blob hash
+      - name: Restore complete 119-fixture historical corpus from pinned PR6 by Git blob hash
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -224,7 +224,8 @@ jobs:
           const compressed='H4sIAAAAAAAC/72aS3OjOBDH7/tdFB42dnJMTeWWmpkab+11ShYdIwMSKwkz/vYrMPiBwSCE95SD6V//1erWo5WQE+l8/thsPj82m9/vf3++b37//PXjn4/v79+/fbzsJWd/Kc4T6eyAgcAKEBbKARJxRLAqcBIjkTNFU0BbnCRICUxi2Wu4X3tIAIQIy4gI/qVQmLMYSXJUEehflDiiTPA0Uy9p2A3wWwDtFY6I8wxlvAAxZL7oNRdwACHHqXhdoH3OaKb93QMemqZYEI4OkCR5ijIsJcJKgf5+iUgCmOVZb/DuTbcQURY2BL/0fACGGQFjyAol+MhzJQ0stTMRAQ4vQ5gkoMFMkGBqQkmcZ4GZkQAC9ADNIFeW1qYhqgFLQ7cGRXljKCPOVaN23eQkOvgG5p47LJb/oaCXkKzQdsh/045ohijToVFcHHvtGD9gJBVVJDIaY1bV6r+5TgCpILupPB9BSNWg5E7EbQV60yDtOrIR1GaNN29l6tLYfwvwwFCvlBQK6ew9V7sBXmddNYc6KVhIQ/2tU4OQt3J2OIVMC3IEsBCEXsF1HYU5UZQzRHgu1PEt0D9mXKgxfj2v8quJ+WXh7vPve06da04CX+p/cCPoLjLx46/QVlAs0Bf/s0t0Dtwmg8OwKmfGc90nQH0j6LoTeqqjiTpHIc1UvraRdXJPVDiIM1UXC8r1EBPemUnuWtN2VFdlWSnnpDJ3MC5xXW9Wd093c71y9zoL6rmZ5KA6Z/SzX23YuYy6mP5MwRGw5bkOTIeLhXMakbuazddpx+gNlG8RKC0PJ09LpoXfLumqGK9LcNJSYcA1WjMWiza3is99qE31juea6V3eLeo68SdqfMwy0xW0WV/6+HldI9MkjsYaqI0FjoHd3ZBrqPumT9Mi1TWScKzPVMZFcIdv9onGQTCPg6pFsFi5T+GSJC/vEg3anxEd8nybXKKxnBF9O5GvM5Lbczin6rrN84xYK57iCBfxU3Kk0AeFlOpL5nzwcoMikMC2/NG7pLbnSMIFZbty42KSlvcbm43q5OmSM15wFf6kXFCam9XVHjnH4Mrl62ZclbOY6b0s5AW78mYxur5m1pQ1eJDl27BsbmIjaDbaZpFkrcTifvWQM1VP1ZGwVnNLMdDyoNk0RdQY3LzqTp9ORLXz2wY2V7jmipPtmCwKZQA1oEjyXBComnZB1dWqpqr5RC/euHjJ2G7AdHUxPbcqTRnrC6O+xZsS3k6E0zXd0Ljsbp97eoa2ftDZqjKlPG7MNZvuYiTtUfvMWFpfp8sQtHa73gnrw/p8KC8YNn/0Ynnu+wvYAykVpXkYJvqvLAAyO7jhMB+ghofZ9UxmZHP3zlW9HF2OeXYwo1AMvmddVJXvWgO09qLZuk0Ph7YfUN+1zBEdr1eG4R5BNIr5qMexOTS2mfYq28vmM5gzTlIP2krz3dOfpdA73jh1eVaeY8rL7/lSKjNBFciX8/9U/Ac3Z9rmsiIAAA==';
           const paths=gunzipSync(Buffer.from(compressed,'base64')).toString('utf8').trim().split('\n');
           paths.push('tools/generate-art/piper-quickstep-pass-overhead-attempt1-prompt.md','tools/generate-art/piper-quickstep-pass-behind-attempt1-prompt.md','tools/generate-art/previews/piper-quickstep-receive/native-120/report.json');
-          if(paths.length!==118||new Set(paths).size!==118)throw Error('Expected 118 unique fixture paths');
+          paths.push('tools/generate-art/previews/piper-quickstep-pass-overhead/native-100/report.json');
+          if(paths.length!==119||new Set(paths).size!==119)throw Error('Expected 119 unique fixture paths');
           const permitted=p=>!p.startsWith('..')&&!path.isAbsolute(p)&&
             (p.startsWith('tools/generate-art/')||p==='docs/LOSSLESS_ATLAS_PROVENANCE.json');
           if(!paths.every(permitted))throw Error('Unapproved manifest path');
@@ -274,7 +275,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: marin-118-pinned-fixture-full-suite
+          name: marin-119-pinned-fixture-full-suite
           path: ci-diagnostic/
           if-no-files-found: warn
           retention-days: 7
@@ -286,4 +287,4 @@ jobs:
           test -f ci-diagnostic/full-test.exit
           test "$(cat ci-diagnostic/full-test.exit)" = 0
           test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
-          echo 'All scoped npm tests passed using 118 exact pinned historical fixtures.'
+          echo 'All scoped npm tests passed using 119 exact pinned historical fixtures.'
