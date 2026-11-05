@@ -208,7 +208,8 @@ jobs:
             echo '- Same Juniper visual donor and existing per-action scratch calibration.'
             echo '- Changed exactly one Marin turbo-dribble forward control value: **12 → 8** at frame 4 (prior scratch candidate was 10).'
             echo '- No vertical bounce, other clip/athlete, original PR, or production reference modifications.'
-            echo '- Captured game-driven adjacent ticks 6–10 (frames 3, 4, 5), both facings at 120%.\n            echo '- Machine continuity check: max 2 world-units forward movement between consecutive ticks; bounce heights verified unchanged.''
+            echo '- Captured game-driven adjacent ticks 6–10 (frames 3, 4, 5), both facings at 120%.'
+            echo '- Machine continuity check: max 2 world-units forward movement between consecutive ticks; bounce heights verified unchanged.'
             echo '- Visual ball-to-hand acceptance is **not** implied by technical success.'
           } >> "$GITHUB_STEP_SUMMARY"
 
