@@ -121,4 +121,7 @@ jobs:
             echo '**No remote branch, PR, main, deployment, or Myth workspace was modified.**'
           } >> "$GITHUB_STEP_SUMMARY"
           echo "Virtual merge results: PR6=$first_status PR7-after-PR6=$second_status"
+          echo '=== BEGIN FULL DIAGNOSTIC SUMMARY ==='
+          cat "$GITHUB_STEP_SUMMARY"
+          echo '=== END FULL DIAGNOSTIC SUMMARY ==='
           # Exit zero: execution of this diagnostic is not an assertion of merge readiness.
