@@ -125,3 +125,149 @@ jobs:
           cat "$GITHUB_STEP_SUMMARY"
           echo '=== END FULL DIAGNOSTIC SUMMARY ==='
           # Exit zero: execution of this diagnostic is not an assertion of merge readiness.
+
+  combined-checkout-validation:
+    name: Validate combined checkout, tests and audit (no push)
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: read
+    steps:
+      - name: Check out pinned main (sparse, blobless)
+        uses: actions/checkout@v4
+        with:
+          ref: 7e700c0eb392800794167007e076c51ac8357a77
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            /.github/
+            /index.html
+            /package.json
+            /package-lock.json
+            /src/
+            /public/
+            /tests/
+            /tools/*.mjs
+            /tools/*.js
+            /docs/animation-production/ASSET_AUDIT_LATEST.json
+            /docs/animation-production/ASSET_AUDIT_LATEST.md
+            /docs/animation-production/ASSET_STATUS.md
+          sparse-checkout-cone-mode: false
+
+      - name: Construct isolated combined checkout with only two known audit-file conflicts
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=7e700c0eb392800794167007e076c51ac8357a77
+          p6=55a2ab104d6b108cc08132fddc01b32afb958e75
+          p7=97119d54fd24c442c15192a798cae1e8a279eb1d
+          git config user.name "GitHub CI diagnostic"
+          git config user.email "ci-local@example.invalid"
+          git fetch --no-tags --filter=blob:none origin \
+            '+refs/heads/codex/captain-animation-completion:refs/remotes/origin/codex/captain-animation-completion' \
+            '+refs/heads/codex/issue-7-seven-donor-supporting-reuse:refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse'
+          test "$(git rev-parse HEAD)" = "$base"
+          test "$(git rev-parse refs/remotes/origin/codex/captain-animation-completion)" = "$p6"
+          test "$(git rev-parse refs/remotes/origin/codex/issue-7-seven-donor-supporting-reuse)" = "$p7"
+          git merge --no-edit --no-ff "$p6"
+          set +e
+          git merge --no-commit --no-ff "$p7"
+          merge_rc=$?
+          set -e
+          echo "PR7 merge exit status: $merge_rc"
+          git diff --name-only --diff-filter=U | sort > /tmp/unmerged-paths.txt
+          cat /tmp/unmerged-paths.txt
+          expected=$(printf 'docs/animation-production/ASSET_AUDIT_LATEST.json\ndocs/animation-production/ASSET_AUDIT_LATEST.md\n')
+          actual=$(cat /tmp/unmerged-paths.txt)
+          if [ "$actual" != "$expected" ]; then
+            echo "::error::Unexpected conflict paths; stop instead of applying broad fallback"
+            exit 1
+          fi
+          git checkout --ours -- \
+            docs/animation-production/ASSET_AUDIT_LATEST.json \
+            docs/animation-production/ASSET_AUDIT_LATEST.md
+          git add \
+            docs/animation-production/ASSET_AUDIT_LATEST.json \
+            docs/animation-production/ASSET_AUDIT_LATEST.md
+          git diff --name-only --diff-filter=U | tee /tmp/remaining-conflicts.txt
+          test ! -s /tmp/remaining-conflicts.txt
+          git commit -m "Local-only combined PR6 PR7 rehearsal; audit regeneration pending"
+          test -f tools/audit-animation-assets.mjs
+          test -f public/assets/animation/manifest.json
+          git show HEAD:src/render/animation-sprites.js > /tmp/merged-renderer.js
+          grep -q 'library.maskProfile,key' /tmp/merged-renderer.js
+          grep -q 'productionSpriteBaselineOffsetY' /tmp/merged-renderer.js
+          grep -q 'target.y-target.z' /tmp/merged-renderer.js
+          {
+            echo '## Ephemeral combined checkout (unpublished)'
+            echo
+            echo "- Exact inputs: main \`$base\`; PR6 \`$p6\`; PR7 \`$p7\`"
+            echo '- Both Git merges completed locally; only two expected audit-file conflicts were resolved provisionally.'
+            echo '- Combined renderer retains both the support palette-profile call and captain baseline/ball-depth functions.'
+            echo '- The two audit files must be regenerated from the combined manifest before their contents are accepted.'
+            echo '- This job never pushes, merges remote PRs, deploys, or changes the Myth workspace.'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Install dependencies and ImageMagick
+        shell: bash
+        run: |
+          npm ci
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq imagemagick
+
+      - name: Regenerate combined animation audit from real atlas pixels
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tools/audit-animation-assets.mjs \
+            --report-only \
+            --json docs/animation-production/ASSET_AUDIT_LATEST.json \
+            --markdown docs/animation-production/ASSET_AUDIT_LATEST.md |
+            tee /tmp/reconciled-audit-summary.json
+          node --input-type=module - <<'NODE'
+          import {readFileSync} from 'node:fs';
+          const newAudit = JSON.parse(readFileSync('docs/animation-production/ASSET_AUDIT_LATEST.json','utf8'));
+          const previous = JSON.parse(readFileSync('/tmp/reconciled-audit-summary.json','utf8'));
+          console.log('Combined audit summary:', JSON.stringify(previous,null,2));
+          if(newAudit.athletes !== 105 || newAudit.clipDefinitions !== 29) {
+            throw new Error('Unexpected league roster or clip count');
+          }
+          if(newAudit.targetShortfalls.length !== 0) throw new Error('New target frame shortfalls');
+          const {missingClipCount,inspectedClips,errors}=newAudit;
+          const findings=Object.groupBy(errors,x=>x.code);
+          const brief = Object.fromEntries(Object.entries(findings).map(([k,v])=>[k,v.length]));
+          const summary=[
+            '### Combined pixel audit (report-only)',
+            '',
+            '- Athletes: **'+newAudit.athletes+'**',
+            '- Inspected clips: **'+inspectedClips+'**',
+            '- Missing directional clips: **'+missingClipCount+'**',
+            '- Frame-target shortfalls: **'+newAudit.targetShortfalls.length+'**',
+            '- Other audit findings: '+JSON.stringify(brief),
+            '',
+            'The strict league audit is expected to remain incomplete while other captains have missing clips.'
+          ];
+          import {appendFileSync} from 'node:fs';
+          appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary.join('\n')+'\n');
+          NODE
+
+      - name: Run full automated tests
+        run: npm test
+
+      - name: Run lint and content validation
+        run: |
+          npm run lint
+          npm run validate:content
+          npm run simulate:league
+
+      - name: Produce non-deployed standalone build
+        run: npm run build
+
+      - name: Check worktree hygiene and final generated file differences
+        if: always()
+        shell: bash
+        run: |
+          git status --short | head -100
+          git diff --check
+          echo '### Test job outcome' >> "$GITHUB_STEP_SUMMARY"
+          echo 'See individual job steps above. No checkout contents were pushed or deployed.' >> "$GITHUB_STEP_SUMMARY"
