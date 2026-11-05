@@ -152,7 +152,7 @@ jobs:
           node --input-type=module <<'NODE'
           import {spawnSync} from 'node:child_process';
           import {writeFileSync} from 'node:fs';
-          const sha='ec15263acd89508ecc4590671cbbd516f3fc3ee6';
+          const sha='9456ffdcdf73f397c15a520b48f75a6cc91ca569';
           const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
           const r=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
           if(!r.ok)throw Error('Saved regression test unavailable: '+r.status);
@@ -163,10 +163,11 @@ jobs:
           if(!source.includes("const expectedForward=usesJuniper?6:1"))throw Error('Legacy donor expectation not retained');
           if(!source.includes("const expectedHeight=usesJuniper?1.05:1.45"))throw Error('Legacy ball height expectation not retained');
           if(!source.includes("Marin ball-track migration preserves the old donor"))throw Error('Calibration test missing');
+          if(!source.includes("const expectedEchoHeight=[.85,.70,.55,.40,.25,.125,0,.125,.25]"))throw Error("Echo scaled-height assertion missing");
           writeFileSync('tests/animation.test.js',bytes);
           console.log('Pinned migration test source installed in ephemeral checkout');
           NODE
-          test "$(git hash-object tests/animation.test.js)" = ec15263acd89508ecc4590671cbbd516f3fc3ee6
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
           node --test --test-name-pattern="Marin ball-track migration|reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken" \
             tests/animation.test.js tests/kraken-receive.integration.test.js
           echo '### Committed Marin regression migration (review-only)' >> "$GITHUB_STEP_SUMMARY"
