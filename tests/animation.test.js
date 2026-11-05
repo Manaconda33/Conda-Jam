@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { animationClips, sampleAnimation, anchorTick, animationDuration, sampleBallHeight, sampleBallForward, flightHeightFromHand } from '../src/core/animation.js';
 import { createMatch,createInput,stepMatch } from '../src/core/simulation.js';
 import { animationAssetManifest } from '../src/content/animation-assets.js';
+import { supportingAnimationLibraries } from '../src/content/supporting-animation-libraries.js';
 const neutral=m=>m.players.map(p=>createInput(p.id));
 function setup(){const m=createMatch({quarterSeconds:60,seed:1});for(const p of m.players){p.x=p.team?20:(p===m.players[0]?150:120);p.y=p.team?0:50;}return m;}
 test('Krios shoot and chest pass keep the separate ball athlete-owned until their canonical release anchors',()=>{
@@ -545,8 +546,16 @@ test('reviewed supporting athletes keep the separate game ball at their lead han
  for(const id of ['sera-bellini','moxie-capwell','sable-regent','marco-vellum','flint-rooker','ash-harth','marin-dusk','cove-knell','pixel-o-keeffe','fern-tempo','mira-wavelength','azul-voss','roxie-coil','vanta-slate','sylvie-shutter','noelle-pinstripe','cade-brixton','fenn-static','ember-rivet','bronze-calder','violet-lorne','cassian-quill','sol-meridian','mist-halo','wren-bravado','eden-north','raven-lux','thorn-sable','kai-suncrest','talia-kestrel','detective-halftone','trace-noire','jett-byte','cass-pixel','riff-voltage','fret-nova','thorn-script','nyx-steel','moss-quarry','digger-finch','willow-root','rowan-bark','moth-vale','owl-argent','auric-scale','cinder-royal','nox-striker','viper-veil','moss-granite','thump-alder','camden-union','poppy-stitch'])for(const facing of [1,-1]){
   const m=createMatch({quarterSeconds:60,seed:51,home:{roster:[{id},{id:'partner'}]}}),p=m.players.find(player=>player.id===id);
   if(id==='marin-dusk'){
-   assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),1,'Marin’s reviewed receive/idle-ball track holds the ball close to her torso');
-   assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),1.45,'Marin’s separate ball remains chest high');
+   // PR6 retained her historical Echo-source hand pose; PR7 deliberately
+   // switches the rendered donor to Juniper, requiring the separately reviewed
+   // Marin-specific forward/height track. Keep *both* cases strictly asserted.
+   const usesJuniper=supportingAnimationLibraries[id]?.donorId==='juniper-vale';
+   const expectedForward=usesJuniper?6:1;
+   const expectedHeight=usesJuniper?1.05:1.45;
+   assert.equal(sampleBallForward('idle-ball',p.animation.tick,id),expectedForward,
+     usesJuniper?'Marin’s Juniper lead hand requires the reviewed forward offset':'Marin’s legacy hand track remains unchanged without Juniper');
+   assert.equal(sampleBallHeight('idle-ball',p.animation.tick,id),expectedHeight,
+     usesJuniper?'Marin’s Juniper ball-ready pose uses the reviewed hand height':'Marin’s original ball-ready height remains unchanged without Juniper');
   }else assert.ok(sampleBallForward('idle-ball',p.animation.tick,id)>=8,id+' idle-ball hand reach');
   p.x=100;p.y=50;p.facing=facing;p.hasBall=true;m.ball.ownerId=p.id;m.ball.mode='carried';
   for(const [turbo,key] of [[false,'dribble'],[true,'dribble-run']]){
@@ -556,6 +565,27 @@ test('reviewed supporting athletes keep the separate game ball at their lead han
    assert.ok(sampleBallForward(key,p.animation.tick,id)>5,id+' '+key+' ball stays ahead of the torso');
    assert.equal(sampleBallHeight(key,anchorTick(key,'bounce'),id),0,id+' '+key+' court bounce');
   }
+ }
+});
+test('Marin ball-track migration preserves the old donor and calibrates the Juniper bounce without changing the vertical track',()=>{
+ const id='marin-dusk', usesJuniper=supportingAnimationLibraries[id]?.donorId==='juniper-vale';
+ const ticks=[4,5,6,7,8,9,10,11,12];
+ const observed=ticks.map(tick=>sampleBallForward('dribble-run',tick,id));
+ const height=ticks.map(tick=>sampleBallHeight('dribble-run',tick,id));
+ assert.deepEqual(height,[.85,.70,.55,.4,.25,.125,0,.125,.25],
+   'both donor variants must retain the canonical court-plane bounce');
+ if(usesJuniper){
+  assert.deepEqual(observed,[10,9.5,9,8.5,8,8.5,9,10,11],
+    'reviewed Juniper-ball choreography follows the actual donor sprite through frames 2–6');
+  for(let i=1;i<observed.length;i++)assert.ok(Math.abs(observed[i]-observed[i-1])<=1.01,
+    'Juniper ball must travel smoothly from one simulation tick to the next');
+  assert.equal(sampleBallForward('idle-ball',0,id),6);
+  assert.equal(sampleBallHeight('idle-ball',0,id),1.05);
+ }else{
+  assert.deepEqual(observed,[10,10.5,11,11.5,12,12,12,11.5,11],
+    'original non-Juniper donor must retain the PR6 baseline ball track');
+  assert.equal(sampleBallForward('idle-ball',0,id),1);
+  assert.equal(sampleBallHeight('idle-ball',0,id),1.45);
  }
 });
 test('Draya Staffwind and Kael Rune keep the ball at their own hand tracks in both facings',()=>{
