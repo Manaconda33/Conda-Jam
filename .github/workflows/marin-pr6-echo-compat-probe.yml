@@ -1,0 +1,99 @@
+name: Marin PR6 Echo baseline compatibility (diagnostic only)
+
+on:
+  push:
+    branches:
+      - maintenance/pr6-pr7-reconciliation-probe
+    paths:
+      - '.github/workflows/marin-pr6-echo-compat-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pr6-echo:
+    name: Original PR6 with saved regression tests, no source changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out the immutable PR6 commit (read-only)
+        uses: actions/checkout@v4
+        with:
+          ref: 55a2ab104d6b108cc08132fddc01b32afb958e75
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /package.json
+            /package-lock.json
+            /src/
+            /tests/
+          sparse-checkout-cone-mode: false
+
+      - name: Ensure Echo donor and original PR6 code are truly untouched
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132fddc01b32afb958e75
+          test "$(git hash-object src/core/animation.js)" = d2540e37cc8cb635e3263a54f5794052fd8d6847
+          test "$(git hash-object tests/animation.test.js)" = e09490c73e6f0facdb8f65253469c9f22de5f27b
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import {supportingAnimationLibraries} from './src/content/supporting-animation-libraries.js';
+          import {sampleBallHeight,sampleBallForward,athleteBallTrackSource} from './src/core/animation.js';
+          const id='marin-dusk';
+          assert.equal(supportingAnimationLibraries[id].donorId,'echo-catwalk',
+            'This is the original PR6 Echo baseline, not the PR7 Juniper mapping');
+          assert.equal(sampleBallForward('idle-ball',0,id),1);
+          assert.equal(sampleBallHeight('idle-ball',0,id),1.45);
+          assert.equal(athleteBallTrackSource(id,'idle-ball','forward'),id);
+          console.log(JSON.stringify({
+            source:'PR6 original untouched',
+            visualDonor:supportingAnimationLibraries[id].donorId,
+            baselineIdle:[sampleBallForward('idle-ball',0,id),sampleBallHeight('idle-ball',0,id)],
+            priorTestBlob:'e09490c73e6f0facdb8f65253469c9f22de5f27b'
+          }));
+          NODE
+
+      - name: Substitute only exact committed PR16 test file in this disposable runner
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import {spawnSync} from 'node:child_process';
+          import {writeFileSync} from 'node:fs';
+          const sha='ec15263acd89508ecc4590671cbbd516f3fc3ee6';
+          const url='https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha;
+          const res=await fetch(url,{headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
+          if(!res.ok)throw Error('Saved regression test Git blob unavailable '+res.status);
+          const blob=await res.json(),bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+          const hash=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+          if(hash.status!==0||hash.stdout.trim()!==sha)throw Error('Saved regression test hash mismatch');
+          const test=bytes.toString('utf8');
+          if(!test.includes("const expectedForward=usesJuniper?6:1"))throw Error('Legacy strict forward expectation missing');
+          if(!test.includes("const expectedHeight=usesJuniper?1.05:1.45"))throw Error('Legacy strict height expectation missing');
+          if(!test.includes("Marin ball-track migration preserves the old donor"))throw Error('Dedicated legacy track check missing');
+          writeFileSync('tests/animation.test.js',bytes);
+          console.log('Only test source in this disposable checkout updated, saved SHA: '+sha);
+          NODE
+          test "$(git hash-object tests/animation.test.js)" = ec15263acd89508ecc4590671cbbd516f3fc3ee6
+          test "$(git hash-object src/core/animation.js)" = d2540e37cc8cb635e3263a54f5794052fd8d6847
+
+      - name: Run strict migrated regression and real Marin to Kraken passing tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --test --test-name-pattern="Marin ball-track migration|reviewed supporting athletes keep the separate game ball at their lead hand|Marin.s pass meets Kraken" \
+            tests/animation.test.js tests/kraken-receive.integration.test.js
+          test "$(git hash-object src/core/animation.js)" = d2540e37cc8cb635e3263a54f5794052fd8d6847
+          {
+            echo '## PR6-only Echo backward-compatibility result'
+            echo
+            echo '- PR6 HEAD and original animation.js Git hashes independently verified.'
+            echo '- Original Marin donor is Echo Catwalk; original idle-ball forward=1 and height=1.45 verified.'
+            echo '- Saved PR16 tests hash-verified and run without changing any PR6 source or remote head.'
+            echo '- Preserved strict original assertions and real Marin-to-Kraken pass/catch validation.'
+            echo '- Passing here would NOT demonstrate Juniper pixel contact, full nonsparse tests, or merge readiness.'
+          } >> "$GITHUB_STEP_SUMMARY"
