@@ -93,6 +93,16 @@ These GitHub Actions artifacts have finite retention. The exact control values, 
 - [Artifact 13451055105](https://github.com/Manaconda33/Conda-Jam/actions/runs/42103174543/artifacts/13451055105) contains the 88 PNGs and reproducible `report.json`. Exact ZIP and report hashes are retained in the triage note.
 - Screen review found visually separated wrist and ball during some **airborne** normal-dribble poses; such separation alone does not establish error because the ball is intentionally released between impacts. **No new track values were changed** and no independent art/pixel-contact signoff is claimed. The next art-review action is to assign contact expectations by phase (held/released/ground/catch), not force midair poses to touch a hand.
 
+## Broader suite and provenance gate (still incomplete) — 2026-11-05
+
+See [`MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md`](./MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) for exact input commits and verified blobs, test failure manifests, the two historical fixture recovery waves, and audit evidence hashes.
+
+- True full non-sparse checkout encountered an **unavailable historical Git object** during local PR #6 merge; the full checkout did not reach the tests. [Attempt 42108460440](https://github.com/Manaconda33/Conda-Jam/actions/runs/42108460440).
+- The scoped runtime/production-asset checkout ran `npm test`. It initially passed **502/570**. Two waves recovered **79/79** missing historical fixtures from immutable PR #6, each hash-verified; the latest [run 42110543688](https://github.com/Manaconda33/Conda-Jam/actions/runs/42110543688) passed **571/587** with **16 further missing-file failures**, no identified assertion errors. The overall suite is **still RED**, not approved.
+- Lint, content validation, league simulation, and the non-deployed standalone build passed.
+- The regenerated report-only production-asset audit inspected 2,397 clips, 570 source atlases, 5,489 decoded drawings, and remained **INCOMPLETE**: 706 missing-clip findings, 40 prompt-not-verbatim findings, zero target shortfalls.
+- No source or test expectations were weakened, no unknown image blobs were synthesized, no accepted audit reports were overwritten, and no remote PR or deployment refs were changed.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
