@@ -10,7 +10,7 @@
 - PR #7 donor-runtime input: `97119d54fd24c442c15192a798cae1e8a279eb1d`
 - PR #16 committed Marin animation blob: `2b1413fce2582fd588f7df111bfb719e8605f046`; regression-test blob `9456ffdcdf73f397c15a520b48f75a6cc91ca569`
 - Successful actual combined-tree CI: https://github.com/Manaconda33/Conda-Jam/actions/runs/42252942594, with 587/587 tests, lint, content validation, league simulation and build green.
-- Regenerated audit, SHA-256 evidence, and 746 exact inherited finding signatures: [combined audit checkpoint](PR17_COMBINED_AUDIT_EVIDENCE_2026-11-06.md). Strict art status remains **incomplete**.
+- Regenerated audit, SHA-256 evidence, and 746 exact inherited finding signatures: [combined audit checkpoint](PR17_COMBINED_AUDIT_EVIDENCE_2026-11-06.md). The three authoritative tracked reports were committed at [5bb10dce](https://github.com/Manaconda33/Conda-Jam/commit/5bb10dceedb9a867c36f400055dd4663d7f42fd5) and [independently matched to the exact full-tree source artifact](https://github.com/Manaconda33/Conda-Jam/actions/runs/42268540872). Strict art status remains **incomplete**.
 
 ## Independent reviewer worklist
 
@@ -26,7 +26,7 @@
 
 Historical [repository-object diagnosis](MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) records [Actions run 42108460440](https://github.com/Manaconda33/Conda-Jam/actions/runs/42108460440): complete `main` checkout succeeded, but integration of pinned PR #6 failed during a promisor-object fetch. One reported missing object was `14b5d774b41ff4a4602e52347bc2d7d10a155617` (`upload-pack: not our ref`); another reported object was `7fb06e8242ff4cbf1d8cca4d4bab390188eb021c`.
 
-**Updated resolution for the assembled branch:** a [separate reproducible full non-sparse checkout run](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001) directly materialized the precise assembled PR #17 head, with **55,024 tracked paths, zero missing**; ran **587/587 original tests**, regenerated the asset audit (746 expected unchanged findings) and passed identity validation. [Permanent review proof](PR17_NONSparse_INTEGRATION_CHECKOUT_2026-11-06.md). The historical `14b5d774` object still returns 404, but it has **no matching blob-tree entry in the pinned PR #6 or assembled PR #17 tip trees**. Preserve the historical failed replay record and do not synthesize a replacement; this no longer prevents verifying the assembled PR #17 directly. The recovered checkout does **not** waive strict artwork/visual or tracked-report acceptance.
+**Updated resolution for the assembled branch:** a [separate reproducible full non-sparse checkout run](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001) directly materialized the precise assembled PR #17 head, with **55,024 tracked paths, zero missing**; ran **587/587 original tests**, regenerated the asset audit (746 expected unchanged findings) and passed identity validation. [Permanent review proof](PR17_NONSparse_INTEGRATION_CHECKOUT_2026-11-06.md). The historical `14b5d774` object still returns 404, but it has **no matching blob-tree entry in the pinned PR #6 or assembled PR #17 tip trees**. Preserve the historical failed replay record and do not synthesize a replacement; this no longer prevents verifying the assembled PR #17 directly. The recovered checkout does **not** waive strict artwork/visual acceptance. The tracked report reconciliation is now documented separately and passed.
 
 ## Release decision matrix
 
@@ -37,11 +37,19 @@ Historical [repository-object diagnosis](MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2
 | Full exact inherited audit identity and counts | PASS, not art acceptance |
 | Exact assembled PR #17 head, complete non-sparse checkout | **PASS:** 55,024 tracked paths present, 587/587 tests, exact 746/746 audit identities |
 | Historical PR #6 partial-clone merge replay and unavailable Git object | Still documented (404), no direct tree reference; separate legacy maintenance issue |
-| Regenerate *authoritative* combined tracked `ASSET_AUDIT_LATEST.json/md` and `ASSET_STATUS.md` | PENDING; CI artifact and versioned evidence exist, but historical official files remain unchanged |
+| Regenerate authoritative combined tracked `ASSET_AUDIT_LATEST.json/md` and `ASSET_STATUS.md` | **PASS:** committed [5bb10dce](https://github.com/Manaconda33/Conda-Jam/commit/5bb10dceedb9a867c36f400055dd4663d7f42fd5); [read-only audit proof 42268540872](https://github.com/Manaconda33/Conda-Jam/actions/runs/42268540872) confirms full JSON + Markdown + archival status; `ok=false` |
 | Marin hand/ball normal-dribble visual acceptance | HOLD |
 | Kraken receive frame style-consistency correction / acceptance | HOLD |
 | Independent renderer/donor code review | PENDING |
 | Strict artist/provenance/backlog acceptance | PENDING |
 | Explicit owner merge order + authorization | PENDING |
 
-**Recommendation:** do not merge #17 now. Use the saved current CI artifact as the evidence foundation for code review and the later tracked audit-report regeneration. Keep original PRs #6, #7, #13, #16, `main`, and the unavailable Myth production workspace unchanged.
+**Recommendation:** do not merge #17 now. Use the now-current checked-in audit and its verified full-tree evidence to review the combined renderer/donor runtime. Independently sign off on any visual corrections and owner-defined asset/provenance backlog policy before changing draft or merge status. Keep original PRs #6, #7, #13, #16, `main`, and the unavailable Myth production workspace unchanged.
+
+## 2026-11-06: checked-in report reconciliation and downstream CI infrastructure note
+
+- **Authoritative reports refreshed:** [publication run 42267735163](https://github.com/Manaconda33/Conda-Jam/actions/runs/42267735163) committed exactly three active snapshot/status files. The original October 29 status history remains byte-for-byte below a new November 6 integration heading. Current strict audit stays incomplete (706 inherited missing captain clips; 40 honestly disclosed non-verbatim prompts).
+- **Independent audit proof GREEN:** [read-only run 42268540872](https://github.com/Manaconda33/Conda-Jam/actions/runs/42268540872) verified full checked-in JSON content, Markdown consistency, and current status/history against the [original full non-sparse checkout evidence](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001). Full content normalized SHA-256 digest: `e319e858b44e0b5eff17594dcf0beb6776f1400c7d0b0c9826a5c8faf8eb0d79`.
+- **Permanent drift guard:** `tools/check-pr17-authoritative-snapshots.mjs` is wired into `.github/workflows/conda-jam-combined-integration-ci.yml`. It rechecks every JSON field other than the generation timestamp plus the Markdown and preserved status records, so replacement of one inherited finding with another cannot silently pass.
+- **Infrastructure limitation:** fresh combined CI run [42267985242](https://github.com/Manaconda33/Conda-Jam/actions/runs/42267985242) could not reach tests because the runner timed out in `sudo apt-get update -qq` while installing ImageMagick. It is **not a failed asset/test assertion**; the last complete source validation is [full-tree run 42263232001](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001), and snapshot comparison passed without needing the failing package manager. Rerun ordinary CI once the runner dependency install works, without relaxing the original game/art regression tests.
+- **No merge authorization or art acceptance:** all existing Marin/Kraken visual HOLDs and 706/40 strict-art/provenance findings remain open.
