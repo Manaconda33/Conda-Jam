@@ -96,7 +96,12 @@ jobs:
           test -f ci-nonsparse/disable-sparse.exit || exit 0
           test "$(cat ci-nonsparse/disable-sparse.exit)" = 0 || exit 0
           test -f ci-nonsparse/physical-checkout.json || exit 0
-          node --input-type=module -e "const x=JSON.parse(require('fs').readFileSync('ci-nonsparse/physical-checkout.json'));if(!x.physicalCheckoutComplete)process.exit(1)" 2>/dev/null || true
+          node --input-type=module -e "import fs from 'node:fs'; const x=JSON.parse(fs.readFileSync('ci-nonsparse/physical-checkout.json','utf8'));if(!x.physicalCheckoutComplete)process.exit(1)"
+          if ! command -v convert >/dev/null 2>&1; then
+            timeout 180s sudo apt-get update -qq
+            timeout 180s sudo apt-get install -y -qq imagemagick
+          fi
+          command -v convert
           set +e
           timeout 180s npm ci > ci-nonsparse/npm-ci.log 2>&1; echo "$?" > ci-nonsparse/npm-ci.exit
           if [ "$(cat ci-nonsparse/npm-ci.exit)" = 0 ]; then
