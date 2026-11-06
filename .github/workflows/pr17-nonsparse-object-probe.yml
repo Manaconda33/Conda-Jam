@@ -1,0 +1,149 @@
+name: PR17 complete checkout and historical Git object probe (review only)
+on:
+  push:
+    branches:
+      - integration/pr6-pr7-marin-review-20261106
+    paths:
+      - .github/workflows/pr17-nonsparse-object-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  non-sparse-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Start with only a sparse review-branch checkout
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout: |
+            /.github/
+            /README.md
+            /package.json
+            /package-lock.json
+          sparse-checkout-cone-mode: false
+          lfs: false
+      - name: Identify historical object failure without changing repository refs
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p ci-nonsparse
+          p6=55a2ab104d6b108cc08132fddc01b32afb958e75
+          absent=14b5d774b41ff4a4602e52347bc2d7d10a155617
+          secondary=7fb06e8242ff4cbf1d8cca4d4bab390188eb021c
+          printf 'integration_head=%s\noriginal_pr6_head=%s\nmissing_object=%s\nsecondary_object=%s\n' "$(git rev-parse HEAD)" "$p6" "$absent" "$secondary" | tee ci-nonsparse/pins.txt
+          git status --short
+          df -h . | tee ci-nonsparse/disk-before.txt
+          timeout 150s git fetch --no-tags --filter=blob:none --depth=1 origin '+refs/heads/codex/captain-animation-completion:refs/remotes/origin/verified-pr6'
+          test "$(git rev-parse refs/remotes/origin/verified-pr6)" = "$p6"
+          set +e
+          timeout 150s git ls-tree -r "$p6" > ci-nonsparse/pr6-tree.txt 2> ci-nonsparse/pr6-tree.stderr
+          echo "$?" > ci-nonsparse/pr6-tree.exit
+          timeout 150s git ls-tree -r HEAD > ci-nonsparse/integration-tree.txt 2> ci-nonsparse/integration-tree.stderr
+          echo "$?" > ci-nonsparse/integration-tree.exit
+          set -e
+          for tree in pr6 integration; do
+            echo "TREE $tree total_files: $(wc -l < ci-nonsparse/$tree-tree.txt)"
+            grep -F "$absent" ci-nonsparse/$tree-tree.txt || true
+            grep -F "$secondary" ci-nonsparse/$tree-tree.txt || true
+            grep -F "$absent" ci-nonsparse/$tree-tree.txt > ci-nonsparse/$tree-absent-matches.txt || true
+            grep -F "$secondary" ci-nonsparse/$tree-tree.txt > ci-nonsparse/$tree-secondary-matches.txt || true
+          done
+          # REST object lookups are evidence only; a missing SHA must not be synthesized.
+          for object in "$absent" "$secondary"; do
+            code=$(curl --retry 2 -sS -o ci-nonsparse/object-$object.json -w '%{http_code}' -H "Authorization: Bearer $GH_TOKEN" -H 'Accept: application/vnd.github+json' "https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/$object" || true)
+            printf '%s %s\n' "$object" "$code" | tee -a ci-nonsparse/object-http-codes.txt
+          done
+          # Explicitly distinguish current Git object metadata from physical checkout proof.
+          git count-objects -v | tee ci-nonsparse/git-objects-before.txt
+      - name: Attempt a genuinely complete non-sparse checkout of exact integration HEAD
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Bounded, ephemeral runner-only; no merge, push, repair, history edit or deployment.
+          set +e
+          timeout 420s git sparse-checkout disable > ci-nonsparse/disable-sparse.log 2>&1
+          rc=$?
+          set -e
+          echo "$rc" > ci-nonsparse/disable-sparse.exit
+          tail -n 35 ci-nonsparse/disable-sparse.log
+          df -h . | tee ci-nonsparse/disk-after.txt
+          if [ "$rc" -eq 0 ]; then
+            test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+            test "$(git config --bool core.sparseCheckout || echo false)" = false
+            node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          const paths=execFileSync('git',['ls-files','-z'],{maxBuffer:120*1024*1024}).toString('utf8').split('\0').filter(Boolean);
+          const missing=paths.filter(p=>!fs.existsSync(p));
+          const result={head:execFileSync('git',['rev-parse','HEAD']).toString().trim(),trackedPaths:paths.length,missingPaths:missing.length,firstMissing:missing.slice(0,20),physicalCheckoutComplete:missing.length===0};
+          fs.writeFileSync('ci-nonsparse/physical-checkout.json',JSON.stringify(result,null,2)+'\n');
+          console.log(JSON.stringify(result,null,2));
+          if(missing.length)process.exitCode=1;
+          NODE
+          else
+            echo 'FULL CHECKOUT NOT ESTABLISHED; diagnostic continues without claiming success'
+          fi
+      - name: Run original full corpus tests and regenerated audit only if non-sparse checkout succeeded
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f ci-nonsparse/disable-sparse.exit || exit 0
+          test "$(cat ci-nonsparse/disable-sparse.exit)" = 0 || exit 0
+          test -f ci-nonsparse/physical-checkout.json || exit 0
+          node --input-type=module -e "const x=JSON.parse(require('fs').readFileSync('ci-nonsparse/physical-checkout.json'));if(!x.physicalCheckoutComplete)process.exit(1)" 2>/dev/null || true
+          set +e
+          timeout 180s npm ci > ci-nonsparse/npm-ci.log 2>&1; echo "$?" > ci-nonsparse/npm-ci.exit
+          if [ "$(cat ci-nonsparse/npm-ci.exit)" = 0 ]; then
+            timeout 600s npm test > ci-nonsparse/npm-test.log 2>&1; echo "$?" > ci-nonsparse/npm-test.exit
+            timeout 540s node tools/audit-animation-assets.mjs --report-only --json ci-nonsparse/audit.json --markdown ci-nonsparse/audit.md > ci-nonsparse/audit.log 2>&1; echo "$?" > ci-nonsparse/audit.exit
+            if test -f ci-nonsparse/audit.json; then
+              node tools/check-pr17-audit-identities.mjs ci-nonsparse/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-nonsparse/audit-identity.json > ci-nonsparse/audit-identity.log 2>&1; echo "$?" > ci-nonsparse/audit-identity.exit
+            fi
+          fi
+          set -e
+          for file in ci-nonsparse/*.exit; do printf '%s: ' "$file"; cat "$file"; done
+          test ! -f ci-nonsparse/npm-test.log || tail -n 22 ci-nonsparse/npm-test.log
+      - name: Summarize gate truthfully
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p ci-nonsparse
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const r=p=>{try{return fs.readFileSync('ci-nonsparse/'+p,'utf8').trim()}catch{return null}};
+          const codes=Object.fromEntries(['pr6-tree','integration-tree','disable-sparse','npm-ci','npm-test','audit','audit-identity'].map(n=>[n,r(n+'.exit')]));
+          let physical=null;try{physical=JSON.parse(r('physical-checkout.json'))}catch{}
+          let audit=null;try{const a=JSON.parse(r('audit.json'));audit={ok:a.ok,missingClipCount:a.missingClipCount,errors:a.errors?.length,inspectedClips:a.inspectedClips}}catch{}
+          const summary={head:process.env.GITHUB_SHA,scope:'true full non-sparse checkout of assembled integration HEAD, plus historical PR6 object provenance',codes,physical,objectHttpCodes:r('object-http-codes.txt'),pr6TreeAbsentMatches:r('pr6-absent-matches.txt'),integrationTreeAbsentMatches:r('integration-absent-matches.txt'),audit,fullCheckoutPassed:codes['disable-sparse']==='0'&&physical?.physicalCheckoutComplete===true,fullSuitePassed:codes['npm-test']==='0',strictArtAccepted:audit?.ok===true,notMergeAuthorization:true};
+          fs.writeFileSync('ci-nonsparse/summary.json',JSON.stringify(summary,null,2)+'\n');
+          console.log(JSON.stringify(summary,null,2));
+          const lines=['## PR17 non-sparse Git-object diagnostic','',`Exact HEAD: ${summary.head}`,'',`Full checkout: **${summary.fullCheckoutPassed?'PASS':'NOT ESTABLISHED'}**; npm suite: **${summary.fullSuitePassed?'PASS':'not green / not run'}**; strict art accepted: **${summary.strictArtAccepted?'yes':'NO'}**.`,'','Historical blob REST:','```',summary.objectHttpCodes||'not available','```','', 'No original refs, production assets, deployments, or Myth workspace were changed. CI diagnostic success alone is not art or merge acceptance.'];
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
+          NODE
+      - name: Upload complete diagnostic and bounded logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr17-full-checkout-object-diagnostic
+          path: ci-nonsparse/
+          if-no-files-found: warn
+          retention-days: 7
+      - name: Enforce full checkout and full test gate, without hiding failure
+        if: always()
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const x=JSON.parse(fs.readFileSync('ci-nonsparse/summary.json','utf8'));
+          if(!x.fullCheckoutPassed||!x.fullSuitePassed||x.codes.audit!=='0'||x.codes['audit-identity']!=='0'){
+            console.error('HOLD: complete non-sparse checkout plus test/audit proof not established. See the diagnostic artifact, not a production regression claim.');
+            process.exit(1);
+          }
+          console.log('Verified complete non-sparse integration HEAD and full available test corpus. Strict art/review/merge gates remain open.');
+          NODE
