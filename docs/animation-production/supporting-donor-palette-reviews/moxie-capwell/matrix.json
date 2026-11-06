@@ -1,0 +1,2598 @@
+{
+  "donorId": "moxie-capwell",
+  "profile": "moxie-body-mask-v4",
+  "maskProfile": {
+    "id": "moxie-body-mask-v4",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.39,
+          0.73
+        ],
+        "y": [
+          0.36,
+          0.64
+        ]
+      },
+      "hue": [
+        245,
+        310
+      ],
+      "chromaMin": 20,
+      "luma": [
+        16,
+        165
+      ],
+      "sourceColor": "#743eb5"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.38,
+          0.73
+        ],
+        "y": [
+          0.63,
+          0.82
+        ]
+      },
+      "hue": [
+        245,
+        310
+      ],
+      "chromaMin": 18,
+      "luma": [
+        12,
+        160
+      ],
+      "sourceColor": "#743eb5"
+    },
+    "clips": {
+      "fall": {
+        "jersey": {
+          "region": {
+            "x": [
+              0.55,
+              0.8
+            ],
+            "y": [
+              0.67,
+              0.82
+            ]
+          },
+          "hue": [
+            245,
+            310
+          ],
+          "chromaMin": 20,
+          "luma": [
+            16,
+            165
+          ],
+          "sourceColor": "#743eb5"
+        },
+        "shorts": {
+          "region": {
+            "x": [
+              0.24,
+              0.72
+            ],
+            "y": [
+              0.75,
+              0.92
+            ]
+          },
+          "hue": [
+            245,
+            310
+          ],
+          "chromaMin": 18,
+          "luma": [
+            12,
+            160
+          ],
+          "sourceColor": "#743eb5"
+        }
+      }
+    },
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/moxie-capwell/",
+      "alphaMismatchPixels": 0
+    }
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "blackthorn-court-kings",
+      "teamName": "Blackthorn Court Kings",
+      "playerId": "sable-regent",
+      "palette": [
+        "#24242a",
+        "#a93343"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "blueglass-knights",
+      "teamName": "Blueglass Knights",
+      "playerId": "eden-north",
+      "palette": [
+        "#31579a",
+        "#171a21"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "cheshire-hollow-grinners",
+      "teamName": "Cheshire Hollow Grinners",
+      "playerId": "lilt-smile",
+      "palette": [
+        "#be4bbb",
+        "#e5bfd5"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "coppermoon-skyblades",
+      "teamName": "Coppermoon Skyblades",
+      "playerId": "kael-rune",
+      "palette": [
+        "#734e62",
+        "#b35c43"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "crimson-harbor-chains",
+      "teamName": "Crimson Harbor Chains",
+      "playerId": "roxie-coil",
+      "palette": [
+        "#25212a",
+        "#b52d41"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "greenwall-giants",
+      "teamName": "Greenwall Giants",
+      "playerId": "thump-alder",
+      "palette": [
+        "#427944",
+        "#858c69"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "london-royal-spots",
+      "teamName": "London Royal Spots",
+      "playerId": "camden-union",
+      "palette": [
+        "#244985",
+        "#d84949"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "rainbow-alley-runners",
+      "teamName": "Rainbow Alley Runners",
+      "playerId": "fern-tempo",
+      "palette": [
+        "#15904f",
+        "#f2d64a"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "scoria-rams",
+      "teamName": "Scoria Rams",
+      "playerId": "ash-harth",
+      "palette": [
+        "#c83f2c",
+        "#35383c"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/moxie-capwell-idle-right.webp",
+          "sourceSha256": "9cb605de92264558c2fd1179e52dc323a91b6c95367eea75f941713ab8bf5dae",
+          "frameIndex": 2,
+          "frameHash": "c368203533294b177b96db5d0f19d367e8a8c6e1c09fbd4b3ccedb3709f20a7e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1501
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/moxie-capwell-idle-ball-right.webp",
+          "sourceSha256": "6d2949af77e0fbc8b1eb06115e353971fdb9adb5883b319423d86a006b76bc2c",
+          "frameIndex": 1,
+          "frameHash": "da88b2841924b764194cf04ee56b7ba9668e10c2934b5d5d7f1b53edac92950c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1309
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/moxie-capwell-dribble-right.webp",
+          "sourceSha256": "e30e2b1d85e0587e99bf0b0c7226e9fcef3e00ab2a0e8b71b72b3300337f13aa",
+          "frameIndex": 4,
+          "frameHash": "7aebbd89631749f04c32743ec23b65f84fc9c71da694b69b206faed570bf761a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3918
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/moxie-capwell-run-right.webp",
+          "sourceSha256": "04b0284a3944ddd3124fdcb25584015a4fc26a3920150d19798c56603a783158",
+          "frameIndex": 5,
+          "frameHash": "16d938de7c838bccf4357b0725240b93a03deaa8ccbbcfab4e489364ffc3c799",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4480
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/moxie-capwell-dribble-run-right.webp",
+          "sourceSha256": "38f01c47d14692c692ea5d66e5e020b9eca9e24f47db62ffc4ac69214da146a5",
+          "frameIndex": 5,
+          "frameHash": "be7ba07843639ed09aef22c551e05e3cfc8b8c4253e4ef3ffefc375fd723d3cb",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5802
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/moxie-capwell-shoot-right.webp",
+          "sourceSha256": "37cba08a0e360b97449d55d03d2f1fb2bbcf3f2ab7a978fba90d058288555c09",
+          "frameIndex": 4,
+          "frameHash": "eb58094fd17fd716a6e9809463a594aeeb0bbd1e27a5f90e568abef682fc2246",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1608
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/moxie-capwell-pass-right.webp",
+          "sourceSha256": "1319a345dab7fcbedaeb35c0f71a5c50ccf36b7b6b0d2da77b0f758a2cf23eef",
+          "frameIndex": 2,
+          "frameHash": "8123d1b513ff776722b1b38d83b64854d7b884cca2f4466ace0d14cea8d09f79",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1413
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/moxie-capwell-pass-overhead-right.webp",
+          "sourceSha256": "4dd29faca052d1d00de674d2314a54e6f64641b41a19a563091ff03e1a37964d",
+          "frameIndex": 2,
+          "frameHash": "15b23b799667f6fdde46c953091af43066e7fe6c9844426c6ec21a21157b1319",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1069
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/moxie-capwell-pass-behind-right.webp",
+          "sourceSha256": "f12c573c74729eece4b21a883d0ddd9326640b28f01eee61d3b348b3294b63fc",
+          "frameIndex": 2,
+          "frameHash": "b6a05ed2cb8f7b34b937f8c69b27ffae81887e95d51a42885bf94cb0bed90ec9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1262
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/moxie-capwell-receive-right.webp",
+          "sourceSha256": "5840e5e7dfc2d071ac452ee7e8fc9c9b337b7cc1ffe1b1ae4ab3f7131c828eeb",
+          "frameIndex": 1,
+          "frameHash": "37a65fdad583d3b9ad2e215ee9337dd36bb1568dc5c55ab1b0a6f7d82c3cd74f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1042
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/moxie-capwell-pickup-right.webp",
+          "sourceSha256": "2b2d9c4bfa56688106a78a8225e7feae453a7b567f252a2541696c59e9038227",
+          "frameIndex": 2,
+          "frameHash": "afca4e822a27198fe4fb55de078ab739c8110e26637659eaf464e6534c21af1d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1812
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/moxie-capwell-layup-right.webp",
+          "sourceSha256": "f7dff5c7a6eacc547c270f48d458d686752dd0a3b83ea45284fd79a92db2b0dc",
+          "frameIndex": 3,
+          "frameHash": "2b84f027b4efc3454bebe3be6b6c9743a3b09cd18882f28e48d8ea6e2a21c770",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1406
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/moxie-capwell-layup-reverse-right.webp",
+          "sourceSha256": "f3fc2a082ed1d5407ebeac596aa034b4e5aae9ed491a3423f54789d6a41169ad",
+          "frameIndex": 3,
+          "frameHash": "536db421258ab509933584706da1529f9b25a1d29c93916f0b2d7968184bedca",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2578
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/moxie-capwell-block-right.webp",
+          "sourceSha256": "cf9dcb5bed7c717fe5993888fe81b8ab2bcb2b1b242ddb0c91dd36a084bed36b",
+          "frameIndex": 1,
+          "frameHash": "fb9a11afcd2e4bd87563ab7efc68f9c2b2fc697480f1d5052a343393de69dc81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 929
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/moxie-capwell-steal-right.webp",
+          "sourceSha256": "f3d9af7ae97b92a813a61a7d420bf699c895cf00a2775bb08afdb244c93a0324",
+          "frameIndex": 3,
+          "frameHash": "791d932f86c533bb2f0568c8c62fa760dfdb5e5e18d018902a1a9c95d53a1f74",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2931
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/moxie-capwell-push-right.webp",
+          "sourceSha256": "dc6c7526707d7e346e84eb21a77e837f29ff6712995fde2e6c65edb9d2440a03",
+          "frameIndex": 5,
+          "frameHash": "13f3c427f351cd9bdb617d7083b3b295b7abc6ecb54d86cb74361016e865a15f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3151
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/moxie-capwell-rebound-right.webp",
+          "sourceSha256": "895e4e3ef9a092b6d724128f91c95abe161e21e1e534217a58e6170788eab2f3",
+          "frameIndex": 2,
+          "frameHash": "77065044225e8aa087f8cee85b3a1682bdc400a60c40e7b36e1acdd6f798c7d2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1083
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/moxie-capwell-fall-right.webp",
+          "sourceSha256": "aba9fb6e1de2741ecc5e8219c7a7a523bbbae493ec0c09c08075f0743bc8cf08",
+          "frameIndex": 4,
+          "frameHash": "f5a6956b7f58c388f7af6a7c334f1e086c6663c32b1ae1f05d4795000dbfcc65",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1894
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/moxie-capwell-celebrate-right.webp",
+          "sourceSha256": "43c66c89eb74133e77e273a7f945b4eb586cd8c2e4a9229e890c043ce9bfe88f",
+          "frameIndex": 4,
+          "frameHash": "de7c8f14a9ba2f8537045ca8618ee4a0dec5ddec60b4ebe2e6eeec4f378b2f81",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1482
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/moxie-capwell-dunk-power-right.webp",
+          "sourceSha256": "26ffe92a60aa4ff9b68aa285470371919ccb5db48d4b3d2538ff1c7dcd70aedc",
+          "frameIndex": 7,
+          "frameHash": "4777626bb191a4f85ac4640f0bb978e1f4d44a36f20e9395a337a868266ef433",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6529
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/moxie-capwell-dunk-windmill-right.webp",
+          "sourceSha256": "97e6d40d8ce9c0dd98b8db9da528f0c94722305f4853a89c446ef6c75bbb156a",
+          "frameIndex": 7,
+          "frameHash": "9e56987e749f4f1e159271efd4f6eceff16fcf8ed60789638e36f4a7c797d1d1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7197
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/moxie-capwell-dunk-reverse-right.webp",
+          "sourceSha256": "70937c18f26416b61dc2f59634541e64262f568d27fd96be678a6165b84581c2",
+          "frameIndex": 7,
+          "frameHash": "5615f0e781764eaf542be258bef86db72ee058c97ae419b01bb78ecba264ac68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6493
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/moxie-capwell-dunk-360-right.webp",
+          "sourceSha256": "3b7f7cd643d5976a25e497ea841fc92196986731dc9baaaae53523340f3f53a1",
+          "frameIndex": 7,
+          "frameHash": "a4888773465f232995941c1ef36afe9ab06d6ae34c90a5e3c01d08dc56fccc01",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8920
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/moxie-capwell-dunk-tomahawk-right.webp",
+          "sourceSha256": "5eb1854457fdd88e094fadc71e6618e252beec7d33bf223c9b02f5fd387c5e01",
+          "frameIndex": 7,
+          "frameHash": "b4b183c60372f97c6f5a561f4e231022bca907d9016ee52984b3cbf3d4ee0fc3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6106
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/moxie-capwell-dunk-double-right.webp",
+          "sourceSha256": "a7be9fa79a6976994ede17191bd12e892b3839db848a6fc035ea610303b34f38",
+          "frameIndex": 7,
+          "frameHash": "5725b7ad80ccab39fc5f6b6abaa37182a83c5db253ad72c0a0860f9b89fbf771",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6814
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/moxie-capwell-dunk-clutch-right.webp",
+          "sourceSha256": "27ddecb8e10132c9f1d54edaecc7ebdb2bd0b416f3dc31061c602d6a2589be58",
+          "frameIndex": 7,
+          "frameHash": "a599ccc6ef0cb54143a003816b8b4e00d326863a4b2184b58aaee654d1e08547",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5959
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/moxie-capwell-dunk-scythe-right.webp",
+          "sourceSha256": "62a92991f940fdf1e3aa921f261866e7f9e4c8e40100ca26bf8cb7d43e499258",
+          "frameIndex": 7,
+          "frameHash": "4d3d2619b46f6341978288162b29605af89a7c9d662a69057a4474a05c91ed68",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6146
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-power-right.webp",
+          "sourceSha256": "1f425f476b6dc1ba6bf4709015c7d64becb67b7e83ea657704c63493386ad16c",
+          "frameIndex": 7,
+          "frameHash": "5ed1db8d6440c17b10a7c6bade0ffb241fb45625f66c05120f3009a71c806845",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7188
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/moxie-capwell-alley-oop-reverse-right.webp",
+          "sourceSha256": "543be08664b4e78e71a40f0d74e1d5cd27ed00d8faf0972d5ffc1a6ae4a4012c",
+          "frameIndex": 7,
+          "frameHash": "4a6c44219d14c446d06c7db83c938461719d1d8d9c96156a282b7db21bb0c97a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6892
+        }
+      ]
+    }
+  ]
+}
