@@ -1,0 +1,1 @@
+dorian-mycel → fret-nova (Amp City Thunderchords) #bd5a2f / #eee6d5. Columns: idle, run, shoot, fall, celebrate, dunk-power, alley-oop-power. Rows: source, derived palette, changed-pixel mask (green changed, gray unchanged).

@@ -95,6 +95,27 @@ export function anchorTick(key, anchor) { const c=animationClips[key];const fram
 export function sampleAnimation(key, elapsedTicks=0) { const c=animationClips[key];if(!c)throw new RangeError(`Unknown animation: ${key}`);const duration=animationDuration(key),elapsed=Math.max(0,Number.isFinite(elapsedTicks)?elapsedTicks:0);let tick=c.loop?elapsed%duration:Math.min(elapsed,duration-1);for(const frame of sequenceFor(c)){if(tick<c.frames[frame].duration)return {frame,done:!c.loop&&elapsed>=duration};tick-=c.frames[frame].duration;}return {frame:0,done:false}; }
 
 // Interpolate within each authored frame duration, using the same loop as sampling.
+ // The PR #7 Juniper visual donor has different hand geometry from Marin's
+ // historical Echo-support baseline. Keep that baseline byte-for-byte when
+ // Juniper is not selected, and apply the measured tracks only for this donor.
+ // Review-only candidate: PR #13 diagnostics, actions 42096129966 / 42096646184.
+ if (supportingAnimationLibraries['marin-dusk']?.donorId === 'juniper-vale') {
+   Object.assign(athleteBallTracks['marin-dusk'], {
+     // These belong to Marin, NOT globally to every Juniper recipient.
+     'idle-ball':{height:[1.05,.75,.65,.9],forward:[6,7,7,6]},
+     dribble:{forward:[6,7,8,9,10,10,9,8,7,6]},
+     // Coordinated frames 3/4/5 = 9/8/9; heights remain inherited from
+     // animationClips.dribble-run, preserving the court-plane bounce.
+     'dribble-run':{forward:[8,9,10,9,8,9,11,10,9,8,8]},
+     receive:{height:[1.0,2.0,1.7,1.75],forward:[9,10,2,1]},
+     // Historical passing track scaled for the Juniper visual donor.
+     pass:{
+       height:[1,1.05,1.2,1.6,1.3,1].map(value=>value/.88),
+       forward:[5,4,13,19,16,8].map(value=>value/.88)
+     }
+   });
+ }
+
 function sampleFrameScalar(key, elapsedTicks, property, fallback,athleteId){
   const c=animationClips[key],duration=animationDuration(key),sequence=sequenceFor(c);
   const trackProperty=property==='ballHeight'?'height':'forward';
