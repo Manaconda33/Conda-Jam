@@ -34,15 +34,15 @@ jobs:
         run: |
           set -euo pipefail
           test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132afb958e75
-          if ! python -c 'from PIL import Image' >/dev/null 2>&1; then
-            timeout 120s python -m pip install --quiet pillow
+          if ! python3 -c 'from PIL import Image' >/dev/null 2>&1; then
+            timeout 120s python3 -m pip install --quiet pillow
           fi
       - name: Extract reviewed atlas frames and quantify silhouette/palette discontinuities
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p kraken-source-qa
-          python - <<'PY'
+          python3 - <<'PY'
           import json, hashlib, math
           from pathlib import Path
           from PIL import Image,ImageDraw,ImageFont
