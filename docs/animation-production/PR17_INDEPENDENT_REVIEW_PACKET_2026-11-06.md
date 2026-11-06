@@ -5,7 +5,7 @@
 ## Review object and accepted engineering evidence
 
 - PR under review: https://github.com/Manaconda33/Conda-Jam/pull/17 (target is the original PR #6 feature branch, **not** `main`)
-- Known-good audited source SHA: `da88109a215a116dab1695782ada4b98a1e92a5c`; documentation-only evidence commits may follow it.
+- Known-good full non-sparse integration HEAD: `8af10815ce9cb9d03040c788e9fd9c0c11c59f6b` ([full-tree 587/587 + audit pass](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001)); original first identity-gate checkpoint was `da88109`. Subsequent documentation-only commits may follow.
 - PR #6 original head: `55a2ab104d6b108cc08132fddc01b32afb958e75`
 - PR #7 donor-runtime input: `97119d54fd24c442c15192a798cae1e8a279eb1d`
 - PR #16 committed Marin animation blob: `2b1413fce2582fd588f7df111bfb719e8605f046`; regression-test blob `9456ffdcdf73f397c15a520b48f75a6cc91ca569`
@@ -22,11 +22,11 @@
 6. **Source/provenance:** confirm the inherited 706 missing clips, 40 disclosed non-verbatim prompt findings and zero frame shortfalls from fresh combined-tree audit. Neither count equality nor 746-identity equality waives the backlog or proves production-ready artwork.
 7. **Merge topology:** PR #17 targets PR #6, while PR #7 and PR #16 are separately open. Reviewer must explicitly reconcile source/dependency ordering and avoid double-applying donor/Marin edits. Existing draft diagnostic PR #13 must not be promoted merely because its diagnostic completed.
 
-## True non-sparse checkout: reproducible outstanding blocker
+## Historical PR #6 merge replay: separate Git-object maintenance issue
 
 Historical [repository-object diagnosis](MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2026-11-05.md) records [Actions run 42108460440](https://github.com/Manaconda33/Conda-Jam/actions/runs/42108460440): complete `main` checkout succeeded, but integration of pinned PR #6 failed during a promisor-object fetch. One reported missing object was `14b5d774b41ff4a4602e52347bc2d7d10a155617` (`upload-pack: not our ref`); another reported object was `7fb06e8242ff4cbf1d8cca4d4bab390188eb021c`.
 
-**Rechecked against GitHub object API on 2026-11-06:** blob `14b5d774b41ff4a4602e52347bc2d7d10a155617` still returns 404, while blob `7fb06e8242ff4cbf1d8cca4d4bab390188eb021c` is currently readable. The primary non-sparse blocker is therefore **not proven resolved**. Do not fabricate replacement blobs, rewrite original branches, or call the hash-verified 120-fixture scoped checkout a complete non-sparse checkout. Investigate reachability and repository-object integrity through authorized GitHub maintenance before waiving this gate. A fresh full-tree diagnostic must preserve exact source commits and store reproducible Git and Actions logs.
+**Updated resolution for the assembled branch:** a [separate reproducible full non-sparse checkout run](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001) directly materialized the precise assembled PR #17 head, with **55,024 tracked paths, zero missing**; ran **587/587 original tests**, regenerated the asset audit (746 expected unchanged findings) and passed identity validation. [Permanent review proof](PR17_NONSparse_INTEGRATION_CHECKOUT_2026-11-06.md). The historical `14b5d774` object still returns 404, but it has **no matching blob-tree entry in the pinned PR #6 or assembled PR #17 tip trees**. Preserve the historical failed replay record and do not synthesize a replacement; this no longer prevents verifying the assembled PR #17 directly. The recovered checkout does **not** waive strict artwork/visual or tracked-report acceptance.
 
 ## Release decision matrix
 
@@ -35,7 +35,8 @@ Historical [repository-object diagnosis](MARIN_COMBINED_TEST_PROVENANCE_TRIAGE_2
 | Actual combined-branch, hash-pinned runtime and tests | PASS as of `da88109` |
 | 587 scoped tests; lint/content/league/build | PASS as of `da88109` |
 | Full exact inherited audit identity and counts | PASS, not art acceptance |
-| Complete non-sparse historical Git checkout | BLOCKED by unresolved historic blob |
+| Exact assembled PR #17 head, complete non-sparse checkout | **PASS:** 55,024 tracked paths present, 587/587 tests, exact 746/746 audit identities |
+| Historical PR #6 partial-clone merge replay and unavailable Git object | Still documented (404), no direct tree reference; separate legacy maintenance issue |
 | Regenerate *authoritative* combined tracked `ASSET_AUDIT_LATEST.json/md` and `ASSET_STATUS.md` | PENDING; CI artifact and versioned evidence exist, but historical official files remain unchanged |
 | Marin hand/ball normal-dribble visual acceptance | HOLD |
 | Kraken receive frame style-consistency correction / acceptance | HOLD |
