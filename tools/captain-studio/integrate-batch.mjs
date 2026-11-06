@@ -238,7 +238,10 @@ function hashTree(root){
   execFileSync('git',['init','-q'],{cwd:root,stdio:'ignore'});
   execFileSync('git',['config','user.name','Captain Studio Integrator'],{cwd:root,stdio:'ignore'});
   execFileSync('git',['config','user.email','captain-studio-integrator@example.invalid'],{cwd:root,stdio:'ignore'});
-  execFileSync('git',['add','-A'],{cwd:root,stdio:'ignore'});
+  // This stage contains only the pinned base tree and accepted new package files.
+  // Some tracked production evidence lives under paths ignored for future writes
+  // (for example artifacts/). A newly initialized index must retain those paths.
+  execFileSync('git',['add','-f','-A'],{cwd:root,stdio:'ignore'});
   return execFileSync('git',['write-tree'],{cwd:root,encoding:'utf8'}).trim();
 }
 function batchIdentity({baseCommit,packageIds,config}){
