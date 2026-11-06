@@ -103,6 +103,15 @@ See [`MARIN_120_FIXTURE_SCOPED_TEST_SUITE_GREEN_2026-11-05.md`](./MARIN_120_FIXT
 - The most recent **report-only** source-art audit had 2,397 inspected clips, 570 atlases and 5,489 source drawings, but was **INCOMPLETE**: 706 missing-clip findings and 40 non-verbatim prompt findings, with zero target-frame shortfalls. No strict audit findings were accepted, waived or silently repaired.
 - Independent rendered pixel-contact art acceptance, full historical checkout/provenance, combined integration signoff, and explicit permission for any merge/deployment remain outstanding.
 
+## Original-branch provenance delta established — 2026-11-05
+
+[Three independent original-branch pixel audits](https://github.com/Manaconda33/Conda-Jam/actions/runs/42138506054) **all executed successfully** and established exact finding-by-finding attribution. See [`MARIN_PR6_PR7_AUDIT_FINDING_ATTRIBUTION_2026-11-05.md`](./MARIN_PR6_PR7_AUDIT_FINDING_ATTRIBUTION_2026-11-05.md) for the source pins, finding identity matches, evidence artifacts, Git promisor fetch interpretation and narrowly targeted provenance remediation.
+
+- PR #6 **resolved 72 missing clips**, 24 each for Kraken, Krios and Leo; no new audit errors.
+- PR #7 **surfaced 36 new derived-recipient prompt warnings**, inherited through the four `promptVerbatim=false` original source clips (`layup` and `fall` for Reed Ashcroft and Juniper Vale). Marin's two `layup`/`fall` warnings are in this group; Marin and Juniper each have **zero missing clips**.
+- Combined audit is the **exact union** of these source-level changes: 706 remaining missing clips, 40 prompt warning entries and zero target-frame shortfalls. **Those findings are not waived** by the green 587/587 scoped gameplay test run.
+- The earlier Git partial-clone fetch failure includes one object now verified **available via GitHub's REST Git/blob API** (the PR7 supporting-reuse report); the other referenced object still needs legitimate materialization and diagnosis. Do not equate a partial-clone `upload-pack` failure with proof the entire source history is lost.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
