@@ -34,7 +34,7 @@ jobs:
           sparse-checkout-cone-mode: false
           lfs: false
 
-      - name: Verify all 13 immutable review-source blobs and local renderer hunk
+      - name: Verify 11 immutable upstream blobs, 2 reviewed source/test fixes and local renderer hunk
         shell: bash
         run: |
           set -euo pipefail
@@ -47,8 +47,10 @@ jobs:
           test "$(git hash-object 'src/content/supporting-donor-assignment.js')" = 2ae23f9f7405a28588260932bef31a14ff462a1b
           test "$(git hash-object 'src/content/supporting-donor-map.js')" = 41a4a0a02183629461f4a2b705981f08935630b8
           test "$(git hash-object 'src/content/supporting-uniform-profiles.js')" = 422b478dd8d37439f8e020f2c4f0b73ed92a358d
-          test "$(git hash-object 'src/render/uniform-palette.js')" = 9d3a1b6a10cd4275b735aac40d5f85602f76c386
-          test "$(git hash-object 'tests/supporting-animation-reuse.test.js')" = 8ecf6064ac8aa084e5d348acd82f5c490788886b
+          # Independent reviewer correction: cache key now includes action clip. Original PR #7 blob 9d3a1b6a10cd4275b735aac40d5f85602f76c386 is retained in history.
+          test "$(git hash-object 'src/render/uniform-palette.js')" = 2224596cd8ef91dc543dd8be954d97769a7e69c2
+          # Reviewer-added regression for same source atlas with clip-specific fall mask. Upstream test blob 8ecf6064ac8aa084e5d348acd82f5c490788886b remains preserved.
+          test "$(git hash-object 'tests/supporting-animation-reuse.test.js')" = de4c9329ab5cc31871615a62c5517d8ff66861d6
           test "$(git hash-object 'tests/supporting-donor-assignment.test.js')" = 19a0446aa7a55f875cce37d805451c5ed8ecd65a
           test "$(git hash-object 'tools/build.mjs')" = 866adb381ed8a78e2feda1e3c1ff6ea2b1012056
           test "$(git hash-object 'tools/generate-supporting-donor-map.mjs')" = e882f7fd48e3227d4a417f137168d3821ad7a8aa
