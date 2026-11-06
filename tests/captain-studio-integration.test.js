@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, readFile, rm, stat as statFile, symlink, writeFile } from 'node:fs/promises';
+import { access, mkdtemp, mkdir, readFile, rm, stat as statFile, symlink, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -90,6 +90,15 @@ test('integrator stages valid packages only and produces identical trees in any 
   const stagedTreeFiles=execFileSync('git',['ls-tree','-r','--name-only',first.treeSha],{cwd:first.stagingRoot,encoding:'utf8'});
   assert.match(stagedTreeFiles,/^artifacts\/pinned-evidence\.txt$/m,
     'integration tree must preserve tracked artifacts even when ignored by the base .gitignore');
+  const originalObject=base.git('rev-parse',`${base.base}:artifacts/pinned-evidence.txt`);
+  await assert.rejects(
+    () => access(path.join(first.stagingRoot,'.git','objects',originalObject.slice(0,2),originalObject.slice(2))),
+    {code:'ENOENT'},
+    'unchanged evidence blobs must be reused from the pinned base Git object database',
+  );
+  const alternateStore=await readFile(path.join(first.stagingRoot,'.git','objects','info','alternates'),'utf8');
+  assert.equal(alternateStore.trim(),path.join(base.root,'.git','objects'),
+    'new integration Git tree must borrow the exact pinned base object database');
   assert.equal(first.batchId,second.batchId);
   assert.equal(first.reportBytes,second.reportBytes);
   assert.equal(first.sidecarLedgerBytes,second.sidecarLedgerBytes);
