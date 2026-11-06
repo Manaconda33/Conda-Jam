@@ -1,0 +1,45 @@
+name: PR17 renderer and donor focused independent regression (read only)
+on:
+  push:
+    branches:
+      - integration/pr6-pr7-marin-review-20261106
+    paths:
+      - .github/workflows/pr17-renderer-review-unit-ci.yml
+      - src/render/uniform-palette.js
+      - tests/supporting-animation-reuse.test.js
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  renderer-unit-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout source, tests and immutable source manifest without artwork binaries
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout: |
+            /package.json
+            /src/
+            /tests/
+            /tools/
+          sparse-checkout-cone-mode: true
+          lfs: false
+      - name: Validate precise reviewed source/test hashes and source invariants
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git hash-object src/render/uniform-palette.js)" = 2224596cd8ef91dc543dd8be954d97769a7e69c2
+          test "$(git hash-object tests/supporting-animation-reuse.test.js)" = de4c9329ab5cc31871615a62c5517d8ff66861d6
+          test "$(git hash-object src/render/animation-sprites.js)" = f8cae47f1235907bae66202b0d12c4681a057230
+          test "$(git hash-object src/content/supporting-donor-map.js)" = 41a4a0a02183629461f4a2b705981f08935630b8
+          node --check src/render/uniform-palette.js
+          node --check tests/supporting-animation-reuse.test.js
+      - name: Run donor mapping and shared atlas clip mask regression without image decoder installation
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --version
+          node --test tests/supporting-animation-reuse.test.js tests/supporting-donor-assignment.test.js
