@@ -1,4 +1,4 @@
-name: Kraken receive source-versus-renderer QA (read-only)
+name: Kraken receive original-source atlas evidence (read-only)
 on:
   push:
     branches:
@@ -9,15 +9,14 @@ on:
 permissions:
   contents: read
 jobs:
-  original-receive-source:
-    name: Hash and compare accepted raw receive/idle sprite frames
+  source:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 10
     steps:
-      - name: Checkout only immutable original Kraken production art and metadata
+      - name: Checkout immutable original Kraken atlases and manifest
         uses: actions/checkout@v4
         with:
-          ref: 55a2ab104d6b108cc08132fddc01b32afb958e75
+          ref: 55a2ab104d6b108cc08132afb958e75
           fetch-depth: 1
           filter: blob:none
           sparse-checkout: |
@@ -26,120 +25,44 @@ jobs:
             /public/assets/animation/kraken-idle-ball-right.webp
             /public/assets/animation/kraken-pass-right.webp
             /public/assets/animation/manifest.json
-            /tools/generate-art/clean-kraken-receive4-attempt02-cleanup02.py
-            /tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md
           sparse-checkout-cone-mode: false
-      - name: Verify pinned revision, Python 3 and system Pillow decoder
+      - name: Verify exact source bytes and export frame geometry
         shell: bash
         run: |
           set -euo pipefail
           test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132afb958e75
-          command -v python3
-          python3 --version
-          if ! python3 -c 'from PIL import Image' >/dev/null 2>&1; then
-            timeout 120s sudo apt-get update -qq
-            timeout 120s sudo apt-get install -y -qq python3-pil
-          fi
-          python3 -c 'from PIL import Image; print("Pillow",Image.__version__)'
-      - name: Extract reviewed atlas frames and quantify silhouette/palette discontinuities
-        shell: bash
-        run: |
-          set -euo pipefail
           mkdir -p kraken-source-qa
-          python3 - <<'PY'
-          import json, hashlib, math
-          from pathlib import Path
-          from PIL import Image,ImageDraw,ImageFont
-          root=Path('public/assets/animation')
-          m=json.loads((root/'manifest.json').read_text())
-          character=m['characters']['kraken']
-          keys=['idle','idle-ball','receive','pass']
-          rows=[]; panels=[]; maxframes=0
-          for key in keys:
-              clip=character['directions']['right'][key]
-              p=Path(clip['src'].removeprefix('./'))
-              if not p.exists(): raise RuntimeError(f'Expected original atlas missing: {p}')
-              digest=hashlib.sha256(p.read_bytes()).hexdigest()
-              if digest != clip['sha256']: raise RuntimeError(f'Atlas hash differs from registered manifest: {key}')
-              with Image.open(p) as im: atlas=im.convert('RGBA')
-              frames=clip['frames']
-              maxframes=max(maxframes,len(frames))
-              fr=[]
-              for i,f in enumerate(frames):
-                  box=(f['x'],f['y'],f['x']+f['w'],f['y']+f['h'])
-                  tile=atlas.crop(box)
-                  pix=tile.load()
-                  coords=[]; rgb=[]
-                  for y in range(tile.height):
-                      for x in range(tile.width):
-                          r,g,b,a=pix[x,y]
-                          if a>=32:
-                              coords.append((x,y))
-                              rgb.append((r,g,b,a))
-                  if not coords:raise RuntimeError(f'Empty source frame: {key}/{i}')
-                  xmin=min(v[0] for v in coords);xmax=max(v[0] for v in coords)
-                  ymin=min(v[1] for v in coords);ymax=max(v[1] for v in coords)
-                  # Perceptual color saturation vs value among visible pixels, not a quality verdict.
-                  hsv=[]
-                  for r,g,b,a in rgb:
-                      mx=max(r,g,b);mn=min(r,g,b)
-                      hsv.append(((mx-mn)/mx if mx else 0,mx/255))
-                  saturation=sum(s for s,v in hsv)/len(hsv)
-                  value=sum(v for s,v in hsv)/len(hsv)
-                  frame={'index':i,'source':str(p),'atlas_sha256':digest,'cell':box,
-                    'bbox':[xmin,ymin,xmax+1,ymax+1],'opaquePixels':len(coords),
-                    'coverage':round(len(coords)/(tile.width*tile.height),5),
-                    'visibleMeanSaturation':round(saturation,4),'visibleMeanBrightness':round(value,4),
-                    'baselineY':clip.get('baselineY'),'frameHash':f.get('hash')}
-                  fr.append(frame)
-                  tile.save(f'kraken-source-qa/{key}-frame-{i:02d}.png')
-              rows.append({'clip':key,'reviewed':clip.get('reviewed'),'source':str(p),
-                'atlas_sha256':digest,'size':atlas.size,'frames':fr})
-          # One contact sheet: original source pixels nearest-neighbor, identical canvas cells
-          scale=3;cellW=280;cellH=360;labelH=42;margin=14
-          board=Image.new('RGB',(cellW*(maxframes+1)+margin*2,cellH*len(keys)+margin*2),(29,31,37))
-          d=ImageDraw.Draw(board)
-          for j,row in enumerate(rows):
-              oy=margin+j*cellH
-              d.text((margin+10,oy+12),f"{row['clip']}  SHA:{row['atlas_sha256'][:10]}",fill=(241,241,241))
-              for fr in row['frames']:
-                  tile=Image.open(f"kraken-source-qa/{row['clip']}-frame-{fr['index']:02d}.png").convert('RGBA')
-                  dst=tile.resize((tile.width*scale,tile.height*scale),Image.Resampling.NEAREST)
-                  x=margin+(fr['index']+1)*cellW+max(0,(cellW-dst.width)//2)
-                  y=oy+labelH
-                  # Checkerboard backing to make transparent missing parts apparent
-                  back=Image.new('RGB',dst.size,(225,226,229));bd=ImageDraw.Draw(back)
-                  for cy in range(0,dst.height,24):
-                      for cx in range(0,dst.width,24):
-                          if (cx//24+cy//24)%2:bd.rectangle((cx,cy,cx+23,cy+23),fill=(185,187,193))
-                  back.paste(dst,(0,0),dst)
-                  board.paste(back,(x,y))
-                  d.text((x,oy+12),f"f{fr['index']}  {fr['coverage']:.2f} alpha",fill=(225,225,225))
-          board.save('kraken-source-qa/source-contact-sheet.png')
-          # Accepted receive source has no shared-donor palette path (captain Kraken).
-          report={'originalPR6':'55a2ab104d6b108cc08132fddc01b32afb958e75',
-            'athlete':'kraken','sourceSelection':'original-authored, no paletteVariantFor call for captain',
-            'mirroring':'reviewed right atlas mirrored horizontally for left-facing',
-            'clipComparisons':rows,
-            'historicalReview':'Earlier October 29 independent source review acknowledged modest color/style contrast of replacement pose and accepted gameplay-scale registration.',
-            'meaning':'Source pixels verified; color and silhouette differences require visual art acceptance, not automatic renderer or physics edits'}
-          Path('kraken-source-qa/report.json').write_text(json.dumps(report,indent=2)+'\n')
-          print(json.dumps({r['clip']:{'sha':r['atlas_sha256'],'frames':len(r['frames']),'coverage':[f['coverage'] for f in r['frames']],
-            'mean_saturation':[f['visibleMeanSaturation'] for f in r['frames']],
-            'mean_brightness':[f['visibleMeanBrightness'] for f in r['frames']]} for r in rows},indent=2))
-          PY
-          {
-            echo '## Kraken receive: source atlas diagnosis'
-            echo '- Original PR6 immutable source PNG/WebP and manifest hashes match'
-            echo '- All frame cells extracted on identical checkerboard; atlas geometry and alpha occupancy recorded'
-            echo '- No game renderer or animation code changed'
-            echo '- Visual acceptance remains open pending screenshot comparison and independent art review'
-          } >> "$GITHUB_STEP_SUMMARY"
-      - name: Upload source pixel frames, contact sheet and exact-frame metrics
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import crypto from 'node:crypto';
+          import path from 'node:path';
+          const original='55a2ab104d6b108cc08132afb958e75';
+          const m=JSON.parse(fs.readFileSync('public/assets/animation/manifest.json','utf8'));
+          const athlete=m.characters.kraken,keys=['idle','idle-ball','receive','pass'],clips={};
+          for(const key of keys){
+            const clip=athlete?.directions?.right?.[key];
+            if(!clip?.reviewed||!clip?.frames?.length)throw Error('Missing reviewed clip '+key);
+            const p=clip.src.replace(/^\.\//,'');
+            const bytes=fs.readFileSync(p);
+            const sha=crypto.createHash('sha256').update(bytes).digest('hex');
+            if(sha!==clip.sha256)throw Error('Original art SHA differs from accepted manifest '+key);
+            const dest='kraken-source-qa/'+path.basename(p);
+            fs.writeFileSync(dest,bytes);
+            clips[key]={src:clip.src,sha256:sha,
+              dimensions:[clip.columns,clip.rows],
+              frames:clip.frames.map((x,i)=>({index:i,x:x.x,y:x.y,w:x.w,h:x.h,hash:x.hash??null})),
+              baselineY:clip.baselineY??null,reviewed:clip.reviewed,
+              originalProvenance:clip.provenance?.classification??null};
+          }
+          fs.writeFileSync('kraken-source-qa/frame-geometry.json',
+            JSON.stringify({originalPR6:original,athlete:'kraken',scope:'original source atlas only, no sprite modification',clips},null,2)+'\n');
+          console.log(JSON.stringify({source:original,hashes:Object.fromEntries(Object.entries(clips).map(([k,v])=>[k,v.sha256])),frames:Object.fromEntries(Object.entries(clips).map(([k,v])=>[k,v.frames.length]))},null,2));
+          NODE
+      - name: Upload complete original WebP art and verified frame metadata
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: kraken-receive-original-frame-inspection
+          name: kraken-hash-verified-original-atlas-sources
           path: kraken-source-qa/
           if-no-files-found: error
           retention-days: 7
