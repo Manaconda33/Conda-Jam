@@ -1,0 +1,59 @@
+name: PR17 independently verify checked-in audit snapshots (read only)
+on:
+  push:
+    branches:
+      - integration/pr6-pr7-marin-review-20261106
+    paths:
+      - .github/workflows/pr17-authoritative-snapshot-proof.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  compare-verified-full-tree-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout only the current committed report and guard files
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout: |
+            /.github/workflows/pr17-authoritative-snapshot-proof.yml
+            /tools/check-pr17-authoritative-snapshots.mjs
+            /docs/animation-production/ASSET_AUDIT_LATEST.json
+            /docs/animation-production/ASSET_AUDIT_LATEST.md
+            /docs/animation-production/ASSET_STATUS.md
+          sparse-checkout-cone-mode: false
+      - name: Retrieve the previously verified full non-sparse tree audit
+        uses: actions/download-artifact@v4
+        with:
+          name: pr17-full-checkout-object-diagnostic
+          run-id: 42263232001
+          github-token: ${{ github.token }}
+          path: ci-audit-proof/
+      - name: Confirm immutable evidence and compare full JSON, Markdown and archival status
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '76e899c4457e162553139d66873fa67c3b25cee763d216a5d608893c87c5af2d  ci-audit-proof/audit.json' | sha256sum -c -
+          echo '112ffc9fd3b6681afe96bca182ae8df6156c5377b0585ac2eb256f399b760cb2  ci-audit-proof/audit.md' | sha256sum -c -
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const x=JSON.parse(fs.readFileSync('ci-audit-proof/summary.json','utf8'));
+          const p=JSON.parse(fs.readFileSync('ci-audit-proof/physical-checkout.json','utf8'));
+          const ok=x.head==='8af10815ce9cb9d03040c788e9fd9c0c11c59f6b'&&x.fullCheckoutPassed&&x.fullSuitePassed&&x.codes?.audit==='0'&&x.codes?.['audit-identity']==='0'&&p.missingPaths===0&&p.trackedPaths===55024;
+          if(!ok)throw Error('Downloaded full checkout audit provenance not proven');
+          console.log('Full original test/asset evidence pinned to validated non-sparse source');
+          NODE
+          node tools/check-pr17-authoritative-snapshots.mjs ci-audit-proof/audit.json ci-audit-proof/audit.md docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md docs/animation-production/ASSET_STATUS.md ci-audit-proof/snapshot-proof.json
+          cat ci-audit-proof/snapshot-proof.json >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve reproducible proof with no Git writes
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr17-checked-in-snapshot-proof
+          path: ci-audit-proof/snapshot-proof.json
+          if-no-files-found: warn
+          retention-days: 7

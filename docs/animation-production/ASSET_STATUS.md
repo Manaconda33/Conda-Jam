@@ -1,3 +1,27 @@
+## Current PR #17 combined integration audit — November 6, 2026 (review only)
+
+**INCOMPLETE: engine/test regression PASS; artwork/backlog and merge acceptance NOT GRANTED.**
+
+The authoritative combined-tree audit was generated from the previously fully materialized and independently tested integration source commit `8af10815ce9cb9d03040c788e9fd9c0c11c59f6b` in [successful Actions run 42263232001](https://github.com/Manaconda33/Conda-Jam/actions/runs/42263232001). Its artifact bytes and the immutable game-source Git blobs were re-verified at publisher commit `a358a4e50943f2b40be5e23d9ed67f2f178e4986` in [snapshot promotion run 42267735163](https://github.com/Manaconda33/Conda-Jam/actions/runs/42267735163). The matching machine-readable and Markdown reports are `ASSET_AUDIT_LATEST.json` and `ASSET_AUDIT_LATEST.md` in this branch. Generation timestamp: `2026-11-06T17:43:23.278Z`. All 746 individual finding identities agree with pinned original PR #6/#7 evidence.
+
+| Audit category | Verified combined branch |
+| --- | ---: |
+| Athletes / clips per athlete | 105 / 29 |
+| Registered inspected clips | 2,397 |
+| Unique source libraries / atlases / decoded drawings | 42 / 570 / 5,489 |
+| Original authored / derived palette clips | 570 / 1,827 |
+| Missing captain clips (unaccepted backlog) | **706** |
+| Disclosed non-verbatim prompts (not recovered/waived) | **40** |
+| Frame target shortfalls / newly introduced finding identities | 0 / 0 |
+| Strict artwork audit `ok` | **false** |
+
+**Visual quality HOLD:** Marin Dusk normal-dribble start/loop hand contact and Kraken `receive` frame style continuity still need independently accepted corrections or explicit signoff. Exact simulation and unit-test pass does not supersede sprite review.
+
+**Merge HOLD:** independent renderer/donor code review, strict authored-art backlog and source-disclosure disposition, and owner authorization of dependency ordering remain outstanding. There has been no merge to `main`, deployment, or change to original PR #6/#7/#13/#16 branches or the protected Myth workspace.
+
+### Historical captain-production status entries (preserved verbatim below)
+
+The October 29 entries document the then-current PR #6 source alone, including its historic **four** non-verbatim prompt findings; those entries are archival context and not the current combined-branch result of **40**.
 ## Current captain lane — 2026-10-29 12:43 UTC
 
 Kraken J.07 is **29/29 accepted bespoke clips**. Final `dunk-tomahawk` attempt05/cleanup01 is registered as a lossless derived atlas with Kraken-specific ball-track attempt05. Independent source/cleanup/gameplay and current-branch no-injection loader reviews pass 60 captures for all poses, facings and zooms. Contact frames6–9, release tick21, expected-side tick23 score, tick30 recovery, zero browser errors, and exact atlas hash are verified. Raw source, exact prompt, cleanup layout and previews, all rejected/interrupted calibrations, and runtime captures remain preserved.

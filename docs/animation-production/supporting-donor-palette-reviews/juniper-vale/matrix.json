@@ -1,0 +1,2624 @@
+{
+  "donorId": "juniper-vale",
+  "profile": "juniper-body-mask-v6",
+  "maskProfile": {
+    "id": "juniper-body-mask-v6",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.39,
+          0.73
+        ],
+        "y": [
+          0.38,
+          0.65
+        ]
+      },
+      "hue": [
+        235,
+        305
+      ],
+      "chromaMin": 24,
+      "luma": [
+        16,
+        150
+      ],
+      "sourceColor": "#443b92"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.39,
+          0.74
+        ],
+        "y": [
+          0.64,
+          0.82
+        ]
+      },
+      "hue": [
+        235,
+        305
+      ],
+      "chromaMin": 24,
+      "luma": [
+        12,
+        145
+      ],
+      "sourceColor": "#443b92"
+    },
+    "clips": {
+      "fall": {
+        "jersey": {
+          "region": {
+            "x": [
+              0.62,
+              0.95
+            ],
+            "y": [
+              0.76,
+              0.94
+            ],
+            "polygon": [
+              [
+                0.64,
+                0.83
+              ],
+              [
+                0.76,
+                0.76
+              ],
+              [
+                0.91,
+                0.8
+              ],
+              [
+                0.95,
+                0.89
+              ],
+              [
+                0.79,
+                0.94
+              ],
+              [
+                0.65,
+                0.91
+              ]
+            ]
+          },
+          "hue": [
+            235,
+            305
+          ],
+          "chromaMin": 24,
+          "luma": [
+            16,
+            150
+          ],
+          "sourceColor": "#443b92"
+        },
+        "shorts": {
+          "region": {
+            "x": [
+              0.05,
+              0.55
+            ],
+            "y": [
+              0.81,
+              0.95
+            ]
+          },
+          "hue": [
+            235,
+            305
+          ],
+          "chromaMin": 24,
+          "luma": [
+            12,
+            145
+          ],
+          "sourceColor": "#443b92"
+        }
+      }
+    },
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/juniper-vale/",
+      "alphaMismatchPixels": 0
+    }
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "cedarbrook-wardens",
+      "teamName": "Cedarbrook Wardens",
+      "playerId": "willow-root",
+      "palette": [
+        "#315e3e",
+        "#34a3a0"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "crimson-harbor-chains",
+      "teamName": "Crimson Harbor Chains",
+      "playerId": "vanta-slate",
+      "palette": [
+        "#25212a",
+        "#b52d41"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "crownfire-sovereigns",
+      "teamName": "Crownfire Sovereigns",
+      "playerId": "auric-scale",
+      "palette": [
+        "#18385d",
+        "#d8ad49"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "firenze-serenity",
+      "teamName": "Firenze Serenity",
+      "playerId": "sera-bellini",
+      "palette": [
+        "#398d78",
+        "#9c394f"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "london-royal-spots",
+      "teamName": "London Royal Spots",
+      "playerId": "poppy-stitch",
+      "palette": [
+        "#244985",
+        "#d84949"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "neon-circuit-pilots",
+      "teamName": "Neon Circuit Pilots",
+      "playerId": "jett-byte",
+      "palette": [
+        "#26bad0",
+        "#d03d9f"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "new-orleans-fleur-noire",
+      "teamName": "New Orleans Fleur Noire",
+      "playerId": "sylvie-shutter",
+      "palette": [
+        "#ddd9d1",
+        "#715381"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "scoria-rams",
+      "teamName": "Scoria Rams",
+      "playerId": "flint-rooker",
+      "palette": [
+        "#c83f2c",
+        "#35383c"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "vesper-harbor-undertow",
+      "teamName": "Vesper Harbor Undertow",
+      "playerId": "marin-dusk",
+      "palette": [
+        "#773c49",
+        "#bd865f"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/juniper-vale-idle-right.webp",
+          "sourceSha256": "58408c99cf5688b5f57199e19fff6e08bc3706448b059835144c0956d33f98a5",
+          "frameIndex": 2,
+          "frameHash": "b2027a8077cbba7c6430b53d96ae1d49b33234d4fef66ec84ee5cf202cdb1d00",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1825
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/juniper-vale-idle-ball-right.webp",
+          "sourceSha256": "d635a3fd6ae72d2e616242f02c959e29b6ec373242d6d457d50b55b0c4fdc076",
+          "frameIndex": 1,
+          "frameHash": "1162a1a343912549a3a11462f2c4a84ae98c46fb50353fb2b72e22cb4313dbb8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 903
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/juniper-vale-dribble-right.webp",
+          "sourceSha256": "1a38d34970be50caecc7b2627b938d258aac55ffc4f4d6bb6f6ba9be96181e0f",
+          "frameIndex": 4,
+          "frameHash": "16b819c7f2842262f2a12ba10286cb02855e7351ff725f6f823867c4207b561d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3089
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/juniper-vale-run-right.webp",
+          "sourceSha256": "5eac26586dc222ad863b5c1b2b33ad779173433686408a63c3915714f72d3390",
+          "frameIndex": 5,
+          "frameHash": "479f258887181a2587ec80e6058d705bcb90aed25312785ec1b9fc74f0a9028c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3102
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/juniper-vale-dribble-run-right.webp",
+          "sourceSha256": "9e3325659a548f95ecfb9a9e1d97f50b13cb5a2ebd0b79cdfedef86c69a3b57e",
+          "frameIndex": 5,
+          "frameHash": "af965fcfd363a7e00a14bf95f410f8ba437999cb006ec7e10571c04238a8c50c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3305
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/juniper-vale-shoot-right.webp",
+          "sourceSha256": "42eda75d421e583584b0be47e89683a5ff7e41a110b42477ceaf4119c994cce4",
+          "frameIndex": 4,
+          "frameHash": "23e922cb702da5da01cd3c0d1cc69c3c8ba2cb63e98c1d3b27c6fc87912e3253",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1611
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/juniper-vale-pass-right.webp",
+          "sourceSha256": "ffe8752f99d81ce59c8143fa02ac031043644e8531b2d5ee3ff2a4c31539c2a4",
+          "frameIndex": 2,
+          "frameHash": "20c7a7580318fb23f65231e1681cdda93311fe767f3bff7c4c40c86120f4874b",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1977
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/juniper-vale-pass-overhead-right.webp",
+          "sourceSha256": "57e8ec8a07194146f20a100cd28c48e49f0b1a1d24c3b329187fbd7d86c123c5",
+          "frameIndex": 2,
+          "frameHash": "262c6975fde666cd36f347e54020551258351c8e9b9e23b92eed6f9b24b81da5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2136
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/juniper-vale-pass-behind-right.webp",
+          "sourceSha256": "a460d18f5139b5fea77cb8868f1184a952723f7b8d827c063bcdcb932f8c535b",
+          "frameIndex": 2,
+          "frameHash": "0ab98878e299d36efa95143ec32e4a43ce3000d58b624e7bce9c737522e32791",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1994
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/juniper-vale-receive-right.webp",
+          "sourceSha256": "d90bd73bdc38b651f127104000df49841d2c66eec15bafc748830fae657d3da1",
+          "frameIndex": 1,
+          "frameHash": "663581f024fd596e898eeabbeb6342dbcde47ce0eab9cd3d4863ef91a19b7f5c",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1273
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/juniper-vale-pickup-right.webp",
+          "sourceSha256": "15ec958d4589bb0227ae4e9de06a2660d203cefbd73e0401eff3e015e764322d",
+          "frameIndex": 2,
+          "frameHash": "09e15f2abea37c02cab0ec290be954c9908968adcaa3b222d2b51c8c963ff362",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1587
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/juniper-vale-layup-right.webp",
+          "sourceSha256": "a0e19e36d7ea5517575cf6bd6491e46109b8332d2fc627302e8f283ca9b8e2e2",
+          "frameIndex": 3,
+          "frameHash": "b78fa2cb286d1e25acbaf4fcce195aa44792826b519cf3a5d9ee79ae1e26b7ef",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2189
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/juniper-vale-layup-reverse-right.webp",
+          "sourceSha256": "2bf25d9b992f9d22d7e976ee2653f0da057b7637ab7efdb4912dd5443aa30877",
+          "frameIndex": 3,
+          "frameHash": "3e7bae6588cdb1b60fbfa6be3a4338a212cc09b4bc08e001a800e5be152ab3ff",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1510
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/juniper-vale-block-right.webp",
+          "sourceSha256": "7fbd6959ec2832660da07e3ba689694b6cfaeec5ca5275b55ead6878c4b33fab",
+          "frameIndex": 1,
+          "frameHash": "7f4c0bad24515e1f0d6063f20b68372b563e39a8fc5111061bbdc6d40a12ae5f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 475
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/juniper-vale-steal-right.webp",
+          "sourceSha256": "ed61bef99c4b07b2142677938f222bd837437149c3910d623a7c41cea8be8589",
+          "frameIndex": 3,
+          "frameHash": "594cdf496d7ba1575b89c315c2d32c1fdbf9c35d90633f7594847ffb41fd2361",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3235
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/juniper-vale-push-right.webp",
+          "sourceSha256": "cef44862940bf54041543341feff37f5fb27fe798051a26412f556231b77faec",
+          "frameIndex": 5,
+          "frameHash": "4bf8493f386c10cfe68b82aca2aa6744a8152a01101d172e6e55e2d7ccbf2fc7",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3211
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/juniper-vale-rebound-right.webp",
+          "sourceSha256": "cee83b7b1f0ecef96e8aa082ca364f37bd99a923f20e90eba7bab04681700fef",
+          "frameIndex": 2,
+          "frameHash": "48795a7a21ff93aa0b0e0565601f2939cb7e072a4be804dbbc22dca554eec99d",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 912
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/juniper-vale-fall-right.webp",
+          "sourceSha256": "dde0a395934a5666786a9efc694424dd0f7442ed7cf705c26719ef7e09778939",
+          "frameIndex": 4,
+          "frameHash": "5ebac7c1afd00cc62078a8a1847076872c8a6c5df35d29eae33545fbea82242e",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2038
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/juniper-vale-celebrate-right.webp",
+          "sourceSha256": "3cdff36cd66d4c49d98ff9840587cb225c7448b0c9b3b9a0496d1114c6fc5bf4",
+          "frameIndex": 4,
+          "frameHash": "be82e2b3002a7ce80501d70d52bd78ea0e0b524a0bff8c12c96bc928b323ec3f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4053
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/juniper-vale-dunk-power-right.webp",
+          "sourceSha256": "78b380de3edd20d81af3dddca879415c2d6a87b6232f7ed9b0fa71b6af5012ff",
+          "frameIndex": 7,
+          "frameHash": "a76fd65657e519a76b31ca00207077349d89937a99d487170f6ea205ab2e981a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1830
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/juniper-vale-dunk-windmill-right.webp",
+          "sourceSha256": "07d761f93e61c5e9d96b1087063c101c5d24f1a5a4d15eb18ddb4e1ef19adb97",
+          "frameIndex": 7,
+          "frameHash": "b93967fa898736e17d730526b5ba5c92b9fda0ced99de3c047452ffcdd2223c9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2159
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/juniper-vale-dunk-reverse-right.webp",
+          "sourceSha256": "fd3058110252ced7a008911c581acd10a3f045798df8b28c121ffdcaee286e8a",
+          "frameIndex": 7,
+          "frameHash": "86a17c0a7324a1192243213f531308ef6b19a09fe53bcac55a45f12de61e1442",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2157
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/juniper-vale-dunk-360-right.webp",
+          "sourceSha256": "037ecc303960f75cb8fc84075213b327005fe4472b5bd20bafa3bf2a51036f4f",
+          "frameIndex": 7,
+          "frameHash": "26029fbfeadb3c95a8c756bff4f1f9c90bc6911f4933091f8b2400217ed93884",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5541
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/juniper-vale-dunk-tomahawk-right.webp",
+          "sourceSha256": "812968cd8a26f342a4d8f4839a631fb17490ddc5ceab7f23b89c63507bcad374",
+          "frameIndex": 7,
+          "frameHash": "1a7dd81ab147f223298171e819af123cc9cfd6f2e65aefcdf29cc836b40dd505",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5075
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/juniper-vale-dunk-double-right.webp",
+          "sourceSha256": "8b2079e7b56c4c830923f7e025da5acaac9a4ff46332748392f52da34674fd02",
+          "frameIndex": 7,
+          "frameHash": "68e93810fe342de5c50e7fb001aba16006af6f08349741dce934de8c66993dac",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4340
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/juniper-vale-dunk-clutch-right.webp",
+          "sourceSha256": "5483af800d23cda5c68839ee7e34e7377d36b33b99b6f60e40fc454c50521600",
+          "frameIndex": 7,
+          "frameHash": "b6460866395d57b5fdac57a49cf7091e187712cb0d6ff195de59847a654055ad",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4092
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/juniper-vale-dunk-scythe-right.webp",
+          "sourceSha256": "4e8839dd61b72e8ffd03f9ab81291c2501d0bc32b0601abace73d91a3470e561",
+          "frameIndex": 7,
+          "frameHash": "8efe9dffd51636f349bd7fb4cab05900cd67f482b105e287f8d572a864a6d060",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4127
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-power-right.webp",
+          "sourceSha256": "b8f094fe28b8d095c65c85a0186de19843305b1ed05295a92f5027aba980b4aa",
+          "frameIndex": 7,
+          "frameHash": "df4d2e8a3f524f2034be678053dc46d5d401d40840d405caa9ba614cffef5a77",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4599
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/juniper-vale-alley-oop-reverse-right.webp",
+          "sourceSha256": "e2563bc114dc3fbc035b37c93cdb5419dfbfdbdb05dc5dad7221e46aab362479",
+          "frameIndex": 7,
+          "frameHash": "e1bec36cd59851a96b72039fc31270a3dcbbdfa34092d7bff92577f94b07b7f3",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2697
+        }
+      ]
+    }
+  ]
+}
