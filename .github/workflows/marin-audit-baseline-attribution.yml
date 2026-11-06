@@ -1,0 +1,117 @@
+name: Marin historical provenance baseline attribution (read-only)
+on:
+  push:
+    branches: [maintenance/pr6-pr7-reconciliation-probe]
+    paths: [.github/workflows/marin-audit-baseline-attribution.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  three-pinned-baselines:
+    name: Audit ${{ matrix.label }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: pinned-main
+            sha: 7e700c0eb392800794167007e076c51ac8357a77
+          - label: original-pr6
+            sha: 55a2ab104d6b108cc08132fddc01b32afb958e75
+          - label: original-pr7
+            sha: 97119d54fd24c442c15192a798cae1e8a279eb1d
+    steps:
+      - name: Checkout immutable runtime-source and production pixel corpus
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.sha }}
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /package.json
+            /package-lock.json
+            /src/
+            /public/
+            /tools/*.mjs
+            /tools/*.js
+          sparse-checkout-cone-mode: false
+          lfs: false
+      - name: Verify pinned branch and install image audit dependencies
+        shell: bash
+        env:
+          REF_PIN: ${{ matrix.sha }}
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$REF_PIN"
+          test -f public/assets/animation/manifest.json
+          test -f tools/audit-animation-assets.mjs
+          mkdir -p ci-provenance
+          printf 'source_commit=%s\n' "$REF_PIN" > ci-provenance/input.txt
+          timeout 180s npm ci
+          if ! command -v identify; then
+            timeout 120s sudo apt-get update -qq
+            timeout 120s sudo apt-get install -y -qq imagemagick
+          fi
+          identify -version | head -n 1
+      - name: Run original-source image audit without accepting any findings
+        shell: bash
+        run: |
+          set +e
+          timeout 480s node tools/audit-animation-assets.mjs --report-only --json ci-provenance/full.json --markdown ci-provenance/full.md > ci-provenance/audit.log 2>&1
+          rc=$?
+          set -e
+          printf '%s\n' "$rc" > ci-provenance/audit.exit
+          tail -n 14 ci-provenance/audit.log
+          test "$rc" = 0
+          test -s ci-provenance/full.json
+      - name: Summarize exact finding identities by code and athlete
+        shell: bash
+        env:
+          LABEL: ${{ matrix.label }}
+          REF_PIN: ${{ matrix.sha }}
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import crypto from 'node:crypto';
+          const audit=JSON.parse(fs.readFileSync('ci-provenance/full.json','utf8'));
+          const errorKey=e=>[e.code,e.athlete||'',e.direction||'',e.clip||''].join('|');
+          const errors=audit.errors.map(e=>({key:errorKey(e),code:e.code,athlete:e.athlete||null,
+            direction:e.direction||null,clip:e.clip||null})).sort((a,b)=>a.key.localeCompare(b.key));
+          if(new Set(errors.map(e=>e.key)).size!==errors.length)throw Error('Duplicate source finding identity');
+          const byCode={},byAthlete={};
+          for(const e of errors){
+            byCode[e.code]=(byCode[e.code]||0)+1;
+            (byAthlete[e.athlete]??={})[e.code]=((byAthlete[e.athlete]||{})[e.code]||0)+1;
+          }
+          const selected={};
+          for(const id of ['marin-dusk','juniper-vale','echo-catwalk','reed-ashcroft','piper-quickstep'])
+            selected[id]={counts:byAthlete[id]||{},errors:errors.filter(e=>e.athlete===id)};
+          const result={label:process.env.LABEL,pin:process.env.REF_PIN,ok:audit.ok,athletes:audit.athletes,
+            inspectedClips:audit.inspectedClips,missingClipCount:audit.missingClipCount,
+            shortfallCount:audit.targetShortfalls?.length,uniqueSourceAtlases:audit.uniqueSourceAtlases,
+            uniqueSourceDrawings:audit.uniqueSourceDrawings,byCode,byAthlete,selected,errors,
+            fingerprint:crypto.createHash('sha256').update(errors.map(e=>e.key).join('\n')).digest('hex')};
+          fs.writeFileSync('ci-provenance/attribution.json',JSON.stringify(result,null,2)+'\n');
+          console.log(JSON.stringify({label:result.label,pin:result.pin,
+            counts:byCode,selected,missingClips:result.missingClipCount,
+            inspected:result.inspectedClips,fingerprint:result.fingerprint},null,2));
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            '## '+result.label+' original-pinned provenance\n\n'+
+            'Audit '+(audit.ok?'OK':'INCOMPLETE')+'; no errors waived.\n\n~~~json\n'+
+            JSON.stringify({byCode,selected,fingerprint:result.fingerprint},null,2)+'\n~~~\n');
+          NODE
+      - name: Upload baseline findings for source comparison
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: provenance-${{ matrix.label }}
+          path: |
+            ci-provenance/attribution.json
+            ci-provenance/audit.log
+            ci-provenance/full.md
+            ci-provenance/input.txt
+            ci-provenance/audit.exit
+          if-no-files-found: warn
+          retention-days: 7
