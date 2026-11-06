@@ -16,7 +16,7 @@ jobs:
       - name: Checkout immutable original Kraken atlases and manifest
         uses: actions/checkout@v4
         with:
-          ref: 55a2ab104d6b108cc08132afb958e75
+          ref: 55a2ab104d6b108cc08132fddc01b32afb958e75
           fetch-depth: 1
           filter: blob:none
           sparse-checkout: |
@@ -30,13 +30,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132afb958e75
+          test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132fddc01b32afb958e75
           mkdir -p kraken-source-qa
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           import crypto from 'node:crypto';
           import path from 'node:path';
-          const original='55a2ab104d6b108cc08132afb958e75';
+          const original='55a2ab104d6b108cc08132fddc01b32afb958e75';
           const m=JSON.parse(fs.readFileSync('public/assets/animation/manifest.json','utf8'));
           const athlete=m.characters.kraken,keys=['idle','idle-ball','receive','pass'],clips={};
           for(const key of keys){
