@@ -106,6 +106,36 @@ test('clip-specific fall masks keep overlapping hair pixels untouched and preser
   }
 });
 
+test('palette cache isolates clip-specific garment masks even when action atlases are shared', () => {
+  const previousDocument = globalThis.document, created = [];
+  try {
+    mockCanvasDocument(created);
+    clearPaletteVariantCache();
+    const profile = supportingUniformProfiles['dorian-mycel'];
+    const frame = { x: 0, y: 0, w: 10, h: 10 };
+    const pixels = new Uint8ClampedArray(10 * 10 * 4), violet = [116, 62, 181];
+    pixels.set([...violet, 255], (8 * 10 + 7) * 4);
+    const source = { naturalWidth: 10, naturalHeight: 10, pixels };
+    const sourcePalette = ['#743eb5', '#c5c6e8'], targetPalette = ['#bd5a2f', '#eee6d5'];
+    const sample = atlas => [...atlas.pixels.slice((8 * 10 + 7) * 4, (8 * 10 + 7) * 4 + 4)];
+
+    const idle = paletteVariantFor(source, 'reused-atlas', sourcePalette, targetPalette, [frame], profile, 'idle');
+    const fall = paletteVariantFor(source, 'reused-atlas', sourcePalette, targetPalette, [frame], profile, 'fall');
+    assert.deepEqual(sample(idle), [...violet, 255], 'normal idle garment mask leaves nonuniform pixel unchanged');
+    assert.notDeepEqual(sample(fall), [...violet, 255], 'clip-specific fall mask must recolor same atlas pixel');
+    assert.notEqual(fall, idle, 'distinct per-action masks must not reuse the same cached canvas');
+    assert.equal(
+      paletteVariantFor(source, 'reused-atlas', sourcePalette, targetPalette, [frame], profile, 'idle'),
+      idle,
+      'previous idle cache entry remains stable'
+    );
+    assert.equal(created.length, 2, 'one derived atlas per distinct action-mask, no redundant recolor');
+  } finally {
+    globalThis.document = previousDocument;
+    clearPaletteVariantCache();
+  }
+});
+
 test('palette cache is isolated by profile and bounded per source atlas', () => {
   const previousDocument = globalThis.document, created = [];
   try {
