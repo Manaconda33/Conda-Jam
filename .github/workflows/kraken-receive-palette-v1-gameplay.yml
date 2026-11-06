@@ -266,8 +266,11 @@ jobs:
           for(const path of ['public/assets/animation/manifest.json','src/content/animation-assets.js']){
             const text=fs.readFileSync(path,'utf8');
             const matches=text.split(previous).length-1;
-            if(matches!==1)throw Error('Cannot patch only Kraken atlas hash in '+path+': '+matches);
-            fs.writeFileSync(path,text.replace(previous,digest));
+            if(matches<1||matches>4)throw Error('Unexpected reviewed Kraken atlas hash references in '+path+': '+matches);
+            // The identical original WebP is registered by more than one facing/asset entry.
+            // Every occurrence is guarded by the exact approved original atlas SHA.
+            fs.writeFileSync(path,text.replaceAll(previous,digest));
+            console.log('Runner-local Kraken receive SHA references updated',path,matches);
           }
           fs.writeFileSync(target,candidate);
           if(crypto.createHash('sha256').update(fs.readFileSync(target)).digest('hex')!==digest)throw Error('Game loader candidate wrong');
