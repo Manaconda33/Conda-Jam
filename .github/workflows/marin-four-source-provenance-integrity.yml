@@ -1,0 +1,110 @@
+name: Marin donor source provenance integrity (read-only)
+on:
+  push:
+    branches:
+      - maintenance/pr6-pr7-reconciliation-probe
+    paths:
+      - '.github/workflows/marin-four-source-provenance-integrity.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-four-original-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Check out only pinned original generation records and source pixels
+        uses: actions/checkout@v4
+        with:
+          ref: 55a2ab104d6b108cc08132fddc01b32afb958e75
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /public/assets/animation/manifest.json
+            /public/assets/animation/reed-ashcroft-layup-right.webp
+            /public/assets/animation/reed-ashcroft-fall-right.webp
+            /public/assets/animation/juniper-vale-layup-right.webp
+            /public/assets/animation/juniper-vale-fall-right.webp
+            /tools/generate-art/reed-ashcroft-layup8-provenance.json
+            /tools/generate-art/reed-ashcroft-fall10-provenance.json
+            /tools/generate-art/juniper-vale-layup8-provenance.json
+            /tools/generate-art/juniper-vale-fall10-provenance.json
+            /tools/generate-art/sources/reed-ashcroft-layup8-candidate1.png
+            /tools/generate-art/sources/reed-ashcroft-fall10-candidate1.png
+            /tools/generate-art/sources/juniper-vale-layup8-attempt4-rejected-background.png
+            /tools/generate-art/sources/juniper-vale-fall10-candidate1.png
+            /tools/generate-art/j38-layup-prompts.md
+            /tools/generate-art/j43-fall-prompts.md
+          sparse-checkout-cone-mode: false
+          lfs: false
+      - name: Verify pinned commit, original source SHA256, accepted atlas bytes and prompt disclosure
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132fddc01b32afb958e75
+          mkdir -p ci-provenance
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import crypto from 'node:crypto';
+          const read=p=>fs.readFileSync(p);
+          const json=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+          const hash=p=>crypto.createHash('sha256').update(read(p)).digest('hex');
+          const manifest=json('public/assets/animation/manifest.json');
+          const archive={
+            layup:fs.readFileSync('tools/generate-art/j38-layup-prompts.md','utf8'),
+            fall:fs.readFileSync('tools/generate-art/j43-fall-prompts.md','utf8')
+          };
+          const fixtures=[
+            ['reed-ashcroft','layup','reed-ashcroft-layup8-candidate1.png','exec-6209cbd2-2268-4528-95de-c979eb4087d5'],
+            ['reed-ashcroft','fall','reed-ashcroft-fall10-candidate1.png','exec-c3fd5206-c958-4ecc-b96f-41aa4f26483d'],
+            ['juniper-vale','layup','juniper-vale-layup8-attempt4-rejected-background.png','exec-638c54c1-9dac-4b5b-96fb-a3484a58dc99'],
+            ['juniper-vale','fall','juniper-vale-fall10-candidate1.png','exec-5510f7ae-4594-4f3d-bec4-cc2b2477270e']
+          ];
+          const results=[];
+          for(const [athlete,clip,sourceFile,id] of fixtures){
+            const provPath='tools/generate-art/'+athlete+'-'+clip+(clip==='layup'?'8':'10')+'-provenance.json';
+            const prov=json(provPath);
+            const accepted=manifest.characters?.[athlete]?.directions?.right?.[clip];
+            const atlasFile='public/assets/animation/'+athlete+'-'+clip+'-right.webp';
+            const sourcePath='tools/generate-art/sources/'+sourceFile;
+            if(!accepted)throw Error('Missing accepted source manifest clip '+athlete+'/'+clip);
+            if(prov.athlete!==athlete||prov.clip!==clip||prov.review?.status!=='accepted')throw Error('Unaccepted provenance record '+athlete+'/'+clip);
+            if(prov.promptVerbatim!==false||prov.sourcePromptStatus!=='reconstructed')throw Error('Changed non-verbatim source declaration '+athlete+'/'+clip);
+            if(!prov.prompt||!prov.prompt.trim())throw Error('Missing reconstructed source prompt '+athlete+'/'+clip);
+            if((prov.generationExecution||prov.imageGenerationId)!==id)throw Error('Generation execution mismatch '+athlete+'/'+clip);
+            if(!archive[clip].includes(id)||!archive[clip].includes(prov.sourceSha256))throw Error('Generation archive does not match source identity '+athlete+'/'+clip);
+            if(accepted.provenance?.promptVerbatim!==false)throw Error('Production provenance no longer declares missing original prompt '+athlete+'/'+clip);
+            if(accepted.reviewed!==true)throw Error('Production clip is not reviewed '+athlete+'/'+clip);
+            if(accepted.src!=='./'+atlasFile)throw Error('Unexpected production atlas reference '+athlete+'/'+clip);
+            const sourceHash=hash(sourcePath);
+            if(sourceHash!==prov.sourceSha256)throw Error('Accepted ORIGINAL source PNG SHA mismatch '+athlete+'/'+clip);
+            const atlasHash=hash(atlasFile);
+            if(atlasHash!==accepted.sha256)throw Error('Accepted GAME atlas SHA mismatch '+athlete+'/'+clip);
+            results.push({athlete,clip,generationId:id,sourceSha256:sourceHash,atlasSha256:atlasHash,
+              acceptedSource:true,reviewed:true,promptVerbatim:false,promptStatus:'reconstructed',
+              supportedByJArchive:true});
+          }
+          fs.writeFileSync('ci-provenance/source-integrity.json',JSON.stringify({
+            pinnedOriginalPR6:'55a2ab104d6b108cc08132fddc01b32afb958e75',
+            scope:'four original donor sources only',
+            originalPromptTranscriptRecovered:false,
+            allSourceAndAtlasHashesVerified:true,
+            summary:'Image source integrity is verified independently of missing original prompt transcripts. No provenance gaps waived.',
+            results
+          },null,2)+'\n');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            '## Four original donor source-integrity proofs\n\n'+
+            'Source images and packed production atlases SHA-256 verified, and all four reconstructive prompt disclosures preserved. **No verbatim prompt transcripts recovered or inferred.**\n\n'+
+            '| Athlete | Clip | Original source SHA | Game atlas SHA | Prompt |\n|---|---|---|---|---|\n'+
+            results.map(x=>['|',x.athlete,'|',x.clip,'|',x.sourceSha256.slice(0,12),'|',x.atlasSha256.slice(0,12),'| reconstructed |'].join(' ')).join('\n')+'\n');
+          console.log(JSON.stringify(results,null,2));
+          NODE
+      - name: Upload fixed-identity source and production-atlas verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: marin-four-original-donor-hash-verification
+          path: ci-provenance/
+          if-no-files-found: error
+          retention-days: 7
