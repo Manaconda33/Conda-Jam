@@ -67,6 +67,14 @@ const valid = (captainId,packageId,clip,direction,assetPath) => {
 test('integrator stages valid packages only and produces identical trees in any input order', async t => {
   const base=await repository(t), output=await mkdtemp(path.join(os.tmpdir(),'captain-integration-output-'));
   t.after(()=>rm(output,{recursive:true,force:true}));
+  // Actual main tracks evidence under artifacts/ even though .gitignore excludes it.
+  // A new Git staging repo must preserve every tracked base blob, not reapply ignores.
+  await base.put('.gitignore','artifacts/\n');
+  await base.put('artifacts/pinned-evidence.txt','historical approved evidence\n');
+  base.git('add','.gitignore');
+  base.git('add','-f','artifacts/pinned-evidence.txt');
+  base.git('commit','-qm','pin tracked evidence despite ignore');
+  base.base=base.git('rev-parse','HEAD');
   const originalManifest=await readFile(path.join(base.root,'public/assets/animation/manifest.json'));
   const originalRegistry=await readFile(path.join(base.root,'src/content/animation-assets.js'));
   const a=await packageFixture(t,base,'reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp');
@@ -79,6 +87,9 @@ test('integrator stages valid packages only and produces identical trees in any 
   assert.equal(first.ok,true,JSON.stringify(first));
   assert.deepEqual(first.acceptedPackages.map(row=>row.captainId),['marsh-captain','reef-captain']);
   assert.equal(first.treeSha,second.treeSha);
+  const stagedTreeFiles=execFileSync('git',['ls-tree','-r','--name-only',first.treeSha],{cwd:first.stagingRoot,encoding:'utf8'});
+  assert.match(stagedTreeFiles,/^artifacts\/pinned-evidence\.txt$/m,
+    'integration tree must preserve tracked artifacts even when ignored by the base .gitignore');
   assert.equal(first.batchId,second.batchId);
   assert.equal(first.reportBytes,second.reportBytes);
   assert.equal(first.sidecarLedgerBytes,second.sidecarLedgerBytes);
