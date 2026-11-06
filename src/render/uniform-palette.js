@@ -51,7 +51,9 @@ export function paletteVariantFor(source, sourceId, sourcePalette, targetPalette
   if (oldColors.every((color, index) => color.every((channel, i) => channel === newColors[index][i]))) return source;
   let cache = variants.get(source);
   if (!cache) { cache = new Map(); variants.set(source, cache); }
-  const cacheKey = `${sourceId}|${maskProfile.id}|${newColors.map(color => color.map(v => v.toString(16).padStart(2, '0')).join('')).join('-')}`;
+  // Different actions may share one atlas but require distinct garment masks (e.g. fall).
+  // Include the clip in the cache identity so a previous pose cannot mask a later one.
+  const cacheKey = `${sourceId}|${maskProfile.id}|${clipId ?? ''}|${newColors.map(color => color.map(v => v.toString(16).padStart(2, '0')).join('')).join('-')}`;
   if (cache.has(cacheKey)) {
     const cached = cache.get(cacheKey);
     cache.delete(cacheKey);
