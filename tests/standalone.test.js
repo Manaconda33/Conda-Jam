@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Script } from 'node:vm';
 
-const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
+const root=process.env.JAMVERSE_STANDALONE_ROOT??path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
 test('build emits a self-contained offline game page', async () => {
   execFileSync(process.execPath, ['tools/build.mjs'], { cwd:root, stdio:'inherit' });
@@ -22,8 +22,10 @@ test('build emits a self-contained offline game page', async () => {
   assert.doesNotThrow(()=>new Script(script), 'offline module graph must compile as a classic browser script');
   const entryStart=script.indexOf('\nconst { teams, validateLeague }=');
   assert.ok(entryStart>0,'offline graph must initialize before the browser entry');
-  const offline=new Script(script.slice(0,entryStart)+'\n({manifest:__modules["./content/animation-assets.js"].animationAssetManifest,frame:__modules["./core/animation.js"].sampleAnimation("run",2).frame})').runInNewContext({}, {timeout:5000});
+  const offline=new Script(script.slice(0,entryStart)+'\n({manifest:__modules["./content/animation-assets.js"].animationAssetManifest,tracks:__modules["./content/animation-ball-tracks.js"].athleteBallTracks,frame:__modules["./core/animation.js"].sampleAnimation("run",2).frame,ball:__modules["./core/animation.js"].sampleBallForward("layup",0,"accu")})').runInNewContext({}, {timeout:5000});
   assert.equal(offline.frame,1,'nested animation dependency runs in the offline bundle');
+  assert.ok(offline.tracks&&Object.keys(offline.tracks).length>0,'offline graph includes the athlete ball-track registry');
+  assert.ok(Number.isFinite(offline.ball),'offline animation sampling resolves an athlete ball track');
   const manifest=JSON.parse(await readFile(path.join(root,'public/assets/animation/manifest.json'),'utf8'));
   const productionSources=new Set(Object.values(manifest.characters).flatMap(c=>Object.values(c.directions??{}).flatMap(d=>Object.values(d).map(clip=>clip.src))));
   for(const character of Object.values(offline.manifest.characters))for(const direction of Object.values(character.directions??{}))for(const clip of Object.values(direction))assert.match(clip.src,/^data:image\/(?:png|webp);base64,/,'every production clip must load offline');

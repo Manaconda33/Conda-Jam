@@ -40,6 +40,8 @@
 - A technically complete atlas with missing action anchors, bad facing/mirror behavior, or an unrelated ball track must not be counted accepted.
 - An interrupted integration must leave the integration ref on its old SHA; valid packages in a wave must remain usable when another package is rejected, with rejected packages re-based and re-reviewed.
 - A valid manifest cannot hide a forbidden worker-commit change; every commit and the complete tree diff must pass the captain path/mode allowlist.
+- The integrator itself must invoke the worker-history collector using the pinned baseline assignment and exported worker commit, then compare the full collected inventory with the manifest before package validation.
+- Integration staging must not buffer or duplicate the full artwork tree: stream the pinned Git tree and hardlink unchanged regular files on the same filesystem. Atomically replace any staged shared file before writing so the clean baseline checkout remains unchanged.
 - Independent artwork approval must bind to an immutable artwork digest computed before review; the final package digest is computed afterward and includes that approval/evidence without being referenced by it.
 - Re-running an identical batch under a different clock or with additional activity-log entries must produce the identical Git tree; volatile audit metadata and logs stay outside that tree.
 
@@ -227,3 +229,12 @@
 - Strict report-only asset audit: `node tools/audit-animation-assets.mjs --report-only --json docs/animation-production/ASSET_AUDIT_LATEST.json --markdown docs/animation-production/ASSET_AUDIT_LATEST.md`
 - Standalone build: `npm run build`
 - Native visual/gameplay capture and desktop/mobile/full-match/season E2E must run on the **freshly pinned, Studio-approved integrated source** and each resulting accepted batch; automated tests cannot replace visual signoff. Current issues #18/#19 stay open until independently corrected.
+
+## PR #10 review corrections — 2026-10-29
+
+- Added the migrated athlete ball-track registry to the offline module graph before `core/animation.js`; the standalone regression checks bundled track data and a sampled athlete-owned ball position.
+- Replaced full `git archive` buffering and extraction with streaming `git ls-tree` traversal and hardlinks for unchanged regular files. Integration output must share a filesystem with the clean pinned checkout. Changed shared manifest/registry paths are written by atomic replacement to preserve base inodes.
+- The integrator now invokes `collectCaptainContribution` itself using the exported worker commit and coordinator baseline assignment, then compares the complete collected file/hash inventory with the package manifest before validation.
+- Verified focused captain-studio tests 55/55, lint 22 modules, and standalone bundle test against current infrastructure source with the available full public artwork tree. A broader animation batch run reached 260/267; six missing-file failures result from the sparse checkout. Chromium loaded the self-contained standalone bundle over temporary localhost, validated 35 teams /105 athletes /35 captains, started and advanced a match, and reported zero page errors. Direct `file://` was blocked by policy; localhost was used for the browser smoke. These are infrastructure verification results, not accepted pilot evidence.
+- Resource exercise on a clean hardlink-backed mirror of the available 2.69 GB Git tree (`513e0a5935cb3209bb89c58d3c37ffa0d47b420a`): all 11,961 tracked entries staged in 971 ms; every regular staged file shared its base inode, including a 19.6 MB animation-manifest file. The clean mirror restored 30 dirty source files from Git blobs (176,267,446 bytes) before timing; staging added zero file-content bytes. Source checkout and refs were unchanged. This demonstrates storage-bounded tree staging, not complete package integration or strict audit against the current PR #6/#7 candidate.
+- No packages, baselines, refs, deployments, or captain sessions were promoted/launched by these corrections.
