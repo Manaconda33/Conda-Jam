@@ -1,0 +1,152 @@
+name: PR17 promote verified combined audit snapshots (review only)
+on:
+  push:
+    branches:
+      - integration/pr6-pr7-marin-review-20261106
+    paths:
+      - .github/workflows/pr17-promote-combined-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pr17-authoritative-audit-promotion
+  cancel-in-progress: false
+jobs:
+  publish-audit:
+    if: github.repository == 'Manaconda33/Conda-Jam' && github.ref == 'refs/heads/integration/pr6-pr7-marin-review-20261106'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout entire pinned integration branch (not sparse, no synthetic PR merge)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          lfs: false
+          persist-credentials: true
+      - name: Verify immutable source, old reports, and physical checkout before mutation
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git config --bool core.sparseCheckout || echo false)" = false
+          test "$(git hash-object src/render/animation-sprites.js)" = f8cae47f1235907bae66202b0d12c4681a057230
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+          test "$(git hash-object docs/animation-production/ASSET_AUDIT_LATEST.json)" = 9e6b5e896b29393ffde75daa1afc7291e5942ca7
+          test "$(git hash-object docs/animation-production/ASSET_AUDIT_LATEST.md)" = b348c2c68b68dfc912c7e6fddddd2444acf4d1ad
+          test "$(git hash-object docs/animation-production/ASSET_STATUS.md)" = 3a658f5e4302979c56b3a7833f816a4dde3ff1ee
+          test -z "$(git status --porcelain)"
+          mkdir -p ci-audit-promotion
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import {execFileSync} from 'node:child_process';
+          const paths=execFileSync('git',['ls-files','-z'],{maxBuffer:128*1024*1024}).toString().split('\0').filter(Boolean);
+          const missing=paths.filter(p=>!fs.existsSync(p));
+          fs.writeFileSync('ci-audit-promotion/checkout.json',JSON.stringify({sourceSha:process.env.GITHUB_SHA,trackedPaths:paths.length,missingPaths:missing.length,missing:missing.slice(0,20)},null,2)+'\n');
+          if(missing.length)throw Error('Incomplete physical checkout: '+missing.length+' paths missing');
+          console.log('Complete integration source, '+paths.length+' tracked files physically present');
+          NODE
+      - name: Install standard dependencies and required image decoder
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 180s npm ci
+          if ! command -v convert >/dev/null 2>&1; then
+            timeout 180s sudo apt-get update -qq
+            timeout 180s sudo apt-get install -y -qq imagemagick
+          fi
+          command -v convert
+      - name: Rerun original tests, lint, content, and league checks on complete tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 600s npm test > ci-audit-promotion/npm-test.log 2>&1 || { tail -n 90 ci-audit-promotion/npm-test.log; exit 1; }
+          tail -n 12 ci-audit-promotion/npm-test.log
+          timeout 240s npm run lint > ci-audit-promotion/lint.log 2>&1
+          timeout 240s npm run validate:content > ci-audit-promotion/content.log 2>&1
+          timeout 240s npm run simulate:league > ci-audit-promotion/league.log 2>&1
+      - name: Recompute candidate JSON and Markdown without overwriting checked-in reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 540s node tools/audit-animation-assets.mjs --report-only --json ci-audit-promotion/audit.json --markdown ci-audit-promotion/audit.md > ci-audit-promotion/audit.log 2>&1
+          node tools/check-pr17-audit-identities.mjs ci-audit-promotion/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-audit-promotion/identity.json > ci-audit-promotion/identity.log 2>&1
+          tail -n 8 ci-audit-promotion/identity.log
+      - name: Validate provenance, synthesize honest current status, and stage ONLY three reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import crypto from 'node:crypto';
+          const root='docs/animation-production/';
+          const json=fs.readFileSync('ci-audit-promotion/audit.json','utf8');
+          const md=fs.readFileSync('ci-audit-promotion/audit.md','utf8');
+          const audit=JSON.parse(json),identity=JSON.parse(fs.readFileSync('ci-audit-promotion/identity.json','utf8'));
+          const expected={athletes:105,clipDefinitions:29,inspectedClips:2397,missingClipCount:706,uniqueSourceLibraries:42,uniqueSourceAtlases:570,uniqueSourceDrawings:5489};
+          for(const [key,value] of Object.entries(expected))if(audit[key]!==value)throw Error('Unexpected combined audit '+key+': '+audit[key]);
+          const codes=Object.fromEntries(['missing-clip','prompt-not-verbatim'].map(code=>[code,audit.errors.filter(e=>e.code===code).length]));
+          if(audit.ok!==false||audit.targetShortfalls.length!==0||audit.errors.length!==746||codes['missing-clip']!==706||codes['prompt-not-verbatim']!==40||!identity.passed||identity.introducedCount||identity.removedCount||identity.duplicateCount)throw Error('Audit identity/status differs from pinned known combined baseline');
+          if(!md.includes('| prompt-not-verbatim | 40 |')||!md.includes('| missing-clip | 706 |')||!md.includes('Status: **INCOMPLETE**'))throw Error('Human-readable audit contradicts JSON');
+          const prior=fs.readFileSync(root+'ASSET_STATUS.md','utf8');
+          if(!prior.startsWith('## Current captain lane — 2026-10-29 12:43 UTC'))throw Error('Historic status content changed; abort instead of overwriting');
+          const header=[
+            '## Current PR #17 combined integration audit — November 6, 2026 (review only)',
+            '',
+            '**INCOMPLETE: engine/test regression PASS; artwork/backlog and merge acceptance NOT GRANTED.**',
+            '',
+            'The authoritative combined-tree audit was regenerated from complete non-sparse integration commit `'+process.env.GITHUB_SHA+'` in [Actions run '+process.env.GITHUB_RUN_ID+'](https://github.com/Manaconda33/Conda-Jam/actions/runs/'+process.env.GITHUB_RUN_ID+'). The matching machine-readable and Markdown reports are `ASSET_AUDIT_LATEST.json` and `ASSET_AUDIT_LATEST.md` in this branch. Generation timestamp: `'+audit.generatedAt+'`. All 746 individual finding identities agree with pinned original PR #6/#7 evidence.',
+            '',
+            '| Audit category | Verified combined branch |',
+            '| --- | ---: |',
+            '| Athletes / clips per athlete | 105 / 29 |',
+            '| Registered inspected clips | 2,397 |',
+            '| Unique source libraries / atlases / decoded drawings | 42 / 570 / 5,489 |',
+            '| Original authored / derived palette clips | 570 / 1,827 |',
+            '| Missing captain clips (unaccepted backlog) | **706** |',
+            '| Disclosed non-verbatim prompts (not recovered/waived) | **40** |',
+            '| Frame target shortfalls / newly introduced finding identities | 0 / 0 |',
+            '| Strict artwork audit `ok` | **false** |',
+            '',
+            '**Visual quality HOLD:** Marin Dusk normal-dribble start/loop hand contact and Kraken `receive` frame style continuity still need independently accepted corrections or explicit signoff. Exact simulation and unit-test pass does not supersede sprite review.',
+            '',
+            '**Merge HOLD:** independent renderer/donor code review, strict authored-art backlog and source-disclosure disposition, and owner authorization of dependency ordering remain outstanding. There has been no merge to `main`, deployment, or change to original PR #6/#7/#13/#16 branches or the protected Myth workspace.',
+            '',
+            '### Historical captain-production status entries (preserved verbatim below)',
+            '',
+            'The October 29 entries document the then-current PR #6 source alone, including its historic **four** non-verbatim prompt findings; those entries are archival context and not the current combined-branch result of **40**.',
+            '',
+          ].join('\n');
+          fs.writeFileSync(root+'ASSET_AUDIT_LATEST.json',json);
+          fs.writeFileSync(root+'ASSET_AUDIT_LATEST.md',md);
+          fs.writeFileSync(root+'ASSET_STATUS.md',header+prior);
+          const dig=s=>crypto.createHash('sha256').update(s).digest('hex');
+          const details={sourceSha:process.env.GITHUB_SHA,generatedAt:audit.generatedAt,strictArtAccepted:audit.ok,sourceTotals:expected,codes,exactFindings:identity.expected,identityPassed:identity.passed,files:{json:{bytes:Buffer.byteLength(json),sha256:dig(json)},markdown:{bytes:Buffer.byteLength(md),sha256:dig(md)},status:{bytes:Buffer.byteLength(header+prior),sha256:dig(header+prior)}},previousStatusPreserved:fs.readFileSync(root+'ASSET_STATUS.md','utf8').endsWith(prior),notMergeAuthorization:true};
+          fs.writeFileSync('ci-audit-promotion/publication-manifest.json',JSON.stringify(details,null,2)+'\n');
+          console.log(JSON.stringify(details,null,2));
+          NODE
+          test "$(git diff --name-only | sort)" = "$(printf '%s\n' docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md docs/animation-production/ASSET_STATUS.md | sort)"
+          git diff --check
+          git diff --stat
+      - name: Commit only accepted snapshot regeneration to review branch with fast-forward guard
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch=integration/pr6-pr7-marin-review-20261106
+          remote=$(git ls-remote origin "refs/heads/$branch" | cut -f1)
+          if [ "$remote" != "$GITHUB_SHA" ]; then echo "Branch moved from expected source commit; refusing to publish stale snapshot"; exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md docs/animation-production/ASSET_STATUS.md
+          test "$(git diff --cached --name-only | wc -l)" -eq 3
+          git commit -m 'docs(audit): refresh PR17 combined authoritative snapshots (strict incomplete)'
+          git push origin "HEAD:refs/heads/$branch"
+          git rev-parse HEAD | tee ci-audit-promotion/published-commit.txt
+      - name: Upload immutable review and audit promotion evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr17-accepted-audit-promotion-evidence
+          path: ci-audit-promotion/
+          retention-days: 7
+          if-no-files-found: warn
