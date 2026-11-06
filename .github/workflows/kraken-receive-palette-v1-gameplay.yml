@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   micro-calibration:
@@ -221,31 +222,29 @@ jobs:
           python tools/diagnostics/kraken-receive-live-original.py
           test -s tools/generate-art/previews/kraken-palette-v1-runtime-review/original/report.json
 
-      - name: Generate candidate using exact committed source-preserving builder
+      - name: Download already validated exact candidate artifact from pinned builder run
+        uses: actions/download-artifact@v4
+        with:
+          name: kraken-receive-palette-v1-review-only
+          run-id: 42226481749
+          github-token: ${{ github.token }}
+          path: tools/generate-art/previews/kraken-palette-v1-runtime-review/generated
+
+      - name: Verify exact candidate artifact identity and pixel guards
         shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          timeout 180s python -m pip install --disable-pip-version-check --quiet \
-            "numpy==2.2.6" "opencv-python-headless==4.11.0.86" "pillow==11.3.0"
-          mkdir -p tools/diagnostics tools/generate-art/previews/kraken-palette-v1-runtime-review/generated
+          dir=tools/generate-art/previews/kraken-palette-v1-runtime-review/generated
+          echo "59826c6f043313532f60ea2aa4a238ce60740abaf4d9b99254c3139f6fdb3ed0  $dir/kraken-receive-palette-v1.webp" | sha256sum -c -
+          test -s "$dir/validation.json"
           node --input-type=module <<'NODE'
-          import {spawnSync} from 'node:child_process';
           import fs from 'node:fs';
-          const sha='63371e2723124a4362712d311e6bebf61ea17a0e';
-          const r=await fetch('https://api.github.com/repos/Manaconda33/Conda-Jam/git/blobs/'+sha,
-            {headers:{Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'}});
-          if(!r.ok)throw Error('Pinned palette builder unavailable '+r.status);
-          const o=await r.json(),bytes=Buffer.from(o.content.replace(/\s/g,''),'base64');
-          const v=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
-          if(v.status!==0||v.stdout.trim()!==sha)throw Error('Palette builder source SHA mismatch');
-          fs.writeFileSync('tools/diagnostics/kraken-receive-palette-v1.py',bytes);
+          const x=JSON.parse(fs.readFileSync('tools/generate-art/previews/kraken-palette-v1-runtime-review/generated/validation.json','utf8'));
+          if(x.originalPR6!=='55a2ab104d6b108cc08132fddc01b32afb958e75')throw Error('Candidate parent mismatch');
+          if(x.candidateSHA256!=='59826c6f043313532f60ea2aa4a238ce60740abaf4d9b99254c3139f6fdb3ed0')throw Error('Candidate digest mismatch');
+          if(!x.frame2BitwiseIdentical||!x.allAlphaMasksIdentical||x.ballTrackAndTimingEdited)throw Error('Candidate source geometry guard failed');
+          console.log('Exact prior 120-frame candidate source artifact restored; no image package install needed.');
           NODE
-          python tools/diagnostics/kraken-receive-palette-v1.py \
-            --receive public/assets/animation/kraken-receive-right.webp \
-            --pass-atlas public/assets/animation/kraken-pass-right.webp \
-            --out tools/generate-art/previews/kraken-palette-v1-runtime-review/generated
 
       - name: Inject reviewed candidate only into disposable checkout, update matching hash metadata
         shell: bash
