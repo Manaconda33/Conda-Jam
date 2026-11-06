@@ -1,0 +1,1 @@
+echo-catwalk → cinder-royal (Crownfire Sovereigns) #18385d / #d8ad49. Columns: idle, run, shoot, fall, celebrate, dunk-power, alley-oop-power. Rows: source, derived palette, changed-pixel mask (green changed, gray unchanged).
