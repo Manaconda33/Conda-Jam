@@ -120,6 +120,15 @@ See [`MARIN_120_FIXTURE_SCOPED_TEST_SUITE_GREEN_2026-11-05.md`](./MARIN_120_FIXT
 - The **4 original** `prompt-not-verbatim` warnings, including Juniper layup/fall, and **36 inherited donor-derived** warnings remain properly visible. Artwork hashes match; a missing prompt transcript is still an unwaived provenance limitation.
 - No source, manifest, generated art, tests, donor assignment, gameplay calibration or other production file was modified in this review.
 
+## Focused visual-contact triage, two explicit holds — 2026-11-05
+
+See the versioned [`MARIN_CONTACT_VISUAL_QA_HOLD_2026-11-05.md`](./MARIN_CONTACT_VISUAL_QA_HOLD_2026-11-05.md). Rehashed **all 260 native rendered screenshots** against their archived `report.json` signatures and selected 30 original PNGs for high-resolution review. Reproducible contact sheets and source-hash index were assembled as a review bundle.
+
+- **Mechanical verdict remains PASS** (587/587 scoped tests, 4/4 live Kraken catches, normal floor bounce at tick 15, and the calibrated 9/8/9 turbo track).
+- **Visual HOLD A:** Marin normal-dribble frames 0/start and loop wrap (steps 1–2 and 31–32) depict the ball near the face while the lowered working hand is visibly separated in both facings. First establish exact intended carry/release contact phases, then consider a Marin-only normal-dribble refinement **without disturbing the court bounce**.
+- **Visual HOLD B:** Kraken's `receive` poses in the pass/catch sequence at steps 7–9 appear dark and fragmented compared with coherent `idle` step 5 and completed catch step 10, both facings. Inspect source atlas versus renderer mask/scale/frame selection before deciding whether any asset or code change is justified.
+- These are **preliminary visual QA findings, not root-cause proof** or independent art signoff. No production code, sprites, or calibration were changed. Do not merge PR #6/#7/#13/#16 based on the mechanical tests alone.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
