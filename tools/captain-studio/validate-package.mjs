@@ -233,7 +233,7 @@ export async function validatePackage({ packageRoot, baseRoot, baseCommit, basel
     if (discardedSummary && !trial.promptPath && trial.promptAvailability !== 'unavailable') errors.push(issue('PROMPT_METADATA_INVALID', key.replace('\0', ':')));
     if (rejectedPromptGap) warnings.push(issue('REJECTED_PROMPT_UNAVAILABLE', key.replace('\0', ':')));
     if (discardedSummary) warnings.push(issue('REJECTED_ARTIFACTS_OMITTED', key.replace('\0', ':')));
-    if (discardedSummary && trial.promptAvailability === 'unavailable') warnings.push(issue('REJECTED_PROMPT_UNAVAILABLE', key.replace('\0', ':')));
+    if (discardedSummary && trial.promptAvailability === 'unavailable' && !rejectedPromptGap) warnings.push(issue('REJECTED_PROMPT_UNAVAILABLE', key.replace('\0', ':')));
     const raw = discardedSummary ? null : requireFile(trial.rawSourcePath, trial.rawSourceSha256);
     if (discardedSummary && trial.rawSourceSha256 !== undefined && !SHA256.test(trial.rawSourceSha256)) errors.push(issue('RAW_SOURCE_HASH_INVALID', key.replace('\0', ':')));
     if (discardedSummary && trial.promptSha256 !== undefined && !SHA256.test(trial.promptSha256)) errors.push(issue('PROMPT_HASH_INVALID', key.replace('\0', ':')));
