@@ -29,14 +29,18 @@ jobs:
             /tools/generate-art/clean-kraken-receive4-attempt02-cleanup02.py
             /tools/generate-art/previews/kraken-receive4-attempt02/track-candidate/attempt-04/normal-loader/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md
           sparse-checkout-cone-mode: false
-      - name: Verify original revision and install Pillow if missing
+      - name: Verify pinned revision, Python 3 and system Pillow decoder
         shell: bash
         run: |
           set -euo pipefail
           test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132afb958e75
+          command -v python3
+          python3 --version
           if ! python3 -c 'from PIL import Image' >/dev/null 2>&1; then
-            timeout 120s python3 -m pip install --quiet pillow
+            timeout 120s sudo apt-get update -qq
+            timeout 120s sudo apt-get install -y -qq python3-pil
           fi
+          python3 -c 'from PIL import Image; print("Pillow",Image.__version__)'
       - name: Extract reviewed atlas frames and quantify silhouette/palette discontinuities
         shell: bash
         run: |
