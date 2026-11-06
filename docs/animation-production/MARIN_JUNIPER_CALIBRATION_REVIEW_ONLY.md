@@ -129,6 +129,16 @@ See the versioned [`MARIN_CONTACT_VISUAL_QA_HOLD_2026-11-05.md`](./MARIN_CONTACT
 - **Visual HOLD B:** Kraken's `receive` poses in the pass/catch sequence at steps 7–9 appear dark and fragmented compared with coherent `idle` step 5 and completed catch step 10, both facings. Inspect source atlas versus renderer mask/scale/frame selection before deciding whether any asset or code change is justified.
 - These are **preliminary visual QA findings, not root-cause proof** or independent art signoff. No production code, sprites, or calibration were changed. Do not merge PR #6/#7/#13/#16 based on the mechanical tests alone.
 
+## Kraken receive visual HOLD: original source cause verified — 2026-11-05
+
+[Source-atlas diagnosis and per-frame analysis](./KRAKEN_RECEIVE_SOURCE_ART_DIAGNOSIS_2026-11-05.md) identifies the primary origin of the Kraken receiving appearance discontinuity **inside the accepted original `kraken-receive-right.webp`**, not a newly introduced renderer or ball-physics defect.
+
+- [Read-only source-export run 42168891431](https://github.com/Manaconda33/Conda-Jam/actions/runs/42168891431) **passed**, exporting original-PR6 registered `idle`, `idle-ball`, `receive` and `pass` WebPs plus exact manifest frame coordinates after four atlas SHA-256 checks.
+- The four receive frames have deliberately mixed lineage: **frames 0/1/3** reuse earlier receive art with mean saturation **~0.607** and brightness **~0.456**, while new frame **2** uses the cleaned accepted catch pose at saturation **0.843** and brightness **0.533**. The comparable six-frame pass atlas averages saturation **0.830** and brightness **0.524**. All original source hashes match the manifest.
+- The original October 29 review acknowledged modest source style contrast and passed gameplay registration; in the later full 120% court capture, this mixed source creates the reported dark/fragmented-looking transitions. Source/renderer differential is **diagnosed** but new visual art **not yet accepted**.
+- **Next scope**: isolated `receive` frames **0/1/3** candidate with coherent Kraken art, preserving reviewed **frame 2** catch, registered durations/ball offsets and original source. Independent art review and new real-gameplay left/right screenshots required before replacing the production atlas. This work has **not** been performed.
+- Neither original PR #6/#7, source-review PR #16 animation code, `main`, nor accepted art was changed in this diagnosis.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
