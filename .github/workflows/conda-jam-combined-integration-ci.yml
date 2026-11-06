@@ -28,6 +28,9 @@ jobs:
             /tools/*.mjs
             /tools/*.js
             /docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json
+            /docs/animation-production/ASSET_AUDIT_LATEST.json
+            /docs/animation-production/ASSET_AUDIT_LATEST.md
+            /docs/animation-production/ASSET_STATUS.md
           sparse-checkout-cone-mode: false
           lfs: false
 
@@ -166,6 +169,15 @@ jobs:
           echo "$rc" >ci-integration/audit-identities.exit
           tail -n 80 ci-integration/audit-identities.log
 
+      - name: Verify authoritative checked-in combined audit JSON, Markdown and status history
+        shell: bash
+        run: |
+          set +e
+          node tools/check-pr17-authoritative-snapshots.mjs ci-integration/audit.json ci-integration/audit.md docs/animation-production/ASSET_AUDIT_LATEST.json docs/animation-production/ASSET_AUDIT_LATEST.md docs/animation-production/ASSET_STATUS.md ci-integration/authoritative-snapshot-summary.json >ci-integration/authoritative-snapshot.log 2>&1
+          rc=$?
+          set -e
+          echo "$rc" >ci-integration/authoritative-snapshot.exit
+          tail -n 55 ci-integration/authoritative-snapshot.log
       - name: Summarize command results, baseline-aware art delta and source hash verification
         if: always()
         shell: bash
@@ -173,7 +185,7 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           const r=f=>{try{return fs.readFileSync('ci-integration/'+f,'utf8').trim()}catch{return null}};
-          const scripts=['npm-test','lint','validate-content','simulate-league','build','audit','audit-identities'];
+          const scripts=['npm-test','lint','validate-content','simulate-league','build','audit','audit-identities','authoritative-snapshot'];
           const codes=Object.fromEntries(scripts.map(x=>[x,r(x+'.exit')]));
           const auditRaw=r('audit.json');
           let audit={error:'not generated'};
