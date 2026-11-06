@@ -1,0 +1,216 @@
+name: Conda Jam combined candidate integration CI (review only)
+on:
+  push:
+    branches:
+      - integration/pr6-pr7-marin-review-20261106
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review-candidate:
+    name: Actual combined branch, full tests, lint, content, league, build and audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out ACTUAL proposed integration tree, not an ephemeral source merge
+        uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout: |
+            /.github/
+            /index.html
+            /package.json
+            /package-lock.json
+            /src/
+            /public/
+            /tests/
+            /tools/*.mjs
+            /tools/*.js
+          sparse-checkout-cone-mode: false
+          lfs: false
+
+      - name: Verify all 13 immutable review-source blobs and local renderer hunk
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "${{ github.sha }}"
+          # Exact combined source includes PR6 baseline compensation and PR7 palette-mask path.
+          test "$(git hash-object 'src/core/animation.js')" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object 'tests/animation.test.js')" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+          test "$(git hash-object 'src/render/animation-sprites.js')" = f8cae47f1235907bae66202b0d12c4681a057230
+          test "$(git hash-object 'src/content/supporting-animation-libraries.js')" = a43df1e571261047d2a3a6b2d0e9f18d6335b1ce
+          test "$(git hash-object 'src/content/supporting-donor-assignment.js')" = 2ae23f9f7405a28588260932bef31a14ff462a1b
+          test "$(git hash-object 'src/content/supporting-donor-map.js')" = 41a4a0a02183629461f4a2b705981f08935630b8
+          test "$(git hash-object 'src/content/supporting-uniform-profiles.js')" = 422b478dd8d37439f8e020f2c4f0b73ed92a358d
+          test "$(git hash-object 'src/render/uniform-palette.js')" = 9d3a1b6a10cd4275b735aac40d5f85602f76c386
+          test "$(git hash-object 'tests/supporting-animation-reuse.test.js')" = 8ecf6064ac8aa084e5d348acd82f5c490788886b
+          test "$(git hash-object 'tests/supporting-donor-assignment.test.js')" = 19a0446aa7a55f875cce37d805451c5ed8ecd65a
+          test "$(git hash-object 'tools/build.mjs')" = 866adb381ed8a78e2feda1e3c1ff6ea2b1012056
+          test "$(git hash-object 'tools/generate-supporting-donor-map.mjs')" = e882f7fd48e3227d4a417f137168d3821ad7a8aa
+          test "$(git hash-object 'tools/review-supporting-donor-palettes.mjs')" = a56d9d2375e1b6264d658a6c15ecfc92d7e32a42
+          grep -Fq 'productionSpriteBaselineOffsetY' src/render/animation-sprites.js
+          grep -Fq 'library.maskProfile,key' src/render/animation-sprites.js
+          grep -Fq 'if(target&&Math.hypot' src/render/animation-sprites.js
+          mkdir -p ci-integration
+          printf 'head=%s\npr6=%s\npr7=%s\npr16_source=%s\nsource_scope=%s\n' "$(git rev-parse HEAD)" '55a2ab104d6b108cc08132fddc01b32afb958e75' '97119d54fd24c442c15192a798cae1e8a279eb1d' '2b1413fce2582fd588f7df111bfb719e8605f046' 'actual integration branch, sparse runtime/tests/public paths' > ci-integration/pins.txt
+          cat ci-integration/pins.txt
+
+      - name: Install dependencies and bound image decoder setup
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 180s npm ci
+          if ! command -v identify; then
+            timeout 120s sudo apt-get update -qq
+            timeout 120s sudo apt-get install -y -qq imagemagick
+          fi
+          command -v identify
+
+      - name: Restore complete 120-fixture historical corpus from pinned PR6 by Git blob hash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-diagnostic
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import {gunzipSync} from 'node:zlib';
+          import {spawnSync} from 'node:child_process';
+          const compressed='H4sIAAAAAAAC/72aS3OjOBDH7/tdFB42dnJMTeWWmpkab+11ShYdIwMSKwkz/vYrMPiBwSCE95SD6V//1erWo5WQE+l8/thsPj82m9/vf3++b37//PXjn4/v79+/fbzsJWd/Kc4T6eyAgcAKEBbKARJxRLAqcBIjkTNFU0BbnCRICUxi2Wu4X3tIAIQIy4gI/qVQmLMYSXJUEehflDiiTPA0Uy9p2A3wWwDtFY6I8wxlvAAxZL7oNRdwACHHqXhdoH3OaKb93QMemqZYEI4OkCR5ijIsJcJKgf5+iUgCmOVZb/DuTbcQURY2BL/0fACGGQFjyAol+MhzJQ0stTMRAQ4vQ5gkoMFMkGBqQkmcZ4GZkQAC9ADNIFeW1qYhqgFLQ7cGRXljKCPOVaN23eQkOvgG5p47LJb/oaCXkKzQdsh/045ohijToVFcHHvtGD9gJBVVJDIaY1bV6r+5TgCpILupPB9BSNWg5E7EbQV60yDtOrIR1GaNN29l6tLYfwvwwFCvlBQK6ew9V7sBXmddNYc6KVhIQ/2tU4OQt3J2OIVMC3IEsBCEXsF1HYU5UZQzRHgu1PEt0D9mXKgxfj2v8quJ+WXh7vPve06da04CX+p/cCPoLjLx46/QVlAs0Bf/s0t0Dtwmg8OwKmfGc90nQH0j6LoTeqqjiTpHIc1UvraRdXJPVDiIM1UXC8r1EBPemUnuWtN2VFdlWSnnpDJ3MC5xXW9Wd093c71y9zoL6rmZ5KA6Z/SzX23YuYy6mP5MwRGw5bkOTIeLhXMakbuazddpx+gNlG8RKC0PJ09LpoXfLumqGK9LcNJSYcA1WjMWiza3is99qE31juea6V3eLeo68SdqfMwy0xW0WV/6+HldI9MkjsYaqI0FjoHd3ZBrqPumT9Mi1TWScKzPVMZFcIdv9onGQTCPg6pFsFi5T+GSJC/vEg3anxEd8nybXKKxnBF9O5GvM5Lbczin6rrN84xYK57iCBfxU3Kk0AeFlOpL5nzwcoMikMC2/NG7pLbnSMIFZbty42KSlvcbm43q5OmSM15wFf6kXFCam9XVHjnH4Mrl62ZclbOY6b0s5AW78mYxur5m1pQ1eJDl27BsbmIjaDbaZpFkrcTifvWQM1VP1ZGwVnNLMdDyoNk0RdQY3LzqTp9ORLXz2wY2V7jmipPtmCwKZQA1oEjyXBComnZB1dWqpqr5RC/euHjJ2G7AdHUxPbcqTRnrC6O+xZsS3k6E0zXd0Ljsbp97eoa2ftDZqjKlPG7MNZvuYiTtUfvMWFpfp8sQtHa73gnrw/p8KC8YNn/0Ynnu+wvYAykVpXkYJvqvLAAyO7jhMB+ghofZ9UxmZHP3zlW9HF2OeXYwo1AMvmddVJXvWgO09qLZuk0Ph7YfUN+1zBEdr1eG4R5BNIr5qMexOTS2mfYq28vmM5gzTlIP2krz3dOfpdA73jh1eVaeY8rL7/lSKjNBFciX8/9U/Ac3Z9rmsiIAAA==';
+          const paths=gunzipSync(Buffer.from(compressed,'base64')).toString('utf8').trim().split('\n');
+          paths.push('tools/generate-art/piper-quickstep-pass-overhead-attempt1-prompt.md','tools/generate-art/piper-quickstep-pass-behind-attempt1-prompt.md','tools/generate-art/previews/piper-quickstep-receive/native-120/report.json');
+          paths.push('tools/generate-art/previews/piper-quickstep-pass-overhead/native-100/report.json');
+          paths.push('tools/generate-art/previews/piper-quickstep-pass-overhead/native-120/report.json');
+          if(paths.length!==120||new Set(paths).size!==120)throw Error('Expected 120 unique fixture paths');
+          const permitted=p=>!p.startsWith('..')&&!path.isAbsolute(p)&&
+            (p.startsWith('tools/generate-art/')||p==='docs/LOSSLESS_ATLAS_PROVENANCE.json');
+          if(!paths.every(permitted))throw Error('Unapproved manifest path');
+          const root='https://api.github.com/repos/Manaconda33/Conda-Jam',pin='55a2ab104d6b108cc08132fddc01b32afb958e75';
+          const headers={Authorization:'Bearer '+process.env.GH_TOKEN,Accept:'application/vnd.github+json'};
+          let index=0;const results=[];
+          async function restore(rel){
+            const encoded=rel.split('/').map(encodeURIComponent).join('/');
+            const response=await fetch(root+'/contents/'+encoded+'?ref='+pin,{headers});
+            if(!response.ok)throw Error(rel+' pinned PR6 metadata HTTP '+response.status);
+            const meta=await response.json();
+            if(meta.type!=='file'||!meta.sha||meta.size>65_000_000)throw Error('Invalid fixture '+rel);
+            const blobResponse=await fetch(root+'/git/blobs/'+meta.sha,{headers});
+            if(!blobResponse.ok)throw Error(rel+' Git blob HTTP '+blobResponse.status);
+            const blob=await blobResponse.json(),bytes=Buffer.from(blob.content.replace(/\s/g,''),'base64');
+            const check=spawnSync('git',['hash-object','--stdin'],{input:bytes,encoding:'utf8'});
+            if(bytes.length!==meta.size||check.status!==0||check.stdout.trim()!==meta.sha)
+              throw Error(rel+' Git SHA or byte-length mismatch');
+            fs.mkdirSync(path.dirname(rel),{recursive:true});
+            fs.writeFileSync(rel,bytes);
+            return {path:rel,sha:meta.sha,size:bytes.length};
+          }
+          await Promise.all(Array.from({length:4},async()=>{
+            while(index<paths.length){const p=paths[index++];results.push(await restore(p));}
+          }));
+          results.sort((a,b)=>a.path.localeCompare(b.path));
+          fs.writeFileSync('ci-diagnostic/verified-fixtures.json',JSON.stringify({
+            revision:pin,restored:results.length,files:results
+          },null,2)+'\n');
+          console.log('Restored all '+results.length+' hash-verified pinned historical fixtures');
+          NODE
+          test "$(git hash-object src/core/animation.js)" = 2b1413fce2582fd588f7df111bfb719e8605f046
+          test "$(git hash-object tests/animation.test.js)" = 9456ffdcdf73f397c15a520b48f75a6cc91ca569
+
+      - name: Run ALL original npm tests on actual assembled integration tree
+        shell: bash
+        run: |
+          set +e
+          timeout 600s npm test >ci-integration/npm-test.log 2>&1
+          rc=$?
+          set -e
+          echo "$rc" >ci-integration/npm-test.exit
+          tail -n 60 ci-integration/npm-test.log
+          echo "npm test exit: $rc"
+
+      - name: Verify lint, full content, league simulation and independent production build
+        shell: bash
+        run: |
+          for script in lint validate:content simulate:league build; do
+            name="$(echo "$script" | tr : -)"
+            set +e
+            timeout 240s npm run "$script" >"ci-integration/$name.log" 2>&1
+            rc=$?
+            set -e
+            echo "$rc" >"ci-integration/$name.exit"
+            echo "$script exit: $rc"
+            tail -n 8 "ci-integration/$name.log"
+          done
+
+      - name: Regenerate actual combined art audit into CI artifacts (never overwrite accepted snapshots)
+        shell: bash
+        run: |
+          set +e
+          timeout 540s node tools/audit-animation-assets.mjs --report-only --json ci-integration/audit.json --markdown ci-integration/audit.md >ci-integration/audit.log 2>&1
+          rc=$?
+          set -e
+          echo "$rc" >ci-integration/audit.exit
+          tail -n 18 ci-integration/audit.log
+          echo "Audit generation exit: $rc; strict acceptance is a separate gate."
+
+      - name: Summarize command results, baseline-aware art delta and source hash verification
+        if: always()
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const r=f=>{try{return fs.readFileSync('ci-integration/'+f,'utf8').trim()}catch{return null}};
+          const scripts=['npm-test','lint','validate-content','simulate-league','build','audit'];
+          const codes=Object.fromEntries(scripts.map(x=>[x,r(x+'.exit')]));
+          const auditRaw=r('audit.json');
+          let audit={error:'not generated'};
+          if(auditRaw){
+            const a=JSON.parse(auditRaw);
+            const byCode={};
+            for(const e of a.errors||[])byCode[e.code]=(byCode[e.code]||0)+1;
+            audit={ok:a.ok,athletes:a.athletes,inspectedClips:a.inspectedClips,
+              missingClipCount:a.missingClipCount,targetFrameShortfalls:a.targetShortfalls?.length,
+              sourceAtlases:a.uniqueSourceAtlases,byCode};
+          }
+          const expected={missingClips:706,promptWarnings:40,baseline:'prior pinned PR6+PR7 review-only combined audit'};
+          const matchesExpected=audit.missingClipCount===706&&audit.byCode?.['prompt-not-verbatim']===40&&audit.byCode?.['missing-clip']===706;
+          const summary={scope:'actual integration branch, sparse runtime/test/public, verified 120 original fixtures',codes,audit,expected,artDeltaUnchanged:matchesExpected,
+            commandExitGreen:scripts.every(x=>codes[x]==='0'),auditNotAccepted:audit.ok===false};
+          fs.mkdirSync('ci-integration',{recursive:true});
+          fs.writeFileSync('ci-integration/summary.json',JSON.stringify(summary,null,2)+'\n');
+          let md='## Actual Conda Jam combined source: CI and art classification\n\n';
+          md+='| Command | Exit code |\n|---|---|\n';
+          for(const x of scripts)md+='| '+x+' | '+codes[x]+' |\n';
+          md+='\n**This run validates actual combined source without rewriting production art.** Strict audit status remains separately unaccepted even when generated successfully.\n\n';
+          md+='~~~json\n'+JSON.stringify({audit,expected,artDeltaUnchanged:matchesExpected},null,2)+'\n~~~\n';
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,md);
+          console.log(JSON.stringify(summary,null,2));
+          NODE
+
+      - name: Upload complete review evidence and regenerated audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: conda-jam-actual-integration-ci
+          path: |
+            ci-integration/
+            ci-diagnostic/verified-fixtures.json
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Enforce true CI command success and zero audit regressions
+        if: always()
+        shell: bash
+        run: |
+          test -f ci-integration/summary.json
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const x=JSON.parse(fs.readFileSync('ci-integration/summary.json','utf8'));
+          if(!x.commandExitGreen||!x.artDeltaUnchanged){
+            console.error('Test/build/content/audit command failed or asset classification changed.',x);
+            process.exit(1);
+          }
+          console.log('Combined production source tested successfully. Strict audit and independent visual acceptance remain separately open.');
+          NODE
