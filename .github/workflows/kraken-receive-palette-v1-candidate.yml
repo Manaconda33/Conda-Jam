@@ -1,0 +1,78 @@
+name: Kraken receive palette V1 candidate (review-only)
+on:
+  push:
+    branches:
+      - maintenance/pr6-pr7-reconciliation-probe
+    paths:
+      - '.github/workflows/kraken-receive-palette-v1-candidate.yml'
+      - 'tools/generate-art/review/kraken-receive-palette-v1.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build-source-preserving-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout immutable original Kraken WebPs only
+        uses: actions/checkout@v4
+        with:
+          ref: 55a2ab104d6b108cc08132fddc01b32afb958e75
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /public/assets/animation/kraken-receive-right.webp
+            /public/assets/animation/kraken-pass-right.webp
+          sparse-checkout-cone-mode: false
+      - name: Verify original PR6 revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = 55a2ab104d6b108cc08132fddc01b32afb958e75
+          sha256sum public/assets/animation/kraken-receive-right.webp public/assets/animation/kraken-pass-right.webp
+      - name: Checkout committed review builder from this diagnostic commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: _review
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            /tools/generate-art/review/kraken-receive-palette-v1.py
+          sparse-checkout-cone-mode: false
+      - name: Set up isolated Python for deterministic candidate generation
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image development dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 180s python -m pip install --disable-pip-version-check --quiet \
+            "numpy==2.2.6" "opencv-python-headless==4.11.0.86" "pillow==11.3.0"
+      - name: Build candidate without changing game source or accepted atlas
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-kraken-v1
+          python _review/tools/generate-art/review/kraken-receive-palette-v1.py \
+            --receive public/assets/animation/kraken-receive-right.webp \
+            --pass-atlas public/assets/animation/kraken-pass-right.webp \
+            --out ci-kraken-v1
+          test -s ci-kraken-v1/kraken-receive-palette-v1.webp
+          test -s ci-kraken-v1/validation.json
+          node -e "const x=require('./ci-kraken-v1/validation.json'); if(x.frames!==4||!x.frame2BitwiseIdentical||!x.allAlphaMasksIdentical||x.ballTrackAndTimingEdited)process.exit(1)"
+          {
+            echo "## Kraken receive: palette candidate V1"
+            echo "- REVIEW ONLY. Candidate frame2 exact; alpha/80×96 geometry unchanged; no gameplay or source atlas writes"
+            echo "- $(sha256sum ci-kraken-v1/kraken-receive-palette-v1.webp)"
+            echo "- Original source/manifest integration, actual gameplay captures, artwork consistency remain unapproved"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload generated candidate and verification record for independent review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kraken-receive-palette-v1-review-only
+          path: ci-kraken-v1/
+          if-no-files-found: warn
+          retention-days: 7
