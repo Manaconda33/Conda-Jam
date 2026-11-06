@@ -1,0 +1,88 @@
+name: PR10 full athlete-track parity against accepted main
+
+on:
+  push:
+    branches: [codex/captain-studio-infrastructure]
+    paths:
+      - '.github/workflows/pr10-current-main-track-parity.yml'
+      - 'src/core/animation.js'
+      - 'src/content/animation-ball-tracks.js'
+      - 'tests/animation-ball-tracks-parity.test.js'
+      - 'tests/fixtures/animation/tracked-action-runtime-baseline.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout candidate core and data only
+        uses: actions/checkout@v4
+        with:
+          path: candidate
+          ref: ${{ github.sha }}
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /src/
+            /tools/captain-studio/canonical-json.mjs
+            /package.json
+      - name: Checkout immutable accepted pre-migration main
+        uses: actions/checkout@v4
+        with:
+          path: baseline
+          ref: 79eb3b188294b895c59631cd411e68b4d9759fd4
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /src/
+            /package.json
+      - name: Compare all 105 athletes x 29 actions on every tick
+        run: |
+          node --input-type=module <<'NODE'
+          import assert from 'node:assert/strict';
+          import { createHash } from 'node:crypto';
+          import { resolve } from 'node:path';
+          import { pathToFileURL } from 'node:url';
+          const imp = path => import(pathToFileURL(resolve(path)).href);
+          const [baseline, candidate, roster, canonical] = await Promise.all([
+            imp('baseline/src/core/animation.js'),
+            imp('candidate/src/core/animation.js'),
+            imp('baseline/src/content/teams.js'),
+            imp('candidate/tools/captain-studio/canonical-json.mjs'),
+          ]);
+          const athletes = roster.teams.flatMap(team => team.roster);
+          assert.equal(athletes.length, 105);
+          assert.deepEqual(Object.keys(candidate.animationClips).sort(),Object.keys(baseline.animationClips).sort());
+          const observed = {};
+          let count = 0;
+          for (const athlete of athletes) {
+            observed[athlete.id] = {};
+            for (const [key, def] of Object.entries(baseline.animationClips)) {
+              ++count;
+              const snapshot = mod => [
+                mod.athleteBallTrackSource(athlete.id,key,'height'),
+                mod.athleteBallTrackSource(athlete.id,key,'forward'),
+                mod.sampleBallReleaseVz(key,athlete.id),
+                mod.animationDuration(key),
+                Boolean(mod.animationClips[key].loop),
+                mod.animationClips[key].frames.map(f=>f.duration),
+                mod.animationClips[key].anchors,
+                Array.from({length:mod.animationDuration(key)+2},(_,tick)=>[
+                  mod.sampleBallHeight(key,tick,athlete.id),
+                  mod.sampleBallForward(key,tick,athlete.id),
+                ]),
+              ];
+              const old = snapshot(baseline), now = snapshot(candidate);
+              assert.deepStrictEqual(now,old,'Track mismatch for '+athlete.id+'/'+key+' against pinned main');
+              observed[athlete.id][key] = now;
+            }
+          }
+          assert.equal(count,3045);
+          const digest = createHash('sha256').update(canonical.canonicalJson(observed),'utf8').digest('hex');
+          console.log('PASS: 3045/3045 source, timing, anchor, release and every-tick values identical to accepted main');
+          console.log('POST_DONOR_MAIN_PARITY_SHA256='+digest);
+          NODE
