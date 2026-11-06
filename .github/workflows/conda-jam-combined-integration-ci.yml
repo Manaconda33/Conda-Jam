@@ -27,6 +27,7 @@ jobs:
             /tests/
             /tools/*.mjs
             /tools/*.js
+            /docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json
           sparse-checkout-cone-mode: false
           lfs: false
 
@@ -155,6 +156,16 @@ jobs:
           tail -n 18 ci-integration/audit.log
           echo "Audit generation exit: $rc; strict acceptance is a separate gate."
 
+      - name: Verify exact PR6/PR7 inherited audit signatures
+        shell: bash
+        run: |
+          set +e
+          node tools/check-pr17-audit-identities.mjs ci-integration/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-integration/audit-identity-summary.json >ci-integration/audit-identities.log 2>&1
+          rc=$?
+          set -e
+          echo "$rc" >ci-integration/audit-identities.exit
+          tail -n 80 ci-integration/audit-identities.log
+
       - name: Summarize command results, baseline-aware art delta and source hash verification
         if: always()
         shell: bash
@@ -162,7 +173,7 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
           const r=f=>{try{return fs.readFileSync('ci-integration/'+f,'utf8').trim()}catch{return null}};
-          const scripts=['npm-test','lint','validate-content','simulate-league','build','audit'];
+          const scripts=['npm-test','lint','validate-content','simulate-league','build','audit','audit-identities'];
           const codes=Object.fromEntries(scripts.map(x=>[x,r(x+'.exit')]));
           const auditRaw=r('audit.json');
           let audit={error:'not generated'};
