@@ -1,0 +1,9 @@
+# Independent registered-runtime review — J.128 Krios steal, attempt 01
+
+**Result: PASS for registered-runtime rendering and track capture.**
+
+I reviewed the report and all 36 screenshots: eight-frame sequences for left and right facings at zoom 100 and 120, plus one successful-contact capture for each facing and zoom. Every sequence selects frames 0–7 at ticks 1, 3, 4, 5, 7, 9, 11, and 13, with the registered atlas source. The left-facing selector is mirrored (`flip: true`); right-facing uses `flip: false`. The poses read as a continuous steal motion, retain Krios's horns, hands, legs, and boots, and remain fully visible at both zooms. No ball is baked into Krios's art; during the showcase sequences the ball remains separately carried by Leo.
+
+The report records `runtimeIntegration: true`, `candidateAtlasInjected: false`, `candidateTrackInjected: false`, `courtY: 90`, 36 captures, and zero uncaught browser errors. The capture harness confirms it routes neither the manifest nor core animation module in runtime mode: `beginMatch` loads the registered public atlas through the normal production map, and gameplay uses `stepMatch` with the app's actual core ball track. The production manifest registers `./public/assets/animation/krios-steal-right.webp` with eight reviewed frames. The runtime core track matches the report's values: heights `[1.0, 0.9, 0.75, 0.5, 0.6, 0.9, 1.05, 1.0]`, forward offsets `[6, 8, 10, 8, 10, 8, 8, 7]`.
+
+At frame 3 / tick 5, contact runs report one real steal, both players without ball ownership, and a loose ball with null owner. The contact screenshots show that separate ball beside Krios's reaching hand, aligned with the empty hook in both mirrored facings; it is not part of the athlete sprite. No missing art, unintended ownership, apparent anatomy defect, or rendering issue was found.

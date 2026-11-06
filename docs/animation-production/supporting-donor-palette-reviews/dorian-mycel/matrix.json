@@ -1,0 +1,2658 @@
+{
+  "donorId": "dorian-mycel",
+  "profile": "dorian-body-mask-v5",
+  "maskProfile": {
+    "id": "dorian-body-mask-v5",
+    "status": "accepted",
+    "jersey": {
+      "region": {
+        "x": [
+          0.38,
+          0.72
+        ],
+        "y": [
+          0.28,
+          0.58
+        ]
+      },
+      "hue": [
+        260,
+        325
+      ],
+      "chromaMin": 24,
+      "luma": [
+        12,
+        225
+      ],
+      "sourceColor": "#743eb5"
+    },
+    "shorts": {
+      "region": {
+        "x": [
+          0.38,
+          0.72
+        ],
+        "y": [
+          0.5,
+          0.74
+        ]
+      },
+      "hue": [
+        260,
+        325
+      ],
+      "chromaMin": 20,
+      "luma": [
+        10,
+        220
+      ],
+      "sourceColor": "#743eb5"
+    },
+    "clips": {
+      "fall": {
+        "jersey": {
+          "region": {
+            "x": [
+              0.24,
+              0.74
+            ],
+            "y": [
+              0.5,
+              0.92
+            ],
+            "polygon": [
+              [
+                0.27,
+                0.59
+              ],
+              [
+                0.4,
+                0.53
+              ],
+              [
+                0.58,
+                0.57
+              ],
+              [
+                0.73,
+                0.7
+              ],
+              [
+                0.68,
+                0.82
+              ],
+              [
+                0.52,
+                0.9
+              ],
+              [
+                0.32,
+                0.84
+              ],
+              [
+                0.24,
+                0.73
+              ]
+            ]
+          },
+          "hue": [
+            260,
+            325
+          ],
+          "chromaMin": 24,
+          "luma": [
+            12,
+            225
+          ],
+          "sourceColor": "#743eb5"
+        },
+        "shorts": {
+          "region": {
+            "x": [
+              0.45,
+              0.82
+            ],
+            "y": [
+              0.7,
+              0.93
+            ],
+            "polygon": [
+              [
+                0.45,
+                0.72
+              ],
+              [
+                0.66,
+                0.69
+              ],
+              [
+                0.82,
+                0.79
+              ],
+              [
+                0.79,
+                0.91
+              ],
+              [
+                0.59,
+                0.93
+              ],
+              [
+                0.48,
+                0.85
+              ]
+            ]
+          },
+          "hue": [
+            260,
+            325
+          ],
+          "chromaMin": 20,
+          "luma": [
+            10,
+            220
+          ],
+          "sourceColor": "#743eb5"
+        }
+      }
+    },
+    "review": {
+      "status": "accepted",
+      "reviewedAt": "2026-10-28",
+      "reviewer": "independent visual review",
+      "scope": "9 mapped target palettes × 29 required clips per donor; enlarged pose-family checks; source alpha compared across every derived clip frame",
+      "evidence": "docs/animation-production/supporting-donor-palette-reviews/dorian-mycel/",
+      "alphaMismatchPixels": 0
+    }
+  },
+  "clipColumns": [
+    "idle",
+    "idle-ball",
+    "dribble",
+    "run",
+    "dribble-run",
+    "shoot",
+    "pass",
+    "pass-overhead",
+    "pass-behind",
+    "receive",
+    "pickup",
+    "layup",
+    "layup-reverse",
+    "block",
+    "steal",
+    "push",
+    "rebound",
+    "fall",
+    "celebrate",
+    "dunk-power",
+    "dunk-windmill",
+    "dunk-reverse",
+    "dunk-360",
+    "dunk-tomahawk",
+    "dunk-double",
+    "dunk-clutch",
+    "dunk-scythe",
+    "alley-oop-power",
+    "alley-oop-reverse"
+  ],
+  "rows": [
+    {
+      "row": 0,
+      "teamId": "amp-city-thunderchords",
+      "teamName": "Amp City Thunderchords",
+      "playerId": "fret-nova",
+      "palette": [
+        "#bd5a2f",
+        "#eee6d5"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 1,
+      "teamId": "astral-drift-orbits",
+      "teamName": "Astral Drift Orbits",
+      "playerId": "mist-halo",
+      "palette": [
+        "#347ac0",
+        "#e1bd44"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "teamId": "cheshire-hollow-grinners",
+      "teamName": "Cheshire Hollow Grinners",
+      "playerId": "violet-wink",
+      "palette": [
+        "#be4bbb",
+        "#e5bfd5"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "teamId": "darkspire-hellcats",
+      "teamName": "Darkspire Hellcats",
+      "playerId": "thorn-sable",
+      "palette": [
+        "#b91e36",
+        "#25202a"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "teamId": "lumen-bay-circuits",
+      "teamName": "Lumen Bay Circuits",
+      "playerId": "azul-voss",
+      "palette": [
+        "#20b9c8",
+        "#2d61df"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "teamId": "new-orleans-fleur-noire",
+      "teamName": "New Orleans Fleur Noire",
+      "playerId": "noelle-pinstripe",
+      "palette": [
+        "#ddd9d1",
+        "#715381"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "teamId": "nightshade-vale-blooms",
+      "teamName": "Nightshade Vale Blooms",
+      "playerId": "cassian-quill",
+      "palette": [
+        "#7855a1",
+        "#201e27"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "teamId": "stripewood-longarms",
+      "teamName": "Stripewood Longarms",
+      "playerId": "palette-spry",
+      "palette": [
+        "#252528",
+        "#e27136"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "teamId": "venom-delta-fangs",
+      "teamName": "Venom Delta Fangs",
+      "playerId": "viper-veil",
+      "palette": [
+        "#142f63",
+        "#1c9bdd"
+      ],
+      "frames": [
+        {
+          "clip": "idle",
+          "source": "./public/assets/animation/dorian-mycel-idle-right.webp",
+          "sourceSha256": "928c777d6c0bc45ae52aca71449ff4363baca22db04165a62c7f60c5d37df5eb",
+          "frameIndex": 2,
+          "frameHash": "8ef1f42a1a23c74632e13e421a7ecc8720ef3e6692dba4ec8e865af9c48241c2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3628
+        },
+        {
+          "clip": "idle-ball",
+          "source": "./public/assets/animation/dorian-mycel-idle-ball-right.webp",
+          "sourceSha256": "dd05ec22afc6104e23728ac8b3e637b9e189868f0db9ae81b9d2b2ca0fd26799",
+          "frameIndex": 1,
+          "frameHash": "26f9be8b35f05bcc71d84d5cedc9ba9bd6a1da57b0f25babceed175140712754",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2427
+        },
+        {
+          "clip": "dribble",
+          "source": "./public/assets/animation/dorian-mycel-dribble-right.webp",
+          "sourceSha256": "1624e73c3a83a40593ed22ae3819a4c222009445ccae852cf1ad8d59e13943b3",
+          "frameIndex": 4,
+          "frameHash": "c7f2897c7cc922438cb00d538bdf8ae0b8d946a0f89e153c063007eeb887fbe1",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5085
+        },
+        {
+          "clip": "run",
+          "source": "./public/assets/animation/dorian-mycel-run-right.webp",
+          "sourceSha256": "23b7c7a66b9c617067eddec4ca21663bd9f8275541d2e934170e3e870b3a1041",
+          "frameIndex": 6,
+          "frameHash": "8e8151c4ca13bb70ae2a7f9759723ff1fd733772b48f4b0d5edb746a120026ec",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7594
+        },
+        {
+          "clip": "dribble-run",
+          "source": "./public/assets/animation/dorian-mycel-dribble-run-right.webp",
+          "sourceSha256": "6a78c831a110d281c6ddc2a97982e77e120336c73e7155863bb7659b8a93fbd9",
+          "frameIndex": 5,
+          "frameHash": "4973e304bda62162cddf6e5f12fd80c8b8136ae94a98aa7dbe45ddc0e7ef7a55",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6560
+        },
+        {
+          "clip": "shoot",
+          "source": "./public/assets/animation/dorian-mycel-shoot-right.webp",
+          "sourceSha256": "28248a153f64075f7b667e90b830e344d2f270aaa252726190abe55c1cea9d53",
+          "frameIndex": 4,
+          "frameHash": "f418545aede5c8022142463265af392dab9f5fbdf08963aac9eb221b91f35fc2",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4073
+        },
+        {
+          "clip": "pass",
+          "source": "./public/assets/animation/dorian-mycel-pass-right.webp",
+          "sourceSha256": "59ba1969c08cf48d12a8a4dce6aad931143373968a139d63c254c29fdcecafe1",
+          "frameIndex": 2,
+          "frameHash": "cbb737c6662f43cc926925b6f4c5fe874deafd4b7df8a18bef8b54354b4e3801",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2811
+        },
+        {
+          "clip": "pass-overhead",
+          "source": "./public/assets/animation/dorian-mycel-pass-overhead-right.webp",
+          "sourceSha256": "ed9fe285b111a5e0dca41ea2b14ddb0e2a93db6b903912fe1b0e41a3568ebb07",
+          "frameIndex": 2,
+          "frameHash": "48ba05953b699353f074aac720660b9ea3b57e837c88763027d69e8ce48ef962",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2821
+        },
+        {
+          "clip": "pass-behind",
+          "source": "./public/assets/animation/dorian-mycel-pass-behind-right.webp",
+          "sourceSha256": "4537b0130125f5e68b304fd1f5ca01302d6780a5df62933a865e64330a53f396",
+          "frameIndex": 2,
+          "frameHash": "2e5c4336206519a78f4e78b881be4b9f92883498a4fe31773da5ecfe94055abf",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3598
+        },
+        {
+          "clip": "receive",
+          "source": "./public/assets/animation/dorian-mycel-receive-right.webp",
+          "sourceSha256": "8b78dd494380ae69d3ef581c225e6c2d63f7e9db4397c2d5fa60fdb7dd033d60",
+          "frameIndex": 1,
+          "frameHash": "81d72cfc146a8b9c1053837e20c31eb6cf06a61a879c77d0f9b063e50f2266e4",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1739
+        },
+        {
+          "clip": "pickup",
+          "source": "./public/assets/animation/dorian-mycel-pickup-right.webp",
+          "sourceSha256": "53ec8a94f6c0c84789eebf03d6cea5100458b2be497a7d4cdb96a8cc1f7b8643",
+          "frameIndex": 2,
+          "frameHash": "64b34fd2832decfe91d0302e3a04abde9548d31fd0ab249478321f36c3a7208a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2486
+        },
+        {
+          "clip": "layup",
+          "source": "./public/assets/animation/dorian-mycel-layup-right.webp",
+          "sourceSha256": "e5acecc02f02258726d6929b77be7768003c66c5fbd8dd21dee53ee754375168",
+          "frameIndex": 3,
+          "frameHash": "598cde48601619115ad95865b82ee9fe57eb9ccbd90febf533f7b8ace77692ed",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 3135
+        },
+        {
+          "clip": "layup-reverse",
+          "source": "./public/assets/animation/dorian-mycel-layup-reverse-right.webp",
+          "sourceSha256": "9978aa570d112b59a5bc644bfdf75d05051f100516ed9fcdbe9df9db24af97d5",
+          "frameIndex": 3,
+          "frameHash": "98af9cee479ffe3f308f23dc2de55a115b2a730e7807d77c852e0135e0189019",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4254
+        },
+        {
+          "clip": "block",
+          "source": "./public/assets/animation/dorian-mycel-block-right.webp",
+          "sourceSha256": "84c7ab5069793cd9801d4a1cf1e9ae049e003cc674ed9095895414db676d3e65",
+          "frameIndex": 1,
+          "frameHash": "98fee7dc2be05a0fce1ccdeea8e6933e8280d75ee83e37998a71ef0370661c12",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 1947
+        },
+        {
+          "clip": "steal",
+          "source": "./public/assets/animation/dorian-mycel-steal-right.webp",
+          "sourceSha256": "7c826243b068937eedd2427fd3639dfef2edfd27cc63f943b58ede05b86ca8e7",
+          "frameIndex": 3,
+          "frameHash": "1b4e04e012a5c64e89cd881589516db56633e117bac1625cb94ffebf956478db",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4132
+        },
+        {
+          "clip": "push",
+          "source": "./public/assets/animation/dorian-mycel-push-right.webp",
+          "sourceSha256": "39fd1ad1d567d598c06e84a471ab27965490e4cf01853a2c9bc0f5dd64344a6a",
+          "frameIndex": 5,
+          "frameHash": "6f4fe970523493f973ca1e8d58330e068e09a2e9dc850491766942d46488768f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 5540
+        },
+        {
+          "clip": "rebound",
+          "source": "./public/assets/animation/dorian-mycel-rebound-right.webp",
+          "sourceSha256": "a214890ac982dfbc0515b52ff980f72b8c16ec28a3920a17716bbb82787e1b2b",
+          "frameIndex": 2,
+          "frameHash": "d2d74263790ddd28561b1f20fe404d94ac35be8dd66285b0679f9ed976db3a0a",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 2113
+        },
+        {
+          "clip": "fall",
+          "source": "./public/assets/animation/dorian-mycel-fall-right.webp",
+          "sourceSha256": "01ff71c8ab5455063753b9cdc340ab223b43d6513eca3126f8a49d986645a4b7",
+          "frameIndex": 4,
+          "frameHash": "7584288200a96d887ef7354c852ea57ed45b2f97b83c1f7daf41c310446340b5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 4457
+        },
+        {
+          "clip": "celebrate",
+          "source": "./public/assets/animation/dorian-mycel-celebrate-right.webp",
+          "sourceSha256": "5ab21134b4c433c7583e0444d11c6e878084d5f474864b9af87485c88025cc96",
+          "frameIndex": 4,
+          "frameHash": "9b81f760693304e3cf44a0473f64a7fee6d158071c2d5b97386f41b807dcc1fc",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6278
+        },
+        {
+          "clip": "dunk-power",
+          "source": "./public/assets/animation/dorian-mycel-dunk-power-right.webp",
+          "sourceSha256": "02ab3f2f0ca3350028542e4f5557194dd1d8fe7af02b9dccb6c1393be3a9d398",
+          "frameIndex": 7,
+          "frameHash": "4fed02a6d2baaed229c4d1cc46fb8eea6a5b6d8e58ff53d43bb7ab23f5a70c78",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8107
+        },
+        {
+          "clip": "dunk-windmill",
+          "source": "./public/assets/animation/dorian-mycel-dunk-windmill-right.webp",
+          "sourceSha256": "978b53ff6fb8b16b62ac50f68c877b738f8043dc316b4dd3673173707848f9e8",
+          "frameIndex": 7,
+          "frameHash": "8f27e9f53f328fb4f2d6015c7bc9d757943ac083c44cc81381ea3062d2d204f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7736
+        },
+        {
+          "clip": "dunk-reverse",
+          "source": "./public/assets/animation/dorian-mycel-dunk-reverse-right.webp",
+          "sourceSha256": "e3fc7b7df18b6309165ae4c3bf8d41c0772fe805d1bf09adb24d095d1a0fce91",
+          "frameIndex": 7,
+          "frameHash": "937292e3dec95a947c959447d1870ba64e4facb9f2c07b53880d820b3b890bb9",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8640
+        },
+        {
+          "clip": "dunk-360",
+          "source": "./public/assets/animation/dorian-mycel-dunk-360-right.webp",
+          "sourceSha256": "f954e294b986895e28a842eaa4992a743eea82daebe8144c2875eba522a29389",
+          "frameIndex": 7,
+          "frameHash": "bebefcff2fcbe2a47e9a90f99fb1ebb33ed9dfbe19436e0775aa299122919509",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7871
+        },
+        {
+          "clip": "dunk-tomahawk",
+          "source": "./public/assets/animation/dorian-mycel-dunk-tomahawk-right.webp",
+          "sourceSha256": "0c824d5f05399b8503161a24bf93126852e75e7852613cb46ca3fd6804a36c6d",
+          "frameIndex": 7,
+          "frameHash": "77a3e308b5f591d09ece1ff7522dd15603ff0cab26a4f0fc36b3cf156c2f30f8",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 6782
+        },
+        {
+          "clip": "dunk-double",
+          "source": "./public/assets/animation/dorian-mycel-dunk-double-right.webp",
+          "sourceSha256": "3e12b3b90c1ff6ffd4618b05fc370665815e3ee7def37f502f90921ce9a1d2cd",
+          "frameIndex": 7,
+          "frameHash": "beb25f5ef21b28b0265a11e958f50658a422cff9deb1e25217d2a951ebe38415",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7371
+        },
+        {
+          "clip": "dunk-clutch",
+          "source": "./public/assets/animation/dorian-mycel-dunk-clutch-right.webp",
+          "sourceSha256": "72d888f1621981de1ec10231d9b81c8b2ba073263661cd45f134d375f5537a9a",
+          "frameIndex": 7,
+          "frameHash": "f6ffea5200a9803adf0a54df6464c1a79d7c14425d4ebd7c3e540894c6f95bcd",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7386
+        },
+        {
+          "clip": "dunk-scythe",
+          "source": "./public/assets/animation/dorian-mycel-dunk-scythe-right.webp",
+          "sourceSha256": "8832195e6924b68ded92bead213e35707f0da9d1687790108a06aa401a295a7e",
+          "frameIndex": 7,
+          "frameHash": "09585760068fd42800d6b5836e83b7f98d2afe7b4685b157f5da21099c27b716",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 7496
+        },
+        {
+          "clip": "alley-oop-power",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-power-right.webp",
+          "sourceSha256": "143f6d19b342019a623454404294b12dcf8b2bf2d181c39ad59ab28cbdf3df80",
+          "frameIndex": 7,
+          "frameHash": "c1fa083e09af1cb39faf19d4037c0c357e702e6224248037820915ebdc928fd5",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8404
+        },
+        {
+          "clip": "alley-oop-reverse",
+          "source": "./public/assets/animation/dorian-mycel-alley-oop-reverse-right.webp",
+          "sourceSha256": "4c4e71a4f77eb52158ad3f8f89e289252ac0155ee45c6e8558ce09aa8cc7e4b2",
+          "frameIndex": 7,
+          "frameHash": "87d021fea6e67e7d7608df9f45392d0aedafae186b48338331771af7e936300f",
+          "alphaMismatchPixels": 0,
+          "changedPixels": 8087
+        }
+      ]
+    }
+  ]
+}

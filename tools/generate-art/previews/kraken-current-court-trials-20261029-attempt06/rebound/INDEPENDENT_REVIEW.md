@@ -1,0 +1,13 @@
+# Kraken rebound attempt02 — independent gameplay review
+
+**Verdict: FAIL for ball-track acceptance; retain as candidate-only trial evidence. Do not register the track yet.**
+
+Reviewed attempt06 current-court captures and `../report.json`, plus the cleanup01 rebound sheet and its source review. The test uses the Vesper Harbor Undertow vs Blackthorn Court Kings matchup at courtY75. It is candidate-only (`candidateOverridesOnly: true`, `productionRegistration: false`): Kraken rebound captures select `tools/generate-art/previews/kraken-rebound5-attempt02/cleanup01/kraken-rebound5-attempt02-cleanup01-atlas-candidate.png`; facing-left captures mirror with `flip: true`, facing-right with `flip: false`. Four runs cover both facings at 100% and 120%. No browser errors were reported, and the score remains 0–0.
+
+The gameplay fixture is an actual Leo three-point shot that misses (`shotMade: false`) and produces a loose-ball rebound. All four runs report a rebound and transfer ownership to Kraken. This confirms game-state catch mechanics, but it does not prove visual hand contact.
+
+The separate ball track is visibly misaligned. At rebound tick02/frame1 the ball sits above Kraken’s raised fingertips. At tick04/frame2 the ball is not visible around the overhead grab pose in the inspected zoom120 capture (report position is z=3.14). At tick05/frame3 the ball appears well above Kraken’s head while the grab event and possession transfer are reported; at tick07/frame4 it remains above her head instead of in the gathered hands. The same placement defect is visible mirrored at left-facing zoom120. The track H `[1.1, 1.5, 2.0, 2.1, 1.3]`, F `[4, 3, 1, 0.5, 1]` therefore needs recalibration against the actual overhead hand contact and chest gather before normal-loader review.
+
+The art itself is readable for continued candidate work: Kraken’s auburn hair, pointed ear, copper amulet, natural skin and burgundy/gold uniform remain recognizable; the five poses show coherent anatomy and a clear crouch → jump/reach → overhead grab → gather → landing sequence. Cleanup01 has five unique frames, baselineY94, transparent background proofs with no obvious fringe, and at least 23px horizontal margins. The ready and landing crouches are similar but visually distinguishable. The original attempt02 generated source was rejected for its opaque vignette; cleanup01 derives from the separately preserved edited raw source `tools/generate-art/sources/kraken-rebound5-attempt02-edited-raw.png`, whose provenance is recorded in `tools/generate-art/kraken-rebound5-attempt02-edit-provenance.json`. Keep this art and track unregistered until the separate-ball hand alignment is corrected and reviewed.
+
+Reviewer: independent gameplay/art audit. Review date: 2026-10-29.

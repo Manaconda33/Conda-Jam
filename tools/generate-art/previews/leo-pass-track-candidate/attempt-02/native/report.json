@@ -1,0 +1,388 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4192/",
+  "athlete": "leo",
+  "clip": "pass",
+  "candidateTrack": {
+    "height": [
+      2.0,
+      1.95,
+      2.1,
+      2.15,
+      2.0,
+      1.05
+    ],
+    "forward": [
+      5.5,
+      5.5,
+      8,
+      10.5,
+      10,
+      7
+    ]
+  },
+  "captures": [
+    {
+      "tick": 0,
+      "facing": 1,
+      "frame": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "facing": 1,
+      "frame": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105.5,
+        "y": 75,
+        "z": 1.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "facing": 1,
+      "frame": 2,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 108,
+        "y": 75,
+        "z": 2.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick04-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "facing": 1,
+      "frame": 3,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 110.5,
+        "y": 75,
+        "z": 2.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick05-right-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "facing": 1,
+      "frame": 4,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 111.9,
+        "y": 75,
+        "z": 2.19
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick06-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "facing": 1,
+      "frame": 5,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 114.7,
+        "y": 75,
+        "z": 2.27
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick08-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "frame": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "frame": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94.5,
+        "y": 75,
+        "z": 1.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "facing": -1,
+      "frame": 2,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 92,
+        "y": 75,
+        "z": 2.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick04-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "frame": 3,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 89.5,
+        "y": 75,
+        "z": 2.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick05-left-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "facing": -1,
+      "frame": 4,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 88.1,
+        "y": 75,
+        "z": 2.19
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick06-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "facing": -1,
+      "frame": 5,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 85.3,
+        "y": 75,
+        "z": 2.27
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick08-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "facing": 1,
+      "frame": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "facing": 1,
+      "frame": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105.5,
+        "y": 75,
+        "z": 1.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "facing": 1,
+      "frame": 2,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 108,
+        "y": 75,
+        "z": 2.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick04-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "facing": 1,
+      "frame": 3,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 110.5,
+        "y": 75,
+        "z": 2.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick05-right-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "facing": 1,
+      "frame": 4,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 111.9,
+        "y": 75,
+        "z": 2.19
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick06-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "facing": 1,
+      "frame": 5,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 114.7,
+        "y": 75,
+        "z": 2.27
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick08-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "frame": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "frame": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94.5,
+        "y": 75,
+        "z": 1.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "facing": -1,
+      "frame": 2,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 92,
+        "y": 75,
+        "z": 2.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick04-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "frame": 3,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 89.5,
+        "y": 75,
+        "z": 2.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick05-left-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "facing": -1,
+      "frame": 4,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 88.1,
+        "y": 75,
+        "z": 2.19
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick06-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "facing": -1,
+      "frame": 5,
+      "ballMode": "free",
+      "owner": null,
+      "ball": {
+        "x": 85.3,
+        "y": 75,
+        "z": 2.27
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-pass-track-candidate/attempt-02/native/tick08-left-zoom120.png"
+    }
+  ],
+  "captureCount": 24,
+  "uncaughtBrowserErrors": []
+}

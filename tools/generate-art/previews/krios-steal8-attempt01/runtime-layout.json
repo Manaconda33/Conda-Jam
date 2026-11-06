@@ -1,0 +1,215 @@
+{
+  "status": "runtime-size proof only; no production acceptance",
+  "sourceSheet": "tools/generate-art/sources/krios-steal8-attempt01-generated-raw.png",
+  "sourceSha256": "130ac23b0aee3d348e57c7a9c3eea2fc8ecdb202d9e881e6fa05707bb6081bd7",
+  "atlas": "tools/generate-art/previews/krios-steal8-attempt01/krios-steal8-attempt01-runtime-candidate.png",
+  "columns": 8,
+  "rows": 1,
+  "frameWidth": 128,
+  "frameHeight": 96,
+  "sourceToRuntimeScale": 0.26,
+  "baseline": 94,
+  "interpolation": "nearest-neighbor",
+  "frames": [
+    {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        24,
+        129,
+        325,
+        418
+      ],
+      "sourceComponentPixels": 42485,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        78,
+        75
+      ],
+      "offsetInCell": [
+        25,
+        19
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 1,
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        383,
+        145,
+        804,
+        418
+      ],
+      "sourceComponentPixels": 49826,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        109,
+        71
+      ],
+      "offsetInCell": [
+        9,
+        23
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 2,
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        804,
+        158,
+        1145,
+        418
+      ],
+      "sourceComponentPixels": 46721,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        89,
+        68
+      ],
+      "offsetInCell": [
+        19,
+        26
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 3,
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        1184,
+        154,
+        1500,
+        418
+      ],
+      "sourceComponentPixels": 42819,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        82,
+        69
+      ],
+      "offsetInCell": [
+        23,
+        25
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 4,
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        28,
+        609,
+        380,
+        914
+      ],
+      "sourceComponentPixels": 49214,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        92,
+        79
+      ],
+      "offsetInCell": [
+        18,
+        15
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 5,
+      "x": 640,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        418,
+        620,
+        722,
+        914
+      ],
+      "sourceComponentPixels": 42901,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        79,
+        76
+      ],
+      "offsetInCell": [
+        24,
+        18
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 6,
+      "x": 768,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        780,
+        597,
+        1160,
+        914
+      ],
+      "sourceComponentPixels": 52129,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        99,
+        82
+      ],
+      "offsetInCell": [
+        14,
+        12
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    },
+    {
+      "frame": 7,
+      "x": 896,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        1175,
+        620,
+        1500,
+        914
+      ],
+      "sourceComponentPixels": 45765,
+      "sourceToRuntimeScale": 0.26,
+      "scaledSize": [
+        84,
+        76
+      ],
+      "offsetInCell": [
+        22,
+        18
+      ],
+      "baseline": 94,
+      "bottomMargin": 2
+    }
+  ]
+}

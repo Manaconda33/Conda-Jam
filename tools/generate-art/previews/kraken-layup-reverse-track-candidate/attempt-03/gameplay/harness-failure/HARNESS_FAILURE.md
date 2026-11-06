@@ -1,0 +1,3 @@
+# Harness failure — gameplay capture attempt03, first run
+
+The first gameplay run advanced the real `stepMatch` simulation and its report confirmed the tick12 release and two-point score, but the canvas did not render the candidate atlas: the script loaded the candidate image into a private map used only by the selector probe and never inserted it into Jam Stage's production sprite image cache. The screenshots therefore showed fallback character art and are invalid for visual review. They are preserved here rather than treated as candidate validation. The capture script was corrected to expose the production image map and inject the candidate image into that map; a fresh capture must be reviewed separately.

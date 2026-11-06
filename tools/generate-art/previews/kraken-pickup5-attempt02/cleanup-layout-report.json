@@ -1,0 +1,3157 @@
+{
+  "status": "cleanup/layout trial only; independent review pending",
+  "source": "tools/generate-art/sources/kraken-pickup5-attempt02-generated-raw.png",
+  "sourceAlphaRange": [
+    0,
+    255
+  ],
+  "threshold32FigureComponents": 5,
+  "removedAlphaComponents": [
+    {
+      "nearestPose": 0,
+      "pixels": 9764,
+      "boundsLTRB": [
+        15,
+        4,
+        422,
+        628
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1735,
+        9,
+        1736,
+        10
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1105,
+        19,
+        1106,
+        20
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1107,
+        19,
+        1108,
+        20
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 4,
+      "boundsLTRB": [
+        1103,
+        20,
+        1104,
+        24
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1105,
+        21,
+        1106,
+        22
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1108,
+        21,
+        1109,
+        22
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1111,
+        21,
+        1112,
+        22
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1105,
+        23,
+        1106,
+        25
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 3,
+      "boundsLTRB": [
+        1107,
+        23,
+        1108,
+        26
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1109,
+        23,
+        1110,
+        24
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1085,
+        25,
+        1086,
+        26
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1087,
+        25,
+        1088,
+        26
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1103,
+        25,
+        1104,
+        26
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1616,
+        25,
+        1617,
+        26
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 5,
+      "boundsLTRB": [
+        1851,
+        26,
+        1852,
+        31
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1083,
+        27,
+        1084,
+        28
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1089,
+        27,
+        1090,
+        28
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 3,
+      "boundsLTRB": [
+        1105,
+        27,
+        1108,
+        30
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 2,
+      "boundsLTRB": [
+        1853,
+        28,
+        1854,
+        30
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        494,
+        29,
+        495,
+        30
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1087,
+        29,
+        1088,
+        30
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1682,
+        29,
+        1683,
+        30
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1811,
+        29,
+        1812,
+        30
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1680,
+        31,
+        1681,
+        32
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1811,
+        31,
+        1812,
+        32
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1813,
+        31,
+        1814,
+        32
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1823,
+        33,
+        1824,
+        34
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1819,
+        36,
+        1820,
+        37
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        805,
+        37,
+        807,
+        38
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 3,
+      "boundsLTRB": [
+        1216,
+        37,
+        1217,
+        40
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1690,
+        37,
+        1691,
+        38
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1690,
+        39,
+        1691,
+        40
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1761,
+        39,
+        1762,
+        40
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1763,
+        39,
+        1764,
+        40
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1817,
+        39,
+        1818,
+        40
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1849,
+        39,
+        1850,
+        40
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1125,
+        40,
+        1126,
+        42
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1222,
+        40,
+        1223,
+        41
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1682,
+        41,
+        1683,
+        42
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1694,
+        41,
+        1695,
+        42
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 11,
+      "boundsLTRB": [
+        1763,
+        41,
+        1768,
+        46
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1847,
+        41,
+        1848,
+        42
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1218,
+        42,
+        1219,
+        43
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1698,
+        42,
+        1699,
+        43
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1763,
+        42,
+        1764,
+        43
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 5,
+      "boundsLTRB": [
+        1119,
+        43,
+        1120,
+        48
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 3,
+      "boundsLTRB": [
+        1121,
+        43,
+        1122,
+        46
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1123,
+        43,
+        1124,
+        44
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1220,
+        43,
+        1221,
+        44
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1825,
+        43,
+        1826,
+        44
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1218,
+        44,
+        1219,
+        46
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1700,
+        45,
+        1701,
+        46
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1121,
+        47,
+        1122,
+        48
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1763,
+        47,
+        1764,
+        48
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        715,
+        48,
+        716,
+        49
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2048,
+        51,
+        2049,
+        52
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        709,
+        53,
+        710,
+        54
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 5386,
+      "boundsLTRB": [
+        1967,
+        53,
+        2172,
+        613
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        715,
+        55,
+        716,
+        56
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        701,
+        57,
+        702,
+        58
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        713,
+        57,
+        714,
+        58
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        715,
+        57,
+        716,
+        58
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1220,
+        57,
+        1221,
+        58
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        606,
+        59,
+        607,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        703,
+        59,
+        704,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        705,
+        59,
+        706,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        711,
+        59,
+        712,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        713,
+        59,
+        714,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1234,
+        59,
+        1235,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1242,
+        59,
+        1243,
+        60
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        377,
+        61,
+        378,
+        62
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        701,
+        61,
+        702,
+        62
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1216,
+        61,
+        1217,
+        62
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1240,
+        61,
+        1241,
+        62
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1242,
+        61,
+        1243,
+        62
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        604,
+        62,
+        605,
+        63
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1242,
+        63,
+        1243,
+        64
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2022,
+        63,
+        2023,
+        64
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1606,
+        67,
+        1607,
+        68
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1771,
+        69,
+        1772,
+        70
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1216,
+        73,
+        1217,
+        74
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1071,
+        77,
+        1072,
+        79
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1216,
+        77,
+        1217,
+        78
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1218,
+        77,
+        1219,
+        79
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1216,
+        79,
+        1217,
+        81
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 4,
+      "boundsLTRB": [
+        980,
+        81,
+        982,
+        83
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        978,
+        83,
+        979,
+        85
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1081,
+        85,
+        1082,
+        86
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        449,
+        87,
+        451,
+        88
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1081,
+        87,
+        1082,
+        89
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1157,
+        87,
+        1158,
+        89
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1069,
+        89,
+        1070,
+        91
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1155,
+        89,
+        1156,
+        90
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        449,
+        90,
+        451,
+        91
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1065,
+        92,
+        1066,
+        94
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1155,
+        92,
+        1156,
+        93
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 4,
+      "boundsLTRB": [
+        443,
+        95,
+        445,
+        97
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1195,
+        98,
+        1196,
+        100
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 2,
+      "boundsLTRB": [
+        1192,
+        100,
+        1193,
+        102
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        868,
+        103,
+        869,
+        105
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1495,
+        103,
+        1496,
+        105
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        463,
+        106,
+        465,
+        107
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2139,
+        106,
+        2140,
+        107
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 740,
+      "boundsLTRB": [
+        723,
+        110,
+        813,
+        145
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1377,
+        110,
+        1378,
+        111
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2137,
+        112,
+        2138,
+        113
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 340,
+      "boundsLTRB": [
+        813,
+        124,
+        855,
+        183
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        349,
+        128,
+        350,
+        129
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1850,
+        128,
+        1851,
+        129
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1853,
+        134,
+        1854,
+        135
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1286,
+        136,
+        1287,
+        137
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        89,
+        138,
+        90,
+        139
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1602,
+        142,
+        1603,
+        143
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1132,
+      "boundsLTRB": [
+        615,
+        144,
+        724,
+        177
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1602,
+        144,
+        1603,
+        145
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 3406,
+      "boundsLTRB": [
+        1785,
+        144,
+        1963,
+        625
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1095,
+        150,
+        1096,
+        151
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1093,
+        152,
+        1094,
+        153
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1095,
+        152,
+        1096,
+        153
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 3600,
+      "boundsLTRB": [
+        1430,
+        160,
+        1756,
+        433
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 19,
+      "boundsLTRB": [
+        606,
+        162,
+        619,
+        166
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        49,
+        166,
+        50,
+        167
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 7,
+      "boundsLTRB": [
+        56,
+        166,
+        58,
+        171
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 709,
+      "boundsLTRB": [
+        482,
+        166,
+        605,
+        240
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        606,
+        166,
+        607,
+        168
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1703,
+        171,
+        1704,
+        172
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1395,
+        172,
+        1396,
+        173
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 24,
+      "boundsLTRB": [
+        850,
+        181,
+        855,
+        193
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 5096,
+      "boundsLTRB": [
+        12,
+        188,
+        134,
+        664
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1949,
+      "boundsLTRB": [
+        788,
+        192,
+        860,
+        436
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 16896,
+      "boundsLTRB": [
+        827,
+        198,
+        1321,
+        661
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1828,
+      "boundsLTRB": [
+        240,
+        217,
+        353,
+        376
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 4,
+      "boundsLTRB": [
+        441,
+        224,
+        445,
+        226
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        445,
+        228,
+        447,
+        229
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        445,
+        230,
+        447,
+        231
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        451,
+        232,
+        453,
+        233
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 5375,
+      "boundsLTRB": [
+        416,
+        239,
+        584,
+        610
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        884,
+        248,
+        885,
+        249
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        910,
+        248,
+        911,
+        249
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        908,
+        250,
+        909,
+        251
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        910,
+        250,
+        911,
+        251
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        906,
+        252,
+        907,
+        253
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        886,
+        254,
+        887,
+        255
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        888,
+        254,
+        889,
+        255
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        886,
+        256,
+        887,
+        258
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1307,
+        258,
+        1308,
+        259
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 983,
+      "boundsLTRB": [
+        0,
+        260,
+        50,
+        356
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 807,
+      "boundsLTRB": [
+        2003,
+        273,
+        2052,
+        325
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        427,
+        297,
+        428,
+        298
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 60,
+      "boundsLTRB": [
+        1309,
+        297,
+        1321,
+        314
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        424,
+        298,
+        425,
+        299
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 10,
+      "boundsLTRB": [
+        259,
+        299,
+        263,
+        304
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        535,
+        301,
+        536,
+        302
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 400,
+      "boundsLTRB": [
+        1401,
+        305,
+        1432,
+        365
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1986,
+      "boundsLTRB": [
+        684,
+        308,
+        783,
+        414
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        809,
+        309,
+        810,
+        310
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1312,
+        311,
+        1313,
+        312
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1689,
+        316,
+        1690,
+        318
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        487,
+        317,
+        489,
+        318
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        482,
+        341,
+        483,
+        342
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 4,
+      "boundsLTRB": [
+        2037,
+        343,
+        2040,
+        345
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 431,
+      "boundsLTRB": [
+        1603,
+        347,
+        1639,
+        379
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        824,
+        349,
+        825,
+        350
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1690,
+        351,
+        1691,
+        352
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        450,
+        355,
+        451,
+        356
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        468,
+        355,
+        469,
+        356
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 2,
+      "boundsLTRB": [
+        435,
+        359,
+        437,
+        360
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 6,
+      "boundsLTRB": [
+        1399,
+        363,
+        1401,
+        368
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        886,
+        369,
+        887,
+        370
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        894,
+        369,
+        895,
+        370
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 49,
+      "boundsLTRB": [
+        1398,
+        369,
+        1402,
+        390
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 5,
+      "boundsLTRB": [
+        890,
+        370,
+        891,
+        375
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 4,
+      "boundsLTRB": [
+        892,
+        370,
+        893,
+        374
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        884,
+        371,
+        885,
+        372
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        886,
+        371,
+        887,
+        373
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 4,
+      "boundsLTRB": [
+        894,
+        371,
+        895,
+        375
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        888,
+        372,
+        889,
+        374
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        896,
+        373,
+        897,
+        374
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1839,
+        373,
+        1840,
+        374
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        886,
+        374,
+        887,
+        376
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        896,
+        375,
+        897,
+        376
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 4214,
+      "boundsLTRB": [
+        89,
+        376,
+        271,
+        647
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        894,
+        376,
+        895,
+        377
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        896,
+        377,
+        897,
+        378
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1842,
+        379,
+        1843,
+        380
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 630,
+      "boundsLTRB": [
+        1402,
+        390,
+        1437,
+        494
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1709,
+        393,
+        1710,
+        394
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        345,
+        399,
+        346,
+        400
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        526,
+        401,
+        527,
+        402
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        854,
+        401,
+        855,
+        402
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        532,
+        407,
+        533,
+        408
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1346,
+        407,
+        1348,
+        408
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        534,
+        409,
+        535,
+        410
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1819,
+      "boundsLTRB": [
+        1867,
+        412,
+        2071,
+        567
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 4,
+      "boundsLTRB": [
+        782,
+        414,
+        785,
+        417
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        79,
+        417,
+        80,
+        418
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 7,
+      "boundsLTRB": [
+        419,
+        422,
+        420,
+        429
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        790,
+        427,
+        791,
+        428
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        793,
+        431,
+        794,
+        432
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 74,
+      "boundsLTRB": [
+        1735,
+        432,
+        1743,
+        468
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        794,
+        433,
+        795,
+        434
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1867,
+      "boundsLTRB": [
+        579,
+        436,
+        715,
+        543
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1982,
+      "boundsLTRB": [
+        710,
+        437,
+        838,
+        597
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 4606,
+      "boundsLTRB": [
+        1350,
+        437,
+        1612,
+        662
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 2,
+      "boundsLTRB": [
+        1853,
+        445,
+        1854,
+        447
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 3747,
+      "boundsLTRB": [
+        1547,
+        451,
+        1738,
+        646
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        182,
+        454,
+        183,
+        455
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1316,
+      "boundsLTRB": [
+        2026,
+        460,
+        2107,
+        615
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        882,
+        470,
+        883,
+        471
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 3,
+      "boundsLTRB": [
+        677,
+        472,
+        678,
+        475
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2010,
+        476,
+        2011,
+        477
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        202,
+        477,
+        203,
+        478
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1055,
+        480,
+        1056,
+        481
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1590,
+        484,
+        1591,
+        485
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        626,
+        486,
+        627,
+        487
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1342,
+        490,
+        1344,
+        491
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 2,
+      "boundsLTRB": [
+        326,
+        491,
+        328,
+        493
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 14,
+      "boundsLTRB": [
+        330,
+        492,
+        334,
+        497
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        335,
+        494,
+        336,
+        495
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 229,
+      "boundsLTRB": [
+        1399,
+        495,
+        1418,
+        529
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1344,
+        496,
+        1346,
+        497
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 5,
+      "boundsLTRB": [
+        668,
+        505,
+        673,
+        506
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2123,
+        512,
+        2124,
+        513
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1242,
+        520,
+        1243,
+        521
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1258,
+        520,
+        1259,
+        521
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        459,
+        522,
+        461,
+        523
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 195,
+      "boundsLTRB": [
+        563,
+        529,
+        580,
+        554
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 7,
+      "boundsLTRB": [
+        640,
+        540,
+        642,
+        546
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1649,
+        541,
+        1650,
+        543
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 317,
+      "boundsLTRB": [
+        626,
+        542,
+        640,
+        581
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1284,
+        550,
+        1285,
+        551
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 30,
+      "boundsLTRB": [
+        562,
+        554,
+        567,
+        577
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 4,
+      "boundsLTRB": [
+        567,
+        556,
+        569,
+        560
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        2135,
+        558,
+        2136,
+        559
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        461,
+        560,
+        463,
+        561
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1644,
+        562,
+        1645,
+        563
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 459,
+      "boundsLTRB": [
+        1859,
+        566,
+        1899,
+        647
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1558,
+        568,
+        1559,
+        569
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        417,
+        570,
+        418,
+        571
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        419,
+        570,
+        420,
+        571
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        900,
+        574,
+        901,
+        575
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        773,
+        576,
+        774,
+        578
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 341,
+      "boundsLTRB": [
+        554,
+        578,
+        594,
+        645
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        869,
+        578,
+        870,
+        579
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1505,
+        578,
+        1506,
+        579
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 438,
+      "boundsLTRB": [
+        634,
+        580,
+        693,
+        598
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        98,
+        588,
+        99,
+        589
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 17,
+      "boundsLTRB": [
+        691,
+        596,
+        704,
+        600
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 3,
+      "boundsLTRB": [
+        750,
+        596,
+        753,
+        597
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 415,
+      "boundsLTRB": [
+        705,
+        597,
+        754,
+        611
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 5,
+      "boundsLTRB": [
+        902,
+        597,
+        903,
+        602
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1958,
+        599,
+        1959,
+        600
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        904,
+        602,
+        905,
+        603
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1956,
+        602,
+        1957,
+        603
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 4,
+      "boundsLTRB": [
+        2081,
+        602,
+        2085,
+        603
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        393,
+        607,
+        394,
+        608
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 262,
+      "boundsLTRB": [
+        479,
+        609,
+        510,
+        648
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        393,
+        610,
+        394,
+        611
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        748,
+        610,
+        749,
+        611
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1460,
+        610,
+        1461,
+        611
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 8,
+      "boundsLTRB": [
+        1784,
+        614,
+        1785,
+        622
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1465,
+        616,
+        1466,
+        617
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 2,
+      "boundsLTRB": [
+        393,
+        622,
+        394,
+        624
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 70,
+      "boundsLTRB": [
+        262,
+        627,
+        317,
+        632
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 554,
+      "boundsLTRB": [
+        315,
+        627,
+        385,
+        646
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 6,
+      "boundsLTRB": [
+        1607,
+        627,
+        1613,
+        628
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 1,
+      "boundsLTRB": [
+        1786,
+        627,
+        1787,
+        628
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 479,
+      "boundsLTRB": [
+        1786,
+        628,
+        1888,
+        662
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 4,
+      "boundsLTRB": [
+        622,
+        630,
+        624,
+        632
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1564,
+        632,
+        1565,
+        634
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1501,
+        636,
+        1502,
+        638
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 2,
+      "boundsLTRB": [
+        1509,
+        638,
+        1510,
+        640
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        588,
+        641,
+        589,
+        642
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1236,
+        644,
+        1237,
+        645
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        331,
+        645,
+        332,
+        646
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 2,
+      "boundsLTRB": [
+        581,
+        645,
+        583,
+        646
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 3,
+      "pixels": 1,
+      "boundsLTRB": [
+        1670,
+        645,
+        1671,
+        646
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 450,
+      "boundsLTRB": [
+        508,
+        647,
+        581,
+        661
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 4,
+      "pixels": 5,
+      "boundsLTRB": [
+        1889,
+        648,
+        1891,
+        651
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 1,
+      "boundsLTRB": [
+        579,
+        659,
+        580,
+        660
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 0,
+      "pixels": 1,
+      "boundsLTRB": [
+        162,
+        667,
+        163,
+        668
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 1,
+      "pixels": 4,
+      "boundsLTRB": [
+        443,
+        682,
+        445,
+        684
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1256,
+        697,
+        1257,
+        698
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    },
+    {
+      "nearestPose": 2,
+      "pixels": 1,
+      "boundsLTRB": [
+        1254,
+        699,
+        1255,
+        700
+      ],
+      "reason": "detached/background alpha beyond the 2-source-pixel retained figure fringe; original source unchanged"
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-pickup5-attempt02/kraken-pickup5-attempt02-runtime-candidate.png",
+  "layout": "tools/generate-art/previews/kraken-pickup5-attempt02/layout.json",
+  "rawPreserved": true,
+  "uniqueFrames": 5,
+  "minimumMarginsLTRB": [
+    12,
+    21,
+    13,
+    2
+  ],
+  "pixelTreatment": "Original RGBA only; nearest-neighbor downscale; no color keying or redrawing."
+}

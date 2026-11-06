@@ -1,0 +1,22 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk",
+  "attempt": 5,
+  "kind": "fresh ImageGen",
+  "status": "rejected by initial review; preserve for provenance",
+  "generatedAt": "2026-10-29T00:00:00Z",
+  "generationId": "exec-d7f7b571-8735-4640-85ba-6742a02b0647",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt05-imagegen-prompt.txt",
+  "promptSha256": "45f8f0ada2ce4143183deb37f260e1c1494e713fed11c03e228d79b431c9a785",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt05-generated-raw.png",
+  "rawSha256": "1e2a0b6a2822804e9dca10ec63a5bf929315def8368c937c8786d7db213d8d0d",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "mode": "RGB",
+  "alphaExtrema": null,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt05/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Rejected: checkerboard transparency preview is baked into fully opaque RGB; image is smooth illustrated art rather than crisp pixel art. No cleanup or packing."
+}

@@ -1,0 +1,27 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-360",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected as raw source; preserve; no cleanup/registration",
+  "generatedAt": "2026-10-29T04:59:00Z",
+  "generationId": "exec-f7cd3f90-01ed-4d47-b1f5-72fa707539ca",
+  "promptFile": "tools/generate-art/kraken-dunk-360-attempt01-imagegen-prompt.txt",
+  "promptSha256": "f8ff4674a9fc66eb7ce0de25b9549b668ed802f7e559ce091babacd54535eadb",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-360-attempt01-generated-raw.png",
+  "rawSha256": "2034e538b642e7d2eaa3e6591cf03b7da39b403eb711d3fb8ba78dba61286bc4",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 989439,
+  "partialAlphaPixels": 583425,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-360-attempt01/README.md",
+  "reviewSummary": "15 full-body frames, identity and anatomy broadly coherent. Rotation continuity fails: frames8\u201310 alternate back/front views rather than progress smoothly; frame11/12 do not clearly read as the dunk extension/follow-through. Smooth painted rendering also misses crisp pixel-art style. Preserve raw; no cleanup or retry."
+}

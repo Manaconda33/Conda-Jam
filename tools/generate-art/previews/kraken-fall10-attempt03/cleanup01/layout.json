@@ -1,0 +1,234 @@
+{
+  "status": "attempt02 frames0\u20138 plus independently generated frame9; composite/cleanup trial only",
+  "atlas": "tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+  "atlasSha256": "81acfd503254ffda04be637910d10f8dffc5c20919ed33eeb23b39fd3ee651c0",
+  "sourceBaseAtlas": "tools/generate-art/previews/kraken-fall10-attempt02/kraken-fall10-attempt02-runtime-candidate.png",
+  "replacementRaw": "tools/generate-art/sources/kraken-fall10-attempt03-pose09-generated-raw.png",
+  "replacementRawSha256": "57d71dfb07a7529418aea63a644a3ea816b59cc8440e09e5eeb82929b4b2a6d4",
+  "columns": 5,
+  "rows": 2,
+  "frameWidth": 80,
+  "frameHeight": 96,
+  "baselineY": 94,
+  "replacementBounds": [
+    327,
+    274,
+    817,
+    1158
+  ],
+  "replacementVisibleSize": [
+    37,
+    67
+  ],
+  "replacementScale": 0.0757918552036199,
+  "replacementCleanup": "Keep alpha>=160 core plus source-alpha pixels within1.25 source pixels of core; clear further low-alpha fringe. No RGB recolor or geometric distortion.",
+  "frames": [
+    {
+      "index": 0,
+      "slot": [
+        0,
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        22,
+        28,
+        22,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 1,
+      "slot": [
+        1,
+        0
+      ],
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        8,
+        32,
+        8,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 2,
+      "slot": [
+        2,
+        0
+      ],
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        10,
+        40,
+        11,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 3,
+      "slot": [
+        3,
+        0
+      ],
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        6,
+        58,
+        6,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 4,
+      "slot": [
+        4,
+        0
+      ],
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        4,
+        68,
+        4,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 5,
+      "slot": [
+        0,
+        1
+      ],
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        7,
+        67,
+        7,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 6,
+      "slot": [
+        1,
+        1
+      ],
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        10,
+        56,
+        10,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 7,
+      "slot": [
+        2,
+        1
+      ],
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        14,
+        42,
+        15,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 8,
+      "slot": [
+        3,
+        1
+      ],
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 94,
+      "marginsLTRB": [
+        13,
+        31,
+        14,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt02-provenance.json"
+    },
+    {
+      "index": 9,
+      "slot": [
+        4,
+        1
+      ],
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceRectLTRB": [
+        327,
+        274,
+        817,
+        1158
+      ],
+      "uniformScale": 0.0757918552036199,
+      "scaledSize": [
+        37,
+        67
+      ],
+      "offsetInCell": [
+        21,
+        27
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        21,
+        27,
+        22,
+        2
+      ],
+      "lineage": "tools/generate-art/kraken-fall10-attempt03-pose09-provenance.json",
+      "alphaHash": "6c5c9f4c0f7cd24b05f19ccb723b8969c9516d138b0dc8ee470753dd577063d3",
+      "poseHash": "cd7d1700a2c38f92b06ab796397f644e4a18bacd660ec042586c87eae6ede32f"
+    }
+  ]
+}

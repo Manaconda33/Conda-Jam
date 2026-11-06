@@ -1,0 +1,179 @@
+[
+  {
+    "athlete": "krios",
+    "direction": "right",
+    "clip": "receive",
+    "src": "./public/assets/animation/krios-receive-right.webp",
+    "columns": 5,
+    "rows": 1,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 104,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 208,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      },
+      {
+        "x": 312,
+        "y": 0,
+        "w": 104,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "krios",
+      "clip": "receive",
+      "direction": "right",
+      "canonicalSection": "J.06",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-28",
+      "generationId": "exec-226255dc-2b64-48fc-8131-26694dcd12b3",
+      "imageGenerationId": "exec-226255dc-2b64-48fc-8131-26694dcd12b3",
+      "correctedPoseGenerationId": "exec-daedc623-9405-4aa4-b3f2-617e852955ba",
+      "rawSourceImage": "tools/generate-art/sources/krios-receive4-attempt02-composite-raw.png",
+      "rawSourceSha256": "0bdc9ddb62b6e4cb7bafc1853db18620bf7a51bb57c23374bb1580ae29635ec1",
+      "sourceImage": "tools/generate-art/sources/krios-receive4-attempt02-cleanup01.png",
+      "sourceSha256": "9dccb788567cc1ed450dc5a0eb8846e5c4657ba2ee6e670850fa599a0963842d",
+      "baseGenerationRaw": "tools/generate-art/sources/krios-receive4-attempt01-generated-raw.png",
+      "baseGenerationSha256": "a60788274a094bf9d52e198bd6596c42dc2ced41e5a353ec25e16958d45df1bc",
+      "poseCorrectionRaw": "tools/generate-art/sources/krios-receive4-attempt02-generated-raw.png",
+      "poseCorrectionSha256": "428a920ee00efa1c378c7d8aba92e3919a6bde9b0d1d563525acd0a7766b3ef0",
+      "compositeScript": "tools/generate-art/compose-krios-receive4-attempt02.py",
+      "compositeReport": "tools/generate-art/krios-receive4-attempt02-composite-report.json",
+      "prompt": "Create exactly four unique full-body basketball receive action drawings as one true-transparent RGBA sprite sheet, two columns by two rows, read left to right and top to bottom. Use the attached Krios action atlas as the exact identity and pixel-art style reference. Krios is a towering enormous muscular male giant with bright volcanic-red skin, huge curled near-black ram horns, wild dark charcoal beard, broad hulking shoulders and arms, black/charcoal Scoria Rams uniform with ember-red and gold trim, and heavy rugged dark basketball boots. Preserve his face, both horns, beard, uniform colors, height and powerful proportions in all four drawings. Natural coherent anatomy: two arms, two hands, two legs, two boots. Right-facing three-quarter profile.\n\nKrios is receiving a separate airborne basketball pass. The ball is a separate game object and must not be drawn anywhere; no prop or ball-shaped marking. His empty hands mime the catch until the exact runtime grab pose at index 2 (bottom-left). Four distinct connected poses: pose 0 turns his head and shoulders toward the incoming pass with both hands ready near his chest; pose 1 bends his knees and extends both empty hands upward and forward to meet the ball; pose 2 IS THE EXACT CATCH pose, with both empty hands closing around the incoming ball at upper chest height, elbows absorbing the catch; pose 3 secures the imaginary ball against his chest and settles into a balanced stance. Make the catch unmistakable at pose 2 and clearly later than the reach at pose 1. Poses 0–1 happen before the catch, pose 3 after it.\n\nOnly four complete Krios figures. Crisp hard-edged outlined JAMVERSE '96 arcade pixel art with square pixel clusters, matching the reference. True transparent background with alpha zero outside the figures. Keep horns, hands and boots fully inside their cells with generous clear margins. No ball, court, floor, shadow, hoop, extra player, text, number, logo, border, panel divider, checkerboard, glow, gradient, matte or background. One pose per cell, no duplicate poses.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "correctivePrompt": "Edit only pose1, the top-right cell of the first attached image. Repair Krios's anatomy so pose1 has exactly two arms and exactly two hands total. Remove the overlapping duplicate/ghost hands and extra arm shapes. Keep one pair of arms reaching forward and upward to intercept the pass: one left arm and one right arm, each attached naturally to a shoulder and ending in exactly one empty hand. Preserve the rest of pose1 including its torso, head, horns, beard, uniform, legs, boots, position, scale and style. Preserve the other three poses completely unchanged and in their existing cells. The second attached image is the identity/style reference for Krios only. Do not add a ball. Preserve the transparent background and source dimensions. Do not change any pose other than pose1.",
+      "correctivePromptVerbatim": true,
+      "references": [
+        "public/assets/animation/krios-pass-overhead-right.webp"
+      ],
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Krios-specific separate basketball follows the incoming pass to the catch pose at frame index 2/tick4. Never paint a ball into the poses. Track length: 4.",
+      "ballTrackStatus": "accepted-independent-gameplay-review",
+      "cleanup": {
+        "script": "tools/generate-art/clean-krios-receive4-attempt02.py",
+        "method": "Composite uses only corrected pose1 from attempt02 and restores poses0,2,3 exactly from attempt01; then alpha below96 is cleared and alpha96–254 made opaque, RGB preserved.",
+        "report": "tools/generate-art/krios-receive4-attempt02-cleanup01-report.json"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "independent Krios source reviewer",
+        "reviewNotes": "Source composite accepted for packing after cleanup01. Corrected top-right pose1 has two coherent arms and hands. Bottom-left pose index2 is the clear catch, followed by secure recovery. Krios identity/anatomy, no-ball art, transparency and margins accepted. Independent packed atlas review remains pending.",
+        "packedAtlasEvidence": "tools/generate-art/krios-receive4-review.md",
+        "trackEvidence": "tools/generate-art/previews/j128-krios-receive-track-candidate/INDEPENDENT_INTEGRATION_REVIEW.md"
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "sourceRect": {
+            "component": 2,
+            "area": 108404,
+            "x": 120,
+            "y": 69,
+            "w": 476,
+            "h": 494,
+            "row": 0,
+            "column": 0
+          },
+          "cropBox": [
+            118,
+            67,
+            598,
+            565
+          ]
+        },
+        {
+          "sourceIndex": 1,
+          "sourceRect": {
+            "component": 1,
+            "area": 109249,
+            "x": 731,
+            "y": 49,
+            "w": 533,
+            "h": 515,
+            "row": 0,
+            "column": 1
+          },
+          "cropBox": [
+            729,
+            47,
+            1266,
+            566
+          ]
+        },
+        {
+          "sourceIndex": 2,
+          "sourceRect": {
+            "component": 3,
+            "area": 103462,
+            "x": 126,
+            "y": 620,
+            "w": 450,
+            "h": 489,
+            "row": 1,
+            "column": 0
+          },
+          "cropBox": [
+            124,
+            618,
+            578,
+            1111
+          ]
+        },
+        {
+          "sourceIndex": 3,
+          "sourceRect": {
+            "component": 4,
+            "area": 98585,
+            "x": 736,
+            "y": 627,
+            "w": 448,
+            "h": 480,
+            "row": 1,
+            "column": 1
+          },
+          "cropBox": [
+            734,
+            625,
+            1186,
+            1109
+          ]
+        }
+      ],
+      "uniformScale": 0.17475728155339806,
+      "componentIsolation": true,
+      "packaging": "package-krios-actions.py; 104x96 cells; baseline94; lossless WebP; 4 original poses",
+      "ballTrack": {
+        "height": [
+          1.1,
+          2.0,
+          2.1,
+          1.2
+        ],
+        "forward": [
+          5,
+          9,
+          9,
+          5
+        ],
+        "grabFrame": 2,
+        "grabTick": 4,
+        "review": "tools/generate-art/previews/j128-krios-receive-track-candidate/REVIEW.md"
+      }
+    }
+  }
+]

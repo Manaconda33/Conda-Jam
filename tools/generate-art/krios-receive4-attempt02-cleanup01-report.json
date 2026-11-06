@@ -1,0 +1,10 @@
+{
+  "source": "tools/generate-art/sources/krios-receive4-attempt02-composite-raw.png",
+  "sourceSha256": "0bdc9ddb62b6e4cb7bafc1853db18620bf7a51bb57c23374bb1580ae29635ec1",
+  "output": "tools/generate-art/sources/krios-receive4-attempt02-cleanup01.png",
+  "outputSha256": "9dccb788567cc1ed450dc5a0eb8846e5c4657ba2ee6e670850fa599a0963842d",
+  "threshold": 96,
+  "removedNonzeroAlphaPixels": 65180,
+  "madeOpaquePixels": 418932,
+  "rgbPreserved": true
+}

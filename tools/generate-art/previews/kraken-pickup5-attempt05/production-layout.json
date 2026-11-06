@@ -1,0 +1,91 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "pickup",
+  "src": "./public/assets/animation/kraken-pickup-right.webp",
+  "columns": 5,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-pickup5-attempt05-pose03-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29T02:36:00Z",
+    "promptVerbatim": true,
+    "generationId": "not exposed by the image-generation tool response",
+    "classification": "bespoke-source-composite",
+    "frameLineage": [
+      {
+        "frames": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+        "rawSource": "tools/generate-art/sources/kraken-pickup5-attempt03-generated-raw.png",
+        "prompt": "tools/generate-art/kraken-pickup5-attempt03-imagegen-prompt.txt"
+      },
+      {
+        "frames": [
+          3
+        ],
+        "sourceGeneration": "not exposed by the image-generation tool response",
+        "rawSource": "tools/generate-art/sources/kraken-pickup5-attempt05-pose03-generated-raw.png",
+        "prompt": "tools/generate-art/kraken-pickup5-attempt05-pose03-imagegen-prompt.txt",
+        "rawSha256": "75c60ad9ec1f0b11665464fc4d8d53980df9986fcff8429720700cad459ae88c"
+      }
+    ],
+    "cleanup": "tools/generate-art/previews/kraken-pickup5-attempt05/clean-and-layout.py",
+    "layout": "tools/generate-art/previews/kraken-pickup5-attempt05/cleanup01-layout.json",
+    "atlasSha256": "0820af5175c770a3609c2acd21de22f025db61942b43875fde3452eabb79da65",
+    "runtimeBallTrack": {
+      "height": [
+        0.65,
+        0.45,
+        0.2,
+        0.2,
+        0.68
+      ],
+      "forward": [
+        3.5,
+        4.5,
+        5.5,
+        4.5,
+        2.5
+      ],
+      "reviewed": false
+    },
+    "independentSourceReview": "tools/generate-art/previews/kraken-pickup5-attempt05/INDEPENDENT_SOURCE_AND_CLEANUP_REVIEW_2026-10-29.md",
+    "independentTrackReview": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-06/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md"
+  }
+}

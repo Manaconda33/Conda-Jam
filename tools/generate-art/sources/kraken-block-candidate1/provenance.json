@@ -1,0 +1,33 @@
+{
+  "athlete": "kraken",
+  "athleteIndex": 89,
+  "clip": "block",
+  "candidate": 1,
+  "classification": "unreviewed-rejected-source-candidate",
+  "generationId": "exec-c6f9cc12-04c6-4f45-b365-f40c0aad26c1",
+  "generatedAt": "2026-10-27",
+  "rawImage": "tools/generate-art/sources/kraken-block-candidate1/raw.png",
+  "rawSha256": "502a288d35e49abdf4c2e4df8c029174dbcf8ed19ad0b8084c584356fe897f87",
+  "dimensions": [1312, 1199],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/sources/kraken-block-candidate1/prompt.md",
+  "layout": "tools/generate-art/sources/kraken-block-candidate1/layout.json",
+  "review": {
+    "status": "rejected-before-cleanup-or-packing",
+    "notes": [
+      "The generated material is painterly/semi-realistic instead of the requested crisp pixel-art rendering and does not match the established sprite-art language.",
+      "The figures do not maintain consistent scale or reliable cell margins; the raised hand in the upper-right pose and a lower foot approach or cross image boundaries.",
+      "Bright red fringes appear around character silhouettes and create visible edge contamination on the transparent background.",
+      "No normalized pose layout, atlas cleanup, or runtime integration was attempted because the raw sheet fails style and margin review."
+    ],
+    "ballBakedIntoAthleteArt": false
+  },
+  "history": [
+    {
+      "candidate": "uncollected-call-before-candidate-1",
+      "status": "tool returned no image content or path to the caller",
+      "generationId": null,
+      "note": "No output was available to preserve or review; the succeeding call is candidate 1."
+    }
+  ]
+}

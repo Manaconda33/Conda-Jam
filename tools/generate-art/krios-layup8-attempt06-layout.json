@@ -1,0 +1,109 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": 6,
+  "status": "source accepted for cleanup/layout and ball-track trials only; no runtime registration",
+  "sourceImage": "tools/generate-art/sources/krios-layup8-attempt06-chromakey-generated-raw.png",
+  "canvas": {
+    "width": 1536,
+    "height": 1024,
+    "format": "RGB opaque chroma-key source"
+  },
+  "requestedGrid": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 384,
+    "cellHeight": 512,
+    "order": "row-major"
+  },
+  "keyColor": {
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "method": "see cleanup notes and report for key predicates/connected spill cleanup"
+  },
+  "cells": [
+    {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 512,
+      "pose": "gather approach"
+    },
+    {
+      "frame": 1,
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 512,
+      "pose": "takeoff, simulation tick 2"
+    },
+    {
+      "frame": 2,
+      "x": 768,
+      "y": 0,
+      "width": 384,
+      "height": 512,
+      "pose": "ascent"
+    },
+    {
+      "frame": 3,
+      "x": 1152,
+      "y": 0,
+      "width": 384,
+      "height": 512,
+      "pose": "extension"
+    },
+    {
+      "frame": 4,
+      "x": 0,
+      "y": 512,
+      "width": 384,
+      "height": 512,
+      "pose": "release and peak, simulation tick 10"
+    },
+    {
+      "frame": 5,
+      "x": 384,
+      "y": 512,
+      "width": 384,
+      "height": 512,
+      "pose": "early descent"
+    },
+    {
+      "frame": 6,
+      "x": 768,
+      "y": 512,
+      "width": 384,
+      "height": 512,
+      "pose": "landing approach"
+    },
+    {
+      "frame": 7,
+      "x": 1152,
+      "y": 512,
+      "width": 384,
+      "height": 512,
+      "pose": "finish, simulation tick 18"
+    }
+  ],
+  "notes": "Raw source must pass identity, anatomy, distinctness, key-spill and 24px cell-margin review before cleanup. Do not accept green contamination on skin, horns, beard, kit, hands or boots. The separate ball is not present in the artwork.",
+  "promptFile": "tools/generate-art/krios-layup8-attempt06-chromakey-prompt.md",
+  "provenanceFile": "tools/generate-art/krios-layup8-attempt06-provenance.json",
+  "cleanupReport": "tools/generate-art/previews/krios-layup8-attempt06/cleanup-layout-report.json",
+  "cleanupNotes": "tools/generate-art/krios-layup8-attempt06-cleanup-notes.md",
+  "runtimeLayout": "tools/generate-art/previews/krios-layup8-attempt06/runtime-layout.json",
+  "previewFiles": [
+    "tools/generate-art/previews/krios-layup8-attempt06/layout-trial-light.png",
+    "tools/generate-art/previews/krios-layup8-attempt06/layout-trial-dark.png",
+    "tools/generate-art/previews/krios-layup8-attempt06/runtime-candidate-light.png",
+    "tools/generate-art/previews/krios-layup8-attempt06/runtime-candidate-dark.png",
+    "tools/generate-art/previews/krios-layup8-attempt06/runtime-candidate-4x-light.png",
+    "tools/generate-art/previews/krios-layup8-attempt06/runtime-candidate-4x-dark.png"
+  ]
+}

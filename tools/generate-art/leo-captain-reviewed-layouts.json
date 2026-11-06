@@ -1,0 +1,998 @@
+[
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "block",
+    "src": "./public/assets/animation/leo-block-captain-reviewed-right.webp",
+    "columns": 2,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "block",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-bb7fb56c-71d7-4739-8d97-d88be6768615",
+      "imageGenerationId": "exec-bb7fb56c-71d7-4739-8d97-d88be6768615",
+      "rawSourceImage": "tools/generate-art/sources/j112-leo-block-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j112-leo-block-generated-raw.png",
+      "rawSourceSha256": "3d983547d579e481f9d4e8840dbab3d42ee86be42b6261b314b01d41298e652a",
+      "sourceSha256": "3d983547d579e481f9d4e8840dbab3d42ee86be42b6261b314b01d41298e652a",
+      "promptFile": "tools/generate-art/j112-leo-block4-prompt.md",
+      "prompt": "Create an original 1024×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly four distinct complete full-body Leo poses in a strict two-column by two-row grid, row-major, with broad transparent gutters and outer margins. All long hair, hands and shoes remain inside each cell; consistent scale and ground baseline. Readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult anatomy and controlled poise. He wears his black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a right-facing defensive shot block. Leo has empty hands; the basketball is separate game art. Do not draw any ball, sphere, orb, seams, court, hoop, floor, ground shadow, background, glow, border, grid, text, teammate or opponent. Exterior and gutters must be true alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nFour sequential poses:\n0 poised defensive stance, knees bent and both empty hands ready;\n1 takeoff at simulation tick2, jumps vertically with both arms rising to contest a shot;\n2 apex at simulation tick5, one arm extends high to tip the off-screen ball, other hand balances, face focused;\n3 descends under control, arms lower and feet return to a balanced defensive stance.\n\nKeep Leo right-facing and recognizably pale, human, long-haired, mustached and black/crimson. Use plausible joints and a strong but controlled captain presence. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "Leo has no carried-ball track in this defensive block. The separate basketball remains controlled by the shooter and the simulation handles contact/block response; no ball is painted into Leo’s poses.",
+      "cleanup": {
+        "script": "tools/generate-art/clean-leo-captain-atlas.mjs",
+        "method": "8-connected detached alpha removal (<=6 pixels), remove exterior haze beyond one alpha-224 pixel edge, and remove isolated non-canon chromatic edge pixels; original source atlas preserved",
+        "removedAlphaComponents": [],
+        "exteriorFringeRemoved": [
+          {
+            "frame": 0,
+            "pixels": 266
+          },
+          {
+            "frame": 1,
+            "pixels": 360
+          },
+          {
+            "frame": 2,
+            "pixels": 380
+          },
+          {
+            "frame": 3,
+            "pixels": 245
+          }
+        ],
+        "isolatedChromaRemoved": [
+          {
+            "frame": 0,
+            "pixels": 2
+          },
+          {
+            "frame": 3,
+            "pixels": 1
+          }
+        ],
+        "sourceAtlas": "./public/assets/animation/leo-block-right.webp",
+        "sourceAtlasSha256": "6548f3ad697c57db25affd42855ad6e0851f46fa285bc2ad49ae81c6d1b8e766",
+        "outputAtlas": "./public/assets/animation/leo-block-captain-reviewed-right.webp",
+        "outputAtlasSha256": "5da31c4643e0a806e641e09d431caf3e07d8d28b28b82ed480f43c83a7675054",
+        "encoding": "lossless WebP"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex + independent reviewer",
+        "reviewNotes": "Reviewed original pose source, packed alpha and margins, both-facings manifest policy, and opaque 4x light/dark atlas proofs after deterministic cleanup. Identity/anatomy, distinct action sequence, transparency, silhouette and kit pass; no ball art or athlete-owned ball track applies."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 183,
+          "y": 157,
+          "w": 377,
+          "h": 417,
+          "component": 2,
+          "area": 68272
+        },
+        {
+          "sourceIndex": 1,
+          "x": 763,
+          "y": 7,
+          "w": 330,
+          "h": 589,
+          "component": 1,
+          "area": 73594
+        },
+        {
+          "sourceIndex": 2,
+          "x": 185,
+          "y": 618,
+          "w": 411,
+          "h": 592,
+          "component": 3,
+          "area": 80200
+        },
+        {
+          "sourceIndex": 3,
+          "x": 782,
+          "y": 785,
+          "w": 356,
+          "h": 428,
+          "component": 4,
+          "area": 71607
+        }
+      ],
+      "uniformScale": 0.1554054054054054,
+      "componentIsolation": true,
+      "packaging": "package-action4.py; 80x96 cells; baseline94; lossless WebP; 4 original block poses",
+      "atlasPath": "./public/assets/animation/leo-block-captain-reviewed-right.webp",
+      "atlasSha256": "802e0779ce49b2a7a321df5bbb359d881251283990d1dc948252540e837d8501",
+      "atlasBytes": 25400,
+      "originalPackedAtlas": "./public/assets/animation/leo-block-right.webp",
+      "originalPackedAtlasSha256": "6548f3ad697c57db25affd42855ad6e0851f46fa285bc2ad49ae81c6d1b8e766"
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "push",
+    "src": "./public/assets/animation/leo-push-captain-reviewed-right.webp",
+    "columns": 4,
+    "rows": 3,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 0,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 336,
+        "y": 96,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 112,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      },
+      {
+        "x": 224,
+        "y": 192,
+        "w": 112,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "push",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-6e7dfbe6-0385-414a-af4f-50119684a5d6",
+      "imageGenerationId": "exec-6e7dfbe6-0385-414a-af4f-50119684a5d6",
+      "rawSourceImage": "tools/generate-art/sources/j114-leo-push-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j114-leo-push-generated-raw.png",
+      "rawSourceSha256": "a24773133f3211a0a294c302fe4277ff4c5d5d8b501f7ba64edad8242649d3bf",
+      "sourceSha256": "a24773133f3211a0a294c302fe4277ff4c5d5d8b501f7ba64edad8242649d3bf",
+      "promptFile": "tools/generate-art/j114-leo-push11-prompt.md",
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as identity and pixel-art style reference. Draw exactly eleven distinct complete full-body Leo poses in a strict four-column by three-row grid, row-major; leave the final cell fully transparent. Broad gutters, consistent scale/camera and complete long hair, hands and shoes within cells. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult man and captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult human anatomy and restrained confidence. He wears a tailored black basketball uniform with crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a right-facing defensive press and controlled body push against an off-screen opponent. Draw only Leo. Both hands stay empty. There is no basketball in this action and no ball is drawn. No opponent, teammate, object, sphere, seams, court, hoop, floor, shadow, background, glow, border, grid, text, or special effect. Exterior and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nEleven sequential connected defensive poses:\n0 balanced guard stance, knees bent and arms ready;\n1 steps toward image-right, chest square and palms open;\n2 CONTACT at simulation tick5: shoulders and hips drive forward, both open hands extend into a controlled two-hand press at chest height;\n3 completes the brief push, arms remain extended and feet planted;\n4 releases pressure and starts drawing elbows back;\n5 shifts weight back into a safe stance, hands open;\n6 sidesteps toward image-right while maintaining defensive balance;\n7 lowers center of gravity and resets footwork;\n8 rises slightly, shoulders square and arms relax;\n9 retreats one controlled step, eyes stay on the opponent;\n10 returns to composed ready guard, hands empty.\n\nKeep the action athletic but controlled, with natural joints and no injury or aggression cues. Leo stays recognizable in every pose: pale adult human, long wavy black hair, refined mustache, black/crimson kit, complete shoes. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "This defensive push has no carried basketball track. Leo’s empty hands contact an off-screen opponent at tick5; game ball ownership and physics remain independent of the shove. No ball is drawn.",
+      "cleanup": {
+        "script": "tools/generate-art/clean-leo-captain-atlas.mjs",
+        "method": "8-connected detached alpha removal (<=6 pixels), remove exterior haze beyond one alpha-224 pixel edge, and remove isolated non-canon chromatic edge pixels; original source atlas preserved",
+        "removedAlphaComponents": [],
+        "exteriorFringeRemoved": [
+          {
+            "frame": 0,
+            "pixels": 524
+          },
+          {
+            "frame": 1,
+            "pixels": 519
+          },
+          {
+            "frame": 2,
+            "pixels": 539
+          },
+          {
+            "frame": 3,
+            "pixels": 491
+          },
+          {
+            "frame": 4,
+            "pixels": 530
+          },
+          {
+            "frame": 5,
+            "pixels": 509
+          },
+          {
+            "frame": 6,
+            "pixels": 489
+          },
+          {
+            "frame": 7,
+            "pixels": 458
+          },
+          {
+            "frame": 8,
+            "pixels": 496
+          },
+          {
+            "frame": 9,
+            "pixels": 505
+          },
+          {
+            "frame": 10,
+            "pixels": 456
+          }
+        ],
+        "isolatedChromaRemoved": [
+          {
+            "frame": 0,
+            "pixels": 1
+          },
+          {
+            "frame": 1,
+            "pixels": 2
+          },
+          {
+            "frame": 2,
+            "pixels": 3
+          },
+          {
+            "frame": 3,
+            "pixels": 1
+          },
+          {
+            "frame": 4,
+            "pixels": 2
+          },
+          {
+            "frame": 5,
+            "pixels": 3
+          },
+          {
+            "frame": 6,
+            "pixels": 2
+          },
+          {
+            "frame": 7,
+            "pixels": 2
+          },
+          {
+            "frame": 8,
+            "pixels": 3
+          },
+          {
+            "frame": 9,
+            "pixels": 3
+          },
+          {
+            "frame": 10,
+            "pixels": 5
+          }
+        ],
+        "sourceAtlas": "./public/assets/animation/leo-push-right.webp",
+        "sourceAtlasSha256": "dd1e6250f62ae2db2de1f7699d794d277d0b04c34177e04925ca10395c4e0d4c",
+        "outputAtlas": "./public/assets/animation/leo-push-captain-reviewed-right.webp",
+        "outputAtlasSha256": "e087b87834e29b72742fa1158c6a77feafde51c81f1d38016b1e8ee9a86a47f1",
+        "encoding": "lossless WebP"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex + independent reviewer",
+        "reviewNotes": "Reviewed original pose source, packed alpha and margins, both-facings manifest policy, and opaque 4x light/dark atlas proofs after deterministic cleanup. Identity/anatomy, distinct action sequence, transparency, silhouette and kit pass; no ball art or athlete-owned ball track applies."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 47,
+          "y": 37,
+          "w": 259,
+          "h": 304,
+          "component": 1,
+          "area": 35649
+        },
+        {
+          "sourceIndex": 1,
+          "x": 446,
+          "y": 37,
+          "w": 271,
+          "h": 304,
+          "component": 2,
+          "area": 36533
+        },
+        {
+          "sourceIndex": 2,
+          "x": 805,
+          "y": 37,
+          "w": 339,
+          "h": 305,
+          "component": 3,
+          "area": 39605
+        },
+        {
+          "sourceIndex": 3,
+          "x": 1199,
+          "y": 38,
+          "w": 301,
+          "h": 303,
+          "component": 4,
+          "area": 37720
+        },
+        {
+          "sourceIndex": 4,
+          "x": 47,
+          "y": 366,
+          "w": 283,
+          "h": 304,
+          "component": 5,
+          "area": 36493
+        },
+        {
+          "sourceIndex": 5,
+          "x": 445,
+          "y": 368,
+          "w": 258,
+          "h": 302,
+          "component": 7,
+          "area": 35286
+        },
+        {
+          "sourceIndex": 6,
+          "x": 828,
+          "y": 366,
+          "w": 288,
+          "h": 305,
+          "component": 6,
+          "area": 36882
+        },
+        {
+          "sourceIndex": 7,
+          "x": 1216,
+          "y": 404,
+          "w": 264,
+          "h": 266,
+          "component": 8,
+          "area": 33520
+        },
+        {
+          "sourceIndex": 8,
+          "x": 64,
+          "y": 692,
+          "w": 249,
+          "h": 302,
+          "component": 9,
+          "area": 35490
+        },
+        {
+          "sourceIndex": 9,
+          "x": 461,
+          "y": 703,
+          "w": 253,
+          "h": 292,
+          "component": 11,
+          "area": 33599
+        },
+        {
+          "sourceIndex": 10,
+          "x": 839,
+          "y": 696,
+          "w": 245,
+          "h": 299,
+          "component": 10,
+          "area": 34750
+        }
+      ],
+      "uniformScale": 0.3016393442622951,
+      "componentIsolation": true,
+      "packaging": "package-action11.py; 112x96 cells; baseline94; lossless WebP; 11 original push poses",
+      "atlasPath": "./public/assets/animation/leo-push-captain-reviewed-right.webp",
+      "atlasSha256": "974180661be9625e4e4a51743fe62bbfe8c832787e12d2fd710f182518ec3f96",
+      "atlasBytes": 109152,
+      "originalPackedAtlas": "./public/assets/animation/leo-push-right.webp",
+      "originalPackedAtlasSha256": "dd1e6250f62ae2db2de1f7699d794d277d0b04c34177e04925ca10395c4e0d4c"
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "fall",
+    "src": "./public/assets/animation/leo-fall-captain-reviewed-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 96,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 192,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 288,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "x": 384,
+        "y": 96,
+        "w": 96,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "fall",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-05b210be-22b1-4b65-8161-c629cdc63e0f",
+      "imageGenerationId": "exec-05b210be-22b1-4b65-8161-c629cdc63e0f",
+      "rawSourceImage": "tools/generate-art/sources/j116-leo-fall-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j116-leo-fall-generated-raw.png",
+      "rawSourceSha256": "9d2a4a987f2d3ae792bbd2f5131fea6ccd139ee3fcbdaca999660cf1c0285956",
+      "sourceSha256": "9d2a4a987f2d3ae792bbd2f5131fea6ccd139ee3fcbdaca999660cf1c0285956",
+      "promptFile": "tools/generate-art/j116-leo-fall10-prompt.md",
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as the identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major. Broad transparent gutters and outer margins; keep all hair, hands and shoes inside each cell. Same scale and camera; crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve his pale skin, long wavy black hair, refined mustache, composed face, natural adult anatomy and controlled character. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume changes or props.\n\nThis is a safe basketball collision fall followed by a get-up. Draw only Leo; no ball, opponent, teammate, court, hoop, floor, ground shadow, background, glow, border, grid, text, injury, blood or dramatic impact effect. His hands are empty; game ball remains separate. Exterior and gutters are genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nTen sequential full-body poses:\n0 loses balance from a defensive stance, arms spread to recover;\n1 staggers one step, torso tilts and arms counterbalance;\n2 knees buckle and he reaches a hand toward the floor;\n3 safely drops to one hip with one palm braced, hair clear of his face;\n4 settles briefly on his side/hip, calm and uninjured, complete anatomy visible;\n5 rolls to a knee and planted palm;\n6 pushes his upper body off the floor, knees underneath;\n7 rises into a low crouch with both feet planted;\n8 begins standing and regains balance, arms lifting naturally;\n9 finishes in a composed ready stance, hands empty.\n\nPreserve Leo’s pale complexion, long wavy black hair, refined mustache and black/crimson uniform throughout. Natural joints and safe athletic motion, no pain or injury cues. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "This fall/get-up action has no carried-ball track; game ball remains independent and simulation-owned. Leo keeps empty hands and no ball is drawn.",
+      "cleanup": {
+        "script": "tools/generate-art/clean-leo-captain-atlas.mjs",
+        "method": "8-connected detached alpha removal (<=6 pixels), remove exterior haze beyond one alpha-224 pixel edge, and remove isolated non-canon chromatic edge pixels; original source atlas preserved",
+        "removedAlphaComponents": [],
+        "exteriorFringeRemoved": [
+          {
+            "frame": 0,
+            "pixels": 498
+          },
+          {
+            "frame": 1,
+            "pixels": 453
+          },
+          {
+            "frame": 2,
+            "pixels": 420
+          },
+          {
+            "frame": 3,
+            "pixels": 331
+          },
+          {
+            "frame": 4,
+            "pixels": 233
+          },
+          {
+            "frame": 5,
+            "pixels": 323
+          },
+          {
+            "frame": 6,
+            "pixels": 278
+          },
+          {
+            "frame": 7,
+            "pixels": 367
+          },
+          {
+            "frame": 8,
+            "pixels": 574
+          },
+          {
+            "frame": 9,
+            "pixels": 406
+          }
+        ],
+        "isolatedChromaRemoved": [
+          {
+            "frame": 0,
+            "pixels": 7
+          },
+          {
+            "frame": 1,
+            "pixels": 3
+          },
+          {
+            "frame": 2,
+            "pixels": 3
+          },
+          {
+            "frame": 3,
+            "pixels": 2
+          },
+          {
+            "frame": 4,
+            "pixels": 3
+          },
+          {
+            "frame": 5,
+            "pixels": 2
+          },
+          {
+            "frame": 6,
+            "pixels": 1
+          },
+          {
+            "frame": 7,
+            "pixels": 5
+          },
+          {
+            "frame": 8,
+            "pixels": 4
+          },
+          {
+            "frame": 9,
+            "pixels": 2
+          }
+        ],
+        "sourceAtlas": "./public/assets/animation/leo-fall-right.webp",
+        "sourceAtlasSha256": "9be6114d8023179a95f643b99968c61980fd46ba955432c59da34cfd190ee315",
+        "outputAtlas": "./public/assets/animation/leo-fall-captain-reviewed-right.webp",
+        "outputAtlasSha256": "377e735e2748c0100723ffef7377255dc72a439493e0b14bcb6615faecf33a6c",
+        "encoding": "lossless WebP"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex + independent reviewer",
+        "reviewNotes": "Reviewed original pose source, packed alpha and margins, both-facings manifest policy, and opaque 4x light/dark atlas proofs after deterministic cleanup. Identity/anatomy, distinct action sequence, transparency, silhouette and kit pass; no ball art or athlete-owned ball track applies."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 14,
+          "y": 187,
+          "w": 303,
+          "h": 332,
+          "component": 1,
+          "area": 40634
+        },
+        {
+          "sourceIndex": 1,
+          "x": 307,
+          "y": 209,
+          "w": 328,
+          "h": 308,
+          "component": 2,
+          "area": 39469
+        },
+        {
+          "sourceIndex": 2,
+          "x": 644,
+          "y": 271,
+          "w": 272,
+          "h": 251,
+          "component": 3,
+          "area": 36099
+        },
+        {
+          "sourceIndex": 3,
+          "x": 923,
+          "y": 323,
+          "w": 295,
+          "h": 205,
+          "component": 4,
+          "area": 34420
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1195,
+          "y": 352,
+          "w": 328,
+          "h": 173,
+          "component": 5,
+          "area": 32839
+        },
+        {
+          "sourceIndex": 5,
+          "x": 52,
+          "y": 679,
+          "w": 283,
+          "h": 227,
+          "component": 10,
+          "area": 36444
+        },
+        {
+          "sourceIndex": 6,
+          "x": 375,
+          "y": 679,
+          "w": 264,
+          "h": 237,
+          "component": 11,
+          "area": 37907
+        },
+        {
+          "sourceIndex": 7,
+          "x": 683,
+          "y": 623,
+          "w": 220,
+          "h": 276,
+          "component": 8,
+          "area": 36107
+        },
+        {
+          "sourceIndex": 8,
+          "x": 953,
+          "y": 553,
+          "w": 289,
+          "h": 353,
+          "component": 7,
+          "area": 44842
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1279,
+          "y": 544,
+          "w": 212,
+          "h": 362,
+          "component": 6,
+          "area": 43299
+        }
+      ],
+      "uniformScale": 0.2541436464088398,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 96x96 cells; baseline94; lossless WebP; 10 original fall poses",
+      "atlasPath": "./public/assets/animation/leo-fall-captain-reviewed-right.webp",
+      "atlasSha256": "18b7f4a75b29c2dddaeb24beaec492bc9d262d301fc45e5b4d656dcee43db6b8",
+      "atlasBytes": 80126,
+      "originalPackedAtlas": "./public/assets/animation/leo-fall-right.webp",
+      "originalPackedAtlasSha256": "9be6114d8023179a95f643b99968c61980fd46ba955432c59da34cfd190ee315"
+    }
+  },
+  {
+    "athlete": "leo",
+    "direction": "right",
+    "clip": "celebrate",
+    "src": "./public/assets/animation/leo-celebrate-captain-reviewed-right.webp",
+    "columns": 5,
+    "rows": 2,
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 0,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 0,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 80,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 160,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 240,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      },
+      {
+        "x": 320,
+        "y": 96,
+        "w": 80,
+        "h": 96
+      }
+    ],
+    "provenance": {
+      "athlete": "leo",
+      "clip": "celebrate",
+      "direction": "right",
+      "canonicalSection": "K.05",
+      "eligibleForPacking": true,
+      "generatedAt": "2026-10-24",
+      "generationId": "exec-6f1f8451-0ce5-4771-bd09-b5439633c79a",
+      "imageGenerationId": "exec-6f1f8451-0ce5-4771-bd09-b5439633c79a",
+      "rawSourceImage": "tools/generate-art/sources/j117-leo-celebrate-generated-raw.png",
+      "sourceImage": "tools/generate-art/sources/j117-leo-celebrate-generated-raw.png",
+      "rawSourceSha256": "6ac09f4c3dc29bdeb29f57071b609faa6e68aa98c14f41ea35cc0659de5f40da",
+      "sourceSha256": "6ac09f4c3dc29bdeb29f57071b609faa6e68aa98c14f41ea35cc0659de5f40da",
+      "promptFile": "tools/generate-art/j117-leo-celebrate10-prompt.md",
+      "prompt": "Create an original 1536×1024 true-transparent RGBA sprite sheet for JAMVERSE '96. Use the supplied Leo gameplay sprite only as an identity and pixel-art style reference. Draw exactly ten distinct complete full-body Leo poses in a strict five-column by two-row grid, row-major, broad gutters and outer margins. Keep long hair, hands and shoes fully inside each cell; consistent scale and camera. Crisp readable 1990s arcade pixel-art clusters and dark outlines.\n\nLeo is the pale aristocratic adult human captain of the Blackthorn Court Kings. Preserve pale skin, long wavy black hair, refined mustache, composed handsome face, natural adult anatomy and controlled Victorian-gothic poise. He wears a tailored black basketball uniform with restrained crimson accents, matching shorts and shoes. Exactly two arms, two hands, two legs and two shoes. No fangs, horns, cape, robe, monster traits, extra limbs, costume change or props.\n\nThis is a restrained basketball celebration after a successful play. Show only Leo and his empty hands. No basketball, sphere, orb, trophy, court, hoop, floor, shadow, background, glow, confetti, border, grid, text, teammate or opponent. Exterior and gutters must be genuine alpha-zero transparency with no checkerboard, matte, speckles or haze.\n\nTen sequential full-body celebration poses, each visibly distinct:\n0 composed smile with one fist lifted near the chest;\n1 raises both empty arms in a controlled salute;\n2 gives a measured right fist pump, shoulders squared;\n3 opens his arms slightly and looks toward teammates off-screen;\n4 offers a calm palm-up acknowledgement;\n5 turns his shoulders a little, long hair moving naturally;\n6 lifts one arm high in restrained triumph;\n7 lowers the arm and returns to a poised stance;\n8 gives a small confident nod with relaxed hands;\n9 finishes in a balanced composed ready stance, empty-handed.\n\nKeep the celebration elegant and self-assured, never clownish or supernatural. Preserve Leo’s pale face, long wavy black hair, refined mustache, adult human proportions, black/crimson kit and shoes in every pose. Return only the transparent sprite sheet.",
+      "promptVerbatim": true,
+      "sourcePromptStatus": "verbatim",
+      "rejectedGenerations": [],
+      "mirrorEligible": true,
+      "ballPolicy": "This empty-handed celebration has no carried-ball track. Basketball ownership stays separate in game simulation, and the drawing includes no ball or props.",
+      "cleanup": {
+        "script": "tools/generate-art/clean-leo-captain-atlas.mjs",
+        "method": "8-connected detached alpha removal (<=6 pixels), remove exterior haze beyond one alpha-224 pixel edge, and remove isolated non-canon chromatic edge pixels; original source atlas preserved",
+        "removedAlphaComponents": [],
+        "exteriorFringeRemoved": [
+          {
+            "frame": 0,
+            "pixels": 258
+          },
+          {
+            "frame": 1,
+            "pixels": 367
+          },
+          {
+            "frame": 2,
+            "pixels": 254
+          },
+          {
+            "frame": 3,
+            "pixels": 330
+          },
+          {
+            "frame": 4,
+            "pixels": 303
+          },
+          {
+            "frame": 5,
+            "pixels": 284
+          },
+          {
+            "frame": 6,
+            "pixels": 321
+          },
+          {
+            "frame": 7,
+            "pixels": 258
+          },
+          {
+            "frame": 8,
+            "pixels": 254
+          },
+          {
+            "frame": 9,
+            "pixels": 258
+          }
+        ],
+        "isolatedChromaRemoved": [],
+        "sourceAtlas": "./public/assets/animation/leo-celebrate-right.webp",
+        "sourceAtlasSha256": "3b421d87ec78c3f0598b2847affe71e1636620a6415a6656df347671406174e5",
+        "outputAtlas": "./public/assets/animation/leo-celebrate-captain-reviewed-right.webp",
+        "outputAtlasSha256": "0d001ca25f4da978678ee359c7fc1a1b66a463928c971f9b55972128c0795b32",
+        "encoding": "lossless WebP"
+      },
+      "review": {
+        "status": "accepted",
+        "reviewedBy": "Codex + independent reviewer",
+        "reviewNotes": "Reviewed original pose source, packed alpha and margins, both-facings manifest policy, and opaque 4x light/dark atlas proofs after deterministic cleanup. Identity/anatomy, distinct action sequence, transparency, silhouette and kit pass; no ball art or athlete-owned ball track applies."
+      },
+      "sourceRects": [
+        {
+          "sourceIndex": 0,
+          "x": 36,
+          "y": 78,
+          "w": 236,
+          "h": 416,
+          "component": 2,
+          "area": 52214
+        },
+        {
+          "sourceIndex": 1,
+          "x": 337,
+          "y": 67,
+          "w": 307,
+          "h": 427,
+          "component": 1,
+          "area": 51977
+        },
+        {
+          "sourceIndex": 2,
+          "x": 663,
+          "y": 90,
+          "w": 227,
+          "h": 404,
+          "component": 3,
+          "area": 50302
+        },
+        {
+          "sourceIndex": 3,
+          "x": 917,
+          "y": 110,
+          "w": 318,
+          "h": 384,
+          "component": 4,
+          "area": 50300
+        },
+        {
+          "sourceIndex": 4,
+          "x": 1238,
+          "y": 110,
+          "w": 289,
+          "h": 384,
+          "component": 5,
+          "area": 49643
+        },
+        {
+          "sourceIndex": 5,
+          "x": 39,
+          "y": 577,
+          "w": 258,
+          "h": 406,
+          "component": 8,
+          "area": 53715
+        },
+        {
+          "sourceIndex": 6,
+          "x": 356,
+          "y": 511,
+          "w": 241,
+          "h": 472,
+          "component": 7,
+          "area": 54380
+        },
+        {
+          "sourceIndex": 7,
+          "x": 648,
+          "y": 588,
+          "w": 245,
+          "h": 395,
+          "component": 10,
+          "area": 52065
+        },
+        {
+          "sourceIndex": 8,
+          "x": 945,
+          "y": 589,
+          "w": 238,
+          "h": 394,
+          "component": 11,
+          "area": 51440
+        },
+        {
+          "sourceIndex": 9,
+          "x": 1238,
+          "y": 584,
+          "w": 240,
+          "h": 399,
+          "component": 9,
+          "area": 52103
+        }
+      ],
+      "uniformScale": 0.19491525423728814,
+      "componentIsolation": true,
+      "packaging": "package-action10.py; 80x96 cells; baseline94; lossless WebP; 10 original celebrate poses",
+      "atlasPath": "./public/assets/animation/leo-celebrate-captain-reviewed-right.webp",
+      "atlasSha256": "952a9c427d050e985527d6b147f295ba07629f4c987458a746ff9502da53dc1a",
+      "atlasBytes": 64682,
+      "originalPackedAtlas": "./public/assets/animation/leo-celebrate-right.webp",
+      "originalPackedAtlasSha256": "3b421d87ec78c3f0598b2847affe71e1636620a6415a6656df347671406174e5"
+    }
+  }
+]

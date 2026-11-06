@@ -1,0 +1,23 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "celebrate",
+  "attempt": 4,
+  "generationId": "exec-9d03ef60-48f3-4ab8-a07e-441c5d89b4bf",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-celebrate10-attempt04-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-celebrate10-attempt04-imagegen-prompt.txt",
+  "sourceSha256": "b2b9b958b4118ef0d03b68ceffadb528efc71f8f72e04000b1dd786994fdeafa",
+  "imageSize": [1774, 887],
+  "sourceMode": "RGBA",
+  "referenceImage": "tools/generate-art/previews/kraken-pickup5-attempt04/kraken-pickup5-attempt04-cleanup02-atlas-candidate.png",
+  "status": "accepted and registered",
+  "reason": "Ten large distinct Kraken figures are visible, but the raw canvas also contains isolated alpha specks. Cleanup01 and its 40-view candidate score capture are preserved; the 76px figures were smaller than Kraken's 92px idle art. Cleanup02 scales the same ten figures to 88px, widens cells to 88×96, aligns baseline y=94, and preserves at least 4px horizontal margin. Independent source, cleanup and normal-loader gameplay reviews pass. The brighter, bolder art remains coherent with Kraken at court scale. Runtime registration at public/assets/animation/kraken-celebrate-right.png is accepted.",
+  "cleanupVariants": [
+    "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup01-layout.json",
+    "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup02/cleanup02-layout.json"
+  ],
+  "review": "tools/generate-art/previews/kraken-celebrate10-attempt04/cleanup02/INDEPENDENT_CLEANUP02_REVIEW.md",
+  "candidateGameplayReview": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/cleanup02-candidate-injected/INDEPENDENT_GAMEPLAY_REVIEW.md",
+  "normalLoaderReview": "tools/generate-art/previews/kraken-celebrate10-attempt04/scoring-transition/normal-loader-review/INDEPENDENT_NORMAL_LOADER_REVIEW.md",
+  "runtimeAsset": "public/assets/animation/kraken-celebrate-right.png"
+}

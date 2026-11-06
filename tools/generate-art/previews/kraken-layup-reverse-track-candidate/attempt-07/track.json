@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 7,
+  "status": "unregistered two-point gameplay fixture candidate",
+  "height": [0.9, 1.1, 1.4, 1.9, 1.9, 1.9, 1.1, 0.8],
+  "forward": [4, 5.5, 4, -4, -4, -5, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Same reviewed candidate vector as attempt03. Fixture moved inside the stage viewport while remaining within 49 world units of the rim to exercise the required two-point layup scoring path."
+}

@@ -1,0 +1,488 @@
+{
+  "status": "cleanup/layout trial; independent review pending",
+  "source": "tools/generate-art/sources/kraken-fall10-attempt02-generated-raw.png",
+  "sourceAlphaRange": [
+    0,
+    255
+  ],
+  "strongFigureComponents": 10,
+  "componentBounds": [
+    [
+      89,
+      34,
+      281,
+      383
+    ],
+    [
+      445,
+      56,
+      782,
+      383
+    ],
+    [
+      881,
+      96,
+      1190,
+      383
+    ],
+    [
+      1192,
+      194,
+      1549,
+      384
+    ],
+    [
+      1583,
+      249,
+      1963,
+      384
+    ],
+    [
+      34,
+      602,
+      384,
+      746
+    ],
+    [
+      436,
+      543,
+      752,
+      746
+    ],
+    [
+      842,
+      471,
+      1110,
+      747
+    ],
+    [
+      1255,
+      420,
+      1537,
+      752
+    ],
+    [
+      1696,
+      400,
+      1901,
+      752
+    ]
+  ],
+  "removedAlphaIslandCount": 390,
+  "removedAlphaPixelCount": 64477,
+  "largestRemovedIslands": [
+    {
+      "pixels": 2870,
+      "boundsLTRB": [
+        1242,
+        634,
+        1404,
+        763
+      ]
+    },
+    {
+      "pixels": 2831,
+      "boundsLTRB": [
+        1223,
+        207,
+        1351,
+        327
+      ]
+    },
+    {
+      "pixels": 2466,
+      "boundsLTRB": [
+        1287,
+        420,
+        1431,
+        660
+      ]
+    },
+    {
+      "pixels": 2040,
+      "boundsLTRB": [
+        1414,
+        548,
+        1544,
+        632
+      ]
+    },
+    {
+      "pixels": 1814,
+      "boundsLTRB": [
+        435,
+        71,
+        615,
+        214
+      ]
+    },
+    {
+      "pixels": 1726,
+      "boundsLTRB": [
+        1816,
+        291,
+        1967,
+        404
+      ]
+    },
+    {
+      "pixels": 1686,
+      "boundsLTRB": [
+        647,
+        649,
+        693,
+        750
+      ]
+    },
+    {
+      "pixels": 1670,
+      "boundsLTRB": [
+        901,
+        468,
+        1073,
+        611
+      ]
+    },
+    {
+      "pixels": 1503,
+      "boundsLTRB": [
+        902,
+        97,
+        1027,
+        237
+      ]
+    },
+    {
+      "pixels": 1501,
+      "boundsLTRB": [
+        1690,
+        617,
+        1756,
+        765
+      ]
+    },
+    {
+      "pixels": 1465,
+      "boundsLTRB": [
+        1725,
+        242,
+        1913,
+        273
+      ]
+    },
+    {
+      "pixels": 1193,
+      "boundsLTRB": [
+        1705,
+        401,
+        1812,
+        568
+      ]
+    },
+    {
+      "pixels": 1144,
+      "boundsLTRB": [
+        96,
+        152,
+        131,
+        331
+      ]
+    },
+    {
+      "pixels": 1082,
+      "boundsLTRB": [
+        189,
+        598,
+        305,
+        629
+      ]
+    },
+    {
+      "pixels": 1061,
+      "boundsLTRB": [
+        31,
+        629,
+        188,
+        715
+      ]
+    },
+    {
+      "pixels": 950,
+      "boundsLTRB": [
+        239,
+        81,
+        276,
+        204
+      ]
+    },
+    {
+      "pixels": 942,
+      "boundsLTRB": [
+        1034,
+        212,
+        1107,
+        287
+      ]
+    },
+    {
+      "pixels": 920,
+      "boundsLTRB": [
+        885,
+        238,
+        946,
+        332
+      ]
+    },
+    {
+      "pixels": 919,
+      "boundsLTRB": [
+        1578,
+        323,
+        1669,
+        389
+      ]
+    },
+    {
+      "pixels": 907,
+      "boundsLTRB": [
+        248,
+        211,
+        292,
+        339
+      ]
+    },
+    {
+      "pixels": 893,
+      "boundsLTRB": [
+        486,
+        721,
+        610,
+        746
+      ]
+    },
+    {
+      "pixels": 874,
+      "boundsLTRB": [
+        1273,
+        375,
+        1425,
+        391
+      ]
+    },
+    {
+      "pixels": 827,
+      "boundsLTRB": [
+        1609,
+        273,
+        1724,
+        324
+      ]
+    },
+    {
+      "pixels": 816,
+      "boundsLTRB": [
+        872,
+        335,
+        941,
+        389
+      ]
+    },
+    {
+      "pixels": 790,
+      "boundsLTRB": [
+        496,
+        582,
+        578,
+        675
+      ]
+    },
+    {
+      "pixels": 774,
+      "boundsLTRB": [
+        679,
+        80,
+        754,
+        170
+      ]
+    },
+    {
+      "pixels": 692,
+      "boundsLTRB": [
+        187,
+        274,
+        207,
+        364
+      ]
+    },
+    {
+      "pixels": 670,
+      "boundsLTRB": [
+        987,
+        671,
+        1026,
+        747
+      ]
+    },
+    {
+      "pixels": 661,
+      "boundsLTRB": [
+        631,
+        182,
+        688,
+        237
+      ]
+    },
+    {
+      "pixels": 650,
+      "boundsLTRB": [
+        1420,
+        312,
+        1452,
+        375
+      ]
+    },
+    {
+      "pixels": 644,
+      "boundsLTRB": [
+        1776,
+        640,
+        1815,
+        718
+      ]
+    },
+    {
+      "pixels": 626,
+      "boundsLTRB": [
+        1391,
+        746,
+        1476,
+        763
+      ]
+    },
+    {
+      "pixels": 605,
+      "boundsLTRB": [
+        114,
+        90,
+        162,
+        151
+      ]
+    },
+    {
+      "pixels": 593,
+      "boundsLTRB": [
+        1860,
+        617,
+        1900,
+        704
+      ]
+    },
+    {
+      "pixels": 572,
+      "boundsLTRB": [
+        519,
+        163,
+        560,
+        208
+      ]
+    },
+    {
+      "pixels": 552,
+      "boundsLTRB": [
+        81,
+        333,
+        148,
+        392
+      ]
+    },
+    {
+      "pixels": 529,
+      "boundsLTRB": [
+        1700,
+        375,
+        1782,
+        389
+      ]
+    },
+    {
+      "pixels": 528,
+      "boundsLTRB": [
+        580,
+        549,
+        673,
+        580
+      ]
+    },
+    {
+      "pixels": 526,
+      "boundsLTRB": [
+        567,
+        352,
+        661,
+        390
+      ]
+    },
+    {
+      "pixels": 523,
+      "boundsLTRB": [
+        1486,
+        248,
+        1518,
+        320
+      ]
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-fall10-attempt02/kraken-fall10-attempt02-runtime-candidate.png",
+  "layout": "tools/generate-art/previews/kraken-fall10-attempt02/layout.json",
+  "rawPreserved": true,
+  "uniqueFrames": 10,
+  "visibleSizes": [
+    [
+      36,
+      66
+    ],
+    [
+      64,
+      62
+    ],
+    [
+      59,
+      54
+    ],
+    [
+      68,
+      36
+    ],
+    [
+      72,
+      26
+    ],
+    [
+      66,
+      27
+    ],
+    [
+      60,
+      38
+    ],
+    [
+      51,
+      52
+    ],
+    [
+      53,
+      63
+    ],
+    [
+      39,
+      67
+    ]
+  ],
+  "minimumMarginsLTRB": [
+    4,
+    27,
+    4,
+    2
+  ],
+  "pixelTreatment": "Original RGBA pixels; threshold distant alpha islands and one common nearest-neighbor scale; no keying, recolor, redraw, despill or interpolation."
+}

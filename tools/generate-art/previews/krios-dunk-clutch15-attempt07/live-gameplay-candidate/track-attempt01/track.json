@@ -1,0 +1,72 @@
+{
+  "athlete": "krios",
+  "clip": "dunk-clutch",
+  "attempt": 1,
+  "sourceAtlas": "tools/generate-art/previews/krios-dunk-clutch15-attempt07/krios-dunk-clutch15-attempt07-runtime-candidate.png",
+  "sourceAtlasSha256": "26e8cb3cc5511a9a9feab1017c89f6efc6ea757e7d430406f18b297e56437e8f",
+  "target": {
+    "heldContactFrames": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "releaseTick": 21,
+    "scoreTick": 23,
+    "landTick": 30,
+    "facings": [
+      "right",
+      "left"
+    ],
+    "zoomPercent": [
+      100,
+      120
+    ]
+  },
+  "track": {
+    "height": [
+      1.0,
+      1.05,
+      1.3,
+      1.55,
+      1.7,
+      1.9,
+      0.9,
+      1.35,
+      1.8,
+      2.2,
+      2.35,
+      1.5,
+      1.0,
+      0.7,
+      0.55
+    ],
+    "forward": [
+      5,
+      6,
+      8,
+      10,
+      9,
+      4,
+      0.5,
+      2,
+      4,
+      7,
+      12,
+      10,
+      7,
+      5,
+      4
+    ]
+  },
+  "notes": "Candidate vectors for live visual review only. Frames 5\u20139 keep the carried ball around the clasp/cross-body/diagonal-drive hand zone; frame6 is intentionally low between the knees. The separate dunk release is handled by production simulation at tick21, score at finish tick23, and landing anchor tick30. These values are trial data, not registered runtime data.",
+  "rejected": true,
+  "rejectionEvidence": [
+    "tools/generate-art/previews/krios-dunk-clutch15-attempt07/live-gameplay-candidate/track-attempt01/native/right-tick10-frame05-zoom100.png",
+    "tools/generate-art/previews/krios-dunk-clutch15-attempt07/live-gameplay-candidate/track-attempt01/native/right-tick12-frame06-zoom100.png",
+    "tools/generate-art/previews/krios-dunk-clutch15-attempt07/live-gameplay-candidate/track-attempt01/native/right-tick14-frame07-zoom100.png",
+    "tools/generate-art/previews/krios-dunk-clutch15-attempt07/live-gameplay-candidate/track-attempt01/native/right-tick20-frame09-zoom100.png"
+  ],
+  "rejectionReason": "Ball floats too high at frames5\u20139 and forward interpolation from frame9 to frame10 moves it toward the rim at tick20 before production release at tick21."
+}

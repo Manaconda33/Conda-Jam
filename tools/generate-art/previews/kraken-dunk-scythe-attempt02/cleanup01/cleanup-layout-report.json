@@ -1,0 +1,795 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-scythe",
+  "attempt": 2,
+  "sourceRaw": "tools/generate-art/sources/kraken-dunk-scythe-attempt02-generated-raw.png",
+  "sourceSha256": "cf884557a0df46049b5625172bb216bb3a1152ec0fc804b752560ecc8b8d4a52",
+  "cleanupScript": "tools/generate-art/clean-kraken-dunk-scythe-attempt02-cleanup01.py",
+  "cleanupMethod": "15 nominal row-major grid cells; threshold source alpha at 64; isolate bbox; same max-height/width scale; nearest-neighbor resize; binary alpha edge at 128; one shared 16-color palette sampled only from visible pixels; remove isolated 8-connected components smaller than 64 output pixels; align retained alpha bounds to baselineY92. No repaint, no generated poses.",
+  "threshold": 64,
+  "sharedScale": 0.20846905537459284,
+  "outputDimensions": [
+    400,
+    288
+  ],
+  "cellSize": [
+    80,
+    96
+  ],
+  "baselineY": 92,
+  "poseCount": 15,
+  "uniqueFrameCount": 15,
+  "normalizedPoseSha256": [
+    "140bd26b841877261c6bc5d858bddd5cc92585e889dd0425a30e9f37713b8a69",
+    "198fd85c5e0ddaf90377afdfda1e73d33ba7c6a1ee3a0859d01b62cdb0a2865a",
+    "c9c2fdba8a90be165951aaeedfd7ffa30ea904502fad68223fbec97d0b1668e8",
+    "879da69c61d0c0b1f8f24d4a0eb8ca0444a3cf2ac1aa77081b9482b5c7ab433f",
+    "749ea520db1bb5c5ed63227ca623be67b94ec552989c5ab879dd10906597fb65",
+    "070f223e6a90d82e817b478b91e7a9d0650538daefea9eb393364f2c6887bf6d",
+    "59282f072c9b61bba0346c017b8c68f182a1b7c5003cd71f4bba1f90277a6ce8",
+    "3ce7c852cc55c01a7abe58f9a349222a9a0f3869509b0a5b55d97706c2b8e0ac",
+    "a5475bdbafe92ffe94b9d1ec0dd79a2ea28c305545c2f624520c89aa5bfeb478",
+    "adb5de4b2889818d3bdedef33ee6c6a2e4306782b0ab402b270ccb6342937476",
+    "671384e53496afd2df6aca5e2dde0a644269b8969b5dfa7d971555b7d53485e8",
+    "2ebe69e979fd8b7babd458796adab764d4c7a321b090042c0d55bf82a4acfcf1",
+    "ed51f502ed936015bd1414080a9233f248e90c2fc709fd381928b15899a64846",
+    "866c34bd9ab130e2467516275043711ca0104834f32c98e7865cf95425af4303",
+    "0770118e32b92a681f332f50ada2f1b110e9994321c910d75297a130ddf08600"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        17,
+        34,
+        18,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 1,
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        11,
+        35,
+        11,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 2,
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        14,
+        37,
+        15,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 3,
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        15,
+        28,
+        16,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 4,
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        20,
+        43,
+        20,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 5,
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        17,
+        30,
+        18,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 6,
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        15,
+        30,
+        15,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 7,
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        15,
+        31,
+        15,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 8,
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        22,
+        36,
+        8,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 9,
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        21,
+        33,
+        11,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 10,
+      "x": 0,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        13,
+        30,
+        14,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 11,
+      "x": 80,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        22,
+        33,
+        11,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 12,
+      "x": 160,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        12,
+        38,
+        13,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 13,
+      "x": 240,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        27,
+        43,
+        9,
+        4
+      ],
+      "uniqueRGB": 17
+    },
+    {
+      "index": 14,
+      "x": 320,
+      "y": 192,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "marginsLTRB": [
+        23,
+        25,
+        24,
+        4
+      ],
+      "uniqueRGB": 17
+    }
+  ],
+  "sourceFrames": [
+    {
+      "poseIndex": 0,
+      "sourceCell": [
+        0,
+        0,
+        307,
+        341
+      ],
+      "sourceBounds": [
+        39,
+        19,
+        256,
+        341
+      ],
+      "sourceSize": [
+        217,
+        322
+      ],
+      "scaledSize": [
+        45,
+        67
+      ],
+      "outputBounds": [
+        17,
+        34,
+        62,
+        101
+      ],
+      "marginsLTRB": [
+        17,
+        34,
+        18,
+        4
+      ]
+    },
+    {
+      "poseIndex": 1,
+      "sourceCell": [
+        307,
+        0,
+        614,
+        341
+      ],
+      "sourceBounds": [
+        25,
+        15,
+        304,
+        341
+      ],
+      "sourceSize": [
+        279,
+        326
+      ],
+      "scaledSize": [
+        58,
+        68
+      ],
+      "outputBounds": [
+        91,
+        35,
+        149,
+        103
+      ],
+      "marginsLTRB": [
+        11,
+        35,
+        11,
+        4
+      ]
+    },
+    {
+      "poseIndex": 2,
+      "sourceCell": [
+        614,
+        0,
+        922,
+        341
+      ],
+      "sourceBounds": [
+        52,
+        32,
+        299,
+        341
+      ],
+      "sourceSize": [
+        247,
+        309
+      ],
+      "scaledSize": [
+        51,
+        64
+      ],
+      "outputBounds": [
+        174,
+        37,
+        225,
+        101
+      ],
+      "marginsLTRB": [
+        14,
+        37,
+        15,
+        4
+      ]
+    },
+    {
+      "poseIndex": 3,
+      "sourceCell": [
+        922,
+        0,
+        1229,
+        341
+      ],
+      "sourceBounds": [
+        61,
+        33,
+        297,
+        341
+      ],
+      "sourceSize": [
+        236,
+        308
+      ],
+      "scaledSize": [
+        49,
+        64
+      ],
+      "outputBounds": [
+        255,
+        28,
+        304,
+        92
+      ],
+      "marginsLTRB": [
+        15,
+        28,
+        16,
+        4
+      ]
+    },
+    {
+      "poseIndex": 4,
+      "sourceCell": [
+        1229,
+        0,
+        1536,
+        341
+      ],
+      "sourceBounds": [
+        61,
+        68,
+        253,
+        301
+      ],
+      "sourceSize": [
+        192,
+        233
+      ],
+      "scaledSize": [
+        40,
+        49
+      ],
+      "outputBounds": [
+        340,
+        43,
+        380,
+        92
+      ],
+      "marginsLTRB": [
+        20,
+        43,
+        20,
+        4
+      ]
+    },
+    {
+      "poseIndex": 5,
+      "sourceCell": [
+        0,
+        341,
+        307,
+        683
+      ],
+      "sourceBounds": [
+        57,
+        0,
+        275,
+        298
+      ],
+      "sourceSize": [
+        218,
+        298
+      ],
+      "scaledSize": [
+        45,
+        62
+      ],
+      "outputBounds": [
+        17,
+        126,
+        62,
+        188
+      ],
+      "marginsLTRB": [
+        17,
+        30,
+        18,
+        4
+      ]
+    },
+    {
+      "poseIndex": 6,
+      "sourceCell": [
+        307,
+        341,
+        614,
+        683
+      ],
+      "sourceBounds": [
+        59,
+        0,
+        300,
+        298
+      ],
+      "sourceSize": [
+        241,
+        298
+      ],
+      "scaledSize": [
+        50,
+        62
+      ],
+      "outputBounds": [
+        95,
+        126,
+        145,
+        188
+      ],
+      "marginsLTRB": [
+        15,
+        30,
+        15,
+        4
+      ]
+    },
+    {
+      "poseIndex": 7,
+      "sourceCell": [
+        614,
+        341,
+        922,
+        683
+      ],
+      "sourceBounds": [
+        69,
+        0,
+        308,
+        294
+      ],
+      "sourceSize": [
+        239,
+        294
+      ],
+      "scaledSize": [
+        50,
+        61
+      ],
+      "outputBounds": [
+        175,
+        127,
+        225,
+        188
+      ],
+      "marginsLTRB": [
+        15,
+        31,
+        15,
+        4
+      ]
+    },
+    {
+      "poseIndex": 8,
+      "sourceCell": [
+        922,
+        341,
+        1229,
+        683
+      ],
+      "sourceBounds": [
+        0,
+        0,
+        307,
+        270
+      ],
+      "sourceSize": [
+        307,
+        270
+      ],
+      "scaledSize": [
+        64,
+        56
+      ],
+      "outputBounds": [
+        248,
+        132,
+        312,
+        188
+      ],
+      "marginsLTRB": [
+        22,
+        36,
+        8,
+        4
+      ]
+    },
+    {
+      "poseIndex": 9,
+      "sourceCell": [
+        1229,
+        341,
+        1536,
+        683
+      ],
+      "sourceBounds": [
+        0,
+        10,
+        282,
+        342
+      ],
+      "sourceSize": [
+        282,
+        332
+      ],
+      "scaledSize": [
+        59,
+        69
+      ],
+      "outputBounds": [
+        330,
+        129,
+        389,
+        198
+      ],
+      "marginsLTRB": [
+        21,
+        33,
+        11,
+        4
+      ]
+    },
+    {
+      "poseIndex": 10,
+      "sourceCell": [
+        0,
+        683,
+        307,
+        1024
+      ],
+      "sourceBounds": [
+        51,
+        6,
+        307,
+        302
+      ],
+      "sourceSize": [
+        256,
+        296
+      ],
+      "scaledSize": [
+        53,
+        62
+      ],
+      "outputBounds": [
+        13,
+        222,
+        66,
+        284
+      ],
+      "marginsLTRB": [
+        13,
+        30,
+        14,
+        4
+      ]
+    },
+    {
+      "poseIndex": 11,
+      "sourceCell": [
+        307,
+        683,
+        614,
+        1024
+      ],
+      "sourceBounds": [
+        0,
+        8,
+        283,
+        292
+      ],
+      "sourceSize": [
+        283,
+        284
+      ],
+      "scaledSize": [
+        59,
+        59
+      ],
+      "outputBounds": [
+        90,
+        225,
+        149,
+        284
+      ],
+      "marginsLTRB": [
+        22,
+        33,
+        11,
+        4
+      ]
+    },
+    {
+      "poseIndex": 12,
+      "sourceCell": [
+        614,
+        683,
+        922,
+        1024
+      ],
+      "sourceBounds": [
+        44,
+        32,
+        308,
+        293
+      ],
+      "sourceSize": [
+        264,
+        261
+      ],
+      "scaledSize": [
+        55,
+        54
+      ],
+      "outputBounds": [
+        172,
+        230,
+        227,
+        284
+      ],
+      "marginsLTRB": [
+        12,
+        38,
+        13,
+        4
+      ]
+    },
+    {
+      "poseIndex": 13,
+      "sourceCell": [
+        922,
+        683,
+        1229,
+        1024
+      ],
+      "sourceBounds": [
+        0,
+        67,
+        296,
+        304
+      ],
+      "sourceSize": [
+        296,
+        237
+      ],
+      "scaledSize": [
+        62,
+        49
+      ],
+      "outputBounds": [
+        249,
+        235,
+        311,
+        284
+      ],
+      "marginsLTRB": [
+        27,
+        43,
+        9,
+        4
+      ]
+    },
+    {
+      "poseIndex": 14,
+      "sourceCell": [
+        1229,
+        683,
+        1536,
+        1024
+      ],
+      "sourceBounds": [
+        89,
+        0,
+        249,
+        320
+      ],
+      "sourceSize": [
+        160,
+        320
+      ],
+      "scaledSize": [
+        33,
+        67
+      ],
+      "outputBounds": [
+        343,
+        217,
+        376,
+        284
+      ],
+      "marginsLTRB": [
+        23,
+        25,
+        24,
+        4
+      ]
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-dunk-scythe-attempt02/cleanup01/kraken-dunk-scythe-attempt02-cleanup01-atlas.png",
+  "reviewStatus": "pending independent review; not eligible for registration"
+}

@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 5,
+  "status": "unregistered diagnostic rerun; attempt04 candidate image is absent from rendered gameplay captures",
+  "height": [0.9, 1.1, 1.4, 1.9, 1.9, 1.9, 1.1, 0.8],
+  "forward": [4, 5.5, 4, -4, -4, -5, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Same track as attempts03-04; attempt05 records runtime atlas cache/selector diagnostics to identify why the player is absent from the gameplay canvas."
+}

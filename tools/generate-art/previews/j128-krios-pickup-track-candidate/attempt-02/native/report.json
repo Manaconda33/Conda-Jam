@@ -1,0 +1,1800 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "krios",
+  "clip": "pickup",
+  "candidateAtlas": "./public/assets/animation/krios-pickup-right.webp",
+  "candidateTrack": {
+    "height": [
+      0.65,
+      0.45,
+      0.2,
+      0,
+      0.75
+    ],
+    "forward": [
+      3.5,
+      4.5,
+      5.5,
+      4.5,
+      4.5
+    ]
+  },
+  "sourceArtReview": "tools/generate-art/previews/krios-pickup-attempt01/ATLAS_REVIEW.md",
+  "simulation": "A controlled one-time loose-ball fixture enters normal stepMatch progression. Production integration advances ball physics, schedules pickup, reaches the grab anchor, transfers possession, and continues carried-ball rendering.",
+  "captureMethod": "Fixture is set once per run; then only normal production ticks advance. No per-tick ball/player teleports. Candidate artwork/track is injected into page memory only; checked-in manifest/runtime remain unchanged.",
+  "court": "scoria-rams vs blackthorn-court-kings",
+  "courtY": 90.0,
+  "initialForward": 3.8,
+  "sampleTicks": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "captures": [
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 103.89,
+        "y": 90,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick00-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 104.07000000000001,
+        "y": 90,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick02-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 104.25000000000001,
+        "y": 90,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick04-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 104.39760000000003,
+        "y": 90,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick06-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick07-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick08-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick10-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick11-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 96.11,
+        "y": 90,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick00-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.92999999999999,
+        "y": 90,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick02-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.74999999999999,
+        "y": 90,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick04-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.60239999999997,
+        "y": 90,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick06-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick07-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick08-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick10-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick11-zoom100.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 103.89,
+        "y": 90,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick00-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 104.07000000000001,
+        "y": 90,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick02-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 104.25000000000001,
+        "y": 90,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick04-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 104.39760000000003,
+        "y": 90,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick06-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick07-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick08-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick10-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-right-pickup-tick11-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 96.11,
+        "y": 90,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick00-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.92999999999999,
+        "y": 90,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick02-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.74999999999999,
+        "y": 90,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick04-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.60239999999997,
+        "y": 90,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick06-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick07-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick08-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick10-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 0.75,
+        "mode": "carried",
+        "owner": "krios",
+        "lastTouch": "krios"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/krios-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Krios grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-02/native/actual-left-pickup-tick11-zoom120.png",
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      }
+    }
+  ],
+  "gameplayRuns": [
+    {
+      "facing": 1,
+      "zoom": 100,
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Krios grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": -1,
+      "zoom": 100,
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Krios grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": 1,
+      "zoom": 120,
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": 1,
+        "courtY": 90,
+        "ball": {
+          "x": 103.8,
+          "y": 90,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Krios grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": -1,
+      "zoom": 120,
+      "setup": {
+        "player": "krios",
+        "x": 100,
+        "y": 90,
+        "facing": -1,
+        "courtY": 90,
+        "ball": {
+          "x": 96.2,
+          "y": 90,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": 0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Krios grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    }
+  ],
+  "captureCount": 32,
+  "uncaughtBrowserErrors": []
+}

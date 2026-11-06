@@ -1,0 +1,28 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 2,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected by independent source review",
+  "generatedAt": "2026-10-29T05:10:00Z",
+  "generationId": "exec-0e2d0647-9ffa-42d0-896c-eab48a031e8d",
+  "promptFile": "tools/generate-art/kraken-alley-oop-reverse-attempt02-imagegen-prompt.txt",
+  "promptSha256": "5272242a3a4f5d4d2744a26c1b0fc6b4e28e7fec0cd8b3c29768bebb8e78cb1e",
+  "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt02-generated-raw.png",
+  "rawSha256": "c74b7ceb3469701581979433a6cc7bbad295cc140398e8683d8fda7382399f0a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1077357,
+  "partialAlphaPixels": 495507,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt02/INDEPENDENT_SOURCE_REVIEW.md",
+  "note": "Raw only. No cleanup, gameplay track calibration, packing, or production registration. Preserve exact source regardless of review.",
+  "reviewSummary": "Rejected: frames 10 and 11 are nearly duplicates, frame 12 reads as upward follow-through instead of reverse-downward dunk extension, pose 9 touches its cell edge, pose 13 has tight margins, and the raw has 495,507 partial-alpha pixels."
+}

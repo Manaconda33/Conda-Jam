@@ -1,0 +1,250 @@
+{
+  "status": "visual cleanup/layout trial only; not runtime registered or gameplay accepted",
+  "source": "tools/generate-art/sources/kraken-pass6-attempt03-generated-raw.png",
+  "sourceSha256": "44c042bf175ca1337c24c3f06fc569eefab0d971c3207b9ce4f1222fa32a2075",
+  "sourceSize": [
+    1402,
+    1122
+  ],
+  "prompt": "tools/generate-art/kraken-pass6-attempt03-imagegen-prompt.txt",
+  "identityReference": "public/assets/animation/kraken-idle-right.webp",
+  "generationId": "exec-6af62d0f-5c3d-4f21-a213-93f524e77291",
+  "trialAtlas": "pass6-attempt03-trial-96x96.png",
+  "trialAtlasSha256": "238faaf806fadcc4186699c56c4737683704bb31880837dd342c93ad52883bcd",
+  "cell": [
+    96,
+    96
+  ],
+  "grid": [
+    3,
+    2
+  ],
+  "scale": 0.15296367112810708,
+  "baselineY": 90,
+  "fringeRadiusOriginalPixels": 3.0,
+  "resampling": "nearest-neighbor; source RGBA pixel values retained by sampling, no redraw or color adjustment",
+  "figures": [
+    {
+      "index": 1,
+      "sourceComponentId": 2,
+      "sourceComponentPixels": 99908,
+      "sourceCropLTRB": [
+        63,
+        11,
+        389,
+        547
+      ],
+      "sourceCropSize": [
+        326,
+        536
+      ],
+      "scaledFigureSize": [
+        50,
+        82
+      ],
+      "scale": 0.15296367112810708,
+      "offsetInCell": [
+        23,
+        8
+      ],
+      "baselineY": 90,
+      "cellMarginsLTRB": [
+        23,
+        8,
+        23,
+        6
+      ],
+      "retainedNonMainAlphaPixels": 25,
+      "cellSha256": "13bb4191f2812384bb7c3fce209c8d63778a599e58ec6452888d1decad9e75bc",
+      "path": "pose-01-96px.png"
+    },
+    {
+      "index": 2,
+      "sourceComponentId": 4,
+      "sourceComponentPixels": 103049,
+      "sourceCropLTRB": [
+        529,
+        15,
+        872,
+        547
+      ],
+      "sourceCropSize": [
+        343,
+        532
+      ],
+      "scaledFigureSize": [
+        52,
+        81
+      ],
+      "scale": 0.15296367112810708,
+      "offsetInCell": [
+        22,
+        9
+      ],
+      "baselineY": 90,
+      "cellMarginsLTRB": [
+        22,
+        9,
+        22,
+        6
+      ],
+      "retainedNonMainAlphaPixels": 26,
+      "cellSha256": "620454d55a7c80fc46d0bfcdab5909ed1da7ab9b15a6389de453f28a430caaca",
+      "path": "pose-02-96px.png"
+    },
+    {
+      "index": 3,
+      "sourceComponentId": 8,
+      "sourceComponentPixels": 102208,
+      "sourceCropLTRB": [
+        1012,
+        30,
+        1387,
+        549
+      ],
+      "sourceCropSize": [
+        375,
+        519
+      ],
+      "scaledFigureSize": [
+        57,
+        79
+      ],
+      "scale": 0.15296367112810708,
+      "offsetInCell": [
+        19,
+        11
+      ],
+      "baselineY": 90,
+      "cellMarginsLTRB": [
+        19,
+        11,
+        20,
+        6
+      ],
+      "retainedNonMainAlphaPixels": 21,
+      "cellSha256": "0831e2de4a9bd293e88e86e2e8878661e99e7ac8b48ea84d1f215b125646f3ab",
+      "path": "pose-03-96px.png"
+    },
+    {
+      "index": 4,
+      "sourceComponentId": 774,
+      "sourceComponentPixels": 104237,
+      "sourceCropLTRB": [
+        45,
+        576,
+        566,
+        1090
+      ],
+      "sourceCropSize": [
+        521,
+        514
+      ],
+      "scaledFigureSize": [
+        80,
+        79
+      ],
+      "scale": 0.15296367112810708,
+      "offsetInCell": [
+        8,
+        11
+      ],
+      "baselineY": 90,
+      "cellMarginsLTRB": [
+        8,
+        11,
+        8,
+        6
+      ],
+      "retainedNonMainAlphaPixels": 33,
+      "cellSha256": "59be6cef97159b987eebb646305e5e7f49e4908bd7f2a322bbf986f5ed99029c",
+      "path": "pose-04-96px.png"
+    },
+    {
+      "index": 5,
+      "sourceComponentId": 772,
+      "sourceComponentPixels": 106146,
+      "sourceCropLTRB": [
+        514,
+        576,
+        1018,
+        1090
+      ],
+      "sourceCropSize": [
+        504,
+        514
+      ],
+      "scaledFigureSize": [
+        77,
+        79
+      ],
+      "scale": 0.15296367112810708,
+      "offsetInCell": [
+        9,
+        11
+      ],
+      "baselineY": 90,
+      "cellMarginsLTRB": [
+        9,
+        11,
+        10,
+        6
+      ],
+      "retainedNonMainAlphaPixels": 52,
+      "cellSha256": "6a9c04eea8f0823f5bc80052cf772823c4b5470131f376393df2d771caf7e140",
+      "path": "pose-05-96px.png"
+    },
+    {
+      "index": 6,
+      "sourceComponentId": 735,
+      "sourceComponentPixels": 98806,
+      "sourceCropLTRB": [
+        1016,
+        562,
+        1375,
+        1090
+      ],
+      "sourceCropSize": [
+        359,
+        528
+      ],
+      "scaledFigureSize": [
+        55,
+        81
+      ],
+      "scale": 0.15296367112810708,
+      "offsetInCell": [
+        20,
+        9
+      ],
+      "baselineY": 90,
+      "cellMarginsLTRB": [
+        20,
+        9,
+        21,
+        6
+      ],
+      "retainedNonMainAlphaPixels": 34,
+      "cellSha256": "f9f3fdbfcc5d50638a76f67aa8163c930ae1b98cadeaeddda5c8a0a2ccd1f9cd",
+      "path": "pose-06-96px.png"
+    }
+  ],
+  "excludedDetachedAlphaComponentCount": 1274,
+  "excludedDetachedAlphaComponentMaxPixels": 222,
+  "excludedDetachedAlphaPixelCount": 3823,
+  "previews": [
+    "native-extracted-figures.png",
+    "trial-light-native.png",
+    "trial-dark-native.png",
+    "trial-light-4x.png",
+    "trial-dark-4x.png",
+    "comparison-idle-light.png",
+    "comparison-idle-dark.png"
+  ],
+  "notes": [
+    "Six non-overlapping alpha-connected source figures were identified by their full silhouettes, not equal-width sheet columns.",
+    "Only nonzero-alpha pixels inside each silhouette or within 3 original pixels were included; RGBA values of all included source pixels are unchanged.",
+    "Distant detached transparent-image fragments are excluded from derived figures and listed; the untouched raw source remains authoritative.",
+    "96x96 output cells use one scale and baseline, with no basketball or runtime/ball-track changes."
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "source": "tools/generate-art/sources/krios-rebound-attempt03-generated-raw.png",
+  "sourceSha256": "cad368345e5fbbbb08de3459b519efff8db8df811fa6c1bfedde500456107ab4",
+  "sourceDimensions": [
+    2078,
+    757
+  ],
+  "algorithm": "green dominance mask g>r+70 and g>b+70 and g>100; 8-connected components; five largest full-figure components; row-major order; no redraw or despill edits; uniform nearest-neighbour scaling",
+  "backgroundPixelShare": 0.7164450372080664,
+  "foregroundConnectedComponentCount": 5,
+  "poseCount": 5,
+  "uniquePoseHashes": 5,
+  "uniformScale": 0.12538226299694188,
+  "sourceFloorY": 717,
+  "nativeCell": [
+    128,
+    96
+  ],
+  "baseline": 94,
+  "despilledNativePixels": 0,
+  "frames": [
+    {
+      "label": 5,
+      "area": 93064,
+      "sourceRect": [
+        33,
+        205,
+        393,
+        717
+      ],
+      "centerX": 198.8868628040918,
+      "poseIndex": 0,
+      "isolatedFile": "tools/generate-art/previews/krios-rebound-attempt03/pose-00-isolated.png",
+      "isolatedSha256": "eaefe8e4eb7aa467e93b9fd2a972add6661276dfcf5c999e850cee3d40fd1e77",
+      "size": [
+        360,
+        512
+      ]
+    },
+    {
+      "label": 4,
+      "area": 83978,
+      "sourceRect": [
+        465,
+        192,
+        778,
+        717
+      ],
+      "centerX": 634.3647979232657,
+      "poseIndex": 1,
+      "isolatedFile": "tools/generate-art/previews/krios-rebound-attempt03/pose-01-isolated.png",
+      "isolatedSha256": "7016ed4d71ea40f1c138c8e42fc83bcec883955e05d2e4fd3fd1d8a7e811fbf1",
+      "size": [
+        313,
+        525
+      ]
+    },
+    {
+      "label": 1,
+      "area": 91903,
+      "sourceRect": [
+        908,
+        21,
+        1169,
+        675
+      ],
+      "centerX": 1039.7017725210276,
+      "poseIndex": 2,
+      "isolatedFile": "tools/generate-art/previews/krios-rebound-attempt03/pose-02-isolated.png",
+      "isolatedSha256": "117b2770a2b698c13291c2881ccd694c1f90fd6d7339b0be9d410c4a9a8b5fa6",
+      "size": [
+        261,
+        654
+      ]
+    },
+    {
+      "label": 2,
+      "area": 92917,
+      "sourceRect": [
+        1329,
+        21,
+        1614,
+        655
+      ],
+      "centerX": 1465.5918292669803,
+      "poseIndex": 3,
+      "isolatedFile": "tools/generate-art/previews/krios-rebound-attempt03/pose-03-isolated.png",
+      "isolatedSha256": "0a47f6fc1e108a80cebdb5c82882ed6824cec3595907ba4612e19e5f3ebec31e",
+      "size": [
+        285,
+        634
+      ]
+    },
+    {
+      "label": 3,
+      "area": 84183,
+      "sourceRect": [
+        1745,
+        165,
+        2028,
+        704
+      ],
+      "centerX": 1878.607450435361,
+      "poseIndex": 4,
+      "isolatedFile": "tools/generate-art/previews/krios-rebound-attempt03/pose-04-isolated.png",
+      "isolatedSha256": "7fdbbea6f840da558e75df2314aa3699d489fa6403a6b8f55bbfef6a7e6d5c82",
+      "size": [
+        283,
+        539
+      ]
+    }
+  ],
+  "packedFrames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        41,
+        30,
+        45,
+        64
+      ],
+      "sourceRect": [
+        33,
+        205,
+        393,
+        717
+      ],
+      "sha256": "d2fc9193dade0627b51fe0f4b0923c5260201ff64a267a742f08cfe22507b6ce"
+    },
+    {
+      "index": 1,
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        44,
+        28,
+        39,
+        66
+      ],
+      "sourceRect": [
+        465,
+        192,
+        778,
+        717
+      ],
+      "sha256": "4fbf02e23f777753ab0f0c6b331be5e8bed2a920b59ea93c7cc2233353e9d960"
+    },
+    {
+      "index": 2,
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        47,
+        7,
+        33,
+        82
+      ],
+      "sourceRect": [
+        908,
+        21,
+        1169,
+        675
+      ],
+      "sha256": "c5df756d0d8cc0864530d23ce55f5a3bc3acd392d4c6e8efc578692409e841db"
+    },
+    {
+      "index": 3,
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        46,
+        7,
+        36,
+        79
+      ],
+      "sourceRect": [
+        1329,
+        21,
+        1614,
+        655
+      ],
+      "sha256": "135b4de23de51cfc897e7ef7490fe8b7398dd759ba498f7420a83e7c6442afa8"
+    },
+    {
+      "index": 4,
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96,
+      "visibleRect": [
+        46,
+        25,
+        35,
+        68
+      ],
+      "sourceRect": [
+        1745,
+        165,
+        2028,
+        704
+      ],
+      "sha256": "867e37155f49f94139be0d05d309df832741b03dd3de55fdac37a0077ff9a66a"
+    }
+  ],
+  "rejectedComponents": [],
+  "candidateAtlas": "tools/generate-art/previews/krios-rebound-attempt03/krios-rebound-attempt03-runtime-candidate.png",
+  "candidateAtlasSha256": "ec9a2c9bd99a6227d189d2c7a7e82643ede7aa1422f2838ff31c2a496c9b5074"
+}

@@ -1,0 +1,15 @@
+Edit the attached Krios dunk-clutch source sheet while retaining the same 5×3 grid, green background, pixel-art style, size, Krios identity, costume and overall scale. Replace cells 5 through 14 (middle row, columns 1–5; bottom row, all five), preserving the first five approach/takeoff poses where possible. Keep exactly fifteen full-body figures. No ball/props, text, grid lines, floor or shadows.
+
+The corrected sequence must clearly depict the canonical protected underbody clutch and diagonal finish:
+5. Airborne catch below abdomen: one finishing hand visibly secures the invisible ball under the belly/at lower abdomen; guide hand peels away.
+6. Strong underbody clutch: finishing arm reaches LOW between the tucked/lifted knees with hand at centerline; do not reach diagonally beside the body. Free arm balances high.
+7. Apex: body is highest with knees tucked; finishing elbow starts pulling the held ball UP across the far ribs. Free arm stays high. This pose is clearly different from low clutch frame6 and diagonal release frames9–10.
+8. Start emergence: hand/held invisible ball rises out from the cross-body clutch beside the opposite shoulder.
+9. Pre-release: finishing arm unfolds diagonally across face toward the right-side imaginary rim, wrist still holding; free elbow pulls back.
+10. RELEASE: one hand reaches high diagonally then flicks down through the imaginary rim. Fingertips open distinctly; the invisible ball leaves only here. Make the diagonal wrist snap clearly readable, not a generic overhead reach.
+11. FINISH: after release, finishing arm remains crossed above head, free arm extended laterally.
+12. Drop: empty arm swings out from across face to a natural side position as shoulders square.
+13. Landing approach: both hands reach forward at different heights as knees move below body.
+14. LAND: both feet meet and knees flex; finishing hand lowers diagonally across chest while the free palm steadies the hip.
+
+Keep hands attached to Krios, exact red skin/horns/charcoal beard/black ember-trim uniform/dark shoes, muscular anatomy, outline, pixel scale, and baseline. Use clear body/arm silhouettes and visibly distinct held versus empty hand states. Do not change the other source cells except for small consistency adjustments. No missing, repeated, cropped, fused, extra or ambiguous poses.

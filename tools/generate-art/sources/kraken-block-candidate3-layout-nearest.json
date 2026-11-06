@@ -1,0 +1,92 @@
+{
+  "status": "candidate-pending-visual-review",
+  "source": "tools/generate-art/sources/kraken-block-candidate2/edited-candidate3.png",
+  "atlas": "tools/generate-art/sources/kraken-block-candidate3-atlas-nearest.png",
+  "width": 160,
+  "height": 192,
+  "columns": 2,
+  "rows": 2,
+  "cellWidth": 80,
+  "cellHeight": 96,
+  "cleanupAttempt": 2,
+  "removedDetachedOutputComponents": 0,
+  "poses": [
+    {
+      "poseIndex": 0,
+      "sourceBounds": [
+        127,
+        263,
+        499,
+        649
+      ],
+      "sourceComponentPixels": 70568,
+      "targetBounds": [
+        9,
+        29,
+        71,
+        93
+      ],
+      "resize": "nearest neighbor; exact source colors and sharp pixel clusters preserved",
+      "alpha": "binary component silhouette",
+      "targetBaselineY": 92
+    },
+    {
+      "poseIndex": 1,
+      "sourceBounds": [
+        648,
+        96,
+        1065,
+        682
+      ],
+      "sourceComponentPixels": 76417,
+      "targetBounds": [
+        91,
+        13,
+        148,
+        93
+      ],
+      "resize": "nearest neighbor; exact source colors and sharp pixel clusters preserved",
+      "alpha": "binary component silhouette",
+      "targetBaselineY": 92
+    },
+    {
+      "poseIndex": 2,
+      "sourceBounds": [
+        96,
+        728,
+        534,
+        1283
+      ],
+      "sourceComponentPixels": 80427,
+      "targetBounds": [
+        9,
+        110,
+        71,
+        189
+      ],
+      "resize": "nearest neighbor; exact source colors and sharp pixel clusters preserved",
+      "alpha": "binary component silhouette",
+      "targetBaselineY": 188
+    },
+    {
+      "poseIndex": 3,
+      "sourceBounds": [
+        662,
+        918,
+        1083,
+        1314
+      ],
+      "sourceComponentPixels": 78406,
+      "targetBounds": [
+        89,
+        131,
+        151,
+        189
+      ],
+      "resize": "nearest neighbor; exact source colors and sharp pixel clusters preserved",
+      "alpha": "binary component silhouette",
+      "targetBaselineY": 188
+    }
+  ],
+  "sha256": "e82ccfadfba4a3ff29abe6c129e05fb753431f606b2b3f222e193cf2efda2198"
+}

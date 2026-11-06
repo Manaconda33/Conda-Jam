@@ -1,0 +1,11 @@
+# Kraken shoot attempt28 — independent zoom-aware scene-pan review
+
+**Verdict: pass as a capture-only framing lead. A +24 virtual-pixel scene pan at 120% clears the tested rim/HUD overlap in both directions; 100% remains unpanned. This does not approve a production renderer change.**
+
+I reviewed the 120% and 100% attempt28 captures for both facings, including action starts, release at tick13, flight views at ticks14/16/19/23, and score-complete views. The tested report is `down-pan-+24-zoom-aware/report.json`: `scenePanYVirtualPixels:24`, `panOnlyAt120:true`. The source harness adds a canvas translation around arena, court, hoop, athlete and ball drawing, restores that context before `drawHUD()`, and applies a zero multiplier when zoom is below120. The screenshots keep the HUD at the top while the court scene shifts down; at 100% the overlay requests no scene translation.
+
+At 120%, the target rim is fully inside the frame and below the HUD/event banner in the left- and right-facing action, release and flight views. Flight balls remain below the HUD, including the higher sampled portions of the arc. Kraken's complete body and shoes remain in-frame through the score-complete views in both facings. The lower pan limit is close: at score completion the shoe soles leave only about a dozen pixels of bottom margin, but no part is clipped in the captures reviewed. The 100% views retain the original unpanned composition.
+
+The report records the full shoot frame schedule `[0,3,6,8,10,13,14,16,19,23]` and 37 flight samples per run. All four facing/zoom runs score the same made three: `[3,0]` facing right and `[0,3]` facing left. No browser errors or failed requests are recorded. I independently checked all 72 screenshot files against their recorded SHA-256 values; all are present and match.
+
+The atlas and shot track are candidate-injected, and the pan exists only in the in-memory capture harness. This verifies the capture candidate, not a normal production renderer path. If implemented, preserve the zoom-aware behavior and validate it through the regular Jam Stage path, especially the small bottom margin at 120%, before treating this as a shipped framing fix. No production files were changed.

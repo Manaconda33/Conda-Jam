@@ -1,0 +1,89 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "push",
+  "src": "./public/assets/animation/kraken-push-right.webp",
+  "columns": 4,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 0,
+      "y": 112,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 128,
+      "y": 112,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 256,
+      "y": 112,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 384,
+      "y": 112,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 0,
+      "y": 224,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 128,
+      "y": 224,
+      "w": 128,
+      "h": 112
+    },
+    {
+      "x": 256,
+      "y": 224,
+      "w": 128,
+      "h": 112
+    }
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-push11-attempt04-edit-prompt.txt",
+    "promptSha256": "01f6ad5b70e5093e3ef90cc660b984afb7f10f87a0dff6405fdb14c1528cfb57",
+    "generatedAt": "2026-10-29T04:08:00Z",
+    "generationId": "exec-3f1d3a01-e7d4-4b8d-9e19-b01aae606bf7",
+    "rawSource": "tools/generate-art/sources/kraken-push11-attempt04-edited-raw.png",
+    "rawSourceSha256": "61bbbad140d776579aea6613010ce97bd81c013296ad7319c406b80b9d8f904d",
+    "parentRaw": "tools/generate-art/sources/kraken-push11-attempt03-edited-raw.png",
+    "cleanupScript": "tools/generate-art/clean-kraken-push11-attempt04.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-push11-attempt04/cleanup-layout-report.json",
+    "cleanupAtlasSha256": "bcd6c631a246c84ea615bb973fb6dd8f22809fdf8fee2c18cac0f51718456286",
+    "cleanupNotes": "Connected-component isolation retains an 8-connected alpha>=32 core and one-pixel antialias fringe; fringe RGB is remapped to nearest core pixel. Initial unmasked-bbox cleanup is preserved under rejected/unmasked-bbox. Independent cleanup review and current-court attempt14 support only standard-loader verification."
+  }
+}

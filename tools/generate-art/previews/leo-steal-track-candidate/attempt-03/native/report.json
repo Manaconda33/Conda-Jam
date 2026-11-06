@@ -1,0 +1,512 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4196/",
+  "athlete": "leo",
+  "clip": "steal",
+  "candidateTrack": {
+    "height": [
+      1.05,
+      1.0,
+      0.8,
+      1.5,
+      1.25,
+      1.1,
+      1.1,
+      1.1
+    ],
+    "forward": [
+      6,
+      9,
+      12,
+      12.5,
+      6,
+      7,
+      7,
+      6
+    ]
+  },
+  "captures": [
+    {
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 109,
+        "y": 75,
+        "z": 1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "facing": 1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 112,
+        "y": 75,
+        "z": 0.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick04-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 112.5,
+        "y": 75,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick05-right-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 1.25
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick06-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick08-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick10-right-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick14-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 91,
+        "y": 75,
+        "z": 1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "facing": -1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 88,
+        "y": 75,
+        "z": 0.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick04-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 87.5,
+        "y": 75,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick05-left-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 1.25
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick06-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick08-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick10-left-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick14-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "facing": 1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "facing": 1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 109,
+        "y": 75,
+        "z": 1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "facing": 1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 112,
+        "y": 75,
+        "z": 0.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick04-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 112.5,
+        "y": 75,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick05-right-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 1.25
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick06-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick08-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick10-right-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "facing": 1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick14-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 0,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 91,
+        "y": 75,
+        "z": 1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "facing": -1,
+      "ballMode": "loose",
+      "owner": null,
+      "ball": {
+        "x": 88,
+        "y": 75,
+        "z": 0.8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 2,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick04-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 87.5,
+        "y": 75,
+        "z": 1.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 3,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick05-left-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 1.25
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 4,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick06-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick08-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 5,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick10-left-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "facing": -1,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 75,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "frame": 7,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native/tick14-left-zoom120.png"
+    }
+  ],
+  "captureCount": 32,
+  "uncaughtBrowserErrors": []
+}

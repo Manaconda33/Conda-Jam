@@ -1,0 +1,56 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": 6,
+  "status": "accepted for registered production",
+  "tool": "GPT Image generation",
+  "imageGenerationId": "c2pa:7e914101-fdfe-4d20-9841-7493bf1eba20",
+  "generationId": "c2pa:7e914101-fdfe-4d20-9841-7493bf1eba20",
+  "generatedAt": "2026-10-28T04:43:55.383099372Z",
+  "promptFile": "tools/generate-art/krios-layup8-attempt06-chromakey-prompt.md",
+  "promptVerbatim": true,
+  "promptSha256": "f40e6d2ddd985e1933aba0c517a0e20f45c7812e0c070bde40c7859f877e744e",
+  "rawSourceImage": "tools/generate-art/sources/krios-layup8-attempt06-chromakey-generated-raw.png",
+  "rawSourceSha256": "7ce2df943b35e655435b50f15703566799e7e3fa23c60e0255eade7567be84c6",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "RGB PNG, opaque chroma-key source",
+  "identityStyleReference": "public/assets/animation/krios-pass-overhead-right.webp",
+  "identityStyleReferenceSha256": "bee3fbdb043d448533ad70c52daeac90e83b7013ed84d84a2b5957a78c46c019",
+  "layoutFile": "tools/generate-art/krios-layup8-attempt06-layout.json",
+  "cleanup": {
+    "performed": true,
+    "method": "Documented transparent chroma-key/layout trial with connected matte removal, small interior island RGB repair, local green spill clearing, and nearest non-green RGB repair; raw source preserved and no poses redrawn. Exact thresholds and counts in cleanup-layout-report.json.",
+    "script": "tools/generate-art/clean-krios-layup8-attempt06.py",
+    "notes": "tools/generate-art/krios-layup8-attempt06-cleanup-notes.md",
+    "report": "tools/generate-art/previews/krios-layup8-attempt06/cleanup-layout-report.json",
+    "derivedTransparentImage": "tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-keyed-layout-trial.png",
+    "runtimeSizeTrial": "tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+    "runtimeLayout": "tools/generate-art/previews/krios-layup8-attempt06/runtime-layout.json",
+    "review": "tools/generate-art/previews/krios-layup8-attempt06/INDEPENDENT_CLEANUP_REVIEW.md",
+    "status": "cleared for ball-track trials only; not accepted or registered",
+    "derivedTransparentImageSha256": "c870ff4fec473a97dafda1be73f9f1e97116bb3b78892d13edb38020671bc77f",
+    "runtimeSizeTrialSha256": "6baaf58b96085a68bf4d0e6f9963e88d92df466b13ff42d0bb3e227268374678"
+  },
+  "rejectedAttempts": [
+    "tools/generate-art/previews/krios-layup8-attempt01-rejected/REVIEW.md",
+    "tools/generate-art/previews/krios-layup8-attempt02-rejected/REVIEW.md",
+    "tools/generate-art/previews/krios-layup8-attempt03-rejected/REVIEW.md",
+    "tools/generate-art/previews/krios-layup8-attempt04-rejected/REVIEW.md",
+    "tools/generate-art/previews/krios-layup8-attempt05-rejected/REVIEW.md"
+  ],
+  "rejectedGenerationIds": [
+    "urn:c2pa:c928c594-8a82-4275-aaba-1564145b29a8",
+    "urn:c2pa:84c9cccb-6d36-45cc-84ed-6cb53bde813e",
+    "urn:c2pa:7d79e31a-2a23-4408-9b30-fa57b84b663b",
+    "urn:c2pa:d16dbed0-7c06-43e8-be27-2a0f634a8f0e",
+    "urn:c2pa:dd623286-ebea-4f0f-9c99-656acf7d3ffd"
+  ],
+  "runtimeStatus": "accepted",
+  "registeredRuntimeReview": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-01/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+  "runtimeCaptureReport": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-01/registered-runtime/report.json"
+}

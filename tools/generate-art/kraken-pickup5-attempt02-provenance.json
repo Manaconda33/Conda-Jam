@@ -1,0 +1,69 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 2,
+  "status": "source and cleanup approved for separate ball-track trials only; not registered",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-29e04400-b16e-47a7-97e1-e76d6cd56f97",
+  "generatedAt": "2026-10-28T10:44:56.861843Z",
+  "parentAttempt": "tools/generate-art/sources/kraken-pickup5-attempt01-generated-raw.png",
+  "parentGenerationId": "exec-1ecf089e-9c32-433e-9eda-e4f14bb66b12",
+  "promptFile": "tools/generate-art/kraken-pickup5-attempt02-edit-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "1a52595671c43c0cb8a614292998dfd345b329d954cd4f38a5f4b6f12bf73323",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pickup5-attempt02-generated-raw.png",
+  "rawSourceSha256": "20657a266be1a0214ad9c2cdec93df5fd342c157e6744668f469ea49bca53ffe",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "tools/generate-art/sources/kraken-pickup5-attempt01-generated-raw.png",
+    "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "anchors": {
+    "grab": 3,
+    "grabTick": 7
+  },
+  "ballPolicy": "No ball in source artwork; calibrate separate Kraken-specific low pickup/recovery track after source and cleanup review.",
+  "sourceReview": {
+    "status": "pass for cleanup/layout trials only",
+    "evidence": "tools/generate-art/previews/kraken-pickup5-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "The orange basketball has been removed from grab pose3 and recovery pose4; all five canonical poses and anatomy are retained. Red edge fringe remains for cleanup review."
+  },
+  "cleanup": {
+    "status": "pass for separate ball-track trials only",
+    "script": "tools/generate-art/clean-kraken-pickup5-attempt02.py",
+    "atlas": "tools/generate-art/previews/kraken-pickup5-attempt02/kraken-pickup5-attempt02-runtime-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-pickup5-attempt02/layout.json",
+    "report": "tools/generate-art/previews/kraken-pickup5-attempt02/cleanup-layout-report.json",
+    "independentReview": "tools/generate-art/previews/kraken-pickup5-attempt02/INDEPENDENT_CLEANUP_REVIEW_2026-10-28.md"
+  },
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "source": "tools/generate-art/sources/kraken-pickup5-attempt01-generated-raw.png",
+      "provenance": "tools/generate-art/kraken-pickup5-attempt01-provenance.json",
+      "review": "tools/generate-art/previews/kraken-pickup5-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+      "reason": "Visible orange basketball under grab hand at pose3 and between hands in pose4; red fringe and painterly style."
+    }
+  ]
+}

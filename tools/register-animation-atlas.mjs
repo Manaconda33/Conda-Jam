@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { inspectAtlas } from './animation-assets.mjs';
 
-// Layout: {athlete,direction,clip,src,columns,rows,frames:[{x,y,w,h}],provenance:{prompt,generatedAt}}.
+// Layout: {athlete,direction,clip,src,columns,rows,frames:[{x,y,w,h}],baselineY?,provenance:{prompt,generatedAt}}.
 const [layoutFile, outputFile] = process.argv.slice(2);
 if (!layoutFile || !outputFile) throw new Error('Usage: node tools/register-animation-atlas.mjs layout.json manifest.json');
 const root = fileURLToPath(new URL('..', import.meta.url));
@@ -12,16 +12,18 @@ let manifest;
 try { manifest = JSON.parse(await readFile(outputFile, 'utf8')); }
 catch (error) { if (error.code !== 'ENOENT') throw error; manifest = { version: 1, characters: {} }; }
 for (const entry of Array.isArray(layouts) ? layouts : [layouts]) {
-  const { athlete, direction, clip, src, columns, rows, frames, provenance } = entry;
+  const { athlete, direction, clip, src, columns, rows, frames, baselineY, provenance } = entry;
   if (!athlete || !['right', 'left'].includes(direction) || !clip || !src?.startsWith('./public/assets/animation/')) throw new Error('Invalid layout identity or source');
   const filename = path.resolve(root, src);
   if (!filename.startsWith(path.resolve(root, 'public/assets/animation') + path.sep)) throw new Error('Source escapes animation assets directory');
   const actual = await inspectAtlas(filename, frames);
   if (actual.frames.some(frame => frame.error || !frame.visiblePixels)) throw new Error(`Invalid or blank crops: ${athlete}/${clip}`);
+  if (baselineY !== undefined && (!Number.isFinite(baselineY) || baselineY < 0 || actual.frames.some(frame => baselineY > frame.h))) throw new Error(`Invalid baselineY: ${athlete}/${clip}`);
   const character = manifest.characters[athlete] ||= { directions: {}, mirrorSafe: false, mirrorReview: { status: 'pending', notes: '' } };
   character.mirrorReview = { ...character.mirrorReview, status: 'pending' };
   character.directions[direction] ||= {};
   character.directions[direction][clip] = { src, columns, rows, frames: actual.frames.map(({ index, visiblePixels, ...frame }) => frame), sha256: actual.sha256, source: 'imagegen', provenance, reviewed: false };
+  if (baselineY !== undefined) character.directions[direction][clip].baselineY = baselineY;
 }
 // This provenance registry is large; compact serialization keeps both Git
 // Data API uploads and browser asset packaging below transport limits.

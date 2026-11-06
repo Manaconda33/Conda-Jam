@@ -1,0 +1,754 @@
+{
+  "renderer": "Chromium production Jam Stage canvas and real simulation",
+  "baseUrl": "http://127.0.0.1:4194/",
+  "athlete": "leo",
+  "clip": "layup",
+  "candidateTrack": {
+    "height": [
+      0.95,
+      1.15,
+      1.45,
+      2.05,
+      2.35,
+      1.8,
+      0.95,
+      0.6
+    ],
+    "forward": [
+      5,
+      7,
+      9,
+      12,
+      14,
+      11,
+      7,
+      5
+    ]
+  },
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 50,
+        "z": 0.95
+      },
+      "player": {
+        "x": 182,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 174.328,
+        "y": 50,
+        "z": 1.15
+      },
+      "player": {
+        "x": 181.328,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick02-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "playerZ": 1.1111404660392044,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 171.05599999999998,
+        "y": 50,
+        "z": 2.5611404660392045
+      },
+      "player": {
+        "x": 180.05599999999998,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick05-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "playerZ": 1.8477590650225735,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 166.78399999999996,
+        "y": 50,
+        "z": 3.8977590650225733
+      },
+      "player": {
+        "x": 178.78399999999996,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick08-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": -1,
+      "playerZ": 2,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.65619867903914,
+        "y": 50,
+        "z": 3.9209395744680853
+      },
+      "player": {
+        "x": 177.93599999999995,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick10-right-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "frame": 5,
+      "facing": -1,
+      "playerZ": 1.9615705608064609,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.95239735807831,
+        "y": 50,
+        "z": 4.96587914893617
+      },
+      "player": {
+        "x": 177.7297624817342,
+        "y": 50.17536248173426
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick11-right-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": 1,
+      "playerZ": 1.414213562373095,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 165.84099339519585,
+        "y": 50,
+        "z": 7.944697872340425
+      },
+      "player": {
+        "x": 178.08201630561848,
+        "y": 51.27040180699893
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick14-right-zoom100.png"
+    },
+    {
+      "tick": 18,
+      "frame": 7,
+      "facing": 1,
+      "playerZ": 0,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 167.02578811135257,
+        "y": 50,
+        "z": 11.552456170212764
+      },
+      "player": {
+        "x": 179.2378224446693,
+        "y": 52.50675395237904
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick18-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 177,
+        "y": 50,
+        "z": 0.95
+      },
+      "player": {
+        "x": 182,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 174.328,
+        "y": 50,
+        "z": 1.15
+      },
+      "player": {
+        "x": 181.328,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick02-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "playerZ": 1.1111404660392044,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 171.05599999999998,
+        "y": 50,
+        "z": 2.5611404660392045
+      },
+      "player": {
+        "x": 180.05599999999998,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick05-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "playerZ": 1.8477590650225735,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 166.78399999999996,
+        "y": 50,
+        "z": 3.8977590650225733
+      },
+      "player": {
+        "x": 178.78399999999996,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick08-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": -1,
+      "playerZ": 2,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.65619867903914,
+        "y": 50,
+        "z": 3.9209395744680853
+      },
+      "player": {
+        "x": 177.93599999999995,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick10-left-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "frame": 5,
+      "facing": -1,
+      "playerZ": 1.9615705608064609,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.95239735807831,
+        "y": 50,
+        "z": 4.96587914893617
+      },
+      "player": {
+        "x": 177.7297624817342,
+        "y": 50.17536248173426
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick11-left-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": 1,
+      "playerZ": 1.414213562373095,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 165.84099339519585,
+        "y": 50,
+        "z": 7.944697872340425
+      },
+      "player": {
+        "x": 178.08201630561848,
+        "y": 51.27040180699893
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick14-left-zoom100.png"
+    },
+    {
+      "tick": 18,
+      "frame": 7,
+      "facing": 1,
+      "playerZ": 0,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 167.02578811135257,
+        "y": 50,
+        "z": 11.552456170212764
+      },
+      "player": {
+        "x": 179.2378224446693,
+        "y": 52.50675395237904
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick18-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 187,
+        "y": 50,
+        "z": 0.95
+      },
+      "player": {
+        "x": 182,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 174.328,
+        "y": 50,
+        "z": 1.15
+      },
+      "player": {
+        "x": 181.328,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick02-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "playerZ": 1.1111404660392044,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 171.05599999999998,
+        "y": 50,
+        "z": 2.5611404660392045
+      },
+      "player": {
+        "x": 180.05599999999998,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick05-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "playerZ": 1.8477590650225735,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 166.78399999999996,
+        "y": 50,
+        "z": 3.8977590650225733
+      },
+      "player": {
+        "x": 178.78399999999996,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick08-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": -1,
+      "playerZ": 2,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.65619867903914,
+        "y": 50,
+        "z": 3.9209395744680853
+      },
+      "player": {
+        "x": 177.93599999999995,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick10-right-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "frame": 5,
+      "facing": -1,
+      "playerZ": 1.9615705608064609,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.95239735807831,
+        "y": 50,
+        "z": 4.96587914893617
+      },
+      "player": {
+        "x": 177.7297624817342,
+        "y": 50.17536248173426
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick11-right-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": 1,
+      "playerZ": 1.414213562373095,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 165.84099339519585,
+        "y": 50,
+        "z": 7.944697872340425
+      },
+      "player": {
+        "x": 178.08201630561848,
+        "y": 51.27040180699893
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick14-right-zoom120.png"
+    },
+    {
+      "tick": 18,
+      "frame": 7,
+      "facing": 1,
+      "playerZ": 0,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 167.02578811135257,
+        "y": 50,
+        "z": 11.552456170212764
+      },
+      "player": {
+        "x": 179.2378224446693,
+        "y": 52.50675395237904
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick18-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 177,
+        "y": 50,
+        "z": 0.95
+      },
+      "player": {
+        "x": 182,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "playerZ": 0,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 174.328,
+        "y": 50,
+        "z": 1.15
+      },
+      "player": {
+        "x": 181.328,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick02-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "playerZ": 1.1111404660392044,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 171.05599999999998,
+        "y": 50,
+        "z": 2.5611404660392045
+      },
+      "player": {
+        "x": 180.05599999999998,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick05-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "playerZ": 1.8477590650225735,
+      "ballMode": "carried",
+      "ballOwner": "leo",
+      "ball": {
+        "x": 166.78399999999996,
+        "y": 50,
+        "z": 3.8977590650225733
+      },
+      "player": {
+        "x": 178.78399999999996,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick08-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": -1,
+      "playerZ": 2,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.65619867903914,
+        "y": 50,
+        "z": 3.9209395744680853
+      },
+      "player": {
+        "x": 177.93599999999995,
+        "y": 50
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick10-left-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "frame": 5,
+      "facing": -1,
+      "playerZ": 1.9615705608064609,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 164.95239735807831,
+        "y": 50,
+        "z": 4.96587914893617
+      },
+      "player": {
+        "x": 177.7297624817342,
+        "y": 50.17536248173426
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick11-left-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": 1,
+      "playerZ": 1.414213562373095,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 165.84099339519585,
+        "y": 50,
+        "z": 7.944697872340425
+      },
+      "player": {
+        "x": 178.08201630561848,
+        "y": 51.27040180699893
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick14-left-zoom120.png"
+    },
+    {
+      "tick": 18,
+      "frame": 7,
+      "facing": 1,
+      "playerZ": 0,
+      "ballMode": "shot",
+      "ballOwner": null,
+      "ball": {
+        "x": 167.02578811135257,
+        "y": 50,
+        "z": 11.552456170212764
+      },
+      "player": {
+        "x": 179.2378224446693,
+        "y": 52.50675395237904
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-layup-track-candidate/attempt-01/native/tick18-left-zoom120.png"
+    }
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "zoom": 100,
+      "started": {
+        "clip": "layup",
+        "tick": 0,
+        "ball": "carried",
+        "owner": "leo"
+      },
+      "release": {
+        "tick": 18,
+        "attempts": 1,
+        "ball": "shot",
+        "owner": null
+      },
+      "setup": {
+        "player": "leo",
+        "team": 0
+      }
+    },
+    {
+      "facing": -1,
+      "zoom": 100,
+      "started": {
+        "clip": "layup",
+        "tick": 0,
+        "ball": "carried",
+        "owner": "leo"
+      },
+      "release": {
+        "tick": 18,
+        "attempts": 1,
+        "ball": "shot",
+        "owner": null
+      },
+      "setup": {
+        "player": "leo",
+        "team": 0
+      }
+    },
+    {
+      "facing": 1,
+      "zoom": 120,
+      "started": {
+        "clip": "layup",
+        "tick": 0,
+        "ball": "carried",
+        "owner": "leo"
+      },
+      "release": {
+        "tick": 18,
+        "attempts": 1,
+        "ball": "shot",
+        "owner": null
+      },
+      "setup": {
+        "player": "leo",
+        "team": 0
+      }
+    },
+    {
+      "facing": -1,
+      "zoom": 120,
+      "started": {
+        "clip": "layup",
+        "tick": 0,
+        "ball": "carried",
+        "owner": "leo"
+      },
+      "release": {
+        "tick": 18,
+        "attempts": 1,
+        "ball": "shot",
+        "owner": null
+      },
+      "setup": {
+        "player": "leo",
+        "team": 0
+      }
+    }
+  ],
+  "captureCount": 32,
+  "uncaughtBrowserErrors": []
+}

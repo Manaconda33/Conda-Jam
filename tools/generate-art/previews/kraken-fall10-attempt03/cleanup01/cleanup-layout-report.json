@@ -1,0 +1,32 @@
+{
+  "status": "independent full-composite cleanup review pending; not registration ready",
+  "strongFigureComponents": 1,
+  "rawAlphaRange": [
+    0,
+    255
+  ],
+  "replacementBounds": [
+    327,
+    274,
+    817,
+    1158
+  ],
+  "replacementRawPixels": 282214,
+  "removedLowAlphaPixels": 19342,
+  "replacementVisibleSize": [
+    37,
+    67
+  ],
+  "baselineY": 94,
+  "frameCount": 10,
+  "uniqueFrameHashes": 10,
+  "minimumMarginsLTRB": [
+    4,
+    27,
+    4,
+    2
+  ],
+  "rawPreserved": true,
+  "atlas": "tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+  "layout": "tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/layout.json"
+}

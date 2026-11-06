@@ -1,0 +1,20 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "alley-oop-reverse",
+  "src": "./public/assets/animation/kraken-alley-oop-reverse-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {"x":0,"y":0,"w":80,"h":96},{"x":80,"y":0,"w":80,"h":96},{"x":160,"y":0,"w":80,"h":96},{"x":240,"y":0,"w":80,"h":96},{"x":320,"y":0,"w":80,"h":96},
+    {"x":0,"y":96,"w":80,"h":96},{"x":80,"y":96,"w":80,"h":96},{"x":160,"y":96,"w":80,"h":96},{"x":240,"y":96,"w":80,"h":96},{"x":320,"y":96,"w":80,"h":96},
+    {"x":0,"y":192,"w":80,"h":96},{"x":80,"y":192,"w":80,"h":96},{"x":160,"y":192,"w":80,"h":96},{"x":240,"y":192,"w":80,"h":96},{"x":320,"y":192,"w":80,"h":96}
+  ],
+  "baselineY": 92,
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-alley-oop-reverse-attempt05-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29",
+    "sourceRects": [{"sourceImage":"tools/generate-art/sources/kraken-alley-oop-reverse-attempt05-generated-raw.png","x":0,"y":0,"w":1536,"h":1024,"sourceScale":0.1918819188191882}],
+    "packaging": "Cleanup01: transparent row-major 5x3 atlas; nearest-neighbor scale; shared 16-color palette; baseline 92. Lossless WebP conversion."
+  }
+}

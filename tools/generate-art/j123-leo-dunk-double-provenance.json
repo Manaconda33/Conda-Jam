@@ -1,0 +1,203 @@
+{
+  "athlete": "leo",
+  "clip": "dunk-double",
+  "runtimeRegistration": "registered and gameplay-validated",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-c789905e-d9a7-44b7-bd6e-b812a7547db1",
+      "generationPath": "/workspace/generated_images/exec-c789905e-d9a7-44b7-bd6e-b812a7547db1.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt01-generated-raw.png",
+      "sha256": "b1617f44c3289f5020528e4b9928aa548ea0c492462ce9632d1e204281dcfe4a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-prompt.md",
+      "promptSha256": "17609c6cf6d47837c8e09cebcca7cdb98892329fe0b3e2fec98fd7500998ec66",
+      "status": "rejected; raw preserved",
+      "review": "Painterly shading, translucent haze, cell edge/margin crowding and ambiguous ball-like marks between hands."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-6b4d17d6-d30a-4b7f-adc5-1adff8181075",
+      "generationPath": "/workspace/generated_images/exec-6b4d17d6-d30a-4b7f-adc5-1adff8181075.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt02-generated-raw.png",
+      "sha256": "5df2e4e9c80fffd85190067daaa103c899ae83a71d122a85794189e206d72eb6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-attempt02-prompt.md",
+      "promptSha256": "90c6230363522ec5fc20d17b6cb730f5304842ba24a8982a8dac5341c3f646fe",
+      "status": "rejected; raw preserved",
+      "review": "Painterly shading, translucent haze, cell edge/margin crowding and ambiguous ball-like marks between hands."
+    },
+    {
+      "attempt": 1,
+      "generationId": "exec-c789905e-d9a7-44b7-bd6e-b812a7547db1",
+      "generationPath": "/workspace/generated_images/exec-c789905e-d9a7-44b7-bd6e-b812a7547db1.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt01-generated-raw.png",
+      "sha256": "b1617f44c3289f5020528e4b9928aa548ea0c492462ce9632d1e204281dcfe4a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-prompt.md",
+      "promptSha256": "17609c6cf6d47837c8e09cebcca7cdb98892329fe0b3e2fec98fd7500998ec66",
+      "status": "rejected; raw preserved",
+      "decision": "Rejected by source review: painterly style, alpha haze, edge crowding and ball-like marks."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-6b4d17d6-d30a-4b7f-adc5-1adff8181075",
+      "generationPath": "/workspace/generated_images/exec-6b4d17d6-d30a-4b7f-adc5-1adff8181075.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt02-generated-raw.png",
+      "sha256": "5df2e4e9c80fffd85190067daaa103c899ae83a71d122a85794189e206d72eb6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-attempt02-prompt.md",
+      "promptSha256": "90c6230363522ec5fc20d17b6cb730f5304842ba24a8982a8dac5341c3f646fe",
+      "status": "rejected; raw preserved",
+      "decision": "Rejected by source review: painterly style, alpha haze, edge crowding and ball-like marks; reset timing improved slightly."
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-a49aac7b-1932-4739-8277-5ff73266382f",
+      "generationPath": "/workspace/generated_images/exec-a49aac7b-1932-4739-8277-5ff73266382f.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt03-generated-raw.png",
+      "sha256": "d66bc13416afe04f291c83eb888a5bf02b0711cd4271c360d54fee9b9b3c7edc",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-attempt03-prompt.md",
+      "promptSha256": "593b8e1db8f1f544d0336913c070f054e26fb4a00a260df887c7a64efd822d95",
+      "status": "rejected; raw preserved",
+      "decision": "Rejected by independent source review: painterly style, alpha fringes, alpha-positive pixels at canvas edges, 32px cell-margin misses, and weak release/finish separation; broad sequence/identity pass and no definite ball shape."
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-b53a0350-4f44-40ed-bf38-df011a223503",
+      "generationPath": "/workspace/generated_images/exec-b53a0350-4f44-40ed-bf38-df011a223503.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt04-generated-raw.png",
+      "sha256": "c336fddcee7b90603635c4c37996bf181d816a24000440e89ef6b41996a4f606",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-attempt04-restyle-prompt.md",
+      "promptSha256": "55af554f764132728173e7be8e34a288d87a2d87e804008b329388f0362b59af",
+      "sourceReferences": [
+        "tools/generate-art/sources/j123-leo-dunk-double-attempt03-generated-raw.png"
+      ],
+      "status": "rejected; raw preserved",
+      "decision": "Rejected after restyle edit: painterly style, colored alpha fringe, edge/cell margin failures and hands touch in a rounded shape."
+    },
+    {
+      "attempt": 5,
+      "generationId": "exec-f23ebe1b-24c9-4f1f-8ab0-4ad391b3e323",
+      "generationPath": "/workspace/generated_images/exec-f23ebe1b-24c9-4f1f-8ab0-4ad391b3e323.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt05-generated-raw.png",
+      "sha256": "70e063c990f7f8572d70e9afcd36cb2f4f7b060958ab8822215e56beb34c7129",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-attempt05-style-reference-prompt.md",
+      "promptSha256": "8c8c77a8986230dd7b5fd59b0a3fd79675f3358522e38471ac58362a7915edf2",
+      "sourceReferences": [
+        "tools/generate-art/sources/j123-leo-dunk-double-attempt04-generated-raw.png",
+        "public/assets/animation/leo-dunk-360-right.webp"
+      ],
+      "status": "unreviewed candidate",
+      "decision": "Pending independent review after style-reference edit."
+    },
+    {
+      "attempt": 6,
+      "generationId": "exec-c4722cc1-7062-4dd8-9135-87582aae6fbf",
+      "generationPath": "/workspace/generated_images/exec-c4722cc1-7062-4dd8-9135-87582aae6fbf.png",
+      "rawSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt06-generated-raw.png",
+      "sha256": "ccae9aab0af9584a85332b812b83b029e8b2001efaa71e0406014dfbf2996d5a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j123-leo-dunk-double-attempt06-prompt.md",
+      "promptSha256": "44b3e629d83299db1bfa777676981297f1929150845829d5df5fba77ce0e68ff",
+      "sourceReferences": [],
+      "status": "selected and registered; track attempt12 accepted as the best cross-zoom compromise",
+      "decision": "Selected source attempt06 after independent visual-art approval. Track attempt12 chosen after 15 captures trials; small tick20 contact offset is within approximately half the rendered ball diameter.",
+      "cleanedSourceImage": "tools/generate-art/sources/j123-leo-dunk-double-attempt06-cleaned.png",
+      "cleanupReport": "tools/generate-art/j123-leo-dunk-double-attempt06-cleanup-report.json",
+      "packedAtlas": "public/assets/animation/leo-dunk-double-attempt06-right.webp",
+      "packedAtlasSha256": "2bae85376969daa2363af3a1c4a81cee0380a94ebc8b7b34de20078fd1c21124",
+      "layout": "tools/generate-art/j123-leo-dunk-double-attempt06-layout.json",
+      "reviewProofs": [
+        "tools/generate-art/previews/j123-attempt06-atlas-frame00-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame00-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame01-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame01-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame02-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame02-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame03-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame03-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame04-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame04-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame05-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame05-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame06-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame06-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame07-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame07-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame08-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame08-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame09-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame09-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame10-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame10-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame11-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame11-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame12-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame12-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame13-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame13-dark-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame14-light-3x.png",
+        "tools/generate-art/previews/j123-attempt06-atlas-frame14-dark-3x.png"
+      ],
+      "independentReview": {
+        "reviewer": "candidate_review",
+        "scope": "packed source atlas, 15 pose crops, light/dark transparency, margins, identity/anatomy, pose separation and sequence",
+        "decision": "approved for visual art/layout gate",
+        "notes": "Removed four-pixel detached artifact created only by downscale; the raw and cleaned source were preserved. All 15 refreshed poses pass."
+      },
+      "ballTrackReview": {
+        "decision": "accepted",
+        "reviewers": [
+          "j123_track_visual_review",
+          "j123_track_review"
+        ],
+        "captures": "60 per attempt, both facings at100% and120%; exact production atlas selected, no browser errors",
+        "residual": "At tick20 a small 5\u201310px cross-zoom fingertip offset remains; attempts13\u201315 were worse, and the residual is within half the ball diameter."
+      }
+    }
+  ]
+}

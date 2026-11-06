@@ -1,0 +1,28 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk",
+  "attempt": 4,
+  "kind": "image edit of attempt03 raw",
+  "status": "rejected by independent source review",
+  "generatedAt": "2026-10-29T04:10:00Z",
+  "generationId": "exec-1a7d79cd-7642-4945-a5bb-177bd3209bfe",
+  "parentRaw": "tools/generate-art/sources/kraken-dunk-attempt03-generated-raw.png",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt04-edit-prompt.txt",
+  "promptSha256": "03edf64cebfed0f82262f9a32419eb1ea87291ddce79daef4fc89542e989a320",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt04-edited-raw.png",
+  "rawSha256": "dfd9cb79fbaafdfe260640e66513d147d3a607bd0cd77edd3e3d19c5456f5c0c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1010490,
+  "partialAlphaPixels": 562374,
+  "generatedBy": "ImageGen",
+  "note": "Exact edit prompt and source lineage preserved. Independent review pending; no cleanup or packing yet.",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt04/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Rejected: cross-cell spill, incomplete opaque transparency edges, semitransparent fringe, similar peak/slam/descent poses, and smooth illustration style."
+}

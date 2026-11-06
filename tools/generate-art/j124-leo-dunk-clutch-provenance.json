@@ -1,0 +1,167 @@
+{
+  "athlete": "leo",
+  "clip": "dunk-clutch",
+  "runtimeRegistration": "pending athlete-specific ball-track calibration and gameplay review",
+  "attempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-5a365450-c8e3-4f1d-900f-09a05cc907da",
+      "generationPath": "/workspace/generated_images/exec-5a365450-c8e3-4f1d-900f-09a05cc907da.png",
+      "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt01-generated-raw.png",
+      "sha256": "682b8c000c88f195cdb4ff53482b45f9f507e6fefc1ec82783c69b8ff953181a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j124-leo-dunk-clutch-attempt01-prompt.md",
+      "promptSha256": "dbeba19c7961f7f8a8ce588f26091aa256c7144f1fec6bbf4edb0ed0fd22cd2e",
+      "sourceReferences": [],
+      "status": "rejected; raw preserved",
+      "review": "Independent reviewer: rejected. Smooth painterly shading, overly decorative crimson costume pattern, row-edge crowding, and low-alpha residue.",
+      "proofs": [
+        "tools/generate-art/previews/j124-attempt01-light.png",
+        "tools/generate-art/previews/j124-attempt01-dark.png"
+      ]
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-99c0d92c-1d2c-4e73-9a7a-ca17accc4b5b",
+      "generationPath": "/workspace/generated_images/exec-99c0d92c-1d2c-4e73-9a7a-ca17accc4b5b.png",
+      "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt02-generated-raw.png",
+      "sha256": "167d740e374023068a832684566b707c2c9676e88c9986f497a25dbe10704345",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j124-leo-dunk-clutch-attempt02-pixel-restyle-prompt.md",
+      "promptSha256": "338dd74247ed5c8231cdc9738233818e22234ad0a4b8f602a99c8ac60692ba4c",
+      "sourceReferences": [
+        "tools/generate-art/sources/j124-leo-dunk-clutch-attempt01-generated-raw.png",
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "unreviewed candidate",
+      "review": "Independent reviewer: rejected. Restyle edit preserved painterly rendering, ornate crimson patterns and cell-margin failures; identity/anatomy/pose order are acceptable; no definite ball.",
+      "proofs": [
+        "tools/generate-art/previews/j124-attempt02-light.png",
+        "tools/generate-art/previews/j124-attempt02-dark.png"
+      ]
+    },
+    {
+      "attempt": 3,
+      "generationId": "exec-ec2a76b2-13b0-4502-9fe3-4a958ef080d2",
+      "generationPath": "/workspace/generated_images/exec-ec2a76b2-13b0-4502-9fe3-4a958ef080d2.png",
+      "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt03-generated-raw.png",
+      "sha256": "19180642e7ea4336933b8b427312d6605209ec3b4bcf466b2dba7fc1ed0e7af1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j124-leo-dunk-clutch-attempt03-reference-prompt.md",
+      "promptSha256": "410a7baeb1a7dd09da3d84fab3ca2c14afbdf04001896e3b86c92e220e6dea08",
+      "sourceReferences": [
+        "public/assets/animation/leo-dunk-tomahawk-right.webp"
+      ],
+      "status": "unreviewed candidate",
+      "review": "Independent reviewer: rejected. Identity/anatomy/pose order and clean proofs pass, but still soft-shaded rather than pixel-cluster art; margins release/finish distinction fail.",
+      "proofs": [
+        "tools/generate-art/previews/j124-attempt03-light.png",
+        "tools/generate-art/previews/j124-attempt03-dark.png"
+      ]
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-24cfe1f0-f774-4e9d-af53-648408820184",
+      "generationPath": "/workspace/generated_images/exec-24cfe1f0-f774-4e9d-af53-648408820184.png",
+      "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-generated-raw.png",
+      "sha256": "07de8c9da036e7a74f8e40b9b43ca0b3c72c228d7de7cfe1fcb38e71b159140d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j124-leo-dunk-clutch-attempt04-pixel-reference-prompt.md",
+      "promptSha256": "4642c928ced25d3469c55e656f422a70e87771cdcdf4db5b78808d761b176aa2",
+      "sourceReferences": [
+        "tools/generate-art/sources/j123-leo-dunk-double-attempt06-generated-raw.png"
+      ],
+      "status": "selected source; independently approved normalized packed art; athlete-specific ball track pending",
+      "review": "New from-scratch generation using accepted J123 Leo pixel-art source as reference; review pending.",
+      "proofs": [
+        "tools/generate-art/previews/j124-attempt04-light.png",
+        "tools/generate-art/previews/j124-attempt04-dark.png"
+      ],
+      "decision": "Independent reviewer approves packed source-art/layout derivative after intact 15-component fitting; runtime track pending.",
+      "packedAtlasSha256": "18fc9f23e2effd38a375e1428a79e790f63f20358ca98ba59e5b3ac0a3e5b7e7",
+      "independentReview": {
+        "reviewer": "candidate_review",
+        "decision": "approved for source art/layout",
+        "notes": "15 poses, identity/anatomy, alpha, no-ball, sequence and layout pass after fitting."
+      }
+    },
+    {
+      "attempt": 4,
+      "generationId": "exec-24cfe1f0-f774-4e9d-af53-648408820184",
+      "generationPath": "/workspace/generated_images/exec-24cfe1f0-f774-4e9d-af53-648408820184.png",
+      "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-generated-raw.png",
+      "sha256": "07de8c9da036e7a74f8e40b9b43ca0b3c72c228d7de7cfe1fcb38e71b159140d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "embeddedC2paClaim": null,
+      "promptFile": "tools/generate-art/j124-leo-dunk-clutch-attempt04-pixel-reference-prompt.md",
+      "promptSha256": "4642c928ced25d3469c55e656f422a70e87771cdcdf4db5b78808d761b176aa2",
+      "sourceReferences": [
+        "tools/generate-art/sources/j123-leo-dunk-double-attempt06-generated-raw.png"
+      ],
+      "status": "unreviewed fitted candidate",
+      "review": "Raw generation failed cell-margin/alpha-residue source gate. Fifteen intact figures were isolated as connected opaque components and normalized into a derivative atlas; packed-art review pending.",
+      "cleanedSource": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-cleaned-components.png",
+      "cleanupReport": "tools/generate-art/j124-leo-dunk-clutch-attempt04-cleanup-report.json",
+      "layout": "tools/generate-art/j124-leo-dunk-clutch-attempt04-layout.json",
+      "packedAtlas": "public/assets/animation/leo-dunk-clutch-attempt04-right.webp",
+      "proofs": [
+        "tools/generate-art/previews/j124-attempt04-atlas-light.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-dark.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame00-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame00-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame01-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame01-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame02-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame02-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame03-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame03-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame04-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame04-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame05-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame05-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame06-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame06-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame07-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame07-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame08-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame08-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame09-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame09-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame10-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame10-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame11-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame11-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame12-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame12-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame13-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame13-dark-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame14-light-3x.png",
+        "tools/generate-art/previews/j124-attempt04-atlas-frame14-dark-3x.png"
+      ]
+    }
+  ]
+}

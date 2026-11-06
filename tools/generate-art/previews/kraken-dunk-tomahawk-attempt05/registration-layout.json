@@ -1,0 +1,122 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "dunk-tomahawk",
+  "src": "./public/assets/animation/kraken-dunk-tomahawk-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    }
+  ],
+  "baselineY": 94,
+  "provenance": {
+    "athlete": "kraken",
+    "clip": "dunk-tomahawk",
+    "attempt": "05",
+    "generationId": "exec-6b24cca9-cab9-44fd-bea2-ccb74ed381d8",
+    "generator": "OpenAI ImageGen",
+    "transparentBackgroundRequested": true,
+    "rawFile": "tools/generate-art/sources/kraken-dunk-tomahawk-attempt05-generated-raw.png",
+    "rawSha256": "d1d905c4efd0263049f1ed68a1612a13be0271f6711f6c688f6e889a19bfe82c",
+    "promptFile": "tools/generate-art/kraken-dunk-tomahawk-attempt05-imagegen-prompt.txt",
+    "status": "unreviewed",
+    "generatedAt": "2026-10-29",
+    "prompt": "tools/generate-art/kraken-dunk-tomahawk-attempt05-imagegen-prompt.txt",
+    "cleanupFile": "tools/generate-art/previews/kraken-dunk-tomahawk-attempt05/cleanup01/kraken-dunk-tomahawk-attempt05-cleanup01-atlas.png",
+    "cleanupReview": "tools/generate-art/previews/kraken-dunk-tomahawk-attempt05/cleanup01/INDEPENDENT_CLEANUP01_REVIEW.md",
+    "assetClassification": "derived-cleanup-from-imagegen-source",
+    "packaging": "Lossless WebP from reviewed 440x288 cleanup01 atlas.",
+    "trackAttempt": 5,
+    "trackFile": "tools/generate-art/previews/kraken-dunk-tomahawk-track-candidate/attempt-05/track.json",
+    "normalLoaderReview": "tools/generate-art/previews/kraken-dunk-tomahawk-attempt05/PRODUCTION_LOADER_REVIEW.md"
+  }
+}

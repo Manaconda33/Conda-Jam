@@ -8,4 +8,4 @@ Six complete right-facing poses show a measured gather, two-hand overhead raise,
 - Packer/cleanup: `tools/generate-art/package-leo-action6.py` isolates six original bodies and records their crops without drawing or duplicating poses.
 - Verbatim prompt: `tools/generate-art/j106-leo-pass-overhead6-prompt.md`. No rejected generation was used.
 
-Initial separate ball track: height `[1.1,1.55,2,2.35,2.1,1.25]`; forward `[5,6.5,8,11,11,7]`; both hands release on frame3/tick5. Runtime review and manifest registration remain pending central integration.
+Accepted Leo-specific separate track: height `[1.1,2.3,2.3,2.7,3.2,1.25]`; forward `[4.5,4.8,4.7,6.5,7,7]`. Runtime preserves the canonical overhead-pass release frame3/tick7. The original generation prompt says tick5; this discrepancy is explicitly documented and was not used to change gameplay timing. Attempt08 passed production Jam Stage review at100%/120%, in both facings, and deterministic possession/release simulation tests. Track trials and causes are in `leo-pass-overhead-track-review.md`.

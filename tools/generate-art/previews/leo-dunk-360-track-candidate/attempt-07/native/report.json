@@ -1,0 +1,1007 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4199/",
+  "athlete": "leo",
+  "clip": "dunk-360",
+  "candidateTrack": {
+    "height": [
+      1.05,
+      1.15,
+      1.35,
+      1.6,
+      1.8,
+      1.25,
+      2.0,
+      2.0,
+      2.6,
+      1.95,
+      0.3,
+      2.2,
+      1.5,
+      0.75,
+      0.65
+    ],
+    "forward": [
+      5,
+      5,
+      3,
+      1,
+      -4,
+      0,
+      -4,
+      4,
+      5,
+      4,
+      5,
+      10,
+      7,
+      5,
+      6
+    ]
+  },
+  "captureMethod": "Manually stages the canonical dunk z-height at each authored frame start; carried ball follows candidate track through tick20, separate ownerless dunk ball at tick21 release. Deterministic gameplay verification is separate.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 75,
+        "z": 1.35
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick04-right-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 101,
+        "y": 75,
+        "z": 3.8699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick07-right-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": 1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 5.3355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick09-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 5.2950849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick10-right-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": 1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 6.7552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick12-right-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": 1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 7
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick14-right-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": 1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 6.9301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick17-right-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": 1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 5.1639380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick19-right-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 4.45
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick20-right-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": 1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 2.0101007166
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick21-right-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": 1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 108.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick22-right-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 110.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick23-right-zoom100.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 114.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick26-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 75,
+        "z": 1.35
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick04-left-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 99,
+        "y": 75,
+        "z": 3.8699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick07-left-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": -1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 5.3355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick09-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 5.2950849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick10-left-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": -1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 6.7552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick12-left-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": -1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 7
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick14-left-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": -1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 6.9301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick17-left-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": -1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 5.1639380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick19-left-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 4.45
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick20-left-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": -1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 2.0101007166
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick21-left-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": -1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 91.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick22-left-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 89.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick23-left-zoom100.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 85.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick26-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 75,
+        "z": 1.35
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick04-right-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 101,
+        "y": 75,
+        "z": 3.8699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick07-right-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": 1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 5.3355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick09-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 5.2950849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick10-right-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": 1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 6.7552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick12-right-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": 1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 7
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick14-right-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": 1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 6.9301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick17-right-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": 1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 5.1639380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick19-right-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 4.45
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick20-right-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": 1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 2.0101007166
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick21-right-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": 1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 108.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick22-right-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 110.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick23-right-zoom120.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 114.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick26-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1.05
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1.15
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 75,
+        "z": 1.35
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick04-left-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "z": 2.2699524987,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 99,
+        "y": 75,
+        "z": 3.8699524987
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick07-left-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "frame": 4,
+      "facing": -1,
+      "z": 3.5355339059,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 5.3355339059
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick09-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "z": 4.0450849719,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 100,
+        "y": 75,
+        "z": 5.2950849719
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick10-left-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "frame": 6,
+      "facing": -1,
+      "z": 4.7552825815,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 75,
+        "z": 6.7552825815
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick12-left-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 7,
+      "facing": -1,
+      "z": 5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 7
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick14-left-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "frame": 8,
+      "facing": -1,
+      "z": 4.3301270189,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 6.9301270189
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick17-left-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 9,
+      "facing": -1,
+      "z": 3.2139380484,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 5.1639380484
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick19-left-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "frame": 9,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 75,
+        "z": 4.45
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick20-left-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "frame": 10,
+      "facing": -1,
+      "z": 1.7101007166,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 2.0101007166
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick21-left-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "frame": 10,
+      "facing": -1,
+      "z": 0.95,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 91.5,
+        "y": 75,
+        "z": 2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick22-left-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 11,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 89.5,
+        "y": 75,
+        "z": 1.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick23-left-zoom120.png"
+    },
+    {
+      "tick": 26,
+      "frame": 12,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "dunk",
+      "owner": null,
+      "ball": {
+        "x": 85.5,
+        "y": 75,
+        "z": 0.6
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/leo-dunk-360-track-candidate/attempt-07/native/tick26-left-zoom120.png"
+    }
+  ],
+  "captureCount": 60,
+  "uncaughtBrowserErrors": []
+}

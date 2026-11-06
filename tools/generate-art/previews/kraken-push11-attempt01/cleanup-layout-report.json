@@ -1,0 +1,366 @@
+{
+  "status": "cleanup/layout candidate; independent review required before ball-track work or packing",
+  "source": "tools/generate-art/sources/kraken-push11-attempt01-generated-raw.png",
+  "sourceSha256": "147946fe138edef070d0c5b56a54adcd93ab8c7eb8719589691ee0d7cc159bfc",
+  "atlas": "tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+  "atlasSha256": "b344fbe288167f833a2ec44f4517f30781638e86522171538716b9a44e1db0dd",
+  "sourceDimensions": [
+    1448,
+    1086
+  ],
+  "segmentation": "Global RGBA alpha>=64 after removing explicit high-saturation bright red/green edge-key contamination; retain connected figure cores and original-alpha pixels within 2px; discard disconnected cleaned components below12 pixels. No pixel recoloring.",
+  "removedColorFringePixels": 9250,
+  "removedDisconnectedPixels": 49759,
+  "resampling": "nearest-neighbor; uniform scale to max72x73; baseline94",
+  "rawPreserved": true,
+  "frames": [
+    {
+      "index": 0,
+      "slot": [
+        0,
+        0
+      ],
+      "sourceBounds": [
+        50,
+        8,
+        300,
+        353
+      ],
+      "sourceCorePixels": 35352,
+      "scale": 0.21159420289855072,
+      "scaledSize": [
+        53,
+        73
+      ],
+      "offsetInCell": [
+        13,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        13,
+        21,
+        14,
+        2
+      ],
+      "poseHash": "df984cce8bdec1832eb47d92f98c96eef2f61eaaf3b2072c35dab80b9de49c23"
+    },
+    {
+      "index": 1,
+      "slot": [
+        1,
+        0
+      ],
+      "sourceBounds": [
+        408,
+        8,
+        670,
+        353
+      ],
+      "sourceCorePixels": 36399,
+      "scale": 0.21159420289855072,
+      "scaledSize": [
+        55,
+        73
+      ],
+      "offsetInCell": [
+        12,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        12,
+        21,
+        13,
+        2
+      ],
+      "poseHash": "2b53b435e408f8b5dea6275c1ca8bad25a57b36d970d0e7eea60c726fea8568c"
+    },
+    {
+      "index": 2,
+      "slot": [
+        2,
+        0
+      ],
+      "sourceBounds": [
+        753,
+        6,
+        1064,
+        353
+      ],
+      "sourceCorePixels": 35408,
+      "scale": 0.21037463976945245,
+      "scaledSize": [
+        65,
+        73
+      ],
+      "offsetInCell": [
+        7,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        7,
+        21,
+        8,
+        2
+      ],
+      "poseHash": "69b1963a901264afa50aeb88ad7fa805ed62d78817788e80eeacfbb0b3ba25c4"
+    },
+    {
+      "index": 3,
+      "slot": [
+        3,
+        0
+      ],
+      "sourceBounds": [
+        1105,
+        10,
+        1420,
+        347
+      ],
+      "sourceCorePixels": 36324,
+      "scale": 0.2166172106824926,
+      "scaledSize": [
+        68,
+        73
+      ],
+      "offsetInCell": [
+        6,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        6,
+        21,
+        6,
+        2
+      ],
+      "poseHash": "7ba276483caa016a2bee3f040ce18d97ba27a7556706a07e0c2196cbc7326dda"
+    },
+    {
+      "index": 4,
+      "slot": [
+        0,
+        1
+      ],
+      "sourceBounds": [
+        22,
+        368,
+        318,
+        700
+      ],
+      "sourceCorePixels": 35755,
+      "scale": 0.21987951807228914,
+      "scaledSize": [
+        65,
+        73
+      ],
+      "offsetInCell": [
+        7,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        7,
+        21,
+        8,
+        2
+      ],
+      "poseHash": "ca472d4a9c67eac1d099c1d92e1a0fef2790cc744c70f4c7c5bd349a6dcdea93"
+    },
+    {
+      "index": 5,
+      "slot": [
+        1,
+        1
+      ],
+      "sourceBounds": [
+        368,
+        369,
+        723,
+        700
+      ],
+      "sourceCorePixels": 36239,
+      "scale": 0.2028169014084507,
+      "scaledSize": [
+        72,
+        67
+      ],
+      "offsetInCell": [
+        4,
+        27
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        4,
+        27,
+        4,
+        2
+      ],
+      "poseHash": "8dd1ca94d93b8b82f777c7fb74fce40c110baf8b5704dfcb34e35462a156dfdc"
+    },
+    {
+      "index": 6,
+      "slot": [
+        2,
+        1
+      ],
+      "sourceBounds": [
+        734,
+        369,
+        1151,
+        698
+      ],
+      "sourceCorePixels": 37995,
+      "scale": 0.17266187050359713,
+      "scaledSize": [
+        72,
+        57
+      ],
+      "offsetInCell": [
+        4,
+        37
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        4,
+        37,
+        4,
+        2
+      ],
+      "poseHash": "f4f2fe32b30c91cfdbcd857c3598a4d335d95bf6171e6c1d96a77a69a64c36e4"
+    },
+    {
+      "index": 7,
+      "slot": [
+        3,
+        1
+      ],
+      "sourceBounds": [
+        1127,
+        371,
+        1419,
+        700
+      ],
+      "sourceCorePixels": 36129,
+      "scale": 0.22188449848024316,
+      "scaledSize": [
+        65,
+        73
+      ],
+      "offsetInCell": [
+        7,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        7,
+        21,
+        8,
+        2
+      ],
+      "poseHash": "2b95020273b02f8b181c13ece24aa258b25621331834346f079a1bed1bd779ee"
+    },
+    {
+      "index": 8,
+      "slot": [
+        0,
+        2
+      ],
+      "sourceBounds": [
+        64,
+        724,
+        294,
+        1071
+      ],
+      "sourceCorePixels": 33589,
+      "scale": 0.21037463976945245,
+      "scaledSize": [
+        48,
+        73
+      ],
+      "offsetInCell": [
+        16,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        16,
+        21,
+        16,
+        2
+      ],
+      "poseHash": "2d65a0eae4e942e863162f9729a61ad726200fcf3ffbf75a8560add8b5cc1777"
+    },
+    {
+      "index": 9,
+      "slot": [
+        1,
+        2
+      ],
+      "sourceBounds": [
+        397,
+        724,
+        689,
+        1070
+      ],
+      "sourceCorePixels": 35177,
+      "scale": 0.21098265895953758,
+      "scaledSize": [
+        62,
+        73
+      ],
+      "offsetInCell": [
+        9,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        9,
+        21,
+        9,
+        2
+      ],
+      "poseHash": "6a6241e9c8399b0909d0841834dbd2044c78d9cbf5ddc835aa7be3413fda1e29"
+    },
+    {
+      "index": 10,
+      "slot": [
+        2,
+        2
+      ],
+      "sourceBounds": [
+        782,
+        724,
+        1049,
+        1075
+      ],
+      "sourceCorePixels": 34753,
+      "scale": 0.20797720797720798,
+      "scaledSize": [
+        56,
+        73
+      ],
+      "offsetInCell": [
+        12,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        12,
+        21,
+        12,
+        2
+      ],
+      "poseHash": "fe9169cfba40eba2db6dd44da3b6c65241160c2dc66b07366c4c19dd0752da95"
+    }
+  ],
+  "uniqueFrames": 11,
+  "minimumMarginsLTRB": [
+    4,
+    21,
+    4,
+    2
+  ]
+}

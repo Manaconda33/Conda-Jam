@@ -1,0 +1,24 @@
+Create one flat sprite source sheet containing EXACTLY FIFTEEN separate full-body drawings of Krios in a 5-column by 3-row grid read left to right, top to bottom. Keep each complete figure isolated in its equal cell with empty gutters; no cropped horns, hands, feet or shoes. Solid chroma green RGB(0,255,0), no grid lines, words, labels, gradients, floor, shadow, court, hoop, ball, teammates, motion marks or decoration.
+
+STYLE: crisp 16-bit pixel art with deliberate square pixel clusters, hard stepped outlines, compact limited palette, clustered highlights and shadows. Match Krios's accepted small-game sprite art. No painterly rendering, soft gradients, airbrush, antialiasing, 3D lighting or photographic texture. Keep the pixel scale, proportions, lighting, outline weight and ground baseline consistent. Full figure readable at 64×96 pixels, three-quarter right-facing except as the action requires, Krios recognizable in every frame.
+
+Krios is the canonical Scoria Rams captain: colossal adult male with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve his identity, face, horns, beard, build and uniform in all poses. Jersey chest plain charcoal with subtle ember trim only: NO logo, emblem, number, text, badge or symbol. Exactly two attached arms/hands and two attached legs/feet. NO basketball or ball-like circle: the gameplay ball is separate.
+
+Draw exactly these fifteen distinct action frames in order, respecting canonical dunk-tomahawk anchors takeoff2, grab5, peak7, release10, finish11, land14:
+0. Approach on staggered feet, torso forward, eyes toward imaginary right-side rim; one hand cradles absent ball beside hip, other hand near lower chest.
+1. Plant lead foot and sink hips, rear heel rises, chest loads; finishing elbow pulls sharply back, free palm opens toward target.
+2. TAKEOFF: both feet clear floor after strong leg extension; torso rises; ball hand climbs beside face with elbow tightly bent.
+3. Early ascent, lead knee lifts to waist and trailing leg folds back; finishing elbow points upward and hand passes behind crown.
+4. Mid-ascent, both knees gather under hips and chest rises; head tracks rim; ball hand drops behind crown into a deep backswing, free arm reaches forward.
+5. GRAB: stabilize airborne; one hand secures the invisible ball behind crown, finishing elbow maximally flexed.
+6. Late ascent, torso stretches and knees tuck; upper arm vertical, forearm cocked backward like a raised hammer, free elbow low.
+7. PEAK: highest body point, feet tucked, torso elongated; finishing forearm remains folded behind head.
+8. Start descent toward imaginary rim, legs trail; shoulder drives forward and elbow begins forceful extension from deep cock.
+9. Pre-release, torso drives forward and knees unfold behind; finishing arm straightens overhead and starts a steep downward chop.
+10. RELEASE: one hand hammers directly down through imaginary rim; fingertips visibly open and wrist folds hard as the invisible ball leaves only now.
+11. FINISH: immediate follow-through; finishing arm points steeply downward, free hand braces outward near shoulder, body trails the imaginary rim.
+12. Drop away, hands separate from imaginary rim; torso returns upright, empty finishing elbow folds beside torso, free arm lowers.
+13. Landing approach, both legs unfold below; arms widen for balance, finishing hand remains lower than free hand.
+14. LAND: both feet meet ground, knees bend deeply; finishing fist relaxes beside thigh and free palm sits outside hip. No extra spin after landing.
+
+Imaginary rim is to Krios's right and outside the sheet; draw no rim or prop. Keep all fifteen full silhouettes distinct and anatomically coherent. Release and finish must be clearly different. No repeated, missing, extra, cropped, merged or ambiguous poses.

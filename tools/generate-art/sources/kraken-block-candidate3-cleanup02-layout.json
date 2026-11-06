@@ -1,0 +1,60 @@
+{
+  "status": "pending-independent-re-review",
+  "source": "tools/generate-art/sources/kraken-block-candidate3-atlas-nearest.png",
+  "atlas": "tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+  "width": 160,
+  "height": 192,
+  "cellSize": [
+    80,
+    96
+  ],
+  "cleanupScript": "tools/generate-art/remove-kraken-block-fringe-specks.py",
+  "method": "Nearest-neighbor resize and binary component mask, followed by four-pixel targeted cleanup; no source art was repainted.",
+  "removedPixels": [
+    {
+      "x": 100,
+      "y": 58,
+      "rgbaBefore": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "reason": "single isolated saturated fringe pixel identified in independent zoom4 review"
+    },
+    {
+      "x": 17,
+      "y": 74,
+      "rgbaBefore": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "reason": "single isolated saturated fringe pixel identified in independent zoom4 review"
+    },
+    {
+      "x": 31,
+      "y": 144,
+      "rgbaBefore": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "reason": "single isolated saturated fringe pixel identified in independent zoom4 review"
+    },
+    {
+      "x": 44,
+      "y": 72,
+      "rgbaBefore": [
+        0,
+        255,
+        255,
+        255
+      ],
+      "reason": "single isolated saturated fringe pixel identified in independent zoom4 review"
+    }
+  ],
+  "sha256": "c98d3f71f5eab76a880e233f9ff075d94cee07348d610fb30b9eefd2d6add37a"
+}

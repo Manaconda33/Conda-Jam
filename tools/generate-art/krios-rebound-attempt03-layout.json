@@ -1,0 +1,55 @@
+{
+  "athlete": "krios",
+  "direction": "right",
+  "clip": "rebound",
+  "src": "./public/assets/animation/krios-rebound-right.webp",
+  "columns": 5,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "tool": "imagegen",
+    "generationId": "exec-b9bfc37a-1291-4296-9736-c07149576cd9",
+    "generatedAt": "2026-10-28T06:38:00Z",
+    "prompt": "tools/generate-art/krios-rebound-attempt03-imagegen-prompt.txt",
+    "rawSource": "tools/generate-art/sources/krios-rebound-attempt03-generated-raw.png",
+    "rawSourceSha256": "cad368345e5fbbbb08de3459b519efff8db8df811fa6c1bfedde500456107ab4",
+    "cleanupScript": "tools/generate-art/clean-krios-rebound-attempt03.py",
+    "cleanupReport": "tools/generate-art/previews/krios-rebound-attempt03/cleanup-layout-report.json",
+    "sourceReview": "tools/generate-art/previews/krios-rebound-attempt03/INDEPENDENT_SOURCE_REVIEW.md",
+    "cleanupReview": "tools/generate-art/previews/krios-rebound-attempt03/CLEANUP_CORRECTION_REVIEW.md",
+    "runtimeCandidateReview": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-05/INDEPENDENT_RUNTIME_REVIEW.md",
+    "sourceAtlasSha256": "85250ba5f2fff647f9ec599b7547daa305ee6c866182f960f8ac82160cba08b9",
+    "note": "Individually authored Krios rebound source. Candidate gameplay review passed; normal-loader registered-runtime review pending."
+  }
+}

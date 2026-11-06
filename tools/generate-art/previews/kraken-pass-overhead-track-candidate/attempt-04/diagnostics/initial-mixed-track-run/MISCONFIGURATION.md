@@ -1,0 +1,3 @@
+# Attempt 04 initial mixed-track capture — configuration error
+
+The first successful attempt04 execution generated static ball-placement screenshots using attempt02's track (height `[0.8,1.1,2.3,2.3,2.85,1.4]`, forward `[9,2,5,7,13,9]`) because the capture script's default was not overridden. Its actual stepMatch gameplay route injected attempt03's track, so that run mixed two calibration vectors and is not a valid matched review set. Preserve these diagnostic screenshots and `report.json` for provenance; do not use them for acceptance. The script now injects its exact configured track into both static and gameplay captures. A corrected run uses attempt03's vector explicitly.

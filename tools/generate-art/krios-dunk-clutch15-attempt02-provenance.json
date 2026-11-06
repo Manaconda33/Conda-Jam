@@ -1,0 +1,85 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 2,
+  "status": "raw generated; source review pending",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-2506373d-1d58-4afa-b242-ca5a347ffa67",
+  "generationId": "exec-2506373d-1d58-4afa-b242-ca5a347ffa67",
+  "generatedAt": "2026-10-28T09:02:00Z",
+  "parentAttempt": "tools/generate-art/sources/krios-dunk-clutch15-attempt01-generated-raw.png",
+  "promptFile": "tools/generate-art/krios-dunk-clutch15-attempt02-imagegen-edit-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "62616d66a12c38e27fc48db9009b71632469eb7647d7fc5d5228e4c9065f7888",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-clutch15-attempt02-generated-raw.png",
+  "rawSourceSha256": "6622fb713c472ea4b120bc195e0a26db49f3b1a73447ec740ac5d062200c7268",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No ball is baked in; use separate track only after source acceptance.",
+  "parentReview": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+  "sourceReview": {
+    "status": "rejected",
+    "verdict": "REJECT FOR CANONICAL DUNK-CLUTCH; NOT REGISTERED",
+    "reviewer": "independent source review",
+    "evidence": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md"
+  },
+  "cleanup": {
+    "status": "complete; source rejected after independent pose review",
+    "script": "tools/generate-art/clean-krios-dunk-clutch15-attempt02.py",
+    "report": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/cleanup-layout-report.json",
+    "algorithm": "Green-dominance connected-component extraction; source-row and left-to-right ordering; uniform nearest-neighbor scaling into 118x86; transparent 128x96 cells; common baseline y=94; int16 green despill; no redraw.",
+    "candidateAtlas": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/krios-dunk-clutch15-attempt02-runtime-candidate.png",
+    "candidateAtlasSha256": "d52dbfa507353292f107e50b5b9e84344d54ff703cf0d56834b40ffa7598e19b",
+    "layoutReportSha256": "180281f59960a2083499d62e8d8c36c87884519901582a15f32ec0f84335c868",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/krios-dunk-clutch15-attempt02-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/krios-dunk-clutch15-attempt02-dark-preview.png",
+    "targetSizeContactSheet": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/target-size-pose-contact-sheet.png",
+    "isolatedFrames": "tools/generate-art/previews/krios-dunk-clutch15-attempt02/pose-00-isolated.png through pose-14-isolated.png",
+    "componentCount": 15,
+    "uniquePoseHashes": 15,
+    "scale": 0.23822714681440443,
+    "baselineY": 94
+  },
+  "ballTrack": {
+    "status": "not calibrated",
+    "track": null
+  },
+  "rejectedAttempts": [
+    1,
+    2
+  ]
+}

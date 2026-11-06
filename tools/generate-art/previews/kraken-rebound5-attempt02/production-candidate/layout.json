@@ -1,0 +1,55 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "rebound",
+  "src": "./public/assets/animation/kraken-rebound-right.webp",
+  "columns": 5,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "baselineY": 92,
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-rebound5-attempt02-edit-prompt.txt",
+    "generatedAt": "2026-10-28T13:13:00Z",
+    "generationId": "exec-d6e7e8e7-8e91-4cac-891a-7ab3fdaedc51",
+    "rawSource": "tools/generate-art/sources/kraken-rebound5-attempt02-edited-raw.png",
+    "rawSourceSha256": "aec263697e585c3ff195dcac25232b66fe1219c7311337c896630d7ba4d68def",
+    "cleanupAtlas": "tools/generate-art/previews/kraken-rebound5-attempt02/cleanup01/kraken-rebound5-attempt02-cleanup01-atlas-candidate.png",
+    "cleanupAtlasSha256": "c5a4f0c8c379ec0dfc674bcaf6aa3359a0eeb5603f40df3a6c3ab2e80f47532d",
+    "cleanupNotes": "Moved every pose up 2 atlas pixels; baselineY 92 plus production renderer compensation preserves legacy baseline 94 and provides 4px bottom margin. Source art pixels are otherwise preserved.",
+    "baselineYExplanation": "Two-pixel cell shift is compensated by the production renderer using (94-92)*renderedHeight/sourceHeight.",
+    "track": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-05/track.json",
+    "candidateGameplayReview": "tools/generate-art/previews/kraken-rebound-track-candidate/attempt-13/rebound/INDEPENDENT_REVIEW.md",
+    "webpLosslessPixelIdentical": true
+  }
+}

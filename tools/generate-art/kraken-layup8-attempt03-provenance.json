@@ -1,0 +1,64 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": 3,
+  "status": "rejected after source review",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-4e8952fc-31ba-49be-a4c2-4cc44ffd69d9",
+  "generatedAt": "2026-10-29T03:08:27.973464Z",
+  "promptFile": "tools/generate-art/kraken-layup8-attempt03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "59760e94a01310b1731f37e94fdc3e267b3c1bd7d28c6b0b715a9daefcf5c2bd",
+  "referenceImages": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/sources/kraken-layup8-attempt02-generated-raw.png"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/kraken-layup8-attempt03-generated-raw.png",
+  "rawSourceSha256": "5daf879f88a04dcc3b5d5a27c971702460995803dc7db210ea4d0431de78df40",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "public/assets/animation/kraken-layup8-attempt01-generated-raw.png"
+  ],
+  "replaces": "attempt01 ambiguous anatomical right hand at pose4; attempt02 raws had smooth painted rendering and a ball-like frame0 mark.",
+  "requiredFrameDurations": [
+    2,
+    3,
+    3,
+    2,
+    1,
+    3,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "takeoffTick": 2,
+    "release": 4,
+    "releaseTick": 10,
+    "peak": 4,
+    "finish": 7
+  },
+  "ballPolicy": "No ball in source artwork; calibrate a separate Kraken-specific track only after source and cleanup review.",
+  "cleanup": null,
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": [],
+  "sourceReview": {
+    "status": "rejected",
+    "evidence": "tools/generate-art/previews/kraken-layup8-attempt03/INDEPENDENT_SOURCE_REVIEW_2026-10-29.md",
+    "notes": "Glossy painterly rendering and red/orange fringe remain at runtime size. Cleanup/layout output is a non-acceptance trial only. See tools/generate-art/previews/kraken-layup8-attempt03/INDEPENDENT_SOURCE_REVIEW_2026-10-29.md."
+  }
+}

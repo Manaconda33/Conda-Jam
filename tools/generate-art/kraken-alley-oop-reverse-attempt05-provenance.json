@@ -1,0 +1,33 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 5,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "accepted as derived animation source after independent cleanup, candidate gameplay, and no-injection production-loader reviews",
+  "generatedAt": "2026-10-29T05:23:00Z",
+  "generationId": "exec-a047bb4f-a706-469c-887b-218e06c069de",
+  "promptFile": "tools/generate-art/kraken-alley-oop-reverse-attempt05-imagegen-prompt.txt",
+  "promptSha256": "d9b4bbc0043526d73dfbdc86d4a8f3f91f53a602173782a4aef0d3ebf3286d8f",
+  "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt05-generated-raw.png",
+  "rawSha256": "081e75e24918c758344d68f07580bb7df384627ec921057beec1cd00c93e6bf7",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1086956,
+  "partialAlphaPixels": 485908,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt05/INDEPENDENT_SOURCE_REVIEW.md",
+  "note": "Raw source has partial alpha and source-cell edge touches; accepted cleanup preserves full visible anatomy and distinct poses. Median visible scale is about 16% shorter than Kraken idle. The registered runtime uses a separate Kraken-only ball track.",
+  "cleanupReviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt05/cleanup01/INDEPENDENT_CLEANUP01_REVIEW.md",
+  "gameplayCandidateReport": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt05/gameplay-candidate/track-attempt05/report.json",
+  "reviewSummary": "Raw source: frame12 reads as a reverse dunk with a hip-height hand behind the torso; raw alpha/cell margins fail. Cleanup01 passes independent candidate art review: 15 unique complete poses, binary alpha, 16 colors, safe output margins/baseline; low-hand cue survives mirroring. Source cells8/9 touched bounds before cleanup, no visible cut limb; median cleanup height is ~16% shorter than idle. Track attempt05 received an initial candidate pass but a later independent review rejected carry separation at frames6\u20139; both review records are preserved. Track attempt06 midpoint correction passes an independent candidate gameplay review on 60 real Marin-pass captures across both facings and zooms. Frames5\u20139 contact, frame12 reverse finish, tick21 rim release, tick23 score, recovery and browser-error checks pass. The track and source remain unregistered pending production-loader validation.",
+  "gameplayReviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt05/gameplay-candidate/track-attempt06/INDEPENDENT_GAMEPLAY_REVIEW.md",
+  "productionAsset": "public/assets/animation/kraken-alley-oop-reverse-right.webp",
+  "normalLoaderReviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt05/normal-loader-runtime/INDEPENDENT_NORMAL_LOADER_REVIEW.md"
+}

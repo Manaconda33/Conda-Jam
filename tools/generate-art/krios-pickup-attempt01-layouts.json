@@ -1,0 +1,73 @@
+{
+  "issue": "J.128",
+  "athlete": "Krios",
+  "clip": "pickup",
+  "status": "source, atlas and runtime integration accepted",
+  "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-generated-raw.png",
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "requestedGrid": {
+    "columns": 3,
+    "rows": 2,
+    "cellWidth": 512,
+    "cellHeight": 512,
+    "order": "row-major"
+  },
+  "cells": [
+    {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "width": 512,
+      "height": 512,
+      "catalogPose": "spot low loose ball; begin reach"
+    },
+    {
+      "frame": 1,
+      "x": 512,
+      "y": 0,
+      "width": 512,
+      "height": 512,
+      "catalogPose": "deep lower; hips back; reach opens"
+    },
+    {
+      "frame": 2,
+      "x": 1024,
+      "y": 0,
+      "width": 512,
+      "height": 512,
+      "catalogPose": "near-horizontal reach beside front shoe"
+    },
+    {
+      "frame": 3,
+      "x": 0,
+      "y": 512,
+      "width": 512,
+      "height": 512,
+      "catalogPose": "grab anchor at ankle height"
+    },
+    {
+      "frame": 4,
+      "x": 512,
+      "y": 512,
+      "width": 512,
+      "height": 512,
+      "catalogPose": "grounded crouched recovery with ball mime"
+    },
+    {
+      "frame": null,
+      "x": 1024,
+      "y": 512,
+      "width": 512,
+      "height": 512,
+      "empty": true
+    }
+  ],
+  "previewGridFile": "tools/generate-art/previews/krios-pickup-attempt01/layout-grid-review.png",
+  "notes": "Raw candidate reviewed; no crop or resize was applied before the separately recorded alpha cleanup and pack trial. The source uses pose-catalog order. See krios-pickup-attempt01-provenance.json and both independent review files.",
+  "cleanupReport": "tools/generate-art/krios-pickup-attempt01-cleanup01-report.json",
+  "packedAtlas": "public/assets/animation/krios-pickup-right.webp",
+  "packedLayout": "tools/generate-art/krios-pickup5-layouts.json"
+}

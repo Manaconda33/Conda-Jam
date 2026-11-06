@@ -1,0 +1,22 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk",
+  "attempt": 6,
+  "kind": "fresh ImageGen",
+  "status": "rejected; preserve raw and provenance",
+  "generatedAt": "2026-10-29T04:35:00Z",
+  "generationId": "exec-9e5bc6f6-aa23-4f78-9b50-1b000f942179",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt06-imagegen-prompt.txt",
+  "promptSha256": "3441bcec0e10dc0207fc71334d814f556c2f33256ab767cbf8543cd4dfc25ab9",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt06-generated-raw.png",
+  "rawSha256": "ff0e9cc6d11a4f6364eacb56acf6378523f924931ddb779eb051278688358625",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "alphaExtrema": null,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt06/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Rejected: transparent checkerboard is rendered as opaque RGB; illustrated antialiased style is not acceptable crisp pixel art. No cleanup or packing."
+}

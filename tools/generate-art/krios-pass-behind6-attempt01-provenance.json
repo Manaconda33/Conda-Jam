@@ -1,0 +1,20 @@
+{
+  "athlete": "J.128 Krios",
+  "clip": "pass-behind",
+  "attempt": 1,
+  "generationId": "exec-b6f026dc-7243-4210-bc6a-f8d5cd00637e",
+  "generatedAt": "2026-10-28T00:02:00Z",
+  "promptFile": "tools/generate-art/krios-pass-behind6-attempt01-prompt.md",
+  "rawImage": "tools/generate-art/sources/krios-pass-behind6-attempt01-generated-raw.png",
+  "rawSha256": "5acf3beb93c26f019468a5cf502d0b470efb8bd9dd893861e603d1e249ad5c63",
+  "rawDimensions": [
+    1536,
+    1024
+  ],
+  "rawMode": "RGBA",
+  "referenceImages": [
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "status": "rejected",
+  "rejection": "Independent review found six distinct poses, with pose3 as a clear backward release and pose4 follow-through, but the output has a red-black glow/backdrop with partially opaque fringe and smooth painterly rendering rather than crisp outlined arcade pixel art. No atlas or runtime registration was made."
+}

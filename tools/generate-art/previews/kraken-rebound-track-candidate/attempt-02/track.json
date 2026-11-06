@@ -1,0 +1,29 @@
+{
+  "athlete": "kraken",
+  "clip": "rebound",
+  "attempt": 2,
+  "status": "unregistered adjusted track trial for cleaned attempt02 art",
+  "height": [
+    1.1,
+    1.2,
+    1.4,
+    1.2,
+    0.65
+  ],
+  "forward": [
+    4,
+    3,
+    1,
+    0.5,
+    1
+  ],
+  "frameStartTicks": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "grabTick": 5,
+  "reference": "Attempt01 trial visually placed the ball above Kraken hands. Attempt02 lowers the ball progressively across approach, overhead gather, catch and chest cradle. Must pass independent visual review."
+}

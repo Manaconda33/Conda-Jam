@@ -1,0 +1,174 @@
+{
+  "status": "pending independent source review",
+  "source": "tools/generate-art/sources/kraken-steal-candidate1/raw.png",
+  "atlas": "tools/generate-art/sources/kraken-steal-candidate1-atlas.png",
+  "width": 320,
+  "height": 192,
+  "columns": 4,
+  "rows": 2,
+  "cellWidth": 80,
+  "cellHeight": 96,
+  "poses": [
+    {
+      "poseIndex": 0,
+      "duration": 2,
+      "anchor": null,
+      "sourceBounds": [
+        11,
+        102,
+        372,
+        503
+      ],
+      "sourceComponentPixels": 67147,
+      "targetBounds": [
+        9,
+        24,
+        71,
+        93
+      ],
+      "targetBaselineY": 92,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 1,
+      "duration": 2,
+      "anchor": null,
+      "sourceBounds": [
+        347,
+        99,
+        725,
+        507
+      ],
+      "sourceComponentPixels": 70204,
+      "targetBounds": [
+        89,
+        26,
+        151,
+        93
+      ],
+      "targetBaselineY": 92,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 2,
+      "duration": 1,
+      "anchor": null,
+      "sourceBounds": [
+        658,
+        141,
+        1081,
+        502
+      ],
+      "sourceComponentPixels": 68157,
+      "targetBounds": [
+        169,
+        40,
+        231,
+        93
+      ],
+      "targetBaselineY": 92,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 3,
+      "duration": 1,
+      "anchor": "grab",
+      "sourceBounds": [
+        1075,
+        147,
+        1448,
+        503
+      ],
+      "sourceComponentPixels": 64011,
+      "targetBounds": [
+        249,
+        34,
+        311,
+        93
+      ],
+      "targetBaselineY": 92,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 4,
+      "duration": 2,
+      "anchor": null,
+      "sourceBounds": [
+        33,
+        601,
+        304,
+        1005
+      ],
+      "sourceComponentPixels": 54186,
+      "targetBounds": [
+        13,
+        109,
+        67,
+        189
+      ],
+      "targetBaselineY": 188,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 5,
+      "duration": 2,
+      "anchor": null,
+      "sourceBounds": [
+        365,
+        584,
+        695,
+        1007
+      ],
+      "sourceComponentPixels": 67692,
+      "targetBounds": [
+        89,
+        110,
+        151,
+        189
+      ],
+      "targetBaselineY": 188,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 6,
+      "duration": 3,
+      "anchor": null,
+      "sourceBounds": [
+        721,
+        585,
+        1078,
+        1008
+      ],
+      "sourceComponentPixels": 72740,
+      "targetBounds": [
+        169,
+        116,
+        231,
+        189
+      ],
+      "targetBaselineY": 188,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    },
+    {
+      "poseIndex": 7,
+      "duration": 3,
+      "anchor": null,
+      "sourceBounds": [
+        1121,
+        568,
+        1420,
+        1005
+      ],
+      "sourceComponentPixels": 71699,
+      "targetBounds": [
+        252,
+        109,
+        307,
+        189
+      ],
+      "targetBaselineY": 188,
+      "resize": "nearest neighbor into 62x80 maximum; binary 8-connected component alpha"
+    }
+  ],
+  "sha256": "b0f565042b38e342a8d0bc76b6e15976296d0df3cdd3de04f0bebc88b33e658b"
+}

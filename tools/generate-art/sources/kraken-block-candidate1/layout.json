@@ -1,0 +1,13 @@
+{
+  "status": "raw-sheet-only; no accepted cell layout",
+  "source": "tools/generate-art/sources/kraken-block-candidate1/raw.png",
+  "dimensions": {"width": 1312, "height": 1199},
+  "intendedGrid": {"columns": 2, "rows": 2, "cellWidth": 656, "cellHeight": 599, "order": "row-major"},
+  "poses": [
+    {"index": 0, "catalogPose": "defensive stance", "cell": [0, 0]},
+    {"index": 1, "catalogPose": "takeoff", "cell": [1, 0]},
+    {"index": 2, "catalogPose": "apex block", "cell": [0, 1]},
+    {"index": 3, "catalogPose": "landing recoil", "cell": [1, 1]}
+  ],
+  "rejection": "Figures cross cell boundaries, inconsistent scale and insufficient image-edge margins make this only a rough sheet interpretation. Do not use this layout to pack or register."
+}

@@ -1,0 +1,2050 @@
+{
+  "athlete": "J127 Leo",
+  "clip": "alley-oop-reverse",
+  "sourceAtlas": "tools/generate-art/sources/j127-leo-alley-oop-reverse-attempt02-candidate-atlas.png",
+  "renderer": "Production Jam Stage Chromium canvas with temporary in-page candidate-manifest override; no runtime manifest edits.",
+  "trialHistory": [
+    {
+      "attempt": 2,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          1.0,
+          1.1,
+          1.4,
+          1.7,
+          2.0,
+          2.25,
+          2.35,
+          2.5,
+          2.35,
+          2.5,
+          2.25,
+          1.8,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          9,
+          8,
+          4,
+          -6,
+          -8,
+          -9,
+          -9,
+          -10,
+          -11,
+          -8,
+          -3,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -12,
+          2.25
+        ],
+        "22": [
+          -14,
+          1.8
+        ],
+        "23": [
+          -16,
+          1.0
+        ],
+        "26": [
+          -10,
+          0.6
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Initial right/left approach offsets placed ball on wrong side of athlete before catch; tick14 peak clipped by HUD at courtY90; tick19/20 and release hand contacts too far off.",
+      "report": "attempt-02/native/report.json"
+    },
+    {
+      "attempt": 3,
+      "status": "rejected",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          1.0,
+          1.1,
+          1.4,
+          1.7,
+          2.0,
+          2.25,
+          2.35,
+          2.5,
+          2.35,
+          2.5,
+          2.25,
+          1.8,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          6,
+          8,
+          9,
+          8,
+          4,
+          -6,
+          -8,
+          -9,
+          -9,
+          -10,
+          -11,
+          -8,
+          -3,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -12,
+          2.25
+        ],
+        "22": [
+          -14,
+          1.8
+        ],
+        "23": [
+          -16,
+          1.0
+        ],
+        "26": [
+          -10,
+          0.6
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Moved courtY to 115 to clear peak from HUD; kept initial vectors, so pre-catch orientation and later hand alignment remained poor.",
+      "report": "attempt-03/native/report.json"
+    },
+    {
+      "attempt": 4,
+      "status": "rejected",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          1,
+          1,
+          1.5,
+          1.8,
+          2,
+          2.8,
+          2.4,
+          2.1,
+          2,
+          2,
+          1.8,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -5,
+          -6,
+          -6,
+          -6,
+          -7,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -7,
+          2.1
+        ],
+        "22": [
+          -9,
+          1.8
+        ],
+        "23": [
+          -11,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Improved approach side and carry alignment. Tick10 catch and tick19/20 carry still visibly offset; peak 14 needed refinement.",
+      "report": "attempt-04/native/report.json"
+    },
+    {
+      "attempt": 5,
+      "status": "rejected",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          1,
+          1,
+          1.5,
+          1.8,
+          2,
+          0.8,
+          2.4,
+          2.1,
+          2.5,
+          2.8,
+          2.8,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -5,
+          -6,
+          -3,
+          -3,
+          -3,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Height frame5 reduced too far: tick10 ball at hip/abdomen while hands overhead; later hand contacts also poor.",
+      "report": "attempt-05/native/report.json"
+    },
+    {
+      "attempt": 6,
+      "status": "rejected",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          1,
+          1,
+          1.5,
+          1.8,
+          2,
+          2.45,
+          2.4,
+          2.1,
+          2.3,
+          2.3,
+          2.3,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -2.5,
+          -6,
+          -3,
+          -3,
+          -3,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Tick10 near hands; tick12 ball below hands, tick14 overlaps head/crown rather than clean hand contact. Carry offsets needed more tuning.",
+      "report": "attempt-06/native/report.json"
+    },
+    {
+      "attempt": 7,
+      "status": "rejected",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          1,
+          1,
+          1.5,
+          1.8,
+          2,
+          2.6,
+          2.9,
+          2.8,
+          2.7,
+          2.4,
+          2.3,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -4,
+          -6,
+          -4,
+          -2,
+          -2,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Large height increase improved approach to hands at tick12/14 but pushed ball into/above crown, and at some zoom/facing risked HUD clipping. Tick17/19 closer.",
+      "report": "attempt-07/native/report.json"
+    },
+    {
+      "attempt": 8,
+      "status": "provisional best for attached carry only",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          1,
+          1,
+          1.5,
+          1.8,
+          2,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Native review: tick10/12/14/17/19/20 are substantially closer to hands in both facings, though tick14 still overlaps crown/side of head. This trial incorrectly modeled the incoming ball as carried before tick10, so not eligible as full track.",
+      "report": "attempt-08/native/report.json"
+    },
+    {
+      "attempt": 9,
+      "status": "provisional, unresolved",
+      "courtY": 115,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Corrected state semantics: ownerless pass through tick9, catch/owner Leo from tick10 through20, separate ownerless dunk from21. Tick10/12/14/17/19/20 hand placement is close in reviewed right-facing captures; mirrored frames sampled. However tick9-to10 shows an apparent vertical discontinuity in native images despite near-equal recorded absolute z; needs independent visual/capture-path investigation. Free-flight to hoop, score, and landing are not simulated by this static sampler.",
+      "report": "attempt-09/native/report.json"
+    },
+    {
+      "attempt": 10,
+      "status": "rejected at required courtY90 due HUD clipping",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "selectorChecks": "Candidate atlas selected for all captures; facing mirror state matched requested direction.",
+      "review": "Required courtY90 reproduction shows the jump-height athlete and ball cropped by the scoreboard at ticks10,12,14 and other high poses, so reliable hand review is not possible there. Raising courtY to115 clears most of the HUD, but changes the requested calibration placement. This is a capture-framing blocker, not an accepted correction.",
+      "report": "attempt-10/native/report.json"
+    },
+    {
+      "attempt": 11,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Capture-only Canvas translate wrapper was installed before the final Jam Stage start and had no effect; courtY90 high poses remained HUD-clipped. Preserved without cleanup.",
+      "report": "attempt-11/native/report.json"
+    },
+    {
+      "attempt": 12,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Increased the ineffective Canvas translate compensation to 120px; screenshot matched attempt11 because the active clip did not enter the dunk camera path. Preserved.",
+      "report": "attempt-12/native/report.json"
+    },
+    {
+      "attempt": 13,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Moved wrapper installation after Jam Stage start; it still could not pan because alley-oop-reverse does not trigger dunk camera logic. Preserved.",
+      "report": "attempt-13/native/report.json"
+    },
+    {
+      "attempt": 14,
+      "status": "rejected-selector",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Temporary dunk atlas alias alone was insufficient; animationClips lacked the alias, so production selector returned null. Captures were preserved without a report.",
+      "report": "attempt-14/native (selector validation failure; 60 captures preserved, no finalized report)"
+    },
+    {
+      "attempt": 15,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.6,
+          2.6,
+          2.2,
+          2.4,
+          2.15,
+          1.85,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -2.5,
+          -1,
+          -6,
+          -4,
+          -4,
+          -3.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Correct production camera path and framing activated. Initial carry vector still missed several hand contacts.",
+      "report": "attempt-15/native/report.json",
+      "cameraSetup": "Temporary same-atlas and same-timing dunk-alley-oop-reverse alias activates Jam Stage production dunk camera. courtY=90. At each sample, inputZoom=requestedZoom/(1+0.08*clamp(z/5,0,1)); render stageAttackZoom restores requested effective 100% or120%. Production stageAttackPanY=42*clamp(z/5,0,1) logical pixels."
+    },
+    {
+      "attempt": 16,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          1.8,
+          1.8,
+          2.6,
+          2.4,
+          1.8,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          -1.5,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Attempt16 improved catch/carry and fit HUD. Tick14 remained head-overlap and tick19/20 ball was low relative to the hands.",
+      "report": "attempt-16/native/report.json",
+      "cameraSetup": "Temporary same-atlas and same-timing dunk-alley-oop-reverse alias activates Jam Stage production dunk camera. courtY=90. At each sample, inputZoom=requestedZoom/(1+0.08*clamp(z/5,0,1)); render stageAttackZoom restores requested effective 100% or120%. Production stageAttackPanY=42*clamp(z/5,0,1) logical pixels."
+    },
+    {
+      "attempt": 17,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          1.9336,
+          1.6751,
+          1.8187,
+          1.3593,
+          1.8761,
+          0.7276,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          1.0964,
+          -2.1927,
+          3.6545,
+          -6.9436,
+          9.1364,
+          -8.4055,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Compared the canonical frame-derived offsets: tick14 contact improved, but tick10 forward offset was too far right and tick17/19/20 offsets missed hands. Preserved as a baseline comparison.",
+      "report": "attempt-17/native/report.json",
+      "cameraSetup": "Temporary same-atlas and same-timing dunk-alley-oop-reverse alias activates Jam Stage production dunk camera. courtY=90. At each sample, inputZoom=requestedZoom/(1+0.08*clamp(z/5,0,1)); render stageAttackZoom restores requested effective 100% or120%. Production stageAttackPanY=42*clamp(z/5,0,1) logical pixels."
+    },
+    {
+      "attempt": 18,
+      "status": "rejected",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          1.8,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Hybrid offset set improved tick10/12/14/17 and both facings, but ball sat low at tick19/20.",
+      "report": "attempt-18/native/report.json",
+      "cameraSetup": "Temporary same-atlas and same-timing dunk-alley-oop-reverse alias activates Jam Stage production dunk camera. courtY=90. At each sample, inputZoom=requestedZoom/(1+0.08*clamp(z/5,0,1)); render stageAttackZoom restores requested effective 100% or120%. Production stageAttackPanY=42*clamp(z/5,0,1) logical pixels."
+    },
+    {
+      "attempt": 19,
+      "status": "provisional",
+      "courtY": 90,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          2.3,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          2.1
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "review": "Raised frame9 ball to 2.3; tick19/20 hand contact improved visibly in both facings. Release at tick21 still sat high relative to lowered release hand.",
+      "report": "attempt-19/native/report.json",
+      "cameraSetup": "Temporary same-atlas and same-timing dunk-alley-oop-reverse alias activates Jam Stage production dunk camera. courtY=90. At each sample, inputZoom=requestedZoom/(1+0.08*clamp(z/5,0,1)); render stageAttackZoom restores requested effective 100% or120%. Production stageAttackPanY=42*clamp(z/5,0,1) logical pixels."
+    },
+    {
+      "attempt": 20,
+      "status": "best candidate, pending gameplay validation",
+      "courtY": 90,
+      "playerX": 100,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          2.3,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          1.2
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "cameraSetup": "Temporary in-page dunk-alias selects the production Jam Stage dunk camera pan. Atlas pixels and courtY remain unchanged. The input zoom is divided by stageAttackZoom(player.z), preserving effective canvas zoom at the requested 100%/120% while the stage camera pans down by its production 42px peak amount.",
+      "review": "Attempt20: reviewed catch/carry/release contacts in right and mirrored left direction at zoom120; ownership modes checked in report. Attempt21: moved player to x185 to reveal right hoop; production camera framing cuts athlete at right edge. It does not prove a successful dunk, scoring collision, or landing.",
+      "report": "attempt-20/native/report.json"
+    },
+    {
+      "attempt": 21,
+      "status": "rejected for hoop framing; diagnostic only",
+      "courtY": 90.0,
+      "playerX": 185.0,
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          3.1,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          2.3,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -5,
+          1.2
+        ],
+        "22": [
+          -7,
+          1.8
+        ],
+        "23": [
+          -9,
+          1.1
+        ],
+        "26": [
+          -8,
+          0.4
+        ]
+      },
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "cameraSetup": "Temporary in-page dunk-alias selects the production Jam Stage dunk camera pan. Atlas pixels and courtY remain unchanged. The input zoom is divided by stageAttackZoom(player.z), preserving effective canvas zoom at the requested 100%/120% while the stage camera pans down by its production 42px peak amount.",
+      "review": "Attempt20: reviewed catch/carry/release contacts in right and mirrored left direction at zoom120; ownership modes checked in report. Attempt21: moved player to x185 to reveal right hoop; production camera framing cuts athlete at right edge. It does not prove a successful dunk, scoring collision, or landing.",
+      "report": "attempt-21/native/report.json"
+    },
+    {
+      "attempt": 22,
+      "status": "rejected: release discontinuity and mirrored contact mismatch",
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          2.4,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          2.3,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": [
+          -8.4,
+          1.98
+        ],
+        "22": [
+          -2,
+          2.4
+        ],
+        "23": [
+          6,
+          2.6
+        ],
+        "26": [
+          20,
+          0.8
+        ]
+      },
+      "courtY": 90.0,
+      "playerX": 100.0,
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "cameraSetup": "Production Jam Stage dunk camera via temporary same-atlas dunk alias; production courtY=90, actual effective zoom 100%/120%, stage dunk pan retained.",
+      "review": "Pass/catch transition looked improved using Leo as the aerial pass target, but tick21 was still too high relative to the descending frame10 release hand and left-facing horizontal alignment lagged.",
+      "report": "attempt-22/native/report.json"
+    },
+    {
+      "attempt": 23,
+      "status": "rejected: left-facing release overshoots",
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          2.4,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          2.3,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": {
+          "right": [
+            -8.4,
+            1.1
+          ],
+          "left": [
+            -23,
+            1.1
+          ]
+        },
+        "22": [
+          -2,
+          2.4
+        ],
+        "23": [
+          6,
+          2.6
+        ],
+        "26": [
+          20,
+          0.8
+        ]
+      },
+      "courtY": 90.0,
+      "playerX": 100.0,
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "cameraSetup": "Production Jam Stage dunk camera via temporary same-atlas dunk alias; production courtY=90, actual effective zoom 100%/120%, stage dunk pan retained.",
+      "review": "Lowered tick21 ball vertically, but the facing-specific left x offset moved the ball past the hand to the right. Preserved as a rejected calibration.",
+      "report": "attempt-23/native/report.json"
+    },
+    {
+      "attempt": 24,
+      "status": "best provisional contact candidate; gameplay flight not validated",
+      "candidateTrack": {
+        "height": [
+          4.5,
+          4.4,
+          4.1,
+          3.5,
+          2.4,
+          2.1,
+          2.2,
+          1.8187,
+          2.1,
+          2.3,
+          1.55,
+          1.7,
+          1.2,
+          0.75,
+          0.6
+        ],
+        "forward": [
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -4.5,
+          -2,
+          3.6545,
+          -4,
+          -2,
+          -0.5,
+          -5,
+          -2,
+          1,
+          3
+        ]
+      },
+      "releasePositions": {
+        "21": {
+          "right": [
+            -8.4,
+            1.45
+          ],
+          "left": [
+            -1.5,
+            1.45
+          ]
+        },
+        "22": [
+          -2,
+          2.4
+        ],
+        "23": [
+          6,
+          2.6
+        ],
+        "26": [
+          20,
+          0.8
+        ]
+      },
+      "courtY": 90.0,
+      "playerX": 100.0,
+      "captures": 60,
+      "directions": [
+        "right",
+        "left"
+      ],
+      "zooms": [
+        100,
+        120
+      ],
+      "ticks": [
+        0,
+        2,
+        4,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        26
+      ],
+      "cameraSetup": "Production Jam Stage dunk camera via temporary same-atlas dunk alias; production courtY=90, actual effective zoom 100%/120%, stage dunk pan retained.",
+      "review": "At zoom120 and both facings, tick9 pass endpoint is near the frame9 extended hand and tick10 ball meets the frame10 catch pose. Carried contacts at 12/14/17/19/20 remain visually close. Tick21 begins near the descending frame10 hands in both facings, and ticks22/23/26 show continued free flight with directional progression and no large position discontinuity. Still provisional: static center-court samples do not exercise live hoop targeting, scoring, catch/ownership transitions, or landing.",
+      "report": "attempt-24/native/report.json"
+    }
+  ],
+  "attempt01CollisionProvenance": {
+    "note": "An early calibration write used the existing attempt-01/native path before its prior tracked contents were identified. The parent recovered the tracked attempt-01 files from Git and preserved the new colliding candidate captures and rejected selector-fallback evidence there without cleanup. All calibration after recovery uses attempt-02 onward. Do not treat attempt-01 as clean calibration evidence.",
+    "preservedAt": "attempt-01/native and attempt-01/rejected-selector-fallback (left untouched)."
+  },
+  "currentRecommendation": "Attempt24 is the best provisional contact candidate: tick9-to10 catch and tick20-to21 release have close ball/hand placement in both facings at 120%, with tick22/23/26 continuing away from the athlete. It is not gameplay acceptance. The capture sampler does not exercise live flight physics, hoop targeting, score, or landing; these still require a real gameplay test."
+}

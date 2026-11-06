@@ -1,0 +1,434 @@
+{
+  "status": "cleanup/layout trial only; full review required before track work",
+  "source": "tools/generate-art/sources/kraken-layup8-attempt01-generated-raw.png",
+  "sourceAlphaRange": [
+    0,
+    254
+  ],
+  "strongFigureComponents": 8,
+  "componentBounds": [
+    [
+      38,
+      111,
+      343,
+      495
+    ],
+    [
+      440,
+      61,
+      674,
+      494
+    ],
+    [
+      827,
+      55,
+      1092,
+      509
+    ],
+    [
+      1217,
+      6,
+      1505,
+      520
+    ],
+    [
+      77,
+      514,
+      346,
+      997
+    ],
+    [
+      484,
+      517,
+      766,
+      1018
+    ],
+    [
+      811,
+      571,
+      1142,
+      1001
+    ],
+    [
+      1242,
+      573,
+      1453,
+      1007
+    ]
+  ],
+  "removedAlphaIslandCount": 2052,
+  "removedAlphaPixelCount": 64499,
+  "largestRemovedIslands": [
+    {
+      "pixels": 2185,
+      "boundsLTRB": [
+        1264,
+        62,
+        1393,
+        173
+      ]
+    },
+    {
+      "pixels": 1800,
+      "boundsLTRB": [
+        851,
+        713,
+        925,
+        820
+      ]
+    },
+    {
+      "pixels": 1612,
+      "boundsLTRB": [
+        529,
+        298,
+        640,
+        418
+      ]
+    },
+    {
+      "pixels": 1545,
+      "boundsLTRB": [
+        525,
+        47,
+        610,
+        224
+      ]
+    },
+    {
+      "pixels": 1468,
+      "boundsLTRB": [
+        981,
+        215,
+        1044,
+        312
+      ]
+    },
+    {
+      "pixels": 1308,
+      "boundsLTRB": [
+        1010,
+        143,
+        1095,
+        204
+      ]
+    },
+    {
+      "pixels": 1251,
+      "boundsLTRB": [
+        993,
+        559,
+        1042,
+        679
+      ]
+    },
+    {
+      "pixels": 1202,
+      "boundsLTRB": [
+        1412,
+        831,
+        1443,
+        970
+      ]
+    },
+    {
+      "pixels": 1068,
+      "boundsLTRB": [
+        187,
+        111,
+        254,
+        175
+      ]
+    },
+    {
+      "pixels": 1023,
+      "boundsLTRB": [
+        935,
+        838,
+        1007,
+        898
+      ]
+    },
+    {
+      "pixels": 1020,
+      "boundsLTRB": [
+        1262,
+        741,
+        1311,
+        905
+      ]
+    },
+    {
+      "pixels": 976,
+      "boundsLTRB": [
+        63,
+        873,
+        137,
+        996
+      ]
+    },
+    {
+      "pixels": 970,
+      "boundsLTRB": [
+        435,
+        299,
+        526,
+        470
+      ]
+    },
+    {
+      "pixels": 950,
+      "boundsLTRB": [
+        479,
+        511,
+        532,
+        638
+      ]
+    },
+    {
+      "pixels": 942,
+      "boundsLTRB": [
+        143,
+        559,
+        239,
+        657
+      ]
+    },
+    {
+      "pixels": 936,
+      "boundsLTRB": [
+        1360,
+        565,
+        1412,
+        650
+      ]
+    },
+    {
+      "pixels": 876,
+      "boundsLTRB": [
+        239,
+        537,
+        309,
+        642
+      ]
+    },
+    {
+      "pixels": 864,
+      "boundsLTRB": [
+        909,
+        47,
+        994,
+        104
+      ]
+    },
+    {
+      "pixels": 833,
+      "boundsLTRB": [
+        630,
+        731,
+        675,
+        830
+      ]
+    },
+    {
+      "pixels": 789,
+      "boundsLTRB": [
+        607,
+        60,
+        648,
+        144
+      ]
+    },
+    {
+      "pixels": 789,
+      "boundsLTRB": [
+        514,
+        577,
+        589,
+        634
+      ]
+    },
+    {
+      "pixels": 785,
+      "boundsLTRB": [
+        1265,
+        242,
+        1294,
+        355
+      ]
+    },
+    {
+      "pixels": 775,
+      "boundsLTRB": [
+        895,
+        592,
+        962,
+        688
+      ]
+    },
+    {
+      "pixels": 758,
+      "boundsLTRB": [
+        673,
+        761,
+        770,
+        801
+      ]
+    },
+    {
+      "pixels": 754,
+      "boundsLTRB": [
+        830,
+        705,
+        880,
+        818
+      ]
+    },
+    {
+      "pixels": 752,
+      "boundsLTRB": [
+        512,
+        651,
+        555,
+        768
+      ]
+    },
+    {
+      "pixels": 734,
+      "boundsLTRB": [
+        1360,
+        867,
+        1390,
+        993
+      ]
+    },
+    {
+      "pixels": 729,
+      "boundsLTRB": [
+        255,
+        733,
+        351,
+        783
+      ]
+    },
+    {
+      "pixels": 697,
+      "boundsLTRB": [
+        1363,
+        226,
+        1408,
+        280
+      ]
+    },
+    {
+      "pixels": 648,
+      "boundsLTRB": [
+        888,
+        99,
+        923,
+        135
+      ]
+    },
+    {
+      "pixels": 575,
+      "boundsLTRB": [
+        1019,
+        743,
+        1104,
+        803
+      ]
+    },
+    {
+      "pixels": 559,
+      "boundsLTRB": [
+        129,
+        185,
+        176,
+        293
+      ]
+    },
+    {
+      "pixels": 550,
+      "boundsLTRB": [
+        158,
+        672,
+        176,
+        762
+      ]
+    },
+    {
+      "pixels": 541,
+      "boundsLTRB": [
+        277,
+        110,
+        306,
+        196
+      ]
+    },
+    {
+      "pixels": 538,
+      "boundsLTRB": [
+        1408,
+        189,
+        1465,
+        221
+      ]
+    },
+    {
+      "pixels": 489,
+      "boundsLTRB": [
+        1375,
+        995,
+        1446,
+        1007
+      ]
+    },
+    {
+      "pixels": 484,
+      "boundsLTRB": [
+        1044,
+        705,
+        1102,
+        766
+      ]
+    },
+    {
+      "pixels": 430,
+      "boundsLTRB": [
+        1049,
+        836,
+        1060,
+        913
+      ]
+    },
+    {
+      "pixels": 429,
+      "boundsLTRB": [
+        1024,
+        933,
+        1056,
+        1010
+      ]
+    },
+    {
+      "pixels": 421,
+      "boundsLTRB": [
+        1232,
+        942,
+        1260,
+        996
+      ]
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-layup8-attempt01/kraken-layup8-attempt01-runtime-candidate.png",
+  "layout": "tools/generate-art/previews/kraken-layup8-attempt01/layout.json",
+  "rawPreserved": true,
+  "uniqueFrames": 8,
+  "minimumMarginsLTRB": [
+    16,
+    21,
+    17,
+    2
+  ],
+  "pixelTreatment": "Keep source RGBA pixels; only set distant generated haze/island alpha to zero and scale nearest-neighbor. No keying, recolor, redraw, despill or interpolation."
+}

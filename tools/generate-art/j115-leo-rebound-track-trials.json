@@ -1,0 +1,30 @@
+{
+  "athlete": "leo",
+  "clip": "rebound",
+  "captureHarness": "tools/capture-leo-rebound-track.py",
+  "attempts": [
+    {
+      "attempt": 1,
+      "height": [1.1, 1.55, 2.25, 2.35, 1.4],
+      "forward": [5, 7, 10, 8.5, 6],
+      "evidence": "tools/generate-art/previews/leo-rebound-track-candidate/attempt-01/native",
+      "status": "rejected-contact-and-recovery",
+      "reason": "The production renderer shows the tick5 catch ball too high and too far forward from Leo's closed hands; the tick7 recovery ball also sits too far forward of his gather."
+    },
+    {
+      "attempt": 2,
+      "height": [1.1, 1.55, 2.25, 1.85, 1.25],
+      "forward": [5, 7, 10, 4.5, 4.5],
+      "evidence": "tools/generate-art/previews/leo-rebound-track-candidate/attempt-02/native",
+      "status": "accepted",
+      "reason": "At frame3/tick5, the separate ball meets Leo's hands; at frame4/tick7, it follows the pull-down to his upper torso. Independent reviewer passes both facings at100%/120%; 32 captures report zero browser errors."
+    }
+  ],
+  "gameplay": {
+    "grabAnchorTick": 5,
+    "ownership": "The ball remains loose and unowned through tick4. The rebound catch transfers sole ownership to Leo at tick5, then his separate track positions the carried ball at the hands and upper torso.",
+    "verification": "Leo-specific deterministic simulation assertion added to tests/animation.test.js; canonical catch ownership regression also passes in tests/game-core.test.js."
+  },
+  "lightPreview": "tools/generate-art/previews/leo-rebound-atlas-light.png",
+  "darkPreview": "tools/generate-art/previews/leo-rebound-atlas-dark.png"
+}

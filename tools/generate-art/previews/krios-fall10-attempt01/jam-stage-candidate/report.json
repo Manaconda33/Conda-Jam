@@ -1,0 +1,468 @@
+{
+  "athlete": "krios",
+  "clip": "fall",
+  "renderer": "Chromium current Jam Stage",
+  "atlas": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+  "atlasSha256": "571ce9902a6c6f069b062e575ddcca147a3aeb0b066c41b61b8a2e73ccbdbd11",
+  "court": "current Jam Stage; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": false,
+  "frameDurations": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7
+  ],
+  "sampledTicks": [
+    0,
+    2,
+    4,
+    6,
+    9,
+    12,
+    16,
+    21,
+    27,
+    33
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 6,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame3-tick6-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame4-tick9-zoom100.png"
+        },
+        {
+          "tick": 12,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame5-tick12-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame6-tick16-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame7-tick21-zoom100.png"
+        },
+        {
+          "tick": 27,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame8-tick27-zoom100.png"
+        },
+        {
+          "tick": 33,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame9-tick33-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame1-tick2-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame2-tick4-zoom100.png"
+        },
+        {
+          "tick": 6,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame3-tick6-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame4-tick9-zoom100.png"
+        },
+        {
+          "tick": 12,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame5-tick12-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame6-tick16-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame7-tick21-zoom100.png"
+        },
+        {
+          "tick": 27,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame8-tick27-zoom100.png"
+        },
+        {
+          "tick": 33,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame9-tick33-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 6,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame3-tick6-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame4-tick9-zoom120.png"
+        },
+        {
+          "tick": 12,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame5-tick12-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame6-tick16-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame7-tick21-zoom120.png"
+        },
+        {
+          "tick": 27,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame8-tick27-zoom120.png"
+        },
+        {
+          "tick": 33,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/right-frame9-tick33-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame1-tick2-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame2-tick4-zoom120.png"
+        },
+        {
+          "tick": 6,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame3-tick6-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame4-tick9-zoom120.png"
+        },
+        {
+          "tick": 12,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame5-tick12-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame6-tick16-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame7-tick21-zoom120.png"
+        },
+        {
+          "tick": 27,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame8-tick27-zoom120.png"
+        },
+        {
+          "tick": 33,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-fall10-attempt01/krios-fall10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "leo",
+          "path": "tools/generate-art/previews/krios-fall10-attempt01/jam-stage-candidate/left-frame9-tick33-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 40
+}

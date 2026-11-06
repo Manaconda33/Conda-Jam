@@ -1,0 +1,11 @@
+{
+  "assetMode": "registered-normal-loader",
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "candidateReceiverTrackInjected": false,
+  "attempt": 9,
+  "failure": "Left-facing selector returned null. The manifest's mirrorReview was restored with a nested animationMirrorPolicy object rather than the flat reviewed mirrorReview record expected by selectProductionSprite.",
+  "rightFacing": "normal registered atlas selection worked",
+  "evidenceStatus": "invalid capture setup; do not use as art or gameplay review",
+  "recovery": "Restored the flat reviewed mirrorReview record and verified direct selector outputs flip:false right / flip:true left; rerun all four cases as attempt10."
+}

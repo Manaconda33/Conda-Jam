@@ -1,0 +1,1403 @@
+{
+  "renderer": "Chromium current Jam Stage production renderer",
+  "athlete": "krios",
+  "clip": "dunk-power",
+  "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+  "atlasSha256": "ddbd2e5d12c04d25e9a9d72c043a340cdd83cd79aff4e2ec8339ad68380073c7",
+  "candidateTrack": {
+    "height": [
+      1.0,
+      1.0,
+      1.15,
+      1.3,
+      1.25,
+      1.3,
+      1.25,
+      1.3,
+      1.35,
+      1.4,
+      1.35,
+      0.85,
+      0.95,
+      0.8,
+      0.62
+    ],
+    "forward": [
+      5.5,
+      5.0,
+      7.5,
+      0.0,
+      6.0,
+      2.0,
+      2.0,
+      1.0,
+      8.0,
+      12.0,
+      12.0,
+      3.0,
+      8.0,
+      8.0,
+      -1.0
+    ]
+  },
+  "trackAttempt": "02",
+  "artAttempt": "02",
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "candidateTrackInjected": true,
+  "court": "current Jam Stage; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "frameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "sampledFrameTicks": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    10,
+    12,
+    14,
+    17,
+    19,
+    21,
+    23,
+    26,
+    28,
+    30
+  ],
+  "actionAnchors": {
+    "takeoff": {
+      "frame": 2,
+      "tick": 4
+    },
+    "grab": {
+      "frame": 5,
+      "tick": 10
+    },
+    "peak": {
+      "frame": 7,
+      "tick": 14
+    },
+    "release": {
+      "frame": 10,
+      "tick": 21
+    },
+    "finish": {
+      "frame": 11,
+      "tick": 23
+    },
+    "land": {
+      "frame": 14,
+      "tick": 30
+    }
+  },
+  "captureMethod": "Candidate atlas and Krios-specific track loaded before game start. Athlete and z values are staged at canonical dunk ticks to review hands/ball against live production projection; this is visual calibration only, not gameplay acceptance.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 105.5,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame00-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 105,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame01-tick02-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "frame": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 107.5,
+            "y": 90,
+            "z": 1.7999999999999998
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame02-tick04-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 100,
+            "y": 90,
+            "z": 2.95
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -0.0
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame03-tick07-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "frame": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 106,
+            "y": 90,
+            "z": 3.35
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 6
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame04-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 102,
+            "y": 90,
+            "z": 3.55
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame05-tick10-zoom100.png"
+        },
+        {
+          "tick": 12,
+          "frame": 6,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 102,
+            "y": 90,
+            "z": 4
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame06-tick12-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "frame": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 101,
+            "y": 90,
+            "z": 4.3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame07-tick14-zoom100.png"
+        },
+        {
+          "tick": 17,
+          "frame": 8,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 108,
+            "y": 90,
+            "z": 4.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame08-tick17-zoom100.png"
+        },
+        {
+          "tick": 19,
+          "frame": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 112,
+            "y": 90,
+            "z": 3.9
+          },
+          "trackPoint": {
+            "height": 1.4,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame09-tick19-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "frame": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 113.1,
+            "y": 90,
+            "z": 2.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame10-tick21-zoom100.png"
+        },
+        {
+          "tick": 23,
+          "frame": 11,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 114,
+            "y": 90,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame11-tick23-zoom100.png"
+        },
+        {
+          "tick": 26,
+          "frame": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 116,
+            "y": 90,
+            "z": 0.45
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame12-tick26-zoom100.png"
+        },
+        {
+          "tick": 28,
+          "frame": 13,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 108,
+            "y": 90,
+            "z": 1.1
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame13-tick28-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "frame": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 99,
+            "y": 90,
+            "z": 0.62
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 94.5,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame00-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 95,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame01-tick02-zoom100.png"
+        },
+        {
+          "tick": 4,
+          "frame": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 92.5,
+            "y": 90,
+            "z": 1.7999999999999998
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame02-tick04-zoom100.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 100,
+            "y": 90,
+            "z": 2.95
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -0.0
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame03-tick07-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "frame": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 94,
+            "y": 90,
+            "z": 3.35
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 6
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame04-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 98,
+            "y": 90,
+            "z": 3.55
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame05-tick10-zoom100.png"
+        },
+        {
+          "tick": 12,
+          "frame": 6,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 98,
+            "y": 90,
+            "z": 4
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame06-tick12-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "frame": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 99,
+            "y": 90,
+            "z": 4.3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame07-tick14-zoom100.png"
+        },
+        {
+          "tick": 17,
+          "frame": 8,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 92,
+            "y": 90,
+            "z": 4.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame08-tick17-zoom100.png"
+        },
+        {
+          "tick": 19,
+          "frame": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 88,
+            "y": 90,
+            "z": 3.9
+          },
+          "trackPoint": {
+            "height": 1.4,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame09-tick19-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "frame": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 86.9,
+            "y": 90,
+            "z": 2.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame10-tick21-zoom100.png"
+        },
+        {
+          "tick": 23,
+          "frame": 11,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 86,
+            "y": 90,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame11-tick23-zoom100.png"
+        },
+        {
+          "tick": 26,
+          "frame": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 84,
+            "y": 90,
+            "z": 0.45
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame12-tick26-zoom100.png"
+        },
+        {
+          "tick": 28,
+          "frame": 13,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 92,
+            "y": 90,
+            "z": 1.1
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame13-tick28-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "frame": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 101,
+            "y": 90,
+            "z": 0.62
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 105.5,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame00-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 105,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame01-tick02-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "frame": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 107.5,
+            "y": 90,
+            "z": 1.7999999999999998
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame02-tick04-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 100,
+            "y": 90,
+            "z": 2.95
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -0.0
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame03-tick07-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "frame": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 106,
+            "y": 90,
+            "z": 3.35
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 6
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame04-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 102,
+            "y": 90,
+            "z": 3.55
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame05-tick10-zoom120.png"
+        },
+        {
+          "tick": 12,
+          "frame": 6,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 102,
+            "y": 90,
+            "z": 4
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame06-tick12-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "frame": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 101,
+            "y": 90,
+            "z": 4.3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame07-tick14-zoom120.png"
+        },
+        {
+          "tick": 17,
+          "frame": 8,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 108,
+            "y": 90,
+            "z": 4.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame08-tick17-zoom120.png"
+        },
+        {
+          "tick": 19,
+          "frame": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 112,
+            "y": 90,
+            "z": 3.9
+          },
+          "trackPoint": {
+            "height": 1.4,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame09-tick19-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "frame": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 113.1,
+            "y": 90,
+            "z": 2.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame10-tick21-zoom120.png"
+        },
+        {
+          "tick": 23,
+          "frame": 11,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 114,
+            "y": 90,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame11-tick23-zoom120.png"
+        },
+        {
+          "tick": 26,
+          "frame": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 116,
+            "y": 90,
+            "z": 0.45
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame12-tick26-zoom120.png"
+        },
+        {
+          "tick": 28,
+          "frame": 13,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 108,
+            "y": 90,
+            "z": 1.1
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame13-tick28-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "frame": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 99,
+            "y": 90,
+            "z": 0.62
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/right-frame14-tick30-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "frame": 0,
+          "clip": "dunk-power",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 94.5,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame00-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "frame": 1,
+          "clip": "dunk-power",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 95,
+            "y": 90,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame01-tick02-zoom120.png"
+        },
+        {
+          "tick": 4,
+          "frame": 2,
+          "clip": "dunk-power",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 92.5,
+            "y": 90,
+            "z": 1.7999999999999998
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 7.5
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame02-tick04-zoom120.png"
+        },
+        {
+          "tick": 7,
+          "frame": 3,
+          "clip": "dunk-power",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 100,
+            "y": 90,
+            "z": 2.95
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -0.0
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame03-tick07-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "frame": 4,
+          "clip": "dunk-power",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 94,
+            "y": 90,
+            "z": 3.35
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 6
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame04-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "frame": 5,
+          "clip": "dunk-power",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 98,
+            "y": 90,
+            "z": 3.55
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame05-tick10-zoom120.png"
+        },
+        {
+          "tick": 12,
+          "frame": 6,
+          "clip": "dunk-power",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 98,
+            "y": 90,
+            "z": 4
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 2
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame06-tick12-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "frame": 7,
+          "clip": "dunk-power",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 99,
+            "y": 90,
+            "z": 4.3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame07-tick14-zoom120.png"
+        },
+        {
+          "tick": 17,
+          "frame": 8,
+          "clip": "dunk-power",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 92,
+            "y": 90,
+            "z": 4.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame08-tick17-zoom120.png"
+        },
+        {
+          "tick": 19,
+          "frame": 9,
+          "clip": "dunk-power",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "carried",
+          "owner": "krios",
+          "ball": {
+            "x": 88,
+            "y": 90,
+            "z": 3.9
+          },
+          "trackPoint": {
+            "height": 1.4,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame09-tick19-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "frame": 10,
+          "clip": "dunk-power",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 86.9,
+            "y": 90,
+            "z": 2.35
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 12
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame10-tick21-zoom120.png"
+        },
+        {
+          "tick": 23,
+          "frame": 11,
+          "clip": "dunk-power",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 86,
+            "y": 90,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 0.85,
+            "forward": 3
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame11-tick23-zoom120.png"
+        },
+        {
+          "tick": 26,
+          "frame": 12,
+          "clip": "dunk-power",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 84,
+            "y": 90,
+            "z": 0.45
+          },
+          "trackPoint": {
+            "height": 0.95,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame12-tick26-zoom120.png"
+        },
+        {
+          "tick": 28,
+          "frame": 13,
+          "clip": "dunk-power",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 92,
+            "y": 90,
+            "z": 1.1
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 8
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame13-tick28-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "frame": 14,
+          "clip": "dunk-power",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dunk",
+          "owner": null,
+          "ball": {
+            "x": 101,
+            "y": 90,
+            "z": 0.62
+          },
+          "trackPoint": {
+            "height": 0.62,
+            "forward": -1
+          },
+          "atlas": "./tools/generate-art/previews/krios-dunk-power15-attempt02/krios-dunk-power15-attempt02-runtime-candidate.png",
+          "path": "tools/generate-art/previews/krios-dunk-power15-attempt02/jam-stage-candidate/track-attempt02/left-frame14-tick30-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 60
+}

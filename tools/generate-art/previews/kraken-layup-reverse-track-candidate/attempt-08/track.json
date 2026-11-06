@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 8,
+  "status": "unregistered gameplay candidate; two-point, center-depth fixture",
+  "height": [0.9, 1.1, 1.4, 1.9, 1.9, 1.9, 1.1, 0.8],
+  "forward": [4, 5.5, 4, -4, -4, -5, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Same candidate vector as attempt03. Use player y=50 and x=139.5/60.5 so the production score classifier counts two points (distance below the 50.53-world-unit three-point radius) and the preview point remains inside the screen."
+}

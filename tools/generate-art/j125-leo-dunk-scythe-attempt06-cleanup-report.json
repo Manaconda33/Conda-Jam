@@ -1,0 +1,48 @@
+{
+  "sources": [
+    {
+      "path": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt04-generated-raw.png",
+      "sha256": "fa1efe5696b687e24f0f93844155e3c91df1d29e59f0680f13d6d9773a963541",
+      "usedPoses": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "path": "tools/generate-art/sources/j125-leo-dunk-scythe-pose11-attempt06-generated-raw.png",
+      "sha256": "586c962a6f78c6aa6abdcc114b526f1290a5eb98cc314972844977a2ed36ba52",
+      "usedPose": 11,
+      "isolatedComponentBounds": [
+        518,
+        216,
+        1022,
+        815
+      ],
+      "isolatedVisiblePixels": 127378,
+      "placedSourceCellRect": [
+        342,
+        729,
+        578,
+        1009
+      ]
+    }
+  ],
+  "compositeSource": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt06-composite-cleaned.png",
+  "compositeSha256": "da5f6efc087461f25678e6972c70f1774baa30175e3f3b4141078f75f44a6fa8",
+  "alphaThreshold": 16,
+  "retainedPoses": 15,
+  "framesRowMajor": true,
+  "method": "Raw sheet and isolated frame source are unchanged. A new derived composite source uses source attempt04 frames except pose11, which is replaced by separately generated pose11 attempt06. Alpha>=16 components only; other residue removed."
+}

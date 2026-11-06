@@ -1,0 +1,24 @@
+Create one flat sprite source sheet with EXACTLY FIFTEEN separate full-body drawings of the same athlete Krios, arranged as a 5-column by 3-row grid. Read left to right across each row. Keep each complete figure isolated inside its own cell with generous empty gutters and no cropped horn, hand, foot or shoe. Pure chroma green RGB(0,255,0) background, no grid lines, labels, gradients, floor, shadows, court, hoop, teammates, motion marks or decorations.
+
+ART STYLE: crisp 16-bit pixel art, deliberate square pixel clusters, hard stepped outlines, limited palette, clustered highlights and shadows. Match the accepted small-sprite style of the reference game art. No painterly rendering, soft gradients, airbrush, anti-aliasing, 3D lighting or photographic texture. Keep consistent pixel scale, silhouette, outline weight, lighting, body size and ground baseline. Each full figure readable at 64×96 pixels. Three-quarter right-facing throughout.
+
+Krios is the canonical Scoria Rams captain: colossal adult male with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, strong recognizable human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve this same identity, facial design, horns and build in all poses. The jersey chest must be plain charcoal with only subtle ember trim: NO emblem, logo, number, text, badge or symbol. Exactly two connected arms and hands and two connected legs and feet. NO basketball or ball-like circle in any pose; the real basketball is a separate gameplay sprite.
+
+Draw these FIFTEEN DISTINCT power dunk frames in this order, maintaining visibly different silhouettes and hand states:
+1. Approach: staggered feet, forward pitch, eyes right, both hands cradle low at abdomen.
+2. Load: lead foot planted, hips sunk, rear heel lifted, ball held beside ribs, elbows bent.
+3. Takeoff: both feet lifted, torso rising, hands lift from sternum to chin.
+4. Ascent: one knee lifted, trailing leg folded, hands carry ball beside forehead.
+5. Gather: chest rises, knees tuck, both hands carry ball above forehead, elbows outside temples.
+6. Grab anchor: secure two-hand gather above crown, bent elbows, hands close around absent ball.
+7. Late ascent: torso stretches, knees tucked, both elbows extend and hands reach straight overhead.
+8. Peak: highest body point, feet tucked, both arms vertical and parallel, wrists cocked around absent ball.
+9. Descent start: shoulders and chest travel forward/right, legs trail, extended arms begin moving toward the unseen rim.
+10. Pre-release: torso drives forward, knees extend behind, hands move down and forward above forehead while still carrying.
+11. Release: body drives forward, both arms extend diagonally down and forward, wrists snap and fingertips clearly open; hands visibly separate and the absent ball has left. This release silhouette must be unmistakably different from poses 9, 10 and 12.
+12. Finish: immediate follow-through after release, torso trails to the right, arms extend farther forward and down, empty hands.
+13. Drop away: hands separate from the unseen rim, torso recovers upright, elbows bent, empty hands spread above shoulders.
+14. Landing approach: legs unfold below, arms widen for balance, forearms lower beside chest, palms open.
+15. Land: both feet meet ground, knees bend deeply, torso absorbs landing, arms swing outward beside bent knees.
+
+The imaginary rim is to the character’s right and remains outside the sheet. Do not draw it or anything resembling one. Show a continuous explosive jump, high two-hand gather, powerful downward two-hand release and controlled landing. Keep every pose distinct, complete and consistently rendered; exactly fifteen figures, no repeated, missing or extra pose.

@@ -1,0 +1,87 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 5,
+  "poseIndex": 3,
+  "status": "accepted and registered",
+  "tool": "image_gen__imagegen",
+  "generationId": "not exposed by the image-generation tool response",
+  "generatedAt": "2026-10-29T02:36:00Z",
+  "promptFile": "tools/generate-art/kraken-pickup5-attempt05-pose03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "e900dab9ae7e7295b92ac3bd315e358513a8a4a844a0cae69fd4ec8c53630f6b",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pickup5-attempt05-pose03-generated-raw.png",
+  "rawSourceSha256": "75c60ad9ec1f0b11665464fc4d8d53980df9986fcff8429720700cad459ae88c",
+  "dimensions": [
+    1214,
+    1295
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReference": "public/assets/animation/kraken-idle-right.webp",
+  "priorRejectedPoseReference": "tools/generate-art/previews/kraken-pickup5-attempt04/poses/pose-03-grab-tick07-80x96.png",
+  "replaces": "attempt04 pose03, previously rejected in the independent single-player review as reading like two crouched bodies",
+  "poseTiming": {
+    "frameDuration": 1,
+    "grabTick": 7
+  },
+  "ballPolicy": "Empty cupped near hand only; no ball in artwork. Calibrate a separate Kraken-specific ball track.",
+  "cleanupCandidate": {
+    "script": "tools/generate-art/previews/kraken-pickup5-attempt05/clean-and-layout.py",
+    "atlas": "tools/generate-art/previews/kraken-pickup5-attempt05/kraken-pickup5-attempt05-cleanup01-atlas-candidate.png",
+    "layout": "tools/generate-art/previews/kraken-pickup5-attempt05/cleanup01-layout.json",
+    "status": "accepted and registered after independent source, gameplay, and production normal-loader review",
+    "independentReview": "tools/generate-art/previews/kraken-pickup5-attempt05/INDEPENDENT_SOURCE_AND_CLEANUP_REVIEW_2026-10-29.md"
+  },
+  "rawPreserved": true,
+  "registration": {
+    "atlas": "public/assets/animation/kraken-pickup-right.webp",
+    "atlasSha256": "0820af5175c770a3609c2acd21de22f025db61942b43875fde3452eabb79da65",
+    "review": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-08/normal-loader/INDEPENDENT_GAMEPLAY_REVIEW_2026-10-29.md"
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 3,
+      "reason": "candidate-only gameplay set used stale Scoria matchup; do not use as current-court acceptance evidence"
+    },
+    {
+      "attempt": 4,
+      "reason": "carry ball at the forward knee/shin instead of gathered hands"
+    },
+    {
+      "attempt": 5,
+      "reason": "frame4 H1.4/F2.5 moves the ball into Kraken face/head"
+    },
+    {
+      "attempt": 7,
+      "reason": "normal-loader capture script used stale attempt04 track vector rather than registered attempt06; retained as invalid evidence"
+    }
+  ],
+  "gameplayTrials": [
+    {
+      "attempt": 3,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-03/native/report.json",
+      "status": "invalid acceptance evidence: stale Vesper Harbor vs Scoria matchup at courtY75; preserved"
+    },
+    {
+      "attempt": 4,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-04/native/report.json",
+      "status": "current court technical catch passes, but carry ball placement rejected at shin"
+    },
+    {
+      "attempt": 5,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-05/native/report.json",
+      "status": "rejected: frame4 ball placement too high, overlaps face/head"
+    },
+    {
+      "attempt": 6,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-06/native/report.json",
+      "status": "accepted after independent normal-loader review: production atlas/track, current court, both facings and zooms, tick7 grab and carried hand placement"
+    }
+  ]
+}

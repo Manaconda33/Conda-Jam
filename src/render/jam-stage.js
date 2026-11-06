@@ -1,5 +1,10 @@
 const clamp=(value,min,max)=>Math.max(min,Math.min(max,value));
 
+/** Whether a stage animation should receive the rim-focused attack camera. */
+export function isStageDunkAttack(clip){
+  return typeof clip==='string'&&(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'));
+}
+
 /**
  * Issue #4's first-pass Jam camera geometry for the 480×360 logical viewport.
  * The values are renderer-only: simulation world coordinates stay 0–200×0–100.
@@ -114,9 +119,15 @@ export function stageViewShearDirection(cameraX,attackDirection){
   return clamp((Number(cameraX)-100)/20,-1,1);
 }
 
-/** Downward camera pan keeps the full dunk apex clear of the scoreboard. */
+/** Downward camera pan keeps tall captain sprites below the scoreboard at dunk apex. */
 export function stageAttackPanY(jumpZ){
-  return 42*clamp((Number(jumpZ)||0)/5,0,1);
+  return 140*clamp((Number(jumpZ)||0)/5,0,1);
+}
+
+/** Down-pan the active shot scene as zoom rises to keep the fixed rim below the HUD. */
+export function stageShotPanY(zoom){
+  const value=Number.isFinite(Number(zoom))?Number(zoom):100;
+  return .8*clamp(value-100,0,20);
 }
 
 /** Nudge the airborne dunk presentation court-ward so only the hand reaches across the rim. */

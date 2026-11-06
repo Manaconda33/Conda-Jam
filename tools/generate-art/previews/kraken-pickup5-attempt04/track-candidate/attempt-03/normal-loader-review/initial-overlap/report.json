@@ -1,0 +1,1236 @@
+{
+  "renderer": "Chromium current Jam Stage canvas",
+  "validationClass": "normal production sprite loader and selector with browser-response-only candidate manifest/track overlays",
+  "notUserInitiated": true,
+  "atlas": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+  "atlasFile": "tools/generate-art/previews/kraken-pickup5-attempt04/kraken-pickup5-attempt04-cleanup02-atlas-candidate.png",
+  "atlasSha256": "055364f4286b2552e8fdf076ab422fcf9b78d97bcf1d12c7a99f0563bd73a1da",
+  "track": {
+    "height": [
+      0.65,
+      0.45,
+      0.2,
+      0.2,
+      0.5
+    ],
+    "forward": [
+      3.5,
+      4.5,
+      5.5,
+      4.5,
+      4.5
+    ]
+  },
+  "baselineY": 90,
+  "durations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "sampleTicks": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "courtY": 50.0,
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "setup": {
+        "player": "kraken",
+        "facing": 1,
+        "x": 100,
+        "y": 50,
+        "ball": {
+          "x": 102.5,
+          "y": 51.5,
+          "z": 0.2,
+          "mode": "loose",
+          "owner": null
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "pickupStartStep": 1,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 102.59,
+            "y": 51.5,
+            "z": 0.2,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 0,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick00-frame0.png",
+          "sha256": "cc8ee3b3036970b68db0aecf5615ae1f2ac4cac79f64861023728441d75b0a1f"
+        },
+        {
+          "tick": 2,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 102.77000000000001,
+            "y": 51.5,
+            "z": 0.12200000000000003,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick02-frame1.png",
+          "sha256": "8ab4e0ab98a653adffd3a47c9f809f74fb3d02c258bfad579f12481311897a49"
+        },
+        {
+          "tick": 4,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 102.95000000000002,
+            "y": 51.5,
+            "z": 0,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick04-frame1.png",
+          "sha256": "315b95ccc2d957675a864499529662a944a870dfe673bef80aa20a1626aceeea"
+        },
+        {
+          "tick": 6,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 103.09760000000003,
+            "y": 51.5,
+            "z": 0.254,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 2,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick06-frame2.png",
+          "sha256": "27da812982c8ddc36ac2baefd1d472ff7ff0c9f5da2f8c590a2e707f050353c8"
+        },
+        {
+          "tick": 7,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.2,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 3,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick07-frame3.png",
+          "sha256": "80951c274039995fcbd8028109b896904c323ecfb2f2310e60f1f7b95636d575"
+        },
+        {
+          "tick": 8,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick08-frame4.png",
+          "sha256": "0ee835c9341fea515dc1402bbae322991e85080a67646820fdecb76f54971367"
+        },
+        {
+          "tick": 10,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick10-frame4.png",
+          "sha256": "e044fae67f7f96306a4966a5ee60083001c618768770abdc0625507998cb2e3d"
+        },
+        {
+          "tick": 11,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom100-tick11-frame4.png",
+          "sha256": "e2f238ca31e32c6be71d8fae80cf43b48cdb681574de118d4a4d2bd336e31e2f"
+        }
+      ],
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "score": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": [],
+      "failedRequests": []
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "setup": {
+        "player": "kraken",
+        "facing": -1,
+        "x": 100,
+        "y": 50,
+        "ball": {
+          "x": 97.5,
+          "y": 51.5,
+          "z": 0.2,
+          "mode": "loose",
+          "owner": null
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "pickupStartStep": 1,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 97.41,
+            "y": 51.5,
+            "z": 0.2,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 0,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick00-frame0.png",
+          "sha256": "d68f6891371c597df6c60cfd51cb5f42aab7861dded78735840df7b036f1244c"
+        },
+        {
+          "tick": 2,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 97.22999999999999,
+            "y": 51.5,
+            "z": 0.12200000000000003,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick02-frame1.png",
+          "sha256": "9559e8f051b9dfa5f13cd641155545548126dcce1ac48056e4ad07a60e18d9e0"
+        },
+        {
+          "tick": 4,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 97.04999999999998,
+            "y": 51.5,
+            "z": 0,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick04-frame1.png",
+          "sha256": "0d9df19d016dee67c3e4b4264749190ddebfe1803f7df99fd360fa3fcdf744ef"
+        },
+        {
+          "tick": 6,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 96.90239999999997,
+            "y": 51.5,
+            "z": 0.254,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 2,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick06-frame2.png",
+          "sha256": "baedcf3f56e609f2b0814f984a838ef8736c60238ba92ff8bfc924547aec71a9"
+        },
+        {
+          "tick": 7,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.2,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 3,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick07-frame3.png",
+          "sha256": "cf69fa491c0de08dd90758d67255644e6bd8dacc2250d4228a1c66667ddf2495"
+        },
+        {
+          "tick": 8,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick08-frame4.png",
+          "sha256": "9a49a25f5b476484f1e15e3ebfa9af0d7a072a2d5c7c008225594ac41d9b16eb"
+        },
+        {
+          "tick": 10,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick10-frame4.png",
+          "sha256": "57ab19e8f799483f0c1dc6a8c2d15a36e161281dbfbd6a824a515018b78de01c"
+        },
+        {
+          "tick": 11,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom100-tick11-frame4.png",
+          "sha256": "7f5f7647081e572d4b06385140b12000f75bda8539cc1926843d0628570f1e49"
+        }
+      ],
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "score": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": [],
+      "failedRequests": []
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "setup": {
+        "player": "kraken",
+        "facing": 1,
+        "x": 100,
+        "y": 50,
+        "ball": {
+          "x": 102.5,
+          "y": 51.5,
+          "z": 0.2,
+          "mode": "loose",
+          "owner": null
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "pickupStartStep": 1,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 102.59,
+            "y": 51.5,
+            "z": 0.2,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 0,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick00-frame0.png",
+          "sha256": "b57cabf93ec91218b34f335ab9b698a94377708a1152efa700464218010278da"
+        },
+        {
+          "tick": 2,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 102.77000000000001,
+            "y": 51.5,
+            "z": 0.12200000000000003,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick02-frame1.png",
+          "sha256": "66efb0084a19b616e8ea1e035132b7b2865e15621f2cdfd1fd1b493a04bec3a0"
+        },
+        {
+          "tick": 4,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 102.95000000000002,
+            "y": 51.5,
+            "z": 0,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick04-frame1.png",
+          "sha256": "1f94747ba7b4c839e10ae7c1968b255a81b2cf7a2dc9a8d8784da9c9b26bb150"
+        },
+        {
+          "tick": 6,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 103.09760000000003,
+            "y": 51.5,
+            "z": 0.254,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 2,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick06-frame2.png",
+          "sha256": "33f10265eb8a3a64ebd3d0e0662a8bc3ed5928a69858e46829ba473d6ec8a371"
+        },
+        {
+          "tick": 7,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.2,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 3,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick07-frame3.png",
+          "sha256": "8ce35f862d4a5be7c33b730ab84fbb05eacfb6685d82a76a8da16fb859b1b8f0"
+        },
+        {
+          "tick": 8,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick08-frame4.png",
+          "sha256": "c9911fed4995e4b22e25ba058791feb28c690f82767d167a469581de463a33b9"
+        },
+        {
+          "tick": 10,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick10-frame4.png",
+          "sha256": "59a6ef4b8f994274b45776579e3aaf8b0b210794aa19050129b8e61686a7133d"
+        },
+        {
+          "tick": 11,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 104.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": false,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "right-zoom120-tick11-frame4.png",
+          "sha256": "9380ce19700a85c8f6413f0bb0ba664d5d87f403b363121d2d598bf6e4e0b9bf"
+        }
+      ],
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "score": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": [],
+      "failedRequests": []
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "setup": {
+        "player": "kraken",
+        "facing": -1,
+        "x": 100,
+        "y": 50,
+        "ball": {
+          "x": 97.5,
+          "y": 51.5,
+          "z": 0.2,
+          "mode": "loose",
+          "owner": null
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "pickupStartStep": 1,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 97.41,
+            "y": 51.5,
+            "z": 0.2,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 0,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick00-frame0.png",
+          "sha256": "0eb656d281fa188bd51af4892dbf188adb3ecc7c03f2ee9f73de12c8d7e931a6"
+        },
+        {
+          "tick": 2,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 97.22999999999999,
+            "y": 51.5,
+            "z": 0.12200000000000003,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick02-frame1.png",
+          "sha256": "ba711a2d511196fdd9fd0e324948be82bae8c9a1bb1698bd458cda7b22622360"
+        },
+        {
+          "tick": 4,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 97.04999999999998,
+            "y": 51.5,
+            "z": 0,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 1,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick04-frame1.png",
+          "sha256": "3f36edc612dc2171877882d5dcfd912b1cb0a4cdc1e4eca3b5a3d2a16338bcb3"
+        },
+        {
+          "tick": 6,
+          "clip": "pickup",
+          "action": "catch",
+          "hasBall": false,
+          "ball": {
+            "x": 96.90239999999997,
+            "y": 51.5,
+            "z": 0.254,
+            "mode": "loose",
+            "owner": null
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 2,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick06-frame2.png",
+          "sha256": "664ddb06b6de46231d8ee6c9e805607666f6c70c4024489b8a048766f6f7e76d"
+        },
+        {
+          "tick": 7,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.2,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 3,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick07-frame3.png",
+          "sha256": "b1110190d443dd1944ef9e92a49e531e3b86ea8690b9f2d9eb46073b25e2b9e3"
+        },
+        {
+          "tick": 8,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick08-frame4.png",
+          "sha256": "d5ccc1a62b9ba2d8981a1211c714e43276541f4794ff4d3f52fcf5d0d9a8c956"
+        },
+        {
+          "tick": 10,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick10-frame4.png",
+          "sha256": "b95b33c4e6d0fda82212fc7b7d6c77de4e8bfd46c51298d9bf31b7f8e127a727"
+        },
+        {
+          "tick": 11,
+          "clip": "pickup",
+          "action": null,
+          "hasBall": true,
+          "ball": {
+            "x": 95.5,
+            "y": 50,
+            "z": 0.5,
+            "mode": "carried",
+            "owner": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Kraken grabs the ball"
+            }
+          ],
+          "sprite": {
+            "src": "./public/assets/animation/kraken-pickup-attempt03-normal-loader.png",
+            "frame": 4,
+            "flip": true,
+            "baselineY": 90
+          },
+          "assetLoader": {
+            "imageWidth": 400
+          },
+          "path": "left-zoom120-tick11-frame4.png",
+          "sha256": "8e3978c8ffaef22a881ba13d2c8bec8f067e9e05cee69a5287cb3ed90dd78982"
+        }
+      ],
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "score": [
+          0,
+          0
+        ],
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "browserErrors": [],
+  "failedRequests": [],
+  "captureCount": 32,
+  "normalLoaderCheck": true,
+  "allRunsOwnBallAfterGrab": true,
+  "captureIntegrity": true,
+  "pass": true
+}

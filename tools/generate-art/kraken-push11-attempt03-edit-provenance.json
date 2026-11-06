@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "push",
+  "attempt": 3,
+  "kind": "image edit of attempt02 raw",
+  "status": "unreviewed edited source",
+  "generatedAt": "2026-10-29T04:04:00Z",
+  "generationId": "exec-3b660f30-a559-433e-ba00-f07a4f504a12",
+  "parentRaw": "tools/generate-art/sources/kraken-push11-attempt02-generated-raw.png",
+  "promptFile": "tools/generate-art/kraken-push11-attempt03-edit-prompt.txt",
+  "promptSha256": "77a4b999f9b08ad6a41b43c6e3e7a13516c195aeea1537b3fd4e25c97bb053e5",
+  "rawFile": "tools/generate-art/sources/kraken-push11-attempt03-edited-raw.png",
+  "rawSha256": "c10cf092c18a9adc52e3bd4824bd1e921ca08244bf3fd6fa33c166e002ca9058",
+  "dimensions": [
+    1323,
+    1189
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentPixels": 1078463,
+  "partialAlphaPixels": 492723,
+  "generatedBy": "ImageGen",
+  "note": "Exact edit prompt, raw response and lineage preserved; source review pending."
+}

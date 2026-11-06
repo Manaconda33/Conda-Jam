@@ -1,0 +1,34 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 3,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected; lineage ambiguous due duplicated raw source",
+  "generatedAt": "2026-10-29T05:13:00Z",
+  "generationId": "exec-c94e4e32-b34b-431b-86b6-5d53ae74ca3b",
+  "promptFile": "tools/generate-art/kraken-alley-oop-reverse-attempt03-imagegen-prompt.txt",
+  "promptSha256": "9c4cc7237871096cb0fcef2370b955c2beb6519dbec0f12b92a21cbcbd2e4f1f",
+  "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt03-generated-raw.png",
+  "rawSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 925081,
+  "partialAlphaPixels": 647783,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt03/INDEPENDENT_SOURCE_REVIEW.md",
+  "note": "Raw only. No cleanup, gameplay calibration, packing, or production registration.",
+  "reviewSummary": "Review found improved distinct catch/control/downward action poses 9\u201312, but reverse-dunk direction remains ambiguous, several source figures touch/nearly touch cell bounds, and raw alpha is very soft (647,783 partial-alpha pixels, max 254, none fully opaque). Separately, the exact raw hash and generation lineage duplicate Kraken dunk-reverse attempt02. This source is excluded as a unique alley-oop-reverse generation.",
+  "lineageStatus": "ambiguous: raw source SHA-256 is identical to kraken-dunk-reverse attempt02; do not count this as an independently generated source for either clip until lineage is resolved",
+  "duplicateRecordedAs": {
+    "clip": "dunk-reverse",
+    "attempt": 2,
+    "rawSha256": "3792c883603269d3fd5f4a79fb6dc13c930262aa1e8473b0b6964e26ce8dc769"
+  }
+}

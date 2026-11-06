@@ -1,0 +1,12 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-360",
+  "attempt": "04",
+  "generationId": "exec-be7509cc-95d4-4723-bda1-108ef5061c47",
+  "generator": "OpenAI ImageGen",
+  "transparentBackgroundRequested": true,
+  "rawFile": "tools/generate-art/sources/kraken-dunk-360-attempt04-generated-raw.png",
+  "rawSha256": "09815b44112cee5750f1f0be60d40e018b335f706fdfd8d8a049230ae70fda86",
+  "promptFile": "tools/generate-art/kraken-dunk-360-attempt04-imagegen-prompt.txt",
+  "status": "unreviewed"
+}

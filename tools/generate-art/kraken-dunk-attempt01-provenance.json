@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk",
+  "attempt": 1,
+  "status": "rejected by independent source review",
+  "generatedAt": "2026-10-29T03:57:00Z",
+  "generationId": "exec-3f137c61-57ff-46a0-aa1c-5b1880d89aab",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt01-imagegen-prompt.txt",
+  "promptSha256": "b6c89fbcbb8b1f36445091c3647331288bbb4f22859492352eee7075e5b7c241",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt01-generated-raw.png",
+  "rawSha256": "7a42a714009b449a864e9f2b7c14a9cb728d3a45e5c360679e87f3e1f949ccd2",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentPixels": 1022759,
+  "partialAlphaPixels": 548877,
+  "generatedBy": "ImageGen",
+  "note": "Exact prompt and raw response retained; no cleanup or acceptance before independent review.",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Rejected by independent source review: silhouette cell spill, insufficient margins, red fringe, and overhead pose similarity."
+}

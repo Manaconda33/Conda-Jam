@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 6,
+  "status": "unregistered gameplay rerun; prior fixture placed Kraken beyond the stage canvas bounds",
+  "height": [0.9, 1.1, 1.4, 1.9, 1.9, 1.9, 1.1, 0.8],
+  "forward": [4, 5.5, 4, -4, -4, -5, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Same track values as attempt03. Move the synthetic one-player shot fixture to x=120 (right) / x=80 (left), keeping ~69 world units to the rim while centering the actor inside the 480px Jam Stage backing canvas. Verify actual gameplay screenshots and score."
+}

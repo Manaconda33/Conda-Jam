@@ -1,0 +1,22 @@
+Create a character-only sprite sheet for Krios's alley-oop-reverse animation: exactly 15 full-body poses arranged in a 5-column by 3-row grid, read left-to-right then top-to-bottom. Flat vivid chroma green (#00ff00) background for later controlled transparency; no court, hoop, words, logos, text or props. One Krios per cell, same camera, consistent pixel-art sprite scale, 5px side margin, shared floor baseline. Krios has deep red-brown skin, long black curls tied back with a green band, full black beard, muscular human basketball-athlete build, sleeveless black jersey and shorts with thin gold/red trim and dark high-top shoes. Preserve identity, anatomy and costume every frame.
+
+Athlete artwork only. The lob and ball are separate runtime art. Do not put any ball, sphere or prop in any cell; hands are visibly empty but may imply an unseen catch/grip.
+
+Clear, distinct action progression with anchors at zero-based frame2 takeoff, frame5 catch/grab, frame7 apex, frame10 reverse-side release, frame11 follow-through, frame14 landing:
+0: quick run into lane, arms pumping;
+1: brake and turn toward lob, hands opening;
+2 TAKEOFF: forceful jump, feet fully off floor, one knee rising;
+3: airborne reach upward toward unseen lob;
+4: full extension at catch point, fingers closing around empty air;
+5 GRAB: secure implied catch high, elbows draw inward, empty hands clearly visible;
+6: compact gather as hips and shoulders rotate toward the backboard;
+7 PEAK: highest point, back/shoulder turned toward rim, ball-free hands gathered near one side of head/shoulder;
+8: reverse-side windup, arm bends and wraps behind the head on the far side;
+9: descending reverse arc, body rotates under the imagined rim;
+10 RELEASE: one hand pushes down and away on the reverse side, fully extended arm, open empty fingers, unmistakable reverse finish;
+11 FINISH: high curved reverse follow-through, still airborne;
+12: begin controlled descent, arms spread for balance;
+13: feet just above baseline, knees soften;
+14 LAND: first foot contact with bent knees and stable balance.
+
+Each pose must have complete coherent anatomy and a clearly different silhouette. Keep every hand, curl, foot and shoe inside its cell. Exactly 15 cells, no duplicated frames, no extra limbs and no cropped figure. No circular marks or ball-like shading.

@@ -1,0 +1,209 @@
+{
+  "classification": "derived-original-imagegen-source-composite-candidate",
+  "status": "candidate for Kraken-specific ball-track trials only; independent review required",
+  "athlete": "J.07 Kraken",
+  "clip": "pickup",
+  "attempt": 5,
+  "cleanup": 2,
+  "frameSize": [
+    80,
+    96
+  ],
+  "columns": 5,
+  "rows": 1,
+  "baselineY": 90,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "grabFrame": 3,
+  "grabTick": 7,
+  "ballBakedIn": false,
+  "atlasCandidate": "tools/generate-art/previews/kraken-pickup5-attempt05/kraken-pickup5-attempt05-cleanup01-atlas-candidate.png",
+  "atlasSha256": "47e825e1707e13f83dd38ad74c9ea1f4b408bb7545028782e43f20e43a75c6f0",
+  "lineage": [
+    {
+      "frame": 0,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "2632700c7f83b8e2b341bd79c88f4bb0524e4cb856d08642f7f93e3a668bf647"
+    },
+    {
+      "frame": 1,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "4254b3d0988e6dba5ef35611c8b6589319ccd80faec4e6a13bd8ac8d53ce6022"
+    },
+    {
+      "frame": 2,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "d73fa7b1862dda9dd835e0510cc4077cd74669ecb08ac3530b5aab5e1120b373"
+    },
+    {
+      "frame": 3,
+      "sourceImage": "tools/generate-art/sources/kraken-pickup5-attempt05-pose03-generated-raw.png",
+      "sourceGeneration": "not exposed by image-generation tool response",
+      "prompt": "tools/generate-art/kraken-pickup5-attempt05-pose03-imagegen-prompt.txt",
+      "sourceSha256": "75c60ad9ec1f0b11665464fc4d8d53980df9986fcff8429720700cad459ae88c",
+      "promptSha256": "e900dab9ae7e7295b92ac3bd315e358513a8a4a844a0cae69fd4ec8c53630f6b",
+      "sourceFigureBoundsLTRB": [
+        195,
+        400,
+        1042,
+        1191
+      ],
+      "cropBoundsLTRB": [
+        192,
+        397,
+        1045,
+        1194
+      ],
+      "cropSha256": "dc63106ad97ded882f5172af1d968b2b5a83252137ca514872f5b63c7cd910a6",
+      "fitScale": 0.06330597889800703,
+      "outputSize": [
+        54,
+        50
+      ],
+      "sourcePixelHash": "cf5623a0af4bef1d7c27dcbe57698f780e7ff5ccaab912a36bff34b16b627487"
+    },
+    {
+      "frame": 4,
+      "sourceAtlas": "tools/generate-art/previews/kraken-pickup5-attempt03/kraken-pickup5-attempt03-cleanup01-atlas-candidate.png",
+      "sourceGeneration": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+      "sourcePixelHash": "048b45b765b57fb82c5d35462250638edd497d7821b3799ee1bf6686bd2b7a71"
+    }
+  ],
+  "effectiveBodyScale": {
+    "reference": "attempt03 cleanup01 common scale 0.165909091",
+    "pose3FitMethod": "uniform nearest-neighbor scale to 54px visible width; compact crouch silhouette height then baseline-aligned; no nonuniform distortion"
+  },
+  "alphaCleanup": "Connected component alpha>=32; retain original alpha and RGB only within component or 1.5px source-pixel fringe; no color-key recoloring.",
+  "frames": [
+    {
+      "index": 0,
+      "name": "notice-reach",
+      "duration": 2,
+      "anchors": [],
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCell": [
+        5,
+        19,
+        75,
+        90
+      ],
+      "marginsLTRB": [
+        5,
+        19,
+        5,
+        6
+      ],
+      "baselineY": 90,
+      "pixelHash": "2632700c7f83b8e2b341bd79c88f4bb0524e4cb856d08642f7f93e3a668bf647"
+    },
+    {
+      "index": 1,
+      "name": "lower-reach",
+      "duration": 3,
+      "anchors": [],
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCell": [
+        11,
+        32,
+        69,
+        90
+      ],
+      "marginsLTRB": [
+        11,
+        32,
+        11,
+        6
+      ],
+      "baselineY": 90,
+      "pixelHash": "4254b3d0988e6dba5ef35611c8b6589319ccd80faec4e6a13bd8ac8d53ce6022"
+    },
+    {
+      "index": 2,
+      "name": "low-reach",
+      "duration": 2,
+      "anchors": [],
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCell": [
+        12,
+        40,
+        67,
+        90
+      ],
+      "marginsLTRB": [
+        12,
+        40,
+        13,
+        6
+      ],
+      "baselineY": 90,
+      "pixelHash": "d73fa7b1862dda9dd835e0510cc4077cd74669ecb08ac3530b5aab5e1120b373"
+    },
+    {
+      "index": 3,
+      "name": "grab-tick07",
+      "duration": 1,
+      "anchors": [
+        "grab"
+      ],
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCell": [
+        13,
+        40,
+        67,
+        90
+      ],
+      "marginsLTRB": [
+        13,
+        40,
+        13,
+        6
+      ],
+      "baselineY": 90,
+      "pixelHash": "cf5623a0af4bef1d7c27dcbe57698f780e7ff5ccaab912a36bff34b16b627487"
+    },
+    {
+      "index": 4,
+      "name": "post-grab-recovery",
+      "duration": 4,
+      "anchors": [],
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "bboxInCell": [
+        14,
+        17,
+        66,
+        90
+      ],
+      "marginsLTRB": [
+        14,
+        17,
+        14,
+        6
+      ],
+      "baselineY": 90,
+      "pixelHash": "048b45b765b57fb82c5d35462250638edd497d7821b3799ee1bf6686bd2b7a71"
+    }
+  ]
+}

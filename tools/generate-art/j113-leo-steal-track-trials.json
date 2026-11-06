@@ -1,0 +1,116 @@
+{
+  "athlete": "leo",
+  "clip": "steal",
+  "captureHarness": "tools/capture-leo-steal-track.py",
+  "attempts": [
+    {
+      "attempt": 1,
+      "height": [
+        1.05,
+        1.0,
+        0.8,
+        1.15,
+        0.9,
+        1.0,
+        1.1,
+        1.1
+      ],
+      "forward": [
+        6,
+        9,
+        12,
+        14,
+        12,
+        9,
+        7,
+        6
+      ],
+      "evidence": "tools/generate-art/previews/leo-steal-track-candidate/attempt-01-invalid-fallback-art",
+      "status": "rejected-harness",
+      "reason": "Capture harness ran before the candidate atlas had reviewed status, so the renderer selected legacy fallback art. The screenshots cannot be used to judge the proposed track; this is an invalid-harness record."
+    },
+    {
+      "attempt": 2,
+      "height": [
+        1.05,
+        1.0,
+        0.8,
+        0.8,
+        1.25,
+        1.1,
+        1.1,
+        1.1
+      ],
+      "forward": [
+        6,
+        9,
+        12,
+        13,
+        6,
+        7,
+        7,
+        6
+      ],
+      "evidence": "tools/generate-art/previews/leo-steal-track-candidate/attempt-02/native",
+      "status": "rejected-contact-low",
+      "reason": "After confirming production atlas selection, the frame3 ball center sits below the open fingertips."
+    },
+    {
+      "attempt": 3,
+      "height": [
+        1.05,
+        1.0,
+        0.8,
+        1.5,
+        1.25,
+        1.1,
+        1.1,
+        1.1
+      ],
+      "forward": [
+        6,
+        9,
+        12,
+        12.5,
+        6,
+        7,
+        7,
+        6
+      ],
+      "evidence": "tools/generate-art/previews/leo-steal-track-candidate/attempt-03/native",
+      "status": "rejected-contact-high",
+      "reason": "Frame3 ball center rises above the open fingertips."
+    },
+    {
+      "attempt": 4,
+      "height": [
+        1.05,
+        1.0,
+        0.8,
+        1.15,
+        1.25,
+        1.1,
+        1.1,
+        1.1
+      ],
+      "forward": [
+        6,
+        9,
+        12,
+        12.5,
+        6,
+        7,
+        7,
+        6
+      ],
+      "evidence": "tools/generate-art/previews/leo-steal-track-candidate/attempt-04/native",
+      "status": "accepted-visual-candidate",
+      "reason": "At frame3/tick5 the ball overlaps the extended open fingertips at100% and120% in both facings; frame4 follows the pullback toward Leo's torso. Frame5/tick8 and remaining staged positions inspected by parent; no discontinuity or hand gap."
+    }
+  ],
+  "gameplay": {
+    "grabAnchorTick": 5,
+    "expected": "Opponent retains ownership through tick4. First successful steal jars ball loose at tick5; simulation starts recovery steal catch. Leo owns the ball after the recovery catch reaches its own tick5 grab.",
+    "automatedEvidence": "Manual deterministic simulation check with Leo as defender in both facing directions (seed61): opponent retains the ball through tick4; successful first steal jars it loose at tick5; recovery catch grants Leo sole ownership at step10 / recovery tick5. Canonical regression coverage also passes in tests/animation.test.js and tests/game-core.test.js."
+  }
+}

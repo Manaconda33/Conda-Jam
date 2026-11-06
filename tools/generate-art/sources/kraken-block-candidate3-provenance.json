@@ -1,0 +1,70 @@
+{
+  "athlete": "kraken",
+  "athleteIndex": 89,
+  "clip": "block",
+  "candidate": 3,
+  "classification": "original-authored-imagegen-edit-pending-review",
+  "generationId": "exec-9014a559-d83c-42c5-a808-9d607c06a219",
+  "generatedAt": "2026-10-27",
+  "rawImage": "tools/generate-art/sources/kraken-block-candidate2/edited-candidate3.png",
+  "rawSha256": "6b152b5b98b2aeb6fc8c5bdf4c6363c16f51b4b9905bd7a0e31fdd98dee9e25b",
+  "dimensions": [
+    1145,
+    1374
+  ],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/sources/kraken-block-candidate3-prompt.md",
+  "references": [
+    {
+      "path": "tools/generate-art/sources/kraken-block-candidate2/raw.png",
+      "sha256": "11935b6ebbeb9b9ef436283c020c000693808c3af77fc822993dca0e64352c5e"
+    },
+    {
+      "path": "public/assets/animation/kraken-run-right.webp",
+      "purpose": "exact character and game pixel-art style reference"
+    }
+  ],
+  "normalization": {
+    "script": "tools/generate-art/normalize-kraken-block-candidate3.py",
+    "atlas": "tools/generate-art/sources/kraken-block-candidate3-atlas.png",
+    "layout": "tools/generate-art/sources/kraken-block-candidate3-layout.json",
+    "atlasSha256": "5a6a8ad8cf968e9bfd1672d2baa7a274bb55c385d81a23b4c7e8f53645a92615",
+    "notes": "Largest 8-connected alpha component selected per figure, then fit with Lanczos to a 62x80 maximum inside 80x96 cells, centered with 9px horizontal margins and baseline y93. Detached components under 1000 source pixels are excluded. No anatomical pixels are painted or invented.",
+    "cleanupAttempts": [
+      {
+        "attempt": 1,
+        "atlas": "tools/generate-art/sources/kraken-block-candidate3-atlas.png",
+        "sha256": "5a6a8ad8cf968e9bfd1672d2baa7a274bb55c385d81a23b4c7e8f53645a92615",
+        "method": "8-connected component isolation and Lanczos fit to 62x80",
+        "review": "rejected by independent visual review for soft/muddy downsampling and visible fringe specks"
+      },
+      {
+        "attempt": 2,
+        "atlas": "tools/generate-art/sources/kraken-block-candidate3-atlas-nearest.png",
+        "sha256": "e82ccfadfba4a3ff29abe6c129e05fb753431f606b2b3f222e193cf2efda2198",
+        "method": "nearest-neighbor fit to 62x80 with binary alpha silhouette",
+        "review": "rejected pending cleanup by independent review; target-scale crispness improved but red/cyan fringe pixels remained"
+      },
+      {
+        "attempt": 3,
+        "atlas": "tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "sha256": "c98d3f71f5eab76a880e233f9ff075d94cee07348d610fb30b9eefd2d6add37a",
+        "method": "nearest-neighbor and binary alpha followed by removal of four specifically reviewed red/cyan fringe pixels",
+        "review": "source candidate accepted by independent visual review on 2026-10-27; native Jam Stage integration review pending"
+      }
+    ]
+  },
+  "review": {
+    "status": "source-candidate-accepted; native-integration-pending",
+    "previews": [
+      "tools/generate-art/previews/kraken-block-candidate3-light.png",
+      "tools/generate-art/previews/kraken-block-candidate3-dark.png",
+      "tools/generate-art/previews/kraken-block-candidate3-zoom4.png"
+    ],
+    "ballBakedIntoAthleteArt": false,
+    "independentReviewer": "candidate_review",
+    "reviewNotes": "Four pose silhouettes, anatomy, identity, 80x96 readability, baseline, margins, ball-free art, and cleaned edge pixels passed independent source review. Slight soft interior shading at 4x was considered acceptable. Native Jam Stage candidate integration remains pending.",
+    "selectedAtlas": "tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+    "selectedLayout": "tools/generate-art/sources/kraken-block-candidate3-cleanup02-layout.json"
+  }
+}

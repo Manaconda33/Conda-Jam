@@ -1,0 +1,1202 @@
+{
+  "date": "2026-10-29",
+  "court": {
+    "home": "vesper-harbor-undertow",
+    "away": "blackthorn-court-kings",
+    "courtY": 75
+  },
+  "candidateOverridesOnly": false,
+  "productionRegistration": true,
+  "oldScoriaCourtY50Trials": "Preserved but invalid for this current-court review.",
+  "pushCandidate": {
+    "atlas": "./public/assets/animation/kraken-push-right.webp",
+    "separateBallOwner": "Sable Regent (actual Blackthorn roster athlete)",
+    "krakenBallTrackInjected": false,
+    "reason": "Kraken does not own the live ball during the shove",
+    "reviewMode": "registered production manifest and normal image loader"
+  },
+  "reboundCandidate": {
+    "atlas": "./tools/generate-art/previews/kraken-rebound5-attempt03/kraken-rebound5-attempt03-runtime-candidate.png",
+    "track": {
+      "athlete": "kraken",
+      "clip": "rebound",
+      "attempt": 1,
+      "status": "unregistered track trial; cleanup review pending",
+      "height": [
+        1.1,
+        1.5,
+        2.0,
+        2.1,
+        1.3
+      ],
+      "forward": [
+        4,
+        3,
+        1,
+        0.5,
+        1
+      ],
+      "frameStartTicks": [
+        0,
+        2,
+        4,
+        5,
+        7
+      ],
+      "grabTick": 5,
+      "reference": "Krios rebound track adapted only as initial calibration estimate. Requires Kraken-specific Jam Stage contact and live missed-shot validation."
+    },
+    "shooter": "Leo (actual Blackthorn roster athlete)",
+    "scenario": "live missed shot -> loose ball -> Kraken catch"
+  },
+  "runs": {
+    "push": [
+      {
+        "facing": 1,
+        "direction": "right",
+        "zoom": 100,
+        "opponent": "Sable Regent",
+        "captures": [
+          {
+            "frame": 0,
+            "tick": 0,
+            "clip": "push",
+            "clipTick": 0,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 0,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame00-tick00.png"
+          },
+          {
+            "frame": 1,
+            "tick": 2,
+            "clip": "push",
+            "clipTick": 2,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 1,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame01-tick02.png"
+          },
+          {
+            "frame": 2,
+            "tick": 4,
+            "clip": "push",
+            "clipTick": 4,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 2,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame02-tick04.png"
+          },
+          {
+            "frame": 3,
+            "tick": 6,
+            "clip": "push",
+            "clipTick": 6,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 3,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame03-tick06.png"
+          },
+          {
+            "frame": 4,
+            "tick": 7,
+            "clip": "push",
+            "clipTick": 7,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 4,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame04-tick07.png"
+          },
+          {
+            "frame": 5,
+            "tick": 8,
+            "clip": "push",
+            "clipTick": 8,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 44,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 5,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame05-tick08.png"
+          },
+          {
+            "frame": 6,
+            "tick": 10,
+            "clip": "push",
+            "clipTick": 10,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 42,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 6,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame06-tick10.png"
+          },
+          {
+            "frame": 7,
+            "tick": 12,
+            "clip": "push",
+            "clipTick": 12,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 40,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 7,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame07-tick12.png"
+          },
+          {
+            "frame": 8,
+            "tick": 15,
+            "clip": "push",
+            "clipTick": 15,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 37,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 8,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame08-tick15.png"
+          },
+          {
+            "frame": 9,
+            "tick": 18,
+            "clip": "push",
+            "clipTick": 18,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 34,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 9,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame09-tick18.png"
+          },
+          {
+            "frame": 10,
+            "tick": 21,
+            "clip": "push",
+            "clipTick": 21,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 31,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 10,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom100-frame10-tick21.png"
+          }
+        ],
+        "result": "passed"
+      },
+      {
+        "facing": -1,
+        "direction": "left",
+        "zoom": 100,
+        "opponent": "Sable Regent",
+        "captures": [
+          {
+            "frame": 0,
+            "tick": 0,
+            "clip": "push",
+            "clipTick": 0,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 0,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame00-tick00.png"
+          },
+          {
+            "frame": 1,
+            "tick": 2,
+            "clip": "push",
+            "clipTick": 2,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 1,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame01-tick02.png"
+          },
+          {
+            "frame": 2,
+            "tick": 4,
+            "clip": "push",
+            "clipTick": 4,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 2,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame02-tick04.png"
+          },
+          {
+            "frame": 3,
+            "tick": 6,
+            "clip": "push",
+            "clipTick": 6,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 3,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame03-tick06.png"
+          },
+          {
+            "frame": 4,
+            "tick": 7,
+            "clip": "push",
+            "clipTick": 7,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 4,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame04-tick07.png"
+          },
+          {
+            "frame": 5,
+            "tick": 8,
+            "clip": "push",
+            "clipTick": 8,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 44,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 5,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame05-tick08.png"
+          },
+          {
+            "frame": 6,
+            "tick": 10,
+            "clip": "push",
+            "clipTick": 10,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 42,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 6,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame06-tick10.png"
+          },
+          {
+            "frame": 7,
+            "tick": 12,
+            "clip": "push",
+            "clipTick": 12,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 40,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 7,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame07-tick12.png"
+          },
+          {
+            "frame": 8,
+            "tick": 15,
+            "clip": "push",
+            "clipTick": 15,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 37,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 8,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame08-tick15.png"
+          },
+          {
+            "frame": 9,
+            "tick": 18,
+            "clip": "push",
+            "clipTick": 18,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 34,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 9,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame09-tick18.png"
+          },
+          {
+            "frame": 10,
+            "tick": 21,
+            "clip": "push",
+            "clipTick": 21,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 31,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 10,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom100-frame10-tick21.png"
+          }
+        ],
+        "result": "passed"
+      },
+      {
+        "facing": 1,
+        "direction": "right",
+        "zoom": 120,
+        "opponent": "Sable Regent",
+        "captures": [
+          {
+            "frame": 0,
+            "tick": 0,
+            "clip": "push",
+            "clipTick": 0,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 0,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame00-tick00.png"
+          },
+          {
+            "frame": 1,
+            "tick": 2,
+            "clip": "push",
+            "clipTick": 2,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 1,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame01-tick02.png"
+          },
+          {
+            "frame": 2,
+            "tick": 4,
+            "clip": "push",
+            "clipTick": 4,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 2,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame02-tick04.png"
+          },
+          {
+            "frame": 3,
+            "tick": 6,
+            "clip": "push",
+            "clipTick": 6,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 3,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame03-tick06.png"
+          },
+          {
+            "frame": 4,
+            "tick": 7,
+            "clip": "push",
+            "clipTick": 7,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 4,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame04-tick07.png"
+          },
+          {
+            "frame": 5,
+            "tick": 8,
+            "clip": "push",
+            "clipTick": 8,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 44,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 5,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame05-tick08.png"
+          },
+          {
+            "frame": 6,
+            "tick": 10,
+            "clip": "push",
+            "clipTick": 10,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 42,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 6,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame06-tick10.png"
+          },
+          {
+            "frame": 7,
+            "tick": 12,
+            "clip": "push",
+            "clipTick": 12,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 40,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 7,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame07-tick12.png"
+          },
+          {
+            "frame": 8,
+            "tick": 15,
+            "clip": "push",
+            "clipTick": 15,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 37,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 8,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame08-tick15.png"
+          },
+          {
+            "frame": 9,
+            "tick": 18,
+            "clip": "push",
+            "clipTick": 18,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 34,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 9,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame09-tick18.png"
+          },
+          {
+            "frame": 10,
+            "tick": 21,
+            "clip": "push",
+            "clipTick": 21,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 31,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 10,
+              "flip": false
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/right-zoom120-frame10-tick21.png"
+          }
+        ],
+        "result": "passed"
+      },
+      {
+        "facing": -1,
+        "direction": "left",
+        "zoom": 120,
+        "opponent": "Sable Regent",
+        "captures": [
+          {
+            "frame": 0,
+            "tick": 0,
+            "clip": "push",
+            "clipTick": 0,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 0,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame00-tick00.png"
+          },
+          {
+            "frame": 1,
+            "tick": 2,
+            "clip": "push",
+            "clipTick": 2,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 1,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame01-tick02.png"
+          },
+          {
+            "frame": 2,
+            "tick": 4,
+            "clip": "push",
+            "clipTick": 4,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 2,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame02-tick04.png"
+          },
+          {
+            "frame": 3,
+            "tick": 6,
+            "clip": "push",
+            "clipTick": 6,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 3,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame03-tick06.png"
+          },
+          {
+            "frame": 4,
+            "tick": 7,
+            "clip": "push",
+            "clipTick": 7,
+            "target": "sable-regent",
+            "contactTick": 8,
+            "targetStun": 0,
+            "knockdowns": 0,
+            "ball": {
+              "mode": "carried",
+              "owner": "sable-regent",
+              "lastTouch": "sable-regent"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 4,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame04-tick07.png"
+          },
+          {
+            "frame": 5,
+            "tick": 8,
+            "clip": "push",
+            "clipTick": 8,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 44,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 5,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame05-tick08.png"
+          },
+          {
+            "frame": 6,
+            "tick": 10,
+            "clip": "push",
+            "clipTick": 10,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 42,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 6,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame06-tick10.png"
+          },
+          {
+            "frame": 7,
+            "tick": 12,
+            "clip": "push",
+            "clipTick": 12,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 40,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 7,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame07-tick12.png"
+          },
+          {
+            "frame": 8,
+            "tick": 15,
+            "clip": "push",
+            "clipTick": 15,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 37,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 8,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame08-tick15.png"
+          },
+          {
+            "frame": 9,
+            "tick": 18,
+            "clip": "push",
+            "clipTick": 18,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 34,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 9,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame09-tick18.png"
+          },
+          {
+            "frame": 10,
+            "tick": 21,
+            "clip": "push",
+            "clipTick": 21,
+            "target": null,
+            "contactTick": 8,
+            "targetStun": 31,
+            "knockdowns": 1,
+            "ball": {
+              "mode": "loose",
+              "owner": null,
+              "lastTouch": "kraken"
+            },
+            "score": [
+              0,
+              0
+            ],
+            "selection": {
+              "src": "./public/assets/animation/kraken-push-right.webp",
+              "frame": 10,
+              "flip": true
+            },
+            "path": "tools/generate-art/previews/kraken-current-court-trials-20261029-normal-loader-attempt05/push/left-zoom120-frame10-tick21.png"
+          }
+        ],
+        "result": "passed"
+      }
+    ],
+    "rebound": []
+  },
+  "errors": [],
+  "summary": {
+    "pushRuns": 4,
+    "pushCaptures": 44,
+    "reboundRuns": 0,
+    "reboundCatches": 0,
+    "reboundCandidateVerdict": "track trial evidence only; source art remains visually provisional",
+    "pushCandidateVerdict": "track trial evidence only; source art remains visually provisional"
+  }
+}

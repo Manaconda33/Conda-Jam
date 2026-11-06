@@ -1,0 +1,508 @@
+{
+  "source": "tools/generate-art/sources/krios-dunk-clutch15-attempt07-generated-raw.png",
+  "sourceSha256": "64efc03b18bd60e1a30dc57cb0047879bf800ee47dcaa34a38eb19a01d93f5c6",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "candidateAtlas": "tools/generate-art/previews/krios-dunk-clutch15-attempt07/krios-dunk-clutch15-attempt07-runtime-candidate.png",
+  "candidateAtlasSha256": "26e8cb3cc5511a9a9feab1017c89f6efc6ea757e7d430406f18b297e56437e8f",
+  "algorithm": "Prompt-grid 5x3 cell isolation; per-cell largest 8-connected foreground component retained (small disconnected fragments are excluded and recorded); green-dominance alpha key; uniform nearest-neighbor scale to fit 118x86; transparent 128x96 target cells; shared baseline y94; int16 green despill; no redraw.",
+  "cell": [
+    128,
+    96
+  ],
+  "sourceGrid": [
+    5,
+    3
+  ],
+  "targetGrid": [
+    15,
+    1
+  ],
+  "poseCount": 15,
+  "uniquePoseHashes": 15,
+  "uniformScale": 0.24431818181818182,
+  "poses": [
+    {
+      "index": 0,
+      "sourceCell": [
+        0,
+        0,
+        309,
+        333
+      ],
+      "sourceBounds": [
+        18,
+        13,
+        293,
+        323
+      ],
+      "outputSize": [
+        67,
+        76
+      ],
+      "outputBounds": [
+        30,
+        18,
+        97,
+        94
+      ],
+      "despilledPixels": 574,
+      "foregroundPixels": 30115,
+      "discardedComponents": [
+        4,
+        7,
+        4
+      ]
+    },
+    {
+      "index": 1,
+      "sourceCell": [
+        314,
+        0,
+        613,
+        333
+      ],
+      "sourceBounds": [
+        364,
+        45,
+        568,
+        329
+      ],
+      "outputSize": [
+        50,
+        69
+      ],
+      "outputBounds": [
+        39,
+        25,
+        89,
+        94
+      ],
+      "despilledPixels": 527,
+      "foregroundPixels": 27427,
+      "discardedComponents": [
+        2,
+        1
+      ]
+    },
+    {
+      "index": 2,
+      "sourceCell": [
+        619,
+        0,
+        920,
+        333
+      ],
+      "sourceBounds": [
+        653,
+        7,
+        886,
+        311
+      ],
+      "outputSize": [
+        57,
+        74
+      ],
+      "outputBounds": [
+        35,
+        20,
+        92,
+        94
+      ],
+      "despilledPixels": 586,
+      "foregroundPixels": 26964,
+      "discardedComponents": [
+        2
+      ]
+    },
+    {
+      "index": 3,
+      "sourceCell": [
+        927,
+        0,
+        1226,
+        333
+      ],
+      "sourceBounds": [
+        990,
+        9,
+        1190,
+        289
+      ],
+      "outputSize": [
+        49,
+        68
+      ],
+      "outputBounds": [
+        39,
+        26,
+        88,
+        94
+      ],
+      "despilledPixels": 457,
+      "foregroundPixels": 27078,
+      "discardedComponents": [
+        2,
+        1
+      ]
+    },
+    {
+      "index": 4,
+      "sourceCell": [
+        1232,
+        0,
+        1536,
+        333
+      ],
+      "sourceBounds": [
+        1326,
+        17,
+        1492,
+        265
+      ],
+      "outputSize": [
+        41,
+        61
+      ],
+      "outputBounds": [
+        44,
+        33,
+        84,
+        94
+      ],
+      "despilledPixels": 439,
+      "foregroundPixels": 24257,
+      "discardedComponents": [
+        2,
+        1
+      ]
+    },
+    {
+      "index": 5,
+      "sourceCell": [
+        0,
+        339,
+        309,
+        653
+      ],
+      "sourceBounds": [
+        69,
+        353,
+        269,
+        628
+      ],
+      "outputSize": [
+        49,
+        67
+      ],
+      "outputBounds": [
+        39,
+        27,
+        88,
+        94
+      ],
+      "despilledPixels": 508,
+      "foregroundPixels": 29906,
+      "discardedComponents": [
+        1,
+        2,
+        2,
+        2,
+        7,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "index": 6,
+      "sourceCell": [
+        314,
+        339,
+        613,
+        653
+      ],
+      "sourceBounds": [
+        372,
+        380,
+        584,
+        626
+      ],
+      "outputSize": [
+        52,
+        60
+      ],
+      "outputBounds": [
+        38,
+        34,
+        90,
+        94
+      ],
+      "despilledPixels": 525,
+      "foregroundPixels": 27994,
+      "discardedComponents": [
+        1,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "index": 7,
+      "sourceCell": [
+        619,
+        339,
+        920,
+        653
+      ],
+      "sourceBounds": [
+        649,
+        347,
+        873,
+        642
+      ],
+      "outputSize": [
+        55,
+        72
+      ],
+      "outputBounds": [
+        36,
+        22,
+        91,
+        94
+      ],
+      "despilledPixels": 583,
+      "foregroundPixels": 33757,
+      "discardedComponents": [
+        1,
+        6,
+        1,
+        2
+      ]
+    },
+    {
+      "index": 8,
+      "sourceCell": [
+        927,
+        339,
+        1226,
+        653
+      ],
+      "sourceBounds": [
+        939,
+        339,
+        1207,
+        653
+      ],
+      "outputSize": [
+        65,
+        77
+      ],
+      "outputBounds": [
+        31,
+        17,
+        96,
+        94
+      ],
+      "despilledPixels": 648,
+      "foregroundPixels": 28258,
+      "discardedComponents": [
+        2
+      ]
+    },
+    {
+      "index": 9,
+      "sourceCell": [
+        1232,
+        339,
+        1536,
+        653
+      ],
+      "sourceBounds": [
+        1263,
+        341,
+        1516,
+        653
+      ],
+      "outputSize": [
+        62,
+        76
+      ],
+      "outputBounds": [
+        33,
+        18,
+        95,
+        94
+      ],
+      "despilledPixels": 522,
+      "foregroundPixels": 27911,
+      "discardedComponents": [
+        2
+      ]
+    },
+    {
+      "index": 10,
+      "sourceCell": [
+        0,
+        659,
+        309,
+        1024
+      ],
+      "sourceBounds": [
+        16,
+        661,
+        293,
+        1013
+      ],
+      "outputSize": [
+        68,
+        86
+      ],
+      "outputBounds": [
+        30,
+        8,
+        98,
+        94
+      ],
+      "despilledPixels": 751,
+      "foregroundPixels": 28436,
+      "discardedComponents": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "index": 11,
+      "sourceCell": [
+        314,
+        659,
+        613,
+        1024
+      ],
+      "sourceBounds": [
+        321,
+        660,
+        601,
+        996
+      ],
+      "outputSize": [
+        68,
+        82
+      ],
+      "outputBounds": [
+        30,
+        12,
+        98,
+        94
+      ],
+      "despilledPixels": 661,
+      "foregroundPixels": 27216,
+      "discardedComponents": [
+        3,
+        1
+      ]
+    },
+    {
+      "index": 12,
+      "sourceCell": [
+        619,
+        659,
+        920,
+        1024
+      ],
+      "sourceBounds": [
+        626,
+        679,
+        906,
+        1000
+      ],
+      "outputSize": [
+        68,
+        78
+      ],
+      "outputBounds": [
+        30,
+        16,
+        98,
+        94
+      ],
+      "despilledPixels": 713,
+      "foregroundPixels": 28812,
+      "discardedComponents": [
+        5,
+        1,
+        1,
+        1,
+        4,
+        5,
+        2
+      ]
+    },
+    {
+      "index": 13,
+      "sourceCell": [
+        927,
+        659,
+        1226,
+        1024
+      ],
+      "sourceBounds": [
+        948,
+        693,
+        1205,
+        999
+      ],
+      "outputSize": [
+        63,
+        75
+      ],
+      "outputBounds": [
+        32,
+        19,
+        95,
+        94
+      ],
+      "despilledPixels": 660,
+      "foregroundPixels": 28057,
+      "discardedComponents": [
+        4
+      ]
+    },
+    {
+      "index": 14,
+      "sourceCell": [
+        1232,
+        659,
+        1536,
+        1024
+      ],
+      "sourceBounds": [
+        1250,
+        721,
+        1522,
+        1010
+      ],
+      "outputSize": [
+        66,
+        71
+      ],
+      "outputBounds": [
+        31,
+        23,
+        97,
+        94
+      ],
+      "despilledPixels": 668,
+      "foregroundPixels": 30820,
+      "discardedComponents": [
+        39,
+        3,
+        4,
+        1
+      ]
+    }
+  ]
+}

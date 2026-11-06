@@ -1,0 +1,64 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "layup",
+  "direction": "right",
+  "attempt": 2,
+  "generationVariant": "reroll01",
+  "status": "rejected after source review",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-428ddc3b-a814-4729-a65e-788fff0072e6",
+  "generatedAt": "2026-10-29T03:04:28.576788Z",
+  "promptFile": "tools/generate-art/kraken-layup8-attempt02-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "66f735f2caa80d90cc6cfee07c77122e0e4138ef7da92e9c36b5d29d6c9eb5fe",
+  "referenceImages": [
+    "tools/generate-art/sources/kraken-layup8-attempt01-generated-raw.png"
+  ],
+  "rawSourceImage": "tools/generate-art/sources/kraken-layup8-attempt02-reroll01-generated-raw.png",
+  "rawSourceSha256": "683113a06986d501c457bbaad1374d8241e743a49370a399339b718258c608f1",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    254
+  ],
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "public/assets/animation/kraken-layup-right.webp"
+  ],
+  "replaces": "attempt01 had an ambiguous right shooting arm through release pose4; the new generation emphasizes continuous right shoulder/elbow/wrist/hand connection and a distinct left guide hand.",
+  "requiredFrameDurations": [
+    2,
+    3,
+    3,
+    2,
+    1,
+    3,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "takeoffTick": 2,
+    "release": 4,
+    "releaseTick": 10,
+    "peak": 4,
+    "finish": 7
+  },
+  "ballPolicy": "No basketball in source artwork; calibrate separate Kraken-specific track only after source and cleanup review.",
+  "cleanup": null,
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null
+  },
+  "rejectedAttempts": [],
+  "sourceReview": {
+    "status": "rejected",
+    "evidence": "tools/generate-art/previews/kraken-layup8-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-29.md",
+    "notes": "Same blocking style and frame0 mark defects as primary generation. See tools/generate-art/previews/kraken-layup8-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-29.md."
+  }
+}

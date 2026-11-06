@@ -1,0 +1,14 @@
+# J122 Leo dunk-tomahawk candidate review
+
+Candidate source attempt01 is the original 1536×1024, 5×3 image generation (`exec-98a48973-0958-4553-a2ef-e569b73e4473`, raw SHA-256 `3372993d76be49b2db5cc834f128811a21fac5ce5b3ee0e64411134c38a1ef0b`). The first raw-image viewer composited alpha over a dark background, which looked like an opaque brown field. Inspection of the raw alpha map and light/dark composites confirms the sheet already has transparent gaps. Attempt02 (`c2pa:7308aca7-7193-47b0-97d6-8cdfe2ffd47c`, raw SHA-256 `6a75e007566188739c1385ee85f276e2fb12db75f3c751dd15dea8be422a7f10`) is a preserved transparency-edit candidate that made no material improvement; attempt01 is preferred for lineage.
+
+The original source contains fifteen complete figures arranged as five poses across three rows. Alpha segmentation found fifteen large character components and detached one-to-two-pixel fragments. Cleanup removes only 8-connected components of six or fewer visible pixels; the raw source remains unchanged. The exact cleanup counts and source hash are in `j122-leo-dunk-tomahawk-cleanup-report.json`.
+
+Source review against the canonical pose catalog found all fifteen sequence positions present with Leo's pale face, long black hair, refined mustache, human anatomy, black/crimson kit, and no drawn ball. The takeoff, behind-crown gather, cocked hammer peak, downward release, downward finish, and recovery/landing read at full sheet size. Source reviewer notes a softer comic-cel treatment than crisp pixel-art donors; packed-resolution review is required before any runtime acceptance.
+
+The current packed atlas and light/dark proofs are candidates only. Runtime registration and track integration remain pending independent packed-size approval, native Jam Stage inspection, and real two-facing gameplay simulation.
+
+Attempt01 packed proof was not accepted: release hand10 looked closed at runtime size and frame11 did not read as a separate finish. Attempt03 (`c2pa:28240929-9491-4ec1-960b-a46045db029a`) corrected only release/finish, and independent packed proof review confirms open splayed fingers at10, a distinct empty-hand follow-through at11, and no regressions in the other poses, identity, margins, alpha or baseline. Attempt03 is the selected art source; the ball-track/native gameplay review is complete.
+
+
+Attempt10 is the selected Leo-specific track after ten preserved 60-capture trials. Two independent reviewers confirm gather at tick10, cocked-hand contact at14, descending-hand contact at20 and the separate ownerless release contact at21, both facings and100%/120% zoom. The production selector report confirms the authored Leo atlas in every capture and safe mirroring for left-facing. Full gameplay tests confirm ownership through tick20, single release at21, score at23 and land marker at30. See `j122-leo-dunk-tomahawk-track-trials.json`.

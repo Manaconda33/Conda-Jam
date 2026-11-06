@@ -1,0 +1,13 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-tomahawk",
+  "attempt": "04",
+  "generationId": "exec-f82d9325-5898-4033-b741-561535cc568c",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-tomahawk-attempt04-generated-raw.png",
+  "rawSha256": "4a648661a74cdd297bea9426fd1689570a0b3103ab7055c8752f57dfec143e13",
+  "promptFile": "tools/generate-art/kraken-dunk-tomahawk-attempt04-imagegen-prompt.txt",
+  "generator": "OpenAI ImageGen",
+  "transparentBackgroundRequested": true,
+  "status": "rejected after independent source review",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-tomahawk-attempt04/INDEPENDENT_SOURCE_REVIEW.md"
+}

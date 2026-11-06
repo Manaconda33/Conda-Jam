@@ -1,0 +1,50 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-scythe",
+  "attempt": 2,
+  "seededFrom": "attempt01 rejected provisional track; use only as starting point, retune against cleanup03 gameplay",
+  "height": [
+    0.84,
+    1.0,
+    1.33,
+    1.16,
+    1.82,
+    1.13,
+    1.4,
+    2.1,
+    2.55,
+    2.3,
+    0.76,
+    0.59,
+    0.39,
+    0.39,
+    0.64
+  ],
+  "forward": [
+    0.73,
+    -8.5,
+    7.67,
+    2.19,
+    -5.0,
+    6.94,
+    -1.4,
+    -2.8,
+    -3.5,
+    2.1,
+    9.5,
+    -4.38,
+    -6.57,
+    -1.83,
+    -5.11
+  ],
+  "status": "rejected calibration pass 01; ball too high frames8-9, too low frame6; preserved for comparison",
+  "tuningNotes": {
+    "art": "cleanup03-scaled-repack atlas, 88x96 cells, reviewed for candidate gameplay",
+    "method": "Native Jam Stage screenshots at 100% zoom; tune ball center toward visible overhead hand in poses6-9. Forward calibrated from screen-space deltas at both orientations; height calibrated from vertical ball-to-hand deltas. Release tick21 remains production simulation behavior.",
+    "pose6": "Position revised after visual review: ball was on the chest; lift 0.35 world units to hand height.",
+    "pose7": "Position revised slightly downward after visual review; ball center was 27 screen px above palm.",
+    "pose8": "Position lowered 0.85 world units after visual review; prior ball was 95 screen px above hand.",
+    "pose9": "Position lowered 0.7 world units after visual review; prior ball was 62 screen px above hand.",
+    "scope": "Only Kraken candidate track. Not production registered."
+  }
+}

@@ -18,28 +18,28 @@
   "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 10.",
   "ballTrack": {
     "height": [
-      1.05,
+      1.0,
       1.2,
-      1.45,
-      1.65,
-      1.95,
-      2.35,
-      2.1,
-      1.8,
-      1.3,
-      1.0
+      1.4,
+      1.1,
+      2.0,
+      1.7,
+      4.0,
+      2.0,
+      1.0,
+      0.0
     ],
     "forward": [
-      7.0,
-      8.0,
-      9.0,
-      9.0,
-      10.0,
-      12.0,
-      11.0,
-      9.0,
-      7.0,
-      6.0
+      5,
+      5,
+      5,
+      4,
+      3.1,
+      0.7,
+      2,
+      4,
+      6,
+      7
     ]
   },
   "cleanup": {
@@ -56,5 +56,39 @@
     "public/assets/animation/krios-dribble-right.webp",
     "public/assets/captain-gameplay-sprites.png"
   ],
-  "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references."
+  "historicalSourceAvailability": "Original 42-pose input and cleaned sheet referenced by krios-locomotion42-final-provenance.json are unavailable in current workspace; compiled Krios atlases and captain crop were used as identity references.",
+  "ballTrackReview": {
+    "status": "accepted",
+    "attempt": 7,
+    "nativeReport": "tools/generate-art/previews/j128-krios-shoot-track-candidate/attempt-07/native/report.json",
+    "trialNotes": "tools/generate-art/previews/j128-krios-shoot-track-candidate/TRIALS.md",
+    "reviewNotes": "Independent native Jam Stage review accepted frame2\u20135 hand contact, tick13 release, both facing directions, 100%/120% zoom, and frames6\u20139 free flight."
+  },
+  "runtimeBallTrack": {
+    "height": [
+      1,
+      1.2,
+      1.4,
+      1.1,
+      2,
+      1.7,
+      4,
+      2,
+      1,
+      0
+    ],
+    "forward": [
+      5,
+      5,
+      5,
+      4,
+      3.1,
+      0.7,
+      2,
+      4,
+      6,
+      7
+    ],
+    "reviewed": true
+  }
 }

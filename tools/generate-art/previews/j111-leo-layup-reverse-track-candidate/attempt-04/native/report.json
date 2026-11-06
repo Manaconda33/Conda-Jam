@@ -1,0 +1,1479 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4227/",
+  "athlete": "leo",
+  "clip": "layup-reverse",
+  "candidateAtlas": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+  "candidateTrack": {
+    "height": [
+      0.4,
+      1.61,
+      1.98,
+      2.6,
+      2.65,
+      2.65,
+      1.45,
+      0.84
+    ],
+    "forward": [
+      5.85,
+      6.58,
+      4.02,
+      4.5,
+      4.5,
+      5.8,
+      6.58,
+      5.85
+    ]
+  },
+  "simulation": "Actual production stepMatch loop. A single setup action initializes the existing layup-reverse shot state on a one-player diagnostic match because courtY=90 is outside queueShot close-range criteria. Track injected into served animation module in-page only; no production files changed.",
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 90,
+  "grid": "10 actual simulation checkpoints across both facings \u00d7 100%/120% = 40 captures",
+  "captureMethod": "Jam Stage starts from the normal roster, then a one-time diagnostic fixture keeps only Leo in frame and initializes the production layup-reverse shot action. Production stepMatch advances animation, takeoff, carried-ball track, release, and flight continuously. No manual per-tick teleporting; no pause overlay; no ball baked into art.",
+  "captures": [
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick00-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 106.58,
+        "y": 90,
+        "z": 1.61,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick02-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.02,
+        "y": 90,
+        "z": 3.0911404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick05-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 4.26293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick07-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 4.65,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick10-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105.15,
+        "y": 90,
+        "z": 4.599855824363647,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick11-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 106.66930517063471,
+        "y": 89.58120804612719,
+        "z": 5.165514291346041,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 1.2016595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick12-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 107.53861034126943,
+        "y": 89.16241609225438,
+        "z": 6.3671738658141255,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 1.1756595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick13-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 111.0158310238083,
+        "y": 87.48724827676313,
+        "z": 10.913812163686467,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 1.071659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick17-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 113.62374653571246,
+        "y": 86.23087241514469,
+        "z": 14.05079088709072,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 0.993659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick20-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick00-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 93.42,
+        "y": 90,
+        "z": 1.61,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick02-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.98,
+        "y": 90,
+        "z": 3.0911404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick05-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 4.26293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick07-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 4.65,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick10-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 94.85,
+        "y": 90,
+        "z": 4.599855824363647,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick11-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.19075483725784,
+        "y": 89.58120804612719,
+        "z": 5.165514291346041,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 1.2016595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick12-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 96.18150967451568,
+        "y": 89.16241609225438,
+        "z": 6.3671738658141255,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 1.1756595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick13-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 100.14452902354704,
+        "y": 87.48724827676313,
+        "z": 10.913812163686467,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 1.071659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick17-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 103.11679353532055,
+        "y": 86.23087241514469,
+        "z": 14.05079088709072,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 0.993659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick20-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick00-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 106.58,
+        "y": 90,
+        "z": 1.61,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick02-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.02,
+        "y": 90,
+        "z": 3.0911404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick05-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 4.26293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick07-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 4.65,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick10-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105.15,
+        "y": 90,
+        "z": 4.599855824363647,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick11-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 106.66930517063471,
+        "y": 89.58120804612719,
+        "z": 5.165514291346041,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 1.2016595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick12-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 107.53861034126943,
+        "y": 89.16241609225438,
+        "z": 6.3671738658141255,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 1.1756595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick13-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 111.0158310238083,
+        "y": 87.48724827676313,
+        "z": 10.913812163686467,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 1.071659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick17-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 113.62374653571246,
+        "y": 86.23087241514469,
+        "z": 14.05079088709072,
+        "vx": 0.8693051706347211,
+        "vy": -0.4187919538728156,
+        "vz": 0.993659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-right-tick20-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick00-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 93.42,
+        "y": 90,
+        "z": 1.61,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick02-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.98,
+        "y": 90,
+        "z": 3.0911404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick05-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 4.26293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick07-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 4.65,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick10-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 94.85,
+        "y": 90,
+        "z": 4.599855824363647,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick11-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 95.19075483725784,
+        "y": 89.58120804612719,
+        "z": 5.165514291346041,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 1.2016595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick12-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 96.18150967451568,
+        "y": 89.16241609225438,
+        "z": 6.3671738658141255,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 1.1756595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick13-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 100.14452902354704,
+        "y": 87.48724827676313,
+        "z": 10.913812163686467,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 1.071659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick17-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 103.11679353532055,
+        "y": 86.23087241514469,
+        "z": 14.05079088709072,
+        "vx": 0.9907548372578376,
+        "vy": -0.4187919538728156,
+        "vz": 0.993659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-04/native/actual-left-tick20-zoom120.png"
+    }
+  ],
+  "setupFixture": "One-time diagnostic fixture on the current Jam Stage: single Leo at court x=100,y=90 with the production layup-reverse shot action initialized. Production stepMatch owns subsequent animation, elevation, ball, release, and flight updates.",
+  "captureCount": 40,
+  "uncaughtBrowserErrors": []
+}

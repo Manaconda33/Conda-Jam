@@ -1,0 +1,24 @@
+Create one flat sprite source sheet with EXACTLY FIFTEEN separate full-body drawings of the same athlete Krios, arranged as a 5-column by 3-row grid. Read left to right across each row. Keep one complete figure inside each equal cell with clear empty gutters; no horn, hand, foot or shoe may be cropped. Solid chroma green RGB(0,255,0), no grid lines, text, labels, gradients, floor, shadows, court, hoop, ball, teammates, motion marks or decorations.
+
+STYLE: crisp 16-bit pixel art with deliberate square pixel clusters, hard stepped outlines, limited palette, clustered highlights and shadows. Match the accepted compact sprite style. No painterly rendering, soft gradients, airbrush, antialiasing, 3D lighting or photographic texture. Consistent pixel scale, silhouette, outline weight, light direction, body size and ground baseline. Full figures readable at 64x96 pixels. Three-quarter right-facing throughout.
+
+Krios is the canonical Scoria Rams captain: colossal adult male with vivid volcanic-red skin, huge curled black ram horns, thick charcoal beard, recognizable strong human face, massive muscular human anatomy, charcoal-black sleeveless basketball jersey and shorts with ember-red piping, dark shoes. Preserve this same identity, facial design, horns and build in all 15 frames. Chest plain charcoal with subtle ember trim only: no logo, emblem, number, text, badge or symbol. Exactly two attached arms/hands and two attached legs/feet. Do not draw any basketball; it is a separate gameplay sprite.
+
+Draw these FIFTEEN distinct dunk-windmill frames in order, preserving the same one-hand finishing arm and a broad continuous windmill circle:
+0. Approach, staggered feet, forward-pitched torso and gaze toward the imaginary rim at right. One hand holds low outside hip; opposite arm bends for balance.
+1. Plant lead foot, sink hips, raise rear heel, load chest; finishing hand draws farther back by outer thigh while free elbow points forward.
+2. TAKEOFF: both feet clear floor after leg extension; torso rises; finishing arm extends downward and back behind hip to begin its circular sweep.
+3. Early ascent, lead knee at waist and trailing leg folded backward; straight finishing arm sweeps behind torso at rear-waist height.
+4. Mid-ascent, knees gathered under hips and chest rising; ball arm arcs back and up behind shoulder; free palm reaches forward.
+5. GRAB: stabilize shoulders in air; finishing hand closes in a one-hand invisible-ball grip beside rear shoulder. Free hand stays distinct and open.
+6. Late ascent, stretched torso, tucked knees; long straight finishing arm swings overhead from behind crown, free arm down.
+7. PEAK: highest body point with tucked feet; finishing arm reaches directly overhead at the top of the broad circular windmill arc.
+8. Descent starts toward the right rim; legs trail; nearly straight finishing arm continues forward along the circle.
+9. Pre-release, torso drives forward and knees unfold behind; finishing hand sweeps from overhead toward front rim; free elbow pulls backward.
+10. RELEASE: open fingertips complete the downward circular stroke through the scoring plane; ball has left the hand. Clearly distinct from frames9 and11.
+11. FINISH: immediate post-release follow-through, body trailing the rim; finishing arm follows below shoulder in front while free arm opens sideways.
+12. Drop-away, hands separate from imaginary rim and torso returns upright; empty finishing arm completes a low front arc near opposite hip.
+13. Landing approach, both legs unfold below; arms widen asymmetrically for balance, finishing hand low and free hand shoulder-high.
+14. LAND: both feet meet the floor, knees bend deeply, torso and arms absorb impact; finishing arm folds toward ribs and free arm steadies landing.
+
+The imaginary rim is to the character's right and remains outside the sheet. Do not draw it or anything resembling it. Show a continuous explosive jump with a clearly one-handed grab, a large readable circular windmill arm path, one-hand release, and controlled landing. Keep all 15 silhouettes clearly distinct, complete and consistently rendered. Exactly fifteen figures: no repeated, missing, extra, cropped, or merged pose.

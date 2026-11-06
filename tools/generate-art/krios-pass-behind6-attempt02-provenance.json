@@ -1,0 +1,17 @@
+{
+  "athlete": "J.128 Krios",
+  "clip": "pass-behind",
+  "attempt": 2,
+  "generationId": "exec-f2582f28-7a75-402b-b259-5b9f748e772c",
+  "generatedAt": "2026-10-28T00:03:04Z",
+  "promptFile": "tools/generate-art/krios-pass-behind6-attempt02-prompt.md",
+  "rawImage": "tools/generate-art/sources/krios-pass-behind6-attempt02-generated-raw.png",
+  "rawSha256": "258e6b248ac58de5a36806cc2850890f2d05b1a88053a64d115ae203bbc10092",
+  "rawDimensions": [1536, 1024],
+  "referenceImages": [
+    "tools/generate-art/sources/krios-pass-behind6-attempt01-generated-raw.png",
+    "public/assets/animation/krios-pass-overhead-right.webp"
+  ],
+  "status": "rejected",
+  "rejection": "Image edit preserved the same dark red glow/backdrop pixels and smooth painterly rendering despite requesting removal. No atlas or runtime registration was made."
+}

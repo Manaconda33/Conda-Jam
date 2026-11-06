@@ -1,0 +1,164 @@
+{
+  "rawSource": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt02-generated-raw.png",
+  "rawSha256": "9c4709947042d4e687c15687951fe31db2784f012311f863e0d9b796d9fa04cb",
+  "cleanedSource": "tools/generate-art/sources/j125-leo-dunk-scythe-attempt02-cleaned-components.png",
+  "cleanedSourceSha256": "e320cd1c4496feb6239e0d9d87154acf372fe324aec1576c2cc6ceb26f1ad87d",
+  "thresholdAlphaBelow": 16,
+  "retainedFigureComponents": 15,
+  "removedComponents": 0,
+  "removedVisiblePixels": 0,
+  "discardedAlphaPixels": 118878,
+  "componentBounds": [
+    {
+      "poseIndex": 0,
+      "bbox": [
+        88,
+        121,
+        258,
+        320
+      ],
+      "pixels": 16826
+    },
+    {
+      "poseIndex": 1,
+      "bbox": [
+        387,
+        137,
+        572,
+        320
+      ],
+      "pixels": 16659
+    },
+    {
+      "poseIndex": 2,
+      "bbox": [
+        682,
+        106,
+        865,
+        316
+      ],
+      "pixels": 15507
+    },
+    {
+      "poseIndex": 3,
+      "bbox": [
+        1002,
+        100,
+        1176,
+        320
+      ],
+      "pixels": 16593
+    },
+    {
+      "poseIndex": 4,
+      "bbox": [
+        1293,
+        115,
+        1439,
+        320
+      ],
+      "pixels": 16820
+    },
+    {
+      "poseIndex": 5,
+      "bbox": [
+        81,
+        422,
+        280,
+        628
+      ],
+      "pixels": 16767
+    },
+    {
+      "poseIndex": 6,
+      "bbox": [
+        410,
+        398,
+        606,
+        647
+      ],
+      "pixels": 18326
+    },
+    {
+      "poseIndex": 7,
+      "bbox": [
+        698,
+        362,
+        932,
+        609
+      ],
+      "pixels": 19429
+    },
+    {
+      "poseIndex": 8,
+      "bbox": [
+        975,
+        430,
+        1168,
+        647
+      ],
+      "pixels": 18604
+    },
+    {
+      "poseIndex": 9,
+      "bbox": [
+        1293,
+        455,
+        1493,
+        662
+      ],
+      "pixels": 17276
+    },
+    {
+      "poseIndex": 10,
+      "bbox": [
+        73,
+        714,
+        309,
+        962
+      ],
+      "pixels": 18701
+    },
+    {
+      "poseIndex": 11,
+      "bbox": [
+        393,
+        732,
+        581,
+        941
+      ],
+      "pixels": 16535
+    },
+    {
+      "poseIndex": 12,
+      "bbox": [
+        713,
+        743,
+        859,
+        953
+      ],
+      "pixels": 14771
+    },
+    {
+      "poseIndex": 13,
+      "bbox": [
+        945,
+        748,
+        1222,
+        954
+      ],
+      "pixels": 20322
+    },
+    {
+      "poseIndex": 14,
+      "bbox": [
+        1315,
+        773,
+        1458,
+        956
+      ],
+      "pixels": 15408
+    }
+  ],
+  "method": "Preserved the 15 largest >=50-pixel alpha>=16 connected components, one uniquely assigned to each source-grid cell; discarded all low-alpha and detached non-figure pixels. Raw source is unmodified."
+}

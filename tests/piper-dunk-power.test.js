@@ -69,4 +69,9 @@ test('Piper J.115 keeps possession through tick20, releases once at21, and score
  for(let tick=0;tick<4&&!match.scoredAttempts?.includes(attemptId);tick++)stepMatch(match,neutral());
  assert.deepEqual(match.scoredAttempts,[attemptId]);assert.deepEqual(match.score,[2,0]);
  assert.equal(piper.points,2);assert.equal(piper.dunks,1);assert.equal(match.ball.mode,'dead');assert.equal(match.ball.ownerId,null);
+ assert.equal(piper.animation.clip,'dunk-power','the authored finish and landing frames remain visible after the score commits');
+ assert.equal(piper.animation.tick,23);
+ while(piper.animation.clip==='dunk-power')stepMatch(match,neutral());
+ assert.equal(piper.animation.clip,'celebrate','celebration follows the authored landing instead of replacing it');
+ assert.equal(piper.animation.tick,0);
 });

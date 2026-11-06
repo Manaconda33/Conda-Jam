@@ -1,0 +1,6145 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "krios",
+  "clip": "layup",
+  "candidateAtlas": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+  "candidateTrack": {
+    "height": [
+      0.9,
+      1.15,
+      1.55,
+      2.05,
+      2.25,
+      2.0,
+      1.1,
+      0.7
+    ],
+    "forward": [
+      4,
+      4.5,
+      4.5,
+      5,
+      6,
+      6,
+      6,
+      4
+    ],
+    "releaseVz": 0.45
+  },
+  "runtimeIntegration": false,
+  "court": "current Jam Stage court geometry in this worktree; scoria-rams vs blackthorn-court-kings",
+  "courtY": 90,
+  "frameStartTicks": [
+    0,
+    2,
+    5,
+    8,
+    10,
+    11,
+    14,
+    18
+  ],
+  "frameDurations": [
+    2,
+    3,
+    3,
+    2,
+    1,
+    3,
+    4,
+    4
+  ],
+  "sampleTicks": [
+    0,
+    2,
+    5,
+    8,
+    9,
+    10,
+    11,
+    14,
+    18,
+    21,
+    22,
+    30,
+    40,
+    49,
+    50,
+    60
+  ],
+  "captureMethod": "Candidate-only atlas and athleteBallTracks are injected before startup; a one-time diagnostic shot action initializes Krios at the attacking end of the current court. The camera is warmed through 100 ordinary carried-ball ticks before production stepMatch advances the layup. No per-tick ball teleporting. This is candidate calibration, not registered-runtime acceptance.",
+  "captures": [
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 179,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "170.066",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick00-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 180.5,
+        "y": 90,
+        "z": 1.15,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "170.307",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick02-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 180.5,
+        "y": 90,
+        "z": 2.661140466039204,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "170.608",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick05-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "animationTick": 8,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.8477590650225735,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 181,
+        "y": 90,
+        "z": 3.8977590650225733,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "170.849",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick08-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "animationTick": 9,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 181.5,
+        "y": 90,
+        "z": 4.111570560806461,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "170.918",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick09-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 182.1954407250587,
+        "y": 88.85536273174345,
+        "z": 3.2,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.424,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "170.983",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick10-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 5,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 182.39088145011738,
+        "y": 87.71072546348691,
+        "z": 3.624,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.39799999999999996,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.043",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick11-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "animationTick": 14,
+      "frame": 6,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.414213562373095,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 182.97720362529344,
+        "y": 84.27681365871727,
+        "z": 4.74,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.3199999999999999,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.198",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick14-zoom100.png"
+    },
+    {
+      "tick": 18,
+      "animationTick": 18,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 183.7589665255282,
+        "y": 79.69826458569109,
+        "z": 5.864,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.21599999999999986,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.359",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick18-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "animationTick": 21,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 184.34528870070426,
+        "y": 76.26435278092146,
+        "z": 6.433999999999999,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.13799999999999987,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.452",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick21-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "animationTick": 0,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 184.54072942576295,
+        "y": 75.11971551266491,
+        "z": 6.571999999999999,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.11199999999999988,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.478",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick22-zoom100.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 8,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 186.10425522623245,
+        "y": 65.96261736661255,
+        "z": 6.739999999999998,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.0960000000000001,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.634",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick30-zoom100.png"
+    },
+    {
+      "tick": 40,
+      "animationTick": 18,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 188.05866247681934,
+        "y": 54.51624468404716,
+        "z": 4.609999999999998,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.3560000000000002,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.736",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick40-zoom100.png"
+    },
+    {
+      "tick": 49,
+      "animationTick": 4,
+      "frame": null,
+      "animationClip": "celebrate",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 189.03586610211278,
+        "y": 48.79305834276447,
+        "z": 2.5699999999999967,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.4860000000000003,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "171.781",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick49-zoom100.png"
+    },
+    {
+      "tick": 50,
+      "animationTick": 5,
+      "frame": null,
+      "animationClip": "celebrate",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 189.03586610211278,
+        "y": 48.79305834276447,
+        "z": 2.5699999999999967,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.4860000000000003,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "171.785",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick50-zoom100.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 15,
+      "frame": null,
+      "animationClip": "celebrate",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 189.03586610211278,
+        "y": 48.79305834276447,
+        "z": 2.5699999999999967,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.4860000000000003,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "171.808",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick60-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 21,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "91.008",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick00-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 19.5,
+        "y": 90,
+        "z": 1.15,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "89.408",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick02-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 19.5,
+        "y": 90,
+        "z": 2.661140466039204,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "87.008",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick05-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "animationTick": 8,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.8477590650225735,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 19,
+        "y": 90,
+        "z": 3.8977590650225733,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "84.608",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick08-zoom100.png"
+    },
+    {
+      "tick": 9,
+      "animationTick": 9,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 18.5,
+        "y": 90,
+        "z": 4.111570560806461,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "83.808",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick09-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 19.25,
+        "y": 88.85536273174345,
+        "z": 3.2,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.424,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "83.008",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick10-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 5,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 20.5,
+        "y": 87.71072546348691,
+        "z": 3.624,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.39799999999999996,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "82.208",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick11-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "animationTick": 14,
+      "frame": 6,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.414213562373095,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 24.25,
+        "y": 84.27681365871727,
+        "z": 4.74,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.3199999999999999,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "79.808",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick14-zoom100.png"
+    },
+    {
+      "tick": 18,
+      "animationTick": 18,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 29.25,
+        "y": 79.69826458569109,
+        "z": 5.864,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.21599999999999986,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "76.608",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick18-zoom100.png"
+    },
+    {
+      "tick": 21,
+      "animationTick": 21,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 33,
+        "y": 76.26435278092146,
+        "z": 6.433999999999999,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.13799999999999987,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "74.208",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick21-zoom100.png"
+    },
+    {
+      "tick": 22,
+      "animationTick": 0,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 34.25,
+        "y": 75.11971551266491,
+        "z": 6.571999999999999,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.11199999999999988,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "73.408",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick22-zoom100.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 8,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 44.25,
+        "y": 65.96261736661255,
+        "z": 6.739999999999998,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": -0.0960000000000001,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "67.008",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick30-zoom100.png"
+    },
+    {
+      "tick": 40,
+      "animationTick": 18,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 56.75,
+        "y": 54.51624468404716,
+        "z": 4.609999999999998,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": -0.3560000000000002,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "59.008",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick40-zoom100.png"
+    },
+    {
+      "tick": 49,
+      "animationTick": 27,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 68,
+        "y": 44.214509269738315,
+        "z": 0.4699999999999954,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": -0.5900000000000004,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "54.412",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick49-zoom100.png"
+    },
+    {
+      "tick": 50,
+      "animationTick": 28,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 69.25,
+        "y": 43.06987200148178,
+        "z": 0,
+        "vx": 0.8999999999999999,
+        "vy": -0.8241388331447093,
+        "vz": 0.45880000000000026,
+        "mode": "loose",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        },
+        {
+          "tick": 49,
+          "text": "Rebound!"
+        }
+      ],
+      "cameraX": "54.596",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick50-zoom100.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 38,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 78.25000000000006,
+        "y": 34.82848367003469,
+        "z": 3.4180000000000015,
+        "vx": 0.8999999999999999,
+        "vy": -0.8241388331447093,
+        "vz": 0.1988000000000001,
+        "mode": "loose",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        },
+        {
+          "tick": 49,
+          "text": "Rebound!"
+        }
+      ],
+      "cameraX": "60.828",
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick60-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 179,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "166.346",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick00-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 180.5,
+        "y": 90,
+        "z": 1.15,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "167.094",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick02-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 180.5,
+        "y": 90,
+        "z": 2.661140466039204,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "168.029",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick05-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "animationTick": 8,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.8477590650225735,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 181,
+        "y": 90,
+        "z": 3.8977590650225733,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "168.780",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick08-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "animationTick": 9,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 181.5,
+        "y": 90,
+        "z": 4.111570560806461,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [],
+      "cameraX": "168.995",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick09-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 182.1954407250587,
+        "y": 88.85536273174345,
+        "z": 3.2,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.424,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "169.196",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick10-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 5,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 182.39088145011738,
+        "y": 87.71072546348691,
+        "z": 3.624,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.39799999999999996,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "169.382",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick11-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "animationTick": 14,
+      "frame": 6,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 1.414213562373095,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 182.97720362529344,
+        "y": 84.27681365871727,
+        "z": 4.74,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.3199999999999999,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "169.865",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick14-zoom120.png"
+    },
+    {
+      "tick": 18,
+      "animationTick": 18,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 183.7589665255282,
+        "y": 79.69826458569109,
+        "z": 5.864,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.21599999999999986,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "170.365",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick18-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "animationTick": 21,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 184.34528870070426,
+        "y": 76.26435278092146,
+        "z": 6.433999999999999,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.13799999999999987,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "170.654",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick21-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "animationTick": 0,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 184.54072942576295,
+        "y": 75.11971551266491,
+        "z": 6.571999999999999,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": 0.11199999999999988,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "170.737",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick22-zoom120.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 8,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 186.10425522623245,
+        "y": 65.96261736661255,
+        "z": 6.739999999999998,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.0960000000000001,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.222",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick30-zoom120.png"
+    },
+    {
+      "tick": 40,
+      "animationTick": 18,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 188.05866247681934,
+        "y": 54.51624468404716,
+        "z": 4.609999999999998,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.3560000000000002,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        }
+      ],
+      "cameraX": "171.538",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick40-zoom120.png"
+    },
+    {
+      "tick": 49,
+      "animationTick": 4,
+      "frame": null,
+      "animationClip": "celebrate",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 189.03586610211278,
+        "y": 48.79305834276447,
+        "z": 2.5699999999999967,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.4860000000000003,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "171.679",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick49-zoom120.png"
+    },
+    {
+      "tick": 50,
+      "animationTick": 5,
+      "frame": null,
+      "animationClip": "celebrate",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 189.03586610211278,
+        "y": 48.79305834276447,
+        "z": 2.5699999999999967,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.4860000000000003,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "171.690",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick50-zoom120.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 15,
+      "frame": null,
+      "animationClip": "celebrate",
+      "action": null,
+      "player": {
+        "x": 176,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 189.03586610211278,
+        "y": 48.79305834276447,
+        "z": 2.5699999999999967,
+        "vx": 0.19544072505869664,
+        "vy": -1.1446372682565407,
+        "vz": -0.4860000000000003,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        2,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "171.762",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick60-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 21,
+        "y": 90,
+        "z": 1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "104.429",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick00-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 19.5,
+        "y": 90,
+        "z": 1.15,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "103.096",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick02-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 19.5,
+        "y": 90,
+        "z": 2.661140466039204,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "101.096",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick05-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "animationTick": 8,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.8477590650225735,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 19,
+        "y": 90,
+        "z": 3.8977590650225733,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "99.096",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick08-zoom120.png"
+    },
+    {
+      "tick": 9,
+      "animationTick": 9,
+      "frame": 3,
+      "animationClip": "layup",
+      "action": "shot",
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 18.5,
+        "y": 90,
+        "z": 4.111570560806461,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "krios",
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        }
+      ],
+      "cameraX": "98.429",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick09-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 19.25,
+        "y": 88.85536273174345,
+        "z": 3.2,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.424,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "97.762",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick10-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 5,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.9615705608064609,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 20.5,
+        "y": 87.71072546348691,
+        "z": 3.624,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.39799999999999996,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "97.096",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick11-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "animationTick": 14,
+      "frame": 6,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 1.414213562373095,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 24.25,
+        "y": 84.27681365871727,
+        "z": 4.74,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.3199999999999999,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "95.096",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick14-zoom120.png"
+    },
+    {
+      "tick": 18,
+      "animationTick": 18,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 29.25,
+        "y": 79.69826458569109,
+        "z": 5.864,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.21599999999999986,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "92.429",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick18-zoom120.png"
+    },
+    {
+      "tick": 21,
+      "animationTick": 21,
+      "frame": 7,
+      "animationClip": "layup",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 33,
+        "y": 76.26435278092146,
+        "z": 6.433999999999999,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.13799999999999987,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "90.429",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick21-zoom120.png"
+    },
+    {
+      "tick": 22,
+      "animationTick": 0,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 34.25,
+        "y": 75.11971551266491,
+        "z": 6.571999999999999,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": 0.11199999999999988,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "89.762",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick22-zoom120.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 8,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 44.25,
+        "y": 65.96261736661255,
+        "z": 6.739999999999998,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": -0.0960000000000001,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "84.429",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick30-zoom120.png"
+    },
+    {
+      "tick": 40,
+      "animationTick": 18,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 56.75,
+        "y": 54.51624468404716,
+        "z": 4.609999999999998,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": -0.3560000000000002,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "77.762",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick40-zoom120.png"
+    },
+    {
+      "tick": 49,
+      "animationTick": 27,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 68,
+        "y": 44.214509269738315,
+        "z": 0.4699999999999954,
+        "vx": 1.25,
+        "vy": -1.1446372682565407,
+        "vz": -0.5900000000000004,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        }
+      ],
+      "cameraX": "71.762",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick49-zoom120.png"
+    },
+    {
+      "tick": 50,
+      "animationTick": 28,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 69.25,
+        "y": 43.06987200148178,
+        "z": 0,
+        "vx": 0.8999999999999999,
+        "vy": -0.8241388331447093,
+        "vz": 0.45880000000000026,
+        "mode": "loose",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        },
+        {
+          "tick": 49,
+          "text": "Rebound!"
+        }
+      ],
+      "cameraX": "71.096",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick50-zoom120.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 38,
+      "frame": null,
+      "animationClip": "idle",
+      "action": null,
+      "player": {
+        "x": 24,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 78.25000000000006,
+        "y": 34.82848367003469,
+        "z": 3.4180000000000015,
+        "vx": 0.8999999999999999,
+        "vy": -0.8241388331447093,
+        "vz": 0.1988000000000001,
+        "mode": "loose",
+        "ownerId": null,
+        "made": true
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "events": [
+        {
+          "tick": 9,
+          "text": "Krios launches a 2-pointer"
+        },
+        {
+          "tick": 44,
+          "text": "Krios scores 2!"
+        },
+        {
+          "tick": 9,
+          "text": "Krios launches a 3-pointer"
+        },
+        {
+          "tick": 49,
+          "text": "Rebound!"
+        }
+      ],
+      "cameraX": "69.327",
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick60-zoom120.png"
+    }
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "animationTick": 0,
+          "frame": 0,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 179,
+            "y": 90,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "170.066",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "animationTick": 2,
+          "frame": 1,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 180.5,
+            "y": 90,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "170.307",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick02-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "animationTick": 5,
+          "frame": 2,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.1111404660392044,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 180.5,
+            "y": 90,
+            "z": 2.661140466039204,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "170.608",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick05-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "animationTick": 8,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.8477590650225735,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 181,
+            "y": 90,
+            "z": 3.8977590650225733,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "170.849",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick08-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "animationTick": 9,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 181.5,
+            "y": 90,
+            "z": 4.111570560806461,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "170.918",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "animationTick": 10,
+          "frame": 4,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 2,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 182.1954407250587,
+            "y": 88.85536273174345,
+            "z": 3.2,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.424,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "170.983",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick10-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "animationTick": 11,
+          "frame": 5,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 182.39088145011738,
+            "y": 87.71072546348691,
+            "z": 3.624,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.39799999999999996,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.043",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "animationTick": 14,
+          "frame": 6,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.414213562373095,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 182.97720362529344,
+            "y": 84.27681365871727,
+            "z": 4.74,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.3199999999999999,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.198",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "animationTick": 18,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 183.7589665255282,
+            "y": 79.69826458569109,
+            "z": 5.864,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.21599999999999986,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.359",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "animationTick": 21,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 184.34528870070426,
+            "y": 76.26435278092146,
+            "z": 6.433999999999999,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.13799999999999987,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.452",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick21-zoom100.png"
+        },
+        {
+          "tick": 22,
+          "animationTick": 0,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 184.54072942576295,
+            "y": 75.11971551266491,
+            "z": 6.571999999999999,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.11199999999999988,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.478",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick22-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "animationTick": 8,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 186.10425522623245,
+            "y": 65.96261736661255,
+            "z": 6.739999999999998,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.0960000000000001,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.634",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick30-zoom100.png"
+        },
+        {
+          "tick": 40,
+          "animationTick": 18,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 188.05866247681934,
+            "y": 54.51624468404716,
+            "z": 4.609999999999998,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.3560000000000002,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.736",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick40-zoom100.png"
+        },
+        {
+          "tick": 49,
+          "animationTick": 4,
+          "frame": null,
+          "animationClip": "celebrate",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 189.03586610211278,
+            "y": 48.79305834276447,
+            "z": 2.5699999999999967,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.4860000000000003,
+            "mode": "dead",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "171.781",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick49-zoom100.png"
+        },
+        {
+          "tick": 50,
+          "animationTick": 5,
+          "frame": null,
+          "animationClip": "celebrate",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 189.03586610211278,
+            "y": 48.79305834276447,
+            "z": 2.5699999999999967,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.4860000000000003,
+            "mode": "dead",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "171.785",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick50-zoom100.png"
+        },
+        {
+          "tick": 60,
+          "animationTick": 15,
+          "frame": null,
+          "animationClip": "celebrate",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 189.03586610211278,
+            "y": 48.79305834276447,
+            "z": 2.5699999999999967,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.4860000000000003,
+            "mode": "dead",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "171.808",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick60-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "animationTick": 0,
+          "frame": 0,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 21,
+            "y": 90,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "91.008",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick00-zoom100.png"
+        },
+        {
+          "tick": 2,
+          "animationTick": 2,
+          "frame": 1,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 19.5,
+            "y": 90,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "89.408",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick02-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "animationTick": 5,
+          "frame": 2,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.1111404660392044,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 19.5,
+            "y": 90,
+            "z": 2.661140466039204,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "87.008",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick05-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "animationTick": 8,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.8477590650225735,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 19,
+            "y": 90,
+            "z": 3.8977590650225733,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "84.608",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick08-zoom100.png"
+        },
+        {
+          "tick": 9,
+          "animationTick": 9,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 18.5,
+            "y": 90,
+            "z": 4.111570560806461,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "83.808",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick09-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "animationTick": 10,
+          "frame": 4,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 2,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 19.25,
+            "y": 88.85536273174345,
+            "z": 3.2,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.424,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "83.008",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick10-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "animationTick": 11,
+          "frame": 5,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 20.5,
+            "y": 87.71072546348691,
+            "z": 3.624,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.39799999999999996,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "82.208",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "animationTick": 14,
+          "frame": 6,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.414213562373095,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 24.25,
+            "y": 84.27681365871727,
+            "z": 4.74,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.3199999999999999,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "79.808",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "animationTick": 18,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 29.25,
+            "y": 79.69826458569109,
+            "z": 5.864,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.21599999999999986,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "76.608",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick18-zoom100.png"
+        },
+        {
+          "tick": 21,
+          "animationTick": 21,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 33,
+            "y": 76.26435278092146,
+            "z": 6.433999999999999,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.13799999999999987,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "74.208",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick21-zoom100.png"
+        },
+        {
+          "tick": 22,
+          "animationTick": 0,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 34.25,
+            "y": 75.11971551266491,
+            "z": 6.571999999999999,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.11199999999999988,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "73.408",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick22-zoom100.png"
+        },
+        {
+          "tick": 30,
+          "animationTick": 8,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 44.25,
+            "y": 65.96261736661255,
+            "z": 6.739999999999998,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": -0.0960000000000001,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "67.008",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick30-zoom100.png"
+        },
+        {
+          "tick": 40,
+          "animationTick": 18,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 56.75,
+            "y": 54.51624468404716,
+            "z": 4.609999999999998,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": -0.3560000000000002,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "59.008",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick40-zoom100.png"
+        },
+        {
+          "tick": 49,
+          "animationTick": 27,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 68,
+            "y": 44.214509269738315,
+            "z": 0.4699999999999954,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": -0.5900000000000004,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "54.412",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick49-zoom100.png"
+        },
+        {
+          "tick": 50,
+          "animationTick": 28,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 69.25,
+            "y": 43.06987200148178,
+            "z": 0,
+            "vx": 0.8999999999999999,
+            "vy": -0.8241388331447093,
+            "vz": 0.45880000000000026,
+            "mode": "loose",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            },
+            {
+              "tick": 49,
+              "text": "Rebound!"
+            }
+          ],
+          "cameraX": "54.596",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick50-zoom100.png"
+        },
+        {
+          "tick": 60,
+          "animationTick": 38,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 78.25000000000006,
+            "y": 34.82848367003469,
+            "z": 3.4180000000000015,
+            "vx": 0.8999999999999999,
+            "vy": -0.8241388331447093,
+            "vz": 0.1988000000000001,
+            "mode": "loose",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            },
+            {
+              "tick": 49,
+              "text": "Rebound!"
+            }
+          ],
+          "cameraX": "60.828",
+          "zoom": 100,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick60-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "animationTick": 0,
+          "frame": 0,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 179,
+            "y": 90,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "166.346",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "animationTick": 2,
+          "frame": 1,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 180.5,
+            "y": 90,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "167.094",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick02-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "animationTick": 5,
+          "frame": 2,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.1111404660392044,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 180.5,
+            "y": 90,
+            "z": 2.661140466039204,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "168.029",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick05-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "animationTick": 8,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.8477590650225735,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 181,
+            "y": 90,
+            "z": 3.8977590650225733,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "168.780",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick08-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "animationTick": 9,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 181.5,
+            "y": 90,
+            "z": 4.111570560806461,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": null
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "cameraX": "168.995",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "animationTick": 10,
+          "frame": 4,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 2,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 182.1954407250587,
+            "y": 88.85536273174345,
+            "z": 3.2,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.424,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "169.196",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick10-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "animationTick": 11,
+          "frame": 5,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 182.39088145011738,
+            "y": 87.71072546348691,
+            "z": 3.624,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.39799999999999996,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "169.382",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "animationTick": 14,
+          "frame": 6,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 1.414213562373095,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 182.97720362529344,
+            "y": 84.27681365871727,
+            "z": 4.74,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.3199999999999999,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "169.865",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "animationTick": 18,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 183.7589665255282,
+            "y": 79.69826458569109,
+            "z": 5.864,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.21599999999999986,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "170.365",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "animationTick": 21,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 184.34528870070426,
+            "y": 76.26435278092146,
+            "z": 6.433999999999999,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.13799999999999987,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": false,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "170.654",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick21-zoom120.png"
+        },
+        {
+          "tick": 22,
+          "animationTick": 0,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 184.54072942576295,
+            "y": 75.11971551266491,
+            "z": 6.571999999999999,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": 0.11199999999999988,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "170.737",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick22-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "animationTick": 8,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 186.10425522623245,
+            "y": 65.96261736661255,
+            "z": 6.739999999999998,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.0960000000000001,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.222",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick30-zoom120.png"
+        },
+        {
+          "tick": 40,
+          "animationTick": 18,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 188.05866247681934,
+            "y": 54.51624468404716,
+            "z": 4.609999999999998,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.3560000000000002,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            }
+          ],
+          "cameraX": "171.538",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick40-zoom120.png"
+        },
+        {
+          "tick": 49,
+          "animationTick": 4,
+          "frame": null,
+          "animationClip": "celebrate",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 189.03586610211278,
+            "y": 48.79305834276447,
+            "z": 2.5699999999999967,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.4860000000000003,
+            "mode": "dead",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "171.679",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick49-zoom120.png"
+        },
+        {
+          "tick": 50,
+          "animationTick": 5,
+          "frame": null,
+          "animationClip": "celebrate",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 189.03586610211278,
+            "y": 48.79305834276447,
+            "z": 2.5699999999999967,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.4860000000000003,
+            "mode": "dead",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "171.690",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick50-zoom120.png"
+        },
+        {
+          "tick": 60,
+          "animationTick": 15,
+          "frame": null,
+          "animationClip": "celebrate",
+          "action": null,
+          "player": {
+            "x": 176,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": 1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 189.03586610211278,
+            "y": 48.79305834276447,
+            "z": 2.5699999999999967,
+            "vx": 0.19544072505869664,
+            "vy": -1.1446372682565407,
+            "vz": -0.4860000000000003,
+            "mode": "dead",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": 1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "171.762",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-right-tick60-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "animationTick": 0,
+          "frame": 0,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 21,
+            "y": 90,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "104.429",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick00-zoom120.png"
+        },
+        {
+          "tick": 2,
+          "animationTick": 2,
+          "frame": 1,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 19.5,
+            "y": 90,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "103.096",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick02-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "animationTick": 5,
+          "frame": 2,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.1111404660392044,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 19.5,
+            "y": 90,
+            "z": 2.661140466039204,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "101.096",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick05-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "animationTick": 8,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.8477590650225735,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 19,
+            "y": 90,
+            "z": 3.8977590650225733,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "99.096",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick08-zoom120.png"
+        },
+        {
+          "tick": 9,
+          "animationTick": 9,
+          "frame": 3,
+          "animationClip": "layup",
+          "action": "shot",
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": true
+          },
+          "ball": {
+            "x": 18.5,
+            "y": 90,
+            "z": 4.111570560806461,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0,
+            "mode": "carried",
+            "ownerId": "krios",
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "cameraX": "98.429",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick09-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "animationTick": 10,
+          "frame": 4,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 2,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 19.25,
+            "y": 88.85536273174345,
+            "z": 3.2,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.424,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "97.762",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick10-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "animationTick": 11,
+          "frame": 5,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.9615705608064609,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 20.5,
+            "y": 87.71072546348691,
+            "z": 3.624,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.39799999999999996,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "97.096",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "animationTick": 14,
+          "frame": 6,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 1.414213562373095,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 24.25,
+            "y": 84.27681365871727,
+            "z": 4.74,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.3199999999999999,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "95.096",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "animationTick": 18,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 29.25,
+            "y": 79.69826458569109,
+            "z": 5.864,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.21599999999999986,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "92.429",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick18-zoom120.png"
+        },
+        {
+          "tick": 21,
+          "animationTick": 21,
+          "frame": 7,
+          "animationClip": "layup",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 33,
+            "y": 76.26435278092146,
+            "z": 6.433999999999999,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.13799999999999987,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": true,
+          "src": "./tools/generate-art/previews/krios-layup8-attempt06/krios-layup8-attempt06-runtime-candidate.png",
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "90.429",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick21-zoom120.png"
+        },
+        {
+          "tick": 22,
+          "animationTick": 0,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 34.25,
+            "y": 75.11971551266491,
+            "z": 6.571999999999999,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": 0.11199999999999988,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "89.762",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick22-zoom120.png"
+        },
+        {
+          "tick": 30,
+          "animationTick": 8,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 44.25,
+            "y": 65.96261736661255,
+            "z": 6.739999999999998,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": -0.0960000000000001,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "84.429",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick30-zoom120.png"
+        },
+        {
+          "tick": 40,
+          "animationTick": 18,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 56.75,
+            "y": 54.51624468404716,
+            "z": 4.609999999999998,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": -0.3560000000000002,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "77.762",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick40-zoom120.png"
+        },
+        {
+          "tick": 49,
+          "animationTick": 27,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 68,
+            "y": 44.214509269738315,
+            "z": 0.4699999999999954,
+            "vx": 1.25,
+            "vy": -1.1446372682565407,
+            "vz": -0.5900000000000004,
+            "mode": "shot",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            }
+          ],
+          "cameraX": "71.762",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick49-zoom120.png"
+        },
+        {
+          "tick": 50,
+          "animationTick": 28,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 69.25,
+            "y": 43.06987200148178,
+            "z": 0,
+            "vx": 0.8999999999999999,
+            "vy": -0.8241388331447093,
+            "vz": 0.45880000000000026,
+            "mode": "loose",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            },
+            {
+              "tick": 49,
+              "text": "Rebound!"
+            }
+          ],
+          "cameraX": "71.096",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick50-zoom120.png"
+        },
+        {
+          "tick": 60,
+          "animationTick": 38,
+          "frame": null,
+          "animationClip": "idle",
+          "action": null,
+          "player": {
+            "x": 24,
+            "y": 90,
+            "z": 0,
+            "vz": 0,
+            "facing": -1,
+            "hasBall": false
+          },
+          "ball": {
+            "x": 78.25000000000006,
+            "y": 34.82848367003469,
+            "z": 3.4180000000000015,
+            "vx": 0.8999999999999999,
+            "vy": -0.8241388331447093,
+            "vz": 0.1988000000000001,
+            "mode": "loose",
+            "ownerId": null,
+            "made": true
+          },
+          "facing": -1,
+          "flip": null,
+          "src": null,
+          "phase": "playing",
+          "pause": false,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 9,
+              "text": "Krios launches a 2-pointer"
+            },
+            {
+              "tick": 44,
+              "text": "Krios scores 2!"
+            },
+            {
+              "tick": 9,
+              "text": "Krios launches a 3-pointer"
+            },
+            {
+              "tick": 49,
+              "text": "Rebound!"
+            }
+          ],
+          "cameraX": "69.327",
+          "zoom": 120,
+          "path": "tools/generate-art/previews/j128-krios-layup-track-candidate/attempt-07/native/actual-left-tick60-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 64
+}

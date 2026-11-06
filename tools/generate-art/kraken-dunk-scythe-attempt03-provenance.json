@@ -1,0 +1,23 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-scythe",
+  "attempt": 3,
+  "generationId": "exec-fd154af8-d684-44d3-b7b5-f459c1fc72fb",
+  "generatedAt": "2026-10-29T05:15:00Z",
+  "promptFile": "tools/generate-art/kraken-dunk-scythe-attempt03-imagegen-prompt.txt",
+  "promptSha256": "b4f7248cf26259fe2b05b118ef4a2908af8d1ff1626a3434fadbb6dd4abad18f",
+  "sourceFile": "tools/generate-art/sources/kraken-dunk-scythe-attempt03-generated-raw.png",
+  "sourceSha256": "ae5aa2df5328ba94879048a260dfaf58d191e8917d99f6aa1bc72fff37cda06d",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGBA"
+  },
+  "transparentBackgroundRequested": true,
+  "alpha": {
+    "minimum": 0,
+    "maximum": 254
+  },
+  "status": "raw candidate not accepted; cleanup01 rejected; component-aware repack not yet prepared",
+  "notes": "Independent review found pose6 clips at a nominal cell edge and cleanup sprites too small (53\u201368px vs Kraken idle 89\u201392px). Raw 15 components appear salvageable with a global repack; no runtime registration or ball track."
+}

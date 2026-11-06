@@ -1,0 +1,330 @@
+{
+  "status": "cleanup and layout trial only; no production registration",
+  "source": "tools/generate-art/sources/krios-layup-reverse8-attempt01-generated-raw.png",
+  "sourceSha256": "dcf322d0087ff3882f9644afdf098ee7ef6f51af636dec299ae0539c9c53c8fe",
+  "key": {
+    "predicate": "G>=130, G-R>=40, G-B>=40",
+    "connectivity": "canvas-edge-connected green key plus disconnected green islands",
+    "keyedPixels": 1185627,
+    "interiorIslandCount": 13,
+    "smallIslandRGBRepairs": 9,
+    "largeIslandsCleared": 4,
+    "localEdgePixelsCleared": 2882,
+    "weakInteriorRGBRepairs": 1818,
+    "rawPreserved": true,
+    "noRedraw": true
+  },
+  "layout": {
+    "sourceGrid": [
+      4,
+      2
+    ],
+    "cellSize": [
+      384,
+      512
+    ],
+    "marginRequirement": 32,
+    "uniformFitScale": 0.8913649025069638,
+    "sheet": "tools/generate-art/previews/krios-layup-reverse8-attempt01/krios-layup-reverse8-attempt01-keyed-layout-trial.png",
+    "runtimeCandidate": "tools/generate-art/previews/krios-layup-reverse8-attempt01/krios-layup-reverse8-attempt01-runtime-candidate.png",
+    "runtimeLayout": "tools/generate-art/previews/krios-layup-reverse8-attempt01/runtime-layout.json",
+    "frames": [
+      {
+        "frame": 0,
+        "sourceBoundsLTRB": [
+          31,
+          150,
+          319,
+          459
+        ],
+        "sourceSize": [
+          288,
+          309
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          257,
+          275
+        ],
+        "offsetInSheet": [
+          63,
+          118
+        ],
+        "outputBoundsInCellLTRB": [
+          63,
+          118,
+          320,
+          393
+        ],
+        "marginsLTRB": [
+          63,
+          118,
+          64,
+          119
+        ],
+        "minimumMarginPx": 63,
+        "meets32pxMargins": true,
+        "poseSha256": "736b5d30c7104e08466aab5c451b1de286b2946591ca091639e50f9b15d1cbe0"
+      },
+      {
+        "frame": 1,
+        "sourceBoundsLTRB": [
+          446,
+          70,
+          683,
+          461
+        ],
+        "sourceSize": [
+          237,
+          391
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          211,
+          349
+        ],
+        "offsetInSheet": [
+          470,
+          81
+        ],
+        "outputBoundsInCellLTRB": [
+          86,
+          81,
+          297,
+          430
+        ],
+        "marginsLTRB": [
+          86,
+          81,
+          87,
+          82
+        ],
+        "minimumMarginPx": 81,
+        "meets32pxMargins": true,
+        "poseSha256": "081475e781795f4c946b0f453a36d388d359b3333eb676abe772835a7cf12e19"
+      },
+      {
+        "frame": 2,
+        "sourceBoundsLTRB": [
+          848,
+          58,
+          1163,
+          376
+        ],
+        "sourceSize": [
+          315,
+          318
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          281,
+          283
+        ],
+        "offsetInSheet": [
+          819,
+          114
+        ],
+        "outputBoundsInCellLTRB": [
+          51,
+          114,
+          332,
+          396
+        ],
+        "marginsLTRB": [
+          51,
+          114,
+          52,
+          116
+        ],
+        "minimumMarginPx": 51,
+        "meets32pxMargins": true,
+        "poseSha256": "e90d59f62201ab2172594804304a6ac0ffc9cc53b06ee37aafc18f8fdac43312"
+      },
+      {
+        "frame": 3,
+        "sourceBoundsLTRB": [
+          1231,
+          28,
+          1523,
+          435
+        ],
+        "sourceSize": [
+          292,
+          407
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          260,
+          363
+        ],
+        "offsetInSheet": [
+          1214,
+          74
+        ],
+        "outputBoundsInCellLTRB": [
+          62,
+          74,
+          322,
+          437
+        ],
+        "marginsLTRB": [
+          62,
+          74,
+          62,
+          75
+        ],
+        "minimumMarginPx": 62,
+        "meets32pxMargins": true,
+        "poseSha256": "20135f4e049316377106a64080d833d6342a62830e64ddd11c3f351668f0a02e"
+      },
+      {
+        "frame": 4,
+        "sourceBoundsLTRB": [
+          54,
+          534,
+          413,
+          936
+        ],
+        "sourceSize": [
+          359,
+          402
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          320,
+          358
+        ],
+        "offsetInSheet": [
+          32,
+          589
+        ],
+        "outputBoundsInCellLTRB": [
+          32,
+          77,
+          352,
+          435
+        ],
+        "marginsLTRB": [
+          32,
+          77,
+          32,
+          77
+        ],
+        "minimumMarginPx": 32,
+        "meets32pxMargins": true,
+        "poseSha256": "95fd6fd3a4fddd7a3e36056809148c11f3d584cdebbbc91796094a8222b10b1a"
+      },
+      {
+        "frame": 5,
+        "sourceBoundsLTRB": [
+          475,
+          498,
+          741,
+          965
+        ],
+        "sourceSize": [
+          266,
+          467
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          237,
+          416
+        ],
+        "offsetInSheet": [
+          457,
+          560
+        ],
+        "outputBoundsInCellLTRB": [
+          73,
+          48,
+          310,
+          464
+        ],
+        "marginsLTRB": [
+          73,
+          48,
+          74,
+          48
+        ],
+        "minimumMarginPx": 48,
+        "meets32pxMargins": true,
+        "poseSha256": "969faac8b662e0635dd08badcca72ab6e69e3824f5a502a778ea4a208f47d824"
+      },
+      {
+        "frame": 6,
+        "sourceBoundsLTRB": [
+          842,
+          599,
+          1136,
+          960
+        ],
+        "sourceSize": [
+          294,
+          361
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          262,
+          322
+        ],
+        "offsetInSheet": [
+          829,
+          607
+        ],
+        "outputBoundsInCellLTRB": [
+          61,
+          95,
+          323,
+          417
+        ],
+        "marginsLTRB": [
+          61,
+          95,
+          61,
+          95
+        ],
+        "minimumMarginPx": 61,
+        "meets32pxMargins": true,
+        "poseSha256": "be7ce4e99f5d35d6c637a940be640b6bb03d29305ad670d64776eea1e5ccc424"
+      },
+      {
+        "frame": 7,
+        "sourceBoundsLTRB": [
+          1179,
+          612,
+          1505,
+          960
+        ],
+        "sourceSize": [
+          326,
+          348
+        ],
+        "uniformScale": 0.8913649025069638,
+        "scaledSize": [
+          291,
+          310
+        ],
+        "offsetInSheet": [
+          1198,
+          613
+        ],
+        "outputBoundsInCellLTRB": [
+          46,
+          101,
+          337,
+          411
+        ],
+        "marginsLTRB": [
+          46,
+          101,
+          47,
+          101
+        ],
+        "minimumMarginPx": 46,
+        "meets32pxMargins": true,
+        "poseSha256": "27b44b7621df6c21698251f9cda6e3263dd03e396276606b253661c629ebc0a5"
+      }
+    ]
+  }
+}

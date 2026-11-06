@@ -1,0 +1,11 @@
+# Kraken pickup attempt03 — fresh single-player visual review
+
+**Verdict: fail the one-body visual-read criterion at tick7/frame3. The second apparent body is not another active player or a stale capture layer; the selected frame's own composition is ambiguous at gameplay scale. Tick8/frame4 reads as one athlete.**
+
+The report's setup lists only `kraken` in `state.players` for every run. The production renderer builds its athlete draw entities from `match.players`, so this single-player fixture has no second court athlete to render. The report also confirms that the normal loader and selector return the candidate atlas at `baselineY:90`; tick7 selects frame3 and tick8 selects frame4 with the expected mirror flag. All 32 capture files are present and match their recorded SHA-256 values. The report records no browser errors or failed requests.
+
+I compared the enlarged court crops at tick7 and tick8 for both facings and both zooms with the corresponding atlas cells. Tick8/frame4 matches the fifth atlas cell and reads clearly as one upright Kraken. Tick7/frame3 matches the fourth atlas cell; its tightly folded torso, large shoulder/back contour, reaching arms, and hair/head overlap so the ordinary gameplay-size image reads as two athletes crouched together. The same body-like split is visible in the source cell when enlarged, so it is intrinsic to the pose art rather than a render duplication. Isolating the roster removes the possibility of a second live player but does not resolve that silhouette ambiguity. The two mirrored tick7 views have the same issue at zoom100 and zoom120.
+
+The ball is separately rendered and remains near the reaching hand; it does not account for the second body-like contour. Ownership/event state is otherwise correct in the fixture, but that does not make frame3's visual identity unambiguous. Do not sign off this pickup pose for one-body readability until frame3 art is revised or replaced and reviewed again.
+
+This review covers only the current single-player fixture. It uses browser-only candidate manifest/track overlays after normal Jam Stage initialization and sets `state.players=[kraken]` before the one-time loose-ball fixture. It is not a user-initiated pickup or production registration check. No runtime or manifest files were changed.

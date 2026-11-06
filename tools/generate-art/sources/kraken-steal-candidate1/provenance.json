@@ -1,0 +1,32 @@
+{
+  "athlete": "kraken",
+  "athleteIndex": 89,
+  "clip": "steal",
+  "candidate": 1,
+  "classification": "original-authored-imagegen-source-pending-review",
+  "generationId": "exec-1dc0c63e-9ec6-4fbd-8357-39a8438fe376",
+  "generatedAt": "2026-10-27",
+  "rawImage": "tools/generate-art/sources/kraken-steal-candidate1/raw.png",
+  "rawSha256": "19534f0976d941a2562b8920910ff3699197660544ec575c4f210ef3322346f0",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "mode": "RGBA",
+  "prompt": "tools/generate-art/sources/kraken-steal-candidate1/prompt.md",
+  "layout": "tools/generate-art/sources/kraken-steal-candidate1/layout.json",
+  "review": {
+    "status": "rejected-as-production-art; retained-as-choreography-reference",
+    "previews": [
+      "tools/generate-art/previews/kraken-steal-candidate1-light.png",
+      "tools/generate-art/previews/kraken-steal-candidate1-dark.png"
+    ],
+    "ballBakedIntoAthleteArt": false,
+    "independentReviewer": "candidate_review",
+    "reviewNotes": "Eight beats and the frame3 knee-height closed-hand hook pass. Identity, anatomy, cell margins and ball-free art pass, but smooth painterly gradients and anti-aliased contours do not match compact Kraken pixel sprites; normalization cannot resolve style/detail collapse.",
+    "normalizedDerivative": "tools/generate-art/sources/kraken-steal-candidate1-atlas.png",
+    "normalizedDerivativeSha256": "b0f565042b38e342a8d0bc76b6e15976296d0df3cdd3de04f0bebc88b33e658b",
+    "normalizationScript": "tools/generate-art/normalize-kraken-steal-candidate1.py",
+    "normalizationReview": "Rejected as production source, retained as choreography reference."
+  }
+}

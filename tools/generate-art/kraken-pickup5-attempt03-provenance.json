@@ -1,0 +1,35 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 3,
+  "status": "fresh generated source awaiting independent identity, anatomy, pose, alpha, and margin review",
+  "tool": "image_gen__imagegen",
+  "generationId": "exec-8b97fb33-86c2-4f42-90d6-6bfd4ac91265",
+  "generatedAt": "2026-10-28T14:54:45Z",
+  "promptFile": "tools/generate-art/kraken-pickup5-attempt03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "sourceImage": "tools/generate-art/sources/kraken-pickup5-attempt03-generated-raw.png",
+  "sourceSha256": "83d8654cd2bfe24303705f7476369c11691cd5968d0d1891f33114e4cfacdd1d",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "format": "PNG RGBA",
+  "alphaHistogram": {
+    "fullyTransparent": 1169154,
+    "partiallyTransparent": 402956,
+    "fullyOpaque": 409
+  },
+  "identityReference": "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-runtime-candidate.png",
+  "requiredFrameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "grabFrame": 3,
+  "ballPolicy": "No ball in artwork; calibrate separate Kraken-specific track after source/cleanup review."
+}

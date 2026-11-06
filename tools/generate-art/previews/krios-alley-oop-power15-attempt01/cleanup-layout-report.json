@@ -1,0 +1,394 @@
+{
+  "source": "tools/generate-art/sources/krios-alley-oop-power15-attempt01-generated-raw.png",
+  "sourceSha256": "41ec753d550eff70635a93982966808218b8e500841a105ea36a6bc39e0c11a2",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "candidateAtlas": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/krios-alley-oop-power15-attempt01-runtime-candidate.png",
+  "candidateAtlasSha256": "6b1322b75eee484319558b086efefc2bcfbb5b481005b5cedd7f15b3901a7a10",
+  "algorithm": "green-dominance mask flood-connected to sheet edge; retain disconnected interior colors including dark-green hair tie; extract 15 complete figures by row and x order; nearest-neighbor uniform fit; 128x96 cells; baseline y94; no redraw",
+  "grid": [
+    5,
+    3
+  ],
+  "atlasGrid": [
+    15,
+    1
+  ],
+  "cell": [
+    128,
+    96
+  ],
+  "threshold": {
+    "greenGreaterThanRedBy": 12,
+    "greenGreaterThanBlueBy": 12,
+    "greenMinimum": 50,
+    "connectivity": 8,
+    "enclosedKeyHoleMinimum": 0,
+    "preserveSmallGreenHeadAccentMaximum": 120,
+    "headRegionFraction": 0.4
+  },
+  "preservedInteriorGreenComponents": 57,
+  "componentCountIncludingNoise": 53,
+  "figureCount": 15,
+  "transparentPixelCount": 164096,
+  "opaquePixelCount": 20224,
+  "uniquePoseHashes": 15,
+  "uniformScale": 0.2478386167146974,
+  "rowBottoms": [
+    94,
+    94,
+    94
+  ],
+  "targetBaselineY": 94,
+  "poses": [
+    {
+      "frame": 0,
+      "sourceBounds": [
+        29,
+        64,
+        284,
+        323
+      ],
+      "sourceComponentArea": 21389,
+      "outputBounds": [
+        32,
+        30,
+        95,
+        94
+      ],
+      "outputSize": [
+        63,
+        64
+      ],
+      "opaqueGreenDominantPixelCount": 1,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "48ecdbcbc21373c6c92f2f5885ceef5e775c4285f7419081c76faf9bb566e5eb"
+    },
+    {
+      "frame": 1,
+      "sourceBounds": [
+        321,
+        76,
+        589,
+        325
+      ],
+      "sourceComponentArea": 18760,
+      "outputBounds": [
+        31,
+        32,
+        97,
+        94
+      ],
+      "outputSize": [
+        66,
+        62
+      ],
+      "opaqueGreenDominantPixelCount": 1,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "6ec0bc7060451d755c85e104a3a9eb9252ba697f3095c3235f5d22a37e0eb835"
+    },
+    {
+      "frame": 2,
+      "sourceBounds": [
+        642,
+        28,
+        876,
+        326
+      ],
+      "sourceComponentArea": 18600,
+      "outputBounds": [
+        35,
+        20,
+        92,
+        94
+      ],
+      "outputSize": [
+        58,
+        74
+      ],
+      "opaqueGreenDominantPixelCount": 4,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "3752b52d59579f76ccc15df8ac359cd0aa4a5d31c4ecbcf524391ad000b12290"
+    },
+    {
+      "frame": 3,
+      "sourceBounds": [
+        938,
+        7,
+        1174,
+        318
+      ],
+      "sourceComponentArea": 19545,
+      "outputBounds": [
+        35,
+        17,
+        93,
+        94
+      ],
+      "outputSize": [
+        58,
+        77
+      ],
+      "opaqueGreenDominantPixelCount": 3,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "e87e803591aec99b9596afd399aace017ae40ce38295d39cf5499f7d88653574"
+    },
+    {
+      "frame": 4,
+      "sourceBounds": [
+        1242,
+        5,
+        1479,
+        331
+      ],
+      "sourceComponentArea": 20100,
+      "outputBounds": [
+        34,
+        13,
+        92,
+        94
+      ],
+      "outputSize": [
+        59,
+        81
+      ],
+      "opaqueGreenDominantPixelCount": 2,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "f79ce3c51555477f2cdf7a6d7b64fab3ae368f603e554853f7c7d7ef42b49fed"
+    },
+    {
+      "frame": 5,
+      "sourceBounds": [
+        75,
+        375,
+        234,
+        619
+      ],
+      "sourceComponentArea": 19055,
+      "outputBounds": [
+        44,
+        34,
+        83,
+        94
+      ],
+      "outputSize": [
+        39,
+        60
+      ],
+      "opaqueGreenDominantPixelCount": 2,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "b9d5299cfcf14aea8c0514dbd7b07bb79f974d353670a06b25866e5ac97a0890"
+    },
+    {
+      "frame": 6,
+      "sourceBounds": [
+        402,
+        375,
+        539,
+        593
+      ],
+      "sourceComponentArea": 18160,
+      "outputBounds": [
+        47,
+        40,
+        81,
+        94
+      ],
+      "outputSize": [
+        34,
+        54
+      ],
+      "opaqueGreenDominantPixelCount": 2,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "4a16f5288134d144c271ef4dccfbf09a8fed2d0b7a23672e2fb9bf693355646a"
+    },
+    {
+      "frame": 7,
+      "sourceBounds": [
+        672,
+        347,
+        915,
+        635
+      ],
+      "sourceComponentArea": 24663,
+      "outputBounds": [
+        34,
+        23,
+        94,
+        94
+      ],
+      "outputSize": [
+        60,
+        71
+      ],
+      "opaqueGreenDominantPixelCount": 2,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "2994434122f748c9b10cc01265f871b3cbf963c3952ec1476fd531c6ee19f0e6"
+    },
+    {
+      "frame": 8,
+      "sourceBounds": [
+        947,
+        363,
+        1207,
+        644
+      ],
+      "sourceComponentArea": 23440,
+      "outputBounds": [
+        32,
+        24,
+        96,
+        94
+      ],
+      "outputSize": [
+        64,
+        70
+      ],
+      "opaqueGreenDominantPixelCount": 1,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "6cbe1b4bb2ea48df414abf66f0ee56e536936741edd56512767d91075647012a"
+    },
+    {
+      "frame": 9,
+      "sourceBounds": [
+        1239,
+        338,
+        1489,
+        685
+      ],
+      "sourceComponentArea": 20732,
+      "outputBounds": [
+        33,
+        8,
+        95,
+        94
+      ],
+      "outputSize": [
+        62,
+        86
+      ],
+      "opaqueGreenDominantPixelCount": 0,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "892faaa129fbd7737b8d668093464cf81b6e991ac6f7796947ce7c2d46c44323"
+    },
+    {
+      "frame": 10,
+      "sourceBounds": [
+        42,
+        660,
+        295,
+        1005
+      ],
+      "sourceComponentArea": 24391,
+      "outputBounds": [
+        32,
+        8,
+        95,
+        94
+      ],
+      "outputSize": [
+        63,
+        86
+      ],
+      "opaqueGreenDominantPixelCount": 1,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "fa21399fc46f9cbd2ae68d43802de06618424cfd592481dc64a2b25dea399930"
+    },
+    {
+      "frame": 11,
+      "sourceBounds": [
+        318,
+        689,
+        594,
+        981
+      ],
+      "sourceComponentArea": 25897,
+      "outputBounds": [
+        30,
+        22,
+        98,
+        94
+      ],
+      "outputSize": [
+        68,
+        72
+      ],
+      "opaqueGreenDominantPixelCount": 3,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "38c272779f7538938b9589f0e8768f9373d83ea0fc9306cd8286bf4d8c5e6cf5"
+    },
+    {
+      "frame": 12,
+      "sourceBounds": [
+        639,
+        723,
+        898,
+        979
+      ],
+      "sourceComponentArea": 25025,
+      "outputBounds": [
+        32,
+        31,
+        96,
+        94
+      ],
+      "outputSize": [
+        64,
+        63
+      ],
+      "opaqueGreenDominantPixelCount": 2,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "7d8b07fec6864221943dea021ca726a29bd535ed7c40b7fbe9383915540ce952"
+    },
+    {
+      "frame": 13,
+      "sourceBounds": [
+        986,
+        735,
+        1184,
+        984
+      ],
+      "sourceComponentArea": 26208,
+      "outputBounds": [
+        39,
+        33,
+        88,
+        94
+      ],
+      "outputSize": [
+        49,
+        62
+      ],
+      "opaqueGreenDominantPixelCount": 0,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "c77ee049ab198ae006898742a1b738b2a805ea95b5c7dfde82d8b400d6b2b482"
+    },
+    {
+      "frame": 14,
+      "sourceBounds": [
+        1254,
+        753,
+        1497,
+        986
+      ],
+      "sourceComponentArea": 25689,
+      "outputBounds": [
+        34,
+        36,
+        94,
+        94
+      ],
+      "outputSize": [
+        60,
+        58
+      ],
+      "opaqueGreenDominantPixelCount": 0,
+      "opaqueGreenDominantPixelsOutsideHeadRegion": 0,
+      "poseSha256": "4deef9a774f78124c85b4bbcc00ac978ac1c44a62083ce391928673db31919a0"
+    }
+  ],
+  "interiorHoleThreshold": 120,
+  "reviewNotes": "Cleanup trial03 candidate for trial only. Edge-connected green flood fill plus enclosed green holes removal; preserve only small green components in the upper 40% head region (green hair tie). All residual saturated green on lower body/feet is removed. Visual review required."
+}

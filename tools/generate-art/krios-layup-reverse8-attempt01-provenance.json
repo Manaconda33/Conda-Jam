@@ -1,0 +1,74 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "layup-reverse",
+  "direction": "right",
+  "attempt": 1,
+  "status": "accepted for registered production",
+  "tool": "GPT Image generation",
+  "generationId": "exec-a06ccebb-88f7-4a49-aa0b-7904f4888715",
+  "toolArtifactId": "exec-a06ccebb-88f7-4a49-aa0b-7904f4888715",
+  "generatedAt": "2026-10-28T04:52:00Z",
+  "generationIdNote": "Image-generation tool returned workspace artifact id in its generated_images filename; C2PA metadata is not embedded in the exported RGB PNG.",
+  "promptFile": "tools/generate-art/krios-layup-reverse8-attempt01-imagegen-request.txt",
+  "promptVerbatim": true,
+  "promptSha256": "733cd1f20815179568007516b474646db8d1179de142029d58a77e34a3b22022",
+  "authoredPromptBrief": "tools/generate-art/krios-layup-reverse8-attempt01-prompt.md",
+  "rawSourceImage": "tools/generate-art/sources/krios-layup-reverse8-attempt01-generated-raw.png",
+  "rawSourceSha256": "dcf322d0087ff3882f9644afdf098ee7ef6f51af636dec299ae0539c9c53c8fe",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "RGB PNG opaque chroma-key source",
+  "references": [
+    {
+      "path": "public/assets/animation/krios-pass-overhead-right.webp",
+      "sha256": "bee3fbdb043d448533ad70c52daeac90e83b7013ed84d84a2b5957a78c46c019"
+    },
+    {
+      "path": "public/assets/animation/krios-shoot-right.webp",
+      "sha256": "d189428aa72896a35fa138b195702002c486b341a73822592576f1acb1bbfa6f"
+    }
+  ],
+  "layoutFile": "tools/generate-art/krios-layup-reverse8-attempt01-layout.json",
+  "cleanup": {
+    "performed": true,
+    "method": "Documented green-key cleanup, small key-island RGB repair, local edge spill clearing, uniform source crop/fit; no pose redraw. See cleanup report and notes.",
+    "script": "tools/generate-art/clean-krios-layup-reverse8-attempt01.py",
+    "notes": "tools/generate-art/krios-layup-reverse8-attempt01-cleanup-notes.md",
+    "report": "tools/generate-art/previews/krios-layup-reverse8-attempt01/cleanup-layout-report.json",
+    "derivedTransparentImage": "tools/generate-art/previews/krios-layup-reverse8-attempt01/krios-layup-reverse8-attempt01-keyed-layout-trial.png",
+    "runtimeSizeTrial": "tools/generate-art/previews/krios-layup-reverse8-attempt01/krios-layup-reverse8-attempt01-runtime-candidate.png",
+    "runtimeLayout": "tools/generate-art/previews/krios-layup-reverse8-attempt01/runtime-layout.json",
+    "status": "independently cleared for separate ball-track trials only; no runtime registration",
+    "derivedTransparentImageSha256": "ea4b1a2105f6c2484bf95781c87e7239f19edba3d5987b687cb81e32757a5baa",
+    "runtimeSizeTrialSha256": "71dc65a66dbe38bc7348290aa25c6cad27c076e923513b3eda7f98620f6887b8",
+    "review": "tools/generate-art/previews/krios-layup-reverse8-attempt01/INDEPENDENT_CLEANUP_REVIEW.md"
+  },
+  "canonicalTiming": {
+    "frameDurations": [
+      2,
+      3,
+      2,
+      3,
+      2,
+      1,
+      4,
+      4
+    ],
+    "takeoffFrame": 1,
+    "takeoffTick": 2,
+    "peakFrame": 4,
+    "peakTick": 10,
+    "releaseFrame": 5,
+    "releaseTick": 12,
+    "finishFrame": 7,
+    "finishTick": 17,
+    "clipEndTick": 21
+  },
+  "ball": "No ball in artwork; athlete-specific track must remain separate and carry through tick11 before tick12 release.",
+  "runtimeStatus": "accepted",
+  "registeredRuntimeReview": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-01/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+  "runtimeCaptureReport": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-01/registered-runtime/report.json"
+}

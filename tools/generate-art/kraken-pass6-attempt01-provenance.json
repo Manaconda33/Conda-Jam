@@ -1,0 +1,17 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "pass",
+  "attempt": 1,
+  "generationId": "exec-fab9a322-b6aa-47cc-8092-07f52cc5a91f",
+  "generatedAt": "2026-10-28",
+  "sourceImage": "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png",
+  "prompt": "tools/generate-art/kraken-pass6-attempt01-imagegen-prompt.txt",
+  "sourceSha256": "12ac9be2ea709c4edcb456c5955b354b377633979dd2e72fcc69c12000311316",
+  "imageSize": [1402, 1122],
+  "sourceMode": "RGBA",
+  "referenceImage": "public/assets/animation/kraken-idle-right.webp",
+  "status": "cleanup01 rejected for gameplay trials and runtime registration",
+  "reason": "Raw-source review passed for cleanup/layout trials, but independent cleanup review found frame2 already reads as an extended release before canonical frame3/tick5. Frames2-4 remain release-like; preserve this candidate and rejection, do not calibrate or register.",
+  "cleanup": "tools/generate-art/previews/kraken-pass6-attempt01/cleanup01-layout.json",
+  "review": "tools/generate-art/previews/kraken-pass6-attempt01/SOURCE_REVIEW.md"
+}

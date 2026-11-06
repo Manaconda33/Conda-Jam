@@ -1,0 +1,1151 @@
+{
+  "renderer": "Current Jam Stage with normal registered assets and production simulation",
+  "comparisonAthlete": "reed-ashcroft",
+  "captain": false,
+  "clips": [
+    "shoot"
+  ],
+  "scaleUnderReview": "stageBallFlightScale(shot,false)=0.8",
+  "patches": {
+    "manifest": "none",
+    "ballTrack": "none",
+    "simulation": "none",
+    "camera": "test-harness camera initialization only"
+  },
+  "zoomLevels": [
+    100,
+    120
+  ],
+  "facings": [
+    {
+      "facing": "right",
+      "zoom": 100,
+      "setup": {
+        "player": "reed-ashcroft",
+        "team": 0,
+        "captain": null,
+        "x": 142,
+        "y": 90,
+        "facing": 1,
+        "zoom": "100",
+        "camera": {
+          "camX": 163.5450203712087,
+          "stagePreview": true,
+          "cameraZoom": 100
+        }
+      },
+      "runtimeRegisteredTrackSamples": {
+        "height": [
+          1.1363636363636365,
+          1.2500000000000002,
+          1.4772727272727275,
+          1.8181818181818183,
+          2.5000000000000004,
+          2.3863636363636367,
+          1.2500000000000002,
+          1.022727272727273
+        ],
+        "forward": [
+          5,
+          7,
+          8,
+          12,
+          11.5,
+          13,
+          8,
+          6
+        ],
+        "releaseVz": null
+      },
+      "release": {
+        "tick": 13,
+        "clip": "shoot",
+        "frame": null,
+        "hasBall": false,
+        "action": null,
+        "position": {
+          "x": 142,
+          "y": 90,
+          "z": 2
+        },
+        "ball": {
+          "mode": "shot",
+          "ownerId": null,
+          "lastTouch": "reed-ashcroft",
+          "x": 153.9000103249052,
+          "y": 89.54711267038738,
+          "z": 4.14365957446809,
+          "vx": 0.4000103249051946,
+          "vy": -0.4528873296126262,
+          "vz": 1.117659574468085
+        },
+        "score": [
+          0,
+          0
+        ],
+        "scoredAttempts": [],
+        "phase": "playing",
+        "scorePause": 0,
+        "camera": {
+          "camX": 166.4143144474505,
+          "stagePreview": true,
+          "cameraZoom": 100
+        }
+      },
+      "captures": [
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom100-tick13-shoot-ball-shot.png",
+          "sha256": "c42301c7febe53c59382794717c43707a12ddafc42a3612dd6187ede51582dba",
+          "tick": 13,
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 2
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 153.9000103249052,
+              "y": 89.54711267038738,
+              "z": 4.14365957446809,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 1.117659574468085
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 166.4143144474505,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom100-tick43-idle-ball-shot.png",
+          "sha256": "529c784bb6c9b665753d8e2fdfd0467e7e00e8b5397327169a2f4d858643c0b5",
+          "tick": 43,
+          "state": {
+            "tick": 16,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 165.90032007206108,
+              "y": 75.96049278200871,
+              "z": 26.363446808510634,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 0.33765957446808437
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 171.10633814462847,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom100-tick73-idle-ball-shot.png",
+          "sha256": "30c24d759247e59e7eb7faf7aebf4b965d188c5e356de0623644c2e65656882f",
+          "tick": 73,
+          "state": {
+            "tick": 46,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 177.90062981921696,
+              "y": 62.37387289363002,
+              "z": 25.183234042553167,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.4423404255319158
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 171.74962679002113,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom100-tick83-idle-ball-shot.png",
+          "sha256": "ea9cbfcc4074ab1ae8e367c7336920c3ac629b9b3f3f61d1f11258ffd5e8c0a2",
+          "tick": 83,
+          "state": {
+            "tick": 56,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 181.90073306826892,
+              "y": 57.84499959750373,
+              "z": 19.589829787234006,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.702340425531916
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 171.79128574784139,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        }
+      ],
+      "scoreCapture": {
+        "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom100-tick00-celebrate-ball-dead.png",
+        "sha256": "e83e3ed3b1a008cfca9e613dd7894c7dd1d918786f3c3fe624217f0981179f2a",
+        "tick": 0,
+        "state": {
+          "tick": 0,
+          "clip": "celebrate",
+          "frame": null,
+          "hasBall": false,
+          "action": null,
+          "position": {
+            "x": 142,
+            "y": 90,
+            "z": 0
+          },
+          "ball": {
+            "mode": "dead",
+            "ownerId": null,
+            "lastTouch": "reed-ashcroft",
+            "x": 189.50092924146765,
+            "y": 49.240140334863774,
+            "z": 1.7993617021276047,
+            "vx": 0.4000103249051946,
+            "vy": -0.4528873296126262,
+            "vz": -1.1963404255319163
+          },
+          "score": [
+            3,
+            0
+          ],
+          "scoredAttempts": [
+            "shot-1"
+          ],
+          "phase": "playing",
+          "scorePause": 70,
+          "camera": {
+            "camX": 171.8202293773189,
+            "stagePreview": true,
+            "cameraZoom": 100
+          }
+        }
+      },
+      "uncaughtBrowserErrors": [],
+      "failedRequests": []
+    },
+    {
+      "facing": "left",
+      "zoom": 100,
+      "setup": {
+        "player": "reed-ashcroft",
+        "team": 1,
+        "captain": null,
+        "x": 58,
+        "y": 90,
+        "facing": -1,
+        "zoom": "100",
+        "camera": {
+          "camX": 36.45497962879131,
+          "stagePreview": true,
+          "cameraZoom": 100
+        }
+      },
+      "runtimeRegisteredTrackSamples": {
+        "height": [
+          1.1363636363636365,
+          1.2500000000000002,
+          1.4772727272727275,
+          1.8181818181818183,
+          2.5000000000000004,
+          2.3863636363636367,
+          1.2500000000000002,
+          1.022727272727273
+        ],
+        "forward": [
+          5,
+          7,
+          8,
+          12,
+          11.5,
+          13,
+          8,
+          6
+        ],
+        "releaseVz": null
+      },
+      "release": {
+        "tick": 13,
+        "clip": "shoot",
+        "frame": null,
+        "hasBall": false,
+        "action": null,
+        "position": {
+          "x": 58,
+          "y": 90,
+          "z": 2
+        },
+        "ball": {
+          "mode": "shot",
+          "ownerId": null,
+          "lastTouch": "reed-ashcroft",
+          "x": 46.099989675094804,
+          "y": 89.54711267038738,
+          "z": 4.14365957446809,
+          "vx": -0.4000103249051946,
+          "vy": -0.4528873296126262,
+          "vz": 1.117659574468085
+        },
+        "score": [
+          0,
+          0
+        ],
+        "scoredAttempts": [],
+        "phase": "playing",
+        "scorePause": 0,
+        "camera": {
+          "camX": 33.5856855525495,
+          "stagePreview": true,
+          "cameraZoom": 100
+        }
+      },
+      "captures": [
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom100-tick13-shoot-ball-shot.png",
+          "sha256": "4f13f3a7cb0d8163d72ed6f5f3135e3af3999bfb75e949ac7aea1dfc3a1b50c8",
+          "tick": 13,
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 2
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 46.099989675094804,
+              "y": 89.54711267038738,
+              "z": 4.14365957446809,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 1.117659574468085
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 33.5856855525495,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom100-tick43-idle-ball-shot.png",
+          "sha256": "e4c882de301a3770de3826562ebf43daa74f30000deef01eb22c0b0fe25350da",
+          "tick": 43,
+          "state": {
+            "tick": 16,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 34.09967992793892,
+              "y": 75.96049278200871,
+              "z": 26.363446808510634,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 0.33765957446808437
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 28.89366185537152,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom100-tick73-idle-ball-shot.png",
+          "sha256": "0eabf813f7cfa846ee813f6dc8e65d2cd0b9c2a5dd6e894075d86e6f26b6e27b",
+          "tick": 73,
+          "state": {
+            "tick": 46,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 22.09937018078304,
+              "y": 62.37387289363002,
+              "z": 25.183234042553167,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.4423404255319158
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 28.25037320997888,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom100-tick83-idle-ball-shot.png",
+          "sha256": "c6b2f9fadcbb1a1eba664e3c8103e7b2b4adf281c37d0a96fd6fa77fe728e750",
+          "tick": 83,
+          "state": {
+            "tick": 56,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 18.09926693173108,
+              "y": 57.84499959750373,
+              "z": 19.589829787234006,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.702340425531916
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 28.208714252158654,
+              "stagePreview": true,
+              "cameraZoom": 100
+            }
+          }
+        }
+      ],
+      "scoreCapture": {
+        "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom100-tick00-celebrate-ball-dead.png",
+        "sha256": "f8faacabf8b97acfbf7796a7144b6470891591224fb6734520d1a3f3b89891ae",
+        "tick": 0,
+        "state": {
+          "tick": 0,
+          "clip": "celebrate",
+          "frame": null,
+          "hasBall": false,
+          "action": null,
+          "position": {
+            "x": 58,
+            "y": 90,
+            "z": 0
+          },
+          "ball": {
+            "mode": "dead",
+            "ownerId": null,
+            "lastTouch": "reed-ashcroft",
+            "x": 10.49907075853238,
+            "y": 49.240140334863774,
+            "z": 1.7993617021276047,
+            "vx": -0.4000103249051946,
+            "vy": -0.4528873296126262,
+            "vz": -1.1963404255319163
+          },
+          "score": [
+            0,
+            3
+          ],
+          "scoredAttempts": [
+            "shot-1"
+          ],
+          "phase": "playing",
+          "scorePause": 70,
+          "camera": {
+            "camX": 28.17977062268112,
+            "stagePreview": true,
+            "cameraZoom": 100
+          }
+        }
+      },
+      "uncaughtBrowserErrors": [],
+      "failedRequests": []
+    },
+    {
+      "facing": "right",
+      "zoom": 120,
+      "setup": {
+        "player": "reed-ashcroft",
+        "team": 0,
+        "captain": null,
+        "x": 142,
+        "y": 90,
+        "facing": 1,
+        "zoom": "120",
+        "camera": {
+          "camX": 163.5450203712087,
+          "stagePreview": true,
+          "cameraZoom": 120
+        }
+      },
+      "runtimeRegisteredTrackSamples": {
+        "height": [
+          1.1363636363636365,
+          1.2500000000000002,
+          1.4772727272727275,
+          1.8181818181818183,
+          2.5000000000000004,
+          2.3863636363636367,
+          1.2500000000000002,
+          1.022727272727273
+        ],
+        "forward": [
+          5,
+          7,
+          8,
+          12,
+          11.5,
+          13,
+          8,
+          6
+        ],
+        "releaseVz": null
+      },
+      "release": {
+        "tick": 13,
+        "clip": "shoot",
+        "frame": null,
+        "hasBall": false,
+        "action": null,
+        "position": {
+          "x": 142,
+          "y": 90,
+          "z": 2
+        },
+        "ball": {
+          "mode": "shot",
+          "ownerId": null,
+          "lastTouch": "reed-ashcroft",
+          "x": 153.9000103249052,
+          "y": 89.54711267038738,
+          "z": 4.14365957446809,
+          "vx": 0.4000103249051946,
+          "vy": -0.4528873296126262,
+          "vz": 1.117659574468085
+        },
+        "score": [
+          0,
+          0
+        ],
+        "scoredAttempts": [],
+        "phase": "playing",
+        "scorePause": 0,
+        "camera": {
+          "camX": 166.4143144474505,
+          "stagePreview": true,
+          "cameraZoom": 120
+        }
+      },
+      "captures": [
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom120-tick13-shoot-ball-shot.png",
+          "sha256": "a4216b47b8908668418ddbce815d6ad8efce5ea4fcf083a8a7ab6b26fc686997",
+          "tick": 13,
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 2
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 153.9000103249052,
+              "y": 89.54711267038738,
+              "z": 4.14365957446809,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 1.117659574468085
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 166.4143144474505,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom120-tick43-idle-ball-shot.png",
+          "sha256": "a5b7adb4c17350683d604639790c3f147eff5d03082449cf6a0fa8ca19a739dd",
+          "tick": 43,
+          "state": {
+            "tick": 16,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 165.90032007206108,
+              "y": 75.96049278200871,
+              "z": 26.363446808510634,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 0.33765957446808437
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 171.10633814462847,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom120-tick73-idle-ball-shot.png",
+          "sha256": "c8776c53ae29b21dc6150a95814c14b802caa0d57cb2e78cfc304647ab035057",
+          "tick": 73,
+          "state": {
+            "tick": 46,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 177.90062981921696,
+              "y": 62.37387289363002,
+              "z": 25.183234042553167,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.4423404255319158
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 171.74962679002113,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom120-tick83-idle-ball-shot.png",
+          "sha256": "a76aac330983dc4dc3983fefe80a75aca6c5e9f25e6e9065dbc23d94553db3aa",
+          "tick": 83,
+          "state": {
+            "tick": 56,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 142,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 181.90073306826892,
+              "y": 57.84499959750373,
+              "z": 19.589829787234006,
+              "vx": 0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.702340425531916
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 171.79128574784139,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        }
+      ],
+      "scoreCapture": {
+        "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/right-zoom120-tick00-celebrate-ball-dead.png",
+        "sha256": "851de7625c680570efea7a757aa8112cee9c2fbe9c32c99e25ff719e2e199092",
+        "tick": 0,
+        "state": {
+          "tick": 0,
+          "clip": "celebrate",
+          "frame": null,
+          "hasBall": false,
+          "action": null,
+          "position": {
+            "x": 142,
+            "y": 90,
+            "z": 0
+          },
+          "ball": {
+            "mode": "dead",
+            "ownerId": null,
+            "lastTouch": "reed-ashcroft",
+            "x": 189.50092924146765,
+            "y": 49.240140334863774,
+            "z": 1.7993617021276047,
+            "vx": 0.4000103249051946,
+            "vy": -0.4528873296126262,
+            "vz": -1.1963404255319163
+          },
+          "score": [
+            3,
+            0
+          ],
+          "scoredAttempts": [
+            "shot-1"
+          ],
+          "phase": "playing",
+          "scorePause": 70,
+          "camera": {
+            "camX": 171.8202293773189,
+            "stagePreview": true,
+            "cameraZoom": 120
+          }
+        }
+      },
+      "uncaughtBrowserErrors": [],
+      "failedRequests": []
+    },
+    {
+      "facing": "left",
+      "zoom": 120,
+      "setup": {
+        "player": "reed-ashcroft",
+        "team": 1,
+        "captain": null,
+        "x": 58,
+        "y": 90,
+        "facing": -1,
+        "zoom": "120",
+        "camera": {
+          "camX": 36.45497962879131,
+          "stagePreview": true,
+          "cameraZoom": 120
+        }
+      },
+      "runtimeRegisteredTrackSamples": {
+        "height": [
+          1.1363636363636365,
+          1.2500000000000002,
+          1.4772727272727275,
+          1.8181818181818183,
+          2.5000000000000004,
+          2.3863636363636367,
+          1.2500000000000002,
+          1.022727272727273
+        ],
+        "forward": [
+          5,
+          7,
+          8,
+          12,
+          11.5,
+          13,
+          8,
+          6
+        ],
+        "releaseVz": null
+      },
+      "release": {
+        "tick": 13,
+        "clip": "shoot",
+        "frame": null,
+        "hasBall": false,
+        "action": null,
+        "position": {
+          "x": 58,
+          "y": 90,
+          "z": 2
+        },
+        "ball": {
+          "mode": "shot",
+          "ownerId": null,
+          "lastTouch": "reed-ashcroft",
+          "x": 46.099989675094804,
+          "y": 89.54711267038738,
+          "z": 4.14365957446809,
+          "vx": -0.4000103249051946,
+          "vy": -0.4528873296126262,
+          "vz": 1.117659574468085
+        },
+        "score": [
+          0,
+          0
+        ],
+        "scoredAttempts": [],
+        "phase": "playing",
+        "scorePause": 0,
+        "camera": {
+          "camX": 33.5856855525495,
+          "stagePreview": true,
+          "cameraZoom": 120
+        }
+      },
+      "captures": [
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom120-tick13-shoot-ball-shot.png",
+          "sha256": "4b796055b1779b6cafb20e60d8fd8e5af9f0e629dfbd9dec6e78a30d6d9f364c",
+          "tick": 13,
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 2
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 46.099989675094804,
+              "y": 89.54711267038738,
+              "z": 4.14365957446809,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 1.117659574468085
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 33.5856855525495,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom120-tick43-idle-ball-shot.png",
+          "sha256": "249c58df4b8426550a77bd051413bba5cfbf389d4261b2405cd154cc3b840cf6",
+          "tick": 43,
+          "state": {
+            "tick": 16,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 34.09967992793892,
+              "y": 75.96049278200871,
+              "z": 26.363446808510634,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": 0.33765957446808437
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 28.89366185537152,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom120-tick73-idle-ball-shot.png",
+          "sha256": "507656eba1ba3e12cbe41e9f884c961639dd22ebd8d44f551ce66c0a00560380",
+          "tick": 73,
+          "state": {
+            "tick": 46,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 22.09937018078304,
+              "y": 62.37387289363002,
+              "z": 25.183234042553167,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.4423404255319158
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 28.25037320997888,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        },
+        {
+          "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom120-tick83-idle-ball-shot.png",
+          "sha256": "9af1a9a09a13369797076c76f9c71a338998134c35a2a8de8dec95f6656a6d21",
+          "tick": 83,
+          "state": {
+            "tick": 56,
+            "clip": "idle",
+            "frame": null,
+            "hasBall": false,
+            "action": null,
+            "position": {
+              "x": 58,
+              "y": 90,
+              "z": 0
+            },
+            "ball": {
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "reed-ashcroft",
+              "x": 18.09926693173108,
+              "y": 57.84499959750373,
+              "z": 19.589829787234006,
+              "vx": -0.4000103249051946,
+              "vy": -0.4528873296126262,
+              "vz": -0.702340425531916
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "camera": {
+              "camX": 28.208714252158654,
+              "stagePreview": true,
+              "cameraZoom": 120
+            }
+          }
+        }
+      ],
+      "scoreCapture": {
+        "path": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt21/compare-projection-pan/reed-ashcroft/left-zoom120-tick00-celebrate-ball-dead.png",
+        "sha256": "24d169b5b72d33bc935c34833f48c16ce1bfade957e20b78d08c04d6fbff3f93",
+        "tick": 0,
+        "state": {
+          "tick": 0,
+          "clip": "celebrate",
+          "frame": null,
+          "hasBall": false,
+          "action": null,
+          "position": {
+            "x": 58,
+            "y": 90,
+            "z": 0
+          },
+          "ball": {
+            "mode": "dead",
+            "ownerId": null,
+            "lastTouch": "reed-ashcroft",
+            "x": 10.49907075853238,
+            "y": 49.240140334863774,
+            "z": 1.7993617021276047,
+            "vx": -0.4000103249051946,
+            "vy": -0.4528873296126262,
+            "vz": -1.1963404255319163
+          },
+          "score": [
+            0,
+            3
+          ],
+          "scoredAttempts": [
+            "shot-1"
+          ],
+          "phase": "playing",
+          "scorePause": 70,
+          "camera": {
+            "camX": 28.17977062268112,
+            "stagePreview": true,
+            "cameraZoom": 120
+          }
+        }
+      },
+      "uncaughtBrowserErrors": [],
+      "failedRequests": []
+    }
+  ],
+  "captureCount": 20,
+  "allNormalAssets": true
+}

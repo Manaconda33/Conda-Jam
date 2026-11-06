@@ -1,0 +1,88 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "pass",
+  "direction": "right",
+  "attempt": 2,
+  "status": "source and cleanup accepted for separate ball-track trials only; no production registration",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-29a4da42-994e-4a1f-82eb-0fe919e3a283",
+  "generationId": "exec-29a4da42-994e-4a1f-82eb-0fe919e3a283",
+  "generatedAt": "2026-10-28T10:13:07Z",
+  "parentAttempt": "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png",
+  "parentGenerationId": "exec-ebc33ece-dc6d-48a4-a5b8-074f4719a81c",
+  "promptFile": "tools/generate-art/kraken-pass6-attempt02-edit-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "07a707d92be43085f374ba23dd7e0cc03d1cefa1e6d71264f47743f8c19678ee",
+  "rawSourceImage": "tools/generate-art/sources/kraken-pass6-attempt02-generated-raw.png",
+  "rawSourceSha256": "1b8957e8f8266e0a42ee35fa76ab46563b5808d795c46977d2abd4466b599994",
+  "dimensions": [
+    1402,
+    1122
+  ],
+  "format": "PNG RGBA",
+  "identityReferences": [
+    "public/assets/animation/kraken-idle-right.webp",
+    "tools/generate-art/sources/kraken-pass6-attempt01-generated-raw.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    3
+  ],
+  "anchors": {
+    "release": 3,
+    "releaseTick": 5
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate an independent Kraken-specific track after source and cleanup review.",
+  "sourceReview": {
+    "status": "pass for cleanup and separate ball-track trials only; not production acceptance",
+    "evidence": "tools/generate-art/previews/kraken-pass6-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "notes": "Six distinct full-body Kraken poses, true transparency, clear component separation and no baked ball. Frame2 is the final chest gather before the frame3/tick5 release; track trials must verify contact through tick4 and continuity at release."
+  },
+  "cleanup": {
+    "status": "independent cleanup/layout review passed for ball-track trials only; not registered or production accepted",
+    "script": "tools/generate-art/clean-kraken-pass6-attempt02.py",
+    "layout": "tools/generate-art/previews/kraken-pass6-attempt02/layout.json",
+    "report": "tools/generate-art/previews/kraken-pass6-attempt02/cleanup-layout-report.json",
+    "lightPreview": "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/kraken-pass6-attempt02/kraken-pass6-attempt02-dark-preview.png",
+    "independentReview": "tools/generate-art/previews/kraken-pass6-attempt02/INDEPENDENT_CLEANUP_REVIEW_2026-10-28.md",
+    "notes": "The six poses are distinct, anatomy and identity are intact, alpha previews and baseline/margins pass. 121 detached alpha components more than 2 source pixels from each figure were excluded and documented. Gameplay trials must still establish ball contact through tick 4 and release continuity at frame3/tick5."
+  },
+  "ballTrack": {
+    "status": "attempt02 rejected for production after independent review due visually detached recipient ball at tick22/26; attempt03 catch-path correction in progress",
+    "track": {
+      "height": [
+        1.25,
+        1.25,
+        1.3,
+        1.5,
+        1.35,
+        1.05
+      ],
+      "forward": [
+        2,
+        4,
+        5,
+        6,
+        12,
+        8
+      ]
+    },
+    "releaseFrame": 3,
+    "releaseTick": 5,
+    "candidateReview": "tools/generate-art/previews/kraken-pass6-track-candidate/attempt-02/native/REVIEW.md",
+    "independentReview": "tools/generate-art/previews/kraken-pass6-track-candidate/attempt-02/native/INDEPENDENT_REVIEW_2026-10-28.md"
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "source": "tools/generate-art/kraken-pass6-attempt01-provenance.json",
+      "reason": "Frame2 is already an extended pass one tick before the canonical frame3/tick5 release, rather than a chest gather."
+    }
+  ]
+}

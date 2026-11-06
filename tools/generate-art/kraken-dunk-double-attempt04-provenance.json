@@ -1,0 +1,19 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-double",
+  "attempt": "04",
+  "generationId": "exec-082755a3-2ba2-4385-b10c-5cd7664f98f7",
+  "generator": "OpenAI ImageGen",
+  "transparentBackgroundRequested": true,
+  "rawFile": "tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png",
+  "rawSha256": "8a582d128de208c2dc6fb5b10063e463dd978e6baef9f99d5e04b08cb49a17a4",
+  "promptFile": "tools/generate-art/kraken-dunk-double-attempt04-imagegen-prompt.txt",
+  "status": "raw source passed independent source review; cleanup01 derivative created for independent final review; not registered",
+  "cleanupCandidate": {
+    "directory": "tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01",
+    "script": "tools/generate-art/clean-kraken-dunk-double-attempt04-cleanup01.py",
+    "atlas": "tools/generate-art/previews/kraken-dunk-double-attempt04/cleanup01/kraken-dunk-double-attempt04-cleanup01-atlas.png",
+    "atlasSha256": "76167ac98b43e1c9d132cf197982445619425a65e35157c5fd6c774f26c672f6",
+    "reviewStatus": "pending independent final cleanup review; no gameplay track or registration"
+  }
+}

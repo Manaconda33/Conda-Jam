@@ -1,0 +1,3024 @@
+{
+  "renderer": "Chromium current Jam Stage production renderer",
+  "athlete": "krios",
+  "clip": "alley-oop-reverse",
+  "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+  "atlasSha256": "10ca9bdcc859183fd7b88a32235274b37971ad1cd8499ed46aee3912781abd0c",
+  "trackAttempt": "05",
+  "candidateTrack": {
+    "height": [
+      1.15,
+      1.3,
+      1.5,
+      1.5,
+      1.35,
+      1.6,
+      1.5,
+      1.8,
+      1.55,
+      1.5,
+      2.1,
+      1.8,
+      1.3,
+      0.8,
+      0.65
+    ],
+    "forward": [
+      5,
+      7,
+      9,
+      8,
+      6,
+      -1,
+      4,
+      5,
+      2,
+      0,
+      -10,
+      -8,
+      -4,
+      2,
+      4
+    ]
+  },
+  "runtimeIntegration": true,
+  "cameraShim": false,
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "court": "current Jam Stage; actual teammate reverse alley-oop pass; Scoria Rams / Blackthorn Court Kings",
+  "courtY": 90,
+  "sampleTicks": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    10,
+    12,
+    14,
+    17,
+    19,
+    21,
+    23,
+    26,
+    28,
+    30
+  ],
+  "expectedScore": [
+    2,
+    0
+  ],
+  "method": "Set Krios and Flint in a live match, throw a production turbo reverse alley-oop pass, then advance normal simulation ticks. The target starts the real alley-oop-reverse action and catches only at the authored grab anchor. Runtime mode uses the registered manifest and Krios-specific track without injection.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 184,
+            "y": 46
+          },
+          "cameraX": "182.640",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 180.13431529090911,
+            "y": 50,
+            "z": 2.3863636363636367
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 5
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame00-tick00-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 184,
+            "y": 46
+          },
+          "cameraX": "182.640",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 181.01249142645628,
+            "y": 49.452631578947376,
+            "z": 3.246107903465857
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 7
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame01-tick02-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 184,
+            "y": 46
+          },
+          "cameraX": "182.640",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 181.89066756200344,
+            "y": 48.90526315789475,
+            "z": 4.001852170568077
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 9
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame02-tick04-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 184.7625979843225,
+            "y": 46.63157894736842
+          },
+          "cameraX": "183.403",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 183.2079317653242,
+            "y": 48.084210526315815,
+            "z": 4.940468571221407
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame03-tick07-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 185.2709966405375,
+            "y": 47.05263157894737
+          },
+          "cameraX": "183.911",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 184.08610790087135,
+            "y": 47.53684210526319,
+            "z": 5.436212838323627
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame04-tick09-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 185.52519596864502,
+            "y": 47.26315789473684
+          },
+          "cameraX": "184.165",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 184.52519596864494,
+            "y": 47.26315789473688,
+            "z": 5.645084971874737
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": -8.526512829121202e-14,
+            "z": -8.881784197001252e-16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame05-tick10-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 186.03359462486003,
+            "y": 47.68421052631579
+          },
+          "cameraX": "184.674",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 190.03359462486003,
+            "y": 47.68421052631579,
+            "z": 6.255282581475767
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame06-tick12-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 186.54199328107504,
+            "y": 48.10526315789474
+          },
+          "cameraX": "185.182",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 191.54199328107504,
+            "y": 48.10526315789474,
+            "z": 6.8
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame07-tick14-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.30459126539753,
+            "y": 48.73684210526316
+          },
+          "cameraX": "185.945",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 189.30459126539753,
+            "y": 48.73684210526316,
+            "z": 5.880127018922193
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame08-tick17-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 187.81298992161254,
+            "y": 49.1578947368421
+          },
+          "cameraX": "186.453",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 187.81298992161254,
+            "y": 49.1578947368421,
+            "z": 4.713938048432697
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 0
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame09-tick19-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": true
+          },
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.32138857782755,
+            "y": 49.578947368421055
+          },
+          "cameraX": "186.961",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": -10
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame10-tick21-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": -8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame11-tick23-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -4
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame12-tick26-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame13-tick28-zoom100.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 16,
+            "y": 46
+          },
+          "cameraX": "17.360",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 19.865684709090907,
+            "y": 50,
+            "z": 2.3863636363636367
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 5
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame00-tick00-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 16,
+            "y": 46
+          },
+          "cameraX": "17.360",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 18.98750857354372,
+            "y": 49.452631578947376,
+            "z": 3.246107903465857
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 7
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame01-tick02-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 16,
+            "y": 46
+          },
+          "cameraX": "17.360",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 18.109332437996535,
+            "y": 48.90526315789475,
+            "z": 4.001852170568077
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 9
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame02-tick04-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 15.23740201567749,
+            "y": 46.63157894736842
+          },
+          "cameraX": "16.597",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 16.792068234675757,
+            "y": 48.084210526315815,
+            "z": 4.940468571221407
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame03-tick07-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 14.729003359462485,
+            "y": 47.05263157894737
+          },
+          "cameraX": "16.089",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 15.91389209912857,
+            "y": 47.53684210526319,
+            "z": 5.436212838323627
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame04-tick09-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 14.474804031354983,
+            "y": 47.26315789473684
+          },
+          "cameraX": "15.835",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 15.474804031354978,
+            "y": 47.26315789473688,
+            "z": 5.645084971874737
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": -5.329070518200751e-15,
+            "z": -8.881784197001252e-16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame05-tick10-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 13.966405375139978,
+            "y": 47.68421052631579
+          },
+          "cameraX": "15.326",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 9.966405375139978,
+            "y": 47.68421052631579,
+            "z": 6.255282581475767
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame06-tick12-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 13.458006718924972,
+            "y": 48.10526315789474
+          },
+          "cameraX": "14.818",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 8.458006718924972,
+            "y": 48.10526315789474,
+            "z": 6.8
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame07-tick14-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.695408734602463,
+            "y": 48.73684210526316
+          },
+          "cameraX": "14.055",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 10.695408734602463,
+            "y": 48.73684210526316,
+            "z": 5.880127018922193
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame08-tick17-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 12.187010078387457,
+            "y": 49.1578947368421
+          },
+          "cameraX": "13.547",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 12.187010078387457,
+            "y": 49.1578947368421,
+            "z": 4.713938048432697
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 0
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame09-tick19-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": true
+          },
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.678611422172452,
+            "y": 49.578947368421055
+          },
+          "cameraX": "13.039",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": -10
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame10-tick21-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": -8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame11-tick23-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -4
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame12-tick26-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame13-tick28-zoom100.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 184,
+            "y": 46
+          },
+          "cameraX": "182.867",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 180.13431529090911,
+            "y": 50,
+            "z": 2.3863636363636367
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 5
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame00-tick00-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 184,
+            "y": 46
+          },
+          "cameraX": "182.867",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 181.01249142645628,
+            "y": 49.452631578947376,
+            "z": 3.246107903465857
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 7
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame01-tick02-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 184,
+            "y": 46
+          },
+          "cameraX": "182.867",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 181.89066756200344,
+            "y": 48.90526315789475,
+            "z": 4.001852170568077
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 9
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame02-tick04-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 184.7625979843225,
+            "y": 46.63157894736842
+          },
+          "cameraX": "183.629",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 183.2079317653242,
+            "y": 48.084210526315815,
+            "z": 4.940468571221407
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame03-tick07-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 185.2709966405375,
+            "y": 47.05263157894737
+          },
+          "cameraX": "184.138",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 184.08610790087135,
+            "y": 47.53684210526319,
+            "z": 5.436212838323627
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame04-tick09-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 185.52519596864502,
+            "y": 47.26315789473684
+          },
+          "cameraX": "184.392",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 184.52519596864494,
+            "y": 47.26315789473688,
+            "z": 5.645084971874737
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": -8.526512829121202e-14,
+            "z": -8.881784197001252e-16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame05-tick10-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 186.03359462486003,
+            "y": 47.68421052631579
+          },
+          "cameraX": "184.900",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 190.03359462486003,
+            "y": 47.68421052631579,
+            "z": 6.255282581475767
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame06-tick12-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 186.54199328107504,
+            "y": 48.10526315789474
+          },
+          "cameraX": "185.409",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 191.54199328107504,
+            "y": 48.10526315789474,
+            "z": 6.8
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame07-tick14-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.30459126539753,
+            "y": 48.73684210526316
+          },
+          "cameraX": "186.171",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 189.30459126539753,
+            "y": 48.73684210526316,
+            "z": 5.880127018922193
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame08-tick17-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 187.81298992161254,
+            "y": 49.1578947368421
+          },
+          "cameraX": "186.680",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 187.81298992161254,
+            "y": 49.1578947368421,
+            "z": 4.713938048432697
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 0
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame09-tick19-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": true
+          },
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.32138857782755,
+            "y": 49.578947368421055
+          },
+          "cameraX": "187.188",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": -10
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame10-tick21-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": -8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame11-tick23-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -4
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame12-tick26-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame13-tick28-zoom120.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/right-frame14-tick30-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 16,
+            "y": 46
+          },
+          "cameraX": "17.133",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 19.865684709090907,
+            "y": 50,
+            "z": 2.3863636363636367
+          },
+          "trackPoint": {
+            "height": 1.15,
+            "forward": 5
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame00-tick00-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 16,
+            "y": 46
+          },
+          "cameraX": "17.133",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 18.98750857354372,
+            "y": 49.452631578947376,
+            "z": 3.246107903465857
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": 7
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame01-tick02-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 16,
+            "y": 46
+          },
+          "cameraX": "17.133",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 18.109332437996535,
+            "y": 48.90526315789475,
+            "z": 4.001852170568077
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 9
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame02-tick04-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 15.23740201567749,
+            "y": 46.63157894736842
+          },
+          "cameraX": "16.371",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 16.792068234675757,
+            "y": 48.084210526315815,
+            "z": 4.940468571221407
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame03-tick07-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": true,
+            "released": null
+          },
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 14.729003359462485,
+            "y": 47.05263157894737
+          },
+          "cameraX": "15.862",
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "owner": null,
+            "aerialTargetId": "krios",
+            "x": 15.91389209912857,
+            "y": 47.53684210526319,
+            "z": 5.436212838323627
+          },
+          "trackPoint": {
+            "height": 1.35,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame04-tick09-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 14.474804031354983,
+            "y": 47.26315789473684
+          },
+          "cameraX": "15.608",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 15.474804031354978,
+            "y": 47.26315789473688,
+            "z": 5.645084971874737
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": -5.329070518200751e-15,
+            "z": -8.881784197001252e-16
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame05-tick10-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 13.966405375139978,
+            "y": 47.68421052631579
+          },
+          "cameraX": "15.100",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 9.966405375139978,
+            "y": 47.68421052631579,
+            "z": 6.255282581475767
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame06-tick12-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 13.458006718924972,
+            "y": 48.10526315789474
+          },
+          "cameraX": "14.591",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 8.458006718924972,
+            "y": 48.10526315789474,
+            "z": 6.8
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame07-tick14-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.695408734602463,
+            "y": 48.73684210526316
+          },
+          "cameraX": "13.829",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 10.695408734602463,
+            "y": 48.73684210526316,
+            "z": 5.880127018922193
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": 2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame08-tick17-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": null
+          },
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 12.187010078387457,
+            "y": 49.1578947368421
+          },
+          "cameraX": "13.320",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "aerialTargetId": null,
+            "x": 12.187010078387457,
+            "y": 49.1578947368421,
+            "z": 4.713938048432697
+          },
+          "trackPoint": {
+            "height": 1.5,
+            "forward": 0
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame09-tick19-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "alley-oop-reverse",
+          "action": {
+            "kind": "dunk",
+            "awaitingCatch": false,
+            "released": true
+          },
+          "selectedFrame": 10,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.678611422172452,
+            "y": 49.578947368421055
+          },
+          "cameraX": "12.812",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": -10
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame10-tick21-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 11,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.8,
+            "forward": -8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame11-tick23-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 12,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -4
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame12-tick26-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 13,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 2
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame13-tick28-zoom120.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "alley-oop-reverse",
+          "action": null,
+          "selectedFrame": 14,
+          "selectedSrc": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "aerialTargetId": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.65,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 7,
+              "text": "Flint Rooker fires a laser pass"
+            },
+            {
+              "tick": 17,
+              "text": "Krios catches the alley oop in the air!"
+            },
+            {
+              "tick": 30,
+              "text": "Krios scores 2!"
+            }
+          ],
+          "atlas": "./public/assets/animation/krios-alley-oop-reverse-right.png",
+          "path": "tools/generate-art/previews/krios-alley-oop-reverse15-attempt02/live-gameplay-candidate/normal-loader-runtime-attempt05/left-frame14-tick30-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 60
+}

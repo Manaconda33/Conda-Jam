@@ -1,0 +1,27 @@
+{
+  "method": "Actual createMatch/stepMatch shoot action; candidate H/forward launch inputs applied at tick13; production simulation stepped through shot completion",
+  "seed": 4,
+  "teams": ["blackthorn-court-kings", "scoria-rams"],
+  "shooter": "leo",
+  "candidateTrack": {
+    "height": [0.95, 1.1, 2.1, 2.1, 2.7, 7.5, 6.5, 4.5, 2.1, 1.05],
+    "forward": [6, 7, 6.5, 4, 3, 4, 4, 4, 6.5, 5.5]
+  },
+  "releaseTick": 13,
+  "playerZAtRelease": 2,
+  "projectileZ": 12.1666667,
+  "releaseOwnership": {
+    "ownerBefore": "leo",
+    "ownerAfter": null,
+    "playerHasBallAfter": false,
+    "modeAfter": "shot",
+    "lastTouch": "leo"
+  },
+  "results": [
+    { "facing": 1, "scored": true, "score": [3, 0], "stepsToScore": 98 },
+    { "facing": -1, "scored": true, "score": [3, 0], "stepsToScore": 99 }
+  ],
+  "captureReport": "../native/report.json",
+  "captureCount": 48,
+  "captureErrors": []
+}

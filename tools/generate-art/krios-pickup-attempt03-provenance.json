@@ -1,0 +1,28 @@
+{
+  "athlete": "krios",
+  "clip": "pickup",
+  "direction": "right",
+  "attempt": 3,
+  "status": "rejected",
+  "generationId": "exec-fb26e94a-9d17-41de-8756-158ccb2a13b2",
+  "imageGenerationId": "exec-fb26e94a-9d17-41de-8756-158ccb2a13b2",
+  "generatedAt": "2026-10-28",
+  "tool": "GPT Image generation",
+  "promptFile": "tools/generate-art/krios-pickup-attempt03-prompt.md",
+  "promptVerbatim": true,
+  "sourceImage": "tools/generate-art/sources/krios-pickup-attempt03-generated-raw.png",
+  "sourceSha256": "c798d99a3ecd43b38bc2735b9f4634e600efb4bdcdfd3d0db6983b4ba460bb8c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG",
+  "references": [
+    "tools/generate-art/sources/krios-pickup-attempt01-generated-raw.png"
+  ],
+  "previews": [
+    "tools/generate-art/previews/krios-pickup-attempt03/light-preview.png",
+    "tools/generate-art/previews/krios-pickup-attempt03/dark-preview.png"
+  ],
+  "rejectionReason": "Edit introduced a conspicuous red/black glowing backdrop instead of preserving the transparent sheet; complete sheet rejected despite correction request. Preserved as rejected."
+}

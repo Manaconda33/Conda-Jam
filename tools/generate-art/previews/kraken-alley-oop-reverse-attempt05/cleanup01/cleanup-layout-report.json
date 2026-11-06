@@ -1,0 +1,586 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 5,
+  "cleanupAttempt": 1,
+  "sourceRaw": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt05-generated-raw.png",
+  "sourceSha256": "081e75e24918c758344d68f07580bb7df384627ec921057beec1cd00c93e6bf7",
+  "cleanupScript": "tools/generate-art/clean-kraken-alley-oop-reverse-attempt05-cleanup01.py",
+  "cleanupMethod": "15 5x3 row-major cells; alpha threshold 64; cell foreground bbox; common nearest-neighbor scale capped at 65% cell width and 75% cell height; binary alpha; one shared 16-color palette sampled only from visible pixels; remove detached 8-connected components below 24 output pixels; align visible alpha bottom at baselineY92; no repaint/pose generation",
+  "threshold": 64,
+  "scale": 0.1918819188191882,
+  "outputDimensions": [
+    400,
+    288
+  ],
+  "cellSize": [
+    80,
+    96
+  ],
+  "baselineY": 92,
+  "poseCount": 15,
+  "uniqueFrameCount": 15,
+  "normalizedFrameHashes": [
+    "af9acd7ed46106edd2e6e9bfb83d1d202a8b3adce03d3e115833ae139ecc21ed",
+    "f18d74bfa9890e018528730793c2614d631255b9f9e8861a7d834f6e73e7ab48",
+    "e6bafb9d5cfe35efa14ea7025f8e2077163cd579f142aa5a942763c91b5a89f0",
+    "eb0fe0e39edfefa883b4b26cdc8ab80dec1d4af10ddbe583871a1dc8fade5935",
+    "225a7cb8a4a017744e7708da93ece572075c72e8f390002527b1aab53af324c9",
+    "6d5ab0947c730881a8b7995a50a69c82412d990b59fbe3a861528c2b2eb9faf4",
+    "93bb97ef9988e9f8c6b62236f14fb413d307c7bc4137d3a7b1ddf5c2cd3efd02",
+    "a41128cfc9410248ce3e33b1e58e20ad7cfd51d57e1f74b29015e015a53f36d9",
+    "b6fbe2b698ec84545791de727022df3e2f53cc03fdeec5888bdb37f881930768",
+    "a568c84c446cc8fe30ba5d3bafad2a05154c7046ef463413eb3dc2b70d8b8ce4",
+    "af43973053aae0caf8abfea0ace37625188879426ff7f0b938e82c7a90599beb",
+    "511c59a5c8f26c4ec490980bd8c32f471cee52ed931154c714072e75f8debd39",
+    "955ba0e7f85d5a2436ce02ee70a1c6831b8e29dcbe3f1867dc717229f22be634",
+    "b28121c2baaaa6847beb3b74264497be1812904532c0cffd5eda2a4b56b1d431",
+    "5eb29dc18bbfc66d4dda8e79d3df2b107926475e5fe48d10852b14625fe9c242"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "marginsLTRB": [
+        20,
+        39,
+        21,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        20,
+        39,
+        59,
+        92
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 1,
+      "marginsLTRB": [
+        27,
+        41,
+        27,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        107,
+        41,
+        133,
+        92
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 2,
+      "marginsLTRB": [
+        18,
+        40,
+        19,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        178,
+        40,
+        221,
+        92
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 3,
+      "marginsLTRB": [
+        19,
+        40,
+        22,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        259,
+        40,
+        298,
+        92
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 4,
+      "marginsLTRB": [
+        20,
+        38,
+        21,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        340,
+        38,
+        379,
+        92
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 5,
+      "marginsLTRB": [
+        19,
+        45,
+        20,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        19,
+        141,
+        60,
+        188
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 6,
+      "marginsLTRB": [
+        18,
+        39,
+        33,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        98,
+        135,
+        127,
+        188
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 7,
+      "marginsLTRB": [
+        15,
+        33,
+        15,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        175,
+        129,
+        225,
+        188
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 8,
+      "marginsLTRB": [
+        14,
+        30,
+        14,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        254,
+        126,
+        306,
+        188
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 9,
+      "marginsLTRB": [
+        16,
+        37,
+        16,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        336,
+        133,
+        384,
+        188
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 10,
+      "marginsLTRB": [
+        18,
+        40,
+        19,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        18,
+        232,
+        61,
+        284
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 11,
+      "marginsLTRB": [
+        22,
+        41,
+        23,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        102,
+        233,
+        137,
+        284
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 12,
+      "marginsLTRB": [
+        19,
+        39,
+        19,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        179,
+        231,
+        221,
+        284
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 13,
+      "marginsLTRB": [
+        18,
+        47,
+        18,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        258,
+        239,
+        302,
+        284
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    },
+    {
+      "index": 14,
+      "marginsLTRB": [
+        20,
+        49,
+        21,
+        4
+      ],
+      "alphaBoundsInAtlas": [
+        340,
+        241,
+        379,
+        284
+      ],
+      "baselineY": 92,
+      "baselineDelta": 0
+    }
+  ],
+  "sourceFrames": [
+    {
+      "index": 0,
+      "sourceCell": [
+        0,
+        0,
+        307,
+        341
+      ],
+      "sourceBounds": [
+        58,
+        35,
+        263,
+        310
+      ],
+      "sourceSize": [
+        205,
+        275
+      ]
+    },
+    {
+      "index": 1,
+      "sourceCell": [
+        307,
+        0,
+        614,
+        341
+      ],
+      "sourceBounds": [
+        71,
+        39,
+        206,
+        305
+      ],
+      "sourceSize": [
+        135,
+        266
+      ]
+    },
+    {
+      "index": 2,
+      "sourceCell": [
+        614,
+        0,
+        922,
+        341
+      ],
+      "sourceBounds": [
+        32,
+        35,
+        258,
+        305
+      ],
+      "sourceSize": [
+        226,
+        270
+      ]
+    },
+    {
+      "index": 3,
+      "sourceCell": [
+        922,
+        0,
+        1229,
+        341
+      ],
+      "sourceBounds": [
+        48,
+        37,
+        266,
+        341
+      ],
+      "sourceSize": [
+        218,
+        304
+      ]
+    },
+    {
+      "index": 4,
+      "sourceCell": [
+        1229,
+        0,
+        1536,
+        341
+      ],
+      "sourceBounds": [
+        34,
+        33,
+        235,
+        314
+      ],
+      "sourceSize": [
+        201,
+        281
+      ]
+    },
+    {
+      "index": 5,
+      "sourceCell": [
+        0,
+        341,
+        307,
+        683
+      ],
+      "sourceBounds": [
+        74,
+        74,
+        288,
+        317
+      ],
+      "sourceSize": [
+        214,
+        243
+      ]
+    },
+    {
+      "index": 6,
+      "sourceCell": [
+        307,
+        341,
+        614,
+        683
+      ],
+      "sourceBounds": [
+        79,
+        11,
+        307,
+        286
+      ],
+      "sourceSize": [
+        228,
+        275
+      ]
+    },
+    {
+      "index": 7,
+      "sourceCell": [
+        614,
+        341,
+        922,
+        683
+      ],
+      "sourceBounds": [
+        0,
+        7,
+        263,
+        317
+      ],
+      "sourceSize": [
+        263,
+        310
+      ]
+    },
+    {
+      "index": 8,
+      "sourceCell": [
+        922,
+        341,
+        1229,
+        683
+      ],
+      "sourceBounds": [
+        2,
+        0,
+        273,
+        325
+      ],
+      "sourceSize": [
+        271,
+        325
+      ]
+    },
+    {
+      "index": 9,
+      "sourceCell": [
+        1229,
+        341,
+        1536,
+        683
+      ],
+      "sourceBounds": [
+        42,
+        30,
+        292,
+        319
+      ],
+      "sourceSize": [
+        250,
+        289
+      ]
+    },
+    {
+      "index": 10,
+      "sourceCell": [
+        0,
+        683,
+        307,
+        1024
+      ],
+      "sourceBounds": [
+        53,
+        33,
+        279,
+        303
+      ],
+      "sourceSize": [
+        226,
+        270
+      ]
+    },
+    {
+      "index": 11,
+      "sourceCell": [
+        307,
+        683,
+        614,
+        1024
+      ],
+      "sourceBounds": [
+        71,
+        30,
+        253,
+        295
+      ],
+      "sourceSize": [
+        182,
+        265
+      ]
+    },
+    {
+      "index": 12,
+      "sourceCell": [
+        614,
+        683,
+        922,
+        1024
+      ],
+      "sourceBounds": [
+        36,
+        19,
+        253,
+        295
+      ],
+      "sourceSize": [
+        217,
+        276
+      ]
+    },
+    {
+      "index": 13,
+      "sourceCell": [
+        922,
+        683,
+        1229,
+        1024
+      ],
+      "sourceBounds": [
+        31,
+        68,
+        262,
+        302
+      ],
+      "sourceSize": [
+        231,
+        234
+      ]
+    },
+    {
+      "index": 14,
+      "sourceCell": [
+        1229,
+        683,
+        1536,
+        1024
+      ],
+      "sourceBounds": [
+        55,
+        81,
+        257,
+        303
+      ],
+      "sourceSize": [
+        202,
+        222
+      ]
+    }
+  ],
+  "atlas": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt05/cleanup01/kraken-alley-oop-reverse-attempt05-cleanup01-atlas.png",
+  "reviewStatus": "candidate only; independent cleanup review pending"
+}

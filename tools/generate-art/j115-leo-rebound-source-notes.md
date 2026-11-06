@@ -8,4 +8,6 @@ Five distinct full-body poses show Leo setting under the ball, jumping, reaching
 - Packer/cleanup: `tools/generate-art/package-leo-action5.py`; isolates five original body components and leaves the sixth cell transparent.
 - Verbatim prompt: `tools/generate-art/j115-leo-rebound5-prompt.md`; no rejected source.
 
-Initial separate ball track: height `[1.1,1.55,2.25,2.35,1.4]`; forward `[5,7,10,8.5,6]`. The ball meets Leo’s hands at frame3/tick5. Runtime contact tuning and manifest registration await central integration.
+Accepted Leo-specific separate ball track: height `[1.1,1.55,2.25,1.85,1.25]`; forward `[5,7,10,4.5,4.5]`. The ball meets Leo’s empty hands at frame3/tick5 and follows the pull-down into frame4 at tick7. Attempt01 was rejected after native capture showed the ball too high and forward at the catch and too far forward on the recovery hold. Attempt02 passes independent Jam Stage review in both facings at100%/120% zoom. Deterministic simulation confirms the loose ball remains unowned through tick4 and transfers to Leo alone at tick5. The track remains separate from the art.
+
+The source/packed light and dark proofs are `tools/generate-art/previews/leo-rebound-atlas-light.png` and `tools/generate-art/previews/leo-rebound-atlas-dark.png`. All 32 attempt01/02 captures and exact track trials are retained under `tools/generate-art/previews/leo-rebound-track-candidate/` and indexed in `tools/generate-art/j115-leo-rebound-track-trials.json`.

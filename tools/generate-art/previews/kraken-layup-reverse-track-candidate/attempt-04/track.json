@@ -1,0 +1,11 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": 4,
+  "status": "unregistered gameplay rerun; attempt03 state passed but sprite cache failure invalidated visuals",
+  "height": [0.9, 1.1, 1.4, 1.9, 1.9, 1.9, 1.1, 0.8],
+  "forward": [4, 5.5, 4, -4, -4, -5, 5, 4],
+  "frameStartTicks": [0, 2, 5, 7, 10, 12, 13, 17],
+  "releaseTick": 12,
+  "reference": "Same values as attempt03. This rerun fixes the candidate image cache integration so rendered Jam Stage evidence can be reviewed alongside production stepMatch simulation."
+}

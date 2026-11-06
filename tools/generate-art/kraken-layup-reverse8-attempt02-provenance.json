@@ -1,0 +1,30 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "layup-reverse",
+  "attempt": 2,
+  "status": "source generated; review pending",
+  "prompt": "tools/generate-art/kraken-layup-reverse8-attempt02-edit-prompt.txt",
+  "reference": "tools/generate-art/sources/kraken-layup-reverse8-attempt01-generated-raw.png",
+  "generationId": "exec-db27e4db-8722-4c66-a191-928f78c9c134",
+  "generatedAt": "2026-10-28T12:27:00Z",
+  "source": "tools/generate-art/sources/kraken-layup-reverse8-attempt02-generated-raw.png",
+  "sha256": "a6cc035aae8375be8d121165473044e2107f5b168ba7b7e75272a14d0e1aef22",
+  "canonicalFrames": 8,
+  "durations": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    1,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "peak": 4,
+    "release": 5,
+    "finish": 7
+  },
+  "notes": "Attempt01 rejected for opaque vignette and painterly style. Basketball remains separate and athlete-specific; attempt02 must pass source review before cleanup."
+}

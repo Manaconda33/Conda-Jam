@@ -14,3 +14,11 @@ The accepted four-pose sheet shows Leo’s poised turn, open-hand reach toward i
 ## Separate ball track
 
 Initial Leo-specific track: height `[1.15,1.35,1.5,1.45]`; forward `[8,13,16,11]`. The ball is separate runtime art and arrives at the open hands on frame2/tick4. Runtime hand-contact review and manifest registration await central integration.
+
+## Ball-track calibration and independent review
+
+- Attempt01 is preserved in `tools/generate-art/previews/leo-receive-track-candidate/attempt-01/native/` with 24 captures and report. It used H `[1.15,1.35,1.5,1.45]`, F `[8,13,16,11]`; review rejected it because the catch/recovery ball overshot the hands.
+- Attempt02 is preserved in `tools/generate-art/previews/leo-receive-track-candidate/attempt-02/native/` with 24 captures and report. Accepted track H `[1.15,2.0,1.9,1.45]`, F `[8,13,8,3]` brings the ball to the open hands on tick4 and keeps it gathered through recovery in both facing directions at 100%/120% zoom.
+- The independent read-only review found the source poses clean and distinct and specifically rejected attempt01 before accepting the corrected attempt02 alignment. `tests/leo-receive.test.js` separately exercises the real simulation: possession changes at tick4, once, and carries through recovery in both facings.
+- The native capture harness manually sets pose/ball state to inspect placement, so the simulation test is the evidence for catch ownership/timing. The preview report records 24 generated-roster Jam Stage renders and zero browser errors.
+- Light/dark atlas previews: `tools/generate-art/previews/leo-receive-atlas-light.png` and `tools/generate-art/previews/leo-receive-atlas-dark.png`.

@@ -1,0 +1,884 @@
+{
+  "athlete": "krios",
+  "clip": "celebrate",
+  "renderer": "Chromium production Jam Stage canvas",
+  "atlas": "./public/assets/animation/krios-celebrate-right.webp",
+  "atlasSha256": "1850fc987d3922381bbf6413c48ba4d54f61d4a42487a7ef15f315729c9574d9",
+  "runtimeIntegration": true,
+  "candidateAtlasInjected": false,
+  "scoringTransition": "Production commitScore(match,{id,team,playerId,points}) starts celebrate and marks the ball dead/unowned; no clip/tick/score injection.",
+  "court": "current Jam Stage; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "frameDurations": [
+    5,
+    5,
+    6,
+    8,
+    10,
+    10,
+    8,
+    7,
+    6,
+    5
+  ],
+  "sampledTicks": [
+    0,
+    5,
+    10,
+    16,
+    24,
+    34,
+    44,
+    52,
+    59,
+    65
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "scoreTransition": {
+        "score": [
+          2,
+          0
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Krios scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame1-tick5-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame2-tick10-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame3-tick16-zoom100.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame4-tick24-zoom100.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame5-tick34-zoom100.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame6-tick44-zoom100.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame7-tick52-zoom100.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame8-tick59-zoom100.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame9-tick65-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "scoreTransition": {
+        "score": [
+          0,
+          2
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Krios scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame1-tick5-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame2-tick10-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame3-tick16-zoom100.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame4-tick24-zoom100.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame5-tick34-zoom100.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame6-tick44-zoom100.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame7-tick52-zoom100.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame8-tick59-zoom100.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame9-tick65-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "scoreTransition": {
+        "score": [
+          2,
+          0
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Krios scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame1-tick5-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame2-tick10-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame3-tick16-zoom120.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame4-tick24-zoom120.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame5-tick34-zoom120.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame6-tick44-zoom120.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame7-tick52-zoom120.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame8-tick59-zoom120.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": false,
+          "score": [
+            2,
+            0
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/right-frame9-tick65-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "scoreTransition": {
+        "score": [
+          0,
+          2
+        ],
+        "ballMode": "dead",
+        "owner": null,
+        "event": {
+          "tick": 0,
+          "text": "Krios scores 2!"
+        },
+        "clip": "celebrate",
+        "tick": 0
+      },
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame1-tick5-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame2-tick10-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame3-tick16-zoom120.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame4-tick24-zoom120.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame5-tick34-zoom120.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame6-tick44-zoom120.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame7-tick52-zoom120.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame8-tick59-zoom120.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./public/assets/animation/krios-celebrate-right.webp",
+          "flip": true,
+          "score": [
+            0,
+            2
+          ],
+          "ballMode": "dead",
+          "owner": null,
+          "scored": true,
+          "event": {
+            "tick": 0,
+            "text": "Krios scores 2!"
+          },
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/scoring-transition/registered-runtime/left-frame9-tick65-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 40
+}

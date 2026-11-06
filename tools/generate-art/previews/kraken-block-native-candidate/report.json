@@ -1,0 +1,1106 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4227/",
+  "athlete": "kraken",
+  "clip": "block",
+  "candidateAtlas": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 90,
+  "grid": "4 canonical block poses \u00d7 both facings \u00d7 100%/120% zoom = 16 captures",
+  "captureMethod": "Temporary in-page manifest override for unregistered Kraken candidate atlas. Static pose samples follow canonical frame-start ticks; no ball is included in the athlete art, and the separate game ball is staged off screen.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame00-tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0.55,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame01-tick02-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": 1,
+      "z": 1.4,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame02-tick05-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": 1,
+      "z": 0.45,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame03-tick08-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame00-tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0.55,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame01-tick02-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "z": 1.4,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame02-tick05-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "z": 0.45,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame03-tick08-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame00-tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "z": 0.55,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame01-tick02-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": 1,
+      "z": 1.4,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame02-tick05-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": 1,
+      "z": 0.45,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame03-tick08-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame00-tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "z": 0.55,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame01-tick02-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "z": 1.4,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame02-tick05-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "z": 0.45,
+      "ballMode": "loose",
+      "ball": {
+        "x": 120,
+        "y": 90,
+        "z": 2.5
+      },
+      "gameplayArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/sources/kraken-block-candidate3-cleanup02-atlas.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-block-native-candidate/frame03-tick08-left-zoom120.png"
+    }
+  ],
+  "stageReset": {
+    "playerIds": [
+      "kraken"
+    ],
+    "canvasCount": 73,
+    "canvasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 29,
+        "y": 34,
+        "width": 842,
+        "height": 631.5,
+        "top": 34,
+        "right": 871,
+        "bottom": 665.5,
+        "left": 29
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    ],
+    "court": null
+  },
+  "captureCount": 16,
+  "uncaughtBrowserErrors": []
+}

@@ -1,0 +1,84 @@
+{
+  "athlete": "krios",
+  "direction": "right",
+  "clip": "fall",
+  "src": "./public/assets/animation/krios-fall-right.webp",
+  "columns": 10,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 640,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 768,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 896,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 1024,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 1152,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "tool": "imagegen",
+    "generationId": "exec-1c23ddb7-b556-4864-9d0c-71b8cc466f15",
+    "generatedAt": "2026-10-28T07:05:00Z",
+    "prompt": "tools/generate-art/krios-fall10-attempt01-imagegen-prompt.txt",
+    "rawSource": "tools/generate-art/sources/krios-fall10-attempt01-generated-raw.png",
+    "rawSourceSha256": "1b37dd30afeb77f179cb3bcf9b379083807a28d868f3f3cbba91f781a21a698e",
+    "cleanupScript": "tools/generate-art/clean-krios-fall10-attempt01.py",
+    "cleanupReport": "tools/generate-art/previews/krios-fall10-attempt01/cleanup-layout-report.json",
+    "sourceReview": "tools/generate-art/previews/krios-fall10-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+    "cleanupReview": "tools/generate-art/previews/krios-fall10-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "candidateRuntimeReview": "tools/generate-art/previews/krios-fall10-attempt01/live-knockdown-candidate/INDEPENDENT_LIVE_KNOCKDOWN_REVIEW.md",
+    "note": "Individually authored Krios fall art, ball-free; normal-loader runtime candidate review pending."
+  }
+}

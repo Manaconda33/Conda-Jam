@@ -1,0 +1,120 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "dunk-windmill",
+  "src": "./public/assets/animation/kraken-dunk-windmill-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    }
+  ],
+  "baselineY": 94,
+  "provenance": {
+    "athlete": "kraken",
+    "clip": "dunk-windmill",
+    "attempt": 5,
+    "generationId": "exec-d84a3f6d-12ba-4593-a17a-e0a3e683c916",
+    "generator": "OpenAI ImageGen",
+    "transparentBackgroundRequested": true,
+    "rawFile": "tools/generate-art/sources/kraken-dunk-windmill-attempt05-generated-raw.png",
+    "rawSha256": "133b9f5a4f02144ee2c8211aa6fdacb122afb00be3930b9e093d20fcd87f3eff",
+    "promptFile": "tools/generate-art/kraken-dunk-windmill-attempt05-imagegen-prompt.txt",
+    "status": "source independently reviewed; component cleanup/candidate gameplay recommended",
+    "reviewFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/INDEPENDENT_SOURCE_REVIEW.md",
+    "cleanupFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/cleanup01/kraken-dunk-windmill-attempt05-cleanup01-atlas.png",
+    "cleanupReview": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/cleanup01/INDEPENDENT_CLEANUP01_REVIEW.md",
+    "trackAttempt": 3,
+    "trackFile": "tools/generate-art/previews/kraken-dunk-windmill-track-candidate/attempt-03/track.json",
+    "assetClassification": "derived-cleanup-from-imagegen-source",
+    "packaging": "Lossless WebP from reviewed 440x288 cleanup01 atlas."
+  }
+}

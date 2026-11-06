@@ -1,0 +1,26 @@
+{
+  "athlete": "kraken",
+  "clip": "push",
+  "attempt": 4,
+  "kind": "image edit of attempt03 raw",
+  "status": "source passed only to cleanup/layout trial; not accepted",
+  "generatedAt": "2026-10-29T04:08:00Z",
+  "generationId": "exec-3f1d3a01-e7d4-4b8d-9e19-b01aae606bf7",
+  "parentRaw": "tools/generate-art/sources/kraken-push11-attempt03-edited-raw.png",
+  "promptFile": "tools/generate-art/kraken-push11-attempt04-edit-prompt.txt",
+  "promptSha256": "01f6ad5b70e5093e3ef90cc660b984afb7f10f87a0dff6405fdb14c1528cfb57",
+  "rawFile": "tools/generate-art/sources/kraken-push11-attempt04-edited-raw.png",
+  "rawSha256": "61bbbad140d776579aea6613010ce97bd81c013296ad7319c406b80b9d8f904d",
+  "dimensions": [
+    1323,
+    1189
+  ],
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "transparentPixels": 1060981,
+  "partialAlphaPixels": 509208,
+  "generatedBy": "ImageGen",
+  "note": "Exact prompt and edit lineage preserved. Independent source review passes only for careful cleanup/layout trials. Contact-frame anatomy is visibly separated; margins, red fringe and painterly style remain unresolved."
+}

@@ -1,0 +1,71 @@
+{
+  "athlete": "krios",
+  "direction": "right",
+  "clip": "block",
+  "src": "./public/assets/animation/krios-block-right.webp",
+  "columns": 4,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "candidate": "tools/generate-art/previews/krios-block4-attempt01/krios-block4-attempt01-runtime-candidate.png",
+  "sourceProvenance": "tools/generate-art/krios-block4-attempt01-provenance.json",
+  "artReview": "tools/generate-art/previews/krios-block4-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+  "candidateReview": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/INDEPENDENT_REVIEW.md",
+  "canonicalSection": "J.128",
+  "provenance": {
+    "asset": "J.128 Krios block animation",
+    "status": "art accepted for registration; no-injection runtime validation pending",
+    "athlete": "krios",
+    "clip": "block",
+    "canonicalSection": "J.128",
+    "direction": "right",
+    "generationId": "exec-af81d2ba-7941-493f-8ad7-faab5b83ea41",
+    "imageGenerationId": "exec-af81d2ba-7941-493f-8ad7-faab5b83ea41",
+    "generationIdNote": "Image-generation tool returned a workspace artifact id; exported PNG is RGB and has no C2PA metadata.",
+    "generatedAt": "2026-10-28T05:17:52Z",
+    "prompt": "Create one original JAMVERSE \u201996 pixel-art sprite sheet containing exactly four distinct, complete full-body drawings of Krios in a 2-column \u00d7 2-row grid, read row-major. Canvas must be 1536\u00d71024 pixels, opaque RGB with a perfectly flat #00FF00 (RGB 0,255,0) chroma-key background. Each equal 768\u00d7512 cell contains exactly one pose. Keep the entire figure, both curled horns, both hands and both boots at least 64 source pixels from every cell edge. Keep uniform scale and a common ground baseline across the two landing poses. No cell borders, grid lines, labels or panels. Leave uninterrupted green separation between cells and figures. Return only the sprite sheet.\n\nUse the attached approved Krios production art as the exact identity and pixel-art style reference. Krios is a towering, enormously muscular, red-skinned adult male giant with two huge curled near-black ram horns, a wild dark charcoal beard, fierce intelligent eyes, a broad powerful build, black/charcoal Scoria Rams basketball jersey and shorts with ember-red and gold trim, and heavy rugged dark basketball boots. Keep his exact face, horns, beard, red skin, anatomy, kit and proportions consistent in all four poses. Natural connected bipedal anatomy only: one head, two arms, two hands, two legs and two boots. Do not change the uniform or add armor, cape, jewelry, teammate, opponent or accessories.\n\nAction: right-facing defensive block jump with no basketball anywhere in the image. This is a clean defensive movement; hands are empty throughout. Draw exactly these mechanically connected poses, in this order:\n0. READY / DEFENSIVE CROUCH: wide stable feet, knees flexed, hips low, torso upright and alert; both elbows bent, empty hands open around chest-to-face height, eyes tracking an unseen attacker to image-right.\n1. TAKEOFF (simulation tick 2): explosive extension through the legs, body rising off the floor; near-side blocking arm drives sharply upward, far arm opens outward for balance; both feet visibly airborne.\n2. APEX (simulation tick 5): highest reach, blocking arm fully extended vertically and slightly toward image-right with spread fingers, other arm balancing away from the body; knees tucked naturally, both feet off the floor. Keep the pose silhouette clear and powerful.\n3. LANDING FINISH (simulation tick 8): controlled two-foot landing recoil, knees bent and torso centered over the feet; blocking hand returns toward shoulder height, other arm balances; stable natural anatomy and eyes still following the play.\n\nThe silhouettes must be visibly different and show a coherent crouch \u2192 takeoff \u2192 apex \u2192 landing sequence. Preserve both complete arms and hands in every cell, with no extra or missing limbs, no duplicate figure, no cropping, and no overlap. No ball, sphere, seams, prop, player, hoop, rim, court, floor, ground shadow, glow, motion streak, colored haze, text, logo or number. Pixel art must have crisp hard edges, bold outlines and readable arcade-era clusters matching the reference. The chroma key is exact flat green only outside the black figure outlines; do not place green highlights or reflected green on Krios, and do not use gradients, texture, vignette or lighting effects.\n",
+    "promptVerbatim": true,
+    "promptSha256": "cd41d9c33a25da12cb30c229cf4eb1572e33714979f3113676f18376ad71ae03",
+    "sourcePromptStatus": "verbatim",
+    "sourceProvenance": "tools/generate-art/krios-block4-attempt01-provenance.json",
+    "rawSourceImage": "tools/generate-art/sources/krios-block4-attempt01-generated-raw.png",
+    "rawSourceSha256": "86ba7df9103d405a7436469cbb5bd9bbd6bfbba91c4616ede58ac42aeabb941b",
+    "cleanupScript": "tools/generate-art/clean-krios-block4-attempt01.py",
+    "cleanupReport": "tools/generate-art/previews/krios-block4-attempt01/cleanup-layout-report.json",
+    "cleanupReview": "tools/generate-art/previews/krios-block4-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+    "sourceReview": "tools/generate-art/previews/krios-block4-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+    "candidateRuntimeReview": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/INDEPENDENT_REVIEW.md",
+    "candidateCaptureReport": "tools/generate-art/previews/j128-krios-block-candidate/attempt-04/native/report.json",
+    "ballPolicy": "Block is ball-free defensive animation; no basketball is painted into art and no athlete-specific ball track applies.",
+    "ballTrackReview": {
+      "status": "not-applicable",
+      "notes": "Defensive block frames never own or release a ball."
+    },
+    "registeredRuntimeReview": "pending",
+    "cleanupNotes": "tools/generate-art/previews/krios-block4-attempt01/README.md"
+  }
+}

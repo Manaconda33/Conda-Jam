@@ -1,0 +1,1170 @@
+{
+  "status": "candidate-only; no runtime registration or production edits",
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4237/",
+  "athlete": "kraken",
+  "team": "vesper-harbor-undertow",
+  "clip": "pass-overhead",
+  "candidateAtlas": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+  "candidateTrackBaseline": {
+    "height": [
+      0.8,
+      1.1,
+      2.3,
+      2.3,
+      2.85,
+      1.4
+    ],
+    "forward": [
+      9,
+      2,
+      5,
+      7,
+      13,
+      9
+    ]
+  },
+  "releasePositions": {
+    "8": [
+      16,
+      5.2
+    ],
+    "10": [
+      24,
+      6.5
+    ]
+  },
+  "courtY": 50.0,
+  "frameTicks": [
+    0,
+    2,
+    5,
+    7,
+    8,
+    10
+  ],
+  "releaseTick": 7,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    2,
+    3
+  ],
+  "captureGrid": "6 frame starts including release tick7 and post-release samples at ticks8/10; each both facings \u00d7 zoom100/120",
+  "captureMethod": "In-page manifest override of the unregistered v2 Kraken atlas; static candidate track samples are rendered as a separate game ball. A separate normal stepMatch pass test adjusts the actual ownerless release point to the candidate frame3 hand offset, then lets normal Jam Stage simulation resolve flight and recipient catch.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 109,
+        "y": 50,
+        "z": 0.8,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame00-tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102,
+        "y": 50,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame01-tick02-right-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 50,
+        "z": 2.3,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame02-tick05-right-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 107,
+        "y": 50,
+        "z": 2.3,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame03-tick07-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 113,
+        "y": 50,
+        "z": 2.85,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame04-tick08-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 109,
+        "y": 50,
+        "z": 1.4,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame05-tick10-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 91,
+        "y": 50,
+        "z": 0.8,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame00-tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 98,
+        "y": 50,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame01-tick02-left-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 50,
+        "z": 2.3,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame02-tick05-left-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 93,
+        "y": 50,
+        "z": 2.3,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame03-tick07-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 87,
+        "y": 50,
+        "z": 2.85,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame04-tick08-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 91,
+        "y": 50,
+        "z": 1.4,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame05-tick10-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 109,
+        "y": 50,
+        "z": 0.8,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame00-tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102,
+        "y": 50,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame01-tick02-right-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 50,
+        "z": 2.3,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame02-tick05-right-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 107,
+        "y": 50,
+        "z": 2.3,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame03-tick07-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 113,
+        "y": 50,
+        "z": 2.85,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame04-tick08-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 109,
+        "y": 50,
+        "z": 1.4,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame05-tick10-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 91,
+        "y": 50,
+        "z": 0.8,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame00-tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 98,
+        "y": 50,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame01-tick02-left-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "frame": 2,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 50,
+        "z": 2.3,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame02-tick05-left-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 93,
+        "y": 50,
+        "z": 2.3,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame03-tick07-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 87,
+        "y": 50,
+        "z": 2.85,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame04-tick08-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 50,
+        "z": 0,
+        "clip": "pass-overhead",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 91,
+        "y": 50,
+        "z": 1.4,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/frame05-tick10-left-zoom120.png"
+    }
+  ],
+  "gameplayPasses": [
+    {
+      "zoom": 100,
+      "facing": 1,
+      "setup": {
+        "playerIds": [
+          "kraken",
+          "marin-dusk",
+          "leo",
+          "sable-regent"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 80,
+          "y": 50,
+          "facing": 1,
+          "team": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 110,
+          "y": 50,
+          "team": 0
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "beforeCandidateReleaseOffset": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 91.38272727272728,
+          "y": 50,
+          "z": 1.7812857142857144,
+          "vx": 1.15,
+          "vy": 0,
+          "vz": -0.005999999999999998
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/gameplay-release-facing+1-zoom100.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "kraken",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          {
+            "id": "marin-dusk",
+            "team": 0,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          {
+            "id": "leo",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          },
+          {
+            "id": "sable-regent",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 0
+      },
+      "trace": null
+    },
+    {
+      "zoom": 100,
+      "facing": -1,
+      "setup": {
+        "playerIds": [
+          "leo",
+          "sable-regent",
+          "kraken",
+          "marin-dusk"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 120,
+          "y": 50,
+          "facing": -1,
+          "team": 1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 90,
+          "y": 50,
+          "team": 1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "beforeCandidateReleaseOffset": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 108.61727272727272,
+          "y": 50,
+          "z": 1.7812857142857144,
+          "vx": -1.15,
+          "vy": 0,
+          "vz": -0.005999999999999998
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/gameplay-release-facing-1-zoom100.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "leo",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          },
+          {
+            "id": "sable-regent",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          },
+          {
+            "id": "kraken",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          {
+            "id": "marin-dusk",
+            "team": 1,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 1
+      },
+      "trace": null
+    },
+    {
+      "zoom": 120,
+      "facing": 1,
+      "setup": {
+        "playerIds": [
+          "kraken",
+          "marin-dusk",
+          "leo",
+          "sable-regent"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 80,
+          "y": 50,
+          "facing": 1,
+          "team": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 110,
+          "y": 50,
+          "team": 0
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "beforeCandidateReleaseOffset": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 91.38272727272728,
+          "y": 50,
+          "z": 1.7812857142857144,
+          "vx": 1.15,
+          "vy": 0,
+          "vz": -0.005999999999999998
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/gameplay-release-facing+1-zoom120.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "kraken",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          {
+            "id": "marin-dusk",
+            "team": 0,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          {
+            "id": "leo",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          },
+          {
+            "id": "sable-regent",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 0
+      },
+      "trace": null
+    },
+    {
+      "zoom": 120,
+      "facing": -1,
+      "setup": {
+        "playerIds": [
+          "leo",
+          "sable-regent",
+          "kraken",
+          "marin-dusk"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 120,
+          "y": 50,
+          "facing": -1,
+          "team": 1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 90,
+          "y": 50,
+          "team": 1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "beforeCandidateReleaseOffset": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 108.61727272727272,
+          "y": 50,
+          "z": 1.7812857142857144,
+          "vx": -1.15,
+          "vy": 0,
+          "vz": -0.005999999999999998
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-overhead-track-candidate/attempt-01/native/gameplay-release-facing-1-zoom120.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "leo",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          },
+          {
+            "id": "sable-regent",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 27
+          },
+          {
+            "id": "kraken",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13
+          },
+          {
+            "id": "marin-dusk",
+            "team": 1,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 1
+      },
+      "trace": null
+    }
+  ],
+  "captureCount": 24,
+  "uncaughtBrowserErrors": [],
+  "requestErrors": [],
+  "gameplayPassCount": 4,
+  "gameplayPassed": true
+}

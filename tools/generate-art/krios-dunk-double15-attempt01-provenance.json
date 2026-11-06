@@ -1,0 +1,75 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-double",
+  "direction": "right",
+  "attempt": 1,
+  "status": "rejected: frame07 does not depict the canonical low-chest held apex; no ball-track trials",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-80760b40-c628-4061-8b4c-4a53993f61db",
+  "generationId": "exec-80760b40-c628-4061-8b4c-4a53993f61db",
+  "generatedAt": "2026-10-28T08:52:00Z",
+  "promptFile": "tools/generate-art/krios-dunk-double15-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "e39dd61c512e917803431c5f13201157034005466c23a3c352f0f871551b7f88",
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-double15-attempt01-generated-raw.png",
+  "rawSourceSha256": "95cc4f6faa4a7e90c55033965e8494ec84b67265d055dfc4491eed33d056bd49",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate Krios's separate ball track only after canonical source pose acceptance.",
+  "sourceReview": {
+    "status": "reject",
+    "evidence": "tools/generate-art/previews/krios-dunk-double15-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "reason": "Frame07 is overhead instead of low-chest held second gather/apex, conflating it with frames08\u201309."
+  },
+  "cleanup": {
+    "status": "preserved for rejected attempt review only",
+    "candidate": "tools/generate-art/previews/krios-dunk-double15-attempt01/krios-dunk-double15-attempt01-runtime-candidate.png",
+    "cleanupReport": "tools/generate-art/previews/krios-dunk-double15-attempt01/cleanup-layout-report.json",
+    "sha256": "412d63364091074f68a8d21f1e056e25fbd0fc03c71df278a3b0becfa65ef13f",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-double15-attempt01/krios-dunk-double15-attempt01-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-double15-attempt01/krios-dunk-double15-attempt01-dark-preview.png"
+  },
+  "ballTrack": {
+    "status": "not calibrated; attempt01 rejected before track trials",
+    "track": null
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "reason": "Frame07 lacks canonical low-chest held apex/second gather and duplicates raised-extension intent of frames08\u201309."
+    }
+  ]
+}

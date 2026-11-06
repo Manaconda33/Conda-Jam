@@ -1,0 +1,47 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-clutch",
+  "attempt": 2,
+  "status": "candidate gameplay calibration only; not registered",
+  "seededFrom": "attempt01 after 100%/120% current-court gameplay inspection; fixes the attached ball floating above/right of the visible clasped hand at poses7-9",
+  "art": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+  "height": [
+    0.871143,
+    0.928571,
+    1.330571,
+    1.273143,
+    1.129571,
+    1.129571,
+    0.785,
+    1.25,
+    0.9,
+    1.25,
+    1.187,
+    0.641429,
+    0.469143,
+    0.411714,
+    0.698857
+  ],
+  "forward": [
+    2.923636,
+    -7.674545,
+    5.116364,
+    5.116364,
+    3.654545,
+    2.558182,
+    -1.096364,
+    1.5,
+    1.5,
+    1.5,
+    5.847273,
+    1.827273,
+    0.730909,
+    0,
+    -1.461818
+  ],
+  "tuningNotes": {
+    "method": "Keep the ball centered over Kraken\u2019s clasped/front hand through poses7-9; lower prior inflated high-forward points after actual screenshots. Retain frames0-6 and release/flight/later points from attempt01 to compare scoring and recovery behavior.",
+    "evidence": "Attempt01 current-court screenshots at frames7-9 show ball respectively at lower abdomen, above the head, and above the hand. Candidate track only; 100/120 zooms and both facings required.",
+    "scope": "Separate Kraken track candidate, not production registered. Original/runtime art and track remain unchanged."
+  }
+}

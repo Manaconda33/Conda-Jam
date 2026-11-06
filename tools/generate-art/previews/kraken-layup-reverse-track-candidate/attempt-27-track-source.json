@@ -1,0 +1,17 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "status": "candidate calibration only; no runtime changes",
+  "sourceAtlas": "tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+  "court": {
+    "home": "vesper-harbor-undertow",
+    "away": "blackthorn-court-kings",
+    "courtY": 80,
+    "rightFacingX": 150,
+    "leftFacingX": 50
+  },
+  "height": [0.9, 1.1, 1.4, 1.4, 2.3, 1.15, 1.1, 0.8],
+  "forward": [4, 5.5, 4, 0.5, -1.5, -2.5, 5, 4],
+  "releaseVz": 0.8,
+  "calibrationNote": "Compared with attempt24, frame5 forward moves from -5 to -2.5 to bring the ball through the raised behind-head hand at release. All other sampled values are retained. Tick12 release and made two-point score are preserved in both facings."
+}

@@ -1,0 +1,16 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "rebound",
+  "attempt": 3,
+  "status": "source generated; independent review pending",
+  "prompt": "tools/generate-art/kraken-rebound5-attempt03-imagegen-prompt.txt",
+  "generationId": "exec-c89827a3-46c9-47bd-8ca9-85b130db3c2f",
+  "generatedAt": "2026-10-28T13:20:00Z",
+  "source": "tools/generate-art/sources/kraken-rebound5-attempt03-generated-raw.png",
+  "sha256": "e2f31cdb1f4849bc6280d602699d431c953599f1c0dfca856ecef930f91012cf",
+  "canonicalFrames": 5,
+  "durations": [2, 2, 1, 2, 4],
+  "anchors": {"grab": 3},
+  "dimensions": [1774, 887],
+  "notes": "Fresh five-pose source generation after attempt01 and attempt02 were rejected for opaque painterly brown vignettes. Attempt03 explicitly requires crisp pixel art, true transparency, five poses in cells 1-5 and empty cells 6-8; model returned the five distinct full-body poses in one horizontal row. Raw SHA and generation ID recorded; independent review required before cleanup."
+}

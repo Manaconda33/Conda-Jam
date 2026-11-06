@@ -1,0 +1,1409 @@
+{
+  "renderer": "Chromium current Jam Stage production canvas",
+  "athlete": "kraken",
+  "clip": "push",
+  "atlas": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+  "trackAttempt": 2,
+  "candidateOverridesOnly": true,
+  "runtimeIntegration": false,
+  "scenario": "actual shove against ball-carrying Krios within reach; Kraken is placed nearer the sideline for contact visibility; deterministic seed 1",
+  "frameStartTicks": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    15,
+    18,
+    21
+  ],
+  "runs": [
+    {
+      "direction": "right",
+      "facing": 1,
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "push",
+          "clipTick": 0,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 0,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame00-tick00.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "push",
+          "clipTick": 2,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 1,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame01-tick02.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "push",
+          "clipTick": 4,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 2,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame02-tick04.png"
+        },
+        {
+          "frame": 3,
+          "tick": 6,
+          "clip": "push",
+          "clipTick": 6,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 3,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame03-tick06.png"
+        },
+        {
+          "frame": 4,
+          "tick": 7,
+          "clip": "push",
+          "clipTick": 7,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 4,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame04-tick07.png"
+        },
+        {
+          "frame": 5,
+          "tick": 8,
+          "clip": "push",
+          "clipTick": 8,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 44,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 5,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame05-tick08.png"
+        },
+        {
+          "frame": 6,
+          "tick": 10,
+          "clip": "push",
+          "clipTick": 10,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 42,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 6,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame06-tick10.png"
+        },
+        {
+          "frame": 7,
+          "tick": 12,
+          "clip": "push",
+          "clipTick": 12,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 40,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 7,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame07-tick12.png"
+        },
+        {
+          "frame": 8,
+          "tick": 15,
+          "clip": "push",
+          "clipTick": 15,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 37,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 8,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 8
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame08-tick15.png"
+        },
+        {
+          "frame": 9,
+          "tick": 18,
+          "clip": "push",
+          "clipTick": 18,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 34,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 9,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 9
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame09-tick18.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "push",
+          "clipTick": 21,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 31,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 10,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 10
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom100-frame10-tick21.png"
+        }
+      ]
+    },
+    {
+      "direction": "left",
+      "facing": -1,
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "push",
+          "clipTick": 0,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 0,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame00-tick00.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "push",
+          "clipTick": 2,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 1,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame01-tick02.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "push",
+          "clipTick": 4,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 2,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame02-tick04.png"
+        },
+        {
+          "frame": 3,
+          "tick": 6,
+          "clip": "push",
+          "clipTick": 6,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 3,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame03-tick06.png"
+        },
+        {
+          "frame": 4,
+          "tick": 7,
+          "clip": "push",
+          "clipTick": 7,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 4,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame04-tick07.png"
+        },
+        {
+          "frame": 5,
+          "tick": 8,
+          "clip": "push",
+          "clipTick": 8,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 44,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 5,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame05-tick08.png"
+        },
+        {
+          "frame": 6,
+          "tick": 10,
+          "clip": "push",
+          "clipTick": 10,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 42,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 6,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame06-tick10.png"
+        },
+        {
+          "frame": 7,
+          "tick": 12,
+          "clip": "push",
+          "clipTick": 12,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 40,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 7,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame07-tick12.png"
+        },
+        {
+          "frame": 8,
+          "tick": 15,
+          "clip": "push",
+          "clipTick": 15,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 37,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 8,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 8
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame08-tick15.png"
+        },
+        {
+          "frame": 9,
+          "tick": 18,
+          "clip": "push",
+          "clipTick": 18,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 34,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 9,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 9
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame09-tick18.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "push",
+          "clipTick": 21,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 31,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 10,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 10
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom100-frame10-tick21.png"
+        }
+      ]
+    },
+    {
+      "direction": "right",
+      "facing": 1,
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "push",
+          "clipTick": 0,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 0,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame00-tick00.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "push",
+          "clipTick": 2,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 1,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame01-tick02.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "push",
+          "clipTick": 4,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 2,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame02-tick04.png"
+        },
+        {
+          "frame": 3,
+          "tick": 6,
+          "clip": "push",
+          "clipTick": 6,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 3,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame03-tick06.png"
+        },
+        {
+          "frame": 4,
+          "tick": 7,
+          "clip": "push",
+          "clipTick": 7,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 4,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame04-tick07.png"
+        },
+        {
+          "frame": 5,
+          "tick": 8,
+          "clip": "push",
+          "clipTick": 8,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 44,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 5,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame05-tick08.png"
+        },
+        {
+          "frame": 6,
+          "tick": 10,
+          "clip": "push",
+          "clipTick": 10,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 42,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 6,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame06-tick10.png"
+        },
+        {
+          "frame": 7,
+          "tick": 12,
+          "clip": "push",
+          "clipTick": 12,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 40,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 7,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame07-tick12.png"
+        },
+        {
+          "frame": 8,
+          "tick": 15,
+          "clip": "push",
+          "clipTick": 15,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 37,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 8,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 8
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame08-tick15.png"
+        },
+        {
+          "frame": 9,
+          "tick": 18,
+          "clip": "push",
+          "clipTick": 18,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 34,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 9,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 9
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame09-tick18.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "push",
+          "clipTick": 21,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 31,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 10,
+            "flip": false,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 10
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/right-zoom120-frame10-tick21.png"
+        }
+      ]
+    },
+    {
+      "direction": "left",
+      "facing": -1,
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "push",
+          "clipTick": 0,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 0,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 0
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame00-tick00.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "push",
+          "clipTick": 2,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 1,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 1
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame01-tick02.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "push",
+          "clipTick": 4,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 2,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 2
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame02-tick04.png"
+        },
+        {
+          "frame": 3,
+          "tick": 6,
+          "clip": "push",
+          "clipTick": 6,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 3,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 3
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame03-tick06.png"
+        },
+        {
+          "frame": 4,
+          "tick": 7,
+          "clip": "push",
+          "clipTick": 7,
+          "targetId": "krios",
+          "contactTick": 8,
+          "targetStun": 0,
+          "knockdowns": 0,
+          "ball": {
+            "mode": "carried",
+            "owner": "krios",
+            "lastTouch": "krios"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 4,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 4
+          },
+          "events": [],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame04-tick07.png"
+        },
+        {
+          "frame": 5,
+          "tick": 8,
+          "clip": "push",
+          "clipTick": 8,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 44,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 5,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 5
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame05-tick08.png"
+        },
+        {
+          "frame": 6,
+          "tick": 10,
+          "clip": "push",
+          "clipTick": 10,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 42,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 6,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 6
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame06-tick10.png"
+        },
+        {
+          "frame": 7,
+          "tick": 12,
+          "clip": "push",
+          "clipTick": 12,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 40,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 7,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 7
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame07-tick12.png"
+        },
+        {
+          "frame": 8,
+          "tick": 15,
+          "clip": "push",
+          "clipTick": 15,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 37,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 8,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 8
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame08-tick15.png"
+        },
+        {
+          "frame": 9,
+          "tick": 18,
+          "clip": "push",
+          "clipTick": 18,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 34,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 9,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 9
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame09-tick18.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "push",
+          "clipTick": 21,
+          "targetId": null,
+          "contactTick": 8,
+          "targetStun": 31,
+          "knockdowns": 1,
+          "ball": {
+            "mode": "loose",
+            "owner": null,
+            "lastTouch": "kraken"
+          },
+          "score": [
+            0,
+            0
+          ],
+          "selection": {
+            "src": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "frame": 10,
+            "flip": true,
+            "expectedSrc": "./tools/generate-art/previews/kraken-push11-attempt01/kraken-push11-attempt01-runtime-candidate.png",
+            "expectedFrame": 10
+          },
+          "events": [
+            {
+              "tick": 8,
+              "text": "Kraken jars Krios's ball loose!"
+            }
+          ],
+          "path": "tools/generate-art/previews/kraken-push-track-candidate/attempt-02/actual-carrier-shove/left-zoom120-frame10-tick21.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 44,
+  "expectedCaptureCount": 44,
+  "status": "actual push gameplay candidate passed selector/timing/knockdown checks, but independent visual review remains required; no runtime registration"
+}

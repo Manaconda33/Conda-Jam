@@ -1,0 +1,56 @@
+{
+  "athlete": "Krios",
+  "rosterCode": "J.128",
+  "clip": "dunk-clutch",
+  "direction": "right",
+  "attempt": 1,
+  "generation": {
+    "provider": "OpenAI ImageGen",
+    "generationId": "exec-bbb0e2dd-be51-4cb7-a35f-a04357c7d305",
+    "generatedAt": null,
+    "generatedAtNote": "Exact generation timestamp was not included with the supplied generation record.",
+    "prompt": "tools/generate-art/krios-dunk-clutch15-attempt01-imagegen-prompt.txt",
+    "promptSha256": "617a9946aa70d16c0c940fe53333395b4d26bc5367b68eaa7f1e597c7d550838",
+    "rawImage": "tools/generate-art/sources/krios-dunk-clutch15-attempt01-generated-raw.png",
+    "rawImageSha256": "ca4e26ce0904eda2efa882fa1574ab1ae32294aee3482fa0872e31e5373e3d2c",
+    "rawDimensions": [1619, 971],
+    "rawColorMode": "RGB"
+  },
+  "canonicalSpecification": {
+    "catalog": "tools/generate-art/pose-catalog.json",
+    "poseCount": 15,
+    "durations": [2, 2, 3, 2, 1, 2, 2, 3, 2, 2, 2, 3, 2, 2, 3],
+    "anchors": {
+      "takeoff": 2,
+      "grab": 5,
+      "peak": 7,
+      "release": 10,
+      "finish": 11,
+      "land": 14
+    }
+  },
+  "cleanup": {
+    "script": "tools/generate-art/clean-krios-dunk-clutch15-attempt01.py",
+    "report": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/cleanup-layout-report.json",
+    "algorithm": "Green-dominance connected-component extraction; source-row and left-to-right ordering; uniform nearest-neighbor scaling into 118x86; transparent 128x96 cells; common baseline y=94; int16 green despill; no redraw.",
+    "candidateAtlas": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/krios-dunk-clutch15-attempt01-runtime-candidate.png",
+    "candidateAtlasSha256": "377a26cee8b7e92fcfb1d62a2017c5e1e9d3481bfcbe37cf7c3c879c4635d98f",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/krios-dunk-clutch15-attempt01-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/krios-dunk-clutch15-attempt01-dark-preview.png",
+    "targetSizeContactSheet": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/target-size-pose-contact-sheet.png",
+    "isolatedFrames": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/pose-00-isolated.png through pose-14-isolated.png"
+  },
+  "review": {
+    "reviewFile": "tools/generate-art/previews/krios-dunk-clutch15-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "reviewedAt": "2026-10-28",
+    "verdict": "REJECT_SOURCE_FOR_CANONICAL_CLIP",
+    "runtimeRegistration": "not registered",
+    "ballTrack": "not calibrated; source poses fail gesture-specific review"
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "reason": "Canonical action-specific poses are not faithfully rendered: frame 6 lacks the protected low underbody extension, frame 7 does not show the prescribed pull across far ribs at peak, and frame 10 does not clearly read as the diagonal release/flick. Similar crouched/reaching silhouettes also weaken the intended transition sequence. Preserve as rejected source evidence; do not register."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "source": "tools/generate-art/sources/krios-pass-behind6-attempt03-generated-raw.png",
+  "sourceSha256": "0a9b9ecc7726af2f50eae3da5239c7be645e8656cda36f60031b6a59b79442f7",
+  "output": "tools/generate-art/sources/krios-pass-behind6-attempt03-cleanup01.png",
+  "outputSha256": "64ab5da047ddd51f8220f8341feab21cab5514281f3ee7ff9d096e716eccf2ef",
+  "script": "tools/generate-art/clean-krios-pass-behind6-attempt03.py",
+  "method": "Set alpha below 96 to zero; set alpha 96–254 to 255. RGB values are preserved for every pixel.",
+  "alphaThreshold": 96,
+  "removedNonzeroAlphaPixels": 86371,
+  "madeOpaquePixels": 485751,
+  "componentsAtAlpha64": 6,
+  "componentBounds": [
+    [57, 57, 468, 478],
+    [565, 58, 970, 479],
+    [1103, 67, 1497, 482],
+    [81, 556, 483, 977],
+    [568, 556, 990, 977],
+    [1103, 550, 1513, 977]
+  ],
+  "previews": [
+    "tools/generate-art/previews/krios-pass-behind6-attempt03-cleanup01/light.png",
+    "tools/generate-art/previews/krios-pass-behind6-attempt03-cleanup01/dark.png",
+    "tools/generate-art/previews/krios-pass-behind6-attempt03-cleanup01/checker.png"
+  ],
+  "reviewStatus": "pending"
+}

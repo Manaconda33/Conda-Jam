@@ -1,0 +1,10 @@
+{
+  "athlete": "kraken",
+  "clip": "pass-overhead",
+  "status": "calibration-only; unregistered",
+  "height": [1.05, 1.85, 1.75, 1.9, 2.1, 1.2],
+  "forward": [2.5, 3, 2, 6, 10, 14],
+  "frameStartTicks": [0, 2, 5, 7, 8, 10],
+  "releaseTick": 7,
+  "candidateAtlas": "tools/generate-art/previews/kraken-pass-overhead6-attempt02/kraken-pass-overhead6-attempt02-runtime-candidate-v2.png"
+}

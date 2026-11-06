@@ -1,0 +1,4916 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4227/",
+  "athlete": "leo",
+  "clip": "layup-reverse",
+  "candidateAtlas": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+  "candidateTrack": {
+    "height": [
+      0.4,
+      1.61,
+      1.98,
+      2.6,
+      2.65,
+      2.65,
+      1.45,
+      0.84
+    ],
+    "forward": [
+      5.85,
+      6.58,
+      4.02,
+      4.5,
+      5.5,
+      6.8,
+      6.58,
+      5.85
+    ]
+  },
+  "simulation": "Actual production stepMatch loop. A single setup action initializes the existing layup-reverse shot state on a one-player diagnostic match because courtY=90 is outside queueShot close-range criteria. Track injected into served animation module in-page only; no production files changed.",
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 90,
+  "grid": "Post-release trajectory checkpoints plus score/dead-ball completion for both facings \u00d7 100%/120%",
+  "captureMethod": "For each facing, the match starts with Leo on the selected offensive roster (home for right, away for left) so the production renderer resolves him from the matching team roster. A one-time diagnostic fixture keeps only that real Leo player in frame and initializes the production layup-reverse shot action. Production stepMatch advances animation, takeoff, carried-ball track, release, shot physics, rim/score resolution, and completion continuously. No manual per-tick ball teleporting; no pause overlay; no ball baked into art.",
+  "fixture": "One-player diagnostic match close to the attacking hoop: x=160 for home/right-facing and x=40 for away/left-facing, y=90. Leo remains on the selected team roster. The production stepMatch path runs until score/ball completion (maximum 150 simulation steps).",
+  "captures": [
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          253.91039999999998,
+          284.39546021527246
+        ]
+      },
+      "cameraX": 97.102,
+      "ball": {
+        "x": 93.85,
+        "y": 90,
+        "z": 4.599855824363647,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick011-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          255.528,
+          287.94549434068387
+        ]
+      },
+      "cameraX": 96.765,
+      "ball": {
+        "x": 92.3411646282121,
+        "y": 89.58120804612719,
+        "z": 5.165514291346041,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 1.2016595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick012-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          257.3184,
+          293.6640888415346
+        ]
+      },
+      "cameraX": 96.392,
+      "ball": {
+        "x": 91.4823292564242,
+        "y": 89.16241609225438,
+        "z": 6.3671738658141255,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 1.1756595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick013-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          266.0256,
+          331.192
+        ]
+      },
+      "cameraX": 94.578,
+      "ball": {
+        "x": 88.04698776927258,
+        "y": 87.48724827676313,
+        "z": 10.913812163686467,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 1.071659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick017-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          273.8832,
+          331.192
+        ]
+      },
+      "cameraX": 92.941,
+      "ball": {
+        "x": 85.47048165390886,
+        "y": 86.23087241514469,
+        "z": 14.05079088709072,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.993659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick020-zoom100.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 9,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          307.83360000000005,
+          331.192
+        ]
+      },
+      "cameraX": 85.868,
+      "ball": {
+        "x": 76.88212793602982,
+        "y": 82.04295287641656,
+        "z": 22.817386631771562,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.7336595744680847,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick030-zoom100.png"
+    },
+    {
+      "tick": 40,
+      "animationTick": 19,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          346.2336,
+          331.192
+        ]
+      },
+      "cameraX": 77.868,
+      "ball": {
+        "x": 68.29377421815077,
+        "y": 77.85503333768844,
+        "z": 28.983982376452413,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.4736595744680845,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick040-zoom100.png"
+    },
+    {
+      "tick": 50,
+      "animationTick": 29,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          384.6336,
+          331.192
+        ]
+      },
+      "cameraX": 69.868,
+      "ball": {
+        "x": 59.70542050027177,
+        "y": 73.66711379896032,
+        "z": 32.55057812113325,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.2136595744680843,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick050-zoom100.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 39,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          423.0336,
+          331.192
+        ]
+      },
+      "cameraX": 61.868,
+      "ball": {
+        "x": 51.1170667823928,
+        "y": 69.47919426023219,
+        "z": 33.517173865814094,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -0.046340425531915655,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick060-zoom100.png"
+    },
+    {
+      "tick": 80,
+      "animationTick": 59,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          499.8336,
+          331.192
+        ]
+      },
+      "cameraX": 45.868,
+      "ball": {
+        "x": 33.94035934663485,
+        "y": 61.10335518277594,
+        "z": 27.650365355175772,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -0.5663404255319159,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick080-zoom100.png"
+    },
+    {
+      "tick": 100,
+      "animationTick": 79,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          562.2912,
+          331.192
+        ]
+      },
+      "cameraX": 32.856,
+      "ball": {
+        "x": 16.76365191087684,
+        "y": 52.727516105319694,
+        "z": 11.383556844537452,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.0863404255319162,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick100-zoom100.png"
+    },
+    {
+      "tick": 104,
+      "animationTick": 83,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          568.008,
+          331.192
+        ]
+      },
+      "cameraX": 31.665,
+      "ball": {
+        "x": 13.328310423725235,
+        "y": 51.052348289828444,
+        "z": 6.8821951424097865,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.1903404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick104-zoom100.png"
+    },
+    {
+      "tick": 105,
+      "animationTick": 84,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          569.1936,
+          331.192
+        ]
+      },
+      "cameraX": 31.418,
+      "ball": {
+        "x": 12.469475051937334,
+        "y": 50.63355633595563,
+        "z": 5.69185471687787,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2163404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick105-zoom100.png"
+    },
+    {
+      "tick": 106,
+      "animationTick": 85,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          570.2976,
+          331.192
+        ]
+      },
+      "cameraX": 31.188,
+      "ball": {
+        "x": 11.610639680149433,
+        "y": 50.21476438208282,
+        "z": 4.475514291345954,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2423404255319164,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick106-zoom100.png"
+    },
+    {
+      "tick": 107,
+      "animationTick": 86,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          571.3199999999999,
+          331.192
+        ]
+      },
+      "cameraX": 30.975,
+      "ball": {
+        "x": 10.751804308361532,
+        "y": 49.79597242821001,
+        "z": 3.2331738658140377,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2683404255319164,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick107-zoom100.png"
+    },
+    {
+      "tick": 108,
+      "animationTick": 0,
+      "frame": null,
+      "animationClip": "celebrate",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 1,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          572.2752,
+          331.192
+        ]
+      },
+      "cameraX": 30.776,
+      "ball": {
+        "x": 9.89296893657363,
+        "y": 49.377180474337194,
+        "z": 1.9648334402821213,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2943404255319164,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true,
+        "scored": true,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        3
+      ],
+      "scorePause": 70,
+      "lastEvent": "Leo scores 3!",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        },
+        {
+          "tick": 107,
+          "text": "Leo scores 3!"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick108-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          596.4864,
+          269.274552258327
+        ]
+      },
+      "cameraX": 38.11,
+      "ball": {
+        "x": 93.85,
+        "y": 90,
+        "z": 4.599855824363647,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "leo",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick011-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          592.6502399999999,
+          273.5345932088207
+        ]
+      },
+      "cameraX": 38.776,
+      "ball": {
+        "x": 92.3411646282121,
+        "y": 89.58120804612719,
+        "z": 5.165514291346041,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 1.2016595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick012-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          588.8083200000001,
+          280.3969066098415
+        ]
+      },
+      "cameraX": 39.443,
+      "ball": {
+        "x": 91.4823292564242,
+        "y": 89.16241609225438,
+        "z": 6.3671738658141255,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 1.1756595744680851,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick013-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          573.4464,
+          325.4304
+        ]
+      },
+      "cameraX": 42.11,
+      "ball": {
+        "x": 88.04698776927258,
+        "y": 87.48724827676313,
+        "z": 10.913812163686467,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 1.071659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick017-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          561.9264000000001,
+          325.4304
+        ]
+      },
+      "cameraX": 44.11,
+      "ball": {
+        "x": 85.47048165390886,
+        "y": 86.23087241514469,
+        "z": 14.05079088709072,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.993659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/sources/j111-leo-layup-reverse-attempt06-facefix-cleanup01-atlas.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick020-zoom120.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 9,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          523.53024,
+          325.4304
+        ]
+      },
+      "cameraX": 50.776,
+      "ball": {
+        "x": 76.88212793602982,
+        "y": 82.04295287641656,
+        "z": 22.817386631771562,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.7336595744680847,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick030-zoom120.png"
+    },
+    {
+      "tick": 40,
+      "animationTick": 19,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          497.17824,
+          325.4304
+        ]
+      },
+      "cameraX": 55.351,
+      "ball": {
+        "x": 68.29377421815077,
+        "y": 77.85503333768844,
+        "z": 28.983982376452413,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.4736595744680845,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick040-zoom120.png"
+    },
+    {
+      "tick": 50,
+      "animationTick": 29,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          520.96704,
+          325.4304
+        ]
+      },
+      "cameraX": 51.221,
+      "ball": {
+        "x": 59.70542050027177,
+        "y": 73.66711379896032,
+        "z": 32.55057812113325,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": 0.2136595744680843,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick050-zoom120.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 39,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          559.3632,
+          325.4304
+        ]
+      },
+      "cameraX": 44.555,
+      "ball": {
+        "x": 51.1170667823928,
+        "y": 69.47919426023219,
+        "z": 33.517173865814094,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -0.046340425531915655,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick060-zoom120.png"
+    },
+    {
+      "tick": 80,
+      "animationTick": 59,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          626.7955199999999,
+          325.4304
+        ]
+      },
+      "cameraX": 32.848,
+      "ball": {
+        "x": 33.94035934663485,
+        "y": 61.10335518277594,
+        "z": 27.650365355175772,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -0.5663404255319159,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick080-zoom120.png"
+    },
+    {
+      "tick": 100,
+      "animationTick": 79,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          647.52576,
+          325.4304
+        ]
+      },
+      "cameraX": 29.249,
+      "ball": {
+        "x": 16.76365191087684,
+        "y": 52.727516105319694,
+        "z": 11.383556844537452,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.0863404255319162,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick100-zoom120.png"
+    },
+    {
+      "tick": 104,
+      "animationTick": 83,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          649.104,
+          325.4304
+        ]
+      },
+      "cameraX": 28.975,
+      "ball": {
+        "x": 13.328310423725235,
+        "y": 51.052348289828444,
+        "z": 6.8821951424097865,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.1903404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick104-zoom120.png"
+    },
+    {
+      "tick": 105,
+      "animationTick": 84,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          649.4323199999999,
+          325.4304
+        ]
+      },
+      "cameraX": 28.918,
+      "ball": {
+        "x": 12.469475051937334,
+        "y": 50.63355633595563,
+        "z": 5.69185471687787,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2163404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick105-zoom120.png"
+    },
+    {
+      "tick": 106,
+      "animationTick": 85,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          649.7376,
+          325.4304
+        ]
+      },
+      "cameraX": 28.865,
+      "ball": {
+        "x": 11.610639680149433,
+        "y": 50.21476438208282,
+        "z": 4.475514291345954,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2423404255319164,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick106-zoom120.png"
+    },
+    {
+      "tick": 107,
+      "animationTick": 86,
+      "frame": null,
+      "animationClip": "idle",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          650.0198399999999,
+          325.4304
+        ]
+      },
+      "cameraX": 28.816,
+      "ball": {
+        "x": 10.751804308361532,
+        "y": 49.79597242821001,
+        "z": 3.2331738658140377,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2683404255319164,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Leo launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick107-zoom120.png"
+    },
+    {
+      "tick": 108,
+      "animationTick": 0,
+      "frame": null,
+      "animationClip": "celebrate",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 1,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          650.2847999999999,
+          325.4304
+        ]
+      },
+      "cameraX": 28.77,
+      "ball": {
+        "x": 9.89296893657363,
+        "y": 49.377180474337194,
+        "z": 1.9648334402821213,
+        "vx": -0.8588353717879007,
+        "vy": -0.4187919538728156,
+        "vz": -1.2943404255319164,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true,
+        "scored": true,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        3
+      ],
+      "scorePause": 70,
+      "lastEvent": "Leo scores 3!",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Leo launches a 3-pointer"
+        },
+        {
+          "tick": 107,
+          "text": "Leo scores 3!"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j111-leo-layup-reverse-track-candidate/attempt-09/gameplay/left/gameplay-left-tick108-zoom120.png"
+    }
+  ],
+  "ownershipTrace": [
+    {
+      "tick": 0,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 0,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 1,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 1,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 2,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 3,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 3,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 4,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 4,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 5,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 6,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 6,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 7,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 7,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 8,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 8,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 9,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 9,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 10,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 10,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 11,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 11,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 12,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 13,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 14,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 14,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 15,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 15,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 16,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 16,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 17,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 18,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 18,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 19,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 19,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 20,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 21,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 0,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 22,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 1,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 23,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 2,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 24,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 3,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 25,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 4,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 26,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 5,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 27,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 6,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 28,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 7,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 29,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 8,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 30,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 9,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 31,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 10,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 32,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 11,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 33,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 34,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 35,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 14,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 36,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 15,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 37,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 16,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 38,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 39,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 18,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 40,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 19,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 41,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 42,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 21,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 43,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 22,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 44,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 23,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 45,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 24,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 46,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 25,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 47,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 26,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 48,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 27,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 49,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 28,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 50,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 29,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 51,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 30,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 52,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 31,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 53,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 32,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 54,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 33,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 55,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 34,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 56,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 35,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 57,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 36,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 58,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 37,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 59,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 38,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 60,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 39,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 61,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 40,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 62,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 41,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 63,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 42,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 64,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 43,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 65,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 44,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 66,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 45,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 67,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 46,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 68,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 47,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 69,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 48,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 70,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 49,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 71,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 50,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 72,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 51,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 73,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 52,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 74,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 53,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 75,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 54,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 76,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 55,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 77,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 56,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 78,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 57,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 79,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 58,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 80,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 59,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 81,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 60,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 82,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 61,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 83,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 62,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 84,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 63,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 85,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 64,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 86,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 65,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 87,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 66,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 88,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 67,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 89,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 68,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 90,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 69,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 91,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 70,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 92,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 71,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 93,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 72,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 94,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 73,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 95,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 74,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 96,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 75,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 97,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 76,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 98,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 77,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 99,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 78,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 100,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 79,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 101,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 80,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 102,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 81,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 103,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 82,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 104,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 83,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 105,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 84,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 106,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 85,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 107,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 86,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 108,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 0,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "dead",
+      "scored": true,
+      "score": [
+        0,
+        3
+      ]
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 0,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 1,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 1,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 2,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 3,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 3,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 4,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 4,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 5,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 6,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 6,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 7,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 7,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 8,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 8,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 9,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 9,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 10,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 10,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 11,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 11,
+      "playerHasBall": true,
+      "ownerId": "leo",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 12,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 13,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 14,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 14,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 15,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 15,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 16,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 16,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 17,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 18,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 18,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 19,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 19,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 20,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 21,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 0,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 22,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 1,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 23,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 2,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 24,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 3,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 25,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 4,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 26,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 5,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 27,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 6,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 28,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 7,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 29,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 8,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 30,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 9,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 31,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 10,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 32,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 11,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 33,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 34,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 35,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 14,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 36,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 15,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 37,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 16,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 38,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 39,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 18,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 40,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 19,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 41,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 42,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 21,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 43,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 22,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 44,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 23,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 45,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 24,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 46,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 25,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 47,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 26,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 48,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 27,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 49,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 28,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 50,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 29,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 51,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 30,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 52,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 31,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 53,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 32,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 54,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 33,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 55,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 34,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 56,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 35,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 57,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 36,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 58,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 37,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 59,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 38,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 60,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 39,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 61,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 40,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 62,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 41,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 63,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 42,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 64,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 43,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 65,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 44,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 66,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 45,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 67,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 46,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 68,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 47,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 69,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 48,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 70,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 49,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 71,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 50,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 72,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 51,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 73,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 52,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 74,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 53,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 75,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 54,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 76,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 55,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 77,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 56,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 78,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 57,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 79,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 58,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 80,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 59,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 81,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 60,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 82,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 61,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 83,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 62,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 84,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 63,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 85,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 64,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 86,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 65,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 87,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 66,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 88,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 67,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 89,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 68,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 90,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 69,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 91,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 70,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 92,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 71,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 93,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 72,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 94,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 73,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 95,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 74,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 96,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 75,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 97,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 76,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 98,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 77,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 99,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 78,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 100,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 79,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 101,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 80,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 102,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 81,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 103,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 82,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 104,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 83,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 105,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 84,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 106,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 85,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 107,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 86,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 108,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 0,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "dead",
+      "scored": true,
+      "score": [
+        0,
+        3
+      ]
+    }
+  ],
+  "setupFixture": "Per facing, Jam Stage starts a real roster containing Leo on the scoring team (home for right, away for left). A one-time fixture retains that Leo instance at near the attacking hoop and initializes the layup-reverse shot action; stepMatch owns subsequent animation, elevation, ball, release, and flight updates.",
+  "captureCount": 32,
+  "uncaughtBrowserErrors": []
+}

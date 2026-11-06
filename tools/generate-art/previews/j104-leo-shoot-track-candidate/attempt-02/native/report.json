@@ -1,0 +1,1721 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4224/",
+  "athlete": "leo",
+  "clip": "shoot",
+  "candidateAtlas": "./public/assets/animation/leo-shoot-right.webp",
+  "candidateTrack": {
+    "height": [
+      0.95,
+      1.1,
+      2.1,
+      2.8,
+      3.5,
+      4.2,
+      3.9,
+      3.3,
+      2.1,
+      1.05
+    ],
+    "forward": [
+      6,
+      7,
+      6.5,
+      4,
+      3,
+      4,
+      4,
+      4,
+      6.5,
+      5.5
+    ]
+  },
+  "releasePositions": {
+    "13": [
+      4,
+      7.2
+    ],
+    "14": [
+      4.5,
+      7.5
+    ],
+    "16": [
+      7,
+      8.5
+    ],
+    "19": [
+      15,
+      8
+    ],
+    "23": [
+      26,
+      3
+    ]
+  },
+  "court": "scoria-rams vs blackthorn-court-kings",
+  "courtY": 90.0,
+  "grid": "10 authored frame starts \u00d7 both facings \u00d7 100%/120% = 40 captures",
+  "captureMethod": "Atlas override is installed before the single Jam Stage start; ball remains separate and is positioned on the candidate hand track until release tick13, then follows reviewed free-flight sample coordinates.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 90,
+        "z": 0.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame00-tick00-right-zoom100.png"
+    },
+    {
+      "tick": 3,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 90,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame01-tick03-right-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "frame": 2,
+      "facing": 1,
+      "z": 0.75,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106.5,
+        "y": 90,
+        "z": 2.85
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame02-tick06-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": 1,
+      "z": 1.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 90,
+        "z": 4.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame03-tick08-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": 1,
+      "z": 2.25,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 90,
+        "z": 5.75
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame04-tick10-right-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "frame": 5,
+      "facing": 1,
+      "z": 3,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 104,
+        "y": 90,
+        "z": 7.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame05-tick13-right-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": 1,
+      "z": 2.9,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 7.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 6,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame06-tick14-right-zoom100.png"
+    },
+    {
+      "tick": 16,
+      "frame": 7,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 107,
+        "y": 90,
+        "z": 8.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 7,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame07-tick16-right-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 8,
+      "facing": 1,
+      "z": 1.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 115,
+        "y": 90,
+        "z": 8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 8,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame08-tick19-right-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 9,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 126,
+        "y": 90,
+        "z": 3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 9,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame09-tick23-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 90,
+        "z": 0.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame00-tick00-left-zoom100.png"
+    },
+    {
+      "tick": 3,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 90,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame01-tick03-left-zoom100.png"
+    },
+    {
+      "tick": 6,
+      "frame": 2,
+      "facing": -1,
+      "z": 0.75,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93.5,
+        "y": 90,
+        "z": 2.85
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame02-tick06-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "z": 1.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 90,
+        "z": 4.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame03-tick08-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": -1,
+      "z": 2.25,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 90,
+        "z": 5.75
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame04-tick10-left-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "frame": 5,
+      "facing": -1,
+      "z": 3,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 96,
+        "y": 90,
+        "z": 7.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame05-tick13-left-zoom100.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": -1,
+      "z": 2.9,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 7.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 6,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame06-tick14-left-zoom100.png"
+    },
+    {
+      "tick": 16,
+      "frame": 7,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 93,
+        "y": 90,
+        "z": 8.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 7,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame07-tick16-left-zoom100.png"
+    },
+    {
+      "tick": 19,
+      "frame": 8,
+      "facing": -1,
+      "z": 1.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 85,
+        "y": 90,
+        "z": 8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 8,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame08-tick19-left-zoom100.png"
+    },
+    {
+      "tick": 23,
+      "frame": 9,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 74,
+        "y": 90,
+        "z": 3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 9,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame09-tick23-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106,
+        "y": 90,
+        "z": 0.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame00-tick00-right-zoom120.png"
+    },
+    {
+      "tick": 3,
+      "frame": 1,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 107,
+        "y": 90,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame01-tick03-right-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "frame": 2,
+      "facing": 1,
+      "z": 0.75,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 106.5,
+        "y": 90,
+        "z": 2.85
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame02-tick06-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": 1,
+      "z": 1.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 104,
+        "y": 90,
+        "z": 4.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame03-tick08-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": 1,
+      "z": 2.25,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 103,
+        "y": 90,
+        "z": 5.75
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame04-tick10-right-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "frame": 5,
+      "facing": 1,
+      "z": 3,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 104,
+        "y": 90,
+        "z": 7.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame05-tick13-right-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": 1,
+      "z": 2.9,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 104.5,
+        "y": 90,
+        "z": 7.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 6,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame06-tick14-right-zoom120.png"
+    },
+    {
+      "tick": 16,
+      "frame": 7,
+      "facing": 1,
+      "z": 2.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 107,
+        "y": 90,
+        "z": 8.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 7,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame07-tick16-right-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 8,
+      "facing": 1,
+      "z": 1.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 115,
+        "y": 90,
+        "z": 8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 8,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame08-tick19-right-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 9,
+      "facing": 1,
+      "z": 0,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 126,
+        "y": 90,
+        "z": 3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 9,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame09-tick23-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 94,
+        "y": 90,
+        "z": 0.95
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame00-tick00-left-zoom120.png"
+    },
+    {
+      "tick": 3,
+      "frame": 1,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93,
+        "y": 90,
+        "z": 1.1
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame01-tick03-left-zoom120.png"
+    },
+    {
+      "tick": 6,
+      "frame": 2,
+      "facing": -1,
+      "z": 0.75,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 93.5,
+        "y": 90,
+        "z": 2.85
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame02-tick06-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 3,
+      "facing": -1,
+      "z": 1.5,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 96,
+        "y": 90,
+        "z": 4.3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame03-tick08-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 4,
+      "facing": -1,
+      "z": 2.25,
+      "ballMode": "carried",
+      "owner": "leo",
+      "ball": {
+        "x": 97,
+        "y": 90,
+        "z": 5.75
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame04-tick10-left-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "frame": 5,
+      "facing": -1,
+      "z": 3,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 96,
+        "y": 90,
+        "z": 7.2
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame05-tick13-left-zoom120.png"
+    },
+    {
+      "tick": 14,
+      "frame": 6,
+      "facing": -1,
+      "z": 2.9,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 95.5,
+        "y": 90,
+        "z": 7.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 6,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame06-tick14-left-zoom120.png"
+    },
+    {
+      "tick": 16,
+      "frame": 7,
+      "facing": -1,
+      "z": 2.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 93,
+        "y": 90,
+        "z": 8.5
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 7,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame07-tick16-left-zoom120.png"
+    },
+    {
+      "tick": 19,
+      "frame": 8,
+      "facing": -1,
+      "z": 1.5,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 85,
+        "y": 90,
+        "z": 8
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 8,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame08-tick19-left-zoom120.png"
+    },
+    {
+      "tick": 23,
+      "frame": 9,
+      "facing": -1,
+      "z": 0,
+      "ballMode": "shot",
+      "owner": null,
+      "ball": {
+        "x": 74,
+        "y": 90,
+        "z": 3
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./public/assets/animation/leo-shoot-right.webp",
+        "frame": 9,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-02/native/frame09-tick23-left-zoom120.png"
+    }
+  ],
+  "stageReset": {
+    "playerIds": [
+      "leo"
+    ],
+    "canvasCount": 73,
+    "canvasRects": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 29,
+        "y": 34,
+        "width": 842,
+        "height": 631.5,
+        "top": 34,
+        "right": 871,
+        "bottom": 665.5,
+        "left": 29
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    ]
+  },
+  "captureCount": 40,
+  "uncaughtBrowserErrors": []
+}

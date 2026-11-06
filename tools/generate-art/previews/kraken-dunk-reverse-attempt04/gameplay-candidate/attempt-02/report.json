@@ -1,0 +1,2344 @@
+{
+  "renderer": "Chromium current Jam Stage production renderer",
+  "athlete": "kraken",
+  "clip": "dunk-reverse",
+  "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+  "atlasSha256": "1b3b57281f839449c256308014cf26f8bf87e1c2b5a365fdbe743babb2ecea42",
+  "trackAttempt": "02",
+  "candidateTrack": {
+    "height": [
+      1,
+      0.9,
+      1.2,
+      1.6,
+      1.55,
+      1.65,
+      1.6,
+      1.75,
+      1.3,
+      -0.9,
+      2.1,
+      1.2,
+      1,
+      0.8,
+      0.7
+    ],
+    "forward": [
+      5,
+      4,
+      3,
+      1,
+      -1,
+      -2,
+      -3,
+      -4,
+      -1.5,
+      1.5,
+      12,
+      10,
+      8,
+      6,
+      4
+    ]
+  },
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": true,
+  "court": "current Jam Stage; Vesper Harbor Undertow vs Blackthorn Court Kings",
+  "courtY": 90,
+  "seed": 128128,
+  "sampleTicks": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    10,
+    12,
+    14,
+    17,
+    19,
+    21,
+    23,
+    26,
+    28,
+    30
+  ],
+  "expectedScore": [
+    2,
+    0
+  ],
+  "method": "Queue an actual production dunk-reverse action through Jam Stage simulation input and advance only normal simulation ticks. Runtime mode uses the registered manifest and athlete-specific track without candidate injection.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-reverse",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.640",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 191,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame00-tick00-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-reverse",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.640",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 190,
+            "y": 50,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame01-tick02-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-reverse",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.640",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189,
+            "y": 50,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame02-tick04-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-reverse",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 186.4468085106383,
+            "y": 50
+          },
+          "cameraX": "185.087",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 187.4468085106383,
+            "y": 50,
+            "z": 3.869952498697734
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame03-tick07-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-reverse",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 186.74468085106383,
+            "y": 50
+          },
+          "cameraX": "185.385",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 185.74468085106383,
+            "y": 50,
+            "z": 5.085533905932738
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame04-tick09-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-reverse",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 186.89361702127658,
+            "y": 50
+          },
+          "cameraX": "185.534",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 184.89361702127658,
+            "y": 50,
+            "z": 5.695084971874737
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": -2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame05-tick10-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-reverse",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 187.19148936170214,
+            "y": 50
+          },
+          "cameraX": "185.831",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 184.19148936170214,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame06-tick12-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-reverse",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 187.48936170212767,
+            "y": 50
+          },
+          "cameraX": "186.129",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 183.48936170212767,
+            "y": 50,
+            "z": 6.75
+          },
+          "trackPoint": {
+            "height": 1.75,
+            "forward": -4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame07-tick14-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-reverse",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.93617021276597,
+            "y": 50
+          },
+          "cameraX": "186.576",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 186.43617021276597,
+            "y": 50,
+            "z": 5.630127018922193
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame08-tick17-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-reverse",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 188.2340425531915,
+            "y": 50
+          },
+          "cameraX": "186.874",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.7340425531915,
+            "y": 50,
+            "z": 2.3139380484326963
+          },
+          "trackPoint": {
+            "height": -0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame09-tick19-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-reverse",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.53191489361703,
+            "y": 50
+          },
+          "cameraX": "187.172",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame10-tick21-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-reverse",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 10
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame11-tick23-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-reverse",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame12-tick26-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-reverse",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame13-tick28-zoom100.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-reverse",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.7,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-reverse",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.360",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 9,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame00-tick00-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-reverse",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.360",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10,
+            "y": 50,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame01-tick02-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-reverse",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.360",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11,
+            "y": 50,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame02-tick04-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-reverse",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 13.553191489361701,
+            "y": 50
+          },
+          "cameraX": "14.913",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 12.553191489361701,
+            "y": 50,
+            "z": 3.869952498697734
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame03-tick07-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-reverse",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 13.25531914893617,
+            "y": 50
+          },
+          "cameraX": "14.615",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 14.25531914893617,
+            "y": 50,
+            "z": 5.085533905932738
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame04-tick09-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-reverse",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 13.106382978723405,
+            "y": 50
+          },
+          "cameraX": "14.466",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 15.106382978723405,
+            "y": 50,
+            "z": 5.695084971874737
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": -2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame05-tick10-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-reverse",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 12.808510638297872,
+            "y": 50
+          },
+          "cameraX": "14.169",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 15.808510638297872,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame06-tick12-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-reverse",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 12.51063829787234,
+            "y": 50
+          },
+          "cameraX": "13.871",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 16.51063829787234,
+            "y": 50,
+            "z": 6.75
+          },
+          "trackPoint": {
+            "height": 1.75,
+            "forward": -4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame07-tick14-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-reverse",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.063829787234042,
+            "y": 50
+          },
+          "cameraX": "13.424",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 13.563829787234042,
+            "y": 50,
+            "z": 5.630127018922193
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame08-tick17-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-reverse",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 11.76595744680851,
+            "y": 50
+          },
+          "cameraX": "13.126",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.26595744680851,
+            "y": 50,
+            "z": 2.3139380484326963
+          },
+          "trackPoint": {
+            "height": -0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame09-tick19-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-reverse",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.46808510638298,
+            "y": 50
+          },
+          "cameraX": "12.828",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame10-tick21-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-reverse",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 10
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame11-tick23-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-reverse",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame12-tick26-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-reverse",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame13-tick28-zoom100.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-reverse",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.7,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame14-tick30-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-reverse",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.867",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 191,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame00-tick00-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-reverse",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.867",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 190,
+            "y": 50,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame01-tick02-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-reverse",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 186,
+            "y": 50
+          },
+          "cameraX": "184.867",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189,
+            "y": 50,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame02-tick04-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-reverse",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 186.4468085106383,
+            "y": 50
+          },
+          "cameraX": "185.313",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 187.4468085106383,
+            "y": 50,
+            "z": 3.869952498697734
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame03-tick07-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-reverse",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 186.74468085106383,
+            "y": 50
+          },
+          "cameraX": "185.611",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 185.74468085106383,
+            "y": 50,
+            "z": 5.085533905932738
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame04-tick09-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-reverse",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 186.89361702127658,
+            "y": 50
+          },
+          "cameraX": "185.760",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 184.89361702127658,
+            "y": 50,
+            "z": 5.695084971874737
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": -2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame05-tick10-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-reverse",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 187.19148936170214,
+            "y": 50
+          },
+          "cameraX": "186.058",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 184.19148936170214,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame06-tick12-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-reverse",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 187.48936170212767,
+            "y": 50
+          },
+          "cameraX": "186.356",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 183.48936170212767,
+            "y": 50,
+            "z": 6.75
+          },
+          "trackPoint": {
+            "height": 1.75,
+            "forward": -4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame07-tick14-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-reverse",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.93617021276597,
+            "y": 50
+          },
+          "cameraX": "186.803",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 186.43617021276597,
+            "y": 50,
+            "z": 5.630127018922193
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame08-tick17-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-reverse",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 188.2340425531915,
+            "y": 50
+          },
+          "cameraX": "187.101",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.7340425531915,
+            "y": 50,
+            "z": 2.3139380484326963
+          },
+          "trackPoint": {
+            "height": -0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame09-tick19-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-reverse",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.53191489361703,
+            "y": 50
+          },
+          "cameraX": "187.399",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame10-tick21-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-reverse",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 10
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame11-tick23-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-reverse",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame12-tick26-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-reverse",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame13-tick28-zoom120.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-reverse",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.7,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/right-frame14-tick30-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 0,
+          "clip": "dunk-reverse",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.133",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 9,
+            "y": 50,
+            "z": 1
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame00-tick00-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 2,
+          "clip": "dunk-reverse",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.133",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10,
+            "y": 50,
+            "z": 0.9
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame01-tick02-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 4,
+          "clip": "dunk-reverse",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 14,
+            "y": 50
+          },
+          "cameraX": "15.133",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11,
+            "y": 50,
+            "z": 1.2
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame02-tick04-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 7,
+          "clip": "dunk-reverse",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 2.2699524986977337,
+          "position": {
+            "x": 13.553191489361701,
+            "y": 50
+          },
+          "cameraX": "14.687",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 12.553191489361701,
+            "y": 50,
+            "z": 3.869952498697734
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": 1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame03-tick07-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 9,
+          "clip": "dunk-reverse",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 3.5355339059327373,
+          "position": {
+            "x": 13.25531914893617,
+            "y": 50
+          },
+          "cameraX": "14.389",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 14.25531914893617,
+            "y": 50,
+            "z": 5.085533905932738
+          },
+          "trackPoint": {
+            "height": 1.55,
+            "forward": -1
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame04-tick09-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 10,
+          "clip": "dunk-reverse",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 4.045084971874737,
+          "position": {
+            "x": 13.106382978723405,
+            "y": 50
+          },
+          "cameraX": "14.240",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 15.106382978723405,
+            "y": 50,
+            "z": 5.695084971874737
+          },
+          "trackPoint": {
+            "height": 1.65,
+            "forward": -2
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame05-tick10-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 12,
+          "clip": "dunk-reverse",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 4.755282581475767,
+          "position": {
+            "x": 12.808510638297872,
+            "y": 50
+          },
+          "cameraX": "13.942",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 15.808510638297872,
+            "y": 50,
+            "z": 6.355282581475768
+          },
+          "trackPoint": {
+            "height": 1.6,
+            "forward": -3
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame06-tick12-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 14,
+          "clip": "dunk-reverse",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 12.51063829787234,
+            "y": 50
+          },
+          "cameraX": "13.644",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 16.51063829787234,
+            "y": 50,
+            "z": 6.75
+          },
+          "trackPoint": {
+            "height": 1.75,
+            "forward": -4
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame07-tick14-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 17,
+          "clip": "dunk-reverse",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.063829787234042,
+            "y": 50
+          },
+          "cameraX": "13.197",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 13.563829787234042,
+            "y": 50,
+            "z": 5.630127018922193
+          },
+          "trackPoint": {
+            "height": 1.3,
+            "forward": -1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame08-tick17-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 19,
+          "clip": "dunk-reverse",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 11.76595744680851,
+            "y": 50
+          },
+          "cameraX": "12.899",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.26595744680851,
+            "y": 50,
+            "z": 2.3139380484326963
+          },
+          "trackPoint": {
+            "height": -0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame09-tick19-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 21,
+          "clip": "dunk-reverse",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.46808510638298,
+            "y": 50
+          },
+          "cameraX": "12.601",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 2.1,
+            "forward": 12
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame10-tick21-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 23,
+          "clip": "dunk-reverse",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.2,
+            "forward": 10
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame11-tick23-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 26,
+          "clip": "dunk-reverse",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1,
+            "forward": 8
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame12-tick26-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 28,
+          "clip": "dunk-reverse",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.8,
+            "forward": 6
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame13-tick28-zoom120.png"
+        },
+        {
+          "frame": 14,
+          "tick": 30,
+          "clip": "dunk-reverse",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.7,
+            "forward": 4
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-reverse-attempt04/cleanup01/kraken-dunk-reverse-attempt04-cleanup01-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-reverse-attempt04/gameplay-candidate/attempt-02/left-frame14-tick30-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 60
+}

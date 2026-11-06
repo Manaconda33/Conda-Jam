@@ -1,0 +1,116 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "dunk-double",
+  "src": "./public/assets/animation/kraken-dunk-double-right.webp",
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 0,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 96,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 88,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 176,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 264,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    },
+    {
+      "x": 352,
+      "y": 192,
+      "w": 88,
+      "h": 96
+    }
+  ],
+  "baselineY": 94,
+  "provenance": {
+    "prompt": "tools/generate-art/kraken-dunk-double-attempt04-imagegen-prompt.txt",
+    "generatedAt": "2026-10-29",
+    "sourceRects": [
+      {
+        "sourceImage": "tools/generate-art/sources/kraken-dunk-double-attempt04-generated-raw.png",
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 1024,
+        "sourceScale": 0.2524271844660194
+      }
+    ],
+    "packaging": "cleanup01 component repack; shared 16-color palette, nearest-neighbor scale, binary alpha; lossless WebP."
+  }
+}

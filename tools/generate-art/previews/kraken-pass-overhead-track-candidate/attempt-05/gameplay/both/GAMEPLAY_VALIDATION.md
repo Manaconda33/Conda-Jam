@@ -1,0 +1,9 @@
+# Kraken `pass-overhead` candidate-driven gameplay — attempt 05
+
+**Status: candidate-driven mechanics and independent visual review pass; normal-loader/registry verification still pending. Do not register yet.**
+
+This trial uses the unregistered Kraken v2 atlas and track attempt03: height `[1.05,1.85,1.75,1.9,2.1,1.2]`, forward `[2.5,3,2,6,10,14]`. The Playwright route now intercepts `/src/core/animation.js` **before initial page load**, injects the track in memory, and asserts the served module was intercepted exactly once. Before gameplay, runtime sampling assertions read forward/height `[2.5,1.05]` at tick0 and `[6,1.9]` at release tick7. The report records this proof in `trackSampleProbe`.
+
+After pass input, real production `stepMatch` advances the carried sequence, samples the injected Kraken track at the release anchor, resolves free flight, and transfers ownership to Marin Dusk on catch. The harness does not reposition the ball after launch. Four runs (both facings × 100%/120% zoom) released at tick7 and caught at step27. Marin owned the ball at completion, score remained 0–0, and there were no browser or request errors. The actual release positions were x=87.15/z=1.92 right-facing and x=112.85/z=1.92 left-facing. See `report.json` and the adjacent release/catch screenshots.
+
+The 24 additional static selector captures manually stage candidate track samples; they validate atlas selection, frame mapping and mirroring, not live ball contact. Actual carried/release/catch captures are separate. Independent review at `INDEPENDENT_VISUAL_REVIEW.md` accepts ball contact at the chest-ready start, continuity as the hands rise, fingertip overlap at release, both facings and zoom levels, and the teammate delivery. The atlas and track remain unregistered pending normal-loader integration verification and production source review.

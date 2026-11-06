@@ -1,0 +1,195 @@
+{
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "attempt": "source attempt03 cleanup02",
+  "status": "baseline-preserving margin cleanup candidate; independent review required",
+  "source": "tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+  "sourceSha256": "3c5c09ecb79a5bf857da18dc9a9d8ec354eac9f4bd2e22b22f79cd0b56383539",
+  "atlas": "tools/generate-art/previews/kraken-layup-reverse8-attempt03/cleanup02-baseline-offset/kraken-layup-reverse8-attempt03-cleanup02-atlas.png",
+  "atlasSha256": "b3a8bef9510f7da1b6469234b7dcfd5a828448e776d40be97490039c86a9d727",
+  "cellSize": [
+    80,
+    96
+  ],
+  "frameCount": 8,
+  "shiftPixelsUp": 2,
+  "baselineMetadata": 92,
+  "baselineExplanation": "Original accepted-at-source candidate baseline y=94 had 2px bottom margin. Shift all pixels up 2px (baseline y=92) to create 4px bottom margin; runtime baseline metadata baselineY=92 adds a 2px downward compensation so the shoes remain on the same ground line. Must verify in standard loader.",
+  "minimumMarginsLTRB": [
+    12,
+    19,
+    13,
+    4
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        17,
+        19,
+        63,
+        92
+      ],
+      "marginsLTRB": [
+        17,
+        19,
+        17,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 1,
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        25,
+        19,
+        55,
+        92
+      ],
+      "marginsLTRB": [
+        25,
+        19,
+        25,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 2,
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        21,
+        19,
+        59,
+        92
+      ],
+      "marginsLTRB": [
+        21,
+        19,
+        21,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 3,
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        18,
+        19,
+        61,
+        92
+      ],
+      "marginsLTRB": [
+        18,
+        19,
+        19,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 4,
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        12,
+        19,
+        67,
+        92
+      ],
+      "marginsLTRB": [
+        12,
+        19,
+        13,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 5,
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        15,
+        19,
+        64,
+        92
+      ],
+      "marginsLTRB": [
+        15,
+        19,
+        16,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 6,
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        16,
+        19,
+        63,
+        92
+      ],
+      "marginsLTRB": [
+        16,
+        19,
+        17,
+        4
+      ],
+      "shiftSourcePixels": -2
+    },
+    {
+      "frame": 7,
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "baselineY": 92,
+      "alphaBounds": [
+        13,
+        19,
+        67,
+        92
+      ],
+      "marginsLTRB": [
+        13,
+        19,
+        13,
+        4
+      ],
+      "shiftSourcePixels": -2
+    }
+  ],
+  "rawPreserved": true
+}

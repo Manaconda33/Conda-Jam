@@ -1,0 +1,4944 @@
+{
+  "status": "candidate-only; no runtime registration or production edits",
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4237/",
+  "athlete": "kraken",
+  "team": "vesper-harbor-undertow",
+  "clip": "pass-behind",
+  "candidateAtlas": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+  "candidateTrack": {
+    "height": [
+      1.0,
+      1.1,
+      1.2,
+      1.25,
+      1.2,
+      1.0
+    ],
+    "forward": [
+      5,
+      2,
+      -5,
+      -7,
+      -9,
+      4
+    ],
+    "releaseVz": 0.32
+  },
+  "trackAttempt": 9,
+  "releasePositions": {
+    "8": [
+      -5.85,
+      1.804
+    ],
+    "10": [
+      -2.4,
+      2.254
+    ]
+  },
+  "courtY": 75.0,
+  "frameTicks": [
+    0,
+    2,
+    4,
+    7,
+    8,
+    10
+  ],
+  "releaseTick": 7,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    2,
+    3
+  ],
+  "captureGrid": "6 frame starts including release tick7 and post-release samples at ticks8/10; each both facings \u00d7 zoom100/120",
+  "captureMethod": "In-page manifest override of the unregistered v2 Kraken atlas; static candidate track samples are rendered as a separate game ball. A separate normal stepMatch pass test adjusts the actual ownerless release point to the candidate frame3 hand offset, then lets normal Jam Stage simulation resolve flight and recipient catch.",
+  "captures": [
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame00-tick00-right-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102,
+        "y": 75,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame01-tick02-right-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame02-tick04-right-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 1.25,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame03-tick07-right-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 94.15,
+        "y": 75,
+        "z": 1.804,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame04-tick08-right-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.6,
+        "y": 75,
+        "z": 2.254,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame05-tick10-right-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame00-tick00-left-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 98,
+        "y": 75,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame01-tick02-left-zoom100.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame02-tick04-left-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 1.25,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame03-tick07-left-zoom100.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 105.85,
+        "y": 75,
+        "z": 1.804,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame04-tick08-left-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.4,
+        "y": 75,
+        "z": 2.254,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame05-tick10-left-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 0,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame00-tick00-right-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102,
+        "y": 75,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 1,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame01-tick02-right-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 2,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame02-tick04-right-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 93,
+        "y": 75,
+        "z": 1.25,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 3,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame03-tick07-right-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 94.15,
+        "y": 75,
+        "z": 1.804,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 4,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame04-tick08-right-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": 1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.6,
+        "y": 75,
+        "z": 2.254,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 5,
+        "flip": false,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame05-tick10-right-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "frame": 0,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 75,
+        "z": 1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 0,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame00-tick00-left-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "frame": 1,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 98,
+        "y": 75,
+        "z": 1.1,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 1,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame01-tick02-left-zoom120.png"
+    },
+    {
+      "tick": 4,
+      "frame": 2,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 75,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 2,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame02-tick04-left-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "frame": 3,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 107,
+        "y": 75,
+        "z": 1.25,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 3,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame03-tick07-left-zoom120.png"
+    },
+    {
+      "tick": 8,
+      "frame": 4,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 105.85,
+        "y": 75,
+        "z": 1.804,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 4,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame04-tick08-left-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "frame": 5,
+      "facing": -1,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "clip": "pass-behind",
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.4,
+        "y": 75,
+        "z": 2.254,
+        "mode": "pass",
+        "owner": null,
+        "lastTouch": "kraken"
+      },
+      "canvasArt": "generated-full-roster-atlases",
+      "selection": {
+        "src": "./tools/generate-art/previews/kraken-pass-behind6-attempt01/kraken-pass-behind6-attempt01-runtime-candidate.png",
+        "frame": 5,
+        "flip": true,
+        "classification": "original-authored",
+        "production": true
+      },
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/frame05-tick10-left-zoom120.png"
+    }
+  ],
+  "gameplayPasses": [
+    {
+      "zoom": 100,
+      "facing": 1,
+      "setup": {
+        "playerIds": [
+          "kraken",
+          "marin-dusk",
+          "leo",
+          "sable-regent"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 80,
+          "y": 75,
+          "facing": 1,
+          "team": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 100,
+          "y": 80,
+          "team": 0
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "actualRelease": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 74.13077430573213,
+          "y": 75.17298479717319,
+          "z": 1.57,
+          "vx": 1.130774305732129,
+          "vy": 0.17298479717319204,
+          "vz": 0.294
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-release-facing+1-zoom100.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "kraken",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          {
+            "id": "marin-dusk",
+            "team": 0,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          {
+            "id": "leo",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          },
+          {
+            "id": "sable-regent",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 0
+      },
+      "catch": {
+        "step": 29,
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4,
+          "team": 0
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-catch-facing+1-zoom100.png",
+        "event": "Marin Dusk catches it"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 85,
+            "y": 75,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1,
+            "team": 0
+          }
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 83.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2,
+            "team": 0
+          }
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82,
+            "y": 75,
+            "z": 1.1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3,
+            "team": 0
+          }
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 78.5,
+            "y": 75,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4,
+            "team": 0
+          }
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 75,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5,
+            "team": 0
+          }
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 74.33333333333333,
+            "y": 75,
+            "z": 1.2166666666666666,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6,
+            "team": 0
+          }
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 73.66666666666667,
+            "y": 75,
+            "z": 1.2333333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7,
+            "team": 0
+          }
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 74.13077430573213,
+            "y": 75.17298479717319,
+            "z": 1.57,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.294
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8,
+            "team": 0
+          }
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 75.26154861146426,
+            "y": 75.34596959434637,
+            "z": 1.864,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.26799999999999996
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9,
+            "team": 0
+          }
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 76.3923229171964,
+            "y": 75.51895439151956,
+            "z": 2.132,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.24199999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10,
+            "team": 0
+          }
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 77.52309722292853,
+            "y": 75.69193918869274,
+            "z": 2.374,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.21599999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11,
+            "team": 0
+          }
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 78.65387152866066,
+            "y": 75.86492398586593,
+            "z": 2.59,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.18999999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12,
+            "team": 0
+          }
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 79.78464583439279,
+            "y": 76.03790878303911,
+            "z": 2.78,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.16399999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13,
+            "team": 0
+          }
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 80.91542014012492,
+            "y": 76.2108935802123,
+            "z": 2.944,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.13799999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14,
+            "team": 0
+          }
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 82.04619444585705,
+            "y": 76.38387837738549,
+            "z": 3.082,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.11199999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15,
+            "team": 0
+          }
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 83.17696875158919,
+            "y": 76.55686317455867,
+            "z": 3.194,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.086
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16,
+            "team": 0
+          }
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 84.30774305732132,
+            "y": 76.72984797173186,
+            "z": 3.28,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.06
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17,
+            "team": 0
+          }
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 85.43851736305345,
+            "y": 76.90283276890504,
+            "z": 3.34,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.034
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18,
+            "team": 0
+          }
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 86.56929166878558,
+            "y": 77.07581756607823,
+            "z": 3.3739999999999997,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.008000000000000004
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19,
+            "team": 0
+          }
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 87.70006597451771,
+            "y": 77.24880236325141,
+            "z": 3.3819999999999997,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.017999999999999995
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20,
+            "team": 0
+          }
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 88.83084028024984,
+            "y": 77.4217871604246,
+            "z": 3.364,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.044
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21,
+            "team": 0
+          }
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 89.96161458598198,
+            "y": 77.59477195759779,
+            "z": 3.32,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.06999999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22,
+            "team": 0
+          }
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 91.09238889171411,
+            "y": 77.76775675477097,
+            "z": 3.25,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.09599999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 23,
+            "team": 0
+          }
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 92.22316319744624,
+            "y": 77.94074155194416,
+            "z": 3.154,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.12199999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 24,
+            "team": 0
+          }
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 93.35393750317837,
+            "y": 78.11372634911734,
+            "z": 3.032,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.148
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 25,
+            "team": 0
+          }
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 94.4847118089105,
+            "y": 78.28671114629053,
+            "z": 2.884,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.174
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0,
+            "team": 0
+          }
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 95.61548611464264,
+            "y": 78.45969594346371,
+            "z": 2.71,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.19999999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1,
+            "team": 0
+          }
+        },
+        {
+          "step": 27,
+          "tick": 14,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 96.74626042037477,
+            "y": 78.6326807406369,
+            "z": 2.51,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.22599999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2,
+            "team": 0
+          }
+        },
+        {
+          "step": 28,
+          "tick": 15,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 97.8770347261069,
+            "y": 78.80566553781009,
+            "z": 2.284,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.252
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3,
+            "team": 0
+          }
+        },
+        {
+          "step": 29,
+          "tick": 16,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 102,
+            "y": 80,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4,
+            "team": 0
+          }
+        }
+      ]
+    },
+    {
+      "zoom": 100,
+      "facing": -1,
+      "setup": {
+        "playerIds": [
+          "leo",
+          "sable-regent",
+          "kraken",
+          "marin-dusk"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 120,
+          "y": 75,
+          "facing": -1,
+          "team": 1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 100,
+          "y": 80,
+          "team": 1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "actualRelease": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 125.86922569426787,
+          "y": 75.17298479717319,
+          "z": 1.57,
+          "vx": -1.130774305732129,
+          "vy": 0.17298479717319204,
+          "vz": 0.294
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-release-facing-1-zoom100.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "leo",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          },
+          {
+            "id": "sable-regent",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          },
+          {
+            "id": "kraken",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          {
+            "id": "marin-dusk",
+            "team": 1,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 1
+      },
+      "catch": {
+        "step": 29,
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4,
+          "team": 1
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-catch-facing-1-zoom100.png",
+        "event": "Marin Dusk catches it"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 115,
+            "y": 75,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1,
+            "team": 1
+          }
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 116.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2,
+            "team": 1
+          }
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 118,
+            "y": 75,
+            "z": 1.1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3,
+            "team": 1
+          }
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 121.5,
+            "y": 75,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4,
+            "team": 1
+          }
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 125,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5,
+            "team": 1
+          }
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 125.66666666666667,
+            "y": 75,
+            "z": 1.2166666666666666,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6,
+            "team": 1
+          }
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 126.33333333333333,
+            "y": 75,
+            "z": 1.2333333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7,
+            "team": 1
+          }
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 125.86922569426787,
+            "y": 75.17298479717319,
+            "z": 1.57,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.294
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8,
+            "team": 1
+          }
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 124.73845138853574,
+            "y": 75.34596959434637,
+            "z": 1.864,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.26799999999999996
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9,
+            "team": 1
+          }
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 123.6076770828036,
+            "y": 75.51895439151956,
+            "z": 2.132,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.24199999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10,
+            "team": 1
+          }
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 122.47690277707147,
+            "y": 75.69193918869274,
+            "z": 2.374,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.21599999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11,
+            "team": 1
+          }
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 121.34612847133934,
+            "y": 75.86492398586593,
+            "z": 2.59,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.18999999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12,
+            "team": 1
+          }
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 120.21535416560721,
+            "y": 76.03790878303911,
+            "z": 2.78,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.16399999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13,
+            "team": 1
+          }
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 119.08457985987508,
+            "y": 76.2108935802123,
+            "z": 2.944,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.13799999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14,
+            "team": 1
+          }
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 117.95380555414295,
+            "y": 76.38387837738549,
+            "z": 3.082,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.11199999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15,
+            "team": 1
+          }
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 116.82303124841081,
+            "y": 76.55686317455867,
+            "z": 3.194,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.086
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16,
+            "team": 1
+          }
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 115.69225694267868,
+            "y": 76.72984797173186,
+            "z": 3.28,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.06
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17,
+            "team": 1
+          }
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 114.56148263694655,
+            "y": 76.90283276890504,
+            "z": 3.34,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.034
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18,
+            "team": 1
+          }
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 113.43070833121442,
+            "y": 77.07581756607823,
+            "z": 3.3739999999999997,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.008000000000000004
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19,
+            "team": 1
+          }
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 112.29993402548229,
+            "y": 77.24880236325141,
+            "z": 3.3819999999999997,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.017999999999999995
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20,
+            "team": 1
+          }
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 111.16915971975016,
+            "y": 77.4217871604246,
+            "z": 3.364,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.044
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21,
+            "team": 1
+          }
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 110.03838541401802,
+            "y": 77.59477195759779,
+            "z": 3.32,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.06999999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22,
+            "team": 1
+          }
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 108.90761110828589,
+            "y": 77.76775675477097,
+            "z": 3.25,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.09599999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 23,
+            "team": 1
+          }
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 107.77683680255376,
+            "y": 77.94074155194416,
+            "z": 3.154,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.12199999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 24,
+            "team": 1
+          }
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 106.64606249682163,
+            "y": 78.11372634911734,
+            "z": 3.032,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.148
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 25,
+            "team": 1
+          }
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 105.5152881910895,
+            "y": 78.28671114629053,
+            "z": 2.884,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.174
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0,
+            "team": 1
+          }
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 104.38451388535736,
+            "y": 78.45969594346371,
+            "z": 2.71,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.19999999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1,
+            "team": 1
+          }
+        },
+        {
+          "step": 27,
+          "tick": 14,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 103.25373957962523,
+            "y": 78.6326807406369,
+            "z": 2.51,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.22599999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2,
+            "team": 1
+          }
+        },
+        {
+          "step": 28,
+          "tick": 15,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 102.1229652738931,
+            "y": 78.80566553781009,
+            "z": 2.284,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.252
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3,
+            "team": 1
+          }
+        },
+        {
+          "step": 29,
+          "tick": 16,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 98,
+            "y": 80,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4,
+            "team": 1
+          }
+        }
+      ]
+    },
+    {
+      "zoom": 120,
+      "facing": 1,
+      "setup": {
+        "playerIds": [
+          "kraken",
+          "marin-dusk",
+          "leo",
+          "sable-regent"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 80,
+          "y": 75,
+          "facing": 1,
+          "team": 0
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 100,
+          "y": 80,
+          "team": 0
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "actualRelease": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 74.13077430573213,
+          "y": 75.17298479717319,
+          "z": 1.57,
+          "vx": 1.130774305732129,
+          "vy": 0.17298479717319204,
+          "vz": 0.294
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-release-facing+1-zoom120.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "kraken",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          {
+            "id": "marin-dusk",
+            "team": 0,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          },
+          {
+            "id": "leo",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          },
+          {
+            "id": "sable-regent",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 0
+      },
+      "catch": {
+        "step": 29,
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4,
+          "team": 0
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-catch-facing+1-zoom120.png",
+        "event": "Marin Dusk catches it"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 85,
+            "y": 75,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1,
+            "team": 0
+          }
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 83.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2,
+            "team": 0
+          }
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 82,
+            "y": 75,
+            "z": 1.1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3,
+            "team": 0
+          }
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 78.5,
+            "y": 75,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4,
+            "team": 0
+          }
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 75,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5,
+            "team": 0
+          }
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 74.33333333333333,
+            "y": 75,
+            "z": 1.2166666666666666,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6,
+            "team": 0
+          }
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 73.66666666666667,
+            "y": 75,
+            "z": 1.2333333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7,
+            "team": 0
+          }
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 74.13077430573213,
+            "y": 75.17298479717319,
+            "z": 1.57,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.294
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8,
+            "team": 0
+          }
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 75.26154861146426,
+            "y": 75.34596959434637,
+            "z": 1.864,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.26799999999999996
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9,
+            "team": 0
+          }
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 76.3923229171964,
+            "y": 75.51895439151956,
+            "z": 2.132,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.24199999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10,
+            "team": 0
+          }
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 77.52309722292853,
+            "y": 75.69193918869274,
+            "z": 2.374,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.21599999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11,
+            "team": 0
+          }
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 78.65387152866066,
+            "y": 75.86492398586593,
+            "z": 2.59,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.18999999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12,
+            "team": 0
+          }
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 79.78464583439279,
+            "y": 76.03790878303911,
+            "z": 2.78,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.16399999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13,
+            "team": 0
+          }
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 80.91542014012492,
+            "y": 76.2108935802123,
+            "z": 2.944,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.13799999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14,
+            "team": 0
+          }
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 82.04619444585705,
+            "y": 76.38387837738549,
+            "z": 3.082,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.11199999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15,
+            "team": 0
+          }
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 83.17696875158919,
+            "y": 76.55686317455867,
+            "z": 3.194,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.086
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16,
+            "team": 0
+          }
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 84.30774305732132,
+            "y": 76.72984797173186,
+            "z": 3.28,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.06
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17,
+            "team": 0
+          }
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 85.43851736305345,
+            "y": 76.90283276890504,
+            "z": 3.34,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.034
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18,
+            "team": 0
+          }
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 86.56929166878558,
+            "y": 77.07581756607823,
+            "z": 3.3739999999999997,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.008000000000000004
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19,
+            "team": 0
+          }
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 87.70006597451771,
+            "y": 77.24880236325141,
+            "z": 3.3819999999999997,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.017999999999999995
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20,
+            "team": 0
+          }
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 88.83084028024984,
+            "y": 77.4217871604246,
+            "z": 3.364,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.044
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21,
+            "team": 0
+          }
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 89.96161458598198,
+            "y": 77.59477195759779,
+            "z": 3.32,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.06999999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22,
+            "team": 0
+          }
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 91.09238889171411,
+            "y": 77.76775675477097,
+            "z": 3.25,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.09599999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 23,
+            "team": 0
+          }
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 92.22316319744624,
+            "y": 77.94074155194416,
+            "z": 3.154,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.12199999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 24,
+            "team": 0
+          }
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 93.35393750317837,
+            "y": 78.11372634911734,
+            "z": 3.032,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.148
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 25,
+            "team": 0
+          }
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 94.4847118089105,
+            "y": 78.28671114629053,
+            "z": 2.884,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.174
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0,
+            "team": 0
+          }
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 95.61548611464264,
+            "y": 78.45969594346371,
+            "z": 2.71,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.19999999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1,
+            "team": 0
+          }
+        },
+        {
+          "step": 27,
+          "tick": 14,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 96.74626042037477,
+            "y": 78.6326807406369,
+            "z": 2.51,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.22599999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2,
+            "team": 0
+          }
+        },
+        {
+          "step": 28,
+          "tick": 15,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 97.8770347261069,
+            "y": 78.80566553781009,
+            "z": 2.284,
+            "vx": 1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.252
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3,
+            "team": 0
+          }
+        },
+        {
+          "step": 29,
+          "tick": 16,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 102,
+            "y": 80,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4,
+            "team": 0
+          }
+        }
+      ]
+    },
+    {
+      "zoom": 120,
+      "facing": -1,
+      "setup": {
+        "playerIds": [
+          "leo",
+          "sable-regent",
+          "kraken",
+          "marin-dusk"
+        ],
+        "passer": {
+          "id": "kraken",
+          "x": 120,
+          "y": 75,
+          "facing": -1,
+          "team": 1
+        },
+        "receiver": {
+          "id": "marin-dusk",
+          "x": 100,
+          "y": 80,
+          "team": 1
+        },
+        "score": [
+          0,
+          0
+        ]
+      },
+      "release": {
+        "step": 7,
+        "actualRelease": {
+          "mode": "pass",
+          "ownerId": null,
+          "targetId": "marin-dusk",
+          "lastTouch": "kraken",
+          "x": 125.86922569426787,
+          "y": 75.17298479717319,
+          "z": 1.57,
+          "vx": -1.130774305732129,
+          "vy": 0.17298479717319204,
+          "vz": 0.294
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-release-facing-1-zoom120.png"
+      },
+      "final": {
+        "ball": {
+          "mode": "carried",
+          "ownerId": "marin-dusk",
+          "lastTouch": "marin-dusk"
+        },
+        "score": [
+          0,
+          0
+        ],
+        "lastEvent": "Marin Dusk catches it",
+        "players": [
+          {
+            "id": "leo",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          },
+          {
+            "id": "sable-regent",
+            "team": 0,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 30
+          },
+          {
+            "id": "kraken",
+            "team": 1,
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16
+          },
+          {
+            "id": "marin-dusk",
+            "team": 1,
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4
+          }
+        ]
+      },
+      "caughtByReceiver": true,
+      "receiver": {
+        "id": "marin-dusk",
+        "hasBall": true,
+        "clip": "receive",
+        "tick": 4,
+        "team": 1
+      },
+      "catch": {
+        "step": 29,
+        "receiver": {
+          "id": "marin-dusk",
+          "hasBall": true,
+          "clip": "receive",
+          "tick": 4,
+          "team": 1
+        },
+        "capture": "tools/generate-art/previews/kraken-pass-behind-track-candidate/attempt-09/native/gameplay-catch-facing-1-zoom120.png",
+        "event": "Marin Dusk catches it"
+      },
+      "trace": [
+        {
+          "step": 0,
+          "tick": 0,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 115,
+            "y": 75,
+            "z": 1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 1,
+            "team": 1
+          }
+        },
+        {
+          "step": 1,
+          "tick": 1,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 116.5,
+            "y": 75,
+            "z": 1.05,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 2,
+            "team": 1
+          }
+        },
+        {
+          "step": 2,
+          "tick": 2,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 118,
+            "y": 75,
+            "z": 1.1,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 3,
+            "team": 1
+          }
+        },
+        {
+          "step": 3,
+          "tick": 3,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 121.5,
+            "y": 75,
+            "z": 1.15,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 4,
+            "team": 1
+          }
+        },
+        {
+          "step": 4,
+          "tick": 4,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 125,
+            "y": 75,
+            "z": 1.2,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 5,
+            "team": 1
+          }
+        },
+        {
+          "step": 5,
+          "tick": 5,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 125.66666666666667,
+            "y": 75,
+            "z": 1.2166666666666666,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 6,
+            "team": 1
+          }
+        },
+        {
+          "step": 6,
+          "tick": 6,
+          "clip": "pass-behind",
+          "action": "pass",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "kraken",
+            "targetId": null,
+            "lastTouch": "kraken",
+            "x": 126.33333333333333,
+            "y": 75,
+            "z": 1.2333333333333334,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Tip-off!",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 7,
+            "team": 1
+          }
+        },
+        {
+          "step": 7,
+          "tick": 7,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 125.86922569426787,
+            "y": 75.17298479717319,
+            "z": 1.57,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.294
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 8,
+            "team": 1
+          }
+        },
+        {
+          "step": 8,
+          "tick": 8,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 124.73845138853574,
+            "y": 75.34596959434637,
+            "z": 1.864,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.26799999999999996
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 9,
+            "team": 1
+          }
+        },
+        {
+          "step": 9,
+          "tick": 9,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 123.6076770828036,
+            "y": 75.51895439151956,
+            "z": 2.132,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.24199999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 10,
+            "team": 1
+          }
+        },
+        {
+          "step": 10,
+          "tick": 10,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 122.47690277707147,
+            "y": 75.69193918869274,
+            "z": 2.374,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.21599999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 11,
+            "team": 1
+          }
+        },
+        {
+          "step": 11,
+          "tick": 11,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 121.34612847133934,
+            "y": 75.86492398586593,
+            "z": 2.59,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.18999999999999997
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 12,
+            "team": 1
+          }
+        },
+        {
+          "step": 12,
+          "tick": 12,
+          "clip": "pass-behind",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 120.21535416560721,
+            "y": 76.03790878303911,
+            "z": 2.78,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.16399999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 13,
+            "team": 1
+          }
+        },
+        {
+          "step": 13,
+          "tick": 0,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 119.08457985987508,
+            "y": 76.2108935802123,
+            "z": 2.944,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.13799999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 14,
+            "team": 1
+          }
+        },
+        {
+          "step": 14,
+          "tick": 1,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 117.95380555414295,
+            "y": 76.38387837738549,
+            "z": 3.082,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.11199999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 15,
+            "team": 1
+          }
+        },
+        {
+          "step": 15,
+          "tick": 2,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 116.82303124841081,
+            "y": 76.55686317455867,
+            "z": 3.194,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.086
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 16,
+            "team": 1
+          }
+        },
+        {
+          "step": 16,
+          "tick": 3,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 115.69225694267868,
+            "y": 76.72984797173186,
+            "z": 3.28,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.06
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 17,
+            "team": 1
+          }
+        },
+        {
+          "step": 17,
+          "tick": 4,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 114.56148263694655,
+            "y": 76.90283276890504,
+            "z": 3.34,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.034
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 18,
+            "team": 1
+          }
+        },
+        {
+          "step": 18,
+          "tick": 5,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 113.43070833121442,
+            "y": 77.07581756607823,
+            "z": 3.3739999999999997,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": 0.008000000000000004
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 19,
+            "team": 1
+          }
+        },
+        {
+          "step": 19,
+          "tick": 6,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 112.29993402548229,
+            "y": 77.24880236325141,
+            "z": 3.3819999999999997,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.017999999999999995
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 20,
+            "team": 1
+          }
+        },
+        {
+          "step": 20,
+          "tick": 7,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 111.16915971975016,
+            "y": 77.4217871604246,
+            "z": 3.364,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.044
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 21,
+            "team": 1
+          }
+        },
+        {
+          "step": 21,
+          "tick": 8,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 110.03838541401802,
+            "y": 77.59477195759779,
+            "z": 3.32,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.06999999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 22,
+            "team": 1
+          }
+        },
+        {
+          "step": 22,
+          "tick": 9,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 108.90761110828589,
+            "y": 77.76775675477097,
+            "z": 3.25,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.09599999999999999
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 23,
+            "team": 1
+          }
+        },
+        {
+          "step": 23,
+          "tick": 10,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 107.77683680255376,
+            "y": 77.94074155194416,
+            "z": 3.154,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.12199999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 24,
+            "team": 1
+          }
+        },
+        {
+          "step": 24,
+          "tick": 11,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 106.64606249682163,
+            "y": 78.11372634911734,
+            "z": 3.032,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.148
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "idle",
+            "tick": 25,
+            "team": 1
+          }
+        },
+        {
+          "step": 25,
+          "tick": 12,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 105.5152881910895,
+            "y": 78.28671114629053,
+            "z": 2.884,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.174
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 0,
+            "team": 1
+          }
+        },
+        {
+          "step": 26,
+          "tick": 13,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 104.38451388535736,
+            "y": 78.45969594346371,
+            "z": 2.71,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.19999999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 1,
+            "team": 1
+          }
+        },
+        {
+          "step": 27,
+          "tick": 14,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 103.25373957962523,
+            "y": 78.6326807406369,
+            "z": 2.51,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.22599999999999998
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 2,
+            "team": 1
+          }
+        },
+        {
+          "step": 28,
+          "tick": 15,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "pass",
+            "ownerId": null,
+            "targetId": "marin-dusk",
+            "lastTouch": "kraken",
+            "x": 102.1229652738931,
+            "y": 78.80566553781009,
+            "z": 2.284,
+            "vx": -1.130774305732129,
+            "vy": 0.17298479717319204,
+            "vz": -0.252
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Kraken passes",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": false,
+            "clip": "receive",
+            "tick": 3,
+            "team": 1
+          }
+        },
+        {
+          "step": 29,
+          "tick": 16,
+          "clip": "idle",
+          "action": null,
+          "hasBall": false,
+          "ball": {
+            "mode": "carried",
+            "ownerId": "marin-dusk",
+            "targetId": null,
+            "lastTouch": "marin-dusk",
+            "x": 98,
+            "y": 80,
+            "z": 1.7,
+            "vx": 0,
+            "vy": 0,
+            "vz": 0
+          },
+          "scores": [
+            0,
+            0
+          ],
+          "lastEvent": "Marin Dusk catches it",
+          "receiver": {
+            "id": "marin-dusk",
+            "hasBall": true,
+            "clip": "receive",
+            "tick": 4,
+            "team": 1
+          }
+        }
+      ]
+    }
+  ],
+  "captureCount": 24,
+  "uncaughtBrowserErrors": [],
+  "requestErrors": [],
+  "gameplayPassCount": 4,
+  "gameplayPassed": true
+}

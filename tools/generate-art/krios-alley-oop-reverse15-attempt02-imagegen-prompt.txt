@@ -1,0 +1,22 @@
+Generate a clean character-only sprite sheet with exactly 15 full-body poses of Krios, in a 5-column by 3-row arrangement. Use a simple uniform vivid chroma-green background; no visible black cell borders, grid lines, numbers, text, hoop, court or scenery. Leave large clear green margin around every pose, especially above curls/hands and below both shoes; no limb or shoe may approach or cross any implied cell boundary. Keep all art separated and fully recoverable. Same camera, same sprite scale and common foot baseline.
+
+Krios is a tall, powerful human basketball captain with deep red-brown skin, long black curls tied back by a green band, a full black beard, black sleeveless jersey and shorts with narrow gold/red trim, black high-top shoes. Keep consistent Krios identity and anatomy in all 15 poses. The body art must be alone: no basketball, sphere, prop or ball-like mark; the ball is a separate runtime track.
+
+Left-to-right, top-to-bottom action beats for an alley-oop reverse finish:
+0 run into the lane with arms pumping;
+1 slow and pivot toward an imagined lob;
+2 TAKEOFF: first airborne one-foot jump with one knee rising;
+3 high-reaching extension with torso diagonally elongated and one hand open;
+4 CATCH: distinct from frame3: shoulder rotates toward the lob, elbow visibly bends as the empty catching hand closes around imagined empty air, other arm balancing;
+5 secure the imagined catch by drawing separate empty hands toward the upper chest while airborne;
+6 compact gather with knees tucked and shoulders beginning reverse rotation;
+7 PEAK: rotate three-quarter away from the rim, one elbow bent beside the shoulder, empty hands visible near the head;
+8 reverse windup with one arm wrapping behind the head on the far side;
+9 descending wrap under the imagined rim, torso rotated and knees tucked;
+10 RELEASE: one-hand reverse finish, arm drives down and outward on far side, open empty hand clearly extended;
+11 follow-through still airborne with curved arm and twisted torso;
+12 descent with arms spread for balance;
+13 feet just above the ground, knees preparing to bend;
+14 LAND: first ground contact, both shoes fully visible with flexed knees and stable balance.
+
+Use exactly 15 different anatomically complete Krios figures, one per cell, all fully inside safe crop margins. No cropping, missing fingers, missing legs, extra limbs, duplicated pose or hidden shoe. Do not draw cell borders, labels, circles, highlights or any object.

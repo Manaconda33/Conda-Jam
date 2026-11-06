@@ -1,0 +1,25 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-clutch",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "independent source review pending",
+  "generatedAt": "2026-10-29T05:03:00Z",
+  "generationId": "exec-bd2d5784-f365-4f17-bd78-b2ee9fa53663",
+  "promptFile": "tools/generate-art/kraken-dunk-clutch-attempt01-imagegen-prompt.txt",
+  "promptSha256": "1d60c7d0d095907d080d1667fea8d1c7749bd62574dd74551d2f26eb54fa2981",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-clutch-attempt01-generated-raw.png",
+  "rawSha256": "bef1c4c23fba8cef21fec8761e354ce659c9e5ade19e0dee2fb9157b217d3b78",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-clutch-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "15 pose source; review alpha/gutters, cell separation, full-body anatomy, identity, clutch and dunk-extension distinction and pixel-art style."
+}

@@ -1,0 +1,134 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "dunk-double",
+  "direction": "right",
+  "attempt": 2,
+  "status": "accepted and registered after independent source, cleanup, track, and normal-loader reviews",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-5467febc-134f-4649-9c28-ba27f649f325",
+  "generationId": "exec-5467febc-134f-4649-9c28-ba27f649f325",
+  "generatedAt": "2026-10-28T08:57:00Z",
+  "parentAttempt": "tools/generate-art/sources/krios-dunk-double15-attempt01-generated-raw.png",
+  "promptFile": "tools/generate-art/krios-dunk-double15-attempt02-imagegen-edit-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "e878032001419cf0e6aed399e314a59380572dfeb46570f7d139a4e556f18541",
+  "editScope": {
+    "requested": "replace only frame07 while preserving other cells",
+    "observed": "all 15 raw cells changed at pixel level; the other fourteen were visually reviewed as same action beats/identity/costume but are regenerated variants"
+  },
+  "rawSourceImage": "tools/generate-art/sources/krios-dunk-double15-attempt02-generated-raw.png",
+  "rawSourceSha256": "2e108cda8e0aef9d1c4e0790f00e419d706566be682cd68f9c44ff9a4bbeb1cf",
+  "dimensions": [
+    1619,
+    971
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate Krios's separate ball track at all action anchors.",
+  "sourceReview": {
+    "status": "pass for separate-ball-track trials only; not runtime registration",
+    "evidence": "tools/generate-art/previews/krios-dunk-double15-attempt02/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "note": "Frame07 now shows the required held-low apex and is distinct from the second upward pump."
+  },
+  "cleanup": {
+    "status": "accepted for trials",
+    "candidate": "tools/generate-art/previews/krios-dunk-double15-attempt02/krios-dunk-double15-attempt02-runtime-candidate.png",
+    "cleanupReport": "tools/generate-art/previews/krios-dunk-double15-attempt02/cleanup-layout-report.json",
+    "sha256": "d18b4abe52b67b46fdf5294fc8398293ab39a0bb6cde205994d90a5eb9e395a9",
+    "lightPreview": "tools/generate-art/previews/krios-dunk-double15-attempt02/krios-dunk-double15-attempt02-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-dunk-double15-attempt02/krios-dunk-double15-attempt02-dark-preview.png"
+  },
+  "ballTrack": {
+    "status": "accepted",
+    "attempt": 4,
+    "height": [
+      1.0,
+      0.9,
+      1.2,
+      1.6,
+      0.85,
+      1.0,
+      0.85,
+      0.75,
+      1.9,
+      1.55,
+      2.0,
+      1.2,
+      1.0,
+      0.8,
+      0.7
+    ],
+    "forward": [
+      5,
+      4,
+      3,
+      5.0,
+      1.5,
+      -1,
+      -1,
+      -1,
+      4.0,
+      2.0,
+      12,
+      10,
+      8,
+      6,
+      4
+    ],
+    "candidateReview": "tools/generate-art/previews/krios-dunk-double15-attempt02/live-gameplay-candidate/track-attempt04/REVIEW.md",
+    "runtimeReview": "tools/generate-art/previews/krios-dunk-double15-attempt02/live-gameplay-candidate/normal-loader-runtime/INDEPENDENT_NORMAL_LOADER_REVIEW_2026-10-28_TRACK04.md",
+    "captures": "tools/generate-art/previews/krios-dunk-double15-attempt02/live-gameplay-candidate/normal-loader-runtime",
+    "notes": "60 normal-loader captures; 15 action samples, both facings and 100%/120%. Face clear/contact at tick7 and tick17; fold/gather tick9, contact tick19, rim/release tick21, two-point score tick23, landing tick30."
+  },
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "status": "rejected",
+      "reason": "Source frame07 was overhead arms instead of the required low-chest held second gather/apex."
+    },
+    {
+      "attempt": "track01",
+      "status": "rejected",
+      "reason": "Ball covered face during first pump and detached from raised hands during second pump."
+    },
+    {
+      "attempt": "track02",
+      "status": "rejected",
+      "reason": "Tick7 ball still overlapped face; second-pump alignment corrected."
+    },
+    {
+      "attempt": "track03",
+      "status": "superseded",
+      "reason": "Candidate passed mechanics but frame08/tick17 ball hid face; track04 moves ball outward and resolves overlap."
+    }
+  ]
+}

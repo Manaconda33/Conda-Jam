@@ -1,0 +1,29 @@
+{
+  "athlete": "krios",
+  "direction": "right",
+  "clip": "dunk-windmill",
+  "src": "./public/assets/animation/krios-dunk-windmill-right.png",
+  "columns": 15,
+  "rows": 1,
+  "frames": [
+    {"x": 0, "y": 0, "w": 128, "h": 96},
+    {"x": 128, "y": 0, "w": 128, "h": 96},
+    {"x": 256, "y": 0, "w": 128, "h": 96},
+    {"x": 384, "y": 0, "w": 128, "h": 96},
+    {"x": 512, "y": 0, "w": 128, "h": 96},
+    {"x": 640, "y": 0, "w": 128, "h": 96},
+    {"x": 768, "y": 0, "w": 128, "h": 96},
+    {"x": 896, "y": 0, "w": 128, "h": 96},
+    {"x": 1024, "y": 0, "w": 128, "h": 96},
+    {"x": 1152, "y": 0, "w": 128, "h": 96},
+    {"x": 1280, "y": 0, "w": 128, "h": 96},
+    {"x": 1408, "y": 0, "w": 128, "h": 96},
+    {"x": 1536, "y": 0, "w": 128, "h": 96},
+    {"x": 1664, "y": 0, "w": 128, "h": 96},
+    {"x": 1792, "y": 0, "w": 128, "h": 96}
+  ],
+  "provenance": {
+    "prompt": "tools/generate-art/krios-dunk-windmill15-attempt02-imagegen-edit-prompt.txt",
+    "generatedAt": "2026-10-28T08:14:53Z"
+  }
+}

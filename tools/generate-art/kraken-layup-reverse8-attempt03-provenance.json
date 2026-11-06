@@ -1,0 +1,29 @@
+{
+  "athlete": "J.07 Kraken",
+  "clip": "layup-reverse",
+  "attempt": 3,
+  "status": "source generated; independent review pending",
+  "prompt": "tools/generate-art/kraken-layup-reverse8-attempt03-imagegen-prompt.txt",
+  "generationId": "exec-72b785b9-b712-4681-a55e-a635732d44d0",
+  "generatedAt": "2026-10-28T13:07:00Z",
+  "source": "tools/generate-art/sources/kraken-layup-reverse8-attempt03-generated-raw.png",
+  "sha256": "77b1238cec584d87c871e82953452ae8c0ba8b3ca91ad82412d09b590f744d0a",
+  "canonicalFrames": 8,
+  "durations": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    1,
+    4,
+    4
+  ],
+  "anchors": {
+    "takeoff": 1,
+    "peak": 4,
+    "release": 5,
+    "finish": 7
+  },
+  "notes": "Attempts01/02 are preserved; attempt01 failed for opaque vignette/painterly style and attempt02 matte v1/v2 failed cleanup review. Attempt03 is a fresh source generation; no cleanup or registration before independent review."
+}

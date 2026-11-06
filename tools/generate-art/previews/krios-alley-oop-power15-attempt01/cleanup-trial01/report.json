@@ -1,0 +1,374 @@
+{
+  "source": "tools/generate-art/sources/krios-alley-oop-power15-attempt01-generated-raw.png",
+  "sourceSha256": "41ec753d550eff70635a93982966808218b8e500841a105ea36a6bc39e0c11a2",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "candidateAtlas": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/krios-alley-oop-power15-attempt01-runtime-candidate.png",
+  "candidateAtlasSha256": "fd621e354f7418120da9342b4b4b9fa635316e0eca0d0a90509d9f38183b04c5",
+  "algorithm": "green-dominance mask flood-connected to sheet edge; retain disconnected interior colors including dark-green hair tie; extract 15 complete figures by row and x order; nearest-neighbor uniform fit; 128x96 cells; baseline y94; no redraw",
+  "grid": [
+    5,
+    3
+  ],
+  "atlasGrid": [
+    15,
+    1
+  ],
+  "cell": [
+    128,
+    96
+  ],
+  "threshold": {
+    "greenGreaterThanRedBy": 34,
+    "greenGreaterThanBlueBy": 26,
+    "greenMinimum": 72,
+    "connectivity": 8
+  },
+  "componentCountIncludingNoise": 34,
+  "figureCount": 15,
+  "transparentPixelCount": 163736,
+  "opaquePixelCount": 20584,
+  "uniquePoseHashes": 15,
+  "uniformScale": 0.2471264367816092,
+  "rowBottoms": [
+    94,
+    94,
+    94
+  ],
+  "targetBaselineY": 94,
+  "poses": [
+    {
+      "frame": 0,
+      "sourceBounds": [
+        29,
+        64,
+        284,
+        324
+      ],
+      "sourceComponentArea": 21588,
+      "outputBounds": [
+        32,
+        30,
+        95,
+        94
+      ],
+      "outputSize": [
+        63,
+        64
+      ],
+      "opaqueGreenDominantPixelCount": 31,
+      "poseSha256": "469f1e71a7e66f285f7e7174daae58bb4b8445f7b3863908bd1a2d2e8a4d7737"
+    },
+    {
+      "frame": 1,
+      "sourceBounds": [
+        321,
+        76,
+        589,
+        325
+      ],
+      "sourceComponentArea": 18969,
+      "outputBounds": [
+        31,
+        32,
+        97,
+        94
+      ],
+      "outputSize": [
+        66,
+        62
+      ],
+      "opaqueGreenDominantPixelCount": 23,
+      "poseSha256": "ffad5aa198d718a9aaecd2bf9eb5795494bd947e34d1c2f11d1d459c12be166f"
+    },
+    {
+      "frame": 2,
+      "sourceBounds": [
+        642,
+        28,
+        876,
+        326
+      ],
+      "sourceComponentArea": 18786,
+      "outputBounds": [
+        35,
+        20,
+        92,
+        94
+      ],
+      "outputSize": [
+        58,
+        74
+      ],
+      "opaqueGreenDominantPixelCount": 25,
+      "poseSha256": "85027de0a541c1b0d8ecf3cc89c2c07e3eff1cc00abca89400b5c1533cd6088a"
+    },
+    {
+      "frame": 3,
+      "sourceBounds": [
+        938,
+        7,
+        1174,
+        318
+      ],
+      "sourceComponentArea": 19761,
+      "outputBounds": [
+        35,
+        17,
+        93,
+        94
+      ],
+      "outputSize": [
+        58,
+        77
+      ],
+      "opaqueGreenDominantPixelCount": 36,
+      "poseSha256": "907f483354e7d00db150abbc84005b20447b6011cf36b0a8b7ce67c777acba70"
+    },
+    {
+      "frame": 4,
+      "sourceBounds": [
+        1242,
+        5,
+        1479,
+        331
+      ],
+      "sourceComponentArea": 20329,
+      "outputBounds": [
+        34,
+        13,
+        92,
+        94
+      ],
+      "outputSize": [
+        59,
+        81
+      ],
+      "opaqueGreenDominantPixelCount": 42,
+      "poseSha256": "feecb46917edb962c2a6507c3f233bf4bb086d163891854d48ace3443d888023"
+    },
+    {
+      "frame": 5,
+      "sourceBounds": [
+        75,
+        374,
+        234,
+        620
+      ],
+      "sourceComponentArea": 19228,
+      "outputBounds": [
+        44,
+        33,
+        83,
+        94
+      ],
+      "outputSize": [
+        39,
+        61
+      ],
+      "opaqueGreenDominantPixelCount": 29,
+      "poseSha256": "26b15a74beb0ba4184cf5549d23729a41bc40c73c6b5a9bdbf3095c6b858fa2e"
+    },
+    {
+      "frame": 6,
+      "sourceBounds": [
+        402,
+        375,
+        539,
+        593
+      ],
+      "sourceComponentArea": 18307,
+      "outputBounds": [
+        47,
+        40,
+        81,
+        94
+      ],
+      "outputSize": [
+        34,
+        54
+      ],
+      "opaqueGreenDominantPixelCount": 30,
+      "poseSha256": "eaf3876faf61b06951d48b78eafc9ada98f9bd66908bdedfa5ee340f6d9fbe80"
+    },
+    {
+      "frame": 7,
+      "sourceBounds": [
+        672,
+        347,
+        915,
+        635
+      ],
+      "sourceComponentArea": 24875,
+      "outputBounds": [
+        34,
+        23,
+        94,
+        94
+      ],
+      "outputSize": [
+        60,
+        71
+      ],
+      "opaqueGreenDominantPixelCount": 39,
+      "poseSha256": "3f75e221bfe5113dabb048a21971e724b5d497c7628f338651b0ce14c84e5029"
+    },
+    {
+      "frame": 8,
+      "sourceBounds": [
+        947,
+        362,
+        1207,
+        644
+      ],
+      "sourceComponentArea": 23699,
+      "outputBounds": [
+        32,
+        24,
+        96,
+        94
+      ],
+      "outputSize": [
+        64,
+        70
+      ],
+      "opaqueGreenDominantPixelCount": 43,
+      "poseSha256": "98726fcad5b1b2266b8d12e6fe0d63537c8b1e21dba9d9b6aef507dc405d7d9b"
+    },
+    {
+      "frame": 9,
+      "sourceBounds": [
+        1239,
+        337,
+        1489,
+        685
+      ],
+      "sourceComponentArea": 20934,
+      "outputBounds": [
+        33,
+        8,
+        95,
+        94
+      ],
+      "outputSize": [
+        62,
+        86
+      ],
+      "opaqueGreenDominantPixelCount": 31,
+      "poseSha256": "e6d4db5dc8018d6033f014d5b41f52ab4d860c9b299b7afc8f0f3c50c631e4c8"
+    },
+    {
+      "frame": 10,
+      "sourceBounds": [
+        42,
+        660,
+        295,
+        1005
+      ],
+      "sourceComponentArea": 24603,
+      "outputBounds": [
+        32,
+        9,
+        95,
+        94
+      ],
+      "outputSize": [
+        63,
+        85
+      ],
+      "opaqueGreenDominantPixelCount": 34,
+      "poseSha256": "5fdeede37ca91343329d7e6659aef69b8337459c52b06085623ca6fc6d6b0ffa"
+    },
+    {
+      "frame": 11,
+      "sourceBounds": [
+        318,
+        689,
+        594,
+        981
+      ],
+      "sourceComponentArea": 26102,
+      "outputBounds": [
+        30,
+        22,
+        98,
+        94
+      ],
+      "outputSize": [
+        68,
+        72
+      ],
+      "opaqueGreenDominantPixelCount": 70,
+      "poseSha256": "08327ac5107b851c57d87bb5edd216b15a62827850d25aa2523efdf30285c63c"
+    },
+    {
+      "frame": 12,
+      "sourceBounds": [
+        639,
+        723,
+        898,
+        979
+      ],
+      "sourceComponentArea": 25246,
+      "outputBounds": [
+        32,
+        31,
+        96,
+        94
+      ],
+      "outputSize": [
+        64,
+        63
+      ],
+      "opaqueGreenDominantPixelCount": 103,
+      "poseSha256": "438388ff61c1f4a41f1e92b8e3bfdb53c8c5949046e43c16c7b1c22e6466f009"
+    },
+    {
+      "frame": 13,
+      "sourceBounds": [
+        986,
+        734,
+        1184,
+        984
+      ],
+      "sourceComponentArea": 26421,
+      "outputBounds": [
+        39,
+        32,
+        88,
+        94
+      ],
+      "outputSize": [
+        49,
+        62
+      ],
+      "opaqueGreenDominantPixelCount": 67,
+      "poseSha256": "46e77224d03d2ac19c6e26ce4c3b4c7e06adc22db8f1dd2cddf3dea819b1c5c4"
+    },
+    {
+      "frame": 14,
+      "sourceBounds": [
+        1254,
+        753,
+        1497,
+        986
+      ],
+      "sourceComponentArea": 25962,
+      "outputBounds": [
+        34,
+        36,
+        94,
+        94
+      ],
+      "outputSize": [
+        60,
+        58
+      ],
+      "opaqueGreenDominantPixelCount": 23,
+      "poseSha256": "e33a3836859c0153a1864dd41fdbfad4e0bc05809fd5c6133881fda67703af2e"
+    }
+  ],
+  "reviewNotes": "Candidate for trial only. Visually inspect light/dark previews and isolated frames before use. Green dominant pixel counts require distinguishing the intentional hair tie from any fringe."
+}

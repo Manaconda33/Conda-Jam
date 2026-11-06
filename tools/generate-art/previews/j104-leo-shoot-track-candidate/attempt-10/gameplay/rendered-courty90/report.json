@@ -1,0 +1,987 @@
+{
+  "renderer": "Current Jam Stage canvas",
+  "simulation": "window.jamverse.tick -> src/core/simulation.js stepMatch",
+  "athlete": "leo",
+  "clip": "shoot",
+  "candidateTrack": {
+    "height": [
+      0.95,
+      1.1,
+      2.1,
+      2.1,
+      2.0,
+      2.3,
+      2.2,
+      2.7,
+      2.1,
+      1.05
+    ],
+    "forward": [
+      6,
+      7,
+      6.5,
+      4,
+      3,
+      4,
+      4,
+      4,
+      6.5,
+      5.5
+    ]
+  },
+  "releaseTick": 13,
+  "candidateReleaseVz": 0.8,
+  "releasePath": "Actual simulation advances continuously. Before release, the separately rendered carried ball is aligned to candidate track. At the actual tick13 shot transition, candidate release position is installed once and launch velocity is calculated using production makeShot equations. All subsequent ball coordinates are advanced only by stepMatch/integrateBall; no post-release position samples are assigned.",
+  "targetCaptures": [
+    13,
+    14,
+    16,
+    19,
+    23,
+    "score-complete"
+  ],
+  "zoomLevels": [
+    100,
+    120
+  ],
+  "facings": [
+    {
+      "facing": "right",
+      "release": {
+        "tick": 13,
+        "pz": 2,
+        "height": 2.8,
+        "ownerId": null,
+        "playerHasBall": false,
+        "lastTouch": "leo",
+        "mode": "shot",
+        "made": true,
+        "launch": {
+          "x": 134,
+          "y": 90,
+          "z": 2.8,
+          "vx": 0.8873935339816774,
+          "vy": -0.6473806146238081,
+          "vz": 0.8,
+          "targetX": 188.82978723404256,
+          "targetY": 50
+        }
+      },
+      "scoreComplete": {
+        "tick": 0,
+        "clip": "celebrate",
+        "player": {
+          "x": 130,
+          "y": 90,
+          "z": 0,
+          "facing": 1,
+          "hasBall": false
+        },
+        "ball": {
+          "x": 189.90579264084582,
+          "y": 49.21502127869993,
+          "z": 2.421999999999974,
+          "mode": "dead",
+          "ownerId": null,
+          "lastTouch": "leo",
+          "attemptId": "shot-1",
+          "made": true
+        },
+        "score": [
+          3,
+          0
+        ],
+        "scoredAttempts": [
+          "shot-1"
+        ],
+        "phase": "playing",
+        "scorePause": 70,
+        "canvasArt": "generated-full-roster-atlases"
+      },
+      "captures": [
+        {
+          "label": "right-tick13-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick13-zoom100.png",
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 2,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 134,
+              "y": 90,
+              "z": 2.8,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "right-tick13-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick13-zoom120.png",
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 2,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 134,
+              "y": 90,
+              "z": 2.8,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "right-tick14-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick14-zoom100.png",
+          "state": {
+            "tick": 14,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.9753766811902755,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 134.88739353398168,
+              "y": 89.35261938537619,
+              "z": 3.5999999999999996,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "right-tick14-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick14-zoom120.png",
+          "state": {
+            "tick": 14,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.9753766811902755,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 134.88739353398168,
+              "y": 89.35261938537619,
+              "z": 3.5999999999999996,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "right-tick16-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick16-zoom100.png",
+          "state": {
+            "tick": 16,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.7820130483767356,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 136.66218060194504,
+              "y": 88.05785815612856,
+              "z": 5.122,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "right-tick16-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick16-zoom120.png",
+          "state": {
+            "tick": 16,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.7820130483767356,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 136.66218060194504,
+              "y": 88.05785815612856,
+              "z": 5.122,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "right-tick19-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick19-zoom100.png",
+          "state": {
+            "tick": 19,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.1755705045849463,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 139.32436120389008,
+              "y": 86.11571631225712,
+              "z": 7.209999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "right-tick19-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick19-zoom120.png",
+          "state": {
+            "tick": 19,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.1755705045849463,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 139.32436120389008,
+              "y": 86.11571631225712,
+              "z": 7.209999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "right-tick23-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick23-zoom100.png",
+          "state": {
+            "tick": 23,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 142.8739353398168,
+              "y": 83.52619385376187,
+              "z": 9.629999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "right-tick23-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-tick23-zoom120.png",
+          "state": {
+            "tick": 23,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 142.8739353398168,
+              "y": 83.52619385376187,
+              "z": 9.629999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "right-score-complete-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-score-complete-zoom100.png",
+          "state": {
+            "tick": 0,
+            "clip": "celebrate",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 189.90579264084582,
+              "y": 49.21502127869993,
+              "z": 2.421999999999974,
+              "mode": "dead",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              3,
+              0
+            ],
+            "scoredAttempts": [
+              "shot-1"
+            ],
+            "phase": "playing",
+            "scorePause": 70,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "right-score-complete-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/right-score-complete-zoom120.png",
+          "state": {
+            "tick": 0,
+            "clip": "celebrate",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": 1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 189.90579264084582,
+              "y": 49.21502127869993,
+              "z": 2.421999999999974,
+              "mode": "dead",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              3,
+              0
+            ],
+            "scoredAttempts": [
+              "shot-1"
+            ],
+            "phase": "playing",
+            "scorePause": 70,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        }
+      ]
+    },
+    {
+      "facing": "left",
+      "release": {
+        "tick": 13,
+        "pz": 2,
+        "height": 2.8,
+        "ownerId": null,
+        "playerHasBall": false,
+        "lastTouch": "leo",
+        "mode": "shot",
+        "made": true,
+        "launch": {
+          "x": 126,
+          "y": 90,
+          "z": 2.8,
+          "vx": 1.016869656906439,
+          "vy": -0.6473806146238081,
+          "vz": 0.8,
+          "targetX": 188.82978723404256,
+          "targetY": 50
+        }
+      },
+      "scoreComplete": {
+        "tick": 0,
+        "clip": "celebrate",
+        "player": {
+          "x": 130,
+          "y": 90,
+          "z": 0,
+          "facing": -1,
+          "hasBall": false
+        },
+        "ball": {
+          "x": 190.0627883851055,
+          "y": 49.21502127869993,
+          "z": 2.421999999999974,
+          "mode": "dead",
+          "ownerId": null,
+          "lastTouch": "leo",
+          "attemptId": "shot-1",
+          "made": true
+        },
+        "score": [
+          3,
+          0
+        ],
+        "scoredAttempts": [
+          "shot-1"
+        ],
+        "phase": "playing",
+        "scorePause": 70,
+        "canvasArt": "generated-full-roster-atlases"
+      },
+      "captures": [
+        {
+          "label": "left-tick13-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick13-zoom100.png",
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 2,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 126,
+              "y": 90,
+              "z": 2.8,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "left-tick13-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick13-zoom120.png",
+          "state": {
+            "tick": 13,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 2,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 126,
+              "y": 90,
+              "z": 2.8,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "left-tick14-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick14-zoom100.png",
+          "state": {
+            "tick": 14,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.9753766811902755,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 127.01686965690644,
+              "y": 89.35261938537619,
+              "z": 3.5999999999999996,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "left-tick14-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick14-zoom120.png",
+          "state": {
+            "tick": 14,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.9753766811902755,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 127.01686965690644,
+              "y": 89.35261938537619,
+              "z": 3.5999999999999996,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "left-tick16-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick16-zoom100.png",
+          "state": {
+            "tick": 16,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.7820130483767356,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 129.0506089707193,
+              "y": 88.05785815612856,
+              "z": 5.122,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "left-tick16-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick16-zoom120.png",
+          "state": {
+            "tick": 16,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.7820130483767356,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 129.0506089707193,
+              "y": 88.05785815612856,
+              "z": 5.122,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "left-tick19-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick19-zoom100.png",
+          "state": {
+            "tick": 19,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.1755705045849463,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 132.10121794143862,
+              "y": 86.11571631225712,
+              "z": 7.209999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "left-tick19-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick19-zoom120.png",
+          "state": {
+            "tick": 19,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 1.1755705045849463,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 132.10121794143862,
+              "y": 86.11571631225712,
+              "z": 7.209999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "left-tick23-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick23-zoom100.png",
+          "state": {
+            "tick": 23,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 136.16869656906437,
+              "y": 83.52619385376187,
+              "z": 9.629999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "left-tick23-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-tick23-zoom120.png",
+          "state": {
+            "tick": 23,
+            "clip": "shoot",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 136.16869656906437,
+              "y": 83.52619385376187,
+              "z": 9.629999999999999,
+              "mode": "shot",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              0,
+              0
+            ],
+            "scoredAttempts": [],
+            "phase": "playing",
+            "scorePause": 0,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        },
+        {
+          "label": "left-score-complete-zoom100.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-score-complete-zoom100.png",
+          "state": {
+            "tick": 0,
+            "clip": "celebrate",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 190.0627883851055,
+              "y": 49.21502127869993,
+              "z": 2.421999999999974,
+              "mode": "dead",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              3,
+              0
+            ],
+            "scoredAttempts": [
+              "shot-1"
+            ],
+            "phase": "playing",
+            "scorePause": 70,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 100
+        },
+        {
+          "label": "left-score-complete-zoom120.png",
+          "path": "tools/generate-art/previews/j104-leo-shoot-track-candidate/attempt-10/gameplay/rendered-courty90/left-score-complete-zoom120.png",
+          "state": {
+            "tick": 0,
+            "clip": "celebrate",
+            "player": {
+              "x": 130,
+              "y": 90,
+              "z": 0,
+              "facing": -1,
+              "hasBall": false
+            },
+            "ball": {
+              "x": 190.0627883851055,
+              "y": 49.21502127869993,
+              "z": 2.421999999999974,
+              "mode": "dead",
+              "ownerId": null,
+              "lastTouch": "leo",
+              "attemptId": "shot-1",
+              "made": true
+            },
+            "score": [
+              3,
+              0
+            ],
+            "scoredAttempts": [
+              "shot-1"
+            ],
+            "phase": "playing",
+            "scorePause": 70,
+            "canvasArt": "generated-full-roster-atlases"
+          },
+          "zoom": 120
+        }
+      ]
+    }
+  ],
+  "captureCount": 24,
+  "uncaughtBrowserErrors": []
+}

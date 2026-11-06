@@ -1,0 +1,123 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "alley-oop-power",
+  "direction": "right",
+  "attempt": 1,
+  "status": "accepted: source, cleanup, athlete-specific ball track and normal-loader gameplay review",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-9298e495-01b4-4d6d-9f8b-a1c523f6f7df",
+  "generationId": "exec-9298e495-01b4-4d6d-9f8b-a1c523f6f7df",
+  "generatedAt": "2026-10-28T09:16:58Z",
+  "promptFile": "tools/generate-art/krios-alley-oop-power15-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "da103973baab645e28d34efbeae55d6197cfc4327108c1048d745c7bb907b02b",
+  "rawSourceImage": "tools/generate-art/sources/krios-alley-oop-power15-attempt01-generated-raw.png",
+  "rawSourceSha256": "41ec753d550eff70635a93982966808218b8e500841a105ea36a6bc39e0c11a2",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-dunk-power-right.png"
+  ],
+  "requiredFrameDurations": [
+    2,
+    2,
+    3,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3
+  ],
+  "anchors": {
+    "takeoff": 2,
+    "grab": 5,
+    "peak": 7,
+    "release": 10,
+    "finish": 11,
+    "land": 14
+  },
+  "ballPolicy": "No basketball in athlete artwork; calibrate a separate Krios athlete-specific ball track.",
+  "sourceReview": {
+    "status": "pass for cleanup and separate-ball-track trials only",
+    "evidence": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/INDEPENDENT_SOURCE_REVIEW_2026-10-28.md",
+    "note": "Raw sheet review confirms 15 distinct full-body poses, Krios identity, ball-free hands/art, and adequate source margins."
+  },
+  "cleanup": {
+    "status": "pass for separate-ball-track trials only",
+    "script": "tools/generate-art/clean-krios-alley-oop-power15-attempt01.py",
+    "candidate": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/krios-alley-oop-power15-attempt01-runtime-candidate.png",
+    "sha256": "6b1322b75eee484319558b086efefc2bcfbb5b481005b5cedd7f15b3901a7a10",
+    "layout": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/layout.json",
+    "cleanupReport": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/cleanup-layout-report.json",
+    "lightPreview": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/krios-alley-oop-power15-attempt01-light-preview.png",
+    "darkPreview": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/krios-alley-oop-power15-attempt01-dark-preview.png",
+    "lightContactSheet": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/contact-sheet-light.png",
+    "darkContactSheet": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/contact-sheet-dark.png",
+    "uniqueFrames": 15,
+    "note": "Edge-connected green keying, enclosed green-hole removal, nearest-neighbor fit in 128\u00d796 cells, baseline y94. No opaque saturated green pixels remain outside the upper head region; remaining 0\u20134/frame are the intended dark green hair tie."
+  },
+  "ballTrack": {
+    "status": "accepted",
+    "attempt": "05",
+    "track": {
+      "height": [
+        1.37,
+        1.71,
+        2.22,
+        2.16,
+        1.96,
+        0.65,
+        0.55,
+        0.7,
+        0.45,
+        1.6,
+        0.7,
+        0.64,
+        0.39,
+        0.37,
+        0.65
+      ],
+      "forward": [
+        9.5,
+        10.23,
+        7.67,
+        5.12,
+        8.4,
+        2.5,
+        0,
+        7.5,
+        10,
+        2.5,
+        5.12,
+        1.1,
+        -2.19,
+        -1.1,
+        -2.92
+      ]
+    },
+    "candidateEvidence": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/live-gameplay-candidate/track-attempt05/REVIEW.md",
+    "normalLoaderEvidence": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/live-gameplay-candidate/normal-loader-runtime/report.json",
+    "independentReview": "tools/generate-art/previews/krios-alley-oop-power15-attempt01/live-gameplay-candidate/normal-loader-runtime/INDEPENDENT_NORMAL_LOADER_REVIEW_2026-10-28.md",
+    "notes": "Actual teammate alley-oop pass and normal selector used. 60 captures cover all 15 frames at both facings and both zoom levels."
+  },
+  "rejectedCleanupAttempts": [
+    {
+      "attempt": 1,
+      "status": "rejected",
+      "reason": "Edge-connected key plus large hole removal left small saturated-green background holes around limb/foot gaps. Preserved at tools/generate-art/previews/krios-alley-oop-power15-attempt01/cleanup-trial01/."
+    }
+  ],
+  "rejectedAttempts": []
+}

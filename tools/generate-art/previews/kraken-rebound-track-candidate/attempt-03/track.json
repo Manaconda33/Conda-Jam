@@ -1,0 +1,29 @@
+{
+  "athlete": "kraken",
+  "clip": "rebound",
+  "attempt": 3,
+  "status": "captured in current-court attempt10; independent visual review pending",
+  "height": [
+    0.4,
+    0.2,
+    0.65,
+    0.25,
+    0.75
+  ],
+  "forward": [
+    3,
+    2.5,
+    0,
+    0,
+    1
+  ],
+  "frameStartTicks": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "grabTick": 5,
+  "reference": "Attempt02 remained visibly above the hands through the overhead catch at tick5; attempt03 lowers the approach/overhead hand positions substantially and tucks the catch forward coordinate toward Kraken. Trial only; independent visual review required."
+}

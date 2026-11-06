@@ -1,0 +1,383 @@
+{
+  "status": "candidate source cleanup/layout trial; independent visual review and separate current-court trial required; not registered",
+  "source": "tools/generate-art/sources/kraken-push11-attempt02-generated-raw.png",
+  "sourceSha256": "800f865f47e900077e444846d48386b9392e176fc9041afc35bffd371e214961",
+  "atlas": "tools/generate-art/previews/kraken-push11-attempt02/kraken-push11-attempt02-runtime-candidate.png",
+  "atlasSha256": "47a883c86ec4222725b11ea6ea68358b45ab8702cad8fbe013bd38ebb7289cd4",
+  "sourceDimensions": [
+    1322,
+    1190
+  ],
+  "segmentation": "Connected components with alpha >= 32, retain exactly eleven figures of at least 5000 core pixels; preserve all source RGBA pixels within each figure crop.",
+  "resampling": "Nearest-neighbor, uniform scale capped at 64x80; center horizontally and align all feet to baseline y=88 in 80x96 cells.",
+  "rawPreserved": true,
+  "sheetLayout": {
+    "columns": 4,
+    "rows": 3,
+    "frameCount": 11,
+    "unusedCell": [
+      3,
+      2
+    ],
+    "cellSize": [
+      80,
+      96
+    ]
+  },
+  "canonicalDurations": [
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    3,
+    3
+  ],
+  "contact": {
+    "frame": 5,
+    "tick": 8
+  },
+  "uniqueFrames": 11,
+  "minimumMarginsLTRB": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "slot": [
+        0,
+        0
+      ],
+      "sourceBounds": [
+        59,
+        73,
+        267,
+        395
+      ],
+      "sourceCorePixels": 36104,
+      "scaledSize": [
+        52,
+        80
+      ],
+      "offsetInCell": [
+        14,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        14,
+        8,
+        14,
+        8
+      ],
+      "poseSha256": "3d2e88a2d18799a6a7a8239e9f8b4f745a1d941bea575b6756cc8a18299c9df7"
+    },
+    {
+      "frame": 1,
+      "slot": [
+        1,
+        0
+      ],
+      "sourceBounds": [
+        364,
+        82,
+        583,
+        391
+      ],
+      "sourceCorePixels": 34393,
+      "scaledSize": [
+        57,
+        80
+      ],
+      "offsetInCell": [
+        11,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        11,
+        8,
+        12,
+        8
+      ],
+      "poseSha256": "bb51e9eee893a64792b7ecb0cd1c0c4a649bebc80fd538d4c4fe044fdb351c9b"
+    },
+    {
+      "frame": 2,
+      "slot": [
+        2,
+        0
+      ],
+      "sourceBounds": [
+        697,
+        73,
+        959,
+        391
+      ],
+      "sourceCorePixels": 35192,
+      "scaledSize": [
+        64,
+        78
+      ],
+      "offsetInCell": [
+        8,
+        10
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        8,
+        10,
+        8,
+        8
+      ],
+      "poseSha256": "474ce4bc0b87b2e2168a91670225821d8c2d4e2e474e8bf7e364ebaad4222a1c"
+    },
+    {
+      "frame": 3,
+      "slot": [
+        3,
+        0
+      ],
+      "sourceBounds": [
+        1045,
+        74,
+        1274,
+        395
+      ],
+      "sourceCorePixels": 35006,
+      "scaledSize": [
+        57,
+        80
+      ],
+      "offsetInCell": [
+        11,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        11,
+        8,
+        12,
+        8
+      ],
+      "poseSha256": "fa3548db7bc6018ca72af4c68f1c85d76f16f4affdde0aad07351f0a034ed0cb"
+    },
+    {
+      "frame": 4,
+      "slot": [
+        0,
+        1
+      ],
+      "sourceBounds": [
+        40,
+        446,
+        291,
+        757
+      ],
+      "sourceCorePixels": 36160,
+      "scaledSize": [
+        64,
+        79
+      ],
+      "offsetInCell": [
+        8,
+        9
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        8,
+        9,
+        8,
+        8
+      ],
+      "poseSha256": "cc24cd3c8111d38254c5a57bb1325b1377ac964d0c9994982f37f12c28043388"
+    },
+    {
+      "frame": 5,
+      "slot": [
+        1,
+        1
+      ],
+      "sourceBounds": [
+        335,
+        446,
+        655,
+        756
+      ],
+      "sourceCorePixels": 37054,
+      "scaledSize": [
+        64,
+        62
+      ],
+      "offsetInCell": [
+        8,
+        26
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        8,
+        26,
+        8,
+        8
+      ],
+      "poseSha256": "6768834ca2b4ff34c7fce5593b8d94c42eceb8982daa6684c9559dc72ea5c9b0"
+    },
+    {
+      "frame": 6,
+      "slot": [
+        2,
+        1
+      ],
+      "sourceBounds": [
+        663,
+        470,
+        1043,
+        756
+      ],
+      "sourceCorePixels": 38653,
+      "scaledSize": [
+        64,
+        48
+      ],
+      "offsetInCell": [
+        8,
+        40
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        8,
+        40,
+        8,
+        8
+      ],
+      "poseSha256": "65448e77ba405e194128c249d88ff949d8c199f097c7fabbe147365bc863796f"
+    },
+    {
+      "frame": 7,
+      "slot": [
+        3,
+        1
+      ],
+      "sourceBounds": [
+        1059,
+        459,
+        1283,
+        756
+      ],
+      "sourceCorePixels": 34405,
+      "scaledSize": [
+        60,
+        80
+      ],
+      "offsetInCell": [
+        10,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        10,
+        8,
+        10,
+        8
+      ],
+      "poseSha256": "78d870facd886d98e57a1fddff7791c3419433d22f69a6c4580a9d9c954b11a8"
+    },
+    {
+      "frame": 8,
+      "slot": [
+        0,
+        2
+      ],
+      "sourceBounds": [
+        47,
+        805,
+        275,
+        1130
+      ],
+      "sourceCorePixels": 36721,
+      "scaledSize": [
+        56,
+        80
+      ],
+      "offsetInCell": [
+        12,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "poseSha256": "a53f981fe171076195f825055b0c5040dd605c2d35397f6d15d0e91bf7a93907"
+    },
+    {
+      "frame": 9,
+      "slot": [
+        1,
+        2
+      ],
+      "sourceBounds": [
+        372,
+        807,
+        612,
+        1130
+      ],
+      "sourceCorePixels": 37643,
+      "scaledSize": [
+        59,
+        80
+      ],
+      "offsetInCell": [
+        10,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        10,
+        8,
+        11,
+        8
+      ],
+      "poseSha256": "9ac72be7682f29b8dc06155e43caec6c111dfd76532eb471f95049a41224226a"
+    },
+    {
+      "frame": 10,
+      "slot": [
+        2,
+        2
+      ],
+      "sourceBounds": [
+        718,
+        807,
+        925,
+        1130
+      ],
+      "sourceCorePixels": 36554,
+      "scaledSize": [
+        51,
+        80
+      ],
+      "offsetInCell": [
+        14,
+        8
+      ],
+      "baselineY": 88,
+      "marginsLTRB": [
+        14,
+        8,
+        15,
+        8
+      ],
+      "poseSha256": "dcfc3d019eaff509f14a99c3d8c7736c0127807949bbf5133dd0850e7546edd0"
+    }
+  ]
+}

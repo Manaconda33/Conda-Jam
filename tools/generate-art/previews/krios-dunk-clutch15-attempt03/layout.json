@@ -1,0 +1,15 @@
+{
+  "status": "rejected before cleanup; raw sheet grid guide only",
+  "source": "tools/generate-art/sources/krios-dunk-clutch15-attempt03-generated-raw.png",
+  "columns": 5,
+  "rows": 3,
+  "rawDimensions": [
+    1619,
+    971
+  ],
+  "estimatedCellSize": [
+    323.8,
+    323.67
+  ],
+  "note": "No production atlas was extracted. Green-key composites are visual previews only; ball-bearing artwork was rejected."
+}

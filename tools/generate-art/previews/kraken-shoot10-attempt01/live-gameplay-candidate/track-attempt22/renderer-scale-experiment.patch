@@ -1,0 +1,64 @@
+diff --git a/src/main.js b/src/main.js
+index e7a37707..e8b8950b 100644
+--- a/src/main.js
++++ b/src/main.js
+@@ -11,7 +11,7 @@ import { supportingAnimationLibraries } from './content/supporting-animation-lib
+ import { selectProductionSprite, productionBaseSilhouetteHeightRatio, legacySpritePose, athleteVisualScale, ballDrawDepth } from './render/animation-sprites.js';
+ import { courtMarkings, ballHeightPixels } from './render/court-geometry.js';
+ import { updateCameraX } from './render/camera-tracking.js';
+-import { JAM_STAGE, projectJamStagePoint, stageAthleteScale, stageAttackPanY, stageAttackZoom, stageBallHeightPixels, stageCameraFocusX, stageDunkContactOffsetPixels, stageHoopGeometry, stageMidcourtScreenX, isStageDunkAttack } from './render/jam-stage.js';
++import { JAM_STAGE, projectJamStagePoint, stageAthleteScale, stageAttackPanY, stageAttackZoom, stageBallFlightScale, stageBallHeightPixels, stageCameraFocusX, stageDunkContactOffsetPixels, stageHoopGeometry, stageMidcourtScreenX, isStageDunkAttack } from './render/jam-stage.js';
+ import { createDebugDiagnostics, debugLines, recordDebugFrame, recordDebugTick, setDebugEnabled } from './render/debug-diagnostics.js';
+ import { boxScoreHeader, formatBoxScoreRow } from './ui/box-score.js';
+ import { gamepadButtonLabels, normalizeGamepadButtons, readGamepadActions, readGamepadMovement } from './input/gamepad-controls.js';
+@@ -549,7 +549,7 @@ function drawAthleteOverlays(p,player,x,y,generated=false,stageScale=1){
+ }
+ function drawBall(b){
+   if(b.mode==='dead')return;
+-  const owner=match.players.find(p=>p.id===(b.mode==='carried'?b.ownerId:b.mode==='pass'?b.aerialTargetId:null)),source=stagePreview&&['shot','dunk'].includes(b.mode)?match.players.find(p=>p.id===b.lastTouch):null,[projectedX,groundY]=project(b.x,b.y,0),dunkSource=isStageDunkAttack(owner?.animation?.clip)?owner:isStageDunkAttack(source?.animation?.clip)?source:null,x=projectedX+(stagePreview&&dunkSource?stageDunkContactOffsetPixels(dunkSource.z,dunkSource.facing):0),sizeScale=cameraZoom/100,flightScale=stagePreview?(isStageDunkAttack(owner?.animation?.clip)?1.82:1.62):1;
++  const owner=match.players.find(p=>p.id===(b.mode==='carried'?b.ownerId:b.mode==='pass'?b.aerialTargetId:null)),source=stagePreview&&['shot','dunk'].includes(b.mode)?match.players.find(p=>p.id===b.lastTouch):null,[projectedX,groundY]=project(b.x,b.y,0),dunkSource=isStageDunkAttack(owner?.animation?.clip)?owner:isStageDunkAttack(source?.animation?.clip)?source:null,x=projectedX+(stagePreview&&dunkSource?stageDunkContactOffsetPixels(dunkSource.z,dunkSource.facing):0),sizeScale=cameraZoom/100,flightScale=stagePreview?stageBallFlightScale(b.mode,isStageDunkAttack(owner?.animation?.clip)||isStageDunkAttack(source?.animation?.clip)):1;
+   const rawHeight=ballHeightPixels(b,owner);let projectedHeight=rawHeight*flightScale;
+   if(stagePreview&&owner)projectedHeight=stageBallHeightPixels(rawHeight,owner.z,flightScale);
+   else if(stagePreview&&source){const key=b.attemptId??`${b.mode}:${b.lastTouch}`;let memo=stageBallLiftMemo.get(b);if(!memo||memo.key!==key){memo={key,correction:source.z*(JAM_STAGE.actorElevationPixelsPerWorld-7*flightScale)};stageBallLiftMemo.set(b,memo)}projectedHeight+=memo.correction;}
+diff --git a/src/render/jam-stage.js b/src/render/jam-stage.js
+index 563df58a..e48f2c21 100644
+--- a/src/render/jam-stage.js
++++ b/src/render/jam-stage.js
+@@ -5,6 +5,12 @@ export function isStageDunkAttack(clip){
+   return typeof clip==='string'&&(clip.startsWith('dunk-')||clip.startsWith('alley-oop-'));
+ }
+
++/** Keep stage-shot arcs beneath the fixed scoreboard at the supported zoom range. */
++export function stageBallFlightScale(ballMode,isDunkAttack=false){
++  if(isDunkAttack)return 1.82;
++  return ballMode==='shot' ? .8 : 1.62;
++}
++
+ /**
+  * Issue #4's first-pass Jam camera geometry for the 480×360 logical viewport.
+  * The values are renderer-only: simulation world coordinates stay 0–200×0–100.
+diff --git a/tests/jam-stage-projection.test.js b/tests/jam-stage-projection.test.js
+index 3283659b..f500ae45 100644
+--- a/tests/jam-stage-projection.test.js
++++ b/tests/jam-stage-projection.test.js
+@@ -13,6 +13,7 @@ import {
+   stageAttackZoom,
+   stageDunkContactOffsetPixels,
+   stageCameraFocusX,
++  stageBallFlightScale,
+   isStageDunkAttack,
+   stageViewShearDirection,
+   stageHoopGeometry,
+@@ -152,6 +153,12 @@ test('attack camera frames either rim symmetrically and eases into the approach'
+   assert.ok(JAM_STAGE.hoopAssemblyScale>=1&&JAM_STAGE.hoopAssemblyScale<=1.2,'the assembly retains its court-scale geometry');
+ });
+
++test('stage shot arcs stay clear of the fixed HUD while passes and dunks retain their scales',()=>{
++  assert.equal(stageBallFlightScale('shot'),.8,'shot arc stays clear of the fixed HUD at 120%');
++  assert.equal(stageBallFlightScale('pass'),1.62,'non-shot flight scale remains unchanged');
++  assert.equal(stageBallFlightScale('dunk',true),1.82,'dunk contact retains its existing scale');
++});
++
+ test('stage attack camera includes alley-oop clips as well as dunk clips',()=>{
+   assert.equal(isStageDunkAttack('dunk-power'),true);
+   assert.equal(isStageDunkAttack('alley-oop-power'),true);

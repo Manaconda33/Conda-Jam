@@ -1,0 +1,7 @@
+# J.128 Krios `block` — attempt01 source/layout trial
+
+The raw ImageGen output and exact prompt are preserved at `tools/generate-art/sources/krios-block4-attempt01-generated-raw.png` and `tools/generate-art/krios-block4-attempt01-imagegen-prompt.txt`. Tool artifact ID: `exec-af81d2ba-7941-493f-8ad7-faab5b83ea41`; the exported RGB PNG has no C2PA metadata. Source provenance and hash are in `tools/generate-art/krios-block4-attempt01-provenance.json`.
+
+The raw sheet has four distinct, full-body, ball-free Krios poses. It did not satisfy the requested per-cell edge margins and its opaque green varied around the key color. The cleanup script removes connected green matte, clears edge spill, isolates the reviewed figures, and uses one shared nearest-neighbor fit plus a fixed native scale; it does not redraw. Exact bounds, alpha/margin measurements, and transforms are in `cleanup-layout-report.json` and `runtime-layout.json`.
+
+Independent source review and cleanup review clear this candidate for gameplay/timing trials only. Attempt01 gameplay captures at `j128-krios-block-candidate/attempt-01/` used the current Jam Stage court at Y=50; frame2's high reach sat close to the game viewport header. Attempt02 at Y=90 is retained as the preferred trial layout with all four block frame starts, both facings, and 100%/120% zoom. Candidate captures inject the trial atlas; no production registration or ball track is implied. The clip remains unregistered pending independent gameplay review and subsequent no-injection registered-runtime validation.

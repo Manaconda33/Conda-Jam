@@ -31,20 +31,20 @@
   "ballPolicy": "Krios-specific separate basketball follows the ball-miming body motion and releases/grabs on the reviewed event frame. Never paint a ball into the poses. Track length: 6.",
   "ballTrack": {
     "height": [
-      1.45,
-      1.9,
-      2.8,
-      3.0,
+      0.8,
+      1.1,
+      2.3,
+      2.3,
       2.85,
       1.4
     ],
     "forward": [
-      9.0,
-      10.0,
-      8.0,
-      10.0,
-      13.0,
-      9.0
+      9,
+      2,
+      5,
+      7,
+      13,
+      9
     ]
   },
   "cleanup": {
@@ -57,5 +57,31 @@
     "status": "accepted",
     "reviewedBy": "Codex visual inspection",
     "reviewNotes": "Six distinct complete Krios overhead-pass poses; pose index 3 is the release, matching runtime release frame index 3. The red-skinned hulking giant, huge curled black ram horns, dark beard and black/ember Scoria Rams kit stay consistent. No ball appears in the sprites; the separate Krios ball path is recorded."
+  },
+  "runtimeBallTrack": {
+    "height": [
+      0.8,
+      1.1,
+      2.3,
+      2.3,
+      2.85,
+      1.4
+    ],
+    "forward": [
+      9,
+      2,
+      5,
+      7,
+      13,
+      9
+    ],
+    "reviewed": true
+  },
+  "ballTrackReview": {
+    "status": "accepted",
+    "attempt": 7,
+    "nativeReport": "tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/attempt-07/native/report.json",
+    "trialNotes": "tools/generate-art/previews/j128-krios-overhead-pass-track-candidate/TRIALS.md",
+    "reviewNotes": "Independent review accepts chest hold, overhead gather, frame3/tick7 hand release in both facings and 100%/120% zoom on courtY90. Actual game release/flight/receiver test is separate."
   }
 }

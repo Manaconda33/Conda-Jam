@@ -1,0 +1,28 @@
+{
+  "athlete": "kraken",
+  "clip": "alley-oop-reverse",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "raw source candidate; source review required",
+  "generatedAt": "2026-10-29T04:53:00Z",
+  "generationId": "exec-a6016418-9be9-44bb-b515-e059a85489ff",
+  "promptFile": "tools/generate-art/kraken-alley-oop-reverse-attempt01-imagegen-prompt.txt",
+  "promptSha256": "bee5558e49f9508d6481ff94d5721488ba9c4fef2b6451bfb90f17d2d961e260",
+  "rawFile": "tools/generate-art/sources/kraken-alley-oop-reverse-attempt01-generated-raw.png",
+  "rawSha256": "31ecc2823309d4e5da7e3301151ebac64536f17c77662bc7d7335c1c4c8e45af",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1022819,
+  "partialAlphaPixels": 550045,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-alley-oop-reverse-attempt01/INDEPENDENT_SOURCE_REVIEW.md",
+  "note": "Raw only. No cleanup, packing, track calibration or registration. Preserve exact source regardless of review.",
+  "reviewSummary": "Raw first candidate; alpha-channel inspection confirms transparent gutters and 15 silhouettes. Apparent source defect: smooth painterly shading/antialiased contour rather than crisp pixel clusters; reverse catch/finish and exact cell margin acceptance still require independent review. No retry or cleanup performed."
+}

@@ -1,0 +1,134 @@
+{
+  "clip": "layup-reverse",
+  "src": "./public/assets/animation/krios-layup-reverse-right.webp",
+  "candidate": "tools/generate-art/previews/krios-layup-reverse8-attempt01/krios-layup-reverse8-attempt01-runtime-candidate.png",
+  "sourceProvenance": "tools/generate-art/krios-layup-reverse8-attempt01-provenance.json",
+  "cleanupNotes": "tools/generate-art/krios-layup-reverse8-attempt01-cleanup-notes.md",
+  "artReview": "tools/generate-art/previews/krios-layup-reverse8-attempt01/INDEPENDENT_CLEANUP_REVIEW.md",
+  "trackReview": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-03/INDEPENDENT_REVIEW.md",
+  "height": [
+    0.9,
+    1.25,
+    1.7,
+    2.15,
+    2.3,
+    2.35,
+    1.4,
+    0.8
+  ],
+  "forward": [
+    4,
+    5.5,
+    4,
+    3,
+    -4,
+    -1,
+    5,
+    4
+  ],
+  "releaseVz": 0.45,
+  "sourceScale": 0.195,
+  "baseline": 94,
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "direction": "right",
+  "columns": 8,
+  "rows": 1,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 512,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 640,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 768,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 896,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "asset": "J.128 Krios layup-reverse animation",
+    "status": "accepted",
+    "sourceReview": {
+      "status": "accepted",
+      "review": "tools/generate-art/previews/krios-layup-reverse8-attempt01/INDEPENDENT_SOURCE_REVIEW.md"
+    },
+    "atlasReview": {
+      "status": "accepted",
+      "review": "tools/generate-art/previews/krios-layup-reverse8-attempt01/INDEPENDENT_CLEANUP_REVIEW.md"
+    },
+    "ballTrackReview": {
+      "status": "accepted",
+      "review": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-01/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+      "candidateReview": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-03/INDEPENDENT_REVIEW.md"
+    },
+    "runtimeBallTrack": {
+      "height": [
+        0.9,
+        1.25,
+        1.7,
+        2.15,
+        2.3,
+        2.35,
+        1.4,
+        0.8
+      ],
+      "forward": [
+        4,
+        5.5,
+        4,
+        3,
+        -4,
+        -1,
+        5,
+        4
+      ],
+      "releaseVz": 0.45,
+      "reviewed": true
+    },
+    "sourceProvenance": "tools/generate-art/krios-layup-reverse8-attempt01-provenance.json",
+    "cleanupNotes": "tools/generate-art/krios-layup-reverse8-attempt01-cleanup-notes.md",
+    "candidateAtlas": "tools/generate-art/previews/krios-layup-reverse8-attempt01/krios-layup-reverse8-attempt01-runtime-candidate.png",
+    "registeredRuntimeReview": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-01/registered-runtime/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+    "captureReport": "tools/generate-art/previews/j128-krios-layup-reverse-track-candidate/attempt-01/registered-runtime/report.json"
+  },
+  "sha256": "2c2f59eac4eac4a255b984e2f2a187933f98b07f2d2b6b74fa30fa5fac516c96"
+}

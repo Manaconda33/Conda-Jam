@@ -1,0 +1,305 @@
+{
+  "status": "matte/layout trial only; source and cleanup review required before tracks",
+  "source": "tools/generate-art/sources/kraken-layup-reverse8-attempt02-generated-raw.png",
+  "sourceSha256": "a6cc035aae8375be8d121165473044e2107f5b168ba7b7e75272a14d0e1aef22",
+  "atlas": "tools/generate-art/previews/kraken-layup-reverse8-attempt02/kraken-layup-reverse8-attempt02-runtime-candidate-matte-v1.png",
+  "atlasSha256": "6209f96314595e3cae6dc4d83b8a28766c410d247c4a71b44f6d1f3c0c265c6d",
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "backgroundEstimate": "RGB Gaussian blur sigma=36; color residual to smooth background",
+  "foregroundThreshold": 17,
+  "componentMinimum": 40,
+  "morphology": "3x3 binary close, fill holes, grow one-pixel fringe; preserve source RGB unchanged; nearest-neighbor fit to 80x96 cells, baseline y=94",
+  "rawPreserved": true,
+  "frames": [
+    {
+      "index": 0,
+      "sourceCell": [
+        0,
+        0,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        50,
+        61,
+        318,
+        511
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 62513,
+      "droppedComponents": 18,
+      "scale": 0.1622222222222222,
+      "scaledSize": [
+        43,
+        73
+      ],
+      "offset": [
+        18,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        18,
+        21,
+        19,
+        2
+      ],
+      "sha256": "76d5c57380428cde47e1ad2ba7d588aeac6cafec84d586c42aec35034de8d60a"
+    },
+    {
+      "index": 1,
+      "sourceCell": [
+        384,
+        0,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        58,
+        1,
+        299,
+        511
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 56789,
+      "droppedComponents": 16,
+      "scale": 0.14313725490196078,
+      "scaledSize": [
+        34,
+        73
+      ],
+      "offset": [
+        23,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        23,
+        21,
+        23,
+        2
+      ],
+      "sha256": "0ec511270f59b50ad05e7db27bd4859673626bc4c43a546e894e398a642f217c"
+    },
+    {
+      "index": 2,
+      "sourceCell": [
+        768,
+        0,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        89,
+        2,
+        340,
+        485
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 58281,
+      "droppedComponents": 22,
+      "scale": 0.15113871635610765,
+      "scaledSize": [
+        38,
+        73
+      ],
+      "offset": [
+        21,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        21,
+        21,
+        21,
+        2
+      ],
+      "sha256": "6de4a7a5cda090b38e952a6d001b25bb634ed585a20669b797b0db54383c7209"
+    },
+    {
+      "index": 3,
+      "sourceCell": [
+        1152,
+        0,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        21,
+        1,
+        362,
+        482
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 68773,
+      "droppedComponents": 12,
+      "scale": 0.15176715176715178,
+      "scaledSize": [
+        52,
+        73
+      ],
+      "offset": [
+        14,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        14,
+        21,
+        14,
+        2
+      ],
+      "sha256": "97398a84700a0e2727484ad622c289a8303584c419695285f8b73f5a24748d9f"
+    },
+    {
+      "index": 4,
+      "sourceCell": [
+        0,
+        512,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        45,
+        1,
+        383,
+        477
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 71929,
+      "droppedComponents": 33,
+      "scale": 0.15336134453781514,
+      "scaledSize": [
+        52,
+        73
+      ],
+      "offset": [
+        14,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        14,
+        21,
+        14,
+        2
+      ],
+      "sha256": "efc2bc2c44f6cf9f9e4670953e1bf6a11dac751cd485f3125687575d22a7253b"
+    },
+    {
+      "index": 5,
+      "sourceCell": [
+        384,
+        512,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        1,
+        1,
+        383,
+        492
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 61453,
+      "droppedComponents": 25,
+      "scale": 0.14867617107942974,
+      "scaledSize": [
+        57,
+        73
+      ],
+      "offset": [
+        11,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        11,
+        21,
+        12,
+        2
+      ],
+      "sha256": "e908e978809238b896e723f4ad3bb1f90a0966f8c5836e705e05fb49c2763181"
+    },
+    {
+      "index": 6,
+      "sourceCell": [
+        768,
+        512,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        1,
+        28,
+        382,
+        490
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 66328,
+      "droppedComponents": 9,
+      "scale": 0.15800865800865802,
+      "scaledSize": [
+        60,
+        73
+      ],
+      "offset": [
+        10,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        10,
+        21,
+        10,
+        2
+      ],
+      "sha256": "a00480f3a05eeb0b44b7992b7b0efab3a88977f52bf99aeaf48edd92b6f640fe"
+    },
+    {
+      "index": 7,
+      "sourceCell": [
+        1152,
+        512,
+        384,
+        512
+      ],
+      "sourceFigureBoundsLocal": [
+        9,
+        76,
+        361,
+        482
+      ],
+      "thresholdRgbResidual": 17,
+      "retainedStrongPixels": 63511,
+      "droppedComponents": 17,
+      "scale": 0.17980295566502463,
+      "scaledSize": [
+        63,
+        73
+      ],
+      "offset": [
+        8,
+        21
+      ],
+      "baselineY": 94,
+      "marginsLTRB": [
+        8,
+        21,
+        9,
+        2
+      ],
+      "sha256": "2168b4c8e972d9bf58c1fce78bee63a9a7246cf391c9cdd549c8d16404c0059c"
+    }
+  ],
+  "uniqueFrameHashes": 8,
+  "minimumMarginsLTRB": [
+    8,
+    21,
+    9,
+    2
+  ]
+}

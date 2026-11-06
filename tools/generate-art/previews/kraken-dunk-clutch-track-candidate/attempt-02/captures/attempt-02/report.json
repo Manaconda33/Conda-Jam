@@ -1,0 +1,2225 @@
+{
+  "renderer": "Chromium current Jam Stage production renderer",
+  "athlete": "kraken",
+  "clip": "dunk-clutch",
+  "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+  "atlasSha256": "704bf818519322f52dbc85ad0d9c23484a5321a0873445c8d9389d68dc322763",
+  "trackAttempt": "02",
+  "candidateTrack": {
+    "athlete": "kraken",
+    "clip": "dunk-clutch",
+    "attempt": 2,
+    "status": "candidate gameplay calibration only; not registered",
+    "seededFrom": "attempt01 after 100%/120% current-court gameplay inspection; fixes the attached ball floating above/right of the visible clasped hand at poses7-9",
+    "art": "tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+    "height": [
+      0.871143,
+      0.928571,
+      1.330571,
+      1.273143,
+      1.129571,
+      1.129571,
+      0.785,
+      1.25,
+      0.9,
+      1.25,
+      1.187,
+      0.641429,
+      0.469143,
+      0.411714,
+      0.698857
+    ],
+    "forward": [
+      2.923636,
+      -7.674545,
+      5.116364,
+      5.116364,
+      3.654545,
+      2.558182,
+      -1.096364,
+      1.5,
+      1.5,
+      1.5,
+      5.847273,
+      1.827273,
+      0.730909,
+      0,
+      -1.461818
+    ],
+    "tuningNotes": {
+      "method": "Keep the ball centered over Kraken\u2019s clasped/front hand through poses7-9; lower prior inflated high-forward points after actual screenshots. Retain frames0-6 and release/flight/later points from attempt01 to compare scoring and recovery behavior.",
+      "evidence": "Attempt01 current-court screenshots at frames7-9 show ball respectively at lower abdomen, above the head, and above the hand. Candidate track only; 100/120 zooms and both facings required.",
+      "scope": "Separate Kraken track candidate, not production registered. Original/runtime art and track remain unchanged."
+    }
+  },
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": true,
+  "candidateStatus": "gameplay calibration only; not registered",
+  "court": "current Jam Stage; Vesper Harbor Undertow vs Blackthorn Court Kings",
+  "courtY": 90,
+  "seed": 128128,
+  "sampleTicks": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    26,
+    28,
+    30
+  ],
+  "method": "Queue an actual production dunk-clutch action through Jam Stage simulation input and advance only normal simulation ticks. Runtime mode uses the registered manifest and athlete-specific track without candidate injection.",
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 14,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 187.48936170212767,
+            "y": 50
+          },
+          "cameraX": "186.129",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.98936170212767,
+            "y": 50,
+            "z": 6.25
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame00-tick14-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 15,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 4.92403876506104,
+          "position": {
+            "x": 187.63829787234042,
+            "y": 50
+          },
+          "cameraX": "186.278",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.13829787234042,
+            "y": 50,
+            "z": 6.057372098394373
+          },
+          "trackPoint": {
+            "height": 1.1333333333333333,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame01-tick15-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 16,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 4.698463103929542,
+          "position": {
+            "x": 187.7872340425532,
+            "y": 50
+          },
+          "cameraX": "186.427",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.2872340425532,
+            "y": 50,
+            "z": 5.715129770596208
+          },
+          "trackPoint": {
+            "height": 1.0166666666666666,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame02-tick16-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 17,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.93617021276597,
+            "y": 50
+          },
+          "cameraX": "186.576",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.43617021276597,
+            "y": 50,
+            "z": 5.230127018922193
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame03-tick17-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 18,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 3.83022221559489,
+          "position": {
+            "x": 188.08510638297872,
+            "y": 50
+          },
+          "cameraX": "186.725",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.58510638297872,
+            "y": 50,
+            "z": 4.90522221559489
+          },
+          "trackPoint": {
+            "height": 1.075,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame04-tick18-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 19,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 188.2340425531915,
+            "y": 50
+          },
+          "cameraX": "186.874",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.7340425531915,
+            "y": 50,
+            "z": 4.463938048432697
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame05-tick19-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 20,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 2.4999999999999996,
+          "position": {
+            "x": 188.38297872340425,
+            "y": 50
+          },
+          "cameraX": "187.023",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 192.05661522340424,
+            "y": 50,
+            "z": 3.7184999999999997
+          },
+          "trackPoint": {
+            "height": 1.2185000000000001,
+            "forward": 3.6736365
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame06-tick20-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 21,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.53191489361703,
+            "y": 50
+          },
+          "cameraX": "187.172",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.187,
+            "forward": 5.847273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame07-tick21-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 22,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0.8682408883346516,
+          "position": {
+            "x": 188.68085106382978,
+            "y": 50
+          },
+          "cameraX": "187.321",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.9142145,
+            "forward": 3.837273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame08-tick22-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 23,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.641429,
+            "forward": 1.827273
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame09-tick23-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 24,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.5840003333333333,
+            "forward": 1.4618183333333332
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame10-tick24-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 26,
+          "clip": "dunk-clutch",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.469143,
+            "forward": 0.730909
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame11-tick26-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 28,
+          "clip": "dunk-clutch",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.411714,
+            "forward": 0
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame12-tick28-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 30,
+          "clip": "dunk-clutch",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.470",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.698857,
+            "forward": -1.461818
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame13-tick30-zoom100.png"
+        }
+      ],
+      "expectedScore": [
+        2,
+        0
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 14,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 12.51063829787234,
+            "y": 50
+          },
+          "cameraX": "13.871",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.01063829787234,
+            "y": 50,
+            "z": 6.25
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame00-tick14-zoom100.png"
+        },
+        {
+          "frame": 1,
+          "tick": 15,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 4.92403876506104,
+          "position": {
+            "x": 12.361702127659575,
+            "y": 50
+          },
+          "cameraX": "13.722",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.861702127659575,
+            "y": 50,
+            "z": 6.057372098394373
+          },
+          "trackPoint": {
+            "height": 1.1333333333333333,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame01-tick15-zoom100.png"
+        },
+        {
+          "frame": 2,
+          "tick": 16,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 4.698463103929542,
+          "position": {
+            "x": 12.212765957446809,
+            "y": 50
+          },
+          "cameraX": "13.573",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.712765957446809,
+            "y": 50,
+            "z": 5.715129770596208
+          },
+          "trackPoint": {
+            "height": 1.0166666666666666,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame02-tick16-zoom100.png"
+        },
+        {
+          "frame": 3,
+          "tick": 17,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.063829787234042,
+            "y": 50
+          },
+          "cameraX": "13.424",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.563829787234042,
+            "y": 50,
+            "z": 5.230127018922193
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame03-tick17-zoom100.png"
+        },
+        {
+          "frame": 4,
+          "tick": 18,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 3.83022221559489,
+          "position": {
+            "x": 11.914893617021276,
+            "y": 50
+          },
+          "cameraX": "13.275",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.414893617021276,
+            "y": 50,
+            "z": 4.90522221559489
+          },
+          "trackPoint": {
+            "height": 1.075,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame04-tick18-zoom100.png"
+        },
+        {
+          "frame": 5,
+          "tick": 19,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 11.76595744680851,
+            "y": 50
+          },
+          "cameraX": "13.126",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.26595744680851,
+            "y": 50,
+            "z": 4.463938048432697
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame05-tick19-zoom100.png"
+        },
+        {
+          "frame": 6,
+          "tick": 20,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 2.4999999999999996,
+          "position": {
+            "x": 11.617021276595745,
+            "y": 50
+          },
+          "cameraX": "12.977",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 7.943384776595744,
+            "y": 50,
+            "z": 3.7184999999999997
+          },
+          "trackPoint": {
+            "height": 1.2185000000000001,
+            "forward": 3.6736365
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame06-tick20-zoom100.png"
+        },
+        {
+          "frame": 7,
+          "tick": 21,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.46808510638298,
+            "y": 50
+          },
+          "cameraX": "12.828",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.187,
+            "forward": 5.847273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame07-tick21-zoom100.png"
+        },
+        {
+          "frame": 8,
+          "tick": 22,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0.8682408883346516,
+          "position": {
+            "x": 11.319148936170212,
+            "y": 50
+          },
+          "cameraX": "12.679",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.9142145,
+            "forward": 3.837273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame08-tick22-zoom100.png"
+        },
+        {
+          "frame": 9,
+          "tick": 23,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.641429,
+            "forward": 1.827273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame09-tick23-zoom100.png"
+        },
+        {
+          "frame": 10,
+          "tick": 24,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.5840003333333333,
+            "forward": 1.4618183333333332
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame10-tick24-zoom100.png"
+        },
+        {
+          "frame": 11,
+          "tick": 26,
+          "clip": "dunk-clutch",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.469143,
+            "forward": 0.730909
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame11-tick26-zoom100.png"
+        },
+        {
+          "frame": 12,
+          "tick": 28,
+          "clip": "dunk-clutch",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.411714,
+            "forward": 0
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame12-tick28-zoom100.png"
+        },
+        {
+          "frame": 13,
+          "tick": 30,
+          "clip": "dunk-clutch",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.530",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.698857,
+            "forward": -1.461818
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame13-tick30-zoom100.png"
+        }
+      ],
+      "expectedScore": [
+        0,
+        2
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 14,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 5,
+          "position": {
+            "x": 187.48936170212767,
+            "y": 50
+          },
+          "cameraX": "186.356",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 188.98936170212767,
+            "y": 50,
+            "z": 6.25
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame00-tick14-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 15,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 4.92403876506104,
+          "position": {
+            "x": 187.63829787234042,
+            "y": 50
+          },
+          "cameraX": "186.505",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.13829787234042,
+            "y": 50,
+            "z": 6.057372098394373
+          },
+          "trackPoint": {
+            "height": 1.1333333333333333,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame01-tick15-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 16,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 4.698463103929542,
+          "position": {
+            "x": 187.7872340425532,
+            "y": 50
+          },
+          "cameraX": "186.654",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.2872340425532,
+            "y": 50,
+            "z": 5.715129770596208
+          },
+          "trackPoint": {
+            "height": 1.0166666666666666,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame02-tick16-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 17,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 187.93617021276597,
+            "y": 50
+          },
+          "cameraX": "186.803",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.43617021276597,
+            "y": 50,
+            "z": 5.230127018922193
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame03-tick17-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 18,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 3.83022221559489,
+          "position": {
+            "x": 188.08510638297872,
+            "y": 50
+          },
+          "cameraX": "186.952",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.58510638297872,
+            "y": 50,
+            "z": 4.90522221559489
+          },
+          "trackPoint": {
+            "height": 1.075,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame04-tick18-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 19,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 188.2340425531915,
+            "y": 50
+          },
+          "cameraX": "187.101",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 189.7340425531915,
+            "y": 50,
+            "z": 4.463938048432697
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame05-tick19-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 20,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 2.4999999999999996,
+          "position": {
+            "x": 188.38297872340425,
+            "y": 50
+          },
+          "cameraX": "187.250",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 192.05661522340424,
+            "y": 50,
+            "z": 3.7184999999999997
+          },
+          "trackPoint": {
+            "height": 1.2185000000000001,
+            "forward": 3.6736365
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame06-tick20-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 21,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 188.53191489361703,
+            "y": 50
+          },
+          "cameraX": "187.399",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.187,
+            "forward": 5.847273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame07-tick21-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 22,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0.8682408883346516,
+          "position": {
+            "x": 188.68085106382978,
+            "y": 50
+          },
+          "cameraX": "187.548",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.9142145,
+            "forward": 3.837273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame08-tick22-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 23,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.641429,
+            "forward": 1.827273
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame09-tick23-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 24,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.5840003333333333,
+            "forward": 1.4618183333333332
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame10-tick24-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 26,
+          "clip": "dunk-clutch",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.469143,
+            "forward": 0.730909
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame11-tick26-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 28,
+          "clip": "dunk-clutch",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.411714,
+            "forward": 0
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame12-tick28-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 30,
+          "clip": "dunk-clutch",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": false,
+          "z": 0,
+          "position": {
+            "x": 188.82978723404256,
+            "y": 50
+          },
+          "cameraX": "187.696",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 188.82978723404256,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.698857,
+            "forward": -1.461818
+          },
+          "carriedDelta": null,
+          "score": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/right-frame13-tick30-zoom120.png"
+        }
+      ],
+      "expectedScore": [
+        2,
+        0
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "frame": 0,
+          "tick": 14,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 5,
+          "position": {
+            "x": 12.51063829787234,
+            "y": 50
+          },
+          "cameraX": "13.644",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 11.01063829787234,
+            "y": 50,
+            "z": 6.25
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame00-tick14-zoom120.png"
+        },
+        {
+          "frame": 1,
+          "tick": 15,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 4.92403876506104,
+          "position": {
+            "x": 12.361702127659575,
+            "y": 50
+          },
+          "cameraX": "13.495",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.861702127659575,
+            "y": 50,
+            "z": 6.057372098394373
+          },
+          "trackPoint": {
+            "height": 1.1333333333333333,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame01-tick15-zoom120.png"
+        },
+        {
+          "frame": 2,
+          "tick": 16,
+          "clip": "dunk-clutch",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 4.698463103929542,
+          "position": {
+            "x": 12.212765957446809,
+            "y": 50
+          },
+          "cameraX": "13.346",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.712765957446809,
+            "y": 50,
+            "z": 5.715129770596208
+          },
+          "trackPoint": {
+            "height": 1.0166666666666666,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame02-tick16-zoom120.png"
+        },
+        {
+          "frame": 3,
+          "tick": 17,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 4.330127018922193,
+          "position": {
+            "x": 12.063829787234042,
+            "y": 50
+          },
+          "cameraX": "13.197",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.563829787234042,
+            "y": 50,
+            "z": 5.230127018922193
+          },
+          "trackPoint": {
+            "height": 0.9,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame03-tick17-zoom120.png"
+        },
+        {
+          "frame": 4,
+          "tick": 18,
+          "clip": "dunk-clutch",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 3.83022221559489,
+          "position": {
+            "x": 11.914893617021276,
+            "y": 50
+          },
+          "cameraX": "13.048",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.414893617021276,
+            "y": 50,
+            "z": 4.90522221559489
+          },
+          "trackPoint": {
+            "height": 1.075,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame04-tick18-zoom120.png"
+        },
+        {
+          "frame": 5,
+          "tick": 19,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 3.2139380484326963,
+          "position": {
+            "x": 11.76595744680851,
+            "y": 50
+          },
+          "cameraX": "12.899",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 10.26595744680851,
+            "y": 50,
+            "z": 4.463938048432697
+          },
+          "trackPoint": {
+            "height": 1.25,
+            "forward": 1.5
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame05-tick19-zoom120.png"
+        },
+        {
+          "frame": 6,
+          "tick": 20,
+          "clip": "dunk-clutch",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 2.4999999999999996,
+          "position": {
+            "x": 11.617021276595745,
+            "y": 50
+          },
+          "cameraX": "12.750",
+          "hasBall": true,
+          "ball": {
+            "mode": "carried",
+            "owner": "kraken",
+            "x": 7.943384776595744,
+            "y": 50,
+            "z": 3.7184999999999997
+          },
+          "trackPoint": {
+            "height": 1.2185000000000001,
+            "forward": 3.6736365
+          },
+          "carriedDelta": {
+            "x": 0,
+            "z": 0
+          },
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame06-tick20-zoom120.png"
+        },
+        {
+          "frame": 7,
+          "tick": 21,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 1.7101007166283435,
+          "position": {
+            "x": 11.46808510638298,
+            "y": 50
+          },
+          "cameraX": "12.601",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 1.187,
+            "forward": 5.847273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame07-tick21-zoom120.png"
+        },
+        {
+          "frame": 8,
+          "tick": 22,
+          "clip": "dunk-clutch",
+          "selectedFrame": 10,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0.8682408883346516,
+          "position": {
+            "x": 11.319148936170212,
+            "y": 50
+          },
+          "cameraX": "12.452",
+          "hasBall": false,
+          "ball": {
+            "mode": "dunk",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.9142145,
+            "forward": 3.837273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            0
+          ],
+          "events": [],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame08-tick22-zoom120.png"
+        },
+        {
+          "frame": 9,
+          "tick": 23,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.641429,
+            "forward": 1.827273
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame09-tick23-zoom120.png"
+        },
+        {
+          "frame": 10,
+          "tick": 24,
+          "clip": "dunk-clutch",
+          "selectedFrame": 11,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.5840003333333333,
+            "forward": 1.4618183333333332
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame10-tick24-zoom120.png"
+        },
+        {
+          "frame": 11,
+          "tick": 26,
+          "clip": "dunk-clutch",
+          "selectedFrame": 12,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.469143,
+            "forward": 0.730909
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame11-tick26-zoom120.png"
+        },
+        {
+          "frame": 12,
+          "tick": 28,
+          "clip": "dunk-clutch",
+          "selectedFrame": 13,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.411714,
+            "forward": 0
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame12-tick28-zoom120.png"
+        },
+        {
+          "frame": 13,
+          "tick": 30,
+          "clip": "dunk-clutch",
+          "selectedFrame": 14,
+          "selectedSrc": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "flip": true,
+          "z": 0,
+          "position": {
+            "x": 11.170212765957446,
+            "y": 50
+          },
+          "cameraX": "12.304",
+          "hasBall": false,
+          "ball": {
+            "mode": "dead",
+            "owner": null,
+            "x": 11.170212765957446,
+            "y": 50,
+            "z": 3
+          },
+          "trackPoint": {
+            "height": 0.698857,
+            "forward": -1.461818
+          },
+          "carriedDelta": null,
+          "score": [
+            0,
+            2
+          ],
+          "events": [
+            {
+              "tick": 23,
+              "text": "Kraken scores 2!"
+            }
+          ],
+          "atlas": "./tools/generate-art/previews/kraken-dunk-clutch-attempt02/cleanup02/kraken-dunk-clutch-attempt02-cleanup02-atlas.png",
+          "path": "tools/generate-art/previews/kraken-dunk-clutch-track-candidate/attempt-02/captures/attempt-02/left-frame13-tick30-zoom120.png"
+        }
+      ],
+      "expectedScore": [
+        0,
+        2
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 56,
+  "expectedScoreByFacing": {
+    "right": [
+      2,
+      0
+    ],
+    "left": [
+      0,
+      2
+    ]
+  }
+}

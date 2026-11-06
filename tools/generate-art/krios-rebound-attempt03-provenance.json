@@ -1,0 +1,94 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "rebound",
+  "direction": "right",
+  "attempt": 3,
+  "status": "accepted and registered",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-b9bfc37a-1291-4296-9736-c07149576cd9",
+  "generationId": "exec-b9bfc37a-1291-4296-9736-c07149576cd9",
+  "generatedAt": "2026-10-28T06:38:00Z",
+  "promptFile": "tools/generate-art/krios-rebound-attempt03-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "44b89402c115e339d74df95ad449c3cabb38bc7c96c5605acde0e29fbd7f6dfd",
+  "rawSourceImage": "tools/generate-art/sources/krios-rebound-attempt03-generated-raw.png",
+  "rawSourceSha256": "cad368345e5fbbbb08de3459b519efff8db8df811fa6c1bfedde500456107ab4",
+  "dimensions": [
+    2078,
+    757
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp"
+  ],
+  "referenceSha256": {
+    "public/assets/animation/krios-idle-right.webp": "3972858f17324a3a45a629ce9ce9c0b7544e957c3675bc1ed74017017d8be939",
+    "public/assets/animation/krios-block-right.webp": "feec8fcde6708c70fab9071d5719423a234dbcf119ee1f78efe16b84eeb7658f",
+    "public/assets/animation/krios-steal-right.webp": "197a1b59bbfef4a382d96dd882ff842dad7ca654f24689a239ad1a565a685d2a"
+  },
+  "requiredFrameDurations": [
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "grabAnchorFrame": 3,
+  "grabAnchorTick": 5,
+  "ballPolicy": "The five-pose athlete atlas contains no basketball. Calibrate a separate Krios-specific rebound track and review actual contact before registration.",
+  "sourceReview": {
+    "status": "accepted-for-cleanup-trials",
+    "evidence": "tools/generate-art/previews/krios-rebound-attempt03/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "Independent review passed the ordered five-pose source, coherent Krios identity/anatomy and charcoal/ember uniform, and clear ball-sized gap between the empty frame-4 hands."
+  },
+  "cleanupScript": "tools/generate-art/clean-krios-rebound-attempt03.py",
+  "cleanupReport": "tools/generate-art/previews/krios-rebound-attempt03/cleanup-layout-report.json",
+  "cleanupReview": {
+    "status": "passed",
+    "evidence": "tools/generate-art/previews/krios-rebound-attempt03/CLEANUP_CORRECTION_REVIEW.md",
+    "notes": "Corrected int16 spill threshold preserves raw skin pixel (214,222); 1,776 edge corrections, five unique frames, alpha/margins reviewed."
+  },
+  "candidateAtlas": "tools/generate-art/previews/krios-rebound-attempt03/krios-rebound-attempt03-runtime-candidate.png",
+  "candidateAtlasSha256": "85250ba5f2fff647f9ec599b7547daa305ee6c866182f960f8ac82160cba08b9",
+  "runtimeLayout": "tools/generate-art/previews/krios-rebound-attempt03/cleanup-layout-report.json",
+  "rejectedAttempts": [
+    {
+      "attempt": 1,
+      "generationId": "exec-ae1d917b-58da-4dc2-b86d-fd54c91f8646",
+      "reason": "Painterly/high-detail art conflicts with pixel-art scale; frame-4 hands leave no ball-sized gap."
+    },
+    {
+      "attempt": 2,
+      "generationId": "exec-9c7a8a7f-4625-4572-be65-cfbe54e7e1ab",
+      "reason": "Wrong white number-23 kit, unclear pose sequence, apparent extra arm, and painterly style."
+    }
+  ],
+  "ballTrack": {
+    "status": "accepted",
+    "track": {
+      "height": [
+        1.1,
+        1.7,
+        2.0,
+        2.1,
+        1.3
+      ],
+      "forward": [
+        4,
+        3,
+        1,
+        0.5,
+        1
+      ]
+    },
+    "review": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-06/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md"
+  },
+  "registeredRuntimeReview": {
+    "status": "passed",
+    "evidence": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-06/INDEPENDENT_REGISTERED_RUNTIME_REVIEW.md",
+    "report": "tools/generate-art/previews/j128-krios-rebound-candidate/attempt-03/track-06/registered-runtime/report.json"
+  }
+}

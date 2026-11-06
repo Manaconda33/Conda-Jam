@@ -1,0 +1,25 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-power",
+  "attempt": 7,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "rejected",
+  "generatedAt": "2026-10-29T04:38:00Z",
+  "generationId": "exec-61e453ef-a600-46be-b578-a1f7bc3d2d8b",
+  "promptFile": "tools/generate-art/kraken-dunk-attempt07-imagegen-prompt.txt",
+  "promptSha256": "2a2fbbd482e7f88ab13c9969d854901beb014f5abff0c935428d12437bbf8fcd",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-attempt07-generated-raw.png",
+  "rawSha256": "69335f789e040c24b57733f9a38e8e85241a7066397043dd246b5aa067a43964",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-attempt07/INDEPENDENT_SOURCE_REVIEW.md",
+  "reviewSummary": "Independent review: only ten poses against the required fifteen, smooth shading and low-alpha red fringe; some arms touch/cross nominal cell boundaries."
+}

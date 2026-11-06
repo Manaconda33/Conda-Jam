@@ -1,0 +1,58 @@
+{
+  "source": "tools/generate-art/sources/krios-pickup-attempt01-generated-raw.png",
+  "sourceSha256": "2de5645d90e08c61435c2d68f3ab11801299044655e988e33defbfaa829c0d77",
+  "output": "tools/generate-art/sources/krios-pickup-attempt01-cleanup01.png",
+  "outputSha256": "3fe8a50cf49dd580780b4cfaa7c920958955f36af3a5f1f2ec753acb11eb6327",
+  "method": "Set alpha below 96 to zero and alpha 96\u2013254 to 255; preserve all RGB values. No redraw, resize, or color edits.",
+  "threshold": 96,
+  "removedNonzeroAlphaPixels": 70631,
+  "madeOpaquePixels": 352269,
+  "rgbPreserved": true,
+  "componentsAtAlpha64": [
+    {
+      "component": 1,
+      "area": 74870,
+      "x": 60,
+      "y": 72,
+      "w": 409,
+      "h": 362
+    },
+    {
+      "component": 2,
+      "area": 73453,
+      "x": 535,
+      "y": 116,
+      "w": 470,
+      "h": 318
+    },
+    {
+      "component": 3,
+      "area": 69641,
+      "x": 1077,
+      "y": 142,
+      "w": 444,
+      "h": 293
+    },
+    {
+      "component": 4,
+      "area": 72150,
+      "x": 597,
+      "y": 556,
+      "w": 347,
+      "h": 384
+    },
+    {
+      "component": 5,
+      "area": 62155,
+      "x": 71,
+      "y": 641,
+      "w": 369,
+      "h": 299
+    }
+  ],
+  "componentCount": 5,
+  "previews": [
+    "tools/generate-art/previews/krios-pickup-attempt01/cleanup01-light-preview.png",
+    "tools/generate-art/previews/krios-pickup-attempt01/cleanup01-dark-preview.png"
+  ]
+}

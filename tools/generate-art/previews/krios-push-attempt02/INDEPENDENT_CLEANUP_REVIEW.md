@@ -1,0 +1,13 @@
+# Independent cleanup/layout review — J.128 Krios `push`, attempt02
+
+**Disposition: pass for gameplay trials only. Not production acceptance.**
+
+I reviewed the source review, deterministic cleanup script, cleanup report, isolated crops, logical layout and both native light/dark sheets. The corrected candidate has eleven row-major frames in the specified push sequence. All 11 isolated and packed frames are unique. Frames 8–10 remain distinct at 128×96: recoil with hands up, settle with a changed hand/stance, and the ready finish with a further change in hand position and posture. All figures retain Krios’s red skin, curled black horns, beard, black/ember Scoria kit, muscular anatomy, boots and complete bipedal form. No ball or other object is present.
+
+The required frame5/tick8 contact pose passes the specific native-size anatomy check. Two arms are visible extending from the shoulder/upper-body mass as separate parallel reaches. Both end in separately readable open palms with spread fingers; neither hand overlaps the other. In the 128×96 preview the contact remains distinct from frame4’s nearer chest-height anticipation and frame6’s lower-wrist, deeper-lean follow-through. The source review’s correction is preserved through isolation and downscale; no arm or hand was redrawn or removed.
+
+Source component isolation contains the contact silhouette’s cross-cell overflow without clipping it or including the adjacent pose. The script preserves the raw image unchanged, copies source pixels into the isolated figures, attaches nearby small components, applies nearest-neighbor scaling, and records the source bounding boxes. It documents 18 source pixels whose green channel was locally reduced to remove strong green spill; alpha remains opaque at those pixels. The cleanup report records no rejected foreground components, 11 distinct source-frame hashes, and 11 distinct native hashes.
+
+The 11×128×96 atlas uses a uniform 0.29319 scale and shared y=94 baseline. Each packed figure meets the documented 8px horizontal and 7px top margin target; the widest frame6 uses 8px margins at both sides. Every cell is nonblank with transparent pixels around the figure. I checked the native candidate for strong green-key residue (`G>120`, `G-R>50`, `G-B>50`) and found zero opaque pixels. Light and dark previews show no visible green fringe or key contamination.
+
+This cleanup proof clears the corrected source for Krios-specific gameplay track/timing trials. Keep it unregistered until current-court gameplay checks validate contact timing, resulting action behavior, both facings, and transitions.

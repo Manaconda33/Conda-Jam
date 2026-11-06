@@ -1,0 +1,4307 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "baseUrl": "http://127.0.0.1:4294/",
+  "athlete": "kraken",
+  "clip": "layup-reverse",
+  "candidateAtlas": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+  "candidateTrack": {
+    "height": [
+      0.9,
+      1.1,
+      1.4,
+      1.9,
+      1.9,
+      1.9,
+      1.1,
+      0.8
+    ],
+    "forward": [
+      4,
+      5.5,
+      4,
+      -4,
+      -4,
+      -5,
+      5,
+      4
+    ]
+  },
+  "candidateReleaseVz": null,
+  "simulation": "Actual production stepMatch loop. One setup initializes the existing layup-reverse shot state on a one-player diagnostic match. Candidate track and optional made-shot release Vz are injected into the served animation module in-page only; no production files changed.",
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 90,
+  "grid": "Post-release trajectory checkpoints plus score/dead-ball completion for both facings \u00d7 100%/120%",
+  "captureMethod": "For each facing, the match starts with Kraken on the selected offensive roster (home for right, away for left) so the production renderer resolves him from the matching team roster. A one-time diagnostic fixture keeps only that real Kraken player in frame and initializes the production layup-reverse shot action. Production stepMatch advances animation, takeoff, carried-ball track, release, shot physics, rim/score resolution, and completion continuously. No manual per-tick ball teleporting; no pause overlay; no ball baked into art.",
+  "fixture": "Fresh match per facing/zoom; after 100 neutral production ticks with Kraken holding the ball at the attacking rim, the camera follows normally and the action begins. The production stepMatch path runs until score/ball completion.",
+  "captures": [
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "runtimeSelectedFrame": 0,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          235.42079999999999,
+          331.192
+        ]
+      },
+      "cameraX": 124.834,
+      "ball": {
+        "x": 121.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick000-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          230.40000000000003,
+          331.192
+        ]
+      },
+      "cameraX": 125.88,
+      "ball": {
+        "x": 125.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick002-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "runtimeSelectedFrame": 2,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          225.39840000000004,
+          304.5246288150591
+        ]
+      },
+      "cameraX": 126.922,
+      "ball": {
+        "x": 124,
+        "y": 90,
+        "z": 2.5111404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick005-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "runtimeSelectedFrame": 3,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          230.81280000000004,
+          291.28145860947785
+        ]
+      },
+      "cameraX": 125.794,
+      "ball": {
+        "x": 116,
+        "y": 90,
+        "z": 3.56293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick007-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          240.096,
+          283.192
+        ]
+      },
+      "cameraX": 123.86,
+      "ball": {
+        "x": 116,
+        "y": 90,
+        "z": 3.9,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick010-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          242.9328,
+          284.39546021527246
+        ]
+      },
+      "cameraX": 123.269,
+      "ball": {
+        "x": 115.5,
+        "y": 90,
+        "z": 3.8498558243636474,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick011-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "runtimeSelectedFrame": 5,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          245.4624,
+          287.94549434068387
+        ]
+      },
+      "cameraX": 122.742,
+      "ball": {
+        "x": 115.81000028590302,
+        "y": 89.5611525828537,
+        "z": 3.5381440084192946,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.161659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick012-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "runtimeSelectedFrame": 6,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          247.54080000000005,
+          293.6640888415346
+        ]
+      },
+      "cameraX": 122.309,
+      "ball": {
+        "x": 116.62000057180603,
+        "y": 89.12230516570739,
+        "z": 4.699803582887379,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.135659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick013-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          251.37599999999998,
+          331.192
+        ]
+      },
+      "cameraX": 121.51,
+      "ball": {
+        "x": 119.8600017154181,
+        "y": 87.36691549712216,
+        "z": 9.08644188075972,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.031659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick017-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          248.16960000000006,
+          331.192
+        ]
+      },
+      "cameraX": 122.178,
+      "ball": {
+        "x": 122.29000257312714,
+        "y": 86.05037324568325,
+        "z": 12.103420604163976,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.9536595744680849,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick020-zoom100.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 9,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          214.704,
+          331.192
+        ]
+      },
+      "cameraX": 129.15,
+      "ball": {
+        "x": 130.3900054321573,
+        "y": 81.66189907422019,
+        "z": 20.470016348844826,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.6936595744680847,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick030-zoom100.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 39,
+      "frame": null,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          99.504,
+          331.192
+        ]
+      },
+      "cameraX": 153.15,
+      "ball": {
+        "x": 154.69001400924776,
+        "y": 68.49647655983101,
+        "z": 29.969803582887355,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -0.08634042553191566,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick060-zoom100.png"
+    },
+    {
+      "tick": 100,
+      "animationTick": 79,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          15.523200000000074,
+          331.192
+        ]
+      },
+      "cameraX": 170.646,
+      "ball": {
+        "x": 187.09002544536838,
+        "y": 50.942579873978985,
+        "z": 6.236186561610721,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.1263404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick100-zoom100.png"
+    },
+    {
+      "tick": 110,
+      "animationTick": 6,
+      "frame": null,
+      "runtimeSelectedFrame": null,
+      "runtimeSelectedSrc": null,
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "celebrate",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 1,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          12.571200000000019,
+          331.192
+        ]
+      },
+      "cameraX": 171.261,
+      "ball": {
+        "x": 190.33002658898045,
+        "y": 49.18719020539379,
+        "z": 1.5748248594830556,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.2303404255319164,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true,
+        "scored": true,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        3,
+        0
+      ],
+      "scorePause": 64,
+      "lastEvent": "Kraken scores 3!",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        },
+        {
+          "tick": 103,
+          "text": "Kraken scores 3!"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick110-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "runtimeSelectedFrame": 0,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          167.32319999999999,
+          331.192
+        ]
+      },
+      "cameraX": 91.261,
+      "ball": {
+        "x": 78.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick000-zoom100.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          175.0032,
+          331.192
+        ]
+      },
+      "cameraX": 89.661,
+      "ball": {
+        "x": 74.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick002-zoom100.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "runtimeSelectedFrame": 2,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          186.52319999999997,
+          304.5246288150591
+        ]
+      },
+      "cameraX": 87.261,
+      "ball": {
+        "x": 76,
+        "y": 90,
+        "z": 2.5111404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick005-zoom100.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "runtimeSelectedFrame": 3,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          190.39679999999998,
+          291.28145860947785
+        ]
+      },
+      "cameraX": 86.454,
+      "ball": {
+        "x": 84,
+        "y": 90,
+        "z": 3.56293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick007-zoom100.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          192.72480000000002,
+          283.192
+        ]
+      },
+      "cameraX": 85.969,
+      "ball": {
+        "x": 84,
+        "y": 90,
+        "z": 3.9,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick010-zoom100.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          193.224,
+          284.39546021527246
+        ]
+      },
+      "cameraX": 85.865,
+      "ball": {
+        "x": 84.5,
+        "y": 90,
+        "z": 3.8498558243636474,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick011-zoom100.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "runtimeSelectedFrame": 5,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          193.79039999999998,
+          287.94549434068387
+        ]
+      },
+      "cameraX": 85.747,
+      "ball": {
+        "x": 84.18999971409698,
+        "y": 89.5611525828537,
+        "z": 3.5381440084192946,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.161659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick012-zoom100.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "runtimeSelectedFrame": 6,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          194.59199999999998,
+          293.6640888415346
+        ]
+      },
+      "cameraX": 85.58,
+      "ball": {
+        "x": 83.37999942819397,
+        "y": 89.12230516570739,
+        "z": 4.699803582887379,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.135659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick013-zoom100.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          200.38559999999995,
+          331.192
+        ]
+      },
+      "cameraX": 84.373,
+      "ball": {
+        "x": 80.1399982845819,
+        "y": 87.36691549712216,
+        "z": 9.08644188075972,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.031659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick017-zoom100.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          209.16959999999995,
+          331.192
+        ]
+      },
+      "cameraX": 82.543,
+      "ball": {
+        "x": 77.70999742687286,
+        "y": 86.05037324568325,
+        "z": 12.103420604163976,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.9536595744680849,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick020-zoom100.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 9,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          247.40640000000002,
+          331.192
+        ]
+      },
+      "cameraX": 74.577,
+      "ball": {
+        "x": 69.6099945678427,
+        "y": 81.66189907422019,
+        "z": 20.470016348844826,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.6936595744680847,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick030-zoom100.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 39,
+      "frame": null,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          362.60640000000006,
+          331.192
+        ]
+      },
+      "cameraX": 50.577,
+      "ball": {
+        "x": 45.30998599075241,
+        "y": 68.49647655983101,
+        "z": 29.969803582887355,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -0.08634042553191566,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick060-zoom100.png"
+    },
+    {
+      "tick": 100,
+      "animationTick": 79,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          462.16799999999995,
+          331.192
+        ]
+      },
+      "cameraX": 29.835,
+      "ball": {
+        "x": 12.909974554631987,
+        "y": 50.942579873978985,
+        "z": 6.236186561610721,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.1263404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick100-zoom100.png"
+    },
+    {
+      "tick": 110,
+      "animationTick": 6,
+      "frame": null,
+      "runtimeSelectedFrame": null,
+      "runtimeSelectedSrc": null,
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "celebrate",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 1,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          466.32,
+          331.192
+        ]
+      },
+      "cameraX": 28.97,
+      "ball": {
+        "x": 9.669973411019939,
+        "y": 49.18719020539379,
+        "z": 1.5748248594830556,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.2303404255319164,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true,
+        "scored": true,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        3
+      ],
+      "scorePause": 64,
+      "lastEvent": "Kraken scores 3!",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        },
+        {
+          "tick": 103,
+          "text": "Kraken scores 3!"
+        }
+      ],
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick110-zoom100.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "runtimeSelectedFrame": 0,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          398.83968,
+          325.4304
+        ]
+      },
+      "cameraX": 95.637,
+      "ball": {
+        "x": 121.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick000-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          391.1616,
+          325.4304
+        ]
+      },
+      "cameraX": 96.97,
+      "ball": {
+        "x": 125.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick002-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "runtimeSelectedFrame": 2,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          379.6416,
+          293.4295545780709
+        ]
+      },
+      "cameraX": 98.97,
+      "ball": {
+        "x": 124,
+        "y": 90,
+        "z": 2.5111404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick005-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "runtimeSelectedFrame": 3,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          371.96352,
+          277.53775033137345
+        ]
+      },
+      "cameraX": 100.303,
+      "ball": {
+        "x": 116,
+        "y": 90,
+        "z": 3.56293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick007-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          360.44352,
+          267.83040000000005
+        ]
+      },
+      "cameraX": 102.303,
+      "ball": {
+        "x": 116,
+        "y": 90,
+        "z": 3.9,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick010-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          356.6016,
+          269.274552258327
+        ]
+      },
+      "cameraX": 102.97,
+      "ball": {
+        "x": 115.5,
+        "y": 90,
+        "z": 3.8498558243636474,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick011-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "runtimeSelectedFrame": 5,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          352.75968,
+          273.5345932088207
+        ]
+      },
+      "cameraX": 103.637,
+      "ball": {
+        "x": 115.81000028590302,
+        "y": 89.5611525828537,
+        "z": 3.5381440084192946,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.161659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick012-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "runtimeSelectedFrame": 6,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          348.92352,
+          280.3969066098415
+        ]
+      },
+      "cameraX": 104.303,
+      "ball": {
+        "x": 116.62000057180603,
+        "y": 89.12230516570739,
+        "z": 4.699803582887379,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.135659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick013-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          333.5616,
+          325.4304
+        ]
+      },
+      "cameraX": 106.97,
+      "ball": {
+        "x": 119.8600017154181,
+        "y": 87.36691549712216,
+        "z": 9.08644188075972,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.031659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick017-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          322.0416,
+          325.4304
+        ]
+      },
+      "cameraX": 108.97,
+      "ball": {
+        "x": 122.29000257312714,
+        "y": 86.05037324568325,
+        "z": 12.103420604163976,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.9536595744680849,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": false,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick020-zoom120.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 9,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          283.63968,
+          325.4304
+        ]
+      },
+      "cameraX": 115.637,
+      "ball": {
+        "x": 130.3900054321573,
+        "y": 81.66189907422019,
+        "z": 20.470016348844826,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.6936595744680847,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick030-zoom120.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 39,
+      "frame": null,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          168.43968,
+          325.4304
+        ]
+      },
+      "cameraX": 135.637,
+      "ball": {
+        "x": 154.69001400924776,
+        "y": 68.49647655983101,
+        "z": 29.969803582887355,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -0.08634042553191566,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick060-zoom120.png"
+    },
+    {
+      "tick": 100,
+      "animationTick": 79,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          14.843520000000026,
+          325.4304
+        ]
+      },
+      "cameraX": 162.303,
+      "ball": {
+        "x": 187.09002544536838,
+        "y": 50.942579873978985,
+        "z": 6.236186561610721,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.1263404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick100-zoom120.png"
+    },
+    {
+      "tick": 110,
+      "animationTick": 6,
+      "frame": null,
+      "runtimeSelectedFrame": null,
+      "runtimeSelectedSrc": null,
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "celebrate",
+      "player": {
+        "x": 120,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": 1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 1,
+        "team": 0,
+        "rosterMatch": true,
+        "screen": [
+          -13.656959999999955,
+          325.4304
+        ]
+      },
+      "cameraX": 167.251,
+      "ball": {
+        "x": 190.33002658898045,
+        "y": 49.18719020539379,
+        "z": 1.5748248594830556,
+        "vx": 0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.2303404255319164,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true,
+        "scored": true,
+        "targetX": 188.82978723404256,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": 1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        3,
+        0
+      ],
+      "scorePause": 64,
+      "lastEvent": "Kraken scores 3!",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        },
+        {
+          "tick": 103,
+          "text": "Kraken scores 3!"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-right-tick110-zoom120.png"
+    },
+    {
+      "tick": 0,
+      "animationTick": 0,
+      "frame": 0,
+      "runtimeSelectedFrame": 0,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          102.92735999999998,
+          325.4304
+        ]
+      },
+      "cameraX": 100.584,
+      "ball": {
+        "x": 78.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick000-zoom120.png"
+    },
+    {
+      "tick": 2,
+      "animationTick": 2,
+      "frame": 1,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          110.60543999999997,
+          325.4304
+        ]
+      },
+      "cameraX": 99.251,
+      "ball": {
+        "x": 74.5,
+        "y": 90,
+        "z": 1.1,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick002-zoom120.png"
+    },
+    {
+      "tick": 5,
+      "animationTick": 5,
+      "frame": 2,
+      "runtimeSelectedFrame": 2,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.1111404660392044,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          122.12543999999995,
+          293.4295545780709
+        ]
+      },
+      "cameraX": 97.251,
+      "ball": {
+        "x": 76,
+        "y": 90,
+        "z": 2.5111404660392043,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick005-zoom120.png"
+    },
+    {
+      "tick": 7,
+      "animationTick": 7,
+      "frame": 3,
+      "runtimeSelectedFrame": 3,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.6629392246050905,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          129.80928,
+          277.53775033137345
+        ]
+      },
+      "cameraX": 95.917,
+      "ball": {
+        "x": 84,
+        "y": 90,
+        "z": 3.56293922460509,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick007-zoom120.png"
+    },
+    {
+      "tick": 10,
+      "animationTick": 10,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 2,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          141.32927999999998,
+          267.83040000000005
+        ]
+      },
+      "cameraX": 93.917,
+      "ball": {
+        "x": 84,
+        "y": 90,
+        "z": 3.9,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick010-zoom120.png"
+    },
+    {
+      "tick": 11,
+      "animationTick": 11,
+      "frame": 4,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.9498558243636472,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": true,
+        "fga": 0,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          145.16544,
+          269.274552258327
+        ]
+      },
+      "cameraX": 93.251,
+      "ball": {
+        "x": 84.5,
+        "y": 90,
+        "z": 3.8498558243636474,
+        "vx": 0,
+        "vy": 0,
+        "vz": 0,
+        "mode": "carried",
+        "ownerId": "kraken",
+        "made": null,
+        "scored": false,
+        "targetX": null,
+        "targetY": null,
+        "targetZ": null
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Tip-off!",
+      "events": [],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick011-zoom120.png"
+    },
+    {
+      "tick": 12,
+      "animationTick": 12,
+      "frame": 5,
+      "runtimeSelectedFrame": 5,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.8019377358048383,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          148.85183999999998,
+          273.5345932088207
+        ]
+      },
+      "cameraX": 92.611,
+      "ball": {
+        "x": 84.18999971409698,
+        "y": 89.5611525828537,
+        "z": 3.5381440084192946,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.161659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick012-zoom120.png"
+    },
+    {
+      "tick": 13,
+      "animationTick": 13,
+      "frame": 6,
+      "runtimeSelectedFrame": 6,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 1.5636629649360596,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          152.61311999999998,
+          280.3969066098415
+        ]
+      },
+      "cameraX": 91.958,
+      "ball": {
+        "x": 83.37999942819397,
+        "y": 89.12230516570739,
+        "z": 4.699803582887379,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.135659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick013-zoom120.png"
+    },
+    {
+      "tick": 17,
+      "animationTick": 17,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          167.95776,
+          325.4304
+        ]
+      },
+      "cameraX": 89.294,
+      "ball": {
+        "x": 80.1399982845819,
+        "y": 87.36691549712216,
+        "z": 9.08644188075972,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 1.031659574468085,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick017-zoom120.png"
+    },
+    {
+      "tick": 20,
+      "animationTick": 20,
+      "frame": 7,
+      "runtimeSelectedFrame": 7,
+      "runtimeSelectedSrc": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "layup-reverse",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          179.47776,
+          325.4304
+        ]
+      },
+      "cameraX": 87.294,
+      "ball": {
+        "x": 77.70999742687286,
+        "y": 86.05037324568325,
+        "z": 12.103420604163976,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.9536595744680849,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": true,
+      "src": "./tools/generate-art/previews/kraken-layup-reverse8-attempt03/kraken-layup-reverse8-attempt03-runtime-candidate.png",
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick020-zoom120.png"
+    },
+    {
+      "tick": 30,
+      "animationTick": 9,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          217.87968,
+          325.4304
+        ]
+      },
+      "cameraX": 80.627,
+      "ball": {
+        "x": 69.6099945678427,
+        "y": 81.66189907422019,
+        "z": 20.470016348844826,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": 0.6936595744680847,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick030-zoom120.png"
+    },
+    {
+      "tick": 60,
+      "animationTick": 39,
+      "frame": null,
+      "runtimeSelectedFrame": 4,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          333.07968,
+          325.4304
+        ]
+      },
+      "cameraX": 60.627,
+      "ball": {
+        "x": 45.30998599075241,
+        "y": 68.49647655983101,
+        "z": 29.969803582887355,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -0.08634042553191566,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick060-zoom120.png"
+    },
+    {
+      "tick": 100,
+      "animationTick": 79,
+      "frame": null,
+      "runtimeSelectedFrame": 1,
+      "runtimeSelectedSrc": "./public/assets/animation/kraken-idle-right.webp",
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "idle",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 0,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          483.61152000000004,
+          325.4304
+        ]
+      },
+      "cameraX": 34.493,
+      "ball": {
+        "x": 12.909974554631987,
+        "y": 50.942579873978985,
+        "z": 6.236186561610721,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.1263404255319163,
+        "mode": "shot",
+        "ownerId": null,
+        "made": true,
+        "scored": false,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        0
+      ],
+      "scorePause": 0,
+      "lastEvent": "Kraken launches a 3-pointer",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick100-zoom120.png"
+    },
+    {
+      "tick": 110,
+      "animationTick": 6,
+      "frame": null,
+      "runtimeSelectedFrame": null,
+      "runtimeSelectedSrc": null,
+      "runtimeImage": {
+        "present": true,
+        "complete": true,
+        "naturalWidth": 320
+      },
+      "animationClip": "celebrate",
+      "player": {
+        "x": 80,
+        "y": 90,
+        "z": 0,
+        "vz": 0,
+        "facing": -1,
+        "hasBall": false,
+        "fga": 1,
+        "fgm": 1,
+        "team": 1,
+        "rosterMatch": true,
+        "screen": [
+          502.5388799999999,
+          325.4304
+        ]
+      },
+      "cameraX": 31.207,
+      "ball": {
+        "x": 9.669973411019939,
+        "y": 49.18719020539379,
+        "z": 1.5748248594830556,
+        "vx": -0.8100002859030117,
+        "vy": -0.4388474171463002,
+        "vz": -1.2303404255319164,
+        "mode": "dead",
+        "ownerId": null,
+        "made": true,
+        "scored": true,
+        "targetX": 11.170212765957446,
+        "targetY": 50,
+        "targetZ": 2.6
+      },
+      "facing": -1,
+      "flip": null,
+      "src": null,
+      "phase": "playing",
+      "pause": false,
+      "score": [
+        0,
+        3
+      ],
+      "scorePause": 64,
+      "lastEvent": "Kraken scores 3!",
+      "events": [
+        {
+          "tick": 11,
+          "text": "Kraken launches a 3-pointer"
+        },
+        {
+          "tick": 103,
+          "text": "Kraken scores 3!"
+        }
+      ],
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-layup-reverse-track-candidate/attempt-06/gameplay/both/gameplay-left-tick110-zoom120.png"
+    }
+  ],
+  "ownershipTrace": [
+    {
+      "tick": 0,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 0,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 2,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 2,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 5,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 5,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 7,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 7,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 10,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 10,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 11,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 11,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 12,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 13,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 17,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 20,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 30,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 9,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 60,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 39,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 100,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 79,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 110,
+      "facing": 1,
+      "zoom": 100,
+      "animationTick": 6,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "dead",
+      "scored": true,
+      "score": [
+        3,
+        0
+      ]
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 0,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 2,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 5,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 7,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 7,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 10,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 10,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 11,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 11,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 12,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 13,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 17,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 20,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 30,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 9,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 60,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 39,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 100,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 79,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 110,
+      "facing": -1,
+      "zoom": 100,
+      "animationTick": 6,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "dead",
+      "scored": true,
+      "score": [
+        0,
+        3
+      ]
+    },
+    {
+      "tick": 0,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 0,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 2,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 2,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 5,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 5,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 7,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 7,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 10,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 10,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 11,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 11,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 12,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 13,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 17,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 20,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 30,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 9,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 60,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 39,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 100,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 79,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 110,
+      "facing": 1,
+      "zoom": 120,
+      "animationTick": 6,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "dead",
+      "scored": true,
+      "score": [
+        3,
+        0
+      ]
+    },
+    {
+      "tick": 0,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 0,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 2,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 2,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 5,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 5,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 7,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 7,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 10,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 10,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 11,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 11,
+      "playerHasBall": true,
+      "ownerId": "kraken",
+      "ballMode": "carried",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 12,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 12,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 13,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 13,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 17,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 17,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 20,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 20,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 30,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 9,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 60,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 39,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 100,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 79,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "shot",
+      "scored": false,
+      "score": [
+        0,
+        0
+      ]
+    },
+    {
+      "tick": 110,
+      "facing": -1,
+      "zoom": 120,
+      "animationTick": 6,
+      "playerHasBall": false,
+      "ownerId": null,
+      "ballMode": "dead",
+      "scored": true,
+      "score": [
+        0,
+        3
+      ]
+    }
+  ],
+  "setupFixture": "Per facing, Jam Stage starts a real roster containing Kraken on the scoring team (home for right, away for left). A one-time fixture retains that Kraken instance at near the attacking hoop and initializes the layup-reverse shot action; stepMatch owns subsequent animation, elevation, ball, release, and flight updates.",
+  "captureCount": 56,
+  "uncaughtBrowserErrors": []
+}

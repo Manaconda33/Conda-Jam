@@ -1,0 +1,45 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-windmill",
+  "attempt": 1,
+  "status": "initial hand-path calibration; candidate only",
+  "art": "tools/generate-art/previews/kraken-dunk-windmill-attempt05/cleanup01/kraken-dunk-windmill-attempt05-cleanup01-atlas.png",
+  "height": [
+    0.9,
+    1,
+    1.3,
+    1.2,
+    0.8,
+    1.3,
+    0.9,
+    1.4,
+    1.2,
+    1.8,
+    2.1,
+    1.2,
+    0.8,
+    0.5,
+    0.6
+  ],
+  "forward": [
+    3,
+    4,
+    5,
+    3,
+    2,
+    4,
+    0,
+    3,
+    -5,
+    -3,
+    2,
+    5,
+    3,
+    2,
+    0
+  ],
+  "tuningNotes": {
+    "method": "Initial point estimates follow the visible right-hand windmill arc: frame6 begins behind hip, 7 extends sideways, 8 sweeps behind shoulder, 9/10 arc overhead, 11 downstrike. Calibrate against actual captured hands at both facings and zooms.",
+    "scope": "Kraken-specific ball track only, candidate gameplay, not registered."
+  }
+}

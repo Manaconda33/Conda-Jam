@@ -1,0 +1,1855 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "kraken",
+  "clip": "pickup",
+  "candidateAtlas": "./public/assets/animation/kraken-pickup-right.webp",
+  "candidateTrack": {
+    "height": [
+      0.65,
+      0.45,
+      0.2,
+      0.2,
+      0.5
+    ],
+    "forward": [
+      3.5,
+      4.5,
+      5.5,
+      4.5,
+      4.5
+    ]
+  },
+  "status": "invalid normal-loader trial for selected track: script defaulted to attempt04 shin-placement track instead of production attempt06; screenshots preserved but not evidence for current track",
+  "runtimeIntegration": true,
+  "candidateAtlasSha256": "0820af5175c770a3609c2acd21de22f025db61942b43875fde3452eabb79da65",
+  "candidateAtlasInjected": false,
+  "candidateBallTrackInjected": false,
+  "captureScript": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/capture.py",
+  "baselineY": 90,
+  "frameDurations": [
+    2,
+    3,
+    2,
+    1,
+    4
+  ],
+  "sourceArtReview": "tools/generate-art/previews/kraken-pickup5-attempt05/INDEPENDENT_SOURCE_AND_CLEANUP_REVIEW_2026-10-29.md",
+  "simulation": "A controlled one-time loose-ball fixture enters normal stepMatch progression. Production integration advances ball physics, schedules pickup, reaches the grab anchor, transfers possession, and continues carried-ball rendering.",
+  "captureMethod": "Fixture is set once per run; then only normal production ticks advance. No per-tick ball/player teleports. Candidate artwork/track is injected into page memory only; checked-in manifest/runtime remain unchanged.",
+  "court": "vesper-harbor-undertow vs blackthorn-court-kings",
+  "courtY": 75.0,
+  "initialForward": 2.5,
+  "initialLateralOffset": 1.5,
+  "initialBallZ": 0.2,
+  "initialBallVz": 0.0,
+  "sampleTicks": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "captures": [
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.59,
+        "y": 76.5,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick00-zoom100.png",
+      "screenshotSha256": "0904130ab0ff1c0ff066215409b0cba28edd718217af223198660220113ed0b0",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.77000000000001,
+        "y": 76.5,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick02-zoom100.png",
+      "screenshotSha256": "52315ea814280a786ba9409a14f2c8a4b300bc5a8c74d3872d252b17ddfa5269",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.95000000000002,
+        "y": 76.5,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick04-zoom100.png",
+      "screenshotSha256": "6bda5c92e852ae903422141678c874d413a51b6e81874fc0cf85ecfb304e6c3a",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 103.09760000000003,
+        "y": 76.5,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick06-zoom100.png",
+      "screenshotSha256": "907cd349aa8154dc20101340607b836b611f9d054153cfe1a01ff0220955da90",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 75,
+        "z": 0.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick07-zoom100.png",
+      "screenshotSha256": "b1ab606657f60c6071ce33534290854ccc6e8b441e82dc6ea948670915202a1e",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick08-zoom100.png",
+      "screenshotSha256": "7eed095abcddce8c27fbaac4127ffe5fa9799f9645f7af7928c2a41b42f706bf",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick10-zoom100.png",
+      "screenshotSha256": "7b64a564f5f97bd48cad26a119b3e7597332c1692ce700905cd02d51db98370f",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick11-zoom100.png",
+      "screenshotSha256": "1b63ba550d0baddfb181234361a94ff3080cb7597f1a5b098eb132f16aee0eca",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.41,
+        "y": 76.5,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick00-zoom100.png",
+      "screenshotSha256": "d78c5c3342da53b3128d8b47ce0e9a88f599b79263e58907dc7466e4d0c718c7",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.22999999999999,
+        "y": 76.5,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick02-zoom100.png",
+      "screenshotSha256": "85705b34f37965771b3d36ab9fc38052b9d9c9b6a13b49aa6bf3b27c0d131fad",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.04999999999998,
+        "y": 76.5,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick04-zoom100.png",
+      "screenshotSha256": "7f3900ef675fd0e20a267dcdd986aa5cf3a09a62c97644d1edbbd16c4ac934bb",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 96.90239999999997,
+        "y": 76.5,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick06-zoom100.png",
+      "screenshotSha256": "0924de31310f83b7bfa2e881ca1a31fa45c216a0fa02588175c1ab4fd2c761bc",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 75,
+        "z": 0.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick07-zoom100.png",
+      "screenshotSha256": "5ab33793277c8034e5e56641fcd8603ceec103f31c893a32482ea0d126e90886",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 97.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick08-zoom100.png",
+      "screenshotSha256": "b2170a0fe1887a619495c545756a2350b5cda3eec1a357e53cb359307c6da3dc",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 97.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick10-zoom100.png",
+      "screenshotSha256": "e9c5610c6afdedbb0c2a95d7b0ce8b87170e3fc172abe949a467fe6b63d7a88a",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 97.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick11-zoom100.png",
+      "screenshotSha256": "6c696bab303338fba2617a0d08e4d83b739e9f144fd154fea6b61a096bd27eb1",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.59,
+        "y": 76.5,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick00-zoom120.png",
+      "screenshotSha256": "fdbdacbd7dc52f9df72797082cd2ac0b13e8ff547a4dcb53d1d8c8a62c2d96bf",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.77000000000001,
+        "y": 76.5,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick02-zoom120.png",
+      "screenshotSha256": "85c9627cc91dd4fd196685d62d9b091538681c909f2a2c902ce0e74bc03ff930",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 102.95000000000002,
+        "y": 76.5,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick04-zoom120.png",
+      "screenshotSha256": "78f60fb436b64e1734263e59b56e087ed12632ae86fb68cdd485db355118a990",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 103.09760000000003,
+        "y": 76.5,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick06-zoom120.png",
+      "screenshotSha256": "86273b762e44833c5edb8702756432ea45158f59bc55d5a8cd0a1cc6a645e29a",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 104.5,
+        "y": 75,
+        "z": 0.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick07-zoom120.png",
+      "screenshotSha256": "5c42054117917f61c95b6c6028ebc7e41a191c11eca59a3efd36427cc63a7aa4",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick08-zoom120.png",
+      "screenshotSha256": "fe0b1135267d6a2a7429a69daa318df412bdf17bea796faeae981cf4fea8459c",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick10-zoom120.png",
+      "screenshotSha256": "6ed9f26f49426b88db39baecb1b11d8be12fca9ef62f52254825057efd5255c6",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 102.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": false,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-right-pickup-tick11-zoom120.png",
+      "screenshotSha256": "d267ee655f6db8ea16cb70b53367eee426df88bc7043bd23e5acacd8e6176c40",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.41,
+        "y": 76.5,
+        "z": 0.2,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 0,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick00-zoom120.png",
+      "screenshotSha256": "02522d3cc031f16b78b34e456cf983a1cf283beff417c0c511cb765541bac52c",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.22999999999999,
+        "y": 76.5,
+        "z": 0.12200000000000003,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick02-zoom120.png",
+      "screenshotSha256": "391a579463a64604929fcca6fadc5a6653b5cb38f2a2f4b315f00413d532d5aa",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 97.04999999999998,
+        "y": 76.5,
+        "z": 0,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 1,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick04-zoom120.png",
+      "screenshotSha256": "77930f0d12ebf3a4bffa672d69dc036dd4617ba1f749acd64b820adb42093fe0",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 6,
+      "clip": "pickup",
+      "action": "catch",
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 96.90239999999997,
+        "y": 76.5,
+        "z": 0.254,
+        "mode": "loose",
+        "owner": null,
+        "lastTouch": "opponent"
+      },
+      "selected": {
+        "frame": 2,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick06-zoom120.png",
+      "screenshotSha256": "01c47d637ac50b812ca8e7c808d1704d5373a3acd1c577e19a8b3249d510d0ee",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95.5,
+        "y": 75,
+        "z": 0.2,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 3,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick07-zoom120.png",
+      "screenshotSha256": "7e382213ca363be55e27d8d3ef68176d41dc350fdb1231493fdce792cc6a1a96",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 8,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 97.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick08-zoom120.png",
+      "screenshotSha256": "f59cb2a4650a3a7091b53cb4a9a70fd6cb5e1b3c3a97fc7e4bd1f987db5093a7",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 10,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 97.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick10-zoom120.png",
+      "screenshotSha256": "dc601f4f36c2b9a733f4e1b8af23e9078c0d75bd61d199e6c781b51a40a2f980",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    },
+    {
+      "tick": 11,
+      "clip": "pickup",
+      "action": null,
+      "player": {
+        "x": 100,
+        "y": 75,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 97.5,
+        "y": 75,
+        "z": 0.68,
+        "mode": "carried",
+        "owner": "kraken",
+        "lastTouch": "kraken"
+      },
+      "selected": {
+        "frame": 4,
+        "flip": true,
+        "src": "./public/assets/animation/kraken-pickup-right.webp"
+      },
+      "events": [
+        {
+          "tick": 7,
+          "text": "Kraken grabs the ball"
+        }
+      ],
+      "paused": false,
+      "phase": "playing",
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/kraken-pickup5-attempt05/track-candidate/attempt-07/normal-loader/actual-left-pickup-tick11-zoom120.png",
+      "screenshotSha256": "73ea350e8ef7c5bffaca7c70a98c57fc8821623b45cfdeee1d917156f713f360",
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      }
+    }
+  ],
+  "gameplayRuns": [
+    {
+      "facing": 1,
+      "zoom": 100,
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": -1,
+      "zoom": 100,
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": 1,
+      "zoom": 120,
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": 1,
+        "courtY": 75,
+        "ball": {
+          "x": 102.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": 0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": -1,
+      "zoom": 120,
+      "setup": {
+        "player": "kraken",
+        "x": 100,
+        "y": 75,
+        "facing": -1,
+        "courtY": 75,
+        "ball": {
+          "x": 97.5,
+          "y": 76.5,
+          "z": 0.2,
+          "vx": -0.09,
+          "vy": 0,
+          "vz": -0.0
+        },
+        "zoom": null
+      },
+      "pickupStartStep": 1,
+      "finalState": {
+        "clip": "pickup",
+        "tick": 11,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "kraken",
+        "events": [
+          {
+            "tick": 7,
+            "text": "Kraken grabs the ball"
+          }
+        ]
+      },
+      "browserErrors": []
+    }
+  ],
+  "captureCount": 32,
+  "uncaughtBrowserErrors": [],
+  "captureIntegrity": {
+    "files": 32,
+    "missing": [],
+    "hashMismatches": []
+  },
+  "rejectionReason": "The loader selected the registered atlas correctly, but the candidate report carried the wrong calibration vector. Rerun with explicit attempt06 vector before review."
+}

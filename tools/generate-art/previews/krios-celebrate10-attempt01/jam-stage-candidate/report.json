@@ -1,0 +1,468 @@
+{
+  "athlete": "krios",
+  "clip": "celebrate",
+  "renderer": "Chromium current Jam Stage",
+  "atlas": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+  "atlasSha256": "1cdbab11122f52b3074d652b3c6366552f9c80d09d988b8d00aae3b85c30e5f2",
+  "court": "current Jam Stage; Scoria Rams vs Blackthorn Court Kings",
+  "courtY": 90,
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": false,
+  "frameDurations": [
+    5,
+    5,
+    6,
+    8,
+    10,
+    10,
+    8,
+    7,
+    6,
+    5
+  ],
+  "sampledTicks": [
+    0,
+    5,
+    10,
+    16,
+    24,
+    34,
+    44,
+    52,
+    59,
+    65
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame1-tick5-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame2-tick10-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame3-tick16-zoom100.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame4-tick24-zoom100.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame5-tick34-zoom100.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame6-tick44-zoom100.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame7-tick52-zoom100.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame8-tick59-zoom100.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame9-tick65-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame0-tick0-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame1-tick5-zoom100.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame2-tick10-zoom100.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame3-tick16-zoom100.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame4-tick24-zoom100.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame5-tick34-zoom100.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame6-tick44-zoom100.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame7-tick52-zoom100.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame8-tick59-zoom100.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame9-tick65-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame1-tick5-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame2-tick10-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame3-tick16-zoom120.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame4-tick24-zoom120.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame5-tick34-zoom120.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame6-tick44-zoom120.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame7-tick52-zoom120.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame8-tick59-zoom120.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/right-frame9-tick65-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 0,
+          "clip": "celebrate",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame0-tick0-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "celebrate",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame1-tick5-zoom120.png"
+        },
+        {
+          "tick": 10,
+          "clip": "celebrate",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame2-tick10-zoom120.png"
+        },
+        {
+          "tick": 16,
+          "clip": "celebrate",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame3-tick16-zoom120.png"
+        },
+        {
+          "tick": 24,
+          "clip": "celebrate",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame4-tick24-zoom120.png"
+        },
+        {
+          "tick": 34,
+          "clip": "celebrate",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame5-tick34-zoom120.png"
+        },
+        {
+          "tick": 44,
+          "clip": "celebrate",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame6-tick44-zoom120.png"
+        },
+        {
+          "tick": 52,
+          "clip": "celebrate",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame7-tick52-zoom120.png"
+        },
+        {
+          "tick": 59,
+          "clip": "celebrate",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame8-tick59-zoom120.png"
+        },
+        {
+          "tick": 65,
+          "clip": "celebrate",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/krios-celebrate10-attempt01/krios-celebrate10-attempt01-runtime-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "path": "tools/generate-art/previews/krios-celebrate10-attempt01/jam-stage-candidate/left-frame9-tick65-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 40
+}

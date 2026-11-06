@@ -1,0 +1,1 @@
+Render transparent image: a single pixel-art athlete test sprite, red uniform, full body, no background.

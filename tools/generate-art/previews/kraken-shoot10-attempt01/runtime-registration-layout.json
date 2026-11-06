@@ -1,0 +1,86 @@
+{
+  "athlete": "kraken",
+  "direction": "right",
+  "clip": "shoot",
+  "src": "./public/assets/animation/kraken-shoot-right.webp",
+  "columns": 5,
+  "rows": 2,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    },
+    {
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96
+    }
+  ],
+  "provenance": {
+    "prompt": "Create one original JAMVERSE ’96 pixel-art sprite sheet containing exactly ten distinct, complete full-body drawings of Kraken in a 4-column × 3-row grid, read left to right, then top to bottom. Canvas: 1536×1536 pixels, opaque RGB with a perfectly flat #00FF00 (RGB 0,255,0) chroma-key background. Each equal 384×512 cell contains exactly one pose in row-major order; the final two cells are empty flat green. Keep every hair strand, pointed ear, fingertip and boot at least 40 source pixels inside its cell. Keep a consistent character scale and ground baseline across the poses; airborne poses rise naturally from that baseline. No visible cell borders, grid lines, dividers, labels or panels. Leave ample uninterrupted green between figures. Return only the sprite sheet.\n\nUse the attached approved Kraken production animation art as the exact identity and pixel-art style reference. Kraken is the captain of Vesper Harbor Undertow: a natural-skinned adult male elf with short dark brown hair, long pointed ears, a calm refined face, athletic human proportions, burgundy and dark gothic basketball layers, copper accents and his small Cthulhu-themed copper amulet. Match his face, hair, ears, skin tone, burgundy/black uniform, copper trim and body proportions in every pose. Keep his ordinary canonical elf form: no tentacles, no extra eyes, no sea-creature anatomy, no blue skin, no monster face and no transformation. Natural connected bipedal anatomy only: one head, two arms, two hands, two legs and two boots.\n\nAction: right-facing jump shot toward image-right. The basketball is a separate game object and must never appear in the drawings. His hands may mime holding or releasing an invisible ball; after release his hands are empty. Draw these ten mechanically connected poses, in order, preserving the specified anchor timings:\n0. SET / GATHER (tick 0): grounded balanced stance, feet set, eyes on the target; both empty hands cradle the space of an invisible ball at waist height, elbows relaxed.\n1. DIP (tick 3): bend knees and hips, lower the center of mass, lift the imaginary ball toward the chest; shooting elbow folds beneath the wrist and the guide hand steadies the side.\n2. TAKEOFF (tick 6): toes leave the floor as the knees extend; invisible ball rises to chin height, both elbows bent underneath it. This is the takeoff anchor.\n3. ASCENT (tick 8): torso rises tall, knees fold slightly in the air; shooting hand and forearm lift beside the forehead while the guide fingers steady the side of the invisible ball.\n4. LATE ASCENT (tick 10): shooting elbow unfolds above the eye line, wrist cocked back; guide hand begins to peel away. Keep fingers, ears and hair fully inside the cell.\n5. RELEASE AND PEAK (tick 13): shooting arm fully extends overhead toward image-right; wrist snaps and fingers finish down; guide hand is visibly separated from the release hand; no ball remains held. This single one-tick pose is both the release and peak anchor.\n6. EARLY DESCENT (tick 14): high relaxed follow-through with the shooting wrist still down; guide arm lowers outward and the knees begin extending for landing.\n7. DESCENDING (tick 16): shooting elbow relaxes slightly while the wrist remains in follow-through; guide hand drops beside the chest; both feet aim naturally toward the floor.\n8. LANDING RECOIL (tick 19): both feet contact the ground; knees bend to absorb the landing; shooting arm lowers through shoulder height and the torso stabilizes.\n9. FINISH (tick 23): return to a balanced grounded stance distinct from frame 0; arms relax near the ribs, knees settle and eyes follow the shot. This is the finish anchor.\n\nAll ten silhouettes must be visibly distinct and form one continuous jump-shot sequence without duplicated poses or sudden direction changes. Keep anatomy complete and readable in every frame. Do not draw a ball, sphere, seams, hoop, rim, court, floor, shadow, other player, prop, motion streak, glow, colored haze, text, number, logo or scenery. Pixel art must have crisp hard edges, bold outlines and readable late-1990s arcade clusters consistent with the reference; avoid blur, gradients, soft painting and airbrushed lighting. Use the exact flat green chroma key only outside clean dark sprite outlines. Do not put green highlights or reflected green on Kraken, and do not add green shading to his skin, hair or clothes.\n",
+    "generationId": "exec-20014507-d570-42f5-9ad7-6c2f9e4c6b03",
+    "generatedAt": "2026-10-28T05:58:48Z",
+    "rawSourceImage": "tools/generate-art/sources/kraken-shoot10-attempt01-generated-raw.png",
+    "rawSourceSha256": "b6e779cc44240a387e1298dd31808ea4f7bfcd51f00a644a444efc2dcf53e2c3",
+    "promptFile": "tools/generate-art/kraken-shoot10-attempt01-imagegen-prompt.txt",
+    "promptSha256": "d0dba73f77d133c50212ea667e1ef2aa3443f7ec40b226ededfaf4230511f873",
+    "derivedRuntimeAtlas": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-runtime-candidate.png",
+    "derivedRuntimeAtlasSha256": "47f167275610c321c67bfdb195545687f7324b8826d71237087738608b43cc3a",
+    "cleanupScript": "tools/generate-art/clean-kraken-shoot10-attempt01.py",
+    "cleanupLayout": "tools/generate-art/previews/kraken-shoot10-attempt01/runtime-layout.json",
+    "gameplayReview": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/INDEPENDENT_REVIEW.md",
+    "trackReport": "tools/generate-art/previews/kraken-shoot10-attempt01/live-gameplay-candidate/track-attempt35/offset-+10.0/report.json",
+    "notes": "Derived from the reviewed ten-pose source sheet by the documented cleanup/layout pipeline; ball remains a separate simulation sprite. Track calibrated in the current Jam Stage at both zooms and facings."
+  }
+}

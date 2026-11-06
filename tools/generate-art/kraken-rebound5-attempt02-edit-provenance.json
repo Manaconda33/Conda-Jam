@@ -1,0 +1,21 @@
+{
+  "athlete":"J.129 Kraken",
+  "clip":"rebound",
+  "direction":"right",
+  "attempt":2,
+  "kind":"ImageGen edit of preserved rejected source; not accepted",
+  "tool":"image_gen__imagegen",
+  "generationId":"exec-c5c6c5ad-2a68-452f-bc18-88949e59c9c7",
+  "generatedAt":"2026-10-29T03:49:08.352468Z",
+  "promptFile":"tools/generate-art/kraken-rebound5-attempt02-edit-prompt.txt",
+  "promptVerbatim":true,
+  "promptSha256":"5e19e3b9b02e66c2c6321f60a73402cad8e71031a9800789425543bd11915610",
+  "referenceImages":["tools/generate-art/sources/kraken-rebound5-attempt01-generated-raw.png"],
+  "rawSourceImage":"tools/generate-art/sources/kraken-rebound5-attempt02-edited-raw.png",
+  "rawSha256":"aec263697e585c3ff195dcac25232b66fe1219c7311337c896630d7ba4d68def",
+  "dimensions":[1983,793],
+  "format":"PNG RGBA",
+  "alphaRange":[0,255],
+  "poses":5,
+  "notes":"Edit preserves the five rebound pose silhouettes. Source triage pending; do not cleanup, register, or count as accepted artwork before independent review."
+}

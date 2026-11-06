@@ -1,0 +1,677 @@
+{
+  "athlete": "leo",
+  "direction": "right",
+  "clip": "dunk-clutch",
+  "src": "./public/assets/animation/leo-dunk-clutch-attempt04-right.webp",
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 0,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 96,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 384,
+      "y": 192,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 0,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 128,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    },
+    {
+      "x": 256,
+      "y": 288,
+      "w": 128,
+      "h": 96
+    }
+  ],
+  "sourceGrid": {
+    "columns": 5,
+    "rows": 3,
+    "dimensions": [
+      1536,
+      1024
+    ]
+  },
+  "sourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-cleaned-components.png",
+  "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-generated-raw.png",
+  "rawSha256": "07de8c9da036e7a74f8e40b9b43ca0b3c72c228d7de7cfe1fcb38e71b159140d",
+  "sourceSha256": "1e98ef7d620202d2739f7c5b25e91577a08a292ceed63e8f37ceb2e2063c1b95",
+  "atlasSha256": "18fc9f23e2effd38a375e1428a79e790f63f20358ca98ba59e5b3ac0a3e5b7e7",
+  "atlasDimensions": [
+    512,
+    384
+  ],
+  "cellSize": [
+    128,
+    96
+  ],
+  "baselineY": 94,
+  "packing": "Retain the 15 largest >=50-pixel connected opaque figure components, assign by component center to the source 5x3 cell, discard alpha<16 and all non-figure residue, and fit each intact component at a shared nearest-neighbor scale of 0.21 (clamped only if needed) centered to x=64 and baseline y=94 in 128x96 cells.",
+  "transforms": [
+    {
+      "poseIndex": 0,
+      "sourceBounds": [
+        22,
+        60,
+        258,
+        333
+      ],
+      "sourceVisiblePixels": 27085,
+      "destinationRect": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 39,
+        "y": 37,
+        "w": 50,
+        "h": 57
+      },
+      "baselineY": 94,
+      "scale": 0.211864,
+      "filter": "nearest",
+      "margins": {
+        "left": 39,
+        "top": 37,
+        "right": 39,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 1,
+      "sourceBounds": [
+        386,
+        87,
+        564,
+        333
+      ],
+      "sourceVisiblePixels": 23849,
+      "destinationRect": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 45,
+        "y": 42,
+        "w": 37,
+        "h": 52
+      },
+      "baselineY": 94,
+      "scale": 0.207865,
+      "filter": "nearest",
+      "margins": {
+        "left": 45,
+        "top": 42,
+        "right": 46,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 2,
+      "sourceBounds": [
+        704,
+        49,
+        862,
+        314
+      ],
+      "sourceVisiblePixels": 23177,
+      "destinationRect": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 47,
+        "y": 38,
+        "w": 33,
+        "h": 56
+      },
+      "baselineY": 94,
+      "scale": 0.208861,
+      "filter": "nearest",
+      "margins": {
+        "left": 47,
+        "top": 38,
+        "right": 48,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 3,
+      "sourceBounds": [
+        982,
+        36,
+        1163,
+        320
+      ],
+      "sourceVisiblePixels": 26150,
+      "destinationRect": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 45,
+        "y": 34,
+        "w": 38,
+        "h": 60
+      },
+      "baselineY": 94,
+      "scale": 0.209945,
+      "filter": "nearest",
+      "margins": {
+        "left": 45,
+        "top": 34,
+        "right": 45,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 4,
+      "sourceBounds": [
+        1324,
+        55,
+        1474,
+        307
+      ],
+      "sourceVisiblePixels": 21530,
+      "destinationRect": {
+        "x": 0,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 48,
+        "y": 41,
+        "w": 32,
+        "h": 53
+      },
+      "baselineY": 94,
+      "scale": 0.213333,
+      "filter": "nearest",
+      "margins": {
+        "left": 48,
+        "top": 41,
+        "right": 48,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 5,
+      "sourceBounds": [
+        106,
+        388,
+        254,
+        637
+      ],
+      "sourceVisiblePixels": 22028,
+      "destinationRect": {
+        "x": 128,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 48,
+        "y": 42,
+        "w": 31,
+        "h": 52
+      },
+      "baselineY": 94,
+      "scale": 0.209459,
+      "filter": "nearest",
+      "margins": {
+        "left": 48,
+        "top": 42,
+        "right": 49,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 6,
+      "sourceBounds": [
+        414,
+        374,
+        583,
+        625
+      ],
+      "sourceVisiblePixels": 22574,
+      "destinationRect": {
+        "x": 256,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 46,
+        "y": 41,
+        "w": 35,
+        "h": 53
+      },
+      "baselineY": 94,
+      "scale": 0.207101,
+      "filter": "nearest",
+      "margins": {
+        "left": 46,
+        "top": 41,
+        "right": 47,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 7,
+      "sourceBounds": [
+        715,
+        371,
+        872,
+        615
+      ],
+      "sourceVisiblePixels": 22267,
+      "destinationRect": {
+        "x": 384,
+        "y": 96,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 47,
+        "y": 43,
+        "w": 33,
+        "h": 51
+      },
+      "baselineY": 94,
+      "scale": 0.210191,
+      "filter": "nearest",
+      "margins": {
+        "left": 47,
+        "top": 43,
+        "right": 48,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 8,
+      "sourceBounds": [
+        975,
+        382,
+        1213,
+        641
+      ],
+      "sourceVisiblePixels": 26375,
+      "destinationRect": {
+        "x": 0,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 39,
+        "y": 40,
+        "w": 50,
+        "h": 54
+      },
+      "baselineY": 94,
+      "scale": 0.210084,
+      "filter": "nearest",
+      "margins": {
+        "left": 39,
+        "top": 40,
+        "right": 39,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 9,
+      "sourceBounds": [
+        1249,
+        362,
+        1508,
+        638
+      ],
+      "sourceVisiblePixels": 26630,
+      "destinationRect": {
+        "x": 128,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 37,
+        "y": 36,
+        "w": 54,
+        "h": 58
+      },
+      "baselineY": 94,
+      "scale": 0.208494,
+      "filter": "nearest",
+      "margins": {
+        "left": 37,
+        "top": 36,
+        "right": 37,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 10,
+      "sourceBounds": [
+        49,
+        681,
+        297,
+        969
+      ],
+      "sourceVisiblePixels": 28340,
+      "destinationRect": {
+        "x": 256,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 38,
+        "y": 34,
+        "w": 52,
+        "h": 60
+      },
+      "baselineY": 94,
+      "scale": 0.209677,
+      "filter": "nearest",
+      "margins": {
+        "left": 38,
+        "top": 34,
+        "right": 38,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 11,
+      "sourceBounds": [
+        359,
+        633,
+        545,
+        987
+      ],
+      "sourceVisiblePixels": 27533,
+      "destinationRect": {
+        "x": 384,
+        "y": 192,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 45,
+        "y": 22,
+        "w": 38,
+        "h": 72
+      },
+      "baselineY": 94,
+      "scale": 0.204301,
+      "filter": "nearest",
+      "margins": {
+        "left": 45,
+        "top": 22,
+        "right": 45,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 12,
+      "sourceBounds": [
+        663,
+        695,
+        868,
+        995
+      ],
+      "sourceVisiblePixels": 28808,
+      "destinationRect": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 42,
+        "y": 31,
+        "w": 43,
+        "h": 63
+      },
+      "baselineY": 94,
+      "scale": 0.209756,
+      "filter": "nearest",
+      "margins": {
+        "left": 42,
+        "top": 31,
+        "right": 43,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 13,
+      "sourceBounds": [
+        943,
+        703,
+        1208,
+        984
+      ],
+      "sourceVisiblePixels": 29635,
+      "destinationRect": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 36,
+        "y": 35,
+        "w": 56,
+        "h": 59
+      },
+      "baselineY": 94,
+      "scale": 0.211321,
+      "filter": "nearest",
+      "margins": {
+        "left": 36,
+        "top": 35,
+        "right": 36,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    },
+    {
+      "poseIndex": 14,
+      "sourceBounds": [
+        1290,
+        763,
+        1459,
+        987
+      ],
+      "sourceVisiblePixels": 22928,
+      "destinationRect": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 96
+      },
+      "spriteBoundsWithinFrame": {
+        "x": 46,
+        "y": 47,
+        "w": 35,
+        "h": 47
+      },
+      "baselineY": 94,
+      "scale": 0.207101,
+      "filter": "nearest",
+      "margins": {
+        "left": 46,
+        "top": 47,
+        "right": 47,
+        "bottom": 2,
+        "baselineClearance": 0
+      }
+    }
+  ],
+  "prompt": "tools/generate-art/j124-leo-dunk-clutch-attempt04-pixel-reference-prompt.md",
+  "generationId": "exec-24cfe1f0-f774-4e9d-af53-648408820184",
+  "reviewStatus": "registered candidate; independent art and native track review passed; deterministic test pending",
+  "provenance": {
+    "generationId": "exec-24cfe1f0-f774-4e9d-af53-648408820184",
+    "generatedAt": "2026-10-27",
+    "prompt": "tools/generate-art/j124-leo-dunk-clutch-attempt04-pixel-reference-prompt.md",
+    "rawSourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-generated-raw.png",
+    "sourceImage": "tools/generate-art/sources/j124-leo-dunk-clutch-attempt04-cleaned-components.png",
+    "rawSha256": "07de8c9da036e7a74f8e40b9b43ca0b3c72c228d7de7cfe1fcb38e71b159140d",
+    "sourceSha256": "1e98ef7d620202d2739f7c5b25e91577a08a292ceed63e8f37ceb2e2063c1b95",
+    "atlasSha256": "18fc9f23e2effd38a375e1428a79e790f63f20358ca98ba59e5b3ac0a3e5b7e7",
+    "cleanupReport": "tools/generate-art/j124-leo-dunk-clutch-attempt04-cleanup-report.json",
+    "packingScript": "tools/generate-art/pack-j124-leo-dunk-clutch-attempt04.py",
+    "sourceGeneration": "imagegen",
+    "derivedProcessing": "alpha>=16 figure-component extraction, nearest-neighbor fit, no new generated art",
+    "ballTrack": {
+      "height": [
+        1.1,
+        1.0,
+        1.1,
+        0.9,
+        0.8,
+        0.7,
+        0.65,
+        0.7,
+        1.2,
+        1.4,
+        2.2,
+        1.5,
+        1.1,
+        0.8,
+        0.65
+      ],
+      "forward": [
+        5,
+        4,
+        3,
+        1,
+        0,
+        -2,
+        -3,
+        -2,
+        1,
+        5,
+        4,
+        6,
+        5,
+        3,
+        2
+      ],
+      "trials": "tools/generate-art/j124-leo-dunk-clutch-track-trials.json"
+    }
+  },
+  "trackReleasePositions": {
+    "21": [
+      5,
+      2.1
+    ],
+    "22": [
+      7,
+      1.7
+    ],
+    "23": [
+      9,
+      1.1
+    ],
+    "26": [
+      11,
+      0.6
+    ]
+  }
+}

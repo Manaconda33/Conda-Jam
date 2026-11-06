@@ -1,0 +1,74 @@
+{
+  "athlete": "krios",
+  "canonicalSection": "J.128",
+  "clip": "rebound",
+  "direction": "right",
+  "attempt": 2,
+  "status": "rejected after independent source review; wrong kit, pose continuity and anatomy",
+  "tool": "image_gen__imagegen",
+  "toolArtifactId": "exec-9c7a8a7f-4625-4572-be65-cfbe54e7e1ab",
+  "generationId": "exec-9c7a8a7f-4625-4572-be65-cfbe54e7e1ab",
+  "generatedAt": "2026-10-28T06:34:30Z",
+  "promptFile": "tools/generate-art/krios-rebound-attempt02-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "c4886fb84408eb168018009bbe49c47f7542914b9c9128aeb36e8046cb771017",
+  "rawSourceImage": "tools/generate-art/sources/krios-rebound-attempt02-generated-raw.png",
+  "rawSourceSha256": "e48b85ac551f135f348d75f9cea980985f511861bfddab1ef4c2a4f6f54f80cc",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "format": "PNG RGB",
+  "identityStyleReferences": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-block-right.webp",
+    "public/assets/animation/krios-steal-right.webp"
+  ],
+  "referenceSha256": {
+    "public/assets/animation/krios-idle-right.webp": "3972858f17324a3a45a629ce9ce9c0b7544e957c3675bc1ed74017017d8be939",
+    "public/assets/animation/krios-block-right.webp": "feec8fcde6708c70fab9071d5719423a234dbcf119ee1f78efe16b84eeb7658f",
+    "public/assets/animation/krios-steal-right.webp": "197a1b59bbfef4a382d96dd882ff842dad7ca654f24689a239ad1a565a685d2a"
+  },
+  "requiredFrameDurations": [
+    2,
+    2,
+    1,
+    2,
+    4
+  ],
+  "grabAnchorFrame": 3,
+  "grabAnchorTick": 5,
+  "ballPolicy": "The five-pose athlete atlas contains no basketball. Calibrate a separate Krios-specific rebound track and review actual contact before registration.",
+  "sourceReview": {
+    "status": "rejected",
+    "evidence": "tools/generate-art/previews/krios-rebound-attempt02/INDEPENDENT_SOURCE_REVIEW.md",
+    "notes": "Wrong white number-23 uniform, unclear rebound sequence, apparent extra arm in pose four, and painterly style mismatch."
+  },
+  "cleanupScript": null,
+  "cleanupReport": null,
+  "cleanupReview": {
+    "status": "pending",
+    "evidence": null,
+    "notes": null
+  },
+  "candidateAtlas": null,
+  "candidateAtlasSha256": null,
+  "runtimeLayout": null,
+  "rejectedAttempts": [
+    {
+      "attempt": 2,
+      "generationId": "exec-9c7a8a7f-4625-4572-be65-cfbe54e7e1ab",
+      "reason": "Wrong kit, non-continuous rebound sequence, apparent extra arm, and painterly style mismatch."
+    }
+  ],
+  "ballTrack": {
+    "status": "not-calibrated",
+    "track": null,
+    "review": null
+  },
+  "registeredRuntimeReview": {
+    "status": "pending",
+    "evidence": null,
+    "report": null
+  }
+}

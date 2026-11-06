@@ -1,0 +1,27 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-windmill",
+  "attempt": 1,
+  "kind": "fresh ImageGen with transparent_background=true",
+  "status": "independent source review pending",
+  "generatedAt": "2026-10-29T04:49:00Z",
+  "generationId": "exec-5cfae420-b0f9-45d7-8225-3cedbc7389b5",
+  "promptFile": "tools/generate-art/kraken-dunk-windmill-attempt01-imagegen-prompt.txt",
+  "promptSha256": "259b1e118e17ea8cbb317b71ca3d43e857e7c36342348d971955363b0b4bbb4a",
+  "rawFile": "tools/generate-art/sources/kraken-dunk-windmill-attempt01-generated-raw.png",
+  "rawSha256": "779dbe64f5db8bf89ef2dd11505606486faea70ce20e1dca745c0a36f034b0f1",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixels": 1020404,
+  "partialAlphaPixels": 552460,
+  "generatedBy": "ImageGen",
+  "reviewFile": "tools/generate-art/previews/kraken-dunk-windmill-attempt01/README.md",
+  "reviewSummary": "Initial visual: 15 full-body sprites and action sequence are visible. The result appears smoothly illustrated rather than crisp pixel art; independent review should assess alpha backdrop, three windmill stages, cell gutters, anatomy and identity before cleanup. No cleanup or registration."
+}

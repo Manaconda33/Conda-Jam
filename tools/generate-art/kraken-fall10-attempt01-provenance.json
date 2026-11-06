@@ -1,0 +1,41 @@
+{
+  "athlete": "kraken",
+  "canonicalSection": "J.07",
+  "clip": "fall",
+  "direction": "right",
+  "attempt": 1,
+  "status": "rejected source; preserved for provenance and comparison",
+  "tool": "image_gen__imagegen",
+  "generationId": "not exposed by the image-generation tool response",
+  "generatedAt": "2026-10-29T02:25:00Z",
+  "promptFile": "tools/generate-art/kraken-fall10-attempt01-imagegen-prompt.txt",
+  "promptVerbatim": true,
+  "promptSha256": "cced35401a04fe594509a95e203889a35049b75bbdc69ba2c4f8a1e0dea61980",
+  "rawSourceImage": "tools/generate-art/sources/kraken-fall10-attempt01-generated-raw.png",
+  "rawSourceSha256": "ef7a033720d2ebda0809fc89df36f05cd805d50846526889865d060401dc18f3",
+  "dimensions": [
+    1983,
+    793
+  ],
+  "format": "PNG RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "identityReview": {
+    "status": "pass",
+    "notes": "Brown skin, dark tied-back hair and Kraken red/gold uniform match the Kraken reference; no Krios features."
+  },
+  "poseReview": {
+    "status": "pass for candidate review",
+    "notes": "Ten distinct full-body fall/recovery poses on a 5x2 sheet; source positions remain anatomically coherent at native resolution."
+  },
+  "styleReview": {
+    "status": "reject",
+    "notes": "Output is painterly/gradient-rendered rather than the crisp low-resolution pixel-art language of Kraken runtime assets. Do not clean, pack, register or count this as accepted captain artwork."
+  },
+  "ballPolicy": "No ball is included in the source artwork; calibrate a separate Kraken-specific track only after accepted source art.",
+  "rawPreserved": true,
+  "registration": null,
+  "rejectedAttempts": []
+}

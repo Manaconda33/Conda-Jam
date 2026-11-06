@@ -1,0 +1,63 @@
+{
+  "athlete": "kraken",
+  "clip": "dunk-tomahawk",
+  "attempt": 2,
+  "kind": "ImageGen with transparent_background=true",
+  "status": "invalidated; concurrent ImageGen response cannot be associated directly with the tomahawk prompt",
+  "generatedAt": "2026-10-29T05:24:15Z",
+  "generationId": null,
+  "promptFile": "tools/generate-art/kraken-dunk-tomahawk-attempt02-imagegen-prompt.txt",
+  "promptSha256": "deb77d21585f14b0d32ca6cbd06b8e93a0eed2fafb27ba0ebae3cbddc418b69a",
+  "rawFile": "tools/generate-art/sources/kraken-unattributed-imagegen-20261029T052415Z-raw.png",
+  "rawSha256": "3936167ead301763320dfd6b76f2c234820aecf3dadb0f74d489bf0b9f83982c",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "transparentPixelCount": 1084120,
+  "partialAlphaPixelCount": 488744,
+  "opaquePixelCount": 0,
+  "alphaCornerSamples": [
+    [
+      33,
+      17,
+      5,
+      0
+    ],
+    [
+      37,
+      17,
+      7,
+      0
+    ],
+    [
+      44,
+      15,
+      3,
+      0
+    ],
+    [
+      56,
+      22,
+      19,
+      0
+    ],
+    [
+      42,
+      16,
+      11,
+      0
+    ]
+  ],
+  "generatedBy": "ImageGen",
+  "rawImagePath": "/workspace/generated_images/exec-97be4f97-4047-4dff-b327-38c3b9853ff6.png",
+  "duplicateCheck": "The artifact ID is not attributable to this prompt. Concurrent dunk-double work may have produced it; another nearby output is confirmed as the separate dunk-windmill generation. Do not use the apparent filename as proof of attribution.",
+  "associationStatus": "ambiguous-unassigned-output; not a dunk-tomahawk attempt and ineligible for cleanup, gameplay, or acceptance",
+  "possibleImageArtifactId": "exec-97be4f97-4047-4dff-b327-38c3b9853ff6",
+  "note": "The source-art review is retained as visual-only evaluation. It cannot validate the prompt/source lineage. This prompt is preserved as an intended attempt02 prompt but no directly captured response was linked to it."
+}

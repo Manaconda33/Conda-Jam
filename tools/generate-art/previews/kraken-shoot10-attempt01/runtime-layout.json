@@ -1,0 +1,335 @@
+{
+  "status": "runtime-size proof only; not accepted or registered",
+  "sourceSheet": "tools/generate-art/sources/kraken-shoot10-attempt01-generated-raw.png",
+  "sourceSha256": "b6e779cc44240a387e1298dd31808ea4f7bfcd51f00a644a444efc2dcf53e2c3",
+  "atlas": "tools/generate-art/previews/kraken-shoot10-attempt01/kraken-shoot10-attempt01-runtime-candidate.png",
+  "columns": 5,
+  "rows": 2,
+  "frameWidth": 80,
+  "frameHeight": 96,
+  "sourceToRuntimeScale": 0.222,
+  "baseline": 94,
+  "interpolation": "nearest-neighbor",
+  "frames": [
+    {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        63,
+        80,
+        239,
+        408
+      ],
+      "sourceComponentPixels": 31296,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        39,
+        73
+      ],
+      "offsetInCell": [
+        20,
+        21
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        20,
+        21,
+        21,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "33a288b7747e401a07f138ba9f9d0131ee7ffacee3271225bd52dcbaaaae7fd5"
+    },
+    {
+      "frame": 1,
+      "x": 80,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        386,
+        116,
+        562,
+        408
+      ],
+      "sourceComponentPixels": 29513,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        39,
+        65
+      ],
+      "offsetInCell": [
+        20,
+        29
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        20,
+        29,
+        21,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "e991e8780131dced4f8ac10887a0fb1040bd61adc18cc77d1868bc559aece9a6"
+    },
+    {
+      "frame": 2,
+      "x": 160,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        698,
+        53,
+        876,
+        399
+      ],
+      "sourceComponentPixels": 30994,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        40,
+        77
+      ],
+      "offsetInCell": [
+        20,
+        17
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        20,
+        17,
+        20,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "9495a4dcd0b24f8d07d17c6f7fc89b04cfdd13838b85beeb02cce3f464a4fa49"
+    },
+    {
+      "frame": 3,
+      "x": 240,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        1039,
+        31,
+        1197,
+        384
+      ],
+      "sourceComponentPixels": 31079,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        35,
+        78
+      ],
+      "offsetInCell": [
+        22,
+        16
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        22,
+        16,
+        23,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "6751c5fe5df60c1b06281c30ee4ce1ce969f74d772986868048ffaf7a041d55c"
+    },
+    {
+      "frame": 4,
+      "x": 320,
+      "y": 0,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        85,
+        435,
+        271,
+        812
+      ],
+      "sourceComponentPixels": 33274,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        41,
+        84
+      ],
+      "offsetInCell": [
+        19,
+        10
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        19,
+        10,
+        20,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "57eb5efb5510b8a315e56826820f3b759cc424d40486abcad04dd3785bb42a08"
+    },
+    {
+      "frame": 5,
+      "x": 0,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        400,
+        427,
+        592,
+        820
+      ],
+      "sourceComponentPixels": 32717,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        43,
+        87
+      ],
+      "offsetInCell": [
+        18,
+        7
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        18,
+        7,
+        19,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "57be754d18d2a7ecc7fc783fd5e40dd3dfd84d7f6fc66b4d9de54823abcd79b7"
+    },
+    {
+      "frame": 6,
+      "x": 80,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        665,
+        447,
+        909,
+        844
+      ],
+      "sourceComponentPixels": 32663,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        54,
+        88
+      ],
+      "offsetInCell": [
+        13,
+        6
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        13,
+        6,
+        13,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "60f56d6bfb0e37110280e6e17c942e9332aab9f0aec17e20a7bf6699e9d68e34"
+    },
+    {
+      "frame": 7,
+      "x": 160,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        1039,
+        463,
+        1203,
+        833
+      ],
+      "sourceComponentPixels": 29277,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        36,
+        82
+      ],
+      "offsetInCell": [
+        22,
+        12
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        22,
+        12,
+        22,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "0528ac1bd414fc3081a12fe82b205190c4c1c21cc63437f1f30843956e9e32f5"
+    },
+    {
+      "frame": 8,
+      "x": 240,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        65,
+        914,
+        288,
+        1226
+      ],
+      "sourceComponentPixels": 33154,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        50,
+        69
+      ],
+      "offsetInCell": [
+        15,
+        25
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        15,
+        25,
+        15,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "3a842e605176c7a738a3b148079a1b75cfe6dcb2034d071c8e554d8c68ec7a07"
+    },
+    {
+      "frame": 9,
+      "x": 320,
+      "y": 96,
+      "w": 80,
+      "h": 96,
+      "sourceBoundsLTRB": [
+        386,
+        894,
+        559,
+        1228
+      ],
+      "sourceComponentPixels": 33024,
+      "sourceToRuntimeScale": 0.222,
+      "scaledSize": [
+        38,
+        74
+      ],
+      "offsetInCell": [
+        21,
+        20
+      ],
+      "baseline": 94,
+      "nativeMarginsLTRB": [
+        21,
+        20,
+        21,
+        2
+      ],
+      "minimumMarginPx": 2,
+      "alphaFrameSha256": "7fb972b7a31244f4e9d84adbc7dca750116261ae1cb265766f34a9130f1fb1b4"
+    }
+  ]
+}

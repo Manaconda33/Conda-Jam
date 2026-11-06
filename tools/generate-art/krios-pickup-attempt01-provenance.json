@@ -1,0 +1,63 @@
+{
+  "asset": "J.128 Krios pickup source candidate",
+  "status": "source, packed atlas, track and actual runtime integration accepted",
+  "imageGenerationId": "c2pa:ada022b4-e0f0-42c7-840e-8b83a2e58c79",
+  "generationId": "c2pa:ada022b4-e0f0-42c7-840e-8b83a2e58c79",
+  "generatedAt": "2026-10-28T00:28:20.201102146Z",
+  "tool": "GPT Image generation",
+  "promptFile": "tools/generate-art/krios-pickup-attempt01-prompt.md",
+  "promptVerbatim": true,
+  "promptSha256": "33d11364bf099f84a1ed484b0dc15436097581f05d595f31c714c60803d56087",
+  "rawSourceImage": "tools/generate-art/sources/krios-pickup-attempt01-generated-raw.png",
+  "rawSourceSha256": "2de5645d90e08c61435c2d68f3ab11801299044655e988e33defbfaa829c0d77",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "format": "PNG RGBA",
+  "references": [
+    "public/assets/animation/krios-idle-right.webp",
+    "public/assets/animation/krios-pass-right.webp"
+  ],
+  "layoutFile": "tools/generate-art/krios-pickup-attempt01-layouts.json",
+  "previewFiles": [
+    "tools/generate-art/previews/krios-pickup-attempt01/light-preview.png",
+    "tools/generate-art/previews/krios-pickup-attempt01/dark-preview.png",
+    "tools/generate-art/previews/krios-pickup-attempt01/layout-grid-review.png"
+  ],
+  "cleanup": {
+    "performed": true,
+    "script": "tools/generate-art/clean-krios-pickup-attempt01.py",
+    "method": "Set alpha below 96 to zero and alpha 96–254 to 255; preserve all RGB values. No redraw, resize, or color edits.",
+    "report": "tools/generate-art/krios-pickup-attempt01-cleanup01-report.json",
+    "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-cleanup01.png",
+    "sourceSha256": "3fe8a50cf49dd580780b4cfaa7c920958955f36af3a5f1f2ec753acb11eb6327",
+    "status": "reviewed"
+  },
+  "generationRelayNotes": "Two earlier calls in this turn produced image data but failed during attempted raw-file transfer. Their image bytes and complete C2PA IDs were not retained. This provenance record covers the successfully preserved generation only.",
+  "review": {
+    "status": "accepted",
+    "reviewedBy": "independent source and atlas reviewers",
+    "sourceEvidence": "tools/generate-art/previews/krios-pickup-attempt01/INDEPENDENT_REVIEW.md",
+    "atlasEvidence": "tools/generate-art/previews/krios-pickup-attempt01/ATLAS_REVIEW.md",
+    "reviewNotes": "Five distinct Krios poses, identity/anatomy, ordering, clean transparency, empty sixth cell, native margins and ball-free art accepted for separate ball-track calibration. The suspected white stripe is transparent negative space, verified with packed RGBA pixel inspection. Runtime acceptance awaits the athlete-specific gameplay track.",
+    "runtimeCapture": "tools/generate-art/previews/j128-krios-pickup-track-candidate/attempt-08/native/report.json"
+  },
+  "athlete": "krios",
+  "clip": "pickup",
+  "direction": "right",
+  "canonicalSection": "J.128",
+  "eligibleForPacking": true,
+  "sourceImage": "tools/generate-art/sources/krios-pickup-attempt01-cleanup01.png",
+  "sourceSha256": "3fe8a50cf49dd580780b4cfaa7c920958955f36af3a5f1f2ec753acb11eb6327",
+  "sourceReview": {
+    "status": "accepted-for-track-calibration",
+    "review": "tools/generate-art/previews/krios-pickup-attempt01/INDEPENDENT_REVIEW.md",
+    "atlasReview": "tools/generate-art/previews/krios-pickup-attempt01/ATLAS_REVIEW.md"
+  },
+  "rejectedAttempts": [
+    "tools/generate-art/krios-pickup-attempt02-provenance.json",
+    "tools/generate-art/krios-pickup-attempt03-provenance.json"
+  ],
+  "reviewedAt": "2026-10-28"
+}

@@ -1,0 +1,1018 @@
+{
+  "renderer": "Chromium production Jam Stage canvas",
+  "athlete": "krios",
+  "clip": "receive",
+  "candidateAtlas": "./public/assets/animation/krios-receive-right.webp",
+  "candidateTrack": {
+    "height": [
+      1.1,
+      2.0,
+      2.1,
+      1.2
+    ],
+    "forward": [
+      5,
+      9,
+      9,
+      5
+    ]
+  },
+  "sourceArtReview": "tools/generate-art/krios-receive4-provenance.json",
+  "simulation": "A real Scoria Rams teammate pass starts the receive animation. Production stepMatch advances the incoming ball, catch anchor, carried ball and held state. Candidate ball track and atlas are injected in page memory only.",
+  "captureMethod": "Set the passer and Krios fixture once, then step only normal production inputs. No per-tick player or ball teleports. Capture the actual incoming pass and receive action at five receive-local ticks, both facings and camera zooms.",
+  "court": "scoria-rams vs blackthorn-court-kings",
+  "courtY": 90.0,
+  "samples": [
+    0,
+    2,
+    4,
+    5,
+    7
+  ],
+  "captures": [
+    {
+      "tick": 0,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 98.7409090909091,
+        "y": 90,
+        "z": 1.8381818181818184,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick00-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 101.04090909090911,
+        "y": 90,
+        "z": 1.8001818181818183,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick02-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 109,
+        "y": 90,
+        "z": 2.1,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick04-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick05-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick07-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 101.2590909090909,
+        "y": 90,
+        "z": 1.8381818181818184,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick00-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 98.95909090909089,
+        "y": 90,
+        "z": 1.8001818181818183,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick02-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 91,
+        "y": 90,
+        "z": 2.1,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick04-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick05-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 100,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick07-zoom100.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 98.7409090909091,
+        "y": 90,
+        "z": 1.8381818181818184,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick00-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 101.04090909090911,
+        "y": 90,
+        "z": 1.8001818181818183,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick02-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 109,
+        "y": 90,
+        "z": 2.1,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick04-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick05-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": 1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 105,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": 1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-right-receive-tick07-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 0,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 101.2590909090909,
+        "y": 90,
+        "z": 1.8381818181818184,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick00-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 2,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": false
+      },
+      "ball": {
+        "x": 98.95909090909089,
+        "y": 90,
+        "z": 1.8001818181818183,
+        "mode": "pass",
+        "owner": null,
+        "target": "krios",
+        "lastTouch": "flint-rooker"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick02-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 4,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 91,
+        "y": 90,
+        "z": 2.1,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick04-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 5,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick05-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    },
+    {
+      "tick": 7,
+      "clip": "receive",
+      "player": {
+        "x": 100,
+        "y": 90,
+        "z": 0,
+        "facing": -1,
+        "hasBall": true
+      },
+      "ball": {
+        "x": 95,
+        "y": 90,
+        "z": 1.2,
+        "mode": "carried",
+        "owner": "krios",
+        "target": null,
+        "lastTouch": "krios"
+      },
+      "events": [
+        {
+          "tick": 5,
+          "text": "Flint Rooker passes"
+        },
+        {
+          "tick": 9,
+          "text": "Krios catches it"
+        }
+      ],
+      "paused": false,
+      "canvasArt": "generated-full-roster-atlases",
+      "facing": -1,
+      "zoom": 120,
+      "path": "tools/generate-art/previews/j128-krios-receive-track-candidate/attempt-01/native/actual-left-receive-tick07-zoom120.png",
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      }
+    }
+  ],
+  "gameplayRuns": [
+    {
+      "facing": 1,
+      "zoom": 100,
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      },
+      "receiveStartStep": 5,
+      "finalState": {
+        "clip": "receive",
+        "tick": 7,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "target": null,
+        "events": [
+          {
+            "tick": 5,
+            "text": "Flint Rooker passes"
+          },
+          {
+            "tick": 9,
+            "text": "Krios catches it"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": -1,
+      "zoom": 100,
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      },
+      "receiveStartStep": 5,
+      "finalState": {
+        "clip": "receive",
+        "tick": 7,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "target": null,
+        "events": [
+          {
+            "tick": 5,
+            "text": "Flint Rooker passes"
+          },
+          {
+            "tick": 9,
+            "text": "Krios catches it"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": 1,
+      "zoom": 120,
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 76,
+        "receiverX": 100,
+        "facing": 1,
+        "courtY": 90,
+        "zoom": null
+      },
+      "receiveStartStep": 5,
+      "finalState": {
+        "clip": "receive",
+        "tick": 7,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "target": null,
+        "events": [
+          {
+            "tick": 5,
+            "text": "Flint Rooker passes"
+          },
+          {
+            "tick": 9,
+            "text": "Krios catches it"
+          }
+        ]
+      },
+      "browserErrors": []
+    },
+    {
+      "facing": -1,
+      "zoom": 120,
+      "setup": {
+        "passer": "flint-rooker",
+        "receiver": "krios",
+        "passerX": 124,
+        "receiverX": 100,
+        "facing": -1,
+        "courtY": 90,
+        "zoom": null
+      },
+      "receiveStartStep": 5,
+      "finalState": {
+        "clip": "receive",
+        "tick": 7,
+        "hasBall": true,
+        "ballMode": "carried",
+        "owner": "krios",
+        "target": null,
+        "events": [
+          {
+            "tick": 5,
+            "text": "Flint Rooker passes"
+          },
+          {
+            "tick": 9,
+            "text": "Krios catches it"
+          }
+        ]
+      },
+      "browserErrors": []
+    }
+  ],
+  "captureCount": 20,
+  "uncaughtBrowserErrors": []
+}

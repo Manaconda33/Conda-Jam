@@ -1,0 +1,630 @@
+{
+  "athlete": "kraken",
+  "clip": "fall",
+  "renderer": "Chromium current Jam Stage",
+  "atlas": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+  "atlasSha256": "81acfd503254ffda04be637910d10f8dffc5c20919ed33eeb23b39fd3ee651c0",
+  "court": "current Jam Stage; Vesper Harbor Undertow vs Blackthorn Court Kings",
+  "courtY": 75,
+  "runtimeIntegration": false,
+  "candidateAtlasInjected": true,
+  "candidateBallTrackInjected": false,
+  "seed": 2654435761,
+  "liveFallTrigger": "Leo push hits off-ball Kraken at tick8; fall animation starts on the following simulation tick; Leo is removed from the visual roster after the successful contact so he cannot occlude low fall poses; no ball ownership",
+  "frameDurations": [
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    6,
+    7
+  ],
+  "sampledTicks": [
+    1,
+    3,
+    5,
+    8,
+    11,
+    14,
+    18,
+    23,
+    29,
+    35
+  ],
+  "runs": [
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 3,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame1-tick3-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame2-tick5-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame3-tick8-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame4-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame5-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame6-tick18-zoom100.png"
+        },
+        {
+          "tick": 23,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame7-tick23-zoom100.png"
+        },
+        {
+          "tick": 29,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame8-tick29-zoom100.png"
+        },
+        {
+          "tick": 35,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame9-tick35-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 100,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame0-tick1-zoom100.png"
+        },
+        {
+          "tick": 3,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame1-tick3-zoom100.png"
+        },
+        {
+          "tick": 5,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame2-tick5-zoom100.png"
+        },
+        {
+          "tick": 8,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame3-tick8-zoom100.png"
+        },
+        {
+          "tick": 11,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame4-tick11-zoom100.png"
+        },
+        {
+          "tick": 14,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame5-tick14-zoom100.png"
+        },
+        {
+          "tick": 18,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame6-tick18-zoom100.png"
+        },
+        {
+          "tick": 23,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame7-tick23-zoom100.png"
+        },
+        {
+          "tick": 29,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame8-tick29-zoom100.png"
+        },
+        {
+          "tick": 35,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame9-tick35-zoom100.png"
+        }
+      ]
+    },
+    {
+      "facing": 1,
+      "direction": "right",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 3,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame1-tick3-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame2-tick5-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame3-tick8-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame4-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame5-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame6-tick18-zoom120.png"
+        },
+        {
+          "tick": 23,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame7-tick23-zoom120.png"
+        },
+        {
+          "tick": 29,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame8-tick29-zoom120.png"
+        },
+        {
+          "tick": 35,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": false,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/right-frame9-tick35-zoom120.png"
+        }
+      ]
+    },
+    {
+      "facing": -1,
+      "direction": "left",
+      "zoom": 120,
+      "captures": [
+        {
+          "tick": 1,
+          "clip": "fall",
+          "selectedFrame": 0,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame0-tick1-zoom120.png"
+        },
+        {
+          "tick": 3,
+          "clip": "fall",
+          "selectedFrame": 1,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame1-tick3-zoom120.png"
+        },
+        {
+          "tick": 5,
+          "clip": "fall",
+          "selectedFrame": 2,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame2-tick5-zoom120.png"
+        },
+        {
+          "tick": 8,
+          "clip": "fall",
+          "selectedFrame": 3,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame3-tick8-zoom120.png"
+        },
+        {
+          "tick": 11,
+          "clip": "fall",
+          "selectedFrame": 4,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame4-tick11-zoom120.png"
+        },
+        {
+          "tick": 14,
+          "clip": "fall",
+          "selectedFrame": 5,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame5-tick14-zoom120.png"
+        },
+        {
+          "tick": 18,
+          "clip": "fall",
+          "selectedFrame": 6,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame6-tick18-zoom120.png"
+        },
+        {
+          "tick": 23,
+          "clip": "fall",
+          "selectedFrame": 7,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame7-tick23-zoom120.png"
+        },
+        {
+          "tick": 29,
+          "clip": "fall",
+          "selectedFrame": 8,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame8-tick29-zoom120.png"
+        },
+        {
+          "tick": 35,
+          "clip": "fall",
+          "selectedFrame": 9,
+          "selectedSrc": "./tools/generate-art/previews/kraken-fall10-attempt03/cleanup01/kraken-fall10-attempt03-cleanup01-atlas-candidate.png",
+          "flip": true,
+          "ballMode": "dead",
+          "owner": null,
+          "triggerEvent": {
+            "tick": 8,
+            "text": "Leo knocks Kraken down!"
+          },
+          "path": "tools/generate-art/previews/kraken-fall10-attempt03/live-knockdown-candidate02/candidate/left-frame9-tick35-zoom120.png"
+        }
+      ]
+    }
+  ],
+  "uncaughtBrowserErrors": [],
+  "captureCount": 40
+}

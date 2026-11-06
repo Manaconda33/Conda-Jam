@@ -38,12 +38,12 @@
       1.05
     ],
     "forward": [
-      8.0,
-      9.0,
-      11.0,
-      13.0,
-      12.0,
-      8.0
+      8,
+      9,
+      11,
+      13,
+      12,
+      8
     ]
   },
   "cleanup": {
@@ -54,5 +54,31 @@
     "status": "accepted",
     "reviewedBy": "Codex visual inspection",
     "reviewNotes": "6 distinct complete Krios pass poses. bright volcanic-red skin, towering muscular giant anatomy, huge black ram horns, dark beard and black/ember Scoria Rams kit remain consistent. The separate Krios ball follows the documented pass track."
+  },
+  "ballTrackReview": {
+    "status": "accepted",
+    "attempt": 1,
+    "nativeReport": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/attempt-01/native/report.json",
+    "trialNotes": "tools/generate-art/previews/j128-krios-chest-pass-track-candidate/TRIALS.md",
+    "reviewNotes": "Independent Jam Stage review accepted six frame starts, carried contact through tick4, release on frame3/tick5, both facings, and 100%/120% zoom; follow-through samples read coherently."
+  },
+  "runtimeBallTrack": {
+    "height": [
+      1.05,
+      1.15,
+      1.4,
+      1.5,
+      1.35,
+      1.05
+    ],
+    "forward": [
+      8,
+      9,
+      11,
+      13,
+      12,
+      8
+    ],
+    "reviewed": true
   }
 }

@@ -1,0 +1,25 @@
+{
+  "original": "tools/generate-art/sources/krios-receive4-attempt01-generated-raw.png",
+  "originalSha256": "a60788274a094bf9d52e198bd6596c42dc2ced41e5a353ec25e16958d45df1bc",
+  "edit": "tools/generate-art/sources/krios-receive4-attempt02-generated-raw.png",
+  "editSha256": "428a920ee00efa1c378c7d8aba92e3919a6bde9b0d1d563525acd0a7766b3ef0",
+  "output": "tools/generate-art/sources/krios-receive4-attempt02-composite-raw.png",
+  "outputSha256": "0bdc9ddb62b6e4cb7bafc1853db18620bf7a51bb57c23374bb1580ae29635ec1",
+  "cellSize": [
+    690,
+    570
+  ],
+  "correctedCell": {
+    "poseIndex": 1,
+    "row": 0,
+    "column": 1,
+    "box": [
+      690,
+      0,
+      1380,
+      570
+    ],
+    "source": "tools/generate-art/sources/krios-receive4-attempt02-generated-raw.png"
+  },
+  "unchangedCellsCopiedFrom": "tools/generate-art/sources/krios-receive4-attempt01-generated-raw.png"
+}
