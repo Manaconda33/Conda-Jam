@@ -67,11 +67,13 @@ jobs:
         run: |
           set -euo pipefail
           timeout 180s npm ci
-          if ! command -v identify; then
-            timeout 120s sudo apt-get update -qq
-            timeout 120s sudo apt-get install -y -qq imagemagick
+          if ! command -v identify >/dev/null 2>&1 || ! command -v convert >/dev/null 2>&1; then
+            # Ubuntu runners have apt package metadata. Install directly first;
+            # external package-index refresh repeatedly timed out before tests.
+            timeout 120s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq imagemagick
           fi
           command -v identify
+          command -v convert
 
       - name: Restore complete 120-fixture historical corpus from pinned PR6 by Git blob hash
         env:
