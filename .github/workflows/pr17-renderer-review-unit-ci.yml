@@ -25,7 +25,7 @@ jobs:
             /src/
             /tests/
             /tools/
-          sparse-checkout-cone-mode: true
+          sparse-checkout-cone-mode: false
           lfs: false
       - name: Validate precise reviewed source/test hashes and source invariants
         shell: bash
