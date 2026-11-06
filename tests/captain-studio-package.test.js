@@ -190,8 +190,9 @@ test('validator accepts a rejected-only summary when the raw image, prompt, and 
   await writeFile(path.join(fixture.packageRoot, fixture.manifestPath), JSON.stringify(fixture.manifest));
   const result = await validatePackage({ packageRoot: fixture.packageRoot, baseRoot: fixture.baseRoot, baseCommit, baseline: fixture.baseline });
   assert.equal(result.ok, true, JSON.stringify(result.errors));
-  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE'));
-  assert.ok(result.warnings.some(issue => issue.code === 'REJECTED_ARTIFACTS_OMITTED'));
+  assert.equal(result.warnings.filter(issue => issue.code === 'REJECTED_PROMPT_UNAVAILABLE').length, 1,
+    'one rejected attempt must not duplicate unavailable-prompt warning counts');
+  assert.equal(result.warnings.filter(issue => issue.code === 'REJECTED_ARTIFACTS_OMITTED').length, 1);
 });
 
 test('validator rejects a discarded rejected image when its retained hash aliases accepted artwork', async t => {
