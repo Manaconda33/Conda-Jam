@@ -112,6 +112,14 @@ See [`MARIN_120_FIXTURE_SCOPED_TEST_SUITE_GREEN_2026-11-05.md`](./MARIN_120_FIXT
 - Combined audit is the **exact union** of these source-level changes: 706 remaining missing clips, 40 prompt warning entries and zero target-frame shortfalls. **Those findings are not waived** by the green 587/587 scoped gameplay test run.
 - The earlier Git partial-clone fetch failure includes one object now verified **available via GitHub's REST Git/blob API** (the PR7 supporting-reuse report); the other referenced object still needs legitimate materialization and diagnosis. Do not equate a partial-clone `upload-pack` failure with proof the entire source history is lost.
 
+## Four original donor sources independently hash-verified — 2026-11-05
+
+[Original-source integrity run 42140674600](https://github.com/Manaconda33/Conda-Jam/actions/runs/42140674600) **PASSED**: actual accepted Reed Ashcroft and Juniper Vale `layup`/`fall` raw PNG sources (4/4) and their registered production WebP atlases (4/4) match the original PR #6 individual provenance and production manifest SHA-256 values. The J.38 layup and J.43 fall generation IDs, retained source hashes, accepted art review statuses, and both original/manifest `promptVerbatim: false` flags were verified. [Exact record, checks and non-verbatim disposition](./MARIN_FOUR_DONOR_PROMPT_PROVENANCE_REVIEW_2026-11-05.md).
+
+- The original generation archives say **the exact accepted prompt transcripts were not retained**. The stored texts are reconstructions. Reed's verbatim prompts for *rejected later attempts* cannot be substituted for its accepted layup candidate.
+- The **4 original** `prompt-not-verbatim` warnings, including Juniper layup/fall, and **36 inherited donor-derived** warnings remain properly visible. Artwork hashes match; a missing prompt transcript is still an unwaived provenance limitation.
+- No source, manifest, generated art, tests, donor assignment, gameplay calibration or other production file was modified in this review.
+
 ## Remaining gates, intentionally not waived
 
 1. Independently check actual sprite-to-ball contact and motion (both facings/zooms), including hand, shoe and court-plane bounce. Do not mistake a numerical track match for pixel contact.
