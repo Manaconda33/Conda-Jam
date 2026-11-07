@@ -6,6 +6,7 @@ import {
   ACCEPTED_SNAPSHOT_MERGE,
   IMMUTABLE_SNAPSHOT_FILES,
   assertCurrentPinnedSource,
+  assertPullRequestEvolutionScope,
   assertVersionedSourceEvolution,
 } from './source-evolution-contract.mjs';
 
@@ -35,6 +36,19 @@ const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames',
   .trim().split('\n').filter(Boolean);
 const changedBlobIds = Object.fromEntries(changedPaths.map(path => [path, gitBlob('HEAD', path)]));
 const evolution = assertVersionedSourceEvolution(changedPaths, changedBlobIds);
+// On pull-request runs, this second check distinguishes *this PR's diff*
+// from already integrated history. Only the reviewed PR23 bootstrap may edit
+// the verifier in v1; subsequent candidates must match exact planned blobs.
+let pullRequestScope = null;
+if (process.env.CAPTAIN_STUDIO_PR_BASE) {
+  const prBase = process.env.CAPTAIN_STUDIO_PR_BASE;
+  fail(/^[a-f0-9]{40}$/.test(prBase), 'invalid trusted pull request base SHA');
+  execFileSync('git', ['merge-base', '--is-ancestor', prBase, 'HEAD']);
+  const prChanges = execFileSync('git', ['diff', '--name-only', '--no-renames', prBase, 'HEAD'], { encoding: 'utf8' })
+    .trim().split('\n').filter(Boolean);
+  const prBlobs = Object.fromEntries(prChanges.map(path => [path, gitBlob('HEAD', path)]));
+  pullRequestScope = assertPullRequestEvolutionScope(prBase, prChanges, prBlobs);
+}
 
 fail(baseline.schemaVersion === 1, 'schema version');
 fail(baseline.status === 'candidate_requires_fresh_read_only_strict_audit_and_owner_acceptance', 'review status must remain explicit');
@@ -125,6 +139,7 @@ console.log(JSON.stringify({
   sourceEvolutionPolicyVersion: evolution.policyVersion,
   changedPathsSinceSnapshot: evolution.changedPaths,
   explicitlyPinnedNewSourceVariants: evolution.sourceVariants,
+  pullRequestScope,
   sourceBlobPins: Object.keys(baseline.source.blobIds).length,
   inspectedClips: audit.inspectedClips,
   exactFindings: actualSet.size,
