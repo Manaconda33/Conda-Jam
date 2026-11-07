@@ -3,10 +3,12 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import {
   ACCEPTED_SNAPSHOT_MERGE,
+  V1_BOOTSTRAP_REVIEW_BASE,
   IMMUTABLE_SNAPSHOT_FILES,
   REVIEWED_SOURCE_VARIANTS_V1,
   V1_VERIFIER_FILES,
   assertCurrentPinnedSource,
+  assertPullRequestEvolutionScope,
   assertVersionedSourceEvolution,
 } from '../tools/captain-studio/source-evolution-contract.mjs';
 
@@ -107,4 +109,50 @@ test('frozen source baseline JSON is preserved and still refuses pilot or Myth r
   assert.equal(baseline.gates.studioPilotAuthorized, false);
   assert.equal(baseline.gates.mythUnpublishedLocalWorktreeInspected, false);
   assert.equal(baseline.strictAudit.expectations.strictOk, false);
+});
+
+test('v1 verifier bootstrap is allowed only on its exact independently reviewed base', () => {
+  assert.equal(V1_BOOTSTRAP_REVIEW_BASE, 'd18a65f1eee7f00ee9fa4d5946f3859e9108d5f1');
+  const valid=assertPullRequestEvolutionScope(V1_BOOTSTRAP_REVIEW_BASE, v1Paths, sample());
+  assert.deepEqual(valid, {policyVersion:1,prChangedFiles:5,verifierMigration:true});
+  assert.throws(
+    () => assertPullRequestEvolutionScope('a'.repeat(40), v1Paths, sample()),
+    /verifier change requires next version/,
+  );
+  assert.throws(
+    () => assertPullRequestEvolutionScope(V1_BOOTSTRAP_REVIEW_BASE, v1Paths.slice(1),
+      Object.fromEntries(v1Paths.slice(1).map(path=>[path,v1Blobs[path]]))),
+    /v1 migration scope mismatch/,
+  );
+  assert.throws(
+    () => assertPullRequestEvolutionScope(V1_BOOTSTRAP_REVIEW_BASE, [...v1Paths,'src/core/animation.js'],
+      sample({'src/core/animation.js':'b'.repeat(40)})),
+    /v1 migration scope mismatch/,
+  );
+});
+
+test('a later PR is limited to reviewed exact file variants, never verifier edits or artwork', () => {
+  const base='a'.repeat(40); // Simulates a future owner-approved main ancestry.
+  assert.deepEqual(assertPullRequestEvolutionScope(base,[guard,integrationTest],{
+    [guard]: REVIEWED_SOURCE_VARIANTS_V1[guard],
+    [integrationTest]: REVIEWED_SOURCE_VARIANTS_V1[integrationTest],
+  }), {policyVersion:1,prChangedFiles:2,verifierMigration:false});
+  assert.throws(
+    () => assertPullRequestEvolutionScope(base,[guard],{[guard]:'f'.repeat(40)}),
+    /unreviewed PR source blob/,
+  );
+  assert.throws(
+    () => assertPullRequestEvolutionScope(base,['public/assets/animation/manifest.json'],{
+      'public/assets/animation/manifest.json':'a'.repeat(40)
+    }),
+    /unapproved PR source path/,
+  );
+  assert.throws(
+    () => assertPullRequestEvolutionScope(base,[V1_VERIFIER_FILES[0]],{[V1_VERIFIER_FILES[0]]:'a'.repeat(40)}),
+    /verifier change requires next version/,
+  );
+  assert.throws(
+    () => assertPullRequestEvolutionScope(base,[guard,guard],{[guard]:REVIEWED_SOURCE_VARIANTS_V1[guard]}),
+    /duplicate PR changed paths/,
+  );
 });
