@@ -52,7 +52,7 @@ export function assertVersionedSourceEvolution(changedPaths, headBlobIds) {
   const recorded = REVIEWED_SOURCE_VARIANTS_V1;
   const seen = new Set();
   for (const path of changedPaths) {
-    fail(typeof path === 'string' && path.length > 0 && !path.includes('\\0') && !seen.has(path), 'malformed or duplicate change path');
+    fail(typeof path === 'string' && path.length > 0 && !path.includes(String.fromCharCode(0)) && !seen.has(path), 'malformed or duplicate change path');
     seen.add(path);
     fail(!immutable.has(path), 'historical snapshot must be immutable: ' + path);
     fail(verifier.has(path) || Object.hasOwn(recorded, path), 'unapproved source-evolution path: ' + path);
