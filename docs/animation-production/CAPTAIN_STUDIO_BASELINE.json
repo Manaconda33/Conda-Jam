@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "status": "candidate_requires_fresh_read_only_strict_audit_and_owner_acceptance",
+  "purpose": "Pin source, exact audit finding identities and incomplete captain gap assignments after PR #9/#10/#11 integration. Not art, workspace, pilot, deployment or release approval.",
+  "repository": "Manaconda33/Conda-Jam",
+  "snapshotDate": "2026-11-06",
+  "source": {
+    "ref": "main",
+    "commit": "895ff9c598689ce58980b504876b3b36c027f6a5",
+    "tree": "d077bcda30b9238bb58af020170b356666e08038",
+    "mergedPRs": [
+      9,
+      10,
+      11
+    ],
+    "blobIds": {
+      "public/assets/animation/manifest.json": "f5337d22b5f23f95cdf122b6d2567dc7dbf84cad",
+      "src/content/animation-assets.js": "b69687537bb864eb3b13a349ea5424245d4bf4e7",
+      "src/content/animation-ball-tracks.js": "0b84140c80b77899b7449f97fc532d76773953cc",
+      "src/content/teams.js": "f113043ac852e25f454e1c7acdfa8a9ceee7365e",
+      "src/content/supporting-donor-map.js": "41a4a0a02183629461f4a2b705981f08935630b8",
+      "src/content/supporting-animation-libraries.js": "a43df1e571261047d2a3a6b2d0e9f18d6335b1ce",
+      "src/render/animation-sprites.js": "f8cae47f1235907bae66202b0d12c4681a057230",
+      "src/render/uniform-palette.js": "2224596cd8ef91dc543dd8be954d97769a7e69c2",
+      "src/core/animation.js": "c8960deae168be703a421a8cac40d9e6efb2c6d3",
+      "docs/animation-production/ASSET_AUDIT_LATEST.json": "68e7127324c48c4521df97e0619d355c38933cd0",
+      "docs/animation-production/ASSET_AUDIT_LATEST.md": "c4ca786fc12ee96cbf62766aeb92cd58d59226c5",
+      "docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json": "8ea841fb104497efdb71f3d543e9fc7dd31320b7",
+      "tools/captain-studio/validate-package.mjs": "a7ad116d7464c1e7d1c2e2a42992f31300d4502d",
+      "tools/captain-studio/integrate-batch.mjs": "bfdcac485db2e46f206a134ff3cd5e43a7cae9df",
+      "tools/captain-studio/export-package.mjs": "932b7422b48ea0848201c38527d7892a1f0d2a22",
+      "tools/captain-studio/package-schema.json": "7e3b21415bfdd6bf559c60de634765c1ede2aa1d",
+      "tools/captain-studio/profile-baseline.mjs": "2c3a45e48bbf3316d35645ce1e97694a3931c4f2"
+    }
+  },
+  "strictAudit": {
+    "referenceReport": "docs/animation-production/ASSET_AUDIT_LATEST.json",
+    "referenceReportBlob": "68e7127324c48c4521df97e0619d355c38933cd0",
+    "humanSummary": "docs/animation-production/ASSET_AUDIT_LATEST.md",
+    "referenceGeneratedAt": "2026-11-06T17:43:23.278Z",
+    "expectedFindingSignatures": "docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json",
+    "expectations": {
+      "athletes": 105,
+      "captains": 35,
+      "supportAthletes": 70,
+      "actionsPerAthlete": 29,
+      "inspectedClips": 2397,
+      "originalAuthoredClips": 570,
+      "derivedPaletteClips": 1827,
+      "uniqueSourceLibraries": 42,
+      "uniqueSourceAtlases": 570,
+      "uniqueSourceDrawings": 5489,
+      "missingClipAssignments": 706,
+      "nonVerbatimPrompts": 40,
+      "totalFindings": 746,
+      "targetShortfalls": 0,
+      "strictOk": false
+    },
+    "note": "Counts and expected identities reflect last authoritative tracked combined audit. The new verification workflow must freshly regenerate the strict audit against source blobs pinned here, compare all 746 identities, and fail on drift."
+  },
+  "gapMatrix": {
+    "path": "docs/animation-production/CAPTAIN_GAP_MATRIX.csv",
+    "source": "exact missing-clip records in pinned PR17_AUDIT_EXPECTED_SIGNATURES.json",
+    "rows": 706,
+    "incompleteCaptains": 28,
+    "directionCounts": {
+      "left": 48,
+      "right": 658
+    },
+    "mythMissing": 21,
+    "krakenMissing": 0,
+    "classification": "original-authored",
+    "caution": "Not worker assignments or proof that candidate Myth artwork is registered. Directions are explicit; mirror assumptions do not erase rows."
+  },
+  "branchRetirement": {
+    "gitHistoryStatus": "all listed branch heads are ancestors of main; zero unmerged commits and zero open PR dependents as of snapshot",
+    "localWorktreeDependenciesVerified": false,
+    "remoteBranchesDeleted": false,
+    "manualRecheckRequired": true,
+    "branches": [
+      {
+        "name": "codex/captain-studio-architecture",
+        "head": "fd61909ce7f51a636805e3023a406eb0c6404f8c"
+      },
+      {
+        "name": "codex/captain-studio-infrastructure",
+        "head": "475b63de08cbfb0ed0f6f17daab9a1fa8e55688f"
+      },
+      {
+        "name": "codex/rejected-prompt-exception",
+        "head": "690ec780343a164f40bf1d8053d2f55676668fe6"
+      }
+    ]
+  },
+  "gates": {
+    "studioPilotAuthorized": false,
+    "additionalCaptainLanesAuthorized": false,
+    "newArtAcceptedByThisSnapshot": false,
+    "mythUnpublishedLocalWorktreeInspected": false,
+    "resourceLimitsMeasuredFromAcceptedBundles": false,
+    "independentVisualIssuesOpen": [
+      18,
+      19
+    ],
+    "runtimeVerification": "PR10 full 3045-action parity and 645-test run passed; PR11 657-test premerge run passed; current full-source strict audit must be run anew for this candidate"
+  }
+}

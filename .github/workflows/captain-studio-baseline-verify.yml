@@ -1,0 +1,88 @@
+name: Verify post-PR11 Captain Studio baseline (read only)
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/captain-studio-baseline-verify.yml'
+      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE.json'
+      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE_2026-11-06.md'
+      - 'docs/animation-production/CAPTAIN_GAP_MATRIX.csv'
+      - 'docs/animation-production/ASSET_AUDIT_LATEST.*'
+      - 'docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json'
+      - 'src/**'
+      - 'public/assets/animation/**'
+      - 'tools/captain-studio/**'
+      - 'tools/audit-animation-assets.mjs'
+      - 'tools/animation-assets.mjs'
+      - 'tools/check-pr17-audit-identities.mjs'
+      - 'tests/captain-studio-baseline-contract.test.js'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-baseline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out candidate and complete runtime asset sources
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 15
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /package.json
+            /package-lock.json
+            /src/
+            /public/
+            /tools/*.mjs
+            /tools/*.js
+            /tools/captain-studio/
+            /docs/animation-production/CAPTAIN_STUDIO_BASELINE.json
+            /docs/animation-production/CAPTAIN_GAP_MATRIX.csv
+            /docs/animation-production/ASSET_AUDIT_LATEST.json
+            /docs/animation-production/ASSET_AUDIT_LATEST.md
+            /docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies and bounded image decoder
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 180s npm ci
+          if ! command -v identify >/dev/null 2>&1 || ! command -v convert >/dev/null 2>&1; then
+            sudo timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 update
+            sudo env DEBIAN_FRONTEND=noninteractive timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 -o Acquire::https::Timeout=30 install -y imagemagick
+          fi
+          command -v identify
+          command -v convert
+
+      - name: Generate strict audit without altering tracked reports
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ci-studio-baseline
+          node tools/audit-animation-assets.mjs --json ci-studio-baseline/audit.json --markdown ci-studio-baseline/audit.md --report-only
+
+      - name: Verify all inherited finding identities and pinned matrix
+        shell: bash
+        run: |
+          set -euo pipefail
+          node tools/check-pr17-audit-identities.mjs ci-studio-baseline/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-studio-baseline/identities.json
+          node tools/captain-studio/verify-baseline.mjs ci-studio-baseline/audit.json | tee ci-studio-baseline/verification.json
+          test -z "$(git status --porcelain --untracked-files=no)"
+
+      - name: Upload read-only audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: captain-studio-baseline-readonly-evidence
+          path: ci-studio-baseline/
+          retention-days: 7
+          if-no-files-found: warn
