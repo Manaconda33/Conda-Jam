@@ -6,6 +6,7 @@ on:
       - '.github/workflows/captain-studio-baseline-verify.yml'
       - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE.json'
       - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE_2026-11-06.md'
+      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md'
       - 'docs/animation-production/CAPTAIN_GAP_MATRIX.csv'
       - 'docs/animation-production/ASSET_AUDIT_LATEST.*'
       - 'docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json'
@@ -16,6 +17,9 @@ on:
       - 'tools/animation-assets.mjs'
       - 'tools/check-pr17-audit-identities.mjs'
       - 'tests/captain-studio-baseline-contract.test.js'
+      - 'tests/captain-studio-source-evolution.test.js'
+      - 'tests/captain-studio-integration.test.js'
+      - 'tests/captain-studio-export.test.js'
   workflow_dispatch:
 
 permissions:
@@ -29,7 +33,7 @@ jobs:
       - name: Check out candidate and complete runtime asset sources
         uses: actions/checkout@v4
         with:
-          fetch-depth: 15
+          fetch-depth: 50
           filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -70,7 +74,7 @@ jobs:
           mkdir -p ci-studio-baseline
           node tools/audit-animation-assets.mjs --json ci-studio-baseline/audit.json --markdown ci-studio-baseline/audit.md --report-only
 
-      - name: Verify all inherited finding identities and pinned matrix
+      - name: Verify immutable PR20 snapshot, scoped v1 source evolution and inherited audit identities
         shell: bash
         run: |
           set -euo pipefail
