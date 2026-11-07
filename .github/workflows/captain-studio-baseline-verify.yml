@@ -30,7 +30,7 @@ jobs:
             /public/
             /tools/*.mjs
             /tools/*.js
-            /tools/captain-studio/verify-baseline.mjs
+            /tools/captain-studio/
             /docs/animation-production/CAPTAIN_STUDIO_BASELINE.json
             /docs/animation-production/CAPTAIN_GAP_MATRIX.csv
             /docs/animation-production/ASSET_AUDIT_LATEST.json
