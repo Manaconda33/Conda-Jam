@@ -1,7 +1,13 @@
 import { readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
-import { assertBaselineContract, assertApprovedChangePaths } from './baseline-contract.mjs';
+import { assertBaselineContract } from './baseline-contract.mjs';
+import {
+  ACCEPTED_SNAPSHOT_MERGE,
+  IMMUTABLE_SNAPSHOT_FILES,
+  assertCurrentPinnedSource,
+  assertVersionedSourceEvolution,
+} from './source-evolution-contract.mjs';
 
 const baseline = JSON.parse(readFileSync('docs/animation-production/CAPTAIN_STUDIO_BASELINE.json', 'utf8'));
 const signatures = JSON.parse(readFileSync(baseline.strictAudit.expectedFindingSignatures, 'utf8'));
@@ -10,14 +16,25 @@ if (!auditFile) throw Error('Usage: node tools/captain-studio/verify-baseline.mj
 const audit = JSON.parse(readFileSync(resolve(auditFile), 'utf8'));
 
 const fail = (ok, message) => { if (!ok) throw Error('Captain Studio baseline verification failed: ' + message); };
-const hashObject = file => execFileSync('git', ['hash-object', file], { encoding: 'utf8' }).trim();
-
-// The frozen contract is deliberately independent of editable baseline JSON.
+// The old PR #20 source snapshot remains immutable. Read the exact Git tree
+// object at its historical commit, rather than assuming HEAD cannot evolve.
+const gitBlob = (rev, path) => {
+  const sha = execFileSync('git', ['rev-parse', '--verify', rev + ':' + path], { encoding: 'utf8' }).trim();
+  fail(/^[a-f0-9]{40}$/.test(sha), 'Git object missing at ' + rev + ':' + path);
+  return sha;
+};
 assertBaselineContract(baseline);
-// The PR candidate must not change source art or game runtime outside these review files.
-const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', baseline.source.commit, 'HEAD'], { encoding: 'utf8' })
+execFileSync('git', ['merge-base', '--is-ancestor', ACCEPTED_SNAPSHOT_MERGE, 'HEAD']);
+for (const path of IMMUTABLE_SNAPSHOT_FILES) {
+  fail(gitBlob('HEAD', path) === gitBlob(ACCEPTED_SNAPSHOT_MERGE, path),
+    'accepted PR20 historical snapshot mutated: ' + path);
+}
+// The reviewed PR20 merge is the start of source evolution v1. The complete
+// committed diff, not a candidate-authored manifest, determines its scope.
+const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', ACCEPTED_SNAPSHOT_MERGE, 'HEAD'], { encoding: 'utf8' })
   .trim().split('\n').filter(Boolean);
-assertApprovedChangePaths(changedPaths);
+const changedBlobIds = Object.fromEntries(changedPaths.map(path => [path, gitBlob('HEAD', path)]));
+const evolution = assertVersionedSourceEvolution(changedPaths, changedBlobIds);
 
 fail(baseline.schemaVersion === 1, 'schema version');
 fail(baseline.status === 'candidate_requires_fresh_read_only_strict_audit_and_owner_acceptance', 'review status must remain explicit');
@@ -27,7 +44,11 @@ const tree = execFileSync('git', ['rev-parse', baseline.source.commit + '^{tree}
 fail(tree === baseline.source.tree, 'pinned main source tree does not match');
 execFileSync('git', ['merge-base', '--is-ancestor', baseline.source.commit, 'HEAD']);
 for (const [path, expectedSha] of Object.entries(baseline.source.blobIds)) {
-  fail(hashObject(path) === expectedSha, 'pinned source blob drift at ' + path);
+  fail(gitBlob(baseline.source.commit, path) === expectedSha,
+    'historical source pin drift at ' + path);
+  // PR22's resource guard is explicitly byte-pinned in v1. No other
+  // previously pinned source may drift without a later reviewed policy.
+  assertCurrentPinnedSource(path, expectedSha, gitBlob('HEAD', path));
 }
 fail(baseline.strictAudit.referenceReportBlob === baseline.source.blobIds[baseline.strictAudit.referenceReport], 'tracked audit blob pin');
 fail(signatures.version === 1 && signatures.signatures.length === 746, 'identity baseline length');
@@ -100,6 +121,10 @@ fail(baseline.gates.resourceLimitsMeasuredFromAcceptedBundles === false, 'unmeas
 console.log(JSON.stringify({
   passed: true,
   exactSourceCommit: baseline.source.commit,
+  acceptedSnapshotMerge: ACCEPTED_SNAPSHOT_MERGE,
+  sourceEvolutionPolicyVersion: evolution.policyVersion,
+  changedPathsSinceSnapshot: evolution.changedPaths,
+  explicitlyPinnedNewSourceVariants: evolution.sourceVariants,
   sourceBlobPins: Object.keys(baseline.source.blobIds).length,
   inspectedClips: audit.inspectedClips,
   exactFindings: actualSet.size,
