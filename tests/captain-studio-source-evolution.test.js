@@ -95,10 +95,9 @@ test('missing blobs, deletions, invented changes, or duplicate path inventories 
 test('the CI workflow triggers on both v1 policy changes and the proposed PR22 source', () => {
   const workflow = readFileSync(new URL('../.github/workflows/captain-studio-baseline-verify.yml', import.meta.url), 'utf8');
   for (const name of [
-    'source-evolution-contract.mjs',
+    'tools/captain-studio/**',
     'captain-studio-source-evolution.test.js',
     'CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md',
-    'integrate-batch.mjs',
     'captain-studio-integration.test.js',
   ]) assert.ok(workflow.includes(name), 'missing workflow trigger: '+name);
 });
