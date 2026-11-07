@@ -9,6 +9,7 @@ import { exportCaptainPackage } from '../tools/captain-studio/export-package.mjs
 import { computeArtworkDigest, computeTrackDigest } from '../tools/captain-studio/package-hash.mjs';
 import { issueReviewRequest, reviewRequestHash } from '../tools/captain-studio/review-requests.mjs';
 import { validatePackage } from '../tools/captain-studio/validate-package.mjs';
+import { integrateCaptainBatch } from '../tools/captain-studio/integrate-batch.mjs';
 import { deflateSync } from 'node:zlib';
 import { exportCaptainPackage as cliExportCaptainPackage } from '../tools/export-captain-package.mjs';
 
@@ -35,6 +36,13 @@ async function fixture(t, { generationId = 'imggen-reef-001', includeUndeclared 
     return git('rev-parse', 'HEAD');
   };
   await put('README.md', 'pinned baseline');
+  // A minimal but real tracked runtime base makes it possible to exercise the
+  // complete integration path, rather than replacing package validation with a stub.
+  const baseManifest = { version: 1, characters: { 'reef-captain': { directions: { right: {} } } } };
+  await put('package.json', JSON.stringify({ type: 'module' }) + '\n');
+  await put('public/assets/animation/manifest.json', JSON.stringify(baseManifest) + '\n');
+  await put('src/content/animation-assets.js', `export const animationAssetManifest = ${JSON.stringify(baseManifest)};\n`);
+  await put('src/content/animation-ball-tracks.js', 'export const athleteBallTracks = {};\nexport const athleteBallTrackProvenance = {};\n');
   const baseCommit = commit('baseline');
 
   const prefix = 'tools/generate-art/studio/reef-captain';
@@ -271,4 +279,117 @@ test('exporter rejects undeclared changed files and package namespace mismatches
     baseCommit: mismatched.baseCommit, workerCommit: mismatched.workerCommit, assignment: mismatched.assignment,
     outputRoot: mismatched.outputRoot,
   }), error => error.code === 'PACKAGE_IDENTITY_MISMATCH');
+});
+
+const syntheticAuditBefore = {
+  generatedAt: '2026-11-07T00:00:00Z',
+  missingClipCount: 1,
+  errors: [{ code: 'missing-clip', athlete: 'reef-captain', direction: 'right', clip: 'pass', classification: 'original-authored' }],
+  targetShortfalls: [],
+};
+const syntheticAuditAfter = {
+  ...syntheticAuditBefore,
+  generatedAt: '2026-11-07T01:00:00Z',
+  missingClipCount: 0,
+  errors: [],
+};
+const integrationConfig = {
+  integratorVersion: '1', schemaVersion: 1, registryGeneratorVersion: '1',
+  strictAuditConfig: { mode: 'strict' },
+  baselineFindingSetHashes: { audit: 'f'.repeat(64) },
+  mirrorPolicyHash: 'b'.repeat(64), resourcePolicyHash: 'c'.repeat(64),
+  resourceLimits: {
+    maxBatchPackages: 8,
+    maxDecodedPixelsPerImage: 64_000_000,
+    maxInputFileBytes: 64 * 1024 * 1024,
+    maxPackageBytes: 2 * 1024 * 1024,
+    maxBatchBytes: 8 * 1024 * 1024,
+  },
+};
+async function exportedIntegrationFixture(t) {
+  const f = await fixture(t);
+  const exported = await exportCaptainPackage({
+    baseRoot: f.baseRoot, contributionRoot: f.root, captainId: 'reef-captain',
+    baseCommit: f.baseCommit, workerCommit: f.workerCommit,
+    assignment: f.assignment, outputRoot: f.outputRoot,
+  });
+  assert.equal(exported.state, 'accepted');
+  const manifestRoot = path.join(f.outputRoot, 'reef-captain');
+  const manifestPath = path.join(manifestRoot, 'package.json');
+  const outputRoot = await mkdtemp(path.join(os.tmpdir(), 'captain-real-e2e-integration-'));
+  t.after(() => rm(outputRoot, { recursive: true, force: true }));
+  const baseline = { ...f.baseline, audit: syntheticAuditBefore };
+  const packageRoots = [{ packageRoot: f.root, manifestRoot, manifestRelativePath: 'package.json' }];
+  const options = { baseRoot: f.baseRoot, baseCommit: f.baseCommit, packageRoots, outputRoot, baseline, ...integrationConfig };
+  return { ...f, exported, manifestRoot, manifestPath, integrationOutputRoot: outputRoot, options };
+}
+
+test('real exporter, collector, default validator and integrator yield identical staged trees without ref promotion', async t => {
+  const f = await exportedIntegrationFixture(t);
+  const baseManifestFile = path.join(f.baseRoot, 'public/assets/animation/manifest.json');
+  const baseManifestBefore = await readFile(baseManifestFile);
+  const baseHead = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: f.baseRoot, encoding: 'utf8' }).trim();
+  const run = async timestamp => integrateCaptainBatch({
+    ...f.options,
+    auditRunner: async ({ root, acceptedPackages }) => {
+      assert.deepEqual(acceptedPackages.map(row => row.captainId), ['reef-captain']);
+      const staged = JSON.parse(await readFile(path.join(root, 'public/assets/animation/manifest.json'), 'utf8'));
+      assert.ok(staged.characters['reef-captain'].directions.right.pass, 'the real integration must register the intended atlas before audit');
+      return { ...syntheticAuditAfter, generatedAt: timestamp };
+    },
+  });
+  const first = await run('2026-11-07T01:00:00Z');
+  assert.equal(first.ok, true, JSON.stringify(first.errors ?? first.rejectedPackages));
+  assert.equal(first.acceptedPackages.length, 1);
+  assert.equal(first.acceptedPackages[0].packageId, f.exported.packageId);
+  assert.match(first.treeSha, /^[a-f0-9]{40}$/);
+  const mergedManifest = JSON.parse(await readFile(path.join(first.stagingRoot, 'public/assets/animation/manifest.json'), 'utf8'));
+  const registered = mergedManifest.characters['reef-captain'].directions.right.pass;
+  assert.equal(registered.reviewed, true);
+  assert.equal(registered.provenance.packageId, f.exported.packageId);
+  assert.equal(registered.provenance.generationId, 'imggen-reef-001');
+  assert.equal(registered.provenance.prompt, 'fixture:tools/generate-art/studio/reef-captain/prompts/pass.md');
+  assert.deepEqual(registered.frames, [{ x: 0, y: 0, w: 32, h: 48 }]);
+  const stageTrackFile = await readFile(path.join(first.stagingRoot, 'src/content/animation-ball-tracks.js'), 'utf8');
+  assert.match(stageTrackFile, /reef-captain/);
+  assert.match(stageTrackFile, /pass/);
+  assert.deepEqual(await readFile(baseManifestFile), baseManifestBefore, 'base manifest bytes are immutable');
+  assert.equal(execFileSync('git', ['rev-parse', 'HEAD'], { cwd: f.baseRoot, encoding: 'utf8' }).trim(), baseHead, 'no branch or ref promotion');
+  assert.equal(execFileSync('git', ['status', '--porcelain=v1', '--untracked-files=all'], { cwd: f.baseRoot, encoding: 'utf8' }).trim(), '', 'base worktree remains clean');
+  const second = await run('2030-01-01T00:00:00Z');
+  assert.equal(second.ok, true, JSON.stringify(second.errors ?? second.rejectedPackages));
+  assert.equal(second.treeSha, first.treeSha, 'audit clock changes must not change the output Git tree');
+  assert.equal(second.reportBytes, first.reportBytes);
+});
+
+test('real integration rejects an exported package with a forged worker-as-reviewer approval', async t => {
+  const f = await exportedIntegrationFixture(t);
+  const manifest = JSON.parse(await readFile(f.manifestPath, 'utf8'));
+  manifest.reviewRecord.artworkApproval.reviewerSessionId = manifest.reviewRecord.workerSessionId;
+  await writeFile(f.manifestPath, JSON.stringify(manifest) + '\n');
+  const result = await integrateCaptainBatch({
+    ...f.options,
+    auditRunner: async () => { throw Error('A rejected review must not reach the integration audit'); },
+  });
+  assert.equal(result.ok, false);
+  assert.equal(result.treeSha, null);
+  assert.equal(result.stagingRoot, null);
+  assert.equal(result.acceptedPackages.length, 0);
+  assert.ok(result.rejectedPackages.some(row => row.reasonCodes.includes('REVIEW_DIGEST_OR_SESSION_MISMATCH')),
+    JSON.stringify(result.rejectedPackages));
+});
+
+test('real validated package is held when the new strict audit adds a finding', async t => {
+  const f = await exportedIntegrationFixture(t);
+  const result = await integrateCaptainBatch({
+    ...f.options,
+    auditRunner: async () => ({
+      ...syntheticAuditAfter,
+      errors: [{ code: 'atlas-opacity-regression', athlete: 'reef-captain' }],
+    }),
+  });
+  assert.equal(result.ok, false);
+  assert.equal(result.treeSha, null, 'must not emit a promotable tree from a failing audit');
+  assert.ok(result.rejectionCodes.includes('NEW_AUDIT_FINDING'), JSON.stringify(result.rejectionCodes));
+  assert.equal(execFileSync('git', ['rev-parse', 'HEAD'], { cwd: f.baseRoot, encoding: 'utf8' }).trim(), f.baseCommit);
 });
