@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { resolve } from 'node:path';
+import { assertBaselineContract, assertApprovedChangePaths } from './baseline-contract.mjs';
 
 const baseline = JSON.parse(readFileSync('docs/animation-production/CAPTAIN_STUDIO_BASELINE.json', 'utf8'));
 const signatures = JSON.parse(readFileSync(baseline.strictAudit.expectedFindingSignatures, 'utf8'));
@@ -10,6 +11,13 @@ const audit = JSON.parse(readFileSync(resolve(auditFile), 'utf8'));
 
 const fail = (ok, message) => { if (!ok) throw Error('Captain Studio baseline verification failed: ' + message); };
 const hashObject = file => execFileSync('git', ['hash-object', file], { encoding: 'utf8' }).trim();
+
+// The frozen contract is deliberately independent of editable baseline JSON.
+assertBaselineContract(baseline);
+// The PR candidate must not change source art or game runtime outside these review files.
+const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', baseline.source.commit, 'HEAD'], { encoding: 'utf8' })
+  .trim().split('\n').filter(Boolean);
+assertApprovedChangePaths(changedPaths);
 
 fail(baseline.schemaVersion === 1, 'schema version');
 fail(baseline.status === 'candidate_requires_fresh_read_only_strict_audit_and_owner_acceptance', 'review status must remain explicit');
