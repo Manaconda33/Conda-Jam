@@ -16,6 +16,8 @@ This is an independent versioned verification policy for source changes *after* 
 | PR #21 end-to-end synthetic integration tests | `tests/captain-studio-export.test.js` at blob `3d9a9079dc0c17908f7f0f617e4bb285899c47b5` | Already merged to main at `d18a65f1eee7f00ee9fa4d5946f3859e9108d5f1`. |
 | PR #22 package file-count enforcement | `tools/captain-studio/integrate-batch.mjs` at blob `87627b0702ce037f8268848003bac20b585a0357`; `tests/captain-studio-integration.test.js` at blob `6ef46fbbdc2877e8d15f38489d6a6e3cf7555380` | **Not merged or authorized**. These exact hashes may be *evaluated by CI* after the verifier migration is separately approved. Passing does not authorize PR #22's merge. |
 
+For pull requests, the check uses GitHub's own `pull_request.base.sha` plus the complete candidate Git tree diff **against that base**. The v1 verifier migration is allowed only as a five-file change against the already accepted PR #21 merge `d18a65f1eee7f00ee9fa4d5946f3859e9108d5f1`. A later PR cannot edit the v1 verifier or its workflow under the same policy; it needs a separately reviewed v2 policy. Ordinary engineering PRs must instead change only individually byte-pinned paths. Historical PR20-to-HEAD comparison remains a separate cumulative gate.
+
 Current-head content must remain identical to original source pins **except** when a precise reviewed policy record permits an exact new Git blob. Neither a new README nor a candidate-authored package manifest can grant itself write permission. Future new source versions require a new reviewed version of this policy; never retroactively repin or edit the PR #20 historical source record.
 
 ## CI and review requirements
