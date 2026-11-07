@@ -5,8 +5,17 @@ on:
     paths:
       - '.github/workflows/captain-studio-baseline-verify.yml'
       - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE.json'
+      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE_2026-11-06.md'
       - 'docs/animation-production/CAPTAIN_GAP_MATRIX.csv'
-      - 'tools/captain-studio/verify-baseline.mjs'
+      - 'docs/animation-production/ASSET_AUDIT_LATEST.*'
+      - 'docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json'
+      - 'src/**'
+      - 'public/assets/animation/**'
+      - 'tools/captain-studio/**'
+      - 'tools/audit-animation-assets.mjs'
+      - 'tools/animation-assets.mjs'
+      - 'tools/check-pr17-audit-identities.mjs'
+      - 'tests/captain-studio-baseline-contract.test.js'
   workflow_dispatch:
 
 permissions:
