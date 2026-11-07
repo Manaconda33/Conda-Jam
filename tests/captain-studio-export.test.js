@@ -300,6 +300,7 @@ const integrationConfig = {
   mirrorPolicyHash: 'b'.repeat(64), resourcePolicyHash: 'c'.repeat(64),
   resourceLimits: {
     maxBatchPackages: 8,
+    maxPackageFiles: 64,
     maxDecodedPixelsPerImage: 64_000_000,
     maxInputFileBytes: 64 * 1024 * 1024,
     maxPackageBytes: 2 * 1024 * 1024,
