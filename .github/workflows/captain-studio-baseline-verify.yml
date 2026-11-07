@@ -76,6 +76,8 @@ jobs:
 
       - name: Verify immutable PR20 snapshot, scoped v1 source evolution and inherited audit identities
         shell: bash
+        env:
+          CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
         run: |
           set -euo pipefail
           node tools/check-pr17-audit-identities.mjs ci-studio-baseline/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-studio-baseline/identities.json
