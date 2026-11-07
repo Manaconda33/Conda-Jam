@@ -3,6 +3,7 @@
 // must equal its historical code. This policy permits only named, byte-pinned
 // changesets. CI passage never substitutes for independent review/owner approval.
 export const ACCEPTED_SNAPSHOT_MERGE = '2654be8c094900200dd03910a99552b6cf1c2c07';
+export const V1_BOOTSTRAP_REVIEW_BASE = 'd18a65f1eee7f00ee9fa4d5946f3859e9108d5f1';
 
 export const IMMUTABLE_SNAPSHOT_FILES = Object.freeze([
   'docs/animation-production/CAPTAIN_STUDIO_BASELINE.json',
@@ -70,4 +71,36 @@ export function assertCurrentPinnedSource(path, originalGitBlob, headGitBlob) {
     (Object.hasOwn(REVIEWED_SOURCE_VARIANTS_V1, path) &&
       headGitBlob === REVIEWED_SOURCE_VARIANTS_V1[path]),
     'unreviewed current source-pin drift: ' + path);
+}
+
+/**
+ * PR-level review boundary, independently derived from GitHub's trusted PR base
+ * SHA and the full Git tree diff from that base to the candidate merge HEAD.
+ * Future PRs cannot silently edit the verifier itself under v1.
+ */
+export function assertPullRequestEvolutionScope(baseCommit, pullRequestChanges, headBlobIds) {
+  fail(sha(baseCommit) && Array.isArray(pullRequestChanges) && pullRequestChanges.length > 0,
+    'missing PR base or changed paths');
+  fail(headBlobIds && typeof headBlobIds === 'object' && !Array.isArray(headBlobIds),
+    'missing PR HEAD blobs');
+  const unique = new Set(pullRequestChanges);
+  fail(unique.size === pullRequestChanges.length, 'duplicate PR changed paths');
+  fail(Object.keys(headBlobIds).length === unique.size &&
+    Object.keys(headBlobIds).every(path => unique.has(path)), 'PR blob inventory mismatch');
+  const verifier = new Set(V1_VERIFIER_FILES);
+  const touchesVerifier = pullRequestChanges.some(path => verifier.has(path));
+  if (touchesVerifier) {
+    // This explicit bootstrap is a single proposed verifier migration against
+    // the previously merged test-only main. A later verifier rewrite needs v2.
+    fail(baseCommit === V1_BOOTSTRAP_REVIEW_BASE, 'verifier change requires next version and separate review');
+    fail(pullRequestChanges.length === verifier.size &&
+      V1_VERIFIER_FILES.every(path => unique.has(path)), 'v1 migration scope mismatch');
+  } else {
+    for (const path of pullRequestChanges) {
+      fail(Object.hasOwn(REVIEWED_SOURCE_VARIANTS_V1, path), 'unapproved PR source path: ' + path);
+      fail(headBlobIds[path] === REVIEWED_SOURCE_VARIANTS_V1[path], 'unreviewed PR source blob: ' + path);
+    }
+  }
+  for (const path of pullRequestChanges) fail(sha(headBlobIds[path]), 'missing PR Git blob: ' + path);
+  return {policyVersion:1,prChangedFiles:pullRequestChanges.length,verifierMigration:touchesVerifier};
 }
