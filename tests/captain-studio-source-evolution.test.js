@@ -87,6 +87,7 @@ test('missing blobs, deletions, invented changes, or duplicate path inventories 
   assert.throws(() => assertVersionedSourceEvolution([], {}), /missing changed-path inventory/);
   assert.throws(() => assertVersionedSourceEvolution([...v1Paths, guard], sample()), /missing or deleted HEAD Git blob/);
   assert.throws(() => assertVersionedSourceEvolution([...v1Paths, v1Paths[0]], sample()), /duplicate change path/);
+  assert.throws(() => assertVersionedSourceEvolution([...v1Paths, 'bad' + String.fromCharCode(0) + 'path'], sample()), /malformed or duplicate change path/);
   assert.throws(() => assertVersionedSourceEvolution(v1Paths, sample({extra:'a'.repeat(40)})), /HEAD inventory differs/);
   assert.throws(() => assertVersionedSourceEvolution(v1Paths, sample({[v1Paths[0]]:''})), /missing or deleted HEAD Git blob/);
 });
