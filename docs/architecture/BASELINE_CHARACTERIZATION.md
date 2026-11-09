@@ -53,6 +53,8 @@
 
 These tests target existing core behavior and must pass without changing production code. They do not claim that browser substitution, physical controllers or touchscreen interruption has been tested. The browser cases above are required before approving any behavior change.
 
+**CI review gate:** The stacked v3 baseline workflow must run its dedicated `match-control-tests` job (`npm test`, lint, content validation and league simulation), in addition to the exact historical art audit. A strict-audit-only green check is insufficient evidence that these tests execute. Record the complete check status before PR review/merge.
+
 ## Constraints on subsequent PRs
 
 - Controller ownership is **stable court slot**, resolved to the currently active athlete ID each frame. The match simulation remains authoritative for period/ball/action state.
