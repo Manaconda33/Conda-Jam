@@ -99,3 +99,34 @@ jobs:
           path: ci-studio-baseline/
           retention-days: 7
           if-no-files-found: warn
+
+  match-control-tests:
+    name: Full gameplay checks for scoped match-control PRs
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out full PR candidate
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install pinned dependencies
+        run: npm ci
+      - name: Ensure image tooling for existing tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v identify >/dev/null 2>&1 || ! command -v convert >/dev/null 2>&1; then
+            sudo timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 update
+            sudo env DEBIAN_FRONTEND=noninteractive timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 install --yes imagemagick
+          fi
+      - name: Run all tests including characterization
+        run: npm test
+      - name: Check syntax
+        run: npm run lint
+      - name: Validate content
+        run: npm run validate:content
+      - name: Verify deterministic league simulation
+        run: npm run simulate:league
