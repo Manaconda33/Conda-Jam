@@ -31,7 +31,7 @@ const baselineAudit={generatedAt:'volatile',missingClipCount:2,errors:[
   {code:'missing-clip',athlete:'marsh-captain',clip:'receive',direction:'left'},
   {code:'prompt-lineage',athlete:'reef-captain',message:'inherited finding'},
 ],targetShortfalls:[],captains:{'reef-captain':{missing:[{clip:'pass',direction:'right'}]},'marsh-captain':{missing:[{clip:'receive',direction:'left'}]}}};
-const config={integratorVersion:'1',schemaVersion:1,registryGeneratorVersion:'1',strictAuditConfig:{mode:'strict'},baselineFindingSetHashes:{audit:'f'.repeat(64)},mirrorPolicyHash:'a'.repeat(64),resourcePolicyHash:'b'.repeat(64),resourceLimits:{maxBatchPackages:8,maxDecodedPixelsPerImage:64_000_000,maxInputFileBytes:64*1024*1024,maxPackageBytes:1024*1024,maxBatchBytes:8*1024*1024}};
+const config={integratorVersion:'1',schemaVersion:1,registryGeneratorVersion:'1',strictAuditConfig:{mode:'strict'},baselineFindingSetHashes:{audit:'f'.repeat(64)},mirrorPolicyHash:'a'.repeat(64),resourcePolicyHash:'b'.repeat(64),resourceLimits:{maxBatchPackages:8,maxPackageFiles:64,maxDecodedPixelsPerImage:64_000_000,maxInputFileBytes:64*1024*1024,maxPackageBytes:1024*1024,maxBatchBytes:8*1024*1024}};
 
 async function packageFixture(t, root, captainId, packageId, clip, direction, assetPath, extraPath) {
   const packageRoot=await mkdtemp(path.join(os.tmpdir(),`captain-package-${captainId}-`));
@@ -201,4 +201,62 @@ test('ref promotion uses compare-and-swap and rejects protected or unapproved re
   await promoteIntegration({repositoryRoot:base.root,expectedRefSha:old,integrationCommit:next,targetRef:'refs/heads/review/integration',allowedTargetRefs:['refs/heads/review/integration']});
   await promoteIntegration({repositoryRoot:base.root,expectedRefSha:old,integrationCommit:next,targetRef:'refs/heads/review/integration',allowedTargetRefs:['refs/heads/review/integration']});
   assert.equal(base.git('rev-parse','refs/heads/review/integration'),next);
+});
+
+test('integrator rejects oversized declared inventory before worker Git history, validation, or staging', async t => {
+  const base=await repository(t), output=await mkdtemp(path.join(os.tmpdir(),'captain-integration-file-limit-'));
+  t.after(()=>rm(output,{recursive:true,force:true}));
+  const pkg=await packageFixture(t,base,'reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp');
+  // An invalid worker commit would fail during Git history traversal. The file-count
+  // rejection must win first, proving the collector was not entered.
+  const manifestPath=path.join(pkg.manifestRoot,'package.json');
+  const manifest=JSON.parse(await readFile(manifestPath,'utf8'));
+  manifest.reviewRecord.workerCommit='0'.repeat(40);
+  await writeFile(manifestPath,JSON.stringify(manifest));
+  let called=false;
+  const result=await integrateCaptainBatch({
+    baseRoot:base.root,baseCommit:base.base,packageRoots:[pkg],outputRoot:output,
+    baseline:{audit:baselineAudit,dependencies:[]},
+    validatePackageImpl:async()=>{called=true;return valid('reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp');},
+    ...config,
+    resourceLimits:{...config.resourceLimits,maxPackageFiles:1},
+  });
+  assert.equal(result.ok,false);
+  assert.equal(called,false,'file count must be enforced before expensive validation');
+  assert.equal(result.treeSha,null,'no promotable tree on file count overflow');
+  assert.equal(result.stagingRoot,null,'no staging on file count overflow');
+  assert.ok(result.rejectedPackages.some(row=>row.reasonCodes.includes('PACKAGE_FILE_LIMIT')),JSON.stringify(result.rejectedPackages));
+  assert.equal(base.git('rev-parse','HEAD'),base.base);
+});
+
+test('integrator accepts a package exactly at the declared file-count boundary', async t => {
+  const base=await repository(t), output=await mkdtemp(path.join(os.tmpdir(),'captain-integration-file-boundary-'));
+  t.after(()=>rm(output,{recursive:true,force:true}));
+  const pkg=await packageFixture(t,base,'reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp');
+  const result=await integrateCaptainBatch({
+    baseRoot:base.root,baseCommit:base.base,packageRoots:[pkg],outputRoot:output,
+    baseline:{audit:baselineAudit,dependencies:[]},
+    auditRunner:async()=>({...baselineAudit,missingClipCount:1,errors:baselineAudit.errors.filter(row=>row.code!=='missing-clip'||row.athlete!=='reef-captain')}),
+    validatePackageImpl:async()=>valid('reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp'),
+    ...config,resourceLimits:{...config.resourceLimits,maxPackageFiles:2},
+  });
+  assert.equal(result.ok,true,JSON.stringify(result));
+  assert.equal(result.acceptedPackages.length,1);
+  assert.equal(base.git('rev-parse','HEAD'),base.base);
+});
+
+test('integrator rejects missing or invalid package file count policy before staging', async t => {
+  const base=await repository(t), output=await mkdtemp(path.join(os.tmpdir(),'captain-integration-invalid-file-policy-'));
+  t.after(()=>rm(output,{recursive:true,force:true}));
+  for (const invalid of [undefined,0,-1,1.5]) {
+    const resourceLimits={...config.resourceLimits,maxPackageFiles:invalid};
+    const result=await integrateCaptainBatch({
+      baseRoot:base.root,baseCommit:base.base,packageRoots:[],outputRoot:output,
+      baseline:{audit:baselineAudit},...config,resourceLimits,
+    });
+    assert.equal(result.ok,false,'invalid policy: '+invalid);
+    assert.ok(result.rejectionCodes.includes('RESOURCE_LIMITS_INVALID'),JSON.stringify(result.rejectionCodes));
+    assert.equal(result.stagingRoot,null);
+    assert.equal(result.treeSha,null);
+  }
 });

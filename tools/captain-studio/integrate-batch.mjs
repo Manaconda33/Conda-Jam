@@ -30,7 +30,7 @@ function validateBatchInputs({baseRoot,baseCommit,outputRoot,packageRoots,config
   if(!config||!['integratorVersion','schemaVersion','registryGeneratorVersion','strictAuditConfig','baselineFindingSetHashes','mirrorPolicyHash','resourcePolicyHash'].every(key=>Object.hasOwn(config,key)))throw Object.assign(new Error('INTEGRATION_INPUT_HASH_MISSING'),{code:'INTEGRATION_INPUT_HASH_MISSING'});
   if(!SHA.test(config.mirrorPolicyHash)||!SHA.test(config.resourcePolicyHash)||!config.baselineFindingSetHashes||typeof config.baselineFindingSetHashes!=='object')throw Object.assign(new Error('INTEGRATION_INPUT_HASH_INVALID'),{code:'INTEGRATION_INPUT_HASH_INVALID'});
   const limits=config.resourceLimits;
-  if(!limits||!['maxBatchPackages','maxDecodedPixelsPerImage','maxInputFileBytes','maxPackageBytes','maxBatchBytes'].every(key=>Number.isSafeInteger(limits[key])&&limits[key]>0)||limits.maxBatchPackages>8||limits.maxDecodedPixelsPerImage>MAX_DECODED_PIXELS||limits.maxInputFileBytes>MAX_BLOB_BYTES)throw Object.assign(new Error('RESOURCE_LIMITS_INVALID'),{code:'RESOURCE_LIMITS_INVALID'});
+  if(!limits||!['maxBatchPackages','maxPackageFiles','maxDecodedPixelsPerImage','maxInputFileBytes','maxPackageBytes','maxBatchBytes'].every(key=>Number.isSafeInteger(limits[key])&&limits[key]>0)||limits.maxBatchPackages>8||limits.maxDecodedPixelsPerImage>MAX_DECODED_PIXELS||limits.maxInputFileBytes>MAX_BLOB_BYTES)throw Object.assign(new Error('RESOURCE_LIMITS_INVALID'),{code:'RESOURCE_LIMITS_INVALID'});
   const root=resolve(baseRoot),out=resolve(outputRoot);
   if(out===root||out.startsWith(root+sep)||root.startsWith(out+sep))throw Object.assign(new Error('OUTPUT_ROOT_OVERLAP'),{code:'OUTPUT_ROOT_OVERLAP'});
   const head=git(root,['rev-parse','--verify','HEAD']).trim();
@@ -107,9 +107,15 @@ async function runtimeManifestEntry(update,packageRecord){
     ...(Number.isFinite(row.baselineY)?{baselineY:row.baselineY}:{}),
   };
 }
-async function packageBytes(packageRoot,manifest,limits){
+function checkedFileInventory(manifest,limits){
   const inventory=manifest.files??manifest.fileInventory??[];
   if(!Array.isArray(inventory))throw Object.assign(new Error('INVALID_FILE_INVENTORY'),{code:'INVALID_FILE_INVENTORY'});
+  if(inventory.length>limits.maxPackageFiles)throw Object.assign(new Error('PACKAGE_FILE_LIMIT'),{code:'PACKAGE_FILE_LIMIT'});
+  return inventory;
+}
+async function packageBytes(packageRoot,manifest,limits){
+  // Keep this second check as defense in depth if call ordering changes later.
+  const inventory=checkedFileInventory(manifest,limits);
   let bytes=0;
   for(const row of inventory){
     try{validateRelativePath(row.path);}catch{throw Object.assign(new Error('UNSAFE_PACKAGE_PATH'),{code:'UNSAFE_PACKAGE_PATH'});}
@@ -297,6 +303,8 @@ export async function integrateCaptainBatch(options){
       const located=await locatePackageManifest(packageRoot,manifestRoot,manifestRelativePath);
       const manifest=JSON.parse(await readFile(located.absolutePath,'utf8'));
       packageId=manifest.packageId??packageId;captainId=manifest.captainId??captainId;
+      // Check the declared inventory before worker Git history, blob hashing, or staging.
+      checkedFileInventory(manifest,limits);
       if(manifest.baseCommit!==baseCommit)throw Object.assign(new Error('STALE_PACKAGE_BASE'),{code:'STALE_PACKAGE_BASE'});
       const workerCommit=manifest.reviewRecord?.workerCommit;
       const assignment=(baseline?.captains??baseline?.audit?.captains)?.[captainId]?.missing;
