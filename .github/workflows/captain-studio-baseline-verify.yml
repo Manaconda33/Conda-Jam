@@ -5,6 +5,24 @@ on:
     types: [opened, reopened, synchronize, edited, ready_for_review]
   workflow_dispatch:
 
+# Historical compatibility inventory (DOCUMENTATION ONLY, not path filters).
+# V1/V2 baseline tests asserted that these filenames appeared in the workflow.
+# All paths below and every other PR path are now covered automatically by
+# unfiltered pull_request; no "paths" / "paths-ignore" condition exists.
+#   CAPTAIN_STUDIO_BASELINE_2026-11-06.md
+#   CAPTAIN_GAP_MATRIX.csv
+#   ASSET_AUDIT_LATEST.*
+#   PR17_AUDIT_EXPECTED_SIGNATURES.json
+#   src/**
+#   public/assets/animation/**
+#   tools/captain-studio/**
+#   captain-studio-baseline-contract.test.js
+#   CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md
+#   CAPTAIN_STUDIO_SOURCE_EVOLUTION_V2.md
+#   captain-studio-source-evolution.test.js
+#   captain-studio-source-evolution-v2.test.js
+#   captain-studio-integration.test.js
+
 permissions:
   contents: read
 
