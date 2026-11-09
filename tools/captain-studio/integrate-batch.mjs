@@ -107,11 +107,15 @@ async function runtimeManifestEntry(update,packageRecord){
     ...(Number.isFinite(row.baselineY)?{baselineY:row.baselineY}:{}),
   };
 }
-async function packageBytes(packageRoot,manifest,limits){
+function checkedFileInventory(manifest,limits){
   const inventory=manifest.files??manifest.fileInventory??[];
   if(!Array.isArray(inventory))throw Object.assign(new Error('INVALID_FILE_INVENTORY'),{code:'INVALID_FILE_INVENTORY'});
-  // Reject oversized file inventories before reading or hashing their contents.
   if(inventory.length>limits.maxPackageFiles)throw Object.assign(new Error('PACKAGE_FILE_LIMIT'),{code:'PACKAGE_FILE_LIMIT'});
+  return inventory;
+}
+async function packageBytes(packageRoot,manifest,limits){
+  // Keep this second check as defense in depth if call ordering changes later.
+  const inventory=checkedFileInventory(manifest,limits);
   let bytes=0;
   for(const row of inventory){
     try{validateRelativePath(row.path);}catch{throw Object.assign(new Error('UNSAFE_PACKAGE_PATH'),{code:'UNSAFE_PACKAGE_PATH'});}
@@ -299,6 +303,8 @@ export async function integrateCaptainBatch(options){
       const located=await locatePackageManifest(packageRoot,manifestRoot,manifestRelativePath);
       const manifest=JSON.parse(await readFile(located.absolutePath,'utf8'));
       packageId=manifest.packageId??packageId;captainId=manifest.captainId??captainId;
+      // Check the declared inventory before worker Git history, blob hashing, or staging.
+      checkedFileInventory(manifest,limits);
       if(manifest.baseCommit!==baseCommit)throw Object.assign(new Error('STALE_PACKAGE_BASE'),{code:'STALE_PACKAGE_BASE'});
       const workerCommit=manifest.reviewRecord?.workerCommit;
       const assignment=(baseline?.captains??baseline?.audit?.captains)?.[captainId]?.missing;

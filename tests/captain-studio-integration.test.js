@@ -203,10 +203,16 @@ test('ref promotion uses compare-and-swap and rejects protected or unapproved re
   assert.equal(base.git('rev-parse','refs/heads/review/integration'),next);
 });
 
-test('integrator enforces measured package file count before any package validation or staging', async t => {
+test('integrator rejects oversized declared inventory before worker Git history, validation, or staging', async t => {
   const base=await repository(t), output=await mkdtemp(path.join(os.tmpdir(),'captain-integration-file-limit-'));
   t.after(()=>rm(output,{recursive:true,force:true}));
   const pkg=await packageFixture(t,base,'reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp');
+  // An invalid worker commit would fail during Git history traversal. The file-count
+  // rejection must win first, proving the collector was not entered.
+  const manifestPath=path.join(pkg.manifestRoot,'package.json');
+  const manifest=JSON.parse(await readFile(manifestPath,'utf8'));
+  manifest.reviewRecord.workerCommit='0'.repeat(40);
+  await writeFile(manifestPath,JSON.stringify(manifest));
   let called=false;
   const result=await integrateCaptainBatch({
     baseRoot:base.root,baseCommit:base.base,packageRoots:[pkg],outputRoot:output,
@@ -220,6 +226,22 @@ test('integrator enforces measured package file count before any package validat
   assert.equal(result.treeSha,null,'no promotable tree on file count overflow');
   assert.equal(result.stagingRoot,null,'no staging on file count overflow');
   assert.ok(result.rejectedPackages.some(row=>row.reasonCodes.includes('PACKAGE_FILE_LIMIT')),JSON.stringify(result.rejectedPackages));
+  assert.equal(base.git('rev-parse','HEAD'),base.base);
+});
+
+test('integrator accepts a package exactly at the declared file-count boundary', async t => {
+  const base=await repository(t), output=await mkdtemp(path.join(os.tmpdir(),'captain-integration-file-boundary-'));
+  t.after(()=>rm(output,{recursive:true,force:true}));
+  const pkg=await packageFixture(t,base,'reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp');
+  const result=await integrateCaptainBatch({
+    baseRoot:base.root,baseCommit:base.base,packageRoots:[pkg],outputRoot:output,
+    baseline:{audit:baselineAudit,dependencies:[]},
+    auditRunner:async()=>({...baselineAudit,missingClipCount:1,errors:baselineAudit.errors.filter(row=>row.code!=='missing-clip'||row.athlete!=='reef-captain')}),
+    validatePackageImpl:async()=>valid('reef-captain','2'.repeat(64),'pass','right','public/assets/animation/reef-captain-pass-right.webp'),
+    ...config,resourceLimits:{...config.resourceLimits,maxPackageFiles:2},
+  });
+  assert.equal(result.ok,true,JSON.stringify(result));
+  assert.equal(result.acceptedPackages.length,1);
   assert.equal(base.git('rev-parse','HEAD'),base.base);
 });
 
