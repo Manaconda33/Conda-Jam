@@ -11,6 +11,12 @@ import {
   FROZEN_V1_VERIFIER_FILES,
   V2_POLICY_REVIEW_BASE,
 } from './source-evolution-contract-v2.mjs';
+import {
+  assertVersionedSourceEvolution as assertV3VersionedSourceEvolution,
+  assertPullRequestEvolutionScope as assertV3PullRequestEvolutionScope,
+  FROZEN_V2_VERIFIER_FILES,
+  V3_POLICY_REVIEW_BASE,
+} from './source-evolution-contract-v3.mjs';
 
 const baseline = JSON.parse(readFileSync('docs/animation-production/CAPTAIN_STUDIO_BASELINE.json', 'utf8'));
 const signatures = JSON.parse(readFileSync(baseline.strictAudit.expectedFindingSignatures, 'utf8'));
@@ -39,13 +45,19 @@ for (const path of FROZEN_V1_VERIFIER_FILES) {
   fail(gitBlob('HEAD', path) === gitBlob(V2_POLICY_REVIEW_BASE, path),
     'accepted v1 verification record mutated: ' + path);
 }
+// Freeze every v1/v2 verifier artifact not explicitly revised by the v3 bootstrap.
+execFileSync('git', ['merge-base', '--is-ancestor', V3_POLICY_REVIEW_BASE, 'HEAD']);
+for (const path of FROZEN_V2_VERIFIER_FILES) {
+  fail(gitBlob('HEAD', path) === gitBlob(V3_POLICY_REVIEW_BASE, path),
+    'accepted v1/v2 verifier evidence mutated: ' + path);
+}
 // Complete committed diff from original PR20 snapshot, never a partial manifest.
 const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', ACCEPTED_SNAPSHOT_MERGE, 'HEAD'], { encoding: 'utf8' })
   .trim().split('\n').filter(Boolean);
 const changedBlobIds = Object.fromEntries(changedPaths.map(path => [path, gitBlob('HEAD', path)]));
-const evolution = assertVersionedSourceEvolution(changedPaths, changedBlobIds);
+const evolution = assertV3VersionedSourceEvolution(changedPaths, changedBlobIds);
 // On PR runs, enforce the trusted base and full PR diff. The v2 migration
-// alone may alter verifier files; later source PRs must match exact v2 blobs.
+// and v3 bootstrap alone may alter verifier files; later gameplay PRs are path-scoped.
 let pullRequestScope = null;
 if (process.env.CAPTAIN_STUDIO_PR_BASE) {
   const prBase = process.env.CAPTAIN_STUDIO_PR_BASE;
@@ -54,7 +66,7 @@ if (process.env.CAPTAIN_STUDIO_PR_BASE) {
   const prChanges = execFileSync('git', ['diff', '--name-only', '--no-renames', prBase, 'HEAD'], { encoding: 'utf8' })
     .trim().split('\n').filter(Boolean);
   const prBlobs = Object.fromEntries(prChanges.map(path => [path, gitBlob('HEAD', path)]));
-  pullRequestScope = assertPullRequestEvolutionScope(prBase, prChanges, prBlobs);
+  pullRequestScope = assertV3PullRequestEvolutionScope(prBase, prChanges, prBlobs);
 }
 
 fail(baseline.schemaVersion === 1, 'schema version');
