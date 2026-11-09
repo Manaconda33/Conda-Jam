@@ -8,6 +8,8 @@ on:
       - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE_2026-11-06.md'
       - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md'
       - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V2.md'
+      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V3.md'
+      - 'docs/architecture/**'
       - 'docs/animation-production/CAPTAIN_GAP_MATRIX.csv'
       - 'docs/animation-production/ASSET_AUDIT_LATEST.*'
       - 'docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json'
@@ -20,6 +22,9 @@ on:
       - 'tests/captain-studio-baseline-contract.test.js'
       - 'tests/captain-studio-source-evolution.test.js'
       - 'tests/captain-studio-source-evolution-v2.test.js'
+      - 'tests/captain-studio-source-evolution-v3.test.js'
+      - 'tests/match-control*.test.js'
+      - 'tools/e2e_smoke.py'
       - 'tests/captain-studio-integration.test.js'
       - 'tests/captain-studio-export.test.js'
   workflow_dispatch:
@@ -76,7 +81,7 @@ jobs:
           mkdir -p ci-studio-baseline
           node tools/audit-animation-assets.mjs --json ci-studio-baseline/audit.json --markdown ci-studio-baseline/audit.md --report-only
 
-      - name: Verify immutable PR20 snapshot, frozen v1 policy, scoped v2 source evolution and audit identities
+      - name: Verify immutable PR20 snapshot, frozen v1/v2 policy, scoped v3 gameplay eligibility and audit identities
         shell: bash
         env:
           CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
