@@ -25,6 +25,11 @@ test('v3 retains frozen PR20 snapshot and both historical verifier generations',
   assert.equal(V3_VERIFIER_FILES.length, 5);
   assert.equal(new Set([...inherited, ...V3_MATCH_CONTROL_PATHS]).size,
     inherited.length + V3_MATCH_CONTROL_PATHS.length);
+  assert.deepEqual(V3_MATCH_CONTROL_PATHS, [
+    'tests/match-control-characterization.test.js',
+    'docs/architecture/BASELINE_CHARACTERIZATION.md',
+    'docs/architecture/MATCH_CONTROL_TRANSITIONS.md',
+  ]);
 });
 
 test('v3 checks full HEAD inventory and retains exact inherited v2 Git blobs', () => {
@@ -63,6 +68,10 @@ test('non-bootstrap changes are limited to explicitly enumerated match-control p
   assert.deepEqual(assertPullRequestEvolutionScope(V3_POLICY_REVIEW_BASE, scoped, blobs(scoped)),
     { policyVersion: 3, prChangedFiles: 2, verifierMigration: false, gameplayScoped: true });
   const invalid = [
+    'src/main.js',
+    'src/core/match-control.js',
+    'tests/match-control.test.js',
+    'tools/e2e_smoke.py',
     'src/core/simulation.js',
     'src/core/animation.js',
     'src/core/preferences.js',
@@ -95,18 +104,45 @@ test('no arbitrary verifier changes after the separately reviewed bootstrap', ()
     /duplicate PR changed path/);
 });
 
-test('strict workflow covers bootstrap and follow-on match-control reviews', () => {
+test('strict workflow triggers for every pull request, including disallowed-only edits', () => {
   const yaml = readFileSync(new URL('../.github/workflows/captain-studio-baseline-verify.yml', import.meta.url), 'utf8');
-  for (const path of [
-    'CAPTAIN_STUDIO_SOURCE_EVOLUTION_V3.md',
-    'captain-studio-source-evolution-v3.test.js',
-    'docs/architecture/**',
-    'tests/match-control*.test.js',
-    'tools/e2e_smoke.py',
-  ]) assert.ok(yaml.includes(path), 'missing strict CI trigger: ' + path);
+  const trigger = yaml.split('on:\n')[1]?.split('permissions:\n')[0] ?? '';
+  assert.match(trigger, /^  pull_request:\s*$/m);
+  assert.doesNotMatch(trigger, /^\s+paths(?:-ignore)?:/m,
+    'PR trigger must not skip disallowed-only paths');
+  assert.match(yaml, /^  scope-check:$/m);
+  assert.match(yaml, /name: Captain Studio scope \(all PRs\)/);
+  assert.match(yaml, /git.*diff.*--name-only.*--no-renames/);
+  assert.match(yaml, /assertPullRequestEvolutionScope\(base, paths, blobs\)/);
+  assert.match(yaml, /fetch-depth: 0/);
+  const dependents = ['exact-baseline', 'match-control-tests'];
+  for (const job of dependents) {
+    assert.ok(yaml.includes('  ' + job + ':\n    needs: scope-check\n'),
+      'missing fail-closed dependency for ' + job);
+  }
+  for (const command of ['npm test', 'npm run lint', 'npm run validate:content',
+    'npm run simulate:league']) {
+    assert.ok(yaml.includes('run: ' + command), 'missing full-coverage command: ' + command);
+  }
   const verifier = readFileSync(new URL('../tools/captain-studio/verify-baseline.mjs', import.meta.url), 'utf8');
   assert.match(verifier, /source-evolution-contract-v3\.mjs/);
   assert.match(verifier, /FROZEN_V2_VERIFIER_FILES/);
+});
+
+test('disallowed-only package and deployment PRs fail the all-PR scope contract', () => {
+  for (const path of ['package.json', '.github/workflows/pages.yml']) {
+    const changed = [path];
+    assert.throws(() => assertPullRequestEvolutionScope(sha(9), changed,
+      { [path]: sha(7) }), /unapproved match-control PR path/);
+  }
+});
+
+test('ordinary follow-up source PRs cannot smuggle runtime behavior into characterization v3', () => {
+  for (const path of ['src/main.js', 'src/core/match-control.js',
+    'tests/match-control.test.js', 'tools/e2e_smoke.py']) {
+    assert.throws(() => assertPullRequestEvolutionScope(sha(9), [path],
+      { [path]: sha(7) }), /unapproved match-control PR path/);
+  }
 });
 
 test('accepted historical audit and production gates retain their source-of-truth values', () => {
