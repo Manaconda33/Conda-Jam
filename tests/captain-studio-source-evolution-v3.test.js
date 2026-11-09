@@ -107,6 +107,11 @@ test('strict workflow covers bootstrap and follow-on match-control reviews', () 
   const verifier = readFileSync(new URL('../tools/captain-studio/verify-baseline.mjs', import.meta.url), 'utf8');
   assert.match(verifier, /source-evolution-contract-v3\.mjs/);
   assert.match(verifier, /FROZEN_V2_VERIFIER_FILES/);
+  assert.match(yaml, /^  match-control-tests:$/m);
+  for (const command of ['npm test', 'npm run lint',
+    'npm run validate:content', 'npm run simulate:league']) {
+    assert.ok(yaml.includes('run: ' + command), 'missing full-coverage command: ' + command);
+  }
 });
 
 test('accepted historical audit and production gates retain their source-of-truth values', () => {
