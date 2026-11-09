@@ -106,18 +106,18 @@ test('no arbitrary verifier changes after the separately reviewed bootstrap', ()
 
 test('strict workflow triggers for every pull request, including disallowed-only edits', () => {
   const yaml = readFileSync(new URL('../.github/workflows/captain-studio-baseline-verify.yml', import.meta.url), 'utf8');
-  const trigger = yaml.split('on:\\n')[1]?.split('permissions:\\n')[0] ?? '';
-  assert.match(trigger, /^  pull_request:\\s*$/m);
-  assert.doesNotMatch(trigger, /^\\s+paths(?:-ignore)?:/m,
+  const trigger = yaml.split('on:\n')[1]?.split('permissions:\n')[0] ?? '';
+  assert.match(trigger, /^  pull_request:\s*$/m);
+  assert.doesNotMatch(trigger, /^\s+paths(?:-ignore)?:/m,
     'PR trigger must not skip disallowed-only paths');
   assert.match(yaml, /^  scope-check:$/m);
-  assert.match(yaml, /name: Captain Studio scope \\(all PRs\\)/);
+  assert.match(yaml, /name: Captain Studio scope \(all PRs\)/);
   assert.match(yaml, /git.*diff.*--name-only.*--no-renames/);
-  assert.match(yaml, /assertPullRequestEvolutionScope\\(base, paths, blobs\\)/);
+  assert.match(yaml, /assertPullRequestEvolutionScope\(base, paths, blobs\)/);
   assert.match(yaml, /fetch-depth: 0/);
   const dependents = ['exact-baseline', 'match-control-tests'];
   for (const job of dependents) {
-    assert.ok(yaml.includes('  ' + job + ':\\n    needs: scope-check\\n'),
+    assert.ok(yaml.includes('  ' + job + ':\n    needs: scope-check\n'),
       'missing fail-closed dependency for ' + job);
   }
   for (const command of ['npm test', 'npm run lint', 'npm run validate:content',
@@ -125,7 +125,7 @@ test('strict workflow triggers for every pull request, including disallowed-only
     assert.ok(yaml.includes('run: ' + command), 'missing full-coverage command: ' + command);
   }
   const verifier = readFileSync(new URL('../tools/captain-studio/verify-baseline.mjs', import.meta.url), 'utf8');
-  assert.match(verifier, /source-evolution-contract-v3\\.mjs/);
+  assert.match(verifier, /source-evolution-contract-v3\.mjs/);
   assert.match(verifier, /FROZEN_V2_VERIFIER_FILES/);
 });
 
