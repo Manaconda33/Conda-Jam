@@ -8,7 +8,9 @@ import {
   assertCurrentPinnedSource,
   assertPullRequestEvolutionScope,
   assertVersionedSourceEvolution,
-} from './source-evolution-contract.mjs';
+  FROZEN_V1_VERIFIER_FILES,
+  V2_POLICY_REVIEW_BASE,
+} from './source-evolution-contract-v2.mjs';
 
 const baseline = JSON.parse(readFileSync('docs/animation-production/CAPTAIN_STUDIO_BASELINE.json', 'utf8'));
 const signatures = JSON.parse(readFileSync(baseline.strictAudit.expectedFindingSignatures, 'utf8'));
@@ -30,15 +32,20 @@ for (const path of IMMUTABLE_SNAPSHOT_FILES) {
   fail(gitBlob('HEAD', path) === gitBlob(ACCEPTED_SNAPSHOT_MERGE, path),
     'accepted PR20 historical snapshot mutated: ' + path);
 }
-// The reviewed PR20 merge is the start of source evolution v1. The complete
-// committed diff, not a candidate-authored manifest, determines its scope.
+// Preserve the accepted PR23 v1 verifier history; the five v2 migration
+// paths may change only under their separately constrained bootstrap.
+execFileSync('git', ['merge-base', '--is-ancestor', V2_POLICY_REVIEW_BASE, 'HEAD']);
+for (const path of FROZEN_V1_VERIFIER_FILES) {
+  fail(gitBlob('HEAD', path) === gitBlob(V2_POLICY_REVIEW_BASE, path),
+    'accepted v1 verification record mutated: ' + path);
+}
+// Complete committed diff from original PR20 snapshot, never a partial manifest.
 const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', ACCEPTED_SNAPSHOT_MERGE, 'HEAD'], { encoding: 'utf8' })
   .trim().split('\n').filter(Boolean);
 const changedBlobIds = Object.fromEntries(changedPaths.map(path => [path, gitBlob('HEAD', path)]));
 const evolution = assertVersionedSourceEvolution(changedPaths, changedBlobIds);
-// On pull-request runs, this second check distinguishes *this PR's diff*
-// from already integrated history. Only the reviewed PR23 bootstrap may edit
-// the verifier in v1; subsequent candidates must match exact planned blobs.
+// On PR runs, enforce the trusted base and full PR diff. The v2 migration
+// alone may alter verifier files; later source PRs must match exact v2 blobs.
 let pullRequestScope = null;
 if (process.env.CAPTAIN_STUDIO_PR_BASE) {
   const prBase = process.env.CAPTAIN_STUDIO_PR_BASE;
@@ -60,8 +67,8 @@ execFileSync('git', ['merge-base', '--is-ancestor', baseline.source.commit, 'HEA
 for (const [path, expectedSha] of Object.entries(baseline.source.blobIds)) {
   fail(gitBlob(baseline.source.commit, path) === expectedSha,
     'historical source pin drift at ' + path);
-  // PR22's resource guard is explicitly byte-pinned in v1. No other
-  // previously pinned source may drift without a later reviewed policy.
+  // Only the corrected, byte-pinned PR22 variant may differ from the
+  // original pinned source; any additional drift needs a new policy.
   assertCurrentPinnedSource(path, expectedSha, gitBlob('HEAD', path));
 }
 fail(baseline.strictAudit.referenceReportBlob === baseline.source.blobIds[baseline.strictAudit.referenceReport], 'tracked audit blob pin');
