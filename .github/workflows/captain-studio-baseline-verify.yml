@@ -2,45 +2,63 @@ name: Verify post-PR11 Captain Studio baseline (read only)
 
 on:
   pull_request:
-    paths:
-      - '.github/workflows/captain-studio-baseline-verify.yml'
-      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE.json'
-      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE_2026-11-06.md'
-      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md'
-      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V2.md'
-      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V3.md'
-      - 'docs/architecture/**'
-      - 'docs/animation-production/CAPTAIN_GAP_MATRIX.csv'
-      - 'docs/animation-production/ASSET_AUDIT_LATEST.*'
-      - 'docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json'
-      - 'src/**'
-      - 'public/assets/animation/**'
-      - 'tools/captain-studio/**'
-      - 'tools/audit-animation-assets.mjs'
-      - 'tools/animation-assets.mjs'
-      - 'tools/check-pr17-audit-identities.mjs'
-      - 'tests/captain-studio-baseline-contract.test.js'
-      - 'tests/captain-studio-source-evolution.test.js'
-      - 'tests/captain-studio-source-evolution-v2.test.js'
-      - 'tests/captain-studio-source-evolution-v3.test.js'
-      - 'tests/match-control*.test.js'
-      - 'tools/e2e_smoke.py'
-      - 'tests/captain-studio-integration.test.js'
-      - 'tests/captain-studio-export.test.js'
+    types: [opened, reopened, synchronize, edited, ready_for_review]
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
+  scope-check:
+    name: Captain Studio scope (all PRs)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out scope verifier and full commit ancestry
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/captain-studio/
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check entire trusted PR diff against v3 bootstrap or characterization allowlist
+        shell: bash
+        env:
+          CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo 'Manual read-only audit: no PR scope to check.'
+          else
+            node --input-type=module <<'NODE'
+          import { execFileSync } from 'node:child_process';
+          import { assertPullRequestEvolutionScope } from './tools/captain-studio/source-evolution-contract-v3.mjs';
+          const base = process.env.CAPTAIN_STUDIO_PR_BASE;
+          if (!/^[a-f0-9]{40}$/.test(base ?? '')) throw Error('Missing trusted GitHub PR base SHA');
+          execFileSync('git', ['merge-base', '--is-ancestor', base, 'HEAD']);
+          const paths = execFileSync('git', ['diff', '--name-only', '--no-renames', '-z', base, 'HEAD'])
+            .toString('utf8').split('\0').filter(Boolean);
+          const gitBlob = path => execFileSync('git', ['rev-parse', '--verify', 'HEAD:' + path],
+            { encoding: 'utf8' }).trim();
+          const blobs = Object.fromEntries(paths.map(path => [path, gitBlob(path)]));
+          console.log(JSON.stringify(assertPullRequestEvolutionScope(base, paths, blobs), null, 2));
+          NODE
+          fi
+
   exact-baseline:
+    needs: scope-check
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - name: Check out candidate and complete runtime asset sources
         uses: actions/checkout@v4
         with:
-          fetch-depth: 50
+          fetch-depth: 0
           filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -101,6 +119,7 @@ jobs:
           if-no-files-found: warn
 
   match-control-tests:
+    needs: scope-check
     name: Full gameplay checks for scoped match-control PRs
     runs-on: ubuntu-latest
     timeout-minutes: 35
