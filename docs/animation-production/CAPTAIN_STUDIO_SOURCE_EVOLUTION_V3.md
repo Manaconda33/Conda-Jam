@@ -45,6 +45,7 @@ This is an exact allowlist, not a blanket permit for `src/**` or `tests/**`. Fut
 ## Evidence and acceptance
 
 - Required: `npm test`, `npm run lint`, `npm run validate:content`, `npm run simulate:league`, and the read-only strict Captain Studio audit with exact inherited identities. Gameplay changes additionally need the browser smoke suite and deterministic seed/input tape comparisons.
+- **Verification coverage correction:** the scoped baseline workflow contains a separate `match-control-tests` job using a complete checkout; both the v3 governance PR and future characterization-only PRs must execute all Node tests (including newly added tests), lint, content validation and league simulation. The strict audit alone does **not** establish gameplay-test passage.
 - The current CI is not a visual or human gameplay acceptance substitute. Verify substitution control, gamepad disconnect/reconnect, pause/quit/focus transitions, and existing score/ball/animation invariants before each applicable merge.
 - A draft stacked PR may be pending or have CI blocked until this v3 bootstrap is merged. That must be reported honestly, never bypassed by disabling workflows or weakening the historical audit.
 - A successful v3 verifier only means the proposed PR falls within its path and invariant scope. It does not authorize a Captain Studio pilot, asset acceptance, production release, or deployment.
