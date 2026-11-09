@@ -28,13 +28,10 @@ export const FROZEN_V2_VERIFIER_FILES = Object.freeze([
     .filter(path => !V3_VERIFIER_FILES.includes(path))),
 ].sort());
 
-// Explicit paths only. This is not a blanket exemption for src/, tools/ or tests/.
+// Characterization-only bootstrap. Runtime edits, browser harness edits,
+// or new resolver implementation need a separate reviewed source policy (v4).
 export const V3_MATCH_CONTROL_PATHS = Object.freeze([
-  'src/main.js',
-  'src/core/match-control.js',
   'tests/match-control-characterization.test.js',
-  'tests/match-control.test.js',
-  'tools/e2e_smoke.py',
   'docs/architecture/BASELINE_CHARACTERIZATION.md',
   'docs/architecture/MATCH_CONTROL_TRANSITIONS.md',
 ]);
