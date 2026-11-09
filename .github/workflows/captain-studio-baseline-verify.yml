@@ -2,40 +2,81 @@ name: Verify post-PR11 Captain Studio baseline (read only)
 
 on:
   pull_request:
-    paths:
-      - '.github/workflows/captain-studio-baseline-verify.yml'
-      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE.json'
-      - 'docs/animation-production/CAPTAIN_STUDIO_BASELINE_2026-11-06.md'
-      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md'
-      - 'docs/animation-production/CAPTAIN_STUDIO_SOURCE_EVOLUTION_V2.md'
-      - 'docs/animation-production/CAPTAIN_GAP_MATRIX.csv'
-      - 'docs/animation-production/ASSET_AUDIT_LATEST.*'
-      - 'docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json'
-      - 'src/**'
-      - 'public/assets/animation/**'
-      - 'tools/captain-studio/**'
-      - 'tools/audit-animation-assets.mjs'
-      - 'tools/animation-assets.mjs'
-      - 'tools/check-pr17-audit-identities.mjs'
-      - 'tests/captain-studio-baseline-contract.test.js'
-      - 'tests/captain-studio-source-evolution.test.js'
-      - 'tests/captain-studio-source-evolution-v2.test.js'
-      - 'tests/captain-studio-integration.test.js'
-      - 'tests/captain-studio-export.test.js'
+    types: [opened, reopened, synchronize, edited, ready_for_review]
   workflow_dispatch:
+
+# Historical compatibility inventory (DOCUMENTATION ONLY, not path filters).
+# V1/V2 baseline tests asserted that these filenames appeared in the workflow.
+# All paths below and every other PR path are now covered automatically by
+# unfiltered pull_request; no "paths" / "paths-ignore" condition exists.
+#   CAPTAIN_STUDIO_BASELINE_2026-11-06.md
+#   CAPTAIN_GAP_MATRIX.csv
+#   ASSET_AUDIT_LATEST.*
+#   PR17_AUDIT_EXPECTED_SIGNATURES.json
+#   src/**
+#   public/assets/animation/**
+#   tools/captain-studio/**
+#   captain-studio-baseline-contract.test.js
+#   CAPTAIN_STUDIO_SOURCE_EVOLUTION_V1.md
+#   CAPTAIN_STUDIO_SOURCE_EVOLUTION_V2.md
+#   captain-studio-source-evolution.test.js
+#   captain-studio-source-evolution-v2.test.js
+#   captain-studio-integration.test.js
 
 permissions:
   contents: read
 
 jobs:
+  scope-check:
+    name: Captain Studio scope (all PRs)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out scope verifier and full commit ancestry
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/captain-studio/
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check entire trusted PR diff against v3 bootstrap or characterization allowlist
+        shell: bash
+        env:
+          CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo 'Manual read-only audit: no PR scope to check.'
+          else
+            node --input-type=module <<'NODE'
+          import { execFileSync } from 'node:child_process';
+          import { assertPullRequestEvolutionScope } from './tools/captain-studio/source-evolution-contract-v3.mjs';
+          const base = process.env.CAPTAIN_STUDIO_PR_BASE;
+          if (!/^[a-f0-9]{40}$/.test(base ?? '')) throw Error('Missing trusted GitHub PR base SHA');
+          execFileSync('git', ['merge-base', '--is-ancestor', base, 'HEAD']);
+          const paths = execFileSync('git', ['diff', '--name-only', '--no-renames', '-z', base, 'HEAD'])
+            .toString('utf8').split('\0').filter(Boolean);
+          const gitBlob = path => execFileSync('git', ['rev-parse', '--verify', 'HEAD:' + path],
+            { encoding: 'utf8' }).trim();
+          const blobs = Object.fromEntries(paths.map(path => [path, gitBlob(path)]));
+          console.log(JSON.stringify(assertPullRequestEvolutionScope(base, paths, blobs), null, 2));
+          NODE
+          fi
+
   exact-baseline:
+    needs: scope-check
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - name: Check out candidate and complete runtime asset sources
         uses: actions/checkout@v4
         with:
-          fetch-depth: 50
+          fetch-depth: 0
           filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
@@ -76,7 +117,7 @@ jobs:
           mkdir -p ci-studio-baseline
           node tools/audit-animation-assets.mjs --json ci-studio-baseline/audit.json --markdown ci-studio-baseline/audit.md --report-only
 
-      - name: Verify immutable PR20 snapshot, frozen v1 policy, scoped v2 source evolution and audit identities
+      - name: Verify immutable PR20 snapshot, frozen v1/v2 policy, scoped v3 gameplay eligibility and audit identities
         shell: bash
         env:
           CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
@@ -94,3 +135,35 @@ jobs:
           path: ci-studio-baseline/
           retention-days: 7
           if-no-files-found: warn
+
+  match-control-tests:
+    needs: scope-check
+    name: Full gameplay checks for scoped match-control PRs
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out full PR candidate
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install pinned dependencies
+        run: npm ci
+      - name: Ensure image tooling for existing tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v identify >/dev/null 2>&1 || ! command -v convert >/dev/null 2>&1; then
+            sudo timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 update
+            sudo env DEBIAN_FRONTEND=noninteractive timeout 180s apt-get -o Acquire::Retries=2 -o Acquire::http::Timeout=30 install --yes imagemagick
+          fi
+      - name: Run all tests including characterization
+        run: npm test
+      - name: Check syntax
+        run: npm run lint
+      - name: Validate content
+        run: npm run validate:content
+      - name: Verify deterministic league simulation
+        run: npm run simulate:league
