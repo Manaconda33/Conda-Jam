@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Open a narrowly scoped, reviewable path for Conda Jam match-control architecture characterization and future controller/session coordination fixes without weakening the accepted Captain Studio source, artwork, provenance, or activation gates. This policy governs **CI verification eligibility only**. It is not owner approval to merge, deploy, generate artwork, accept animation packages, promote refs, or recover the separate Myth/Codex workspace.
+Open a narrowly scoped, reviewable path for Conda Jam match-control **baseline characterization**. Future controller/session coordination implementation must use a separate reviewed policy without weakening the accepted Captain Studio source, artwork, provenance, or activation gates. This policy governs **CI verification eligibility only**. It is not owner approval to merge, deploy, generate artwork, accept animation packages, promote refs, or recover the separate Myth/Codex workspace.
 
 ## Prerequisite and exact bootstrap
 
@@ -21,26 +21,31 @@ Open a narrowly scoped, reviewable path for Conda Jam match-control architecture
 - No edits to `src/core/animation.js`, runtime animation manifest, ball tracks, production atlas files, package validator/integrator/exporter, `package.json`, deployment workflows, or the Myth/Codex recovery workspace.
 - Current v2 pinned source variants for PRs #21/#22 stay exact Git blob hashes. Any change to protected or unrelated paths requires a distinct later policy version and review.
 
-## Explicit future verification scope
+## Explicit characterization-only verification scope
 
-After the policy is independently approved and merged, a subsequent PR may change only these seven paths:
+After this policy has independently passed, received owner authorization and merged, later v3 PRs may change **only these three** characterization artifacts:
 
 1. `docs/architecture/BASELINE_CHARACTERIZATION.md`
 2. `docs/architecture/MATCH_CONTROL_TRANSITIONS.md`
 3. `tests/match-control-characterization.test.js`
-4. `tests/match-control.test.js`
-5. `src/core/match-control.js`
-6. `src/main.js`
-7. `tools/e2e_smoke.py`
 
-This is an exact allowlist, not a blanket permit for `src/**` or `tests/**`. Future PRs may use a subset, but cannot edit verifier files. Each PR still requires ordinary review, behavioral evidence, and separate owner approval to merge. There is **no automatic merge or automatic approval** implied by passing CI.
+This scope intentionally **excludes** `src/main.js`, `src/core/match-control.js`, `tests/match-control.test.js`, `tools/e2e_smoke.py` and all other runtime, test-harness and gameplay paths. Such changes require a **separately reviewed v4 policy**, a new owner decision, and browser E2E validation. Permitting the three characterization artifacts does not authorize a merge by itself.
+
+## Repository-wide PR enforcement and external trust boundary
+
+- The v3 workflow has no `pull_request.paths` filter. An always-running, lightweight `scope-check` job checks the full trusted PR-base-to-HEAD Git diff, including PRs changing only disallowed paths such as `package.json` or `.github/workflows/pages.yml`.
+- Both the expensive strict art-audit job and the full Node/league job depend on the scope check passing. The scope job uses complete Git ancestry (`fetch-depth: 0`) and partial clone; it fails closed when v3 is missing, a file is deleted, or the PR scope is not allowed. Manual read-only dispatch has no PR-base context and does not count as a PR scope approval.
+- **Crucial limit:** the workflow lives in the PR's own Git tree, so an attacker able to change, omit, or bypass the workflow can neutralize it. Current repository settings were independently checked on November 9, 2026: `main` has **no enabled branch protection, no required checks and no rulesets**. Passing this workflow is not an enforced merge gate until those settings are installed.
+- **Required outside this PR, before merge:** a repository administrator must enable protection/ruleset on `main`, require the stable status context **`Captain Studio scope (all PRs)`** and appropriate independent review approval, block direct unreviewed pushes and bypasses, and require review freshness after new commits. Consider also requiring the full verify/art-audit statuses for this governance PR. Validate that a PR changing only `package.json` cannot be merged and that verifier edits cannot enter `main` without review.
+- A protected GitHub branch and required reviews are the **external attestation boundary** for v3 verifier integrity; v3 cannot byte-pin its own code to a future, not-yet-approved commit. Manual `workflow_dispatch` runs only inspect a branch and are not a substitute for protected PR checks.
+- An all-PR fail-closed scope rule will intentionally block unrelated source or workflow changes until a new independently approved policy allows them. This repository-wide consequence must be accepted by the owner, not silently imposed. No code-only revision can configure branch settings.
 
 ## Architectural sequence and PR gates
 
 1. **V3 policy PR**: verifier, workflow and tests only. Independent review and separate owner merge decision. `main` stays untouched until then.
 2. **Baseline-characterization PR**: documentation and deterministic tests only, stacked behind v3 until v3 is merged and approved. Record the current behavior of substitution, pause, and input routing without modifying runtime code. A suspected control defect is not a proven runtime bug until reproduced.
 3. **Draft transition contract**: document a dependency-free pure resolver for the session/control seam. Preserve `match.phase`/`match.pause` as simulation authority; controller bindings are to stable court slots, not permanently to athlete IDs. Draft only until approved for implementation.
-4. **Later, separately authorized behavior PRs**: implement controller-slot continuity and lifecycle coordination in small reversible slices, with keyboard/gamepad/touch and fixed-60-Hz regression evidence. No default PR may touch animation or artwork.
+4. **Later, separately authorized v4 policy and behavior PRs**: obtain a fresh reviewed eligibility policy first, then implement controller-slot continuity and lifecycle coordination in small reversible slices, with mandatory browser E2E, keyboard/gamepad/touch and fixed-60-Hz regression evidence. V3 does not permit runtime changes.
 
 ## Evidence and acceptance
 
@@ -56,4 +61,4 @@ Revert dependent gameplay/characterization changes first. Restore exact historic
 
 ## Known governance tradeoff
 
-v3 uses an explicit path allowlist rather than pre-pinning hashes of gameplay files that have not yet been authored. It does not itself prove the gameplay behavior of those files or attest to human review identity. Such review and owner authorization must remain independent GitHub approval gates. Any desire to add more paths must go through a new separately reviewed policy version.
+V3 uses an exact three-path characterization allowlist and an always-running PR scope check. It does **not** make itself immutable: the trusted enforcement is the separate protected-branch/ruleset configuration and mandatory independent review. Those are presently **not configured**, so this draft remains **REQUEST CHANGES / NO MERGE** until verified. Future runtime behavior changes and browser smoke changes require an independently reviewed v4 policy, mandatory E2E evidence, and a separate owner decision.
