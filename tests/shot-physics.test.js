@@ -37,10 +37,11 @@ test('missed jumpers aim at the rim, the glass or short, never past the baseline
       assert.equal(quality, 0, 'only badly contested shots fall short as air balls');
       assert.ok(aim.x < hoopRight - 3.5);
     } else if (aim.type === 'glass') {
-      assert.ok(aim.x > hoopRight && aim.x < hoopRight + 5 && aim.z > 2.95, 'glass misses meet the backboard');
+      assert.ok(aim.x > hoopRight + 3 && aim.x < hoopRight + 4 && aim.z > 2.95, 'glass misses meet the backboard');
     } else {
+      // Aims sit just inside the ring: tick-stepped flight lands about one step past the aim.
       const ring = Math.hypot(aim.x - hoopRight, aim.y - 50);
-      assert.ok(ring >= 1.3 && ring < 2.6, `${aim.type} aim stays on the ring (${ring.toFixed(2)})`);
+      assert.ok(ring >= 0.95 && ring < 2.2, `${aim.type} aim stays near the ring (${ring.toFixed(2)})`);
     }
     assert.ok(aim.x < court.maxX - 5, 'no miss is aimed beyond the baseline');
   }
@@ -55,8 +56,15 @@ test('real missed jumpers meet the rim or glass and stay in bounds as live rebou
     stepMatch(match, [...neutralInputs(match).filter(i => i.playerId !== shooter.id), createInput(shooter.id, { shootPressed: true })]);
     let released = false, contact = false, wentLoose = false;
     for (let t = 0; t < 400; t++) {
+      const before = { ...match.ball };
       stepMatch(match, neutralInputs(match));
       const b = match.ball;
+      // Where the miss first crossed rim height, interpolated along this tick's path.
+      if (before.mode === 'shot' && !before.made && !before.rim && before.z > 2.6 && b.z <= 2.6) {
+        const f = (before.z - 2.6) / (before.z - b.z);
+        const ring = Math.hypot(before.x + before.vx * f - before.targetX, before.y + before.vy * f - before.targetY);
+        if (before.missType !== 'airball' && before.missType !== 'glass') assert.ok(ring < 2.6, `seed ${seed}: ${before.missType} crosses rim height on the ring (${ring.toFixed(2)})`);
+      }
       if (b.mode === 'shot') released = true;
       if (b.rim || b.backboard) contact = true;
       if (b.mode === 'loose') wentLoose = true;
@@ -90,7 +98,15 @@ test('a miss meeting the ring caroms back toward the court', () => {
 });
 
 test('a well-timed jump reaches the default jumper release; a late one does not', () => {
-  const apexZ = 1.67, releaseZ = 7.67;
+  // Measure the apex height from a real timed jump instead of assuming it.
+  const probe = createMatch({ quarterSeconds: 60, seed: 1 });
+  probe.possession = 1; // only the defense can jump to block
+  const jumper = probe.players.find(p => p.team === 0);
+  prepareBlock(probe, jumper);
+  stepMatch(probe, neutralInputs(probe));
+  assert.equal(jumper.animation.tick, anchorTick('block', 'apex'), 'measured on the first apex tick');
+  const apexZ = jumper.z, releaseZ = 7.67;
+  assert.ok(apexZ > 1 && apexZ < 2.5, `plausible apex height ${apexZ.toFixed(2)}`);
   assert.ok(apexZ + blockReach({ block: 75 }) >= releaseZ, 'average blocker covers the release at the apex');
   assert.ok(apexZ + blockReach({ block: 75 }) < releaseZ + 1, 'one tick later the rising ball is out of reach');
   assert.ok(blockReach({ block: 99 }) > blockReach({ block: 60 }), 'block rating adds reach');
@@ -113,6 +129,21 @@ test('a well-timed jump reaches the default jumper release; a late one does not'
   };
   assert.ok(outcome(releaseZ - 1) > 5, 'jumpers at the release height can be blocked');
   assert.equal(outcome(releaseZ + 1.2), 0, 'a ball already above reach cannot be blocked');
+});
+
+test('swatting a descending miss over the cylinder is goaltending, like a make', () => {
+  const match = createMatch({ quarterSeconds: 60, seed: 1 });
+  match.possession = 1;
+  const defender = match.players.find(p => p.team === 0), shooter = match.players.find(p => p.team === 1);
+  Object.assign(defender, { block: 100, x: 10, y: 50 }); Object.assign(shooter, { x: 160, y: 50 });
+  prepareBlock(match, defender);
+  for (const p of match.players) p.hasBall = false;
+  Object.assign(match.ball, { mode: 'shot', ownerId: null, lastTouch: shooter.id, attemptId: 'goalie-miss', made: false, value: 2,
+    x: 10, y: 50, z: 3.5, vx: -0.1, vy: 0, vz: -0.2, targetX: 8, targetY: 50, targetZ: 2.6, rim: false, backboard: false });
+  stepMatch(match, neutralInputs(match));
+  assert.deepEqual(match.score, [0, 2]);
+  assert.equal(defender.blocks, 0);
+  assert.match(match.lastEvent, /goaltend/i);
 });
 
 test('miss trajectories stay deterministic for a seed', () => {

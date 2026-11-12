@@ -137,13 +137,17 @@ export function commitScore(match, attempt, {preserveAnimation = false} = {}) {
 
 // Where a missed jumper is aimed: off the front, back or side of the rim, off
 // the glass, or (for badly contested shots) short as an air ball.
-export function missAim(match, hoop, direction, quality) {
+export function missAim(match, hoop, shooterDirection, quality) {
+  // Orient by the baseline, not the shooter, so a shot from behind the hoop
+  // still aims "back rim" and "glass" at the real backboard side.
+  const direction = Math.sign(hoop - 100) || shooterDirection;
   const kind = rand(match), depth = rand(match), side = rand(match) < .5 ? -1 : 1;
   if (quality < .15 && kind < .12) return { x: hoop - direction * (4 + depth * 3), y: 50 + side * depth * 3, z: 2.6, type: 'airball' };
   if (kind < .4) return { x: hoop - direction * (1.3 + depth * .6), y: 50 + side * depth, z: 2.6, type: 'front-rim' };
-  if (kind < .7) return { x: hoop + direction * (1.3 + depth * .5), y: 50 + side * depth, z: 2.6, type: 'back-rim' };
+  // Tick-stepped flight lands about one step past the aim, so deep aims stay shallow.
+  if (kind < .7) return { x: hoop + direction * (1 + depth * .4), y: 50 + side * depth * .8, z: 2.6, type: 'back-rim' };
   if (kind < .87) return { x: hoop - direction * depth * .4, y: 50 + side * (1.4 + depth * .6), z: 2.6, type: 'side-rim' };
-  return { x: hoop + direction * 4.3, y: 50 + side * depth * 2, z: 3.6, type: 'glass' };
+  return { x: hoop + direction * 3.5, y: 50 + side * depth * 2, z: 3.6, type: 'glass' };
 }
 
 // Standing reach above the jump height; a good timed jump just covers the
@@ -358,7 +362,8 @@ function resolveShotBlock(match){
     const reach=p.z+blockReach(p),distance=hypot(p.x-b.x,p.y-b.y);
     if(distance>7||b.z>reach||b.z<1.4)continue;
     const overCylinder=Math.abs(b.x-b.targetX)<5.5&&Math.abs(b.y-b.targetY)<7;
-    if(b.mode==='shot'&&b.made&&!b.rim&&!b.backboard&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
+    // Goaltending does not depend on whether the shot was going in.
+    if(b.mode==='shot'&&!b.rim&&!b.backboard&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
       const shooter=playerById(match,b.lastTouch);
       if(shooter&&b.attemptId&&commitScore(match,{id:b.attemptId,team:shooter.team,playerId:shooter.id,points:b.value})){
         event(match,`${p.name} goaltends — basket counts!`);
@@ -386,16 +391,19 @@ function integrateBall(match) {
     const crossed=crossedToBasket||bankedBackThrough;
     const insideOpening=Math.abs(b.y-b.targetY)<4.5;
     if(crossed&&b.made&&!b.scored&&b.z<=b.targetZ&&oldZ>b.targetZ&&nearHoop&&insideOpening){const shotOwner=playerById(match,b.lastTouch);if(shotOwner&&b.attemptId){commitScore(match,{id:b.attemptId,team:shotOwner.team,playerId:shotOwner.id,points:b.value});return;}}
-    const rimWindow=Math.abs(b.x-b.targetX)<1.2&&Math.abs(b.y-b.targetY)<7.5&&Math.abs(b.z-b.targetZ)<.35;
-    const cleanEntry=b.made&&insideOpening&&b.vz<0;
-    if(!b.rim&&rimWindow&&!cleanEntry){b.rim=true;b.vx=-b.vx*.58;b.vy=clamp(b.vy+(b.y-b.targetY)*.06+(rand(match)-.5)*.05,-.5,.5);b.vz=Math.abs(b.vz)*.55+.1;event(match,'The shot rattles off the rim!');}
-    const ringDistance=Math.hypot(b.x-b.targetX,b.y-b.targetY);
-    if(!b.made&&(b.rimTouches??0)<2&&oldZ>b.targetZ&&b.z<=b.targetZ&&ringDistance<2.6){
+    // Test the path, not just the end of the tick: where did the ball cross rim height?
+    const crossing=oldZ>b.targetZ&&b.z<=b.targetZ?(oldZ-b.targetZ)/(oldZ-b.z):null;
+    const ringDistance=crossing===null?Infinity:Math.hypot(b.x-b.vx*(1-crossing)-b.targetX,b.y-b.vy*(1-crossing)-b.targetY);
+    const carom=!b.made&&(b.rimTouches??0)<2&&ringDistance<2.6;
+    if(carom){
       // A miss meeting the ring caroms back toward the court, never the baseline.
       b.rim=true;b.rimTouches=(b.rimTouches??0)+1;b.z=b.targetZ+.05;
       b.vx=-Math.sign(b.targetX-100)*(.1+rand(match)*.25);b.vy=clamp((b.y-b.targetY)*.1+(rand(match)-.5)*.4,-.3,.3);b.vz=.3+rand(match)*.2;
       event(match,'The shot rattles off the rim!');
     }
+    const rimWindow=Math.abs(b.x-b.targetX)<1.2&&Math.abs(b.y-b.targetY)<7.5&&Math.abs(b.z-b.targetZ)<.35;
+    const cleanEntry=b.made&&insideOpening&&b.vz<0;
+    if(!carom&&!b.rim&&rimWindow&&!cleanEntry){b.rim=true;b.vx=-b.vx*.58;b.vy=clamp(b.vy+(b.y-b.targetY)*.06+(rand(match)-.5)*.05,-.5,.5);b.vz=Math.abs(b.vz)*.55+.1;event(match,'The shot rattles off the rim!');}
     // The glass sits behind the rim on the baseline side and only stops a ball travelling toward it.
     const baseline=Math.sign(b.targetX-100),boardX=b.targetX+baseline*4;
     const backboardWindow=Math.sign(b.vx)===baseline&&Math.abs(b.x-boardX)<.8&&Math.abs(b.y-b.targetY)<9&&b.z>b.targetZ+.35&&b.z<b.targetZ+3.2;

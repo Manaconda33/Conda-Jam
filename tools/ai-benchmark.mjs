@@ -1,7 +1,7 @@
 // CPU team-play benchmark. Plays seeded 4-minute matches (60-second quarters)
 // CPU-vs-CPU and against a scripted "casual human" (drives with turbo, shoots
 // near the rim or when open, mashes steal on defense), per difficulty. Also
-// follows missed jumpers to their outcome and splits blocks by shot type.
+// follows unblocked missed shots to their outcome and splits blocks by type.
 // Usage: node tools/ai-benchmark.mjs [games=60] [root=repository root]
 import { pathToFileURL } from 'node:url';
 const games = Number(process.argv[2] ?? 60);
@@ -44,13 +44,15 @@ function run(difficulty, withHuman) {
       const before = m.ball.mode, dunking = before === 'dunk' || m.players.some(p => p.animation.action?.kind === 'dunk');
       stepMatch(m, withHuman ? [casualHuman(m, id, mem)] : []);
       const b = m.ball, nowBlocks = m.players.reduce((sum, p) => sum + p.blocks, 0);
-      if (nowBlocks > blocks) { if (dunking) t.dunkBlk++; else t.shotBlk++; }
+      if (nowBlocks > blocks) { if (dunking) t.dunkBlk++; else t.shotBlk++; if (miss) miss = null; }
       blocks = nowBlocks;
-      // Follow each missed jump shot to its outcome: out of bounds or a rebound.
-      if (b.mode === 'shot' && before !== 'shot') miss = b.made ? null : (t.misses++, { team: m.possession });
+      // Follow each unblocked missed shot (jumpers and layups) to its outcome:
+      // out of bounds or a rebound. Count it only when it resolves.
+      if (b.mode === 'shot' && before !== 'shot') miss = b.made ? null : { team: m.possession };
+      else if (miss && before === 'shot' && b.mode !== 'shot' && b.mode !== 'loose') miss = null;
       else if (miss && before === 'loose' && b.mode !== 'loose') {
-        if (b.mode === 'dead') t.missOut++;
-        else if (b.mode === 'carried') { if (m.players.find(p => p.hasBall)?.team === miss.team) t.offReb++; else t.defReb++; }
+        if (b.mode === 'dead') { t.misses++; t.missOut++; }
+        else if (b.mode === 'carried') { t.misses++; if (m.players.find(p => p.hasBall)?.team === miss.team) t.offReb++; else t.defReb++; }
         miss = null;
       }
       if (b.mode !== 'carried') continue;
@@ -65,7 +67,7 @@ function run(difficulty, withHuman) {
   return withHuman
     ? { difficulty, humanTeamWinRate: r(t.wins / games, 2), humanTeamPoints: r(t.home / games), cpuPoints: r(t.away / games) }
     : { difficulty, pointsPerTeam: r(t.pts / g), fgaPerTeam: r(t.fga / g), fgPct: r(t.fgm / t.fga, 3), threeShare: r(t.threes / t.fga, 2), dunksPerTeam: r(t.dunks / g), assistedShare: r(t.ast / t.fgm, 2), stealsPerTeam: r(t.stl / g), blocksPerTeam: r(t.blk / g), shotBlocksPerTeam: r(t.shotBlk / g), dunkBlocksPerTeam: r(t.dunkBlk / g), teammateUnguarded: r(t.open / t.samples, 2),
-      missedJumpersPerTeam: r(t.misses / g), missesOutOfBoundsPerTeam: r(t.missOut / g), reboundsAfterMissPerTeam: r((t.offReb + t.defReb) / g), offensiveReboundShare: r(t.offReb / Math.max(1, t.offReb + t.defReb), 2) };
+      missedShotsPerTeam: r(t.misses / g), missesOutOfBoundsPerTeam: r(t.missOut / g), reboundsAfterMissPerTeam: r((t.offReb + t.defReb) / g), offensiveReboundShare: r(t.offReb / Math.max(1, t.offReb + t.defReb), 2) };
 }
 
 const report = { games, cpuVsCpu: [], vsCasualHuman: [] };
