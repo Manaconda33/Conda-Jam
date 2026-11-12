@@ -44,6 +44,7 @@ const modules={
   './render/debug-diagnostics.js':await wrapModule('render/debug-diagnostics.js'),
   './render/court-geometry.js':await wrapModule('render/court-geometry.js'),
   './ui/box-score.js':await wrapModule('ui/box-score.js'),
+  './core/ai.js':await wrapModule('core/ai.js'),
   './core/simulation.js':await wrapModule('core/simulation.js'),
   './core/season.js':await wrapModule('core/season.js'),
   './core/music.js':await wrapModule('core/music.js'),
