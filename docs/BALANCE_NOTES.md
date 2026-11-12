@@ -39,16 +39,16 @@ Blocks were low because the default jump-shot release was above block reach, and
 
 ## Shot physics: blockable jumpers and live rebounds
 
-Missed jump shots fly the same arc as made shots, aimed just off the opening: front rim, back rim, side of the rim, or off the glass. Badly contested shots can fall short as air balls. A miss that meets the ring caroms back toward the court, never the baseline. The backboard sits behind the rim on the baseline side and only stops a ball travelling toward it. Before, it moved with the ball's direction, so a ball heading away from the basket could hit a phantom board in front of the rim. Make probability is unchanged.
+Missed jump shots fly the same arc as made shots, aimed just off the opening: front rim, back rim, side of the rim, or off the glass. Badly contested shots can fall short as air balls. A miss that meets the ring (tested along the ball's path within each tick) caroms back toward the court, never the baseline. Goaltending applies to misses as well as makes. The backboard sits behind the rim on the baseline side and only stops a ball travelling toward it. Before, it moved with the ball's direction, so a ball heading away from the basket could hit a phantom board in front of the rim. Make probability is unchanged.
 
 Block reach is `5.6 + 0.8 × block/99` above the defender's jump height, so a jump timed to the release covers the default jumper for about one tick. The CPU's block decision uses the same reach. On a miss, the shooting team crashes from range on about a third of attempts (decided once per shot); the defense sends both players after a short carom.
 
 | CPU vs CPU, Pro, per team (80 games) | Before | After |
 |---|---|---|
-| Misses ending out of bounds | 5.3 | 0.3 |
-| Live rebounds after a miss | 1.0 | 5.0 |
-| Offensive rebound share | 42% | 27% |
-| Blocks (jump shots and layups / dunks) | 1.2 (0.9 / 0.3) | 2.1 (1.7 / 0.4) |
-| FG% / points | 56.6% / 20.5 | 55.7% / 19.6 |
+| Misses ending out of bounds | 5.2 | 0.2 |
+| Live rebounds after a miss | 0.8 | 5.1 |
+| Offensive rebound share | 40% | 26% |
+| Blocks (jump shots and layups / dunks) | 1.2 (0.9 / 0.3) | 1.9 (1.7 / 0.2) |
+| FG% / points | 56.6% / 20.5 | 55.7% / 19.5 |
 
-Rookie and Legend follow the same pattern (misses out of bounds 3.6→0.1 and 5.1→0.7; offensive rebound share 32% and 34%). The scripted casual player's win rate moved from 63/49/42% to 60/39/36% (Rookie/Pro/Legend): its jumpers now get blocked and it never times its own blocks. Pro difficulty after this change is a playtest item.
+Rookie and Legend follow the same pattern (misses out of bounds 3.6→0.0 and 5.1→0.3; offensive rebound share 31% for both). Misses are counted only when they resolve, excluding blocked shots. The scripted casual player's win rate moved from 63/49/42% to 64/34/41% (Rookie/Pro/Legend): its jumpers now get blocked and it never times its own blocks. Pro difficulty after this change is a playtest item.
