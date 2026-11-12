@@ -135,6 +135,23 @@ export function commitScore(match, attempt, {preserveAnimation = false} = {}) {
   return true;
 }
 
+// Where a missed jumper is aimed: off the front, back or side of the rim, off
+// the glass, or (for badly contested shots) short as an air ball.
+export function missAim(match, hoop, direction, quality) {
+  const kind = rand(match), depth = rand(match), side = rand(match) < .5 ? -1 : 1;
+  if (quality < .15 && kind < .12) return { x: hoop - direction * (4 + depth * 3), y: 50 + side * depth * 3, z: 2.6, type: 'airball' };
+  if (kind < .4) return { x: hoop - direction * (1.3 + depth * .6), y: 50 + side * depth, z: 2.6, type: 'front-rim' };
+  if (kind < .7) return { x: hoop + direction * (1.3 + depth * .5), y: 50 + side * depth, z: 2.6, type: 'back-rim' };
+  if (kind < .87) return { x: hoop - direction * depth * .4, y: 50 + side * (1.4 + depth * .6), z: 2.6, type: 'side-rim' };
+  return { x: hoop + direction * 4.3, y: 50 + side * depth * 2, z: 3.6, type: 'glass' };
+}
+
+// Standing reach above the jump height; a good timed jump just covers the
+// default jumper release (~7.7) for a tick or two.
+export function blockReach(player) {
+  return 5.6 + clamp(player.block ?? 75, 0, 99) / 99 * .8;
+}
+
 function makeShot(match, player, chargeFrames = 0) {
   const hoop = player.team === 0 ? COURT.hoops[1] : COURT.hoops[0];
   const direction = Math.sign(hoop - player.x) || (player.team === 0 ? 1 : -1);
@@ -150,11 +167,14 @@ function makeShot(match, player, chargeFrames = 0) {
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
   // Preserve the rendered hand elevation when the attached ball becomes a projectile.
   const releaseHeight=flightHeightFromHand(sampleBallHeight(player.animation.clip,player.animation.tick,player.id),player.z);
-  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = made ? (sampleBallReleaseVz(player.animation.clip,player.id) ?? 1.05 + Math.min(.3,distance*.002)) : .88 + rand(match)*.35;
-  const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-2.6)))/.026;
-  const releaseDistance=Math.abs(hoop-match.ball.x);
-  match.ball.vx = (Math.sign(hoop-match.ball.x)||direction) * (made ? Math.min(1.25, releaseDistance / descentFrames) : .55 + rand(match) * .3);
-  match.ball.vy = made ? (50-player.y)/descentFrames : clamp((50 - player.y) / 75, -.45, .45); match.ball.made = made; match.ball.targetX = hoop; match.ball.targetY = 50; match.ball.targetZ = 2.6;
+  match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = sampleBallReleaseVz(player.animation.clip,player.id) ?? 1.05 + Math.min(.3,distance*.002);
+  // Makes and misses fly the same arc; a miss aims just off the opening so it
+  // meets the rim or glass and caroms back into play.
+  const aim = made ? { x: hoop, y: 50, z: 2.6, type: 'make' } : missAim(match, hoop, direction, quality);
+  const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-aim.z)))/.026;
+  const toAim=aim.x-match.ball.x;
+  match.ball.vx = (Math.sign(toAim)||direction) * Math.min(1.25, Math.abs(toAim) / descentFrames);
+  match.ball.vy = (aim.y-match.ball.y)/descentFrames; match.ball.made = made; match.ball.missType = aim.type; match.ball.rimTouches = 0; match.ball.targetX = hoop; match.ball.targetY = 50; match.ball.targetZ = 2.6;
   releaseOwner(match);
   event(match, `${player.name} launches a ${points}-pointer`);
   match.shotClock = 24;
@@ -304,7 +324,7 @@ function syncLocomotion(match,inputs){
 }
 
 function aiInputs(match, controlled) {
-  return teamAiInputs(match, controlled, { court: COURT, profile: match.cpuProfile ?? CPU_PROFILES.Pro, allyProfile: CPU_PROFILES.Pro, rand: () => rand(match), scoreValue, createInput, accuracyFor: player => cpuAccuracyFor(match, player) });
+  return teamAiInputs(match, controlled, { court: COURT, profile: match.cpuProfile ?? CPU_PROFILES.Pro, allyProfile: CPU_PROFILES.Pro, rand: () => rand(match), scoreValue, createInput, accuracyFor: player => cpuAccuracyFor(match, player), blockReach });
 }
 
 function integratePlayers(match, inputs) {
@@ -335,7 +355,7 @@ function resolveShotBlock(match){
   const b=match.ball;if(b.mode!=='shot'&&b.mode!=='dunk')return;
   const defenders=match.players.filter(p=>p.team!==match.possession&&p.animation?.clip==='block'&&sampleAnimation('block',p.animation.tick).frame===animationClips.block.anchors.apex&&p.z>.05);
   for(const p of defenders){
-    const reach=p.z+5.2,distance=hypot(p.x-b.x,p.y-b.y);
+    const reach=p.z+blockReach(p),distance=hypot(p.x-b.x,p.y-b.y);
     if(distance>7||b.z>reach||b.z<1.4)continue;
     const overCylinder=Math.abs(b.x-b.targetX)<5.5&&Math.abs(b.y-b.targetY)<7;
     if(b.mode==='shot'&&b.made&&!b.rim&&!b.backboard&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
@@ -369,8 +389,16 @@ function integrateBall(match) {
     const rimWindow=Math.abs(b.x-b.targetX)<1.2&&Math.abs(b.y-b.targetY)<7.5&&Math.abs(b.z-b.targetZ)<.35;
     const cleanEntry=b.made&&insideOpening&&b.vz<0;
     if(!b.rim&&rimWindow&&!cleanEntry){b.rim=true;b.vx=-b.vx*.58;b.vy=clamp(b.vy+(b.y-b.targetY)*.06+(rand(match)-.5)*.05,-.5,.5);b.vz=Math.abs(b.vz)*.55+.1;event(match,'The shot rattles off the rim!');}
-    const direction=Math.sign(b.vx),boardX=b.targetX+direction*4;
-    const backboardWindow=Math.abs(b.x-boardX)<.8&&Math.abs(b.y-b.targetY)<9&&b.z>b.targetZ+.35&&b.z<b.targetZ+3.2;
+    const ringDistance=Math.hypot(b.x-b.targetX,b.y-b.targetY);
+    if(!b.made&&(b.rimTouches??0)<2&&oldZ>b.targetZ&&b.z<=b.targetZ&&ringDistance<2.6){
+      // A miss meeting the ring caroms back toward the court, never the baseline.
+      b.rim=true;b.rimTouches=(b.rimTouches??0)+1;b.z=b.targetZ+.05;
+      b.vx=-Math.sign(b.targetX-100)*(.1+rand(match)*.25);b.vy=clamp((b.y-b.targetY)*.1+(rand(match)-.5)*.4,-.3,.3);b.vz=.3+rand(match)*.2;
+      event(match,'The shot rattles off the rim!');
+    }
+    // The glass sits behind the rim on the baseline side and only stops a ball travelling toward it.
+    const baseline=Math.sign(b.targetX-100),boardX=b.targetX+baseline*4;
+    const backboardWindow=Math.sign(b.vx)===baseline&&Math.abs(b.x-boardX)<.8&&Math.abs(b.y-b.targetY)<9&&b.z>b.targetZ+.35&&b.z<b.targetZ+3.2;
     if(!b.backboard&&backboardWindow){b.backboard=true;b.vx=-b.vx*.9;b.vz=Math.abs(b.vz)*.45+.02;event(match,'Bank shot off the glass!');}
     if((b.z<=0||(b.x-b.targetX)*Math.sign(b.targetX-100)>50)&&b.mode!=='dead'){b.z=Math.max(0,b.z);b.mode='loose';b.vz=Math.abs(b.vz)*.55+.12;b.vx*=.72;b.vy*=.72;event(match,'Rebound!');}
     return;

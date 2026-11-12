@@ -1,6 +1,7 @@
 // CPU team-play benchmark. Plays seeded 4-minute matches (60-second quarters)
 // CPU-vs-CPU and against a scripted "casual human" (drives with turbo, shoots
-// near the rim or when open, mashes steal on defense), per difficulty.
+// near the rim or when open, mashes steal on defense), per difficulty. Also
+// follows missed jumpers to their outcome and splits blocks by shot type.
 // Usage: node tools/ai-benchmark.mjs [games=60] [root=repository root]
 import { pathToFileURL } from 'node:url';
 const games = Number(process.argv[2] ?? 60);
@@ -33,13 +34,26 @@ function casualHuman(m, id, mem) {
 }
 
 function run(difficulty, withHuman) {
-  const t = { pts: 0, fga: 0, fgm: 0, threes: 0, ast: 0, stl: 0, blk: 0, dunks: 0, wins: 0, home: 0, away: 0, open: 0, samples: 0 };
+  const t = { pts: 0, fga: 0, fgm: 0, threes: 0, ast: 0, stl: 0, blk: 0, dunks: 0, wins: 0, home: 0, away: 0, open: 0, samples: 0,
+    misses: 0, missOut: 0, offReb: 0, defReb: 0, shotBlk: 0, dunkBlk: 0 };
   for (let seed = 1; seed <= games; seed++) {
     const m = createMatch({ quarterSeconds: 60, seed: withHuman ? seed * 7 : seed, home: teams[(seed - 1) % teams.length], away: teams[(seed + 12) % teams.length], difficulty });
     const id = m.players[0].id, mem = { t: 0, lastPass: -99, lastSteal: -99 };
+    let miss = null, blocks = 0;
     for (let n = 0; n < 300000 && m.phase !== 'final'; n++) {
+      const before = m.ball.mode, dunking = before === 'dunk' || m.players.some(p => p.animation.action?.kind === 'dunk');
       stepMatch(m, withHuman ? [casualHuman(m, id, mem)] : []);
-      if (m.ball.mode !== 'carried') continue;
+      const b = m.ball, nowBlocks = m.players.reduce((sum, p) => sum + p.blocks, 0);
+      if (nowBlocks > blocks) { if (dunking) t.dunkBlk++; else t.shotBlk++; }
+      blocks = nowBlocks;
+      // Follow each missed jump shot to its outcome: out of bounds or a rebound.
+      if (b.mode === 'shot' && before !== 'shot') miss = b.made ? null : (t.misses++, { team: m.possession });
+      else if (miss && before === 'loose' && b.mode !== 'loose') {
+        if (b.mode === 'dead') t.missOut++;
+        else if (b.mode === 'carried') { if (m.players.find(p => p.hasBall)?.team === miss.team) t.offReb++; else t.defReb++; }
+        miss = null;
+      }
+      if (b.mode !== 'carried') continue;
       const carrier = m.players.find(p => p.hasBall), mate = m.players.find(p => p.team === carrier.team && p !== carrier);
       t.samples++; if (Math.min(...m.players.filter(p => p.team !== carrier.team).map(p => dist(p, mate))) > 12) t.open++;
     }
@@ -50,7 +64,8 @@ function run(difficulty, withHuman) {
   const g = games * 2, r = (x, d = 1) => +x.toFixed(d);
   return withHuman
     ? { difficulty, humanTeamWinRate: r(t.wins / games, 2), humanTeamPoints: r(t.home / games), cpuPoints: r(t.away / games) }
-    : { difficulty, pointsPerTeam: r(t.pts / g), fgaPerTeam: r(t.fga / g), fgPct: r(t.fgm / t.fga, 3), threeShare: r(t.threes / t.fga, 2), dunksPerTeam: r(t.dunks / g), assistedShare: r(t.ast / t.fgm, 2), stealsPerTeam: r(t.stl / g), blocksPerTeam: r(t.blk / g), teammateUnguarded: r(t.open / t.samples, 2) };
+    : { difficulty, pointsPerTeam: r(t.pts / g), fgaPerTeam: r(t.fga / g), fgPct: r(t.fgm / t.fga, 3), threeShare: r(t.threes / t.fga, 2), dunksPerTeam: r(t.dunks / g), assistedShare: r(t.ast / t.fgm, 2), stealsPerTeam: r(t.stl / g), blocksPerTeam: r(t.blk / g), shotBlocksPerTeam: r(t.shotBlk / g), dunkBlocksPerTeam: r(t.dunkBlk / g), teammateUnguarded: r(t.open / t.samples, 2),
+      missedJumpersPerTeam: r(t.misses / g), missesOutOfBoundsPerTeam: r(t.missOut / g), reboundsAfterMissPerTeam: r((t.offReb + t.defReb) / g), offensiveReboundShare: r(t.offReb / Math.max(1, t.offReb + t.defReb), 2) };
 }
 
 const report = { games, cpuVsCpu: [], vsCasualHuman: [] };
