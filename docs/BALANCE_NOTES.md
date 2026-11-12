@@ -18,7 +18,7 @@ Difficulty scales the opposing CPU only (a human's CPU partner always plays Pro)
 | Block-jump chance at a contestable release | 30% | 50% | 75% |
 | Shot accuracy | −10% | 0 | +7% |
 
-`npm run simulate:ai [games]` reproduces the table below (80 seeded games per row, 60-second quarters, original AI = commit `f2788aec`). The "casual human" is a scripted player who drives with turbo, shoots near the rim or when open, and mashes steal; it is a regression signal, not a human playtest.
+`node tools/ai-benchmark.mjs [games]` reproduces the table below (80 seeded games per row, 60-second quarters, original AI = commit `f2788aec`). The "casual human" is a scripted player who drives with turbo, shoots near the rim or when open, and mashes steal; it is a regression signal, not a human playtest.
 
 | CPU vs CPU, per team | Pro before | Pro after | Legend before | Legend after |
 |---|---|---|---|---|
