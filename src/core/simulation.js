@@ -362,8 +362,10 @@ function resolveShotBlock(match){
     const reach=p.z+blockReach(p),distance=hypot(p.x-b.x,p.y-b.y);
     if(distance>7||b.z>reach||b.z<1.4)continue;
     const overCylinder=Math.abs(b.x-b.targetX)<5.5&&Math.abs(b.y-b.targetY)<7;
-    // Goaltending does not depend on whether the shot was going in.
-    if(b.mode==='shot'&&!b.rim&&!b.backboard&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
+    // Goaltending covers any descending shot that could still go in: a make, or a
+    // miss over the ring (an air ball falling short can only be blocked).
+    const couldEnter=b.made||Math.hypot(b.x-b.targetX,b.y-b.targetY)<2.6;
+    if(b.mode==='shot'&&couldEnter&&!b.rim&&!b.backboard&&b.vz<0&&overCylinder&&b.z<=b.targetZ+4&&b.z>b.targetZ){
       const shooter=playerById(match,b.lastTouch);
       if(shooter&&b.attemptId&&commitScore(match,{id:b.attemptId,team:shooter.team,playerId:shooter.id,points:b.value})){
         event(match,`${p.name} goaltends — basket counts!`);

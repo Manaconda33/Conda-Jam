@@ -146,6 +146,25 @@ test('swatting a descending miss over the cylinder is goaltending, like a make',
   assert.match(match.lastEvent, /goaltend/i);
 });
 
+test('an air ball falling short of the rim can be blocked but not goaltended', () => {
+  let points = 0, blocks = 0;
+  for (let seed = 1; seed <= 20; seed++) {
+    const match = createMatch({ quarterSeconds: 60, seed });
+    match.possession = 1;
+    const defender = match.players.find(p => p.team === 0), shooter = match.players.find(p => p.team === 1);
+    Object.assign(defender, { block: 100, x: 13, y: 50 }); Object.assign(shooter, { x: 160, y: 50 });
+    prepareBlock(match, defender);
+    for (const p of match.players) p.hasBall = false;
+    // Descending, over the 5.5-wide cylinder, but 5 short of the hoop: it cannot go in.
+    Object.assign(match.ball, { mode: 'shot', ownerId: null, lastTouch: shooter.id, attemptId: 'air', made: false, missType: 'airball', value: 2,
+      x: 13, y: 50, z: 3.6, vx: -0.3, vy: 0, vz: -0.5, targetX: 8, targetY: 50, targetZ: 2.6, rim: false, backboard: false });
+    stepMatch(match, neutralInputs(match));
+    points += match.score[1]; blocks += defender.blocks;
+  }
+  assert.equal(points, 0, 'no points for swatting an air ball');
+  assert.ok(blocks > 10, `the air ball is blockable (${blocks}/20)`);
+});
+
 test('miss trajectories stay deterministic for a seed', () => {
   const run = () => {
     const { match, shooter } = isolatedShooter(17);
