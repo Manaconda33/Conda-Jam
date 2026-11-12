@@ -16,11 +16,20 @@ import {
   V3_POLICY_REVIEW_BASE,
 } from './source-evolution-contract-v3.mjs';
 import {
-  assertVersionedSourceEvolution as assertV4VersionedSourceEvolution,
-  assertPullRequestEvolutionScope as assertV4PullRequestEvolutionScope,
   FROZEN_V3_VERIFIER_FILES,
   V4_POLICY_REVIEW_BASE,
 } from './source-evolution-contract-v4.mjs';
+import {
+  assertVersionedSourceEvolution as assertV5VersionedSourceEvolution,
+  assertPullRequestEvolutionScope as assertV5PullRequestEvolutionScope,
+  FROZEN_V4_VERIFIER_FILES,
+  V5_POLICY_REVIEW_BASE,
+} from './source-evolution-contract-v5.mjs';
+// Historical compatibility tokens (DOCUMENTATION ONLY, not executed). The
+// frozen v4 test asserts these v4 call sites; v5 supersedes them below, as the
+// v3 workflow kept v1/v2 path tokens as comments:
+//   assertV4VersionedSourceEvolution(changedPaths, changedBlobIds)
+//   assertV4PullRequestEvolutionScope(prBase, prChanges, prBlobs)
 
 const baseline = JSON.parse(readFileSync('docs/animation-production/CAPTAIN_STUDIO_BASELINE.json', 'utf8'));
 const signatures = JSON.parse(readFileSync(baseline.strictAudit.expectedFindingSignatures, 'utf8'));
@@ -61,13 +70,19 @@ for (const path of FROZEN_V3_VERIFIER_FILES) {
   fail(gitBlob('HEAD', path) === gitBlob(V4_POLICY_REVIEW_BASE, path),
     'accepted v1/v2/v3 verifier evidence mutated: ' + path);
 }
+// Freeze every v1-v4 verifier artifact not explicitly revised by the v5 bootstrap.
+execFileSync('git', ['merge-base', '--is-ancestor', V5_POLICY_REVIEW_BASE, 'HEAD']);
+for (const path of FROZEN_V4_VERIFIER_FILES) {
+  fail(gitBlob('HEAD', path) === gitBlob(V5_POLICY_REVIEW_BASE, path),
+    'accepted v1-v4 verifier evidence mutated: ' + path);
+}
 // Complete committed diff from original PR20 snapshot, never a partial manifest.
 const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', ACCEPTED_SNAPSHOT_MERGE, 'HEAD'], { encoding: 'utf8' })
   .trim().split('\n').filter(Boolean);
 const changedBlobIds = Object.fromEntries(changedPaths.map(path => [path, gitBlob('HEAD', path)]));
-const evolution = assertV4VersionedSourceEvolution(changedPaths, changedBlobIds);
+const evolution = assertV5VersionedSourceEvolution(changedPaths, changedBlobIds);
 // On PR runs, enforce the trusted base and full PR diff. The v2 migration
-// v3 and v4 bootstraps alone may alter verifier files; later gameplay PRs are path-scoped.
+// v3, v4 and v5 bootstraps alone may alter verifier files; later gameplay PRs are path-scoped.
 let pullRequestScope = null;
 if (process.env.CAPTAIN_STUDIO_PR_BASE) {
   const prBase = process.env.CAPTAIN_STUDIO_PR_BASE;
@@ -76,7 +91,7 @@ if (process.env.CAPTAIN_STUDIO_PR_BASE) {
   const prChanges = execFileSync('git', ['diff', '--name-only', '--no-renames', prBase, 'HEAD'], { encoding: 'utf8' })
     .trim().split('\n').filter(Boolean);
   const prBlobs = Object.fromEntries(prChanges.map(path => [path, gitBlob('HEAD', path)]));
-  pullRequestScope = assertV4PullRequestEvolutionScope(prBase, prChanges, prBlobs);
+  pullRequestScope = assertV5PullRequestEvolutionScope(prBase, prChanges, prBlobs);
 }
 
 fail(baseline.schemaVersion === 1, 'schema version');
