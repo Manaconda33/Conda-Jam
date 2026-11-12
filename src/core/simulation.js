@@ -11,13 +11,21 @@ const CPU_PROFILES = {
   // openShotChance/passChance are per-tick decision rates once the AI judges the
   // option worthwhile; stealChance is per tick while pressuring the ball;
   // blockChance is the chance to time a jump at a contestable release.
-  Rookie: { accuracy: -.07, shotDistance: 42, openShotChance: .03, passChance: .03, stealChance: .012, blockChance: .3 },
-  Pro: { accuracy: 0, shotDistance: 58, openShotChance: .06, passChance: .07, stealChance: .02, blockChance: .5 },
-  Legend: { accuracy: .07, shotDistance: 70, openShotChance: .12, passChance: .14, stealChance: .03, blockChance: .75 }
+  Rookie: { accuracy: -.1, shotDistance: 42, openShotChance: .02, passChance: .08, stealChance: .004, blockChance: .3 },
+  Pro: { accuracy: 0, shotDistance: 58, openShotChance: .06, passChance: .15, stealChance: .006, blockChance: .5 },
+  Legend: { accuracy: .07, shotDistance: 70, openShotChance: .12, passChance: .25, stealChance: .009, blockChance: .75 }
 };
 export function cpuProfileFor(difficulty = 'Pro') {
   const profile = CPU_PROFILES[difficulty] ?? CPU_PROFILES.Pro;
   return { ...profile };
+}
+
+// Difficulty sets the opposing CPU's accuracy only: humans and their CPU
+// partners always shoot at the neutral rate.
+export function cpuAccuracyFor(match, player) {
+  const humans = match.humanPlayerIds ?? [];
+  if (match.players.some(p => p.team === player.team && humans.includes(p.id))) return 0;
+  return match.cpuProfile?.accuracy ?? 0;
 }
 
 export function scoreValue(player, team) {
@@ -136,7 +144,7 @@ function makeShot(match, player, chargeFrames = 0) {
   const open = match.players.filter(p => p.team !== player.team).reduce((best, p) => Math.min(best, hypot(p.x-player.x,p.y-player.y)), 99);
   const quality = clamp((open - 5) / 30, 0, 1);
   const chargeQuality=chargeFrames>0?clamp(1-Math.abs(chargeFrames-15)/15,0,1):0;
-  const cpuAccuracy=match.humanPlayerIds?.includes(player.id)?0:(match.cpuProfile?.accuracy??0);
+  const cpuAccuracy=cpuAccuracyFor(match,player);
   const base = player.shoot / 100 * .35 + quality * .32 + (distance < 42 ? .2 : .04) + chargeQuality*.12 + cpuAccuracy + (player.onFire ? .3 : 0);
   const made = rand(match) < clamp(base, .2, .88);
   match.ball.mode = 'shot'; match.ball.ownerId = null; match.ball.targetId = null; match.ball.lastTouch = player.id; match.ball.attemptId = attempt.id; match.ball.value = points; match.ball.scored = false; match.ball.rim = false; match.ball.backboard=false;
@@ -296,7 +304,7 @@ function syncLocomotion(match,inputs){
 }
 
 function aiInputs(match, controlled) {
-  return teamAiInputs(match, controlled, { court: COURT, profile: match.cpuProfile ?? CPU_PROFILES.Pro, rand: () => rand(match), scoreValue, createInput });
+  return teamAiInputs(match, controlled, { court: COURT, profile: match.cpuProfile ?? CPU_PROFILES.Pro, allyProfile: CPU_PROFILES.Pro, rand: () => rand(match), scoreValue, createInput, accuracyFor: player => cpuAccuracyFor(match, player) });
 }
 
 function integratePlayers(match, inputs) {
