@@ -26,6 +26,9 @@ on:
 #   captain-studio-source-evolution-v3.test.js
 #   CAPTAIN_STUDIO_SOURCE_EVOLUTION_V4.md
 #   captain-studio-source-evolution-v4.test.js
+#   source-evolution-contract-v4.mjs (v4 scope check, superseded by v5)
+#   CAPTAIN_STUDIO_SOURCE_EVOLUTION_V5.md
+#   captain-studio-source-evolution-v5.test.js
 
 permissions:
   contents: read
@@ -48,7 +51,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Check entire trusted PR diff against v4 bootstrap or gameplay allowlist
+      - name: Check entire trusted PR diff against v5 bootstrap or gameplay allowlist
         shell: bash
         env:
           CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
@@ -59,7 +62,7 @@ jobs:
           else
             node --input-type=module <<'NODE'
           import { execFileSync } from 'node:child_process';
-          import { assertPullRequestEvolutionScope } from './tools/captain-studio/source-evolution-contract-v4.mjs';
+          import { assertPullRequestEvolutionScope } from './tools/captain-studio/source-evolution-contract-v5.mjs';
           const base = process.env.CAPTAIN_STUDIO_PR_BASE;
           if (!/^[a-f0-9]{40}$/.test(base ?? '')) throw Error('Missing trusted GitHub PR base SHA');
           execFileSync('git', ['merge-base', '--is-ancestor', base, 'HEAD']);
@@ -121,7 +124,7 @@ jobs:
           mkdir -p ci-studio-baseline
           node tools/audit-animation-assets.mjs --json ci-studio-baseline/audit.json --markdown ci-studio-baseline/audit.md --report-only
 
-      - name: Verify immutable PR20 snapshot, frozen v1/v2/v3 policy, scoped v4 gameplay eligibility and audit identities
+      - name: Verify immutable PR20 snapshot, frozen v1-v4 policy, scoped v5 gameplay eligibility and audit identities
         shell: bash
         env:
           CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
@@ -171,7 +174,7 @@ jobs:
         run: npm run validate:content
       - name: Verify deterministic league simulation
         run: npm run simulate:league
-      # v4: runtime gameplay changes must pass the browser smoke suite.
+      # v4/v5: runtime gameplay changes must pass the browser smoke suite.
       - name: Set up Python for browser smoke suite
         uses: actions/setup-python@v5
         with:
