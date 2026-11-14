@@ -8,18 +8,21 @@ import * as P from './parts.mjs';
 
 const BAYER4 = [0, 8, 2, 10, 12, 4, 14, 6, 3, 11, 1, 9, 15, 7, 13, 5].map(v => v / 16 - 0.5);
 
+// Default back-to-front order. A pose can override it (e.g. an arm swung in
+// front of the body during a dunk), so layering is data, not code.
+export const DEFAULT_ORDER = ['topknot', 'scarfTail', 'backArm', 'frontArm', 'backLeg', 'frontLeg', 'shorts', 'jersey', 'head', 'scarfWrap'];
+
+const DRAW = {
+  topknot: P.topknot, scarfTail: P.scarfTail, shorts: P.shorts, jersey: P.jersey, head: P.head, scarfWrap: P.scarfWrap,
+  backArm: (cv, pose, spec) => P.arm(cv, pose, spec, 'backArm'),
+  frontArm: (cv, pose, spec) => P.arm(cv, pose, spec, 'frontArm'),
+  backLeg: (cv, pose, spec) => P.leg(cv, pose, spec, 'backLeg'),
+  frontLeg: (cv, pose, spec) => P.leg(cv, pose, spec, 'frontLeg'),
+};
+
 export function drawCharacter(spec, pose) {
   const [w, h] = spec.frame, cv = createCanvas(w, h);
-  P.topknot(cv, pose, spec);
-  P.scarfTail(cv, pose, spec);
-  P.arm(cv, pose, spec, 'backArm');
-  P.leg(cv, pose, spec, 'backLeg');
-  P.leg(cv, pose, spec, 'frontLeg');
-  P.shorts(cv, pose, spec);
-  P.jersey(cv, pose, spec);
-  P.head(cv, pose, spec);
-  P.scarfWrap(cv, pose, spec);
-  P.arm(cv, pose, spec, 'frontArm');
+  for (const layer of pose.order ?? DEFAULT_ORDER) DRAW[layer](cv, pose, spec);
   return cv;
 }
 

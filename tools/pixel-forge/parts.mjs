@@ -60,6 +60,7 @@ export function shorts(cv, pose, spec) {
 export function jersey(cv, pose, spec) {
   polygon(cv, 'jersey', spec.mat.jersey, pose.jersey.outline, { curve: 0.9, axis: 'x', bias: -0.2 });
   for (const [a, b] of pose.jersey.trim) line(cv, 'jersey-trim', spec.mat.trim, a, b, 0.8);
+  if (pose.jersey.hem) line(cv, 'jersey-hem', spec.mat.trim, pose.jersey.hem[0], pose.jersey.hem[1], 0.6);
   const [x, y] = pose.jersey.emblem;
   stamp(cv, 'emblem', x, y, spec.emblem, { Y: [spec.mat.trim, 0.95], y: [spec.mat.trim, 0.45] });
 }
