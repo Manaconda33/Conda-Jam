@@ -9,9 +9,12 @@ const dist = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
 export const BLOCK_LEAD_TICKS = 6;
 const CONTEST_RANGE = 6.5;
 const RIM_PROTECT_RANGE = 7;
-// Highest ball a jumping defender can still deflect (block reach at apex).
-const BLOCK_REACH = 6.6;
+// Defender height at the first apex tick of a timed block jump; the game's
+// blockReach(defender) is added on top to find the highest deflectable ball.
+const BLOCK_APEX_Z = 1.6;
 const JUMP_SHOT_PEAK = 2;
+// Share of missed shots on which the shooting team sends a crasher from range.
+const CRASH_RATE = 0.35;
 
 export const AI_TUNING = {
   Rookie: { onBallGap: 8, help: 0, shotThreshold: 0.85, passMargin: 0.3, reaction: 30, driveDistance: 26, blowBy: false, stealCooldown: 120, defenseLag: 24, onBallLag: 8 },
@@ -125,9 +128,9 @@ function shotInProgress(p) {
   if (action.kind === 'shot') {
     const point = { x: p.x + p.facing * sampleBallForward(clip, release, p.id), y: p.y };
     const z = flightHeightFromHand(sampleBallHeight(clip, release, p.id), JUMP_SHOT_PEAK);
-    return { release, atRim: false, point, blockable: z <= BLOCK_REACH };
+    return { release, atRim: false, point, releaseZ: z };
   }
-  if (action.kind === 'dunk' && !action.released && !action.awaitingCatch) return { release, atRim: true, blockable: true };
+  if (action.kind === 'dunk' && !action.released && !action.awaitingCatch) return { release, atRim: true, releaseZ: 3 };
   return null;
 }
 
@@ -150,7 +153,8 @@ function defenseInput(ctx, match, state, p, tuning) {
     const toRelease = shot.release - shooter.animation.tick;
     const range = shot.atRim ? RIM_PROTECT_RANGE : CONTEST_RANGE;
     if (dist(p, releasePoint) < range + 6) Object.assign(out, move(p, towards(releasePoint, hoop, 1.5), true));
-    if (toRelease === BLOCK_LEAD_TICKS && shot.blockable && dist(p, releasePoint) < range && rand() < profile.blockChance) out.blockPressed = true;
+    const blockable = shot.releaseZ <= BLOCK_APEX_Z + (ctx.blockReach ? ctx.blockReach(p) : 5.2);
+    if (toRelease === BLOCK_LEAD_TICKS && blockable && dist(p, releasePoint) < range && rand() < profile.blockChance) out.blockPressed = true;
     if (dist(p, releasePoint) < range + 6) return out;
   }
 
@@ -292,8 +296,15 @@ function reboundInput(ctx, match, state, p) {
   const landing = inCourt(court, descending ? predictLanding(ball) : towards(hoop, { x: 100, y: 50 }, 6));
   const mate = match.players.find(m => m.team === p.team && m.id !== p.id);
   const crasher = !mate || mate.stun > 0 || dist(p, landing) <= dist(mate, landing);
-  if (p.team === shooterTeam) return move(p, crasher ? landing : inCourt(court, towards(hoop, p, 30)), crasher);
-  if (crasher) return move(p, landing, true);
+  // The shooting team crashes only from close range or on some attempts; the
+  // defense has inside position, so both defenders hunt a short carom.
+  if (p.team === shooterTeam) {
+    // Decide once per attempt whether the shooting team crashes the glass.
+    if (state.crashFor !== ball.attemptId) { state.crashFor = ball.attemptId; state.crash = ctx.rand() < CRASH_RATE; }
+    const crash = crasher && (dist(p, hoop) < 20 || state.crash);
+    return move(p, crash ? landing : inCourt(court, towards(hoop, p, 30)), crash);
+  }
+  if (crasher || dist(p, landing) < 14) return move(p, landing, true);
   const man = match.players.find(a => a.id === state.marks[p.id]);
   return move(p, inCourt(court, man ? towards(man, hoop, 3) : towards(hoop, p, 6)), true);
 }

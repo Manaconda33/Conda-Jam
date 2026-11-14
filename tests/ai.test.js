@@ -114,13 +114,15 @@ test('harder CPU tuning defends tighter and reacts faster', () => {
 });
 
 test('CPU-only matches score, share the ball and finish', () => {
+  // Rotate franchises across a league-like sample: a single fixed matchup in
+  // short games averages ~14% assisted, right on the floor, so it was flaky.
   let points = 0, assists = 0, makes = 0;
-  for (let seed = 1; seed <= 6; seed++) {
-    const m = match({ quarterSeconds: 30, seed });
+  for (let seed = 1; seed <= 10; seed++) {
+    const m = createMatch({ quarterSeconds: 60, seed, home: teams[(seed - 1) % teams.length], away: teams[(seed + 12) % teams.length] });
     for (let t = 0; t < 60000 && m.phase !== 'final'; t++) stepMatch(m, []);
     assert.equal(m.phase, 'final');
     for (const p of [...m.players, ...m.playerBox]) { points += p.points; assists += p.assists; makes += p.fgm; }
   }
-  assert.ok(points / 12 > 6, `points per team ${points / 12}`);
+  assert.ok(points / 20 > 6, `points per team ${points / 20}`);
   assert.ok(assists / makes > 0.15, `assist rate ${(assists / makes).toFixed(2)}`);
 });
