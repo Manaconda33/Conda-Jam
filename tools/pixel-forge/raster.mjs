@@ -101,7 +101,7 @@ export function stamp(cv, name, x0, y0, rows, key) {
 // Ribbon: a strip of cloth along a centre line with a width per point. Each
 // segment is a quad; folds come from a sine of the distance along the strip,
 // so cloth reads as rippled rather than tubular.
-export function ribbon(cv, name, material, centre, widths, { folds = 1.3, foldDepth = 0.32, base = 0.55 } = {}) {
+export function ribbon(cv, name, material, centre, widths, { folds = 1.3, foldDepth = 0.32, base = 0.55, border = null } = {}) {
   const id = beginPart(cv, name);
   const normals = centre.map((p, i) => {
     const a = centre[Math.max(0, i - 1)], b = centre[Math.min(centre.length - 1, i + 1)];
@@ -119,7 +119,10 @@ export function ribbon(cv, name, material, centre, widths, { folds = 1.3, foldDe
         const ax = centre[i + 1][0] - centre[i][0], ay = centre[i + 1][1] - centre[i][1], l2 = ax * ax + ay * ay || 1;
         const u = i + Math.max(0, Math.min(1, ((x + 0.5 - centre[i][0]) * ax + (y + 0.5 - centre[i][1]) * ay) / l2));
         const n = normals[i], v = ((x + 0.5 - centre[i][0]) * n[0] + (y + 0.5 - centre[i][1]) * n[1]) / (widths[i] || 1);
-        plot(cv, x, y, id, material, base + foldDepth * Math.sin(u * folds + v * 0.9) - 0.12 * v);
+        const fold = base + foldDepth * Math.sin(u * folds + v * 0.9) - 0.12 * v;
+        // Optional trim: the outermost pixel along each long edge uses another material.
+        const onBorder = border && widths[i] > 1.6 && Math.abs(v) > 1 - 1.1 / widths[i];
+        plot(cv, x, y, id, onBorder ? border : material, onBorder ? fold + 0.2 : fold);
       }
   }
   return id;

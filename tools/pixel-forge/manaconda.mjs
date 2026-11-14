@@ -1,6 +1,6 @@
 // Manaconda: a character spec (what he is made of) plus his idle frame-0 pose
-// (where the joints are in the 64x96 frame). Coordinates measured from the
-// image-model reference sprite; every pixel is drawn by the parts library.
+// (where the joints are in the 64x96 frame). Measured from the image-model
+// sprite and the full illustration; every pixel is drawn by the parts library.
 import { MANACONDA_RAMPS } from './palette.mjs';
 
 export const manaconda = {
@@ -9,65 +9,94 @@ export const manaconda = {
   ramps: MANACONDA_RAMPS,
   // Part slots -> palette ramps. Re-skinning another character starts here.
   mat: { skin: 'skin', jersey: 'purple', trim: 'gold', sleeve: 'white', sock: 'white', band: 'purple',
-    shoe: 'shoe', hair: 'hair', topknot: 'topknot', beard: 'beard', lens: 'lens', scarf: 'scarf' },
+    shoe: 'shoe', hair: 'hair', silver: 'silver', beard: 'beard', frame: 'frame', lens: 'lens', scarf: 'scarf',
+    branch: 'branch', leaf: 'leaf', blossom: 'blossom', pollen: 'pollen', topknot: 'branch' },
   arms: {
-    backArm: { upper: [4.2, 3.4], fore: [3.3, 2.7], band: 3, hand: [3.4, 4], sleeve: true, bias: -0.12, deltoid: [4.4, 4], bicep: [3.6, 4.4, -0.6] },
-    frontArm: { upper: [4.4, 3.6], fore: [3.5, 2.8], band: 3, hand: [3.4, 4.2], sleeve: false, deltoid: [4.6, 4.2], bicep: [3.8, 4.6, 0.8] },
+    backArm: { upper: [4.2, 3.4], fore: [3.4, 2.8], band: 3, hand: [3.4, 4], sleeve: true, sleeveFrom: 0.45, bandStar: true, bias: -0.12, deltoid: [4.4, 4], bicep: [3.6, 4.4, -0.6] },
+    frontArm: { upper: [4.4, 3.6], fore: [3.5, 2.8], band: 3, hand: [3.4, 4.2], sleeve: false, bandStar: true, deltoid: [4.6, 4.2], bicep: [3.8, 4.6, 0.8] },
   },
   legs: {
-    backLeg: { thigh: 4.2, sock: [4, 3], bias: -0.1 },
-    frontLeg: { thigh: 4.4, sock: [4.2, 3.1] },
+    backLeg: { thigh: 4.3, calf: [3.3, 2.6], stripe: -3, tightsTo: 0.3, sockFrom: 0.74, bias: -0.1 },
+    frontLeg: { thigh: 4.5, calf: [3.5, 2.7], stripe: 3, tightsTo: 0.3, sockFrom: 0.74 },
   },
+  // Open book with laurels and a star above it.
   emblem: [
-    'Y.....Y',
-    'YY...YY',
-    '.YYyYY.',
-    '..YYY..',
-    '...Y...',
+    '....Y....',
+    'y..YYY..y',
+    'yY.....Yy',
+    '.yYYyYYy.',
+    '..YYYYY..',
   ],
-  glasses: [
-    '##########',
-    '#gLL##gLL#',
-    '.#LL#.#L#.',
+  number: [
+    'YYY.YYY',
+    '..Y...Y',
+    'YYY..YY',
+    'Y.....Y',
+    'YYY.YYY',
+  ],
+  // 18x20 face, facing right: silver-streaked curls, ear, navy glasses with an
+  // eye, nose, salt-and-pepper beard and a smile.
+  face: [
+    '......HHhHH.......',
+    '....HHgGGgHHH.....',
+    '...HhGGgHgGGGHH...',
+    '..HHgHHhHHHgGGhH..',
+    '.HHhHHHHhHHHHgHHH.',
+    '.HhHHhHHHHHHHHSSS.',
+    'HHHHHhHHHHHSSSSSSS',
+    'HhHHHHHHHHSSLLSSSS',
+    'HHHHHhHHHSSMMSSMMS',
+    'HhHHHHHSSFFFFSFFFF',
+    'HHHHHSsSSFllFFlElF',
+    'HHHHSsSSSFFFFSFFFL',
+    'HHHHSSsSSSSSSSSSSL',
+    'hHHHbSSSSSSSSSsSS.',
+    'HHHHbBSSSSSSSSSs..',
+    'HhHHBBBSBBBBBBBB..',
+    'HHH.BBbBBMMMMBb...',
+    'HH..BbBBbBBBBBB...',
+    'H...sBBbBBbBBB....',
+    '.....sBBBbBB......',
   ],
 };
 
 export const idleFrame0 = {
-  topknot: [37, 14],
-  topknotTips: [[24, 10], [26, 7], [29, 5], [32, 5], [35, 6], [22, 13], [26, 12], [29, 9], [32, 9], [24, 16], [27, 15], [38, 8], [30, 13]],
+  branch: {
+    twigs: [[[34, 13], [26, 8], 1.3, 0.8], [[26, 8], [19, 4], 0.8, 0.4], [[26, 8], [24, 2], 0.7, 0.3], [[30, 10], [22, 11], 0.7, 0.35], [[22, 5], [17, 7], 0.5, 0.3]],
+    blossoms: [[19, 4], [24, 2], [21, 11], [28, 6]],
+    leaves: [[22, 7], [26, 4], [16, 6]],
+  },
+  hairBack: {
+    curls: [[33, 13, 4, 3.5], [30, 16, 3.5, 3.5], [31, 21, 3.5, 3.5], [28, 24, 3, 3], [31, 26, 3, 3], [34, 24, 3, 3], [27, 19, 2.5, 2.5]],
+    silver: [[[29, 13], [34, 11]], [[27, 18], [31, 16]]],
+  },
   scarf: { strands: [
     { from: [37, 27], step: 4.1, drop: 2.2, wave: 1.9, phase: 0.3, widths: [5.5, 5.3, 5, 4.6, 4.1, 3.4, 2.6, 1.6, 0.6] },
     { from: [33, 33], step: 3.4, drop: 2.1, wave: 1.5, phase: 1.6, widths: [3.8, 3.6, 3.2, 2.8, 2.2, 1.4, 0.6] },
   ] },
-  scarfWrap: { centre: [[32, 31], [36, 28], [42, 27], [47, 27], [50, 29]], widths: [4, 4.1, 3.8, 3.5, 2.8] },
+  scarfWrap: { centre: [[32, 35], [36, 33], [42, 32], [47, 32], [50, 33]], widths: [3.6, 3.4, 3, 2.8, 2.4] },
   backArm: { shoulder: [31, 32], elbow: [25, 42], wrist: [22, 56], hand: [22, 61] },
   frontArm: { shoulder: [51, 33], elbow: [54, 44], wrist: [55, 56], hand: [56, 61] },
-  backLeg: { hip: [32, 63], knee: [28, 70], ankle: [25, 83],
-    shoe: [[16, 91], [19, 88], [23, 86], [29, 86], [31, 88], [31, 93], [17, 93]], sole: [[17, 93], [30, 93]], shoeTrim: [[20, 89], [28, 89]] },
-  frontLeg: { hip: [45, 63], knee: [44, 70], ankle: [43, 83],
-    shoe: [[38, 88], [41, 86], [47, 86], [53, 88], [56, 90], [56, 93], [38, 93]], sole: [[39, 93], [55, 93]], shoeTrim: [[42, 89], [52, 90]] },
+  backLeg: { hip: [32, 66], knee: [28, 74], ankle: [25, 85],
+    shoe: [[17, 91], [20, 87], [22, 84], [29, 84], [30, 88], [31, 93], [18, 93]], sole: [[18, 93], [30, 93]],
+    laces: [[23, 86], [28, 85]], star: [25, 89] },
+  frontLeg: { hip: [45, 66], knee: [44, 74], ankle: [43, 85],
+    shoe: [[38, 88], [39, 84], [46, 84], [48, 87], [54, 89], [56, 91], [56, 93], [38, 93]], sole: [[39, 93], [55, 93]],
+    laces: [[40, 85], [45, 85]], star: [45, 89] },
   shorts: {
-    outline: [[31, 52], [50, 52], [51, 60], [50, 66], [41, 67], [39, 63], [37, 67], [28, 66], [29, 59]],
-    stripes: [[[32, 53], [31, 65]]],
-    hem: [[29, 66], [37, 66]],
+    outline: [[29, 57], [51, 57], [52, 63], [51, 69], [42, 69], [40, 65], [38, 69], [28, 69], [28, 62]],
+    stripes: [[[31, 58], [30, 68]], [[48, 58], [49, 68]]],
+    hems: [[[28, 69], [38, 69]], [[42, 69], [51, 69]]],
   },
   jersey: {
-    // The hem flares wider than the shorts' waistband so the jersey hangs over it.
-    outline: [[32, 30], [38, 29], [41, 33], [44, 29], [48, 30], [49, 37], [49, 47], [51, 56], [50, 58], [29, 58], [29, 56], [32, 48], [31, 38]],
-    hem: [[30, 57], [49, 57]],
-    trim: [[[37, 29], [41, 33]], [[41, 33], [45, 29]], [[48, 31], [48, 40]], [[34, 34], [33, 56]], [[47, 41], [48, 56]]],
-    emblem: [38, 37],
+    outline: [[32, 30], [38, 29], [41, 33], [44, 29], [48, 30], [49, 37], [49, 47], [50, 55], [30, 55], [32, 47], [31, 38]],
+    trim: [[[37, 29], [41, 33]], [[41, 33], [45, 29]], [[48, 31], [48, 40]], [[34, 34], [33, 55]], [[47, 41], [48, 55]]],
+    emblem: [36, 33],
+    number: [37, 40],
   },
+  belt: { span: [[30, 56], [50, 56]], buckle: [41, 56] },
   head: {
     neck: [[41, 24], [40, 30]],
-    center: [43, 19], radius: [7, 8.5],
-    ear: [37, 20],
-    nose: [50, 19],
-    beard: [45, 25.5], beardRadius: [5.4, 4.2],
-    mustache: [[43, 22], [49, 22]],
-    hair: [[33, 22], [33, 15], [36, 10], [42, 8], [48, 9], [51, 12], [51, 15], [46, 14], [42, 15], [40, 18], [39, 22]],
-    sideburn: [[38, 18], [41, 18], [42, 24], [40, 26], [38, 23]],
-    strands: [[[37, 12], [43, 11]], [[36, 15], [41, 13]], [[45, 11], [49, 12]]],
-    glasses: [40, 16],
+    origin: [33, 8],
   },
 };
