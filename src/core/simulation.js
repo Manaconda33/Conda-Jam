@@ -137,16 +137,17 @@ export function commitScore(match, attempt, {preserveAnimation = false} = {}) {
 
 // Where a missed jumper is aimed: off the front, back or side of the rim, off
 // the glass, or (for badly contested shots) short as an air ball.
-export function missAim(match, hoop, shooterDirection, quality) {
+export function missAim(match, hoop, shooterDirection, quality, releaseX = null) {
   // Orient by the baseline, not the shooter, so a shot from behind the hoop
   // still aims "back rim" and "glass" at the real backboard side.
   const direction = Math.sign(hoop - 100) || shooterDirection;
   const kind = rand(match), depth = rand(match), side = rand(match) < .5 ? -1 : 1;
+  // A release already beyond the rim on the baseline side cannot reach the glass.
+  const underBoard = releaseX !== null && (releaseX - hoop) * direction > 1;
   if (quality < .15 && kind < .12) return { x: hoop - direction * (4 + depth * 3), y: 50 + side * depth * 3, z: 2.6, type: 'airball' };
   if (kind < .4) return { x: hoop - direction * (1.3 + depth * .6), y: 50 + side * depth, z: 2.6, type: 'front-rim' };
-  // Tick-stepped flight lands about one step past the aim, so deep aims stay shallow.
-  if (kind < .7) return { x: hoop + direction * (1 + depth * .4), y: 50 + side * depth * .8, z: 2.6, type: 'back-rim' };
-  if (kind < .87) return { x: hoop - direction * depth * .4, y: 50 + side * (1.4 + depth * .6), z: 2.6, type: 'side-rim' };
+  if (kind < .7) return { x: hoop + direction * (1.3 + depth * .5), y: 50 + side * depth, z: 2.6, type: 'back-rim' };
+  if (kind < .87 || underBoard) return { x: hoop - direction * depth * .4, y: 50 + side * (1.4 + depth * .6), z: 2.6, type: 'side-rim' };
   return { x: hoop + direction * 3.5, y: 50 + side * depth * 2, z: 3.6, type: 'glass' };
 }
 
@@ -174,9 +175,17 @@ function makeShot(match, player, chargeFrames = 0) {
   match.ball.x = player.x + player.facing * sampleBallForward(player.animation.clip,player.animation.tick,player.id); match.ball.y = player.y; match.ball.z = releaseHeight; match.ball.vz = sampleBallReleaseVz(player.animation.clip,player.id) ?? 1.05 + Math.min(.3,distance*.002);
   // Makes and misses fly the same arc; a miss aims just off the opening so it
   // meets the rim or glass and caroms back into play.
-  const aim = made ? { x: hoop, y: 50, z: 2.6, type: 'make' } : missAim(match, hoop, direction, quality);
-  const descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-aim.z)))/.026;
+  const aim = made ? { x: hoop, y: 50, z: 2.6, type: 'make' } : missAim(match, hoop, direction, quality, match.ball.x);
+  let descentFrames=(match.ball.vz+Math.sqrt(match.ball.vz**2+4*.013*(releaseHeight-aim.z)))/.026;
   const toAim=aim.x-match.ball.x;
+  // Exact tick-stepped flight: z gains vz, then vz loses .026 each tick.
+  const g=.013,tickFrames=v=>((v+g)+Math.sqrt((v+g)**2+4*g*(releaseHeight-aim.z)))/(2*g);
+  // Misses use the exact flight so they land where aimed (makes keep their arc).
+  if(!made)descentFrames=tickFrames(match.ball.vz);
+  // A flat release that would need more than the 1.25 horizontal cap is lofted to
+  // reach the aim at the cap instead of falling short (makes and misses alike).
+  const needed=Math.abs(toAim)/1.25;
+  if(Math.min(descentFrames,tickFrames(match.ball.vz))<needed){match.ball.vz=(aim.z-releaseHeight+g*needed*(needed-1))/needed;descentFrames=needed;}
   match.ball.vx = (Math.sign(toAim)||direction) * Math.min(1.25, Math.abs(toAim) / descentFrames);
   match.ball.vy = (aim.y-match.ball.y)/descentFrames; match.ball.made = made; match.ball.missType = aim.type; match.ball.rimTouches = 0; match.ball.targetX = hoop; match.ball.targetY = 50; match.ball.targetZ = 2.6;
   releaseOwner(match);

@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createMatch, stepMatch, createInput, court, missAim, blockReach } from '../src/core/simulation.js';
+import { teams } from '../src/content/teams.js';
 import { anchorTick } from '../src/core/animation.js';
 
 const neutralInputs = match => match.players.map(p => createInput(p.id));
@@ -163,6 +164,52 @@ test('an air ball falling short of the rim can be blocked but not goaltended', (
   }
   assert.equal(points, 0, 'no points for swatting an air ball');
   assert.ok(blocks > 10, `the air ball is blockable (${blocks}/20)`);
+});
+
+test('a release from under the backboard never aims for the glass', () => {
+  for (let seed = 1; seed <= 400; seed++) {
+    const match = scramble(createMatch({ seed }), seed);
+    const aim = missAim(match, hoopRight, -1, 0.6, hoopRight + 2);
+    assert.notEqual(aim.type, 'glass', `seed ${seed}`);
+  }
+  // From the court side the glass is still in the mix.
+  const types = new Set();
+  for (let seed = 1; seed <= 400; seed++) types.add(missAim(scramble(createMatch({ seed }), seed), hoopRight, 1, 0.6, hoopRight - 30).type);
+  assert.ok(types.has('glass'));
+});
+
+test('a flat long jumper at the speed cap is lofted: misses meet iron, makes count', () => {
+  // Kraken's jumper leaves the hand low and flat (launch vz ~0.46); from ~50 out it
+  // needs more than the 1.25 horizontal cap and used to fall short of the rim.
+  const home = teams.find(t => t.roster.some(a => a.id === 'kraken'));
+  let makes = 0, scored = 0, misses = 0, contact = 0;
+  for (let seed = 1; seed <= 40; seed++) {
+    const match = scramble(createMatch({ quarterSeconds: 60, seed, home, homePartnerId: home.roster.find(a => a.id !== 'kraken' && a.id !== home.roster[0].id)?.id }), seed);
+    const shooter = match.players.find(p => p.id === 'kraken') ?? null;
+    if (!shooter) { const captain = match.players[0]; assert.fail(`kraken not on court (captain ${captain.id})`); }
+    for (const p of match.players) p.hasBall = false;
+    shooter.hasBall = true; match.possession = shooter.team;
+    Object.assign(match.ball, { mode: 'carried', ownerId: shooter.id, lastTouch: shooter.id });
+    Object.assign(shooter, { x: hoopRight - 52, y: 50, facing: 1, shoot: 60 });
+    match.players.filter(p => p !== shooter).forEach((p, i) => Object.assign(p, { x: 100, y: [5, 50, 95][i] }));
+    stepMatch(match, [...neutralInputs(match).filter(i => i.playerId !== shooter.id), createInput(shooter.id, { shootPressed: true })]);
+    let made = null, lofted = false, touched = false, didScore = false;
+    for (let t = 0; t < 300; t++) {
+      const before = match.ball.mode;
+      stepMatch(match, neutralInputs(match));
+      const b = match.ball;
+      if (b.mode === 'shot' && before !== 'shot') { made = b.made; lofted = Math.abs(Math.abs(b.vx) - 1.25) < 1e-9; }
+      if (b.rim || b.backboard) touched = true;
+      if (b.scored) { didScore = true; break; }
+      if (made !== null && b.mode === 'loose') break;
+    }
+    assert.notEqual(made, null, `seed ${seed}: the jumper was released`);
+    assert.ok(lofted, `seed ${seed}: this release needs the speed cap`);
+    if (made) { makes++; if (didScore) scored++; } else { misses++; if (touched) contact++; }
+  }
+  assert.ok(makes > 3 && misses > 3, `both outcomes sampled (${makes} makes, ${misses} misses)`);
+  assert.equal(scored, makes, 'every capped make counts');
+  assert.equal(contact, misses, 'every capped miss meets the rim or glass');
 });
 
 test('miss trajectories stay deterministic for a seed', () => {
