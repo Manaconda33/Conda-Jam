@@ -18,6 +18,13 @@ function stampKey(spec, extra = {}) {
   };
 }
 
+// Small stamps with hand-drawn high-resolution versions for scales above 1.
+const LEAF = { base: ['vV'], hi: ['vVV', '.vV'] };
+const BLOSSOM = { base: ['.W.', 'WOW', '.w.'], hi: ['..W..', '.WWW.', 'WWOWW', '.WWW.', '..w..'] };
+const BAND_STAR = { base: ['Y'], hi: ['.Y.', 'YYY', '.Y.'] };
+const SHOE_STAR = { base: ['.Y.', 'YYY', '.Y.'], hi: ['..Y..', '..Y..', 'YYYYY', '.YYY.', '.Y.Y.'] };
+const BUCKLE = { base: ['.Y.', 'YPY', '.Y.'], hi: ['..Y..', '.YPY.', 'YPPPY', '.YPY.', '..Y..'] };
+
 export function topknot(cv, pose, spec) {
   const base = pose.topknot;
   ellipse(cv, 'topknot-bun', spec.mat.topknot, base[0], base[1], 3, 2.6);
@@ -28,8 +35,8 @@ export function topknot(cv, pose, spec) {
 export function branch(cv, pose, spec) {
   const b = pose.branch;
   for (const [from, to, r0, r1] of b.twigs) capsule(cv, 'branch', spec.mat.branch, from, to, r0, r1, { bias: -0.05 });
-  for (const [x, y] of b.leaves) stamp(cv, 'leaf', x, y, ['vV'], stampKey(spec));
-  for (const [x, y] of b.blossoms) stamp(cv, 'blossom', x - 1, y - 1, ['.W.', 'WOW', '.w.'], stampKey(spec));
+  for (const [x, y] of b.leaves) stamp(cv, 'leaf', x, y, LEAF, stampKey(spec));
+  for (const [x, y] of b.blossoms) stamp(cv, 'blossom', x - 1, y - 1, BLOSSOM, stampKey(spec));
 }
 
 // Long curly hair falling behind the head: overlapping curl ellipses with a
@@ -69,7 +76,7 @@ export function arm(cv, pose, spec, side) {
     for (let t = 0.12; t < 0.95; t += 0.16) { const p = lerp2(sleeveFrom, bandTop, t); line(cv, 'sleeve-laurel', spec.mat.trim, [p[0] - 1, p[1]], [p[0], p[1] + 1], 0.75); }
   } else capsule(cv, `${side}-forearm`, spec.mat.skin, j.elbow, bandTop, look.fore[0], look.fore[1], { bias });
   capsule(cv, `${side}-wristband`, spec.mat.band, bandTop, j.wrist, look.fore[1] + 0.3, look.fore[1] + 0.3);
-  if (look.bandStar) stamp(cv, 'wristband-star', Math.round(j.wrist[0]), Math.round(j.wrist[1] - look.band / 2 - 1), ['Y'], stampKey(spec));
+  if (look.bandStar) stamp(cv, 'wristband-star', Math.round(j.wrist[0]), Math.round(j.wrist[1] - look.band / 2 - 1), BAND_STAR, stampKey(spec));
   ellipse(cv, `${side}-hand`, spec.mat.skin, j.hand[0], j.hand[1], look.hand[0], look.hand[1], { bias: bias - 0.05 });
 }
 
@@ -89,7 +96,7 @@ export function leg(cv, pose, spec, side) {
   line(cv, `${side}-midsole`, spec.mat.sock, add(s0, 0, -1), add(s1, 0, -1), 0.95);
   line(cv, `${side}-sole`, spec.mat.trim, s0, s1, 0.55);
   line(cv, `${side}-laces`, spec.mat.trim, j.laces[0], j.laces[1], 0.8);
-  stamp(cv, `${side}-shoe-star`, j.star[0] - 1, j.star[1] - 1, ['.Y.', 'YYY', '.Y.'], stampKey(spec));
+  stamp(cv, `${side}-shoe-star`, j.star[0] - 1, j.star[1] - 1, SHOE_STAR, stampKey(spec));
 }
 
 export function shorts(cv, pose, spec) {
@@ -111,13 +118,37 @@ export function belt(cv, pose, spec) {
   polygon(cv, 'belt', spec.mat.jersey, [[a[0], y - 1], [b[0], y - 1], [b[0], y + 1], [a[0], y + 1]], { bias: -0.35 });
   line(cv, 'belt-trim', spec.mat.trim, [a[0], y - 1], [b[0], y - 1], 0.75);
   line(cv, 'belt-trim', spec.mat.trim, [a[0], y + 1], [b[0], y + 1], 0.5);
-  stamp(cv, 'buckle', pose.belt.buckle[0] - 1, y - 1, ['.Y.', 'YPY', '.Y.'], stampKey(spec));
+  stamp(cv, 'buckle', pose.belt.buckle[0] - 1, y - 1, BUCKLE, stampKey(spec));
 }
 
-// The head: neck capsule, then a hand-placed face stamp (likeness lives here),
-// written as text rows of palette keys so it still re-skins with the ramps.
+// The head. At base scale a hand-placed face stamp carries the likeness; above
+// it there is room for shapes, so the head is built from primitives and works
+// at any resolution (and re-parameterises for other characters).
 export function head(cv, pose, spec) {
   const h = pose.head;
   capsule(cv, 'neck', spec.mat.skin, h.neck[0], h.neck[1], 3.4, 3.6, { bias: -0.1 });
-  stamp(cv, 'head', h.origin[0], h.origin[1], spec.face, stampKey(spec));
+  if (cv.s === 1 || !h.shapes) stamp(cv, 'head', h.origin[0], h.origin[1], spec.face, stampKey(spec));
+  else proceduralHead(cv, h.shapes, spec);
+}
+
+function proceduralHead(cv, f, spec) {
+  const m = spec.mat;
+  ellipse(cv, 'skull', m.hair, ...f.skull, { bias: -0.1 });
+  ellipse(cv, 'face', m.skin, ...f.face);
+  ellipse(cv, 'jaw', m.skin, ...f.jaw, { bias: -0.05 });
+  ellipse(cv, 'ear', m.skin, ...f.ear, { bias: -0.15 });
+  line(cv, 'ear-inner', m.skin, ...f.earInner, 0.15, { thin: true });
+  capsule(cv, 'nose', m.skin, ...f.nose, { bias: 0.12 });
+  polygon(cv, 'beard', m.beard, f.beard, { curve: 0.6, speckle: 0.45, bias: -0.15 });
+  capsule(cv, 'mustache', m.beard, ...f.mustache, { bias: -0.05 });
+  for (const seg of f.mouth) line(cv, 'mouth', m.skin, ...seg, 0, { thin: true });
+  polygon(cv, 'hairline', m.hair, f.hairline, { curve: 0.9 });
+  for (const c of f.curls) ellipse(cv, 'curl', m.hair, ...c, { bias: 0.28 });
+  for (const s2 of f.silver) capsule(cv, 'silver', m.silver, ...s2, { bias: -0.12 });
+  line(cv, 'brow', m.hair, ...f.brow, 0.3);
+  for (const lens of f.lenses) polygon(cv, 'lens', m.lens, lens, { curve: 0.4, bias: -0.1 });
+  for (const lens of f.lenses) for (let i = 0; i < lens.length; i++) line(cv, 'frame', m.frame, lens[i], lens[(i + 1) % lens.length], 0.5);
+  for (const seg of f.frameBits) line(cv, 'frame', m.frame, ...seg, 0.5);
+  ellipse(cv, 'eye', m.frame, ...f.eye, { bias: -1 });
+  line(cv, 'eye-glint', m.lens, f.glint, f.glint, 1, { thin: true });
 }

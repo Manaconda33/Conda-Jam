@@ -20,8 +20,8 @@ const DRAW = {
   frontLeg: (cv, pose, spec) => P.leg(cv, pose, spec, 'frontLeg'),
 };
 
-export function drawCharacter(spec, pose) {
-  const [w, h] = spec.frame, cv = createCanvas(w, h);
+export function drawCharacter(spec, pose, scale = 1) {
+  const [w, h] = spec.frame, cv = createCanvas(Math.round(w * scale), Math.round(h * scale), scale);
   for (const layer of pose.order ?? DEFAULT_ORDER) DRAW[layer](cv, pose, spec);
   return cv;
 }
@@ -62,4 +62,4 @@ export function shade(cv, spec, style) {
   return { width: w, height: h, data: out };
 }
 
-export function render(spec, pose, style) { return shade(drawCharacter(spec, pose), spec, style); }
+export function render(spec, pose, style, { scale = 1 } = {}) { return shade(drawCharacter(spec, pose, scale), spec, style); }

@@ -20,20 +20,44 @@ export const manaconda = {
     frontLeg: { thigh: 4.5, calf: [3.5, 2.7], stripe: 3, tightsTo: 0.3, sockFrom: 0.74 },
   },
   // Open book with laurels and a star above it.
-  emblem: [
-    '....Y....',
-    'y..YYY..y',
-    'yY.....Yy',
-    '.yYYyYYy.',
-    '..YYYYY..',
-  ],
-  number: [
-    'YYY.YYY',
-    '..Y...Y',
-    'YYY..YY',
-    'Y.....Y',
-    'YYY.YYY',
-  ],
+  // Open book with laurels and a star above it.
+  emblem: {
+    base: [
+      '....Y....',
+      'y..YYY..y',
+      'yY.....Yy',
+      '.yYYyYYy.',
+      '..YYYYY..',
+    ],
+    hi: [
+      '......Y......',
+      '.....YYY.....',
+      'y.....Y.....y',
+      'yy.........yy',
+      '.yY.YYyYY.Yy.',
+      '.yYYYYyYYYYy.',
+      '..yYYYyYYYy..',
+      '....y...y....',
+    ],
+  },
+  number: {
+    base: [
+      'YYY.YYY',
+      '..Y...Y',
+      'YYY..YY',
+      'Y.....Y',
+      'YYY.YYY',
+    ],
+    hi: [
+      '.YYY..YYYY.',
+      'Y...Y.....Y',
+      '....Y.....Y',
+      '...Y...YYY.',
+      '..Y.......Y',
+      '.Y........Y',
+      'YYYYY.YYYY.',
+    ],
+  },
   // 18x20 face, facing right: silver-streaked curls, ear, navy glasses with an
   // eye, nose, salt-and-pepper beard and a smile.
   face: [
@@ -98,5 +122,26 @@ export const idleFrame0 = {
   head: {
     neck: [[41, 24], [40, 30]],
     origin: [33, 8],
+    // Procedural head used above base scale (64x96 units, like everything else).
+    shapes: {
+      skull: [40.5, 15.5, 7.5, 7.5],
+      face: [46, 17.5, 5, 6],
+      jaw: [45, 21.5, 5.2, 4.5],
+      ear: [39.6, 18.8, 1.3, 2],
+      earInner: [[39.6, 18.2], [39.6, 19.6]],
+      nose: [[49.6, 16.8], [51.2, 19.6], 0.9, 1.3],
+      beard: [[39.2, 19], [41, 20], [42.5, 21.5], [45, 22], [48.5, 21.6], [50.5, 22.2], [50.3, 24], [48.6, 26.6], [45.5, 28], [42.2, 27.4], [40, 25], [38.8, 22]],
+      mustache: [[46.3, 21.8], [50.4, 21.5], 0.9, 0.7],
+      mouth: [[[47, 23.4], [49.6, 23.1]], [[49.6, 23.1], [50.3, 22.5]]],
+      hairline: [[34, 15], [35.5, 10], [40, 7.5], [46, 7.2], [50.5, 9.5], [51.2, 11.6], [48.5, 11.2], [45.5, 11.8], [43, 12.6], [41.6, 15], [41, 18.2], [39, 17.4], [37, 19], [35, 18]],
+      curls: [[37, 12, 1.2, 1], [39.5, 9.8, 1.3, 1], [36, 15.5, 1.1, 1.1], [43, 9, 1.2, 0.9], [38.5, 14, 1, 1]],
+      // Wavy strands: short segments that rise and dip as they sweep back.
+      silver: [[[50, 9.6], [47, 8.6], 0.5, 0.45], [[47, 8.6], [44, 9.4], 0.45, 0.4], [[44, 9.4], [40.5, 8.8], 0.4, 0.35], [[48.5, 10.8], [45, 10.2], 0.4, 0.35], [[45, 10.2], [42, 11.2], 0.35, 0.3], [[39.5, 11.8], [36.5, 13.2], 0.35, 0.3]],
+      brow: [[44.6, 15.2], [50.2, 14.7]],
+      lenses: [[[42.2, 16], [45, 16], [45, 18.6], [42.4, 18.6]], [[46.4, 16], [51, 16], [50.8, 18.8], [46.6, 18.8]]],
+      frameBits: [[[45, 16.8], [46.4, 16.8]], [[42.2, 16.6], [39.6, 17.4]]],
+      eye: [48.6, 17.4, 0.75, 0.7],
+      glint: [48.9, 17.1],
+    },
   },
 };
