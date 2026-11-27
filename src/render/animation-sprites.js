@@ -17,12 +17,15 @@ export function ballDrawDepth(ball,players){
   const target=ball.mode==='pass'?players.find(p=>p.id===ball.targetId):null;
   // Keep the last handoff visible above the catcher's sprite without changing ball physics.
   if(target&&Math.hypot(target.x-ball.x,target.y-ball.y)<6)return target.y-target.z*.05+.01;
+  const poke=ball.mode==='loose'&&ball.lastTouch==='myth'&&players.find(p=>p.id==='myth'&&p.animation?.renderCue==='poke-recovery'&&p.animation.tick<=1);
+  if(poke&&Math.hypot(poke.x-ball.x,poke.y-ball.y)<4.5)return Math.max(ball.y-.5,poke.y-poke.z*.05+.01);
   return ball.y-.5;
 }
 
 /** Select authored pixels using the simulation clock; drawing never advances gameplay. */
 export function selectProductionSprite(player, {manifest,images,libraries=supportingAnimationLibraries}) {
-  const ownCharacter=manifest?.characters?.[player.id],key=player.animation?.clip;
+  const ownCharacter=manifest?.characters?.[player.id];
+  let key=player.animation?.clip,tick=player.animation?.tick;
   const candidate=!player.captain?libraries[player.id]:null;
   const assignment=candidate?.mode==='shared'&&candidate.review==='accepted'?candidate:null;
   const donorCharacter=assignment?.mode==='shared'?manifest?.characters?.[assignment.donorId]:null;
@@ -35,10 +38,20 @@ export function selectProductionSprite(player, {manifest,images,libraries=suppor
   if(!clip&&facing==='left'&&character.mirrorSafe===true&&character.mirrorReview?.status==='reviewed'){
     clip=character.directions?.right?.[key];flip=true;
   }
+  if(player.id==='myth'&&key==='steal'){
+    const cue=player.animation.renderCue;
+    if(cue==='poke-recovery'&&tick===0)tick=5;
+    else if(cue==='poke-recovery'&&tick===5)tick=6;
+    if(cue==='interception'){
+      let receive=character.directions?.[facing]?.receive,receiveFlip=false;
+      if(!receive&&facing==='left'&&character.mirrorSafe===true&&character.mirrorReview?.status==='reviewed'){receive=character.directions?.right?.receive;receiveFlip=true;}
+      if(receive?.reviewed&&images.get(receive.src)?.naturalWidth){key='receive';clip=receive;flip=receiveFlip;tick=Math.max(0,Math.min(7,tick-1));}
+    }
+  }
   if(!clip?.reviewed)return null;
   let atlas=images.get(clip.src);if(!atlas?.complete||!atlas.naturalWidth)return null;
   if(library?.mode==='shared')atlas=paletteVariantFor(atlas,clip.src,library.sourcePalette,player.palette,clip.frames,library.maskProfile,key);
-  const sampledFrame=sampleAnimation(key,player.animation.tick).frame;
+  const sampledFrame=sampleAnimation(key,tick).frame;
   const targetFrames=animationClips[key].frames.length;
   const index=clip.frames.length===targetFrames?sampledFrame:Math.round(sampledFrame*(clip.frames.length-1)/Math.max(1,targetFrames-1));
   const frame=clip.frames[index],atlasWidth=atlas.width||atlas.naturalWidth,atlasHeight=atlas.height||atlas.naturalHeight;

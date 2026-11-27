@@ -265,8 +265,13 @@ function queueDunk(match,p,input={}) {
 }
 function scheduleCatch(match,p,clip,preserveAssist=false){
   if(p.animation?.action?.kind==='catch'||p.animation?.action?.awaitingCatch)return;
-  if(match.ball.mode==='loose'&&match.ball.lastTouch===p.id&&p.animation?.clip==='steal')clip='steal';
+  const ownPokeRecovery=match.ball.mode==='loose'&&match.ball.lastTouch===p.id&&p.animation?.clip==='steal';
+  if(ownPokeRecovery)clip='steal';
   queueAction(p,clip,{kind:'catch',mode:match.ball.mode,lastTouch:match.ball.lastTouch,preserveAssist});
+  if(p.id==='myth'&&clip==='steal'){
+    if(ownPokeRecovery)p.animation.renderCue='poke-recovery';
+    else if(match.ball.mode==='pass')p.animation.renderCue='interception';
+  }
 }
 function dunkPose(p,action,clip,tick){
   const hoop=p.team===0?COURT.hoops[1]:COURT.hoops[0],takeoff=anchorTick(clip,'takeoff'),peak=anchorTick(clip,'peak'),finish=anchorTick(clip,'finish');
