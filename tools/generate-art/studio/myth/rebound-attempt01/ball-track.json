@@ -1,0 +1,55 @@
+{
+  "athlete": "myth",
+  "clip": "rebound",
+  "track": {
+    "forward": [
+      2,
+      4.1,
+      5.4,
+      5.15,
+      3.5
+    ],
+    "height": [
+      1.2,
+      1.5,
+      1.94,
+      1.79,
+      1.06
+    ],
+    "heightTicks": [
+      1.2,
+      1.2,
+      1.5,
+      1.5,
+      1.94,
+      1.79,
+      1.79,
+      1.06,
+      1.06,
+      1.06,
+      1.06
+    ],
+    "forwardTicks": [
+      2,
+      2,
+      4.1,
+      4.1,
+      5.4,
+      5.15,
+      5.15,
+      3.5,
+      3.5,
+      3.5,
+      3.5
+    ]
+  },
+  "provenance": {
+    "classification": "individually-calibrated-track",
+    "lineage": "Myth rebound stage hand points; holds each hand position across its cel to prevent sliding between frames. Shared timing and possession rules unchanged.",
+    "source": "tools/generate-art/studio/myth/rebound-attempt01/myth-rebound-source.png",
+    "trackKeys": [
+      "rebound"
+    ],
+    "spriteSha256": "d61f2ae20f35a39e77d2d05323b2eaa6e2281a81db9585e9ed4fceb531884e5e"
+  }
+}
