@@ -105,11 +105,11 @@ test('no verifier changes after the bootstrap, including frozen v4 records', () 
   }
 });
 
-test('the verifier and workflow load the v5 contract and keep the browser gate', async () => {
+test('the verifier and workflow retain the v5 contract through v6 and keep the browser gate', async () => {
   // Behavioral check: the scope job imports exactly the v5 export, by module path.
   const yaml = readFileSync(new URL('../.github/workflows/captain-studio-baseline-verify.yml', import.meta.url), 'utf8');
   const imports = [...yaml.matchAll(/from '\.\/tools\/captain-studio\/(source-evolution-contract[^']*)'/g)].map(m => m[1]);
-  assert.deepEqual(imports, ['source-evolution-contract-v5.mjs']);
+  assert.deepEqual(imports, ['source-evolution-contract-v6.mjs']);
   const trigger = yaml.split('on:\n')[1]?.split('permissions:\n')[0] ?? '';
   assert.doesNotMatch(trigger, /^\s+paths(?:-ignore)?:/m);
   const gameplayJob = yaml.split('  match-control-tests:\n')[1] ?? '';
@@ -117,7 +117,11 @@ test('the verifier and workflow load the v5 contract and keep the browser gate',
   const verifier = readFileSync(new URL('../tools/captain-studio/verify-baseline.mjs', import.meta.url), 'utf8');
   const code = verifier.split('\n').filter(line => !line.trim().startsWith('//')).join('\n');
   assert.match(code, /from '\.\/source-evolution-contract-v5\.mjs'/);
-  assert.match(code, /= assertV5VersionedSourceEvolution\(/);
-  assert.match(code, /= assertV5PullRequestEvolutionScope\(/);
+  assert.match(code, /= assertV6VersionedSourceEvolution\(/);
+  assert.match(code, /= assertV6PullRequestEvolutionScope\(/);
+  const wrapper = readFileSync(new URL('../tools/captain-studio/source-evolution-contract-v6.mjs', import.meta.url), 'utf8');
+  assert.match(wrapper, /from '\.\/source-evolution-contract-v5\.mjs'/);
+  assert.match(wrapper, /assertV5Scope\(base, paths, blobs\)/);
+  assert.match(wrapper, /assertV5Evolution\(inherited,/);
   assert.doesNotMatch(code, /assertV4\w+\(/, 'v4 checks are documentation-only in executable code');
 });

@@ -1,0 +1,7 @@
+# V6: one reviewed Myth catch
+
+Review the policy-only diff against main `bbac2bc6e474e33e42fe972564121c0e6c0e4716` before a separate clip PR. The policy PR contains no artwork and does not change the live audit. The separate PR must add Myth's right-facing receive atlas and the two generated registration updates, and the three files referenced by its provenance: the source PNG, its parent PNG and the deterministic packer. All six are pinned to exact Git blob IDs in v6. This is a single-pilot policy, not a path allowlist for future art. No changes to merge, deploy, or branch-protection permissions are requested.
+
+The accepted PR20 snapshot, reference signatures and gap matrix remain unchanged. Until all six exact blobs are present, the live audit must match all 746 historical findings. With the pilot present, the only permitted identity difference is removal of `missing-clip|myth|right|receive|original-authored`. Live totals must be 745 findings, 705 missing clips, 40 existing prompt findings and zero frame shortfalls. The historical matrix still has 706 rows. The gate continues to require fresh live audit generation, full tests and Chromium smoke in GitHub.
+
+Candidate 02 is lossless 192x192 WebP (four 96x96 frames), SHA-256 `bca302a771ddfce5aff6fd22a6c3cca52c23dbc153a420b3b7ebb6e527a313f8`. Local desktop and mobile-sized browser captures covered actual catch timing and both facings; no new left-facing clip is admitted. Other iteration materials and review captures stay outside the PR.

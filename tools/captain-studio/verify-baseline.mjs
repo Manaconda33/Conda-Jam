@@ -5,7 +5,6 @@ import { assertBaselineContract } from './baseline-contract.mjs';
 import {
   ACCEPTED_SNAPSHOT_MERGE,
   IMMUTABLE_SNAPSHOT_FILES,
-  assertCurrentPinnedSource,
   assertPullRequestEvolutionScope,
   assertVersionedSourceEvolution,
   FROZEN_V1_VERIFIER_FILES,
@@ -20,11 +19,15 @@ import {
   V4_POLICY_REVIEW_BASE,
 } from './source-evolution-contract-v4.mjs';
 import {
-  assertVersionedSourceEvolution as assertV5VersionedSourceEvolution,
-  assertPullRequestEvolutionScope as assertV5PullRequestEvolutionScope,
   FROZEN_V4_VERIFIER_FILES,
   V5_POLICY_REVIEW_BASE,
 } from './source-evolution-contract-v5.mjs';
+import {
+  assertVersionedSourceEvolution as assertV6VersionedSourceEvolution,
+  assertPullRequestEvolutionScope as assertV6PullRequestEvolutionScope,
+  assertCurrentPinnedSource as assertV6PinnedSource,
+  auditExpectations, exactLiveFindings, FROZEN_V5_VERIFIER_FILES, V6_POLICY_REVIEW_BASE, V6_MODULE,
+} from './source-evolution-contract-v6.mjs';
 // Historical compatibility tokens (DOCUMENTATION ONLY, not executed). The
 // frozen v4 test asserts these v4 call sites; v5 supersedes them below, as the
 // v3 workflow kept v1/v2 path tokens as comments:
@@ -80,7 +83,12 @@ for (const path of FROZEN_V4_VERIFIER_FILES) {
 const changedPaths = execFileSync('git', ['diff', '--name-only', '--no-renames', ACCEPTED_SNAPSHOT_MERGE, 'HEAD'], { encoding: 'utf8' })
   .trim().split('\n').filter(Boolean);
 const changedBlobIds = Object.fromEntries(changedPaths.map(path => [path, gitBlob('HEAD', path)]));
-const evolution = assertV5VersionedSourceEvolution(changedPaths, changedBlobIds);
+execFileSync('git', ['merge-base', '--is-ancestor', V6_POLICY_REVIEW_BASE, 'HEAD']);
+for (const path of FROZEN_V5_VERIFIER_FILES) {
+  fail(gitBlob('HEAD', path) === gitBlob(V6_POLICY_REVIEW_BASE, path),
+    'accepted v5 verifier evidence mutated: ' + path);
+}
+const evolution = assertV6VersionedSourceEvolution(changedPaths, changedBlobIds);
 // On PR runs, enforce the trusted base and full PR diff. The v2 migration
 // v3, v4 and v5 bootstraps alone may alter verifier files; later gameplay PRs are path-scoped.
 let pullRequestScope = null;
@@ -91,7 +99,9 @@ if (process.env.CAPTAIN_STUDIO_PR_BASE) {
   const prChanges = execFileSync('git', ['diff', '--name-only', '--no-renames', prBase, 'HEAD'], { encoding: 'utf8' })
     .trim().split('\n').filter(Boolean);
   const prBlobs = Object.fromEntries(prChanges.map(path => [path, gitBlob('HEAD', path)]));
-  pullRequestScope = assertV5PullRequestEvolutionScope(prBase, prChanges, prBlobs);
+  const v6Installed = execFileSync('git', ['ls-tree', '--name-only', prBase, '--', V6_MODULE],
+    {encoding:'utf8'}).trim() === V6_MODULE;
+  pullRequestScope = assertV6PullRequestEvolutionScope(prBase, prChanges, prBlobs, {v6Installed});
 }
 
 fail(baseline.schemaVersion === 1, 'schema version');
@@ -106,14 +116,14 @@ for (const [path, expectedSha] of Object.entries(baseline.source.blobIds)) {
     'historical source pin drift at ' + path);
   // Only the corrected, byte-pinned PR22 variant may differ from the
   // original pinned source; any additional drift needs a new policy.
-  assertCurrentPinnedSource(path, expectedSha, gitBlob('HEAD', path));
+  assertV6PinnedSource(path, expectedSha, gitBlob('HEAD', path), evolution.mythReceive);
 }
 fail(baseline.strictAudit.referenceReportBlob === baseline.source.blobIds[baseline.strictAudit.referenceReport], 'tracked audit blob pin');
 fail(signatures.version === 1 && signatures.signatures.length === 746, 'identity baseline length');
 fail(JSON.stringify(signatures.signatureFields) === JSON.stringify(['code', 'athlete', 'direction', 'clip', 'classification']), 'signature schema');
 fail(signatures.signatures.length === new Set(signatures.signatures).size, 'duplicate expected signatures');
 
-const expectation = baseline.strictAudit.expectations;
+const expectation = auditExpectations(baseline.strictAudit.expectations, evolution.mythReceive);
 const facts = {
   athletes: audit.athletes,
   actionsPerAthlete: audit.clipDefinitions,
@@ -141,10 +151,11 @@ const makeSignature = finding => signatures.signatureFields.map(key => {
 const actual = audit.errors.map(makeSignature);
 const expected = signatures.signatures;
 const actualSet = new Set(actual), expectedSet = new Set(expected);
-fail(actualSet.size === 746, 'actual audit duplicate identities');
-fail(expected.every(value => actualSet.has(value)), 'expected audit identity disappeared');
-fail(actual.every(value => expectedSet.has(value)), 'new unexpected audit identity appeared');
-fail(audit.errors.filter(e => e.code === 'missing-clip').length === 706, 'directional gap total');
+const liveExpected = exactLiveFindings(expected, evolution.mythReceive), liveSet = new Set(liveExpected);
+fail(actualSet.size === actual.length && actualSet.size === liveSet.size, 'missing or duplicate actual audit identities');
+fail(liveExpected.every(value => actualSet.has(value)), 'expected audit identity disappeared');
+fail(actual.every(value => liveSet.has(value)), 'new unexpected audit identity appeared');
+fail(audit.errors.filter(e => e.code === 'missing-clip').length === expectation.missingClipAssignments, 'live directional gap total');
 fail(signatures.expectedCounts['missing-clip'] === 706 && signatures.expectedCounts['prompt-not-verbatim'] === 40, 'reference counts');
 
 const matrix = readFileSync(baseline.gapMatrix.path, 'utf8').trimEnd().split('\n');
@@ -187,6 +198,8 @@ console.log(JSON.stringify({
   sourceBlobPins: Object.keys(baseline.source.blobIds).length,
   inspectedClips: audit.inspectedClips,
   exactFindings: actualSet.size,
+  mythReceive: evolution.mythReceive,
+  liveMissingAssignments: facts.missingClipAssignments,
   missingAssignments: matrixSet.size,
   incompleteCaptains: captains.size,
   directions,
