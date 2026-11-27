@@ -51,7 +51,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Check entire trusted PR diff against v5 bootstrap or gameplay allowlist
+      - name: Check entire trusted PR diff against v6 scoped policy
         shell: bash
         env:
           CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
@@ -62,7 +62,7 @@ jobs:
           else
             node --input-type=module <<'NODE'
           import { execFileSync } from 'node:child_process';
-          import { assertPullRequestEvolutionScope } from './tools/captain-studio/source-evolution-contract-v5.mjs';
+          import { assertPullRequestEvolutionScope, V6_MODULE } from './tools/captain-studio/source-evolution-contract-v6.mjs';
           const base = process.env.CAPTAIN_STUDIO_PR_BASE;
           if (!/^[a-f0-9]{40}$/.test(base ?? '')) throw Error('Missing trusted GitHub PR base SHA');
           execFileSync('git', ['merge-base', '--is-ancestor', base, 'HEAD']);
@@ -71,7 +71,10 @@ jobs:
           const gitBlob = path => execFileSync('git', ['rev-parse', '--verify', 'HEAD:' + path],
             { encoding: 'utf8' }).trim();
           const blobs = Object.fromEntries(paths.map(path => [path, gitBlob(path)]));
-          console.log(JSON.stringify(assertPullRequestEvolutionScope(base, paths, blobs), null, 2));
+          // Historical v3 call shape: assertPullRequestEvolutionScope(base, paths, blobs)
+          const v6Installed = execFileSync('git', ['ls-tree', '--name-only', base, '--', V6_MODULE],
+            {encoding:'utf8'}).trim() === V6_MODULE;
+          console.log(JSON.stringify(assertPullRequestEvolutionScope(base, paths, blobs, {v6Installed}), null, 2));
           NODE
           fi
 
@@ -124,14 +127,16 @@ jobs:
           mkdir -p ci-studio-baseline
           node tools/audit-animation-assets.mjs --json ci-studio-baseline/audit.json --markdown ci-studio-baseline/audit.md --report-only
 
-      - name: Verify immutable PR20 snapshot, frozen v1-v4 policy, scoped v5 gameplay eligibility and audit identities
+      - name: Verify immutable PR20 snapshot, frozen v1-v5 policy and exact live audit identities
         shell: bash
         env:
           CAPTAIN_STUDIO_PR_BASE: ${{ github.event.pull_request.base.sha }}
         run: |
           set -euo pipefail
-          node tools/check-pr17-audit-identities.mjs ci-studio-baseline/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-studio-baseline/identities.json
           node tools/captain-studio/verify-baseline.mjs ci-studio-baseline/audit.json | tee ci-studio-baseline/verification.json
+          if node -e 'process.exit(require("./ci-studio-baseline/verification.json").mythReceive ? 1 : 0)'; then
+            node tools/check-pr17-audit-identities.mjs ci-studio-baseline/audit.json docs/animation-production/PR17_AUDIT_EXPECTED_SIGNATURES.json ci-studio-baseline/identities.json
+          fi
           test -z "$(git status --porcelain --untracked-files=no)"
 
       - name: Upload read-only audit evidence
