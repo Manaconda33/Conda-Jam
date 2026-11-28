@@ -1,0 +1,65 @@
+{
+  "athlete": "myth",
+  "clip": "layup-reverse",
+  "track": {
+    "forward": [
+      2.7,
+      3,
+      2.8,
+      0.8,
+      -4.2,
+      -5.7,
+      0,
+      0
+    ],
+    "height": [
+      1.2,
+      1.6,
+      1.85,
+      1.42,
+      1.73,
+      1.05,
+      1.1,
+      1.1
+    ],
+    "forwardTicks": [
+      2.7,
+      2.7,
+      3,
+      3,
+      3,
+      2.8,
+      2.8,
+      1.4,
+      0.7,
+      -0.5,
+      -3.8,
+      -4.2,
+      -5.7
+    ],
+    "heightTicks": [
+      1.2,
+      1.2,
+      1.6,
+      1.6,
+      1.6,
+      1.85,
+      1.85,
+      1.42,
+      1.42,
+      1.42,
+      1.73,
+      1.73,
+      1.05
+    ]
+  },
+  "provenance": {
+    "classification": "individually-calibrated-track",
+    "lineage": "Myth-only carry and release positions for torso transfer and backward scoop; no timing or shared code changes.",
+    "source": "tools/generate-art/studio/myth/layup-reverse-attempt03/myth-layup-reverse-center.png",
+    "trackKeys": [
+      "layup-reverse"
+    ],
+    "spriteSha256": "77e13035e7ec40a1f75159e71127b52c10e37f452fde5a1a224f09a5799b8ed5"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "athlete": "myth",
+  "clip": "pickup",
+  "track": {
+    "forward": [
+      1.5,
+      2.3,
+      4,
+      3.85,
+      4.05
+    ],
+    "height": [
+      1.1,
+      0.8,
+      0.45,
+      0.4,
+      1.02
+    ]
+  },
+  "provenance": {
+    "classification": "individually-calibrated-track",
+    "lineage": "Myth pickup hand position measured in stage captures at grab and recovery; leaves the free ball and gameplay timing unchanged.",
+    "source": "tools/generate-art/studio/myth/pickup-attempt01/myth-pickup-source.png",
+    "trackKeys": [
+      "pickup"
+    ],
+    "spriteSha256": "eded59f8b684abe70512186443753a8434a0635f26957e3f8c93e4d0f049cd1f"
+  }
+}
