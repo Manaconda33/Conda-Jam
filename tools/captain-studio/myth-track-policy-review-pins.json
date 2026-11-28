@@ -1,0 +1,704 @@
+{
+  "main": "36ce9c7fdba79107efc1cf75eb723d24362242aa",
+  "head": "aecbbde2bed8d8a9679608044be7deb5ad8a0ddc",
+  "draftTree": "bbe3b682094f4779883f2f8b042f2e5ad28790b1",
+  "historicalDigest": "1ee6263c97af57f2eb7ac739f90d25de7dcd46d143b098c821ae2ae2a2e9d68f",
+  "draftRuntimeDigest": "7c2d0afef49508dcbb4762aeaf4b4d9140e64b7a301b3dc0825c98d1ed8bbd09",
+  "runtimeRows": 3045,
+  "clipsAdded": [
+    "alley-oop-power",
+    "alley-oop-reverse",
+    "block",
+    "celebrate",
+    "dunk-360",
+    "dunk-clutch",
+    "dunk-double",
+    "dunk-power",
+    "dunk-reverse",
+    "dunk-scythe",
+    "dunk-tomahawk",
+    "dunk-windmill",
+    "fall",
+    "layup",
+    "layup-reverse",
+    "pass",
+    "pickup",
+    "push",
+    "rebound",
+    "steal"
+  ],
+  "tracks": {
+    "alley-oop-power": {
+      "runtimeBeforeSha256": "c8749ad1c2372883c13f22ab19e80f1bbec478987913758348f33579c796b593",
+      "runtimeAfterSha256": "4111521d581485507aa9ad81560e5f90199574072bd570b83e87ba026f7ec42b"
+    },
+    "alley-oop-reverse": {
+      "runtimeBeforeSha256": "79872c3a5ee432a1b004a8b3965f37e6ac60b377661b2b5118479bfe28959d07",
+      "runtimeAfterSha256": "8dc0253eccf03bf008b9d58fecb13b305a7ebc800169ab45922f3b3d68043941"
+    },
+    "dunk-360": {
+      "runtimeBeforeSha256": "1f73f93d493f204a45cc0f288d17984acfdd326815288adfab193bf6a819306c",
+      "runtimeAfterSha256": "c887292857b1ae5884282537a245a7bfa410748829f004f5f2e9b73b0e66dee7"
+    },
+    "dunk-clutch": {
+      "runtimeBeforeSha256": "2e74e6e1098feba7c99aef91f45b243fff4f831e5a55fe1efae09b08b6d5e15e",
+      "runtimeAfterSha256": "ea2641ef519a46984e58600b263dd8fde654fba309c874dcf2eb40f09fcd5f9a"
+    },
+    "dunk-double": {
+      "runtimeBeforeSha256": "96581231726fd3df123ba33393578829c2089cb2045420ecfd632855cac3cb69",
+      "runtimeAfterSha256": "016955aef26255408a0842f8028da3c738f5ec6a4460ccdac75559487aeb43b5"
+    },
+    "dunk-power": {
+      "runtimeBeforeSha256": "581e5763dbf49e093614542061f3a4eaa040558a22dbc2bdbd151069785c7892",
+      "runtimeAfterSha256": "a0876255f4a3cf2f7202612c1165c5b9de0aa30a5b58d30db7821156b739fa3d"
+    },
+    "dunk-reverse": {
+      "runtimeBeforeSha256": "64265022cbe32051b6871b17ddf408b0fc23b037658464bc455a5074ed109104",
+      "runtimeAfterSha256": "3aba99ce561888ff4f0531378bf2de31ad056028c4ea125c053f6ba24a4893e1"
+    },
+    "dunk-scythe": {
+      "runtimeBeforeSha256": "f94c09c7f5741e63ef8bea0a4809939c81fb0052e52cabe9246b798adc705fb7",
+      "runtimeAfterSha256": "21de02b8d49e93fa668ef17f54223b8c9a7dbb1c20f9958e147336f6d8f5a4c7"
+    },
+    "dunk-tomahawk": {
+      "runtimeBeforeSha256": "d722d9ef51bad10d234596d3d2eb4c22bf1cd8277313007ee1d936e92c89c532",
+      "runtimeAfterSha256": "ecddd31547f8017ae860eeccc228493b55a758e1f6777e7c8226d67ddc7d0345"
+    },
+    "dunk-windmill": {
+      "runtimeBeforeSha256": "8e2ae4d56f794628d07f6b46b41eb2418116757c5784614312f7956648cfaada",
+      "runtimeAfterSha256": "6d3cf41afb9872d7af2f37213c30084aeae928e0c76e75ff7d3bbfdf4b045d92"
+    },
+    "layup": {
+      "runtimeBeforeSha256": "97fde02b7fa382c22270adcdc85db9ec36c19f704af89e661f4b847ff3f5389a",
+      "runtimeAfterSha256": "09f377f795efda5e2eeff7dfa6c742afc09aef76a71e6d43f02b0403bca062fc"
+    },
+    "layup-reverse": {
+      "runtimeBeforeSha256": "1e6a318da8b94634fab9a90ff2915b0249715d66ad98321f2ebaf22d4a37fb68",
+      "runtimeAfterSha256": "b49c4753e154cbf4a9c8a9b4c3ffbc86ba1f190126b08b50d381d226564390c6"
+    },
+    "pass": {
+      "runtimeBeforeSha256": "ccd7091bdb8a16f37603a3f211216ddbc445bd4d99c34a8065d04301f375906c",
+      "runtimeAfterSha256": "e0052b7fdeb0401362e60274afdd6116d142c7b6cbc717be5a08c67d8eaff7d9"
+    },
+    "pickup": {
+      "runtimeBeforeSha256": "b8019bbb890f45c1c0c2717119bf0a0513e3271a9441c320e8ac76c189979198",
+      "runtimeAfterSha256": "13d98a1c233432ca306412c4cdec2f349f8cf0c442b307c6fc078f3a2ec0f27e"
+    },
+    "rebound": {
+      "runtimeBeforeSha256": "437438abfc0fd78da83102692460dec11a7fe0a7d15833690aa015ef1c140f38",
+      "runtimeAfterSha256": "95021a71f5fa04aa0a87fea813cea99e1b18017e22fc8f35bda188af49446d4d"
+    }
+  },
+  "paths": [
+    {
+      "path": "public/assets/animation/manifest.json",
+      "blob": "503d0b03e90def12ad0f2e34e721f5bd7fcc1d18",
+      "sha256": "700faf9c032a27802ee79e0af6354821e7b65c5a0dde350205185c8e76594cad"
+    },
+    {
+      "path": "public/assets/animation/myth-alley-oop-power-right.webp",
+      "blob": "df25d4100a61d245db38b6ca34adb714298a3698",
+      "sha256": "6ea5f908cc353325628daa1266fc742f5c540bf4a2e03ef04079e22b682f26ad"
+    },
+    {
+      "path": "public/assets/animation/myth-alley-oop-reverse-right.webp",
+      "blob": "c50539c6ec34aa27ce57deffc96eb743e46a4b32",
+      "sha256": "66940a34ef9860d347bacd3dba80cf0fd5b0fadbe0d1cffbf363a162ece03ebb"
+    },
+    {
+      "path": "public/assets/animation/myth-block-right.webp",
+      "blob": "19e395d398b503e2ef226bdacfd346cf06c99fd4",
+      "sha256": "d2b8bde63000604aad31eeaa0292ab86b84a47a3bcff4327aa9accfec615bf7f"
+    },
+    {
+      "path": "public/assets/animation/myth-celebrate-right.webp",
+      "blob": "71049fc42f175815845a728c0fa3cd82f4c6ce6a",
+      "sha256": "d6b7ea1ddcb3a912bd31c9107a9de5082f0a5c96aa1b0d3151a127f1ba11e60c"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-360-right.webp",
+      "blob": "251f690d1df5b85250624216658ef1e49b5dfcad",
+      "sha256": "b18c4b57a8c5e1820c3c5eabbc9761591503d13c21702bcffecd0c2c504590bf"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-clutch-right.webp",
+      "blob": "dc98b2b9df127b52190821c179d7bb54abbf1b84",
+      "sha256": "ceb086d0bf7e2e8bf8d161e6a1dea4a63e1ed11a93448a085d66bc451d807ec8"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-double-right.webp",
+      "blob": "66efa3fecf3d46c4bf8d4f5cd8138cf64bbb41db",
+      "sha256": "7eafcd416da37670c5f954ec14a90dcdb56a8c25701d6d4856e9e67e45f27f53"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-power-right.webp",
+      "blob": "a1f1b3340a2a0d16507fd88a976ef8ac7ece2b89",
+      "sha256": "a17ed2a6b51182cd7c95b447b985b20c6d467575fc7e206728e62ae31066a817"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-reverse-right.webp",
+      "blob": "32b3e50d614d35910226d10db96d760364b18551",
+      "sha256": "65b653bb6b2fa6e1a84f61aa7a5b331c5fe84791c837655eb375e7aa32844eec"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-scythe-right.webp",
+      "blob": "a3dd766001e0fd587a5a845a629b4f28225e2be1",
+      "sha256": "d6ddb4b721e3801d7e016e7607ac05b4c83f4ea363a8f0cc193908a3064ddf77"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-tomahawk-right.webp",
+      "blob": "99dce7036ad4cc7692b5246a5c82d2c2e689acc7",
+      "sha256": "16d62807bac7f777c2271be26c53f99c7f65de7c1942b955994b6957a3439742"
+    },
+    {
+      "path": "public/assets/animation/myth-dunk-windmill-right.webp",
+      "blob": "f5e944da8d69ce17bb739464c49d5290668a68f8",
+      "sha256": "27f1eb7cbd4ae7e4fed90ec2620329266a22c41ecfc90de675c42486693e6db7"
+    },
+    {
+      "path": "public/assets/animation/myth-fall-right.webp",
+      "blob": "24f0e0a02e3eebc95044a9cc282d3d4d41e85f1a",
+      "sha256": "bff4f564d7a26357addf8e15c8d96401fe61e60e0fe78587942b44c70cb0a790"
+    },
+    {
+      "path": "public/assets/animation/myth-layup-reverse-right.webp",
+      "blob": "78369d5c9ad1b6f8e64f8fed44dcdc107e971ca6",
+      "sha256": "77e13035e7ec40a1f75159e71127b52c10e37f452fde5a1a224f09a5799b8ed5"
+    },
+    {
+      "path": "public/assets/animation/myth-layup-right.webp",
+      "blob": "767d0530c3ff5bb58e306c03c7f8e8a05a1dc711",
+      "sha256": "43e37d61760423ab8b6384f2cb04b0b0467d85cde48146e6e60ac58876268d6b"
+    },
+    {
+      "path": "public/assets/animation/myth-pass-right.webp",
+      "blob": "0e9d57df3c8072659730261e42d9803f0441d633",
+      "sha256": "a16d9b8a20e3741d6c5bd7f64b2964c9835495d717fa1624f8dc5bedc04e3c85"
+    },
+    {
+      "path": "public/assets/animation/myth-pickup-right.webp",
+      "blob": "5e580685a23ab83d8d2b93c6d7a76600ee4ab45a",
+      "sha256": "eded59f8b684abe70512186443753a8434a0635f26957e3f8c93e4d0f049cd1f"
+    },
+    {
+      "path": "public/assets/animation/myth-push-right.webp",
+      "blob": "288d5e12ecca4d95d4f507fcc60b1d23a1e8cd1d",
+      "sha256": "470a1bbcac5824d34489e07624eaf8504d2b0a24c3405eaf3da13fcd404907f6"
+    },
+    {
+      "path": "public/assets/animation/myth-rebound-right.webp",
+      "blob": "3db9ed7e7509b7c60c5d8f1c11f3f6591c06392f",
+      "sha256": "d61f2ae20f35a39e77d2d05323b2eaa6e2281a81db9585e9ed4fceb531884e5e"
+    },
+    {
+      "path": "public/assets/animation/myth-steal-right.webp",
+      "blob": "553d9ba662de5930aedf89a640b2cff5a7e43553",
+      "sha256": "8774a956f07c47e1f61b79deb558d99f673e67e1897428a9f46d247f45bedd03"
+    },
+    {
+      "path": "src/content/animation-assets.js",
+      "blob": "49c27b0b6847bb4d9e8052feb86e07a936599372",
+      "sha256": "b04f0e8641d2a1d707b686699155a35ec7ff60d07465bb5d6f8e5b1d78cfb0e1"
+    },
+    {
+      "path": "src/content/animation-ball-tracks.js",
+      "blob": "0bce474ce4445fb30660f7ca4bbc997d830b6dce",
+      "sha256": "fd0e75e635e049eb7610874db7b98c0d575504fd64dcfa47a9db221ac4c1f5b9"
+    },
+    {
+      "path": "src/core/simulation.js",
+      "blob": "90986d34c6dba69f980ee632bb98ac1a02e858d7",
+      "sha256": "68ddb57400205b2be8ad8202d5e702ac95a148eee274ec32ae0ca6ab15decea2"
+    },
+    {
+      "path": "src/render/animation-sprites.js",
+      "blob": "f3159de9c38683193cd0bd00a09e683afd5ebc6a",
+      "sha256": "fdeb476e1e447099799b6dcb35530fc143a7e6b023b01cafce7dbb86a46fd9a7"
+    },
+    {
+      "path": "tests/myth-steal-presentation.test.js",
+      "blob": "8cedd4039e0ac935426c08a08d9c9d146507489e",
+      "sha256": "fc8bc634a95c6b306583c628c3f48dfa7c2f6186e85efcec1e57d5d298935baf"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-power-attempt01/ball-track.json",
+      "blob": "5b658e4ca92d7c281c02416ff96fe653bca23328",
+      "sha256": "b4e997cc58bfdf05b8d76e07a650f214815c280dbd5edcc226bdeb0d99a9a660"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-power-attempt01/myth-alley-oop-power-source.png",
+      "blob": "bc360cce65d69a8fdb081cfed750d91d0bc9c4be",
+      "sha256": "17b4dff133cde9abac045502b0410c484d39d8df1861505fd123ab37cb20cf3b"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-power-attempt01/native-report.json",
+      "blob": "a4fc0d256e8ad2473215740b8ba5864622433d62",
+      "sha256": "cbc9c6e734cda71c990ccbfdfcbea0044ccfee4ec5b39d11c4ebf0238057f907"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-power-attempt01/pack-myth-alley-oop-power.py",
+      "blob": "5b41459f161f42e2fddf430b5896009c2bb1b0e1",
+      "sha256": "71a0e930d96a48c658d30443f47e0221c1fa588dc0fd5f4db01251a09d335072"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-power-attempt01/prompt.txt",
+      "blob": "7356cc0aa3bb3d2548fc43aeb58452978e14f6c6",
+      "sha256": "47e4896ef4777d29a926f9ef3d3f4c9c74256bda7aaae3d53c238b07f0362d91"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-reverse-attempt01/ball-track.json",
+      "blob": "2a11e7c61128276e9bf86cda6f497c69e1b77cfd",
+      "sha256": "a15177e0403d8dd29debde2f2cd66924fa46482f2ccf1d8ed29a46335ee888f8"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-reverse-attempt01/myth-alley-oop-reverse-source.png",
+      "blob": "bd3fd1a738d67a86026ba9edc2ec35b580e4e737",
+      "sha256": "4b5678d6ed06882dbe2b6b20c9ebe479a76ea6e397a6fc3e1513f7edfc5f02b5"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-reverse-attempt01/native-report.json",
+      "blob": "9395c4e65cb0d48dc73d29a156efd0370c1509af",
+      "sha256": "9f77efdd73edbb4e79f0b79f86ab7cd5de16411365415fc6e3230b979d9cde5e"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-reverse-attempt01/pack-myth-alley-oop-reverse.py",
+      "blob": "336290deb8339d3379605bdc74a7332ad6ff27f0",
+      "sha256": "a7d38d42641e6603421687ea9db78cef1069c96a5f853ad6697318ee3af0ba48"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/alley-oop-reverse-attempt01/prompt.txt",
+      "blob": "aca0e28c62c934464ad49e7db31c89b449bb98f5",
+      "sha256": "8da0c6b2d3c29419f799a6e425fcefe2178c4fa10c89051b9f1d77a1e5e9be3c"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/block-attempt01/myth-block-source.png",
+      "blob": "74ffa6275b142f7d773cbcf588a32478b3d21c79",
+      "sha256": "662efec65de153f28cd17ae57927b7fd03d835c409cd2f0bb6e3984acb4c0aa4"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/block-attempt01/pack-myth-block.py",
+      "blob": "f34efbdb6227d521e3c4076befa5d7c7b984a833",
+      "sha256": "17c846001b723faa12ead47f3182362b3a09e0f578790e0e357a3212c1948dba"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/celebrate-attempt01/myth-celebrate-source.png",
+      "blob": "b559beff868c8ce91e98fdd93a099d977f4729f0",
+      "sha256": "a91cc70e4008e409bf022eeddb1a001394ec3c04ea0469751180095b4c9e172a"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/celebrate-attempt01/pack-myth-celebrate.py",
+      "blob": "a0e3b2d0ce0371f3cdc1d1f2b3d6252eb2cb450f",
+      "sha256": "6e3b8173d97d384ce9ef777d3db3332e0e1543551da7e49b298bacd00a1b060d"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/celebrate-attempt01/prompt.txt",
+      "blob": "452aa2ccf3c147b26d73fb1c97167381de0f8717",
+      "sha256": "389eddc5d61ef5f926e7337694c1fe6f1d5f53cb174aafa7ecc12451d9d01817"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-360-attempt01/ball-track.json",
+      "blob": "832be28d96fe9c71cd1a72c7418f5e59a528fe85",
+      "sha256": "21622d225f427e13b45d1a57ab7c4e11aa4e6288f3dfce7be498fd696cd51738"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-360-attempt01/myth-dunk-360-source.png",
+      "blob": "f089a6732b38638b57e33f69bfb63d577a102438",
+      "sha256": "ab915b26093c45e52a1094bbc5c7ec3ac191f3f7c3226c66c01f7335d296ab3a"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-360-attempt01/pack-myth-dunk-360.py",
+      "blob": "328cc12c95eb8e5a655f655e5bbcd6b1eea37798",
+      "sha256": "bbb58133383e89630d4177ddbdb0dbb4b8500e53242fd2271a07d07da488eebc"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-360-attempt01/prompt.txt",
+      "blob": "5031002d59becd619491fb3dec5ef33418bcaf0f",
+      "sha256": "78b164cd32f172c2be9d3239f36c12317152253ff080c1fe75c8635b83bc305a"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-clutch-attempt01/ball-track.json",
+      "blob": "46af72842e774881a673fc6ff6cf9778f6118e00",
+      "sha256": "f10ac70ae8d6f9a69aa9ce0ef4e02d763617f1a56d10add30badabb5f683b395"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-clutch-attempt01/myth-dunk-clutch-source.png",
+      "blob": "ca4bcda29c61368efd935cca18cb5a3292f8ed0c",
+      "sha256": "35dfdbbaccbd57c834ebc5be33596443f7b781a6697dcef42955331e29560640"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-clutch-attempt01/pack-myth-dunk-clutch.py",
+      "blob": "642b947515162b7a3c9a1b5e6abe8cd41b473126",
+      "sha256": "53170817ee5b3bc6db797465460db933e2ccdeda6d12f57c5ff732c8d3228870"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-clutch-attempt01/prompt.txt",
+      "blob": "c63ae8bc9ff81818ed1996d6acd2e42fb5dfa2ad",
+      "sha256": "230727d66ee78e81f3e8ba442a2eb26c51b13f71c305066d1fa94c73af9ab641"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-double-attempt01/ball-track.json",
+      "blob": "9366f65140301753171023ca9a860077b49638a7",
+      "sha256": "76c90f8ad1d87bcabe8fb2a7819c841fba30fdb1907a8feff45978a79733e32b"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-double-attempt01/myth-dunk-double-source.png",
+      "blob": "c728a19d439e0e76c1ec3a0bd5340892ee167c7c",
+      "sha256": "f9d1cc8c88f88293e1b30936b8072781b311955c664b55a7fb55386598e07af2"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-double-attempt01/pack-myth-dunk-double.py",
+      "blob": "89c8dac17aa0ccdfc2617517ceae92f88837c56d",
+      "sha256": "422d31d2ad9ed0d4e47bb7ff72e93d9e493f17df1e89b17c70a9af2f41d5e10b"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-double-attempt01/prompt.txt",
+      "blob": "08ed53c23d7bc4776364beb9a97c90cdc0e32652",
+      "sha256": "d08d203f5b5499f9ecc80e8fd990a11c7ad4d580a8a0575ffc13e6c6f619b845"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-power-attempt02/ball-track.json",
+      "blob": "c12a86058436f4a8cbdf741ed011a8aece0fc46c",
+      "sha256": "9cde8bbe81b194b41072bbb03064ea1c4b6f10a911d30f70d0884bf951a1ad72"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-power-attempt02/myth-dunk-power-edit.png",
+      "blob": "e9d37a31d33a07646341bc0b937ee363d1bf092a",
+      "sha256": "d3eca51a2679c12d28eb8aad2d43358faa4a4f12798c9ad09760964045493d8f"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-power-attempt02/myth-dunk-power-source.png",
+      "blob": "129dd1b3d5f5fc8b8c231b11eeffab3bcc68c260",
+      "sha256": "89fd36d2dbc69531c715e4416316e20df7e72636d4fb97aa7c1dc8896ddcd422"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-power-attempt02/pack-myth-dunk-power.py",
+      "blob": "375abb8ac8a7842f6aaf46bb4f7ab0cdb7430dac",
+      "sha256": "66883c46e3994067420e10d911b8d38f5502f67137405758df7c42179ebb3768"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-power-attempt02/parent-prompt.txt",
+      "blob": "03902d53ed825caec6391da51c3ae9220a576e77",
+      "sha256": "1e6e594eaf2c8130202ba20b4fff34568bff2f0eeb84f704d94770dbee77d2e6"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-power-attempt02/prompt.txt",
+      "blob": "0eb6b2a54ad52010d93057dc9b09d2d7b82cf4c2",
+      "sha256": "35b3611be8a5cfed0d3c5d02702944b76b451f8edc472523a3b49e1f0c7bf69f"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-reverse-attempt01/ball-track.json",
+      "blob": "f3941ca43757aae68634a33e014cf49457173b0f",
+      "sha256": "1ded4a7cd99fbaeaeee73d367a93aa2617673e15e1c9bf0495020c53e692b07e"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-reverse-attempt01/myth-dunk-reverse-source.png",
+      "blob": "55e91575c8b5a935c33207e571830331ee66521a",
+      "sha256": "219ea6d85be44099aa040f28e8b4b3ae5378fd328568799a5721e980d719aebe"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-reverse-attempt01/pack-myth-dunk-reverse.py",
+      "blob": "09cebff72b1ea3436a412c682e87fcb91b60d595",
+      "sha256": "d8c911ece5a5c7695a3a3fda430e5066882272fb82ebbb186a3d37837b443956"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-reverse-attempt01/prompt.txt",
+      "blob": "ce05cbba52fd48afd3b7b2e0d743e52cbf16fd38",
+      "sha256": "55b728e49336abb89af701aade79be5a9ac45012e881e023dab8c228e83363d8"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-scythe-attempt01/ball-track.json",
+      "blob": "a009f08ad3637739e78fc9b2e5d6dc5106cf81fe",
+      "sha256": "0ca3b3a53c00048b22bb34a14e8392e53f6af3820a853641ad709b88f5660d88"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-scythe-attempt01/edit-prompt.txt",
+      "blob": "d3d147381b2435cd185584616f1e8f785e444f23",
+      "sha256": "1051ce0b455dd4f86469b946d47723343a166a3199383bd29f4f486b6e63105a"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-scythe-attempt01/myth-dunk-scythe-edit.png",
+      "blob": "064099d0dafeac02b231c88b127982e1e5dd249f",
+      "sha256": "2ab9e6cc3911d41a7b956efe70279067860cdf40e235906facfb61d293aee6a5"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-scythe-attempt01/myth-dunk-scythe-source.png",
+      "blob": "5470d4202aed4d7c02538647692c63376dc41346",
+      "sha256": "f2f8227b6ad7e0450a7f09c3252b26471d86500edd3490f876b4faf8033a5a71"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-scythe-attempt01/pack-myth-dunk-scythe.py",
+      "blob": "c4d765522b4cef5cf7459aa2f66e3d20ef938be1",
+      "sha256": "c77feb28bc0c59c20f7dfe8f971ad881b8e1b7b46cf90888af14c4d38a9c0ace"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-scythe-attempt01/prompt.txt",
+      "blob": "0affaba4890b12490ce05b8acff2f83eb3bc5cd6",
+      "sha256": "c9fdf7dbc110bce1c0bd4a16d590dd17d5371f6babac40ac62a928fd1aa9d564"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-tomahawk-attempt01/ball-track.json",
+      "blob": "efb8268f9066874e8df7db2da5803133f2897f7e",
+      "sha256": "c9a5d226ef5b88c3ba0d8bf431a5478af72455d3c44fbf6d9619878558ad5155"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-tomahawk-attempt01/myth-dunk-tomahawk-source.png",
+      "blob": "d606ed153d93db82351a7fee841f906dd9299b56",
+      "sha256": "c12ef3fcf2e9a7f577e30dc933201c476575412e0398218c7c133ddf5bf18eaa"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-tomahawk-attempt01/pack-myth-dunk-tomahawk.py",
+      "blob": "717fc345eb72dcd126fc539ac885e9bcfffa0719",
+      "sha256": "773ea33774f213bca4a96148a68df6869b99ae21964bdac10a5088719e01ac1a"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-tomahawk-attempt01/prompt.txt",
+      "blob": "9784f1a10e7d9f8cd26aaf90c29573f9b1631a6c",
+      "sha256": "884ea3c236cd82b16cae021ab69411b1cb313a6bb34449862d37e11437644613"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-windmill-attempt02/ball-track.json",
+      "blob": "7f291242eae593bc9d32ad5517e23d40a9fa7987",
+      "sha256": "80b16ab0c4f99c56f89dd1a95706d6d78fc760239c4d70ccabe74c665ad38b70"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-windmill-attempt02/myth-dunk-windmill-edit.png",
+      "blob": "267673739c33358b73f5d47c08c2535c9f7a5f7b",
+      "sha256": "124f3791c38a1efb88c703d3376f68e2c1ca77697cd00ce74a047f5bb1c93072"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-windmill-attempt02/myth-dunk-windmill-source.png",
+      "blob": "7ece41baffaf7b06c70bc2d26634453a2b9ce397",
+      "sha256": "61846c7a14b7173e32d9476aed63668488c19bfb79c7d8f0177a09f23d41096b"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-windmill-attempt02/pack-myth-dunk-windmill.py",
+      "blob": "6a188a9d4347187ffa90d1dca743836b81462d38",
+      "sha256": "a998debecfb4c551eb6c7efb871716cc4a9b9df3427a5cac285b28bc75a34f42"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-windmill-attempt02/parent-prompt.txt",
+      "blob": "bee06c540c6b0f6c3dfae9cab9c405beb1f64084",
+      "sha256": "6c3cad20011b95678ec6c463050f128b159042c6e74726b96e3501651b990c63"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/dunk-windmill-attempt02/prompt.txt",
+      "blob": "c421c1eb2e7208a723c9d9d395317b6894391106",
+      "sha256": "a6c5bece93daf487e9ab31a763da3f77da75e039f14f654a389feb3bdff6d325"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/fall-attempt01/myth-fall-source.png",
+      "blob": "15928d9a230f3b0800510d2c755b4cacf9b9c265",
+      "sha256": "0c055acc08cd58596bf8007c8a34cccb6620e7b8b1805637cdd4cbb2ab6dee48"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/fall-attempt01/pack-myth-fall.py",
+      "blob": "6cd03519fd609d6c4942744002afb9e9235fdbc1",
+      "sha256": "5fa4e6824f994a04b743ff193b205c1051002df96573fba0b68e84a71d51de3f"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/fall-attempt01/prompt.txt",
+      "blob": "c04db985b905fea36d10c8788f3a3f78802bafee",
+      "sha256": "b85540d3188c4198e18e2eeec5f0584f05fa95bbe163a1dd5f8d412bb53c7103"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/fall-attempt02/myth-fall-forward-source.png",
+      "blob": "0a752c92c392992dc0a9f2d13c3e1401b7b670dc",
+      "sha256": "4c90be75d3a89022b0010b967a8b4f47677ebf4a72a9a73a67fe495efda5fcbc"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/fall-attempt02/pack-myth-fall.py",
+      "blob": "37b12c511d3aa8ac3fa6f2ecb9d18f3265678252",
+      "sha256": "e64055e560828d6b988baaee684f9bd3fa5283a2f540ba73875da29d93b2a850"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/fall-attempt02/prompt.txt",
+      "blob": "f067fea469b0fa15df8c10d0977ace999eb69091",
+      "sha256": "df8e578ef629cc7258f6d970ed99f26331965116eef99bdb060c3909a394b13f"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-attempt01/ball-track.json",
+      "blob": "d9aa91c8523ca24b07878d8cce3480d70dbdd6af",
+      "sha256": "23d6f24547a88d95661357cf5820330b2794e0c8c76ba7e8679b144b2a203de1"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-attempt01/myth-layup-source.png",
+      "blob": "6d6f5b29845480bf11e459231ee2c51a20e93a85",
+      "sha256": "71609353b200351aeb4b2ae4c6db65e8fdf8428b38c096501eb8ca61f589194a"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-attempt01/pack-myth-layup.py",
+      "blob": "b88d87718df50d2426f66c2f51f5f80a7cd70f45",
+      "sha256": "95e2c9384974badeee36ff1452f76a832836ae3f8d2682c37074eeea3fbd661b"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-attempt01/prompt.txt",
+      "blob": "62b1a615edd69dabeb2f4b77fb20723913e2faf6",
+      "sha256": "9b2d5900a88749537fd39dbd41394772573a04c846928725b93164cb72580660"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/ball-track.json",
+      "blob": "af04817d8226e94772828e3a7708c8a6daf75a7b",
+      "sha256": "54aa1e36e1089454858189614e6cf90cf6968aaa77fc9dea2d91bf460360819f"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/center-prompt.txt",
+      "blob": "99d3e121585f3240d38fc292432c192b2257ae49",
+      "sha256": "d1335aa4bf238f3e4eb43212fc52709f34cb0da80dce51dfa6436e62e1db7ddd"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/myth-layup-reverse-center.png",
+      "blob": "5c2fc39753d52077a66725a65ad594fbacf604b9",
+      "sha256": "f795e68a6e38f3146b405ac38610ce4103631b3943e3a9f40271d31ec75cd631"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/myth-layup-reverse-edit.png",
+      "blob": "551360bf39fd4dd0c14b1ebe71c0d372eb100f33",
+      "sha256": "6aa77755236130eabd7f4b8abc8c1c3b8d9a93440eaf49f67ca282768856be22"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/myth-layup-reverse-source.png",
+      "blob": "86785c56d3fd36cbcfdee57e60cb43c33122ab32",
+      "sha256": "c1119db5cd80c86492ec9b699de94767856e28b98550072f1857a3dbab3edfd0"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/pack-myth-layup-reverse.py",
+      "blob": "83462499a23f25ac02b25dc5881f49d88d23b46f",
+      "sha256": "6c20ec23e27cb5f2028282c36266a8e8e2597959064f23d795211c1278ce8e43"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/pair-prompt.txt",
+      "blob": "3a4ef25035a036db79ba99fcac108d019ed8a5e4",
+      "sha256": "3f1210901505f2d980fad7fd431a4b56147025477a6ed41f7acd60e074e66c68"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/layup-reverse-attempt03/parent-prompt.txt",
+      "blob": "4186f5f29d0ff27f2787a0a214d126e2becdda51",
+      "sha256": "27dcec935be857a15e1d39df76dab4a40b799cd4c4d7b25ea0ad50d72a82bb9e"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pass-attempt01/ball-track.json",
+      "blob": "93d5f39d5c45fe46b5a5bda3ee12cece32ac3907",
+      "sha256": "6606d419aef0020a065c984f501163e16bd60c3770061480db1ff993fdc51cc1"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pass-attempt01/myth-pass-source.png",
+      "blob": "6244bffa5809b19b17e7b8bea55e1e7db94488c7",
+      "sha256": "7d8ffb69e709a46f843b77ae30bcc3d3cd6738cc1d56d22e9cc01d580648823c"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pass-attempt01/pack-myth-pass.py",
+      "blob": "44149cf06674194747d25337ecd2921907d5571b",
+      "sha256": "8366a00d62c5cf8034ea6eb8766599a6ac7c16de3c60e1f853f40480666de3e0"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pickup-attempt01/ball-track.json",
+      "blob": "afd8cb158757582772ce5c923d9c00b4b47fa312",
+      "sha256": "39cb67619dab11f81ffd238db88bbe3a5afc35c777e7a4ca9a46df47cb23c092"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pickup-attempt01/myth-pickup-parent.png",
+      "blob": "52ecb60749c5bad0e6089cb10872f87d7391fa19",
+      "sha256": "b6e7eb0f9547bf7a26121d9b10a05089356144a7d661bc46581e185fe56419bf"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pickup-attempt01/myth-pickup-source.png",
+      "blob": "324c7bd272fd8ba692961eb7de11d1b83e52c5a8",
+      "sha256": "f7adc22f0c2bb9209726c066cd96fa0d87dba8151ed529390fe81271446aed22"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pickup-attempt01/pack-myth-pickup.py",
+      "blob": "f10cf091c033c4206def1b2416a0110aeddc743b",
+      "sha256": "d3c484bdd9bb36c66e6635e8c5134a8b8d5e7b960833220dcad9ec7b458baa91"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pickup-attempt01/parent-prompt.txt",
+      "blob": "c3c12ebb9d1cd2ed01062acce06a0fbfabf71f90",
+      "sha256": "bae0f004eedd1e8773616b96f593895262993df17124cb2b19e28e4d41b5de7e"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/pickup-attempt01/prompt.txt",
+      "blob": "35c6b7f730756346d4ec23b072461c7770ada783",
+      "sha256": "746e388e9d7e32a993c5abd9647b07df821a204e9f501153580784735cd41517"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/push-attempt01/myth-push-source.png",
+      "blob": "a4279292038967a850fbd70930758a971315b638",
+      "sha256": "9da0cd0402f6471a1e7f2a48e195ecb4c1d2e41e7f3d0a97b27fddb8b0829f6c"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/push-attempt01/pack-myth-push.py",
+      "blob": "5d1d61b305482a1d42fcf75aba7d7d0feb0faa7b",
+      "sha256": "8a0bcedd9efa57b3ccb218fa9dc698c83b1628cbab607b8315972eb28b0dc294"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/push-attempt01/prompt.txt",
+      "blob": "c2a3e3b38e2bdcc4ac43ac7f49cff29744c120cd",
+      "sha256": "68f4b93dcf9ed868405f3ca21814a2627b1992e61e955cc3db9ec936690533ac"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/rebound-attempt01/ball-track.json",
+      "blob": "ff4222ad7838a74c95a95918f95e940d2eff64c7",
+      "sha256": "dba5576f85761495bab1125dec28d522bcd8496fb9a3466db7455faabb7c76a1"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/rebound-attempt01/myth-rebound-parent.png",
+      "blob": "f255db4e982e0b0cbee94c81583ce69b8175abdf",
+      "sha256": "d6c98fb280db8d09b6e1fc2dc0c1d206b209a4c19d8b85bd3f310b068c1a18b6"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/rebound-attempt01/myth-rebound-source.png",
+      "blob": "7c7590336c303e26b015972c51333d0e780f0a3b",
+      "sha256": "22e1b1ca889b5f1306e777ad9456190a46d9d38235d5cb8302564f95f7a45b3c"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/rebound-attempt01/pack-myth-rebound.py",
+      "blob": "846bd1c09125502e076b495003e72db534f08781",
+      "sha256": "fd6d776a0777bd5de179dea9e4ae049443cd77eaa94abaa49871ce0230c5c09e"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/rebound-attempt01/parent-prompt.txt",
+      "blob": "3bc7c2f9e05e0a4ba3137aa5ecc3786c89ea947c",
+      "sha256": "06cc6c7fb76e5e733458cdebb15bd426b8687b5819419aea7265bf795e86d35c"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/rebound-attempt01/prompt.txt",
+      "blob": "7910dddaeb958b59c076027555ea795ef27156a4",
+      "sha256": "d97a3af9cdbe74f983c17da6fddd1db60734d59d2f370449e0a24318230876b5"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/compact-prompt.txt",
+      "blob": "d602b9bca189fd18401daae2fe6fad10efd20214",
+      "sha256": "3064e5ff92acc1b2e60d11ba3d71d92d2626355b916a2e83f9c076e3fa8ab010"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/myth-steal-compact-source.png",
+      "blob": "bbe735a10e2de099f3090f9c838693b3500c075a",
+      "sha256": "557396b21291f00b6d47bfebcc51765b67a3b6cbf20590ebed3de280ba098164"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/myth-steal-high-source.png",
+      "blob": "4160d6325328e2be180fcd36520f44f54db47a93",
+      "sha256": "8932e7a12d1ccee203684a850c7f8f3d4fa4c606975f0073de85f8012d602966"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/myth-steal-source.png",
+      "blob": "e5d64de49258a7459b4442d6e141c45c71d3ea41",
+      "sha256": "784ac9b3f3d746f339c151ca5a808380bc2a92cbdd108bd839f5805f9444531e"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/pack-myth-steal.py",
+      "blob": "daff35f1bbd999a2089c25091c06156a83db35dc",
+      "sha256": "db79388f8eff0166ce4ebadc1ffe67ec293bffe2fd7613d8f348549a1bbaf5c2"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/parent-prompt.txt",
+      "blob": "1a04e6a3ae0c07baac7dadbd48c038244c14a14e",
+      "sha256": "c593b88bfa09e24b4459edd53c6c70e5f3943126488d4576e5c3ab24b84072bd"
+    },
+    {
+      "path": "tools/generate-art/studio/myth/steal-attempt03/prompt.txt",
+      "blob": "b7019441a3e8c37a7de221096156bc197b602375",
+      "sha256": "1f8ac75061924cb5cf7f8ca7f420ab873bd5c05b46c658b8446f99570dce5a25"
+    }
+  ]
+}
