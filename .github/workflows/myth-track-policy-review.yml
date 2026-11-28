@@ -1,0 +1,28 @@
+name: Review exact Myth track policy proposal
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/myth-track-policy-review.yml'
+      - 'tools/captain-studio/myth-track-policy-review*'
+      - 'tests/myth-track-policy-review.test.js'
+      - 'docs/animation-production/MYTH_TRACK_POLICY_REVIEW.md'
+permissions:
+  contents: read
+jobs:
+  review-pinned-proposal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          filter: blob:none
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Prove the decision rejects mutations
+        run: node --test tests/myth-track-policy-review.test.js
+      - name: Run original test at baseline and verify exact reviewed Myth draft
+        run: node tools/captain-studio/myth-track-policy-review.mjs . aecbbde2bed8d8a9679608044be7deb5ad8a0ddc
